@@ -384,7 +384,7 @@ exe/
 lib/
 obj/
 templates/
-cds/*.exe
+*.exe
 *.zip
 *.icf
 *.wav
