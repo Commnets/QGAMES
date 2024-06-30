@@ -79,54 +79,6 @@ cd ..\
 Echo --------------------------------------------------------------------
 
 Echo --------------------------------------------------------------------
-Echo The final result is copied into the products directory to Github...
-DEL ".\products\QGAMES\DTD\*.*" /S/Q
-XCOPY ".\DTD\*.*" ".\products\QGAMES\DTD" /s
-DEL ".\products\QGAMES\games\*.*" /S/Q
-RMDIR ".\products\QGAMES\games" /S/Q
-XCOPY ".\games\*.*" ".\products\QGAMES\games\" /s
-DEL ".\products\QGAMES\games\KnightLore\*.*" /S/Q
-RMDIR ".\products\QGAMES\games\KnightLore" /S/Q
-DEL ".\products\QGAMES\games\MyGame\*.*" /S/Q
-RMDIR ".\products\QGAMES\games\MyGame" /S/Q
-DEL ".\products\QGAMES\games\Underwurlde\*.*" /s/Q
-RMDIR ".\products\QGAMES\games\Underwurlde" /S/Q
-DEL ".\products\QGAMES\games\OldVersions\*.*" /s/Q
-RMDIR ".\products\QGAMES\games\OldVersions" /S/Q
-DEL ".\products\QGAMES\games\*.dll" /S/Q
-DEL ".\products\QGAMES\games\*.exe" /S/Q
-DEL ".\products\QGAMES\games\*.zip" /Q
-DEL ".\products\QGAMES\include\*.*" /S/Q
-RMDIR ".\products\QGAMES\include" /S/Q
-XCOPY ".\include\*.*" ".\products\QGAMES\include\" /s
-DEL ".\products\QGAMES\needed\*.*" /S/Q
-RMDIR ".\products\QGAMES\needed" /S/Q
-XCOPY ".\needed\*.*" ".\products\QGAMES\needed\" /s
-DEL ".\products\QGAMES\products\*.*" /S/Q
-RMDIR ".\products\QGAMES\products" /S/Q
-DEL ".\products\QGAMES\projects\*.*" /S/Q
-RMDIR ".\products\QGAMES\projects" /S/Q
-XCOPY ".\projects\*.*" ".\products\QGAMES\projects\" /s
-DEL ".\products\QGAMES\samples\*.*" /S/Q
-RMDIR ".\products\QGAMES\samples" /S/Q
-XCOPY ".\samples\*.*" ".\products\QGAMES\samples\" /s
-DEL ".\products\QGAMES\src\*.*" /S/Q
-RMDIR ".\products\QGAMES\src" /S/Q
-XCOPY ".\src\*.*" ".\products\QGAMES\src\" /s
-COPY ".\QGAMES.sln" ".\products\QGAMES"
-COPY ".\QGAMESExamples.sln" ".\products\QGAMES"
-cd .\docs
-COPY ".\No\html.zip" "..\products\QGAMES\docs\"
-COPY ".\3inarow\html.zip" "..\products\QGAMES\docs\3inarowHTML.zip"
-COPY ".\AticAtac\html.zip" "..\products\QGAMES\docs\AticAtacHTML.zip"
-COPY ".\Sabrewulf\html.zip" "..\products\QGAMES\docs\SabrewulfHTML.zip"
-COPY ".\DWII\html.zip" "..\products\QGAMES\docs\DWIIHTML.zip"
-COPY ".\BSII\html.zip" "..\products\QGAMES\docs\BSIIHTML.zip"
-COPY ".\PacManII\html.zip" "..\products\QGAMES\docs\PacManIIHTML.zip"
-cd ..\
-Echo --------------------------------------------------------------------
-
-Echo --------------------------------------------------------------------
 Echo The setup for the QGAMES environment
 COPY ".\docs\No\html.zip" ".\setups\QGAMES\docs"
 DEL ".\setups\QGAMES\include\*.*" /S/Q

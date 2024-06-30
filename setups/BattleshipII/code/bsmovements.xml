@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<Movements>
+
+	<!-- Includes -->
+	<Include file="admovements.xml"/>
+
+	<!-- Battleship type 1 movements -->
+	<!-- Linear movement in the space for the battleship -->
+	<Movement id="50000">
+		<!-- Speed -->
+		<Variable id="0" value="6"/>
+	</Movement>
+	<!-- Staying movement -->
+	<Movement id="50001"/>
+
+	<!-- Battleship type 2 movements -->
+	<!-- Linear movement in the space for the battleship -->
+	<Movement id="50002">
+		<!-- Speed -->
+		<Variable id="0" value="6"/>
+	</Movement>
+	<!-- Staying movement -->
+	<Movement id="50003"/>
+	
+	<!-- Shooting movements -->
+	<!-- The number of max movements will depend on the max number of enemies possible simultaneously in the scene (0)
+		 and the max number of simultaneously shootings per enemy in the scene (50), 
+		 max the max number of them used in the battleship (50). 
+		 All these variables are defined at bsdatagame.hpp / cpp. If those are changed, these ones should do too. 
+		 The hole for movements is prepared up to a maximum of 2550 (50 enemies plus 1 battleship). -->
+	<!-- Linear movement in the space of any shooting -->
+	<SetOfMovements fromId="550000" number="2550">
+		<!-- Double speed than the one of the battleship -->
+		<Variable id="0" value="6"/>
+	</SetOfMovements>
+	<!-- When disappearing, there is no movement -->
+	<SetOfMovements fromId="570000" number="2550"/>
+	
+	<!-- Asteroid movements -->
+	<!-- Linear movement in the space of any asteroid -->
+	<SetOfMovements fromId="53000" number="50">
+		<!-- A little bit faster than the one of the battleship -->
+		<Variable id="0" value="3"/>
+	</SetOfMovements>
+	<!-- When disappearing, there is no movement -->
+	<SetOfMovements fromId="53100" number="50"/>
+	
+	<!-- Things to catch movements. -->
+	<!-- Linear movement in the space of any of these -->
+	<SetOfMovements fromId="54000" number="5">
+		<!-- Speed -->
+		<Variable id="0" value="2"/>
+	</SetOfMovements>
+	<!-- Staying movement -->
+	<SetOfMovements fromId="54100" number="5"/>
+	
+	<!-- UFO movements -->
+	<!-- Linear movement in the space of any UFO (following a Curve) -->
+	<SetOfMovements fromId="56000" number="50">
+		<!-- A little bit faster than the one of the battleship -->
+		<Variable id="0" value="1"/>
+		<Variable id="1" value="100"/> <!-- The number of steps by default -->
+		<Variable id="2" value="1"/> <!-- Cyclic -->
+	</SetOfMovements>
+	<!-- When disappearing, there is no movement -->
+	<SetOfMovements fromId="56100" number="50"/>
+
+</Movements>

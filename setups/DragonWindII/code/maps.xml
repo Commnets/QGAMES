@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Maps>
+
+	<!-- Includes related with the library -->
+	<Include file="dwmaps.xml"/>
+	
+	<!-- new background maps --> 
+	<Map id="80130" type="10000" file="maps/BKLandscapeWithCave.xml"/>
+	<Map id="80136" type="10000" file="maps/BKCave.xml"/>
+	<Map id="80140" type="10000" file="maps/BKMountainsLarge.xml"/>
+	
+	<!-- Includes for this game -->
+	<Include file="citymaps.xml"/>
+	<Include file="landscapemaps.xml"/>
+	<Include file="darkforestmaps.xml"/>
+	<Include file="mountainsmaps.xml"/>
+	<Include file="templemaps.xml"/>
+	
+</Maps>

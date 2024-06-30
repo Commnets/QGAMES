@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<Boards>
+	<Board id="1" type="1" file="boards\board1.xml"/>
+</Boards>	

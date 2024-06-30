@@ -1,0 +1,241 @@
+<?xml version="1.0"?>
+<Monitors>
+	
+	<!-- This monitor consists on moving to the left and to the right -->
+	<Monitor id="10" cyclic="NO">
+		<!-- First stage -->
+		<!-- Staying for a while -->
+		<Step type="1">
+			<Variable id="Time" value="2"/>
+		</Step>
+		
+		<!-- Second stage -->
+		<!-- Change the state to moving to the left -->
+		<Step type="3">
+			<Variable id="State" value="3"/>
+		</Step>
+		<!-- Just move the entity to the left -->
+		<Step type="4">
+			<Variable id="Direction" value="-1,0,0"/>
+			<Variable id="Acceleration" value="0,0,0"/>
+		</Step>
+		<!-- Move a couple of pixels -->
+		<Step type="6">
+			<Variable id="Distance" value="100"/>
+		</Step>
+		
+		<!-- Third stage -->
+		<!-- Change the state to moving to the right -->
+		<Step type="3">
+			<Variable id="State" value="0"/>
+		</Step>
+		<!-- Just move the entity to the right -->
+		<Step type="4">
+			<Variable id="Direction" value="1,0,0"/>
+			<Variable id="Acceleration" value="0,0,0"/>
+		</Step>
+		<!-- Move a couple of pixels -->
+		<Step type="6">
+			<Variable id="Distance" value="200"/>
+		</Step>
+		
+		<!-- Fourth stage -->
+		<!-- Change the state to moving to the left -->
+		<Step type="3">
+			<Variable id="State" value="3"/>
+		</Step>
+		<!-- Just move the entity to the left -->
+		<Step type="4">
+			<Variable id="Direction" value="-1,0,0"/>
+			<Variable id="Acceleration" value="0,0,0"/>
+		</Step>
+		<!-- Move a couple of pixels -->
+		<Step type="6">
+			<Variable id="Distance" value="100"/>
+		</Step>
+		
+		<!-- Fifth stage -->
+		<!-- Stay again back -->
+		<Step type="3">
+			<Variable id="State" value="8"/>
+		</Step>
+	</Monitor>
+	
+	<!-- This monitor consists on moving forward and backward -->
+	<Monitor id="11" cyclic="NO">
+		<!-- First stage -->
+		<!-- Staying for a while -->
+		<Step type="1">
+			<Variable id="Time" value="2"/>
+		</Step>
+		
+		<!-- Second stage -->
+		<!-- Change the state to moving forward -->
+		<Step type="3">
+			<Variable id="State" value="6"/>
+		</Step>
+		<!-- Just move the entity forward -->
+		<Step type="4">
+			<Variable id="Direction" value="0,-1,0"/>
+			<Variable id="Acceleration" value="0,0,0"/>
+		</Step>
+		<!-- Move a couple of pixels -->
+		<Step type="6">
+			<Variable id="Distance" value="100"/>
+		</Step>
+		
+		<!-- Third stage -->
+		<!-- Change the state to moving backward -->
+		<Step type="3">
+			<Variable id="State" value="7"/>
+		</Step>
+		<!-- Just move the entity backward -->
+		<Step type="4">
+			<Variable id="Direction" value="0,1,0"/>
+			<Variable id="Acceleration" value="0,0,0"/>
+		</Step>
+		<!-- Move a couple of pixels -->
+		<Step type="6">
+			<Variable id="Distance" value="200"/>
+		</Step>
+		
+		<!-- Fourth stage -->
+		<!-- Change the state to moving forward -->
+		<Step type="3">
+			<Variable id="State" value="6"/>
+		</Step>
+		<!-- Just move the entity forward -->
+		<Step type="4">
+			<Variable id="Direction" value="0,-1,0"/>
+			<Variable id="Acceleration" value="0,0,0"/>
+		</Step>
+		<!-- Move a couple of pixels -->
+		<Step type="6">
+			<Variable id="Distance" value="100"/>
+		</Step>
+		
+		<!-- Fifth stage -->
+		<!-- Stay again back -->
+		<Step type="3">
+			<Variable id="State" value="8"/>
+		</Step>
+	</Monitor>
+	
+	<!-- This monitor consists on moving to the corners -->
+	<Monitor id="12" cyclic="NO">
+		<!-- First stage -->
+		<!-- Staying for a while -->
+		<Step type="1">
+			<Variable id="Time" value="2"/>
+		</Step>
+		
+		<!-- Second stage -->
+		<!-- Change the state to moving forward left -->
+		<Step type="3">
+			<Variable id="State" value="4"/>
+		</Step>
+		<!-- Just move the entity forward left -->
+		<Step type="4">
+			<Variable id="Direction" value="-1,-1,0"/>
+			<Variable id="Acceleration" value="0,0,0"/>
+		</Step>
+		<!-- Move a couple of pixels -->
+		<Step type="6">
+			<Variable id="Distance" value="150"/>
+		</Step>
+		
+		<!-- Third stage -->
+		<!-- Change the state to moving backward right -->
+		<Step type="3">
+			<Variable id="State" value="2"/>
+		</Step>
+		<!-- Just move the entity backward right -->
+		<Step type="4">
+			<Variable id="Direction" value="1,1,0"/>
+			<Variable id="Acceleration" value="0,0,0"/>
+		</Step>
+		<!-- Move a couple of pixels -->
+		<Step type="6">
+			<Variable id="Distance" value="300"/>
+		</Step>
+		
+		<!-- Fourth stage -->
+		<!-- Change the state to moving forward left -->
+		<Step type="3">
+			<Variable id="State" value="4"/>
+		</Step>
+		<!-- Just move the entity forward left -->
+		<Step type="4">
+			<Variable id="Direction" value="-1,-1,0"/>
+			<Variable id="Acceleration" value="0,0,0"/>
+		</Step>
+		<!-- Move a couple of pixels -->
+		<Step type="6">
+			<Variable id="Distance" value="150"/>
+		</Step>
+		
+		<!-- Fifth stage -->
+		<!-- Stay again back -->
+		<Step type="3">
+			<Variable id="State" value="8"/>
+		</Step>
+	
+		<!-- Sixth stage -->
+		<!-- Staying for a while -->
+		<Step type="1">
+			<Variable id="Time" value="1"/>
+		</Step>
+		
+		<!-- Seventh stage -->
+		<!-- Change the state to moving backward left -->
+		<Step type="3">
+			<Variable id="State" value="5"/>
+		</Step>
+		<!-- Just move the entity backward left -->
+		<Step type="4">
+			<Variable id="Direction" value="-1,1,0"/>
+			<Variable id="Acceleration" value="0,0,0"/>
+		</Step>
+		<!-- Move a couple of pixels -->
+		<Step type="6">
+			<Variable id="Distance" value="150"/>
+		</Step>
+		
+		<!-- Eight stage -->
+		<!-- Change the state to moving forward right -->
+		<Step type="3">
+			<Variable id="State" value="1"/>
+		</Step>
+		<!-- Just move the entity forward right -->
+		<Step type="4">
+			<Variable id="Direction" value="1,-1,0"/>
+			<Variable id="Acceleration" value="0,0,0"/>
+		</Step>
+		<!-- Move a couple of pixels -->
+		<Step type="6">
+			<Variable id="Distance" value="300"/>
+		</Step>
+		
+		<!-- Nineth stage -->
+		<!-- Change the state to moving backward left -->
+		<Step type="3">
+			<Variable id="State" value="5"/>
+		</Step>
+		<!-- Just move the entity forward left -->
+		<Step type="4">
+			<Variable id="Direction" value="-1,1,0"/>
+			<Variable id="Acceleration" value="0,0,0"/>
+		</Step>
+		<!-- Move a couple of pixels -->
+		<Step type="6">
+			<Variable id="Distance" value="150"/>
+		</Step>
+		
+		<!-- Tenth stage -->
+		<!-- Stay again back -->
+		<Step type="3">
+			<Variable id="State" value="8"/>
+		</Step>
+	</Monitor>
+	
+</Monitors>

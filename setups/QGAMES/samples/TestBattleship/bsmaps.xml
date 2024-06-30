@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Maps>
+
+	<!-- Includes -->
+	<Include file="admaps.xml"/>
+
+	<!-- A background with stars used when the menu of the game is shown. 
+		 The background has the same width than the screen (@see conf.xml) -->
+	<Map id="60000" type="2" file="maps/background.xml"/>
+	
+	<!-- A map totally transparent (and little) used as the pure background of the game.
+		 The Playing Scene used in the game inherits from ScenWithBackground.
+		 This class needs a background. This background moves as well when the foreground does it. 
+		 It can't be null. So this one is defined. It is based in a transparent object. -->
+	<Map id="70000" type="10000" file="maps/nomap.xml"/>
+	
+	<!-- A set of backgrounds for the game with beatiful forms for the space
+		 The size of them can be change to create lateral moving effects -->
+	<Map id="50100" type="2" file="maps/BKSpace1.xml"/>
+	<Map id="50101" type="2" file="maps/BKSPace2.xml"/>
+	<Map id="50102" type="2" file="maps/BKSpace3.xml"/>
+	<Map id="50103" type="2" file="maps/BKSpace4.xml"/>
+	<Map id="50104" type="2" file="maps/BKSpace5.xml"/>
+	<Map id="50105" type="2" file="maps/BKSpace6.xml"/>
+	
+</Maps>

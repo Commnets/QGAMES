@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Maps>
+	
+	<!-- The maps -->
+	<Map id="90000" type="1" file="maps/MountainsWorld0.tmx"/>
+	<Map id="90001" type="1" file="maps/MountainsWorld1.tmx"/>
+	<Map id="90002" type="1" file="maps/MountainsWorld2.tmx"/>
+	<Map id="90003" type="1" file="maps/MountainsWorld3.tmx"/>
+	<Map id="90004" type="1" file="maps/MountainsWorld4.tmx"/>
+	<!-- -->
+	
+</Maps>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Movements>
+
+	<!-- Includes -->
+	<Include file="admovements.xml"/>
+	
+</Movements>

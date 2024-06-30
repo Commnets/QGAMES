@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Movements>
+	<!-- Sabreman's movement -->
+	<Movement id="100">
+		<Variable id="0" value="12"/>
+		<Variable id="1" value="10"/>
+	</Movement>
+	<!-- Nasties's movement -->
+	<Movement id="200">
+		<Variable id="0" value="12"/>
+		<Variable id="1" value="10"/>
+	</Movement>
+	<Movement id="201">
+		<Variable id="0" value="12"/>
+		<Variable id="1" value="10"/>
+	</Movement>
+	<Movement id="202">
+		<Variable id="0" value="12"/>
+		<Variable id="1" value="10"/>
+	</Movement>
+	<Movement id="203">
+		<Variable id="0" value="12"/>
+		<Variable id="1" value="10"/>
+	</Movement>
+	<Movement id="204">
+		<Variable id="0" value="12"/>
+		<Variable id="1" value="10"/>
+	</Movement>
+	<Movement id="205">
+		<Variable id="0" value="12"/>
+		<Variable id="1" value="10"/>
+	</Movement>
+	<!-- Fire movement -->
+	<Movement id="206">
+		<Variable id="0" value="12"/>
+		<Variable id="1" value="10"/>
+	</Movement>
+	<!-- Inmortal's movement -->
+	<Movement id="300">
+		<Variable id="0" value="12"/>
+		<Variable id="1" value="10"/>
+	</Movement>
+</Movements>

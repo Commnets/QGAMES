@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Maps>
+
+	<!-- Includes -->
+	<Include file="admaps.xml"/>
+
+	<!-- The stars -->
+	<Map id="1" type="2" file="maps/background.xml"/>
+	
+</Maps>

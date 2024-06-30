@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Board>
+	<Resources>
+		<Resource id="1" group="1">
+			<Data id="attrA" value="A"/>
+			<!-- More data -->
+		</Resource>
+		<!-- More resources -->
+	</Resources>
+	<Squares>
+		<Square id="1">
+			<Datas>
+				<Data id="attrA" value="A"/>
+				<!-- More data -->
+			</Datas>
+			<Resources>
+				<Resource id="2" group="1">
+					<Data id="attrA" value="A"/>
+					<!-- More data -->
+				</Resource>
+				<!-- More resources -->
+			</Resources>
+		</Square>
+		<Square id="2">
+			<Datas>
+				<Data id="attrA" value="A"/>
+				<!-- More data -->
+			</Datas>
+			<Resources>
+				<Resource id="3" group="1">
+					<Data id="attrA" value="A"/>
+					<!-- More data -->
+				</Resource>
+				<!-- More resources -->
+			</Resources>
+		</Square>
+		<!-- More squares -->
+	</Squares>
+	<SquareConnections>
+		<Connection from="1" in="1" to="2"/>
+		<Connection from="2" in="1" to="1"/>
+		<!-- More connections -->
+	</SquareConnections>
+</Board>

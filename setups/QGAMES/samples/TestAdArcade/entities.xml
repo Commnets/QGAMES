@@ -1,0 +1,495 @@
+<?xml version="1.0"?>
+<Entities>
+
+	<!-- Includes -->
+	<Include file="adentities.xml"/>
+
+	<!-- The battleship -->
+	<Entity id="100">
+		<Forms>
+			<!-- Right -->
+			<Form id="100"/>
+			<!-- Left -->
+			<Form id="101"/>
+			<!-- Stay -->
+			<Form id="102"/>
+			<!-- Rotating -->
+			<Form id="105"/>
+			<!-- Exploding -->
+			<Form id="106"/>
+		</Forms>
+		<Movements>
+			<!-- Moving -->
+			<Movement id="100"/>
+			<!-- Staying -->
+			<Movement id="101"/>
+		</Movements>
+		<Animations>
+			<!-- Moving to the right -->
+			<Animation id="0" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="100"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="3"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Moving to the left -->
+			<Animation id="1" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="101"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="3"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Staying -->
+			<Animation id="2" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="102"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="3"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Rotating -->
+			<Animation id="3" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="105"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="23"/>
+					<Attribute id="FRACTIONTOCHANGE" value="4"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Exploding -->
+			<Animation id="4" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="106"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="24"/>
+					<Attribute id="FRACTIONTOCHANGE" value="4"/>
+					<!-- Not to loop the animation -->
+					<Attribute id="LOOP" value="0"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- No animation (when died e.g.) -->
+			<Animation id="5" type="-1"/>
+		</Animations>
+		<States>
+			<!-- Moving to the pure right -->
+			<State id="0" animation="0" movement="100">
+				<Attributes>
+					<Attribute id="DIRECTION" value="1,0,0"/>
+				</Attributes>
+			</State>
+			<!-- Moving to the right and forward -->
+			<State id="1" animation="0" movement="100">
+				<Attributes>
+					<Attribute id="DIRECTION" value="1,-1,0"/>
+				</Attributes>
+			</State>
+			<!-- Moving to the right and backward -->
+			<State id="2" animation="0" movement="100">
+				<Attributes>
+					<Attribute id="DIRECTION" value="1,1,0"/>
+				</Attributes>
+			</State>
+			<!-- Moving to the pure left -->
+			<State id="3" animation="1" movement="100">
+				<Attributes>
+					<Attribute id="DIRECTION" value="-1,0,0"/>
+				</Attributes>
+			</State>
+			<!-- Moving to the left and forward -->
+			<State id="4" animation="1" movement="100">
+				<Attributes>
+					<Attribute id="DIRECTION" value="-1,-1,0"/>
+				</Attributes>
+			</State>
+			<!-- Moving to the left and backward -->
+			<State id="5" animation="1" movement="100">
+				<Attributes>
+					<Attribute id="DIRECTION" value="-1,1,0"/>
+				</Attributes>
+			</State>
+			<!-- Moving forward -->
+			<State id="6" animation="2" movement="100">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,-1,0"/>
+				</Attributes>
+			</State>
+			<!-- Moving backward -->
+			<State id="7" animation="2" movement="100">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,1,0"/>
+				</Attributes>
+			</State>
+			<!-- Staying -->
+			<State id="8" animation="2" movement="101"/>
+			<!-- Rotating -->
+			<State id="9" animation="3" movement="101"/>
+			<!-- Exploding -->
+			<State id="10" animation="4" movement="101"/>
+			<!-- Die (null state) -->
+			<State id="11" animation="5" movement="101"/>
+		</States>
+	</Entity>
+	
+	<!-- The shootings -->
+	<SetOfEntities fromId="200" number="100">
+		<Forms>
+			<!-- Different forms of the shooting -->
+			<Form id="150"/>
+			<Form id="151"/>
+			<Form id="152"/>
+		</Forms>
+		<MovementsBase>
+			<!-- Moving forward -->
+			<Movement id="150"/>
+			<!-- Staying -->
+			<Movement id="250"/>
+		</MovementsBase>
+		<Animations>
+			<!-- Type of shooting 1 (short yellow) -->
+			<Animation id="0" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="150"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="0"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Type of shooting 2 (short green) -->
+			<Animation id="1" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="150"/>
+					<Attribute id="INITIALASPECT" value="1"/>
+					<Attribute id="FINALASPECT" value="1"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Type of shooting 3 (short blue) -->
+			<Animation id="2" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="150"/>
+					<Attribute id="INITIALASPECT" value="2"/>
+					<Attribute id="FINALASPECT" value="2"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Type of shooting 4 (long yellow) -->
+			<Animation id="3" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="151"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="0"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Type of shooting 5 (long orange) -->
+			<Animation id="4" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="151"/>
+					<Attribute id="INITIALASPECT" value="1"/>
+					<Attribute id="FINALASPECT" value="1"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Type of shooting 6 (long red) -->
+			<Animation id="5" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="151"/>
+					<Attribute id="INITIALASPECT" value="2"/>
+					<Attribute id="FINALASPECT" value="2"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- No animation when it has been destroyed -->
+			<Animation id="6" type="-1"/>
+		</Animations>
+		<States>
+			<!-- Moving shooting type 1 (short yellow) -->
+			<State id="0" animation="0" movementBase="150">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,-1,0"/>
+				</Attributes>
+			</State>
+			<!-- Moving shooting type 2 (short green) -->
+			<State id="1" animation="1" movementBase="150">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,-1,0"/>
+				</Attributes>
+			</State>
+			<!-- Moving shooting type 3 (short blue) -->
+			<State id="2" animation="2" movementBase="150">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,-1,0"/>
+				</Attributes>
+			</State>
+			<!-- Moving shooting type 4 (long yellow) -->
+			<State id="3" animation="3" movementBase="150">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,-1,0"/>
+				</Attributes>
+			</State>
+			<!-- Moving shooting type 5 (long orange) -->
+			<State id="4" animation="4" movementBase="150">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,-1,0"/>
+				</Attributes>
+			</State>
+			<!-- Moving shooting type 6 (long red) -->
+			<State id="5" animation="5" movementBase="150">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,-1,0"/>
+				</Attributes>
+			</State>
+			<!-- Disappearing from the screen -->
+			<State id="6" animation="6" movementBase="250"/>
+		</States>
+	</SetOfEntities>
+	
+	<!-- The asteroids -->
+	<SetOfEntities fromId="300" number="50">
+		<Forms>
+			<!-- Different forms of the asteroids -->
+			<!-- form 1 -->
+			<Form id="110"/>
+			<!-- form 2 -->
+			<Form id="111"/>
+			<!-- form 3 -->
+			<Form id="112"/>
+			<!-- form 4 -->
+			<Form id="113"/>
+			<!-- form 5 -->
+			<Form id="114"/>
+			<!-- form 6 -->
+			<Form id="115"/>
+			<!-- Exploding -->
+			<Form id="106"/>
+		</Forms>
+		<MovementsBase>
+			<!-- Moving forward -->
+			<Movement id="350"/>
+			<!-- Staying -->
+			<Movement id="400"/>
+		</MovementsBase>
+		<Animations>
+			<!-- Type of asteroid 1 -->
+			<Animation id="0" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="110"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="15"/>
+					<Attribute id="FRACTIONTOCHANGE" value="2"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Type of asteroid 2 -->
+			<Animation id="1" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="111"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="15"/>
+					<Attribute id="FRACTIONTOCHANGE" value="2"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Type of asteroid 3 -->
+			<Animation id="2" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="112"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="15"/>
+					<Attribute id="FRACTIONTOCHANGE" value="2"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Type of asteroid 4 -->
+			<Animation id="3" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="113"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="15"/>
+					<Attribute id="FRACTIONTOCHANGE" value="2"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Type of asteroid 5 -->
+			<Animation id="4" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="114"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="15"/>
+					<Attribute id="FRACTIONTOCHANGE" value="2"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Type of asteroid 6 -->
+			<Animation id="5" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="115"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="15"/>
+					<Attribute id="FRACTIONTOCHANGE" value="2"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- When the asteroid is exploding -->
+			<Animation id="6" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="106"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="24"/>
+					<Attribute id="FRACTIONTOCHANGE" value="4"/>
+					<Attribute id="LOOP" value="0"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- No animation when it has been destroyed -->
+			<Animation id="7" type="-1"/>
+		</Animations>
+		<States>
+			<!-- Moving asteroid type 1 -->
+			<State id="0" animation="0" movementBase="350">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,1,0"/>
+				</Attributes>
+			</State>
+			<!-- Moving asteroid type 2 -->
+			<State id="1" animation="1" movementBase="350">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,1,0"/>
+				</Attributes>
+			</State>
+			<!-- Moving asteroid type 3 -->
+			<State id="2" animation="2" movementBase="350">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,1,0"/>
+				</Attributes>
+			</State>
+			<!-- Moving asteroid type 4 -->
+			<State id="3" animation="3" movementBase="350">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,1,0"/>
+				</Attributes>
+			</State>
+			<!-- Moving asteroid type 5 -->
+			<State id="4" animation="4" movementBase="350">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,1,0"/>
+				</Attributes>
+			</State>
+			<!-- Moving asteroid type 6 -->
+			<State id="5" animation="5" movementBase="350">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,1,0"/>
+				</Attributes>
+			</State>
+			<!-- Exploding -->
+			<State id="6" animation="6" movementBase="400"/>
+			<!-- Disappearing from the screen -->
+			<State id="7" animation="7" movementBase="400"/>
+		</States>
+	</SetOfEntities>
+
+	<!-- The battleship shootings to catch -->
+	<Entity id="400">
+		<Forms>
+			<Form id="120"/>
+		</Forms>
+		<Movements>
+			<!-- Moving -->
+			<Movement id="450"/>
+			<!-- Staying -->
+			<Movement id="451"/>
+		</Movements>
+		<Animations>
+			<!-- Moving in the space form 1 -->
+			<Animation id="0" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="120"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="0"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Moving in the space form 2 -->
+			<Animation id="1" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="120"/>
+					<Attribute id="INITIALASPECT" value="1"/>
+					<Attribute id="FINALASPECT" value="1"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Moving in the space form 3 -->
+			<Animation id="2" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="120"/>
+					<Attribute id="INITIALASPECT" value="2"/>
+					<Attribute id="FINALASPECT" value="2"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- No animation when it has been destroyed -->
+			<Animation id="3" type="-1"/>
+		</Animations>
+		<States>
+			<!-- Moving shooting to catch type 1 -->
+			<State id="0" animation="0" movement="450">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,1,0"/>
+				</Attributes>
+			</State>
+			<!-- Moving shooting to catch type 2 -->
+			<State id="1" animation="1" movement="450">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,1,0"/>
+				</Attributes>
+			</State>
+			<!-- Moving shooting to catch type 3 -->
+			<State id="2" animation="2" movement="450">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,1,0"/>
+				</Attributes>
+			</State>
+			<!-- Die (null state) -->
+			<State id="3" animation="3" movement="451"/>
+		</States>
+	</Entity>
+
+</Entities>

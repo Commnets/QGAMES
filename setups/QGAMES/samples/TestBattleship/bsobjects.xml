@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<Objects>
+
+	<!-- Includes -->
+	<Include file="adobjects.xml"/>
+
+	<Background id="50100" form="50501" times="2">
+		<Attributes>
+			<Attribute id="FADEGRADE" value="255"/>
+			<Attribute id="AUTOMATICMOVE" value="YES"/>
+			<Attribute id="MOVDIRECTION" value="0,-1,0"/>
+			<Attribute id="SPEED" value="0"/>
+			<Attribute id="PIXELS" value="1"/>
+			<Attribute id="ROLL" value="YES"/>
+		</Attributes>
+	</Background>
+
+	<Background id="50101" form="50502" times="2">
+		<Attributes>
+			<Attribute id="FADEGRADE" value="255"/>
+			<Attribute id="AUTOMATICMOVE" value="YES"/>
+			<Attribute id="MOVDIRECTION" value="0,-1,0"/>
+			<Attribute id="SPEED" value="0"/>
+			<Attribute id="PIXELS" value="1"/>
+			<Attribute id="ROLL" value="YES"/>
+		</Attributes>
+	</Background>
+
+	<Background id="50102" form="50503" times="2">
+		<Attributes>
+			<Attribute id="FADEGRADE" value="255"/>
+			<Attribute id="AUTOMATICMOVE" value="YES"/>
+			<Attribute id="MOVDIRECTION" value="0,-1,0"/>
+			<Attribute id="SPEED" value="0"/>
+			<Attribute id="PIXELS" value="1"/>
+			<Attribute id="ROLL" value="YES"/>
+		</Attributes>
+	</Background>
+
+	<Background id="50103" form="50504" times="2">
+		<Attributes>
+			<Attribute id="FADEGRADE" value="255"/>
+			<Attribute id="AUTOMATICMOVE" value="YES"/>
+			<Attribute id="MOVDIRECTION" value="0,-1,0"/>
+			<Attribute id="SPEED" value="0"/>
+			<Attribute id="PIXELS" value="1"/>
+			<Attribute id="ROLL" value="YES"/>
+		</Attributes>
+	</Background>
+
+	<Background id="50104" form="50505" times="2">
+		<Attributes>
+			<Attribute id="FADEGRADE" value="255"/>
+			<Attribute id="AUTOMATICMOVE" value="YES"/>
+			<Attribute id="MOVDIRECTION" value="0,-1,0"/>
+			<Attribute id="SPEED" value="0"/>
+			<Attribute id="PIXELS" value="1"/>
+			<Attribute id="ROLL" value="YES"/>
+		</Attributes>
+	</Background>
+
+	<Background id="50105" form="50506" times="2">
+		<Attributes>
+			<Attribute id="FADEGRADE" value="255"/>
+			<Attribute id="AUTOMATICMOVE" value="YES"/>
+			<Attribute id="MOVDIRECTION" value="0,-1,0"/>
+			<Attribute id="SPEED" value="0"/>
+			<Attribute id="PIXELS" value="1"/>
+			<Attribute id="ROLL" value="YES"/>
+		</Attributes>
+	</Background>
+	
+	<Background id="60000" form="50500" times="2">
+		<Attributes>
+			<Attribute id="FADEGRADE" value="255"/>
+			<Attribute id="AUTOMATICMOVE" value="YES"/>
+			<Attribute id="MOVDIRECTION" value="0,-1,0"/>
+			<Attribute id="SPEED" value="0"/>
+			<Attribute id="PIXELS" value="1"/>
+			<Attribute id="ROLL" value="YES"/>
+		</Attributes>
+	</Background>
+	
+	<Background id="70000" form="50510" times="1">
+		<Attributes>
+			<Attribute id="FADEGRADE" value="255"/>
+			<Attribute id="AUTOMATICMOVE" value="NO"/>
+			<Attribute id="MOVDIRECTION" value="0,0,0"/>
+			<Attribute id="SPEED" value="0"/>
+			<Attribute id="PIXELS" value="0"/>
+			<Attribute id="ROLL" value="NO"/>
+		</Attributes>
+	</Background>
+	
+</Objects>

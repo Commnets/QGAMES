@@ -1,0 +1,1363 @@
+<?xml version="1.0"?>
+<Forms>
+
+	<!-- Includes -->
+	<Include file="ptforms.xml"/>
+
+	<!-- Standard icon for this type sof games -->
+	<Form id="50000" name="DragonIcon" file="forms/DragonIcon.png" width="128" height="128" 
+            fSpacing="0" fMargin="0" fWidth="128" fHeight="128" aColor="255" nFrames="1"/>
+	<!-- A big dragon. It is used to behind the title of the game when presening -->
+	<Form id="50001" name="DragonLogo" file="forms/Dragon.png" width="512" height="512" 
+            fSpacing="0" fMargin="0" fWidth="512" fHeight="512" aColor="255" nFrames="1"/>
+			
+	<!-- The sun used when loading the game -->
+	<Form id="50002" name="SunWhenLoad" file="forms/SunDragon.png" width="500" height="500" 
+            fSpacing="0" fMargin="0" fWidth="500" fHeight="500" aColor="255" nFrames="1"/>
+	<!-- The sun used when showing the player about to play -->
+	<Form id="50003" name="Sun" file="forms/Sun.png" width="500" height="500" 
+            fSpacing="0" fMargin="0" fWidth="500" fHeight="500" aColor="255" nFrames="1"/>
+	<!-- The temple, used when the game is over -->
+	<Form id="500022" name="Temple" file="forms/Temple.png" width="479" height="400" 
+            fSpacing="0" fMargin="0" fWidth="479" fHeight="400" aColor="255" nFrames="1"/>
+
+	<!-- Forms used in the score objects -->
+	<!-- The form used to represent the number of lives still left -->
+	<Form id="50004" name="Lives" file="forms/lives.png" width="58" height="50" 
+            fSpacing="0" fMargin="0" fWidth="29" fHeight="50" aColor="255" nFrames="2"/>
+	<!-- The form used to represent the things that can be carried by the ninja -->
+    <Form id="50005" name="Things" file="forms/things.png" width="126" height="126"
+			fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="8">
+		<!-- Arrow -->
+		<Frame id="0" fPosX="1" fPosY="1" fWidth="80" fHeight="24" xoffset="1" yoffset="1" width="80" height="24"/>
+		<!-- Bomb -->
+		<Frame id="1" fPosX="79" fPosY="40" fWidth="46" fHeight="40" xoffset="2" yoffset="2" width="46" height="40"/>
+		<!-- Coin -->
+		<Frame id="2" fPosX="87" fPosY="82" fWidth="38" fHeight="38" xoffset="1" yoffset="1" width="38" height="38"/>
+		<!-- Heart -->
+		<Frame id="3" fPosX="83" fPosY="1" fWidth="40" fHeight="37" xoffset="1" yoffset="2" width="40" height="37"/>
+		<!-- Paper -->
+		<Frame id="4" fPosX="1" fPosY="81" fWidth="46" fHeight="44" xoffset="1" yoffset="1" width="46" height="44"/>
+		<!-- Question -->
+		<Frame id="5" fPosX="56" fPosY="27" fWidth="21" fHeight="40" xoffset="0" yoffset="0" width="21" height="40"/>
+		<!-- Start -->
+		<Frame id="6" fPosX="1" fPosY="27" fWidth="53" fHeight="52" xoffset="1" yoffset="1" width="53" height="52"/>
+		<!-- Thunder -->
+		<Frame id="7" fPosX="49" fPosY="82" fWidth="36" fHeight="42" xoffset="1" yoffset="1" width="36" height="42"/>
+    </Form>
+	<!-- -->
+			
+	<!-- The elements related with shootings -->
+	<Form id="50200" name="ArrowShoot" file="forms/ArrowShoot.png" width="86" height="312" 
+            fSpacing="0" fMargin="0" fWidth="86" fHeight="26" aColor="255" nFrames="12"/>
+	<Form id="50201" name="StarShoot" file="forms/StarShoot.png" width="54" height="648" 
+            fSpacing="0" fMargin="0" fWidth="54" fHeight="54" aColor="255" nFrames="12"/>
+	<Form id="50202" name="BombShoot" file="forms/BombShoot.png" width="48" height="504" 
+            fSpacing="0" fMargin="0" fWidth="48" fHeight="42" aColor="255" nFrames="12"/>
+	<Form id="50203" name="PollBallRolling" file="forms/PollBallRolling.png" width="480" height="336" 
+            fSpacing="0" fMargin="0" fWidth="48" fHeight="48" aColor="255" nFrames="64"/>
+	<Form id="50204" name="Explosion" file="forms/Explosion.png" width="1280" height="1280" 
+            fSpacing="0" fMargin="0" fWidth="256" fHeight="256" aColor="255" nFrames="25"/>
+	<!-- -->
+			
+	<!-- Elements distributed across the different scenes -->
+	<!-- Food -->
+    <Form id="50006" name="Food" file="forms/food.png" width="252" height="346"
+		fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="63">
+		<Frame id="00" fPosX="112" fPosY="253" fWidth="29" fHeight="40" xoffset="0" yoffset="0" width="29" height="40"/>
+		<Frame id="01" fPosX="111" fPosY="175" fWidth="35" fHeight="37" xoffset="0" yoffset="0" width="35" height="37"/>
+		<Frame id="02" fPosX="001" fPosY="210" fWidth="32" fHeight="38" xoffset="0" yoffset="0" width="32" height="38"/>
+		<Frame id="03" fPosX="106" fPosY="065" fWidth="34" fHeight="33" xoffset="0" yoffset="0" width="34" height="33"/>
+		<Frame id="04" fPosX="040" fPosY="099" fWidth="37" fHeight="34" xoffset="0" yoffset="0" width="37" height="34"/>
+		<Frame id="05" fPosX="142" fPosY="102" fWidth="33" fHeight="34" xoffset="0" yoffset="0" width="33" height="34"/>
+		<Frame id="06" fPosX="035" fPosY="064" fWidth="33" fHeight="32" xoffset="0" yoffset="0" width="33" height="32"/>
+		<Frame id="07" fPosX="038" fPosY="032" fWidth="33" fHeight="30" xoffset="0" yoffset="0" width="33" height="30"/>
+		<Frame id="08" fPosX="166" fPosY="298" fWidth="40" fHeight="43" xoffset="0" yoffset="0" width="40" height="43"/>
+		<Frame id="09" fPosX="182" fPosY="257" fWidth="35" fHeight="39" xoffset="0" yoffset="0" width="35" height="39"/>
+		<Frame id="10" fPosX="221" fPosY="177" fWidth="30" fHeight="39" xoffset="0" yoffset="0" width="30" height="39"/>
+		<Frame id="11" fPosX="001" fPosY="134" fWidth="31" fHeight="35" xoffset="0" yoffset="0" width="31" height="35"/>
+		<Frame id="12" fPosX="177" fPosY="067" fWidth="30" fHeight="34" xoffset="0" yoffset="0" width="30" height="34"/>
+		<Frame id="13" fPosX="209" fPosY="068" fWidth="32" fHeight="34" xoffset="0" yoffset="0" width="32" height="34"/>
+		<Frame id="14" fPosX="146" fPosY="033" fWidth="34" fHeight="32" xoffset="0" yoffset="0" width="34" height="32"/>
+		<Frame id="15" fPosX="182" fPosY="033" fWidth="34" fHeight="32" xoffset="0" yoffset="0" width="34" height="32"/>
+		<Frame id="16" fPosX="208" fPosY="301" fWidth="34" fHeight="44" xoffset="0" yoffset="0" width="34" height="44"/>
+		<Frame id="17" fPosX="072" fPosY="212" fWidth="31" fHeight="39" xoffset="0" yoffset="0" width="31" height="39"/>
+		<Frame id="18" fPosX="219" fPosY="259" fWidth="32" fHeight="40" xoffset="0" yoffset="0" width="32" height="40"/>
+		<Frame id="19" fPosX="187" fPosY="216" fWidth="31" fHeight="39" xoffset="0" yoffset="0" width="31" height="39"/>
+		<Frame id="20" fPosX="220" fPosY="218" fWidth="27" fHeight="39" xoffset="0" yoffset="0" width="27" height="39"/>
+		<Frame id="21" fPosX="148" fPosY="177" fWidth="35" fHeight="37" xoffset="0" yoffset="0" width="35" height="37"/>
+		<Frame id="22" fPosX="001" fPosY="172" fWidth="32" fHeight="36" xoffset="0" yoffset="0" width="32" height="36"/>
+		<Frame id="23" fPosX="218" fPosY="034" fWidth="28" fHeight="32" xoffset="0" yoffset="0" width="28" height="32"/>
+		<Frame id="24" fPosX="081" fPosY="295" fWidth="40" fHeight="43" xoffset="0" yoffset="0" width="40" height="43"/>
+		<Frame id="25" fPosX="042" fPosY="251" fWidth="27" fHeight="41" xoffset="0" yoffset="0" width="27" height="41"/>
+		<Frame id="26" fPosX="039" fPosY="294" fWidth="40" fHeight="40" xoffset="0" yoffset="0" width="40" height="40"/>
+		<Frame id="27" fPosX="146" fPosY="216" fWidth="39" fHeight="38" xoffset="0" yoffset="0" width="39" height="38"/>
+		<Frame id="28" fPosX="001" fPosY="251" fWidth="39" fHeight="38" xoffset="0" yoffset="0" width="39" height="38"/>
+		<Frame id="29" fPosX="034" fPosY="135" fWidth="34" fHeight="35" xoffset="0" yoffset="0" width="34" height="35"/>
+		<Frame id="30" fPosX="070" fPosY="136" fWidth="32" fHeight="35" xoffset="0" yoffset="0" width="32" height="35"/>
+		<Frame id="31" fPosX="220" fPosY="001" fWidth="28" fHeight="31" xoffset="0" yoffset="0" width="28" height="31"/>
+		<Frame id="32" fPosX="123" fPosY="297" fWidth="41" fHeight="43" xoffset="0" yoffset="0" width="41" height="43"/>
+		<Frame id="33" fPosX="071" fPosY="253" fWidth="39" fHeight="39" xoffset="0" yoffset="0" width="39" height="39"/>
+		<Frame id="34" fPosX="001" fPosY="098" fWidth="37" fHeight="34" xoffset="0" yoffset="0" width="37" height="34"/>
+		<Frame id="35" fPosX="035" fPosY="173" fWidth="37" fHeight="36" xoffset="0" yoffset="0" width="37" height="36"/>
+		<Frame id="36" fPosX="104" fPosY="137" fWidth="32" fHeight="35" xoffset="0" yoffset="0" width="32" height="35"/>
+		<Frame id="37" fPosX="171" fPosY="140" fWidth="38" fHeight="35" xoffset="0" yoffset="0" width="38" height="35"/>
+		<Frame id="38" fPosX="030" fPosY="001" fWidth="34" fHeight="29" xoffset="0" yoffset="0" width="34" height="29"/>
+		<Frame id="39" fPosX="073" fPosY="032" fWidth="35" fHeight="31" xoffset="0" yoffset="0" width="35" height="31"/>
+		<Frame id="40" fPosX="035" fPosY="211" fWidth="35" fHeight="38" xoffset="0" yoffset="0" width="35" height="38"/>
+		<Frame id="41" fPosX="185" fPosY="177" fWidth="34" fHeight="37" xoffset="0" yoffset="0" width="34" height="37"/>
+		<Frame id="42" fPosX="111" fPosY="100" fWidth="29" fHeight="35" xoffset="0" yoffset="0" width="29" height="35"/>
+		<Frame id="43" fPosX="138" fPosY="138" fWidth="31" fHeight="35" xoffset="0" yoffset="0" width="31" height="35"/>
+		<Frame id="44" fPosX="211" fPosY="140" fWidth="37" fHeight="35" xoffset="0" yoffset="0" width="37" height="35"/>
+		<Frame id="45" fPosX="177" fPosY="103" fWidth="29" fHeight="35" xoffset="0" yoffset="0" width="29" height="35"/>
+		<Frame id="46" fPosX="157" fPosY="001" fWidth="27" fHeight="30" xoffset="0" yoffset="0" width="27" height="30"/>
+		<Frame id="47" fPosX="066" fPosY="001" fWidth="29" fHeight="29" xoffset="0" yoffset="0" width="29" height="29"/>
+		<Frame id="48" fPosX="105" fPosY="214" fWidth="39" fHeight="37" xoffset="0" yoffset="0" width="39" height="37"/>
+		<Frame id="49" fPosX="079" fPosY="100" fWidth="30" fHeight="34" xoffset="0" yoffset="0" width="30" height="34"/>
+		<Frame id="50" fPosX="001" fPosY="064" fWidth="32" fHeight="32" xoffset="0" yoffset="0" width="32" height="32"/>
+		<Frame id="51" fPosX="208" fPosY="104" fWidth="34" fHeight="34" xoffset="0" yoffset="0" width="34" height="34"/>
+		<Frame id="52" fPosX="142" fPosY="067" fWidth="33" fHeight="33" xoffset="0" yoffset="0" width="33" height="33"/>
+		<Frame id="53" fPosX="097" fPosY="001" fWidth="27" fHeight="29" xoffset="0" yoffset="0" width="27" height="29"/>
+		<Frame id="54" fPosX="186" fPosY="001" fWidth="32" fHeight="30" xoffset="0" yoffset="0" width="32" height="30"/>
+		<Frame id="55" fPosX="126" fPosY="001" fWidth="29" fHeight="29" xoffset="0" yoffset="0" width="29" height="29"/>
+		<Frame id="56" fPosX="001" fPosY="291" fWidth="36" fHeight="40" xoffset="0" yoffset="0" width="36" height="40"/>
+		<Frame id="57" fPosX="143" fPosY="256" fWidth="37" fHeight="39" xoffset="0" yoffset="0" width="37" height="39"/>
+		<Frame id="58" fPosX="074" fPosY="174" fWidth="35" fHeight="36" xoffset="0" yoffset="0" width="35" height="36"/>
+		<Frame id="59" fPosX="110" fPosY="032" fWidth="34" fHeight="31" xoffset="0" yoffset="0" width="34" height="31"/>
+		<Frame id="60" fPosX="001" fPosY="032" fWidth="35" fHeight="30" xoffset="0" yoffset="0" width="35" height="30"/>
+		<Frame id="61" fPosX="070" fPosY="065" fWidth="34" fHeight="32" xoffset="0" yoffset="0" width="34" height="32"/>
+		<Frame id="62" fPosX="001" fPosY="001" fWidth="27" fHeight="24" xoffset="0" yoffset="0" width="27" height="24"/>
+    </Form>
+	<Form id="50007" name="LittleStar" file="forms/LittleStar.png" width="15" height="15" 
+            fSpacing="0" fMargin="0" fWidth="15" fHeight="15" aColor="255" nFrames="1"/>
+	
+	<!-- For Things is used the same form than for the score object -->
+	<!-- -->
+	
+	<!-- Different background  used during the standard presentation -->
+	<Form id="50009" name="Instructions Map" file="forms/InstructionsMap.png" width="900" height="600" 
+            fSpacing="0" fMargin="0" fWidth="900" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50010" name="Light Forest" file="forms/BKLightForest.png" width="1600" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1600" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50011" name="Dark Forest" file="forms/BKDarkForest.png" width="1864" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1864" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50012" name="Dessert" file="forms/BKDessert.png" width="1600" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1600" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50013" name="Mountains" file="forms/BKMountains.png" width="2134" height="600" 
+            fSpacing="0" fMargin="0" fWidth="2134" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50014" name="City" file="forms/BKCity.png" width="2134" height="600" 
+            fSpacing="0" fMargin="0" fWidth="2134" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50015" name="Night Forest" file="forms/BKNightForest.png" width="2134" height="600" 
+            fSpacing="0" fMargin="0" fWidth="2134" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50016" name="Landscape" file="forms/BKLandscape.png" width="1978" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1978" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50017" name="Temple" file="forms/BKTemple.png" width="1600" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1600" fHeight="600" aColor="255" nFrames="1"/>
+	<!-- Someof of them a little bit blurred, just is case they are needed -->
+	<Form id="50018" name="CityBlur" file="forms/BKCityBlur.png" width="2134" height="600" 
+            fSpacing="0" fMargin="0" fWidth="2134" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50019" name="LandscapeBlur" file="forms/BKLandscapeBlur.png" width="2400" height="600" 
+            fSpacing="0" fMargin="0" fWidth="2400" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50020" name="MountainsBlur" file="forms/BKMountainsBlur.png" width="1067" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1067" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50021" name="DessertBlur" file="forms/BKDessertBlur.png" width="1600" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1600" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50022" name="NightForestBlur" file="forms/BKDarkForestBlur.png" width="1067" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1067" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50023" name="TempleBlur" file="forms/BKTempleBlur.png" width="1600" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1600" fHeight="600" aColor="255" nFrames="1"/>
+	<!-- -->
+			
+	<!-- The characters -->
+	<!-- First of all the good guys!! -->
+	<!-- The Ninja Male -->
+	<Form id="50050" name="NinjaMaleRight" file="forms/NinjaMaleRight.png" width="946" height="878" 
+            fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="110">
+		<Frame id="000" fPosX="005" fPosY="005" fWidth="060" fHeight="90" xoffset="08" yoffset="03" width="060" height="90"/>
+		<Frame id="001" fPosX="070" fPosY="005" fWidth="058" fHeight="90" xoffset="08" yoffset="02" width="058" height="90"/>
+		<Frame id="002" fPosX="133" fPosY="005" fWidth="062" fHeight="91" xoffset="02" yoffset="01" width="062" height="91"/>
+		<Frame id="003" fPosX="200" fPosY="005" fWidth="099" fHeight="90" xoffset="08" yoffset="02" width="099" height="90"/>
+		<Frame id="004" fPosX="304" fPosY="005" fWidth="100" fHeight="90" xoffset="07" yoffset="03" width="100" height="90"/>
+		<Frame id="005" fPosX="409" fPosY="005" fWidth="107" fHeight="87" xoffset="00" yoffset="06" width="107" height="87"/>
+		<Frame id="006" fPosX="521" fPosY="005" fWidth="107" fHeight="87" xoffset="00" yoffset="06" width="107" height="87"/>
+		<Frame id="007" fPosX="633" fPosY="005" fWidth="107" fHeight="87" xoffset="00" yoffset="06" width="107" height="87"/>
+		<Frame id="008" fPosX="745" fPosY="005" fWidth="087" fHeight="88" xoffset="01" yoffset="05" width="087" height="88"/>
+		<Frame id="009" fPosX="837" fPosY="005" fWidth="079" fHeight="90" xoffset="07" yoffset="03" width="079" height="90"/>
+		<Frame id="010" fPosX="005" fPosY="101" fWidth="049" fHeight="93" xoffset="00" yoffset="00" width="049" height="93"/>
+		<Frame id="011" fPosX="059" fPosY="101" fWidth="052" fHeight="93" xoffset="00" yoffset="00" width="052" height="93"/>
+		<Frame id="012" fPosX="116" fPosY="101" fWidth="055" fHeight="92" xoffset="00" yoffset="00" width="055" height="92"/>
+		<Frame id="013" fPosX="176" fPosY="101" fWidth="056" fHeight="91" xoffset="00" yoffset="00" width="056" height="91"/>
+		<Frame id="014" fPosX="237" fPosY="101" fWidth="053" fHeight="93" xoffset="03" yoffset="00" width="053" height="93"/>
+		<Frame id="015" fPosX="295" fPosY="101" fWidth="050" fHeight="93" xoffset="04" yoffset="00" width="050" height="93"/>
+		<Frame id="016" fPosX="350" fPosY="101" fWidth="053" fHeight="93" xoffset="03" yoffset="00" width="053" height="93"/>
+		<Frame id="017" fPosX="408" fPosY="101" fWidth="056" fHeight="91" xoffset="00" yoffset="00" width="056" height="91"/>
+		<Frame id="018" fPosX="469" fPosY="101" fWidth="055" fHeight="92" xoffset="00" yoffset="00" width="055" height="92"/>
+		<Frame id="019" fPosX="529" fPosY="101" fWidth="052" fHeight="93" xoffset="00" yoffset="00" width="052" height="93"/>
+		<Frame id="020" fPosX="586" fPosY="101" fWidth="049" fHeight="93" xoffset="03" yoffset="02" width="049" height="93"/>
+		<Frame id="021" fPosX="640" fPosY="101" fWidth="056" fHeight="90" xoffset="00" yoffset="07" width="056" height="90"/>
+		<Frame id="022" fPosX="701" fPosY="101" fWidth="069" fHeight="88" xoffset="01" yoffset="12" width="069" height="88"/>
+		<Frame id="023" fPosX="775" fPosY="101" fWidth="079" fHeight="76" xoffset="03" yoffset="23" width="079" height="76"/>
+		<Frame id="024" fPosX="005" fPosY="199" fWidth="086" fHeight="63" xoffset="02" yoffset="35" width="086" height="63"/>
+		<Frame id="025" fPosX="096" fPosY="199" fWidth="089" fHeight="58" xoffset="02" yoffset="40" width="089" height="58"/>
+		<Frame id="026" fPosX="190" fPosY="199" fWidth="091" fHeight="54" xoffset="00" yoffset="44" width="091" height="54"/>
+		<Frame id="027" fPosX="286" fPosY="199" fWidth="091" fHeight="54" xoffset="00" yoffset="44" width="091" height="54"/>
+		<Frame id="028" fPosX="382" fPosY="199" fWidth="091" fHeight="54" xoffset="00" yoffset="44" width="091" height="54"/>
+		<Frame id="029" fPosX="478" fPosY="199" fWidth="091" fHeight="54" xoffset="00" yoffset="44" width="091" height="54"/>
+		<Frame id="030" fPosX="574" fPosY="199" fWidth="084" fHeight="88" xoffset="00" yoffset="03" width="084" height="88"/>
+		<Frame id="031" fPosX="663" fPosY="199" fWidth="084" fHeight="88" xoffset="00" yoffset="03" width="084" height="88"/>
+		<Frame id="032" fPosX="752" fPosY="199" fWidth="084" fHeight="88" xoffset="00" yoffset="02" width="084" height="88"/>
+		<Frame id="033" fPosX="841" fPosY="199" fWidth="084" fHeight="88" xoffset="00" yoffset="02" width="084" height="88"/>
+		<Frame id="034" fPosX="005" fPosY="292" fWidth="084" fHeight="89" xoffset="00" yoffset="01" width="084" height="89"/>
+		<Frame id="035" fPosX="094" fPosY="292" fWidth="083" fHeight="89" xoffset="00" yoffset="01" width="083" height="89"/>
+		<Frame id="036" fPosX="182" fPosY="292" fWidth="084" fHeight="89" xoffset="00" yoffset="01" width="084" height="89"/>
+		<Frame id="037" fPosX="271" fPosY="292" fWidth="084" fHeight="88" xoffset="00" yoffset="02" width="084" height="88"/>
+		<Frame id="038" fPosX="360" fPosY="292" fWidth="084" fHeight="88" xoffset="00" yoffset="02" width="084" height="88"/>
+		<Frame id="039" fPosX="449" fPosY="292" fWidth="084" fHeight="88" xoffset="00" yoffset="03" width="084" height="88"/>
+		<Frame id="040" fPosX="538" fPosY="292" fWidth="046" fHeight="88" xoffset="00" yoffset="00" width="046" height="88"/>
+		<Frame id="041" fPosX="589" fPosY="292" fWidth="046" fHeight="88" xoffset="00" yoffset="00" width="046" height="88"/>
+		<Frame id="042" fPosX="640" fPosY="292" fWidth="046" fHeight="88" xoffset="00" yoffset="00" width="046" height="88"/>
+		<Frame id="043" fPosX="691" fPosY="292" fWidth="046" fHeight="88" xoffset="00" yoffset="00" width="046" height="88"/>
+		<Frame id="044" fPosX="742" fPosY="292" fWidth="046" fHeight="88" xoffset="00" yoffset="00" width="046" height="88"/>
+		<Frame id="045" fPosX="793" fPosY="292" fWidth="046" fHeight="88" xoffset="00" yoffset="00" width="046" height="88"/>
+		<Frame id="046" fPosX="844" fPosY="292" fWidth="046" fHeight="88" xoffset="00" yoffset="00" width="046" height="88"/>
+		<Frame id="047" fPosX="895" fPosY="292" fWidth="046" fHeight="88" xoffset="00" yoffset="00" width="046" height="88"/>
+		<Frame id="048" fPosX="005" fPosY="386" fWidth="046" fHeight="88" xoffset="00" yoffset="00" width="046" height="88"/>
+		<Frame id="049" fPosX="056" fPosY="386" fWidth="046" fHeight="88" xoffset="00" yoffset="00" width="046" height="88"/>
+		<Frame id="050" fPosX="107" fPosY="386" fWidth="059" fHeight="91" xoffset="11" yoffset="05" width="059" height="91"/>
+		<Frame id="051" fPosX="171" fPosY="386" fWidth="055" fHeight="94" xoffset="10" yoffset="03" width="055" height="94"/>
+		<Frame id="052" fPosX="231" fPosY="386" fWidth="053" fHeight="89" xoffset="07" yoffset="03" width="053" height="89"/>
+		<Frame id="053" fPosX="289" fPosY="386" fWidth="053" fHeight="89" xoffset="07" yoffset="03" width="053" height="89"/>
+		<Frame id="054" fPosX="347" fPosY="386" fWidth="053" fHeight="89" xoffset="07" yoffset="03" width="053" height="89"/>
+		<Frame id="055" fPosX="405" fPosY="386" fWidth="053" fHeight="89" xoffset="07" yoffset="03" width="053" height="89"/>
+		<Frame id="056" fPosX="463" fPosY="386" fWidth="057" fHeight="88" xoffset="07" yoffset="03" width="057" height="88"/>
+		<Frame id="057" fPosX="525" fPosY="386" fWidth="063" fHeight="88" xoffset="03" yoffset="02" width="063" height="88"/>
+		<Frame id="058" fPosX="593" fPosY="386" fWidth="068" fHeight="86" xoffset="00" yoffset="02" width="068" height="86"/>
+		<Frame id="059" fPosX="666" fPosY="386" fWidth="068" fHeight="86" xoffset="00" yoffset="02" width="068" height="86"/>
+		<Frame id="060" fPosX="739" fPosY="386" fWidth="063" fHeight="85" xoffset="05" yoffset="02" width="063" height="85"/>
+		<Frame id="061" fPosX="807" fPosY="386" fWidth="063" fHeight="85" xoffset="05" yoffset="02" width="063" height="85"/>
+		<Frame id="062" fPosX="875" fPosY="386" fWidth="063" fHeight="84" xoffset="05" yoffset="03" width="063" height="84"/>
+		<Frame id="063" fPosX="005" fPosY="485" fWidth="096" fHeight="95" xoffset="05" yoffset="03" width="096" height="95"/>
+		<Frame id="064" fPosX="106" fPosY="485" fWidth="096" fHeight="95" xoffset="05" yoffset="03" width="096" height="95"/>
+		<Frame id="065" fPosX="207" fPosY="485" fWidth="099" fHeight="99" xoffset="02" yoffset="05" width="099" height="99"/>
+		<Frame id="066" fPosX="311" fPosY="485" fWidth="100" fHeight="99" xoffset="01" yoffset="05" width="100" height="99"/>
+		<Frame id="067" fPosX="416" fPosY="485" fWidth="101" fHeight="99" xoffset="00" yoffset="05" width="101" height="99"/>
+		<Frame id="068" fPosX="522" fPosY="485" fWidth="071" fHeight="96" xoffset="01" yoffset="03" width="071" height="96"/>
+		<Frame id="069" fPosX="598" fPosY="485" fWidth="078" fHeight="84" xoffset="05" yoffset="03" width="078" height="84"/>
+		<Frame id="070" fPosX="681" fPosY="485" fWidth="062" fHeight="84" xoffset="09" yoffset="02" width="062" height="84"/>
+		<Frame id="071" fPosX="748" fPosY="485" fWidth="063" fHeight="84" xoffset="09" yoffset="02" width="063" height="84"/>
+		<Frame id="072" fPosX="816" fPosY="485" fWidth="064" fHeight="82" xoffset="08" yoffset="02" width="064" height="82"/>
+		<Frame id="073" fPosX="005" fPosY="589" fWidth="069" fHeight="82" xoffset="03" yoffset="02" width="069" height="82"/>
+		<Frame id="074" fPosX="079" fPosY="589" fWidth="070" fHeight="82" xoffset="02" yoffset="02" width="070" height="82"/>
+		<Frame id="075" fPosX="154" fPosY="589" fWidth="072" fHeight="82" xoffset="00" yoffset="02" width="072" height="82"/>
+		<Frame id="076" fPosX="231" fPosY="589" fWidth="072" fHeight="82" xoffset="00" yoffset="02" width="072" height="82"/>
+		<Frame id="077" fPosX="308" fPosY="589" fWidth="066" fHeight="83" xoffset="06" yoffset="02" width="066" height="83"/>
+		<Frame id="078" fPosX="379" fPosY="589" fWidth="063" fHeight="84" xoffset="09" yoffset="02" width="063" height="84"/>
+		<Frame id="079" fPosX="447" fPosY="589" fWidth="063" fHeight="84" xoffset="09" yoffset="02" width="063" height="84"/>
+		<Frame id="080" fPosX="515" fPosY="589" fWidth="067" fHeight="90" xoffset="06" yoffset="01" width="067" height="90"/>
+		<Frame id="081" fPosX="587" fPosY="589" fWidth="068" fHeight="92" xoffset="05" yoffset="00" width="068" height="92"/>
+		<Frame id="082" fPosX="660" fPosY="589" fWidth="067" fHeight="91" xoffset="04" yoffset="00" width="067" height="91"/>
+		<Frame id="083" fPosX="732" fPosY="589" fWidth="072" fHeight="87" xoffset="00" yoffset="00" width="072" height="87"/>
+		<Frame id="084" fPosX="809" fPosY="589" fWidth="073" fHeight="89" xoffset="00" yoffset="01" width="073" height="89"/>
+		<Frame id="085" fPosX="005" fPosY="686" fWidth="067" fHeight="89" xoffset="06" yoffset="01" width="067" height="89"/>
+		<Frame id="086" fPosX="077" fPosY="686" fWidth="067" fHeight="92" xoffset="05" yoffset="00" width="067" height="92"/>
+		<Frame id="087" fPosX="149" fPosY="686" fWidth="067" fHeight="88" xoffset="04" yoffset="00" width="067" height="88"/>
+		<Frame id="088" fPosX="221" fPosY="686" fWidth="066" fHeight="84" xoffset="05" yoffset="00" width="066" height="84"/>
+		<Frame id="089" fPosX="292" fPosY="686" fWidth="067" fHeight="88" xoffset="06" yoffset="01" width="067" height="88"/>
+		<Frame id="090" fPosX="364" fPosY="686" fWidth="075" fHeight="70" xoffset="00" yoffset="00" width="075" height="70"/>
+		<Frame id="091" fPosX="444" fPosY="686" fWidth="075" fHeight="70" xoffset="00" yoffset="00" width="075" height="70"/>
+		<Frame id="092" fPosX="524" fPosY="686" fWidth="074" fHeight="70" xoffset="01" yoffset="00" width="074" height="70"/>
+		<Frame id="093" fPosX="603" fPosY="686" fWidth="074" fHeight="70" xoffset="01" yoffset="00" width="074" height="70"/>
+		<Frame id="094" fPosX="682" fPosY="686" fWidth="073" fHeight="70" xoffset="02" yoffset="00" width="073" height="70"/>
+		<Frame id="095" fPosX="760" fPosY="686" fWidth="073" fHeight="70" xoffset="02" yoffset="00" width="073" height="70"/>
+		<Frame id="096" fPosX="838" fPosY="686" fWidth="073" fHeight="70" xoffset="02" yoffset="00" width="073" height="70"/>
+		<Frame id="097" fPosX="005" fPosY="783" fWidth="074" fHeight="70" xoffset="01" yoffset="00" width="074" height="70"/>
+		<Frame id="098" fPosX="084" fPosY="783" fWidth="074" fHeight="70" xoffset="01" yoffset="00" width="074" height="70"/>
+		<Frame id="099" fPosX="163" fPosY="783" fWidth="075" fHeight="70" xoffset="00" yoffset="00" width="075" height="70"/>
+		<Frame id="100" fPosX="243" fPosY="783" fWidth="054" fHeight="87" xoffset="18" yoffset="03" width="054" height="87"/>
+		<Frame id="101" fPosX="302" fPosY="783" fWidth="051" fHeight="89" xoffset="17" yoffset="01" width="051" height="89"/>
+		<Frame id="102" fPosX="358" fPosY="783" fWidth="066" fHeight="90" xoffset="08" yoffset="00" width="066" height="90"/>
+		<Frame id="103" fPosX="429" fPosY="783" fWidth="063" fHeight="90" xoffset="00" yoffset="00" width="063" height="90"/>
+		<Frame id="104" fPosX="497" fPosY="783" fWidth="062" fHeight="90" xoffset="01" yoffset="00" width="062" height="90"/>
+		<Frame id="105" fPosX="564" fPosY="783" fWidth="062" fHeight="90" xoffset="01" yoffset="00" width="062" height="90"/>
+		<Frame id="106" fPosX="631" fPosY="783" fWidth="061" fHeight="90" xoffset="02" yoffset="00" width="061" height="90"/>
+		<Frame id="107" fPosX="697" fPosY="783" fWidth="068" fHeight="90" xoffset="07" yoffset="00" width="068" height="90"/>
+		<Frame id="108" fPosX="770" fPosY="783" fWidth="061" fHeight="90" xoffset="14" yoffset="00" width="061" height="90"/>
+		<Frame id="109" fPosX="836" fPosY="783" fWidth="051" fHeight="89" xoffset="18" yoffset="01" width="051" height="89"/>
+	</Form>
+	<Form id="50051" name="NinjaMaleLeft" file="forms/NinjaMaleLeft.png" width="946" height="878" 
+            fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="110">
+		<Frame id="000" fPosX="005" fPosY="005" fWidth="060" fHeight="90" xoffset="39" yoffset="03" width="060" height="90"/>
+		<Frame id="001" fPosX="070" fPosY="005" fWidth="058" fHeight="90" xoffset="41" yoffset="02" width="058" height="90"/>
+		<Frame id="002" fPosX="133" fPosY="005" fWidth="062" fHeight="91" xoffset="43" yoffset="01" width="062" height="91"/>
+		<Frame id="003" fPosX="200" fPosY="005" fWidth="099" fHeight="90" xoffset="00" yoffset="02" width="099" height="90"/>
+		<Frame id="004" fPosX="304" fPosY="005" fWidth="100" fHeight="90" xoffset="00" yoffset="03" width="100" height="90"/>
+		<Frame id="005" fPosX="409" fPosY="005" fWidth="107" fHeight="87" xoffset="00" yoffset="06" width="107" height="87"/>
+		<Frame id="006" fPosX="521" fPosY="005" fWidth="107" fHeight="87" xoffset="00" yoffset="06" width="107" height="87"/>
+		<Frame id="007" fPosX="633" fPosY="005" fWidth="107" fHeight="87" xoffset="00" yoffset="06" width="107" height="87"/>
+		<Frame id="008" fPosX="745" fPosY="005" fWidth="087" fHeight="88" xoffset="19" yoffset="05" width="087" height="88"/>
+		<Frame id="009" fPosX="837" fPosY="005" fWidth="079" fHeight="90" xoffset="21" yoffset="03" width="079" height="90"/>
+		<Frame id="010" fPosX="005" fPosY="101" fWidth="049" fHeight="93" xoffset="07" yoffset="00" width="049" height="93"/>
+		<Frame id="011" fPosX="059" fPosY="101" fWidth="052" fHeight="93" xoffset="04" yoffset="00" width="052" height="93"/>
+		<Frame id="012" fPosX="116" fPosY="101" fWidth="055" fHeight="92" xoffset="01" yoffset="00" width="055" height="92"/>
+		<Frame id="013" fPosX="176" fPosY="101" fWidth="056" fHeight="91" xoffset="00" yoffset="00" width="056" height="91"/>
+		<Frame id="014" fPosX="237" fPosY="101" fWidth="053" fHeight="93" xoffset="00" yoffset="00" width="053" height="93"/>
+		<Frame id="015" fPosX="295" fPosY="101" fWidth="050" fHeight="93" xoffset="02" yoffset="00" width="050" height="93"/>
+		<Frame id="016" fPosX="350" fPosY="101" fWidth="053" fHeight="93" xoffset="00" yoffset="00" width="053" height="93"/>
+		<Frame id="017" fPosX="408" fPosY="101" fWidth="056" fHeight="91" xoffset="00" yoffset="00" width="056" height="91"/>
+		<Frame id="018" fPosX="469" fPosY="101" fWidth="055" fHeight="92" xoffset="01" yoffset="00" width="055" height="92"/>
+		<Frame id="019" fPosX="529" fPosY="101" fWidth="052" fHeight="93" xoffset="04" yoffset="00" width="052" height="93"/>
+		<Frame id="020" fPosX="586" fPosY="101" fWidth="049" fHeight="93" xoffset="44" yoffset="02" width="049" height="93"/>
+		<Frame id="021" fPosX="640" fPosY="101" fWidth="056" fHeight="90" xoffset="40" yoffset="07" width="056" height="90"/>
+		<Frame id="022" fPosX="701" fPosY="101" fWidth="069" fHeight="88" xoffset="26" yoffset="12" width="069" height="88"/>
+		<Frame id="023" fPosX="775" fPosY="101" fWidth="079" fHeight="76" xoffset="14" yoffset="23" width="079" height="76"/>
+		<Frame id="024" fPosX="005" fPosY="199" fWidth="086" fHeight="63" xoffset="08" yoffset="35" width="086" height="63"/>
+		<Frame id="025" fPosX="096" fPosY="199" fWidth="089" fHeight="58" xoffset="05" yoffset="40" width="089" height="58"/>
+		<Frame id="026" fPosX="190" fPosY="199" fWidth="091" fHeight="54" xoffset="05" yoffset="44" width="091" height="54"/>
+		<Frame id="027" fPosX="286" fPosY="199" fWidth="091" fHeight="54" xoffset="05" yoffset="44" width="091" height="54"/>
+		<Frame id="028" fPosX="382" fPosY="199" fWidth="091" fHeight="54" xoffset="05" yoffset="44" width="091" height="54"/>
+		<Frame id="029" fPosX="478" fPosY="199" fWidth="091" fHeight="54" xoffset="05" yoffset="44" width="091" height="54"/>
+		<Frame id="030" fPosX="574" fPosY="199" fWidth="084" fHeight="88" xoffset="05" yoffset="03" width="084" height="88"/>
+		<Frame id="031" fPosX="663" fPosY="199" fWidth="084" fHeight="88" xoffset="05" yoffset="03" width="084" height="88"/>
+		<Frame id="032" fPosX="752" fPosY="199" fWidth="084" fHeight="88" xoffset="05" yoffset="02" width="084" height="88"/>
+		<Frame id="033" fPosX="841" fPosY="199" fWidth="084" fHeight="88" xoffset="05" yoffset="02" width="084" height="88"/>
+		<Frame id="034" fPosX="005" fPosY="292" fWidth="084" fHeight="89" xoffset="05" yoffset="01" width="084" height="89"/>
+		<Frame id="035" fPosX="094" fPosY="292" fWidth="083" fHeight="89" xoffset="06" yoffset="01" width="083" height="89"/>
+		<Frame id="036" fPosX="182" fPosY="292" fWidth="084" fHeight="89" xoffset="05" yoffset="01" width="084" height="89"/>
+		<Frame id="037" fPosX="271" fPosY="292" fWidth="084" fHeight="88" xoffset="05" yoffset="02" width="084" height="88"/>
+		<Frame id="038" fPosX="360" fPosY="292" fWidth="084" fHeight="88" xoffset="05" yoffset="02" width="084" height="88"/>
+		<Frame id="039" fPosX="449" fPosY="292" fWidth="084" fHeight="88" xoffset="05" yoffset="03" width="084" height="88"/>
+		<Frame id="040" fPosX="538" fPosY="292" fWidth="046" fHeight="88" xoffset="00" yoffset="00" width="046" height="88"/>
+		<Frame id="041" fPosX="589" fPosY="292" fWidth="046" fHeight="88" xoffset="00" yoffset="00" width="046" height="88"/>
+		<Frame id="042" fPosX="640" fPosY="292" fWidth="046" fHeight="88" xoffset="00" yoffset="00" width="046" height="88"/>
+		<Frame id="043" fPosX="691" fPosY="292" fWidth="046" fHeight="88" xoffset="00" yoffset="00" width="046" height="88"/>
+		<Frame id="044" fPosX="742" fPosY="292" fWidth="046" fHeight="88" xoffset="00" yoffset="00" width="046" height="88"/>
+		<Frame id="045" fPosX="793" fPosY="292" fWidth="046" fHeight="88" xoffset="00" yoffset="00" width="046" height="88"/>
+		<Frame id="046" fPosX="844" fPosY="292" fWidth="046" fHeight="88" xoffset="00" yoffset="00" width="046" height="88"/>
+		<Frame id="047" fPosX="895" fPosY="292" fWidth="046" fHeight="88" xoffset="00" yoffset="00" width="046" height="88"/>
+		<Frame id="048" fPosX="005" fPosY="386" fWidth="046" fHeight="88" xoffset="00" yoffset="00" width="046" height="88"/>
+		<Frame id="049" fPosX="056" fPosY="386" fWidth="046" fHeight="88" xoffset="00" yoffset="00" width="046" height="88"/>
+		<Frame id="050" fPosX="107" fPosY="386" fWidth="059" fHeight="91" xoffset="02" yoffset="05" width="059" height="91"/>
+		<Frame id="051" fPosX="171" fPosY="386" fWidth="055" fHeight="94" xoffset="07" yoffset="03" width="055" height="94"/>
+		<Frame id="052" fPosX="231" fPosY="386" fWidth="053" fHeight="89" xoffset="12" yoffset="03" width="053" height="89"/>
+		<Frame id="053" fPosX="289" fPosY="386" fWidth="053" fHeight="89" xoffset="12" yoffset="03" width="053" height="89"/>
+		<Frame id="054" fPosX="347" fPosY="386" fWidth="053" fHeight="89" xoffset="12" yoffset="03" width="053" height="89"/>
+		<Frame id="055" fPosX="405" fPosY="386" fWidth="053" fHeight="89" xoffset="12" yoffset="03" width="053" height="89"/>
+		<Frame id="056" fPosX="463" fPosY="386" fWidth="057" fHeight="88" xoffset="08" yoffset="03" width="057" height="88"/>
+		<Frame id="057" fPosX="525" fPosY="386" fWidth="063" fHeight="88" xoffset="06" yoffset="02" width="063" height="88"/>
+		<Frame id="058" fPosX="593" fPosY="386" fWidth="068" fHeight="86" xoffset="04" yoffset="02" width="068" height="86"/>
+		<Frame id="059" fPosX="666" fPosY="386" fWidth="068" fHeight="86" xoffset="04" yoffset="02" width="068" height="86"/>
+		<Frame id="060" fPosX="739" fPosY="386" fWidth="063" fHeight="85" xoffset="33" yoffset="02" width="063" height="85"/>
+		<Frame id="061" fPosX="807" fPosY="386" fWidth="063" fHeight="85" xoffset="33" yoffset="02" width="063" height="85"/>
+		<Frame id="062" fPosX="875" fPosY="386" fWidth="063" fHeight="84" xoffset="33" yoffset="03" width="063" height="84"/>
+		<Frame id="063" fPosX="005" fPosY="485" fWidth="096" fHeight="95" xoffset="00" yoffset="03" width="096" height="95"/>
+		<Frame id="064" fPosX="106" fPosY="485" fWidth="096" fHeight="95" xoffset="00" yoffset="03" width="096" height="95"/>
+		<Frame id="065" fPosX="207" fPosY="485" fWidth="099" fHeight="99" xoffset="00" yoffset="05" width="099" height="99"/>
+		<Frame id="066" fPosX="311" fPosY="485" fWidth="100" fHeight="99" xoffset="00" yoffset="05" width="100" height="99"/>
+		<Frame id="067" fPosX="416" fPosY="485" fWidth="101" fHeight="99" xoffset="00" yoffset="05" width="101" height="99"/>
+		<Frame id="068" fPosX="522" fPosY="485" fWidth="071" fHeight="96" xoffset="29" yoffset="03" width="071" height="96"/>
+		<Frame id="069" fPosX="598" fPosY="485" fWidth="078" fHeight="84" xoffset="18" yoffset="03" width="078" height="84"/>
+		<Frame id="070" fPosX="681" fPosY="485" fWidth="062" fHeight="84" xoffset="01" yoffset="02" width="062" height="84"/>
+		<Frame id="071" fPosX="748" fPosY="485" fWidth="063" fHeight="84" xoffset="00" yoffset="02" width="063" height="84"/>
+		<Frame id="072" fPosX="816" fPosY="485" fWidth="064" fHeight="82" xoffset="00" yoffset="02" width="064" height="82"/>
+		<Frame id="073" fPosX="005" fPosY="589" fWidth="069" fHeight="82" xoffset="00" yoffset="02" width="069" height="82"/>
+		<Frame id="074" fPosX="079" fPosY="589" fWidth="070" fHeight="82" xoffset="00" yoffset="02" width="070" height="82"/>
+		<Frame id="075" fPosX="154" fPosY="589" fWidth="072" fHeight="82" xoffset="00" yoffset="02" width="072" height="82"/>
+		<Frame id="076" fPosX="231" fPosY="589" fWidth="072" fHeight="82" xoffset="00" yoffset="02" width="072" height="82"/>
+		<Frame id="077" fPosX="308" fPosY="589" fWidth="066" fHeight="83" xoffset="00" yoffset="02" width="066" height="83"/>
+		<Frame id="078" fPosX="379" fPosY="589" fWidth="063" fHeight="84" xoffset="00" yoffset="02" width="063" height="84"/>
+		<Frame id="079" fPosX="447" fPosY="589" fWidth="063" fHeight="84" xoffset="00" yoffset="02" width="063" height="84"/>
+		<Frame id="080" fPosX="515" fPosY="589" fWidth="067" fHeight="90" xoffset="00" yoffset="01" width="067" height="90"/>
+		<Frame id="081" fPosX="587" fPosY="589" fWidth="068" fHeight="92" xoffset="00" yoffset="00" width="068" height="92"/>
+		<Frame id="082" fPosX="660" fPosY="589" fWidth="067" fHeight="91" xoffset="02" yoffset="00" width="067" height="91"/>
+		<Frame id="083" fPosX="732" fPosY="589" fWidth="072" fHeight="87" xoffset="01" yoffset="00" width="072" height="87"/>
+		<Frame id="084" fPosX="809" fPosY="589" fWidth="073" fHeight="89" xoffset="00" yoffset="01" width="073" height="89"/>
+		<Frame id="085" fPosX="005" fPosY="686" fWidth="067" fHeight="89" xoffset="00" yoffset="01" width="067" height="89"/>
+		<Frame id="086" fPosX="077" fPosY="686" fWidth="067" fHeight="92" xoffset="01" yoffset="00" width="067" height="92"/>
+		<Frame id="087" fPosX="149" fPosY="686" fWidth="067" fHeight="88" xoffset="02" yoffset="00" width="067" height="88"/>
+		<Frame id="088" fPosX="221" fPosY="686" fWidth="066" fHeight="84" xoffset="02" yoffset="00" width="066" height="84"/>
+		<Frame id="089" fPosX="292" fPosY="686" fWidth="067" fHeight="88" xoffset="00" yoffset="01" width="067" height="88"/>
+		<Frame id="090" fPosX="364" fPosY="686" fWidth="075" fHeight="70" xoffset="00" yoffset="00" width="075" height="70"/>
+		<Frame id="091" fPosX="444" fPosY="686" fWidth="075" fHeight="70" xoffset="00" yoffset="00" width="075" height="70"/>
+		<Frame id="092" fPosX="524" fPosY="686" fWidth="074" fHeight="70" xoffset="00" yoffset="00" width="074" height="70"/>
+		<Frame id="093" fPosX="603" fPosY="686" fWidth="074" fHeight="70" xoffset="00" yoffset="00" width="074" height="70"/>
+		<Frame id="094" fPosX="682" fPosY="686" fWidth="073" fHeight="70" xoffset="00" yoffset="00" width="073" height="70"/>
+		<Frame id="095" fPosX="760" fPosY="686" fWidth="073" fHeight="70" xoffset="00" yoffset="00" width="073" height="70"/>
+		<Frame id="096" fPosX="838" fPosY="686" fWidth="073" fHeight="70" xoffset="00" yoffset="00" width="073" height="70"/>
+		<Frame id="097" fPosX="005" fPosY="783" fWidth="074" fHeight="70" xoffset="00" yoffset="00" width="074" height="70"/>
+		<Frame id="098" fPosX="084" fPosY="783" fWidth="074" fHeight="70" xoffset="00" yoffset="00" width="074" height="70"/>
+		<Frame id="099" fPosX="163" fPosY="783" fWidth="075" fHeight="70" xoffset="00" yoffset="00" width="075" height="70"/>
+		<Frame id="100" fPosX="243" fPosY="783" fWidth="054" fHeight="87" xoffset="03" yoffset="03" width="054" height="87"/>
+		<Frame id="101" fPosX="302" fPosY="783" fWidth="051" fHeight="89" xoffset="07" yoffset="01" width="051" height="89"/>
+		<Frame id="102" fPosX="358" fPosY="783" fWidth="066" fHeight="90" xoffset="01" yoffset="00" width="066" height="90"/>
+		<Frame id="103" fPosX="429" fPosY="783" fWidth="063" fHeight="90" xoffset="12" yoffset="00" width="063" height="90"/>
+		<Frame id="104" fPosX="497" fPosY="783" fWidth="062" fHeight="90" xoffset="12" yoffset="00" width="062" height="90"/>
+		<Frame id="105" fPosX="564" fPosY="783" fWidth="062" fHeight="90" xoffset="12" yoffset="00" width="062" height="90"/>
+		<Frame id="106" fPosX="631" fPosY="783" fWidth="061" fHeight="90" xoffset="12" yoffset="00" width="061" height="90"/>
+		<Frame id="107" fPosX="697" fPosY="783" fWidth="068" fHeight="90" xoffset="00" yoffset="00" width="068" height="90"/>
+		<Frame id="108" fPosX="770" fPosY="783" fWidth="061" fHeight="90" xoffset="00" yoffset="00" width="061" height="90"/>
+		<Frame id="109" fPosX="836" fPosY="783" fWidth="051" fHeight="89" xoffset="06" yoffset="01" width="051" height="89"/>
+	</Form>
+	<Form id="50052" name="NinjaMaleSwimRight" file="forms/NinjaMaleSwimRight.png" width="304" height="216" 
+            fSpacing="0" fMargin="0" fWidth="76" fHeight="72" aColor="255" nFrames="12"/>
+	<Form id="500521" name="NinjaMaleSwimDiedRight" file="forms/NinjaMaleSwimDiedRight.png" width="76" height="72" 
+            fSpacing="0" fMargin="0" fWidth="76" fHeight="72" aColor="255" nFrames="1"/>
+	<Form id="50053" name="NinjaMaleSwimLeft" file="forms/NinjaMaleSwimLeft.png" width="304" height="216" 
+            fSpacing="0" fMargin="0" fWidth="76" fHeight="72" aColor="255" nFrames="12"/>	
+	<Form id="500531" name="NinjaMaleSwimDiedLeft" file="forms/NinjaMaleSwimDiedLeft.png" width="76" height="72" 
+            fSpacing="0" fMargin="0" fWidth="76" fHeight="72" aColor="255" nFrames="1"/>
+
+	<!-- The Ninja Female -->
+	<Form id="50054" name="NinjaFemaleRight" file="forms/NinjaFemaleRight.png" width="1197" height="873" 
+            fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="110">
+		<Frame id="000" fPosX="0006" fPosY="006" fWidth="061" fHeight="100" xoffset="07" yoffset="06" width="061" height="100"/>
+		<Frame id="001" fPosX="0074" fPosY="006" fWidth="060" fHeight="101" xoffset="06" yoffset="05" width="060" height="101"/>
+		<Frame id="002" fPosX="0141" fPosY="006" fWidth="065" fHeight="101" xoffset="00" yoffset="05" width="065" height="101"/>
+		<Frame id="003" fPosX="0213" fPosY="006" fWidth="100" fHeight="101" xoffset="05" yoffset="05" width="100" height="101"/>
+		<Frame id="004" fPosX="0320" fPosY="006" fWidth="099" fHeight="099" xoffset="06" yoffset="07" width="099" height="099"/>
+		<Frame id="005" fPosX="0426" fPosY="006" fWidth="105" fHeight="097" xoffset="00" yoffset="09" width="105" height="097"/>
+		<Frame id="006" fPosX="0538" fPosY="006" fWidth="104" fHeight="098" xoffset="01" yoffset="09" width="104" height="098"/>
+		<Frame id="007" fPosX="0649" fPosY="006" fWidth="103" fHeight="098" xoffset="02" yoffset="09" width="103" height="098"/>
+		<Frame id="008" fPosX="0759" fPosY="006" fWidth="083" fHeight="098" xoffset="03" yoffset="08" width="083" height="098"/>
+		<Frame id="009" fPosX="0849" fPosY="006" fWidth="077" fHeight="099" xoffset="07" yoffset="07" width="077" height="099"/>
+		<Frame id="010" fPosX="0933" fPosY="006" fWidth="065" fHeight="099" xoffset="00" yoffset="00" width="065" height="099"/>
+		<Frame id="011" fPosX="1005" fPosY="006" fWidth="067" fHeight="099" xoffset="00" yoffset="00" width="067" height="099"/>
+		<Frame id="012" fPosX="1079" fPosY="006" fWidth="066" fHeight="097" xoffset="02" yoffset="00" width="066" height="097"/>
+		<Frame id="013" fPosX="0006" fPosY="114" fWidth="066" fHeight="098" xoffset="03" yoffset="00" width="066" height="098"/>
+		<Frame id="014" fPosX="0079" fPosY="114" fWidth="067" fHeight="099" xoffset="04" yoffset="00" width="067" height="099"/>
+		<Frame id="015" fPosX="0153" fPosY="114" fWidth="066" fHeight="099" xoffset="06" yoffset="00" width="066" height="099"/>
+		<Frame id="016" fPosX="0226" fPosY="114" fWidth="067" fHeight="099" xoffset="04" yoffset="00" width="067" height="099"/>
+		<Frame id="017" fPosX="0300" fPosY="114" fWidth="066" fHeight="098" xoffset="03" yoffset="00" width="066" height="098"/>
+		<Frame id="018" fPosX="0373" fPosY="114" fWidth="066" fHeight="097" xoffset="02" yoffset="00" width="066" height="097"/>
+		<Frame id="019" fPosX="0446" fPosY="114" fWidth="067" fHeight="099" xoffset="00" yoffset="00" width="067" height="099"/>
+		<Frame id="020" fPosX="0520" fPosY="114" fWidth="062" fHeight="102" xoffset="04" yoffset="06" width="062" height="102"/>
+		<Frame id="021" fPosX="0589" fPosY="114" fWidth="067" fHeight="095" xoffset="06" yoffset="14" width="067" height="095"/>
+		<Frame id="022" fPosX="0663" fPosY="114" fWidth="080" fHeight="094" xoffset="07" yoffset="20" width="080" height="094"/>
+		<Frame id="023" fPosX="0750" fPosY="114" fWidth="090" fHeight="080" xoffset="09" yoffset="32" width="090" height="080"/>
+		<Frame id="024" fPosX="0847" fPosY="114" fWidth="099" fHeight="066" xoffset="07" yoffset="44" width="099" height="066"/>
+		<Frame id="025" fPosX="0953" fPosY="114" fWidth="101" fHeight="067" xoffset="07" yoffset="47" width="101" height="067"/>
+		<Frame id="026" fPosX="1061" fPosY="114" fWidth="098" fHeight="066" xoffset="06" yoffset="50" width="098" height="066"/>
+		<Frame id="027" fPosX="0006" fPosY="223" fWidth="098" fHeight="066" xoffset="06" yoffset="50" width="098" height="066"/>
+		<Frame id="028" fPosX="0111" fPosY="223" fWidth="098" fHeight="066" xoffset="06" yoffset="50" width="098" height="066"/>
+		<Frame id="029" fPosX="0216" fPosY="223" fWidth="098" fHeight="066" xoffset="06" yoffset="50" width="098" height="066"/>
+		<Frame id="030" fPosX="0321" fPosY="223" fWidth="093" fHeight="088" xoffset="00" yoffset="06" width="093" height="088"/>
+		<Frame id="031" fPosX="0421" fPosY="223" fWidth="092" fHeight="087" xoffset="00" yoffset="06" width="092" height="087"/>
+		<Frame id="032" fPosX="0520" fPosY="223" fWidth="092" fHeight="087" xoffset="00" yoffset="06" width="092" height="087"/>
+		<Frame id="033" fPosX="0619" fPosY="223" fWidth="092" fHeight="087" xoffset="00" yoffset="06" width="092" height="087"/>
+		<Frame id="034" fPosX="0718" fPosY="223" fWidth="092" fHeight="086" xoffset="00" yoffset="06" width="092" height="086"/>
+		<Frame id="035" fPosX="0817" fPosY="223" fWidth="092" fHeight="086" xoffset="00" yoffset="06" width="092" height="086"/>
+		<Frame id="036" fPosX="0916" fPosY="223" fWidth="092" fHeight="086" xoffset="00" yoffset="06" width="092" height="086"/>
+		<Frame id="037" fPosX="1015" fPosY="223" fWidth="092" fHeight="087" xoffset="00" yoffset="06" width="092" height="087"/>
+		<Frame id="038" fPosX="0006" fPosY="318" fWidth="092" fHeight="087" xoffset="00" yoffset="06" width="092" height="087"/>
+		<Frame id="039" fPosX="0105" fPosY="318" fWidth="092" fHeight="087" xoffset="00" yoffset="06" width="092" height="087"/>
+		<Frame id="040" fPosX="0204" fPosY="318" fWidth="058" fHeight="100" xoffset="00" yoffset="00" width="058" height="100"/>
+		<Frame id="041" fPosX="0269" fPosY="318" fWidth="058" fHeight="100" xoffset="00" yoffset="00" width="058" height="100"/>
+		<Frame id="042" fPosX="0334" fPosY="318" fWidth="058" fHeight="100" xoffset="00" yoffset="00" width="058" height="100"/>
+		<Frame id="043" fPosX="0399" fPosY="318" fWidth="058" fHeight="100" xoffset="00" yoffset="00" width="058" height="100"/>
+		<Frame id="044" fPosX="0464" fPosY="318" fWidth="058" fHeight="100" xoffset="00" yoffset="00" width="058" height="100"/>
+		<Frame id="045" fPosX="0529" fPosY="318" fWidth="058" fHeight="100" xoffset="00" yoffset="00" width="058" height="100"/>
+		<Frame id="046" fPosX="0594" fPosY="318" fWidth="058" fHeight="100" xoffset="00" yoffset="00" width="058" height="100"/>
+		<Frame id="047" fPosX="0659" fPosY="318" fWidth="058" fHeight="100" xoffset="00" yoffset="00" width="058" height="100"/>
+		<Frame id="048" fPosX="0724" fPosY="318" fWidth="058" fHeight="100" xoffset="00" yoffset="00" width="058" height="100"/>
+		<Frame id="049" fPosX="0789" fPosY="318" fWidth="058" fHeight="100" xoffset="00" yoffset="00" width="058" height="100"/>
+		<Frame id="050" fPosX="0854" fPosY="318" fWidth="064" fHeight="099" xoffset="11" yoffset="08" width="064" height="099"/>
+		<Frame id="051" fPosX="0925" fPosY="318" fWidth="062" fHeight="102" xoffset="08" yoffset="07" width="062" height="102"/>
+		<Frame id="052" fPosX="0994" fPosY="318" fWidth="061" fHeight="099" xoffset="05" yoffset="06" width="061" height="099"/>
+		<Frame id="053" fPosX="1062" fPosY="318" fWidth="061" fHeight="098" xoffset="05" yoffset="06" width="061" height="098"/>
+		<Frame id="054" fPosX="1130" fPosY="318" fWidth="061" fHeight="098" xoffset="05" yoffset="06" width="061" height="098"/>
+		<Frame id="055" fPosX="0006" fPosY="427" fWidth="061" fHeight="098" xoffset="05" yoffset="06" width="061" height="098"/>
+		<Frame id="056" fPosX="0074" fPosY="427" fWidth="066" fHeight="097" xoffset="00" yoffset="06" width="066" height="097"/>
+		<Frame id="057" fPosX="0147" fPosY="427" fWidth="061" fHeight="096" xoffset="05" yoffset="06" width="061" height="096"/>
+		<Frame id="058" fPosX="0215" fPosY="427" fWidth="064" fHeight="094" xoffset="04" yoffset="06" width="064" height="094"/>
+		<Frame id="059" fPosX="0286" fPosY="427" fWidth="064" fHeight="094" xoffset="04" yoffset="06" width="064" height="094"/>
+		<Frame id="060" fPosX="0357" fPosY="427" fWidth="062" fHeight="100" xoffset="03" yoffset="04" width="062" height="100"/>
+		<Frame id="061" fPosX="0426" fPosY="427" fWidth="061" fHeight="104" xoffset="02" yoffset="04" width="061" height="104"/>
+		<Frame id="062" fPosX="0494" fPosY="427" fWidth="060" fHeight="103" xoffset="02" yoffset="04" width="060" height="103"/>
+		<Frame id="063" fPosX="0561" fPosY="427" fWidth="095" fHeight="107" xoffset="04" yoffset="04" width="095" height="107"/>
+		<Frame id="064" fPosX="0663" fPosY="427" fWidth="095" fHeight="106" xoffset="04" yoffset="05" width="095" height="106"/>
+		<Frame id="065" fPosX="0765" fPosY="427" fWidth="098" fHeight="110" xoffset="01" yoffset="07" width="098" height="110"/>
+		<Frame id="066" fPosX="0870" fPosY="427" fWidth="098" fHeight="110" xoffset="01" yoffset="07" width="098" height="110"/>
+		<Frame id="067" fPosX="0975" fPosY="427" fWidth="099" fHeight="110" xoffset="00" yoffset="07" width="099" height="110"/>
+		<Frame id="068" fPosX="1081" fPosY="427" fWidth="066" fHeight="106" xoffset="04" yoffset="05" width="066" height="106"/>
+		<Frame id="069" fPosX="0006" fPosY="544" fWidth="077" fHeight="099" xoffset="04" yoffset="04" width="077" height="099"/>
+		<Frame id="070" fPosX="0090" fPosY="544" fWidth="065" fHeight="093" xoffset="12" yoffset="06" width="065" height="093"/>
+		<Frame id="071" fPosX="0162" fPosY="544" fWidth="063" fHeight="093" xoffset="12" yoffset="06" width="063" height="093"/>
+		<Frame id="072" fPosX="0232" fPosY="544" fWidth="066" fHeight="093" xoffset="09" yoffset="06" width="066" height="093"/>
+		<Frame id="073" fPosX="0305" fPosY="544" fWidth="074" fHeight="094" xoffset="02" yoffset="05" width="074" height="094"/>
+		<Frame id="074" fPosX="0386" fPosY="544" fWidth="075" fHeight="094" xoffset="01" yoffset="05" width="075" height="094"/>
+		<Frame id="075" fPosX="0468" fPosY="544" fWidth="077" fHeight="093" xoffset="00" yoffset="05" width="077" height="093"/>
+		<Frame id="076" fPosX="0552" fPosY="544" fWidth="075" fHeight="092" xoffset="02" yoffset="06" width="075" height="092"/>
+		<Frame id="077" fPosX="0634" fPosY="544" fWidth="070" fHeight="092" xoffset="07" yoffset="06" width="070" height="092"/>
+		<Frame id="078" fPosX="0711" fPosY="544" fWidth="064" fHeight="093" xoffset="12" yoffset="06" width="064" height="093"/>
+		<Frame id="079" fPosX="0782" fPosY="544" fWidth="064" fHeight="093" xoffset="12" yoffset="06" width="064" height="093"/>
+		<Frame id="080" fPosX="0853" fPosY="544" fWidth="070" fHeight="100" xoffset="05" yoffset="03" width="070" height="100"/>
+		<Frame id="081" fPosX="0930" fPosY="544" fWidth="069" fHeight="102" xoffset="05" yoffset="02" width="069" height="102"/>
+		<Frame id="082" fPosX="1006" fPosY="544" fWidth="068" fHeight="103" xoffset="04" yoffset="01" width="068" height="103"/>
+		<Frame id="083" fPosX="1081" fPosY="544" fWidth="073" fHeight="098" xoffset="00" yoffset="01" width="073" height="098"/>
+		<Frame id="084" fPosX="0006" fPosY="654" fWidth="075" fHeight="099" xoffset="00" yoffset="03" width="075" height="099"/>
+		<Frame id="085" fPosX="0088" fPosY="654" fWidth="069" fHeight="098" xoffset="06" yoffset="03" width="069" height="098"/>
+		<Frame id="086" fPosX="0164" fPosY="654" fWidth="068" fHeight="103" xoffset="05" yoffset="01" width="068" height="103"/>
+		<Frame id="087" fPosX="0239" fPosY="654" fWidth="068" fHeight="101" xoffset="04" yoffset="00" width="068" height="101"/>
+		<Frame id="088" fPosX="0314" fPosY="654" fWidth="068" fHeight="095" xoffset="04" yoffset="01" width="068" height="095"/>
+		<Frame id="089" fPosX="0389" fPosY="654" fWidth="071" fHeight="098" xoffset="04" yoffset="03" width="071" height="098"/>
+		<Frame id="090" fPosX="0467" fPosY="654" fWidth="079" fHeight="080" xoffset="00" yoffset="00" width="079" height="080"/>
+		<Frame id="091" fPosX="0553" fPosY="654" fWidth="079" fHeight="080" xoffset="00" yoffset="00" width="079" height="080"/>
+		<Frame id="092" fPosX="0639" fPosY="654" fWidth="079" fHeight="080" xoffset="00" yoffset="00" width="079" height="080"/>
+		<Frame id="093" fPosX="0725" fPosY="654" fWidth="079" fHeight="080" xoffset="00" yoffset="00" width="079" height="080"/>
+		<Frame id="094" fPosX="0811" fPosY="654" fWidth="079" fHeight="080" xoffset="00" yoffset="00" width="079" height="080"/>
+		<Frame id="095" fPosX="0897" fPosY="654" fWidth="078" fHeight="080" xoffset="01" yoffset="00" width="078" height="080"/>
+		<Frame id="096" fPosX="0982" fPosY="654" fWidth="079" fHeight="080" xoffset="00" yoffset="00" width="079" height="080"/>
+		<Frame id="097" fPosX="1068" fPosY="654" fWidth="079" fHeight="080" xoffset="00" yoffset="00" width="079" height="080"/>
+		<Frame id="098" fPosX="0006" fPosY="764" fWidth="079" fHeight="080" xoffset="00" yoffset="00" width="079" height="080"/>
+		<Frame id="099" fPosX="0092" fPosY="764" fWidth="079" fHeight="080" xoffset="00" yoffset="00" width="079" height="080"/>
+		<Frame id="100" fPosX="0178" fPosY="764" fWidth="062" fHeight="100" xoffset="13" yoffset="03" width="062" height="100"/>
+		<Frame id="101" fPosX="0247" fPosY="764" fWidth="060" fHeight="102" xoffset="11" yoffset="01" width="060" height="102"/>
+		<Frame id="102" fPosX="0314" fPosY="764" fWidth="066" fHeight="102" xoffset="05" yoffset="01" width="066" height="102"/>
+		<Frame id="103" fPosX="0387" fPosY="764" fWidth="076" fHeight="102" xoffset="00" yoffset="01" width="076" height="102"/>
+		<Frame id="104" fPosX="0470" fPosY="764" fWidth="060" fHeight="102" xoffset="00" yoffset="01" width="060" height="102"/>
+		<Frame id="105" fPosX="0537" fPosY="764" fWidth="060" fHeight="102" xoffset="00" yoffset="01" width="060" height="102"/>
+		<Frame id="106" fPosX="0604" fPosY="764" fWidth="061" fHeight="102" xoffset="00" yoffset="01" width="061" height="102"/>
+		<Frame id="107" fPosX="0672" fPosY="764" fWidth="069" fHeight="103" xoffset="04" yoffset="00" width="069" height="103"/>
+		<Frame id="108" fPosX="0748" fPosY="764" fWidth="066" fHeight="102" xoffset="08" yoffset="01" width="066" height="102"/>
+		<Frame id="109" fPosX="0821" fPosY="764" fWidth="061" fHeight="101" xoffset="11" yoffset="02" width="061" height="101"/>
+	</Form>
+	<Form id="50055" name="NinjaFemaleLeft" file="forms/NinjaFemaleLeft.png" width="1197" height="873" 
+            fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="110">
+		<Frame id="000" fPosX="0006" fPosY="006" fWidth="061" fHeight="100" xoffset="37" yoffset="06" width="061" height="100"/>
+		<Frame id="001" fPosX="0074" fPosY="006" fWidth="060" fHeight="101" xoffset="39" yoffset="05" width="060" height="101"/>
+		<Frame id="002" fPosX="0141" fPosY="006" fWidth="065" fHeight="101" xoffset="40" yoffset="05" width="065" height="101"/>
+		<Frame id="003" fPosX="0213" fPosY="006" fWidth="100" fHeight="101" xoffset="00" yoffset="05" width="100" height="101"/>
+		<Frame id="004" fPosX="0320" fPosY="006" fWidth="099" fHeight="099" xoffset="00" yoffset="07" width="099" height="099"/>
+		<Frame id="005" fPosX="0426" fPosY="006" fWidth="105" fHeight="097" xoffset="00" yoffset="09" width="105" height="097"/>
+		<Frame id="006" fPosX="0538" fPosY="006" fWidth="104" fHeight="098" xoffset="00" yoffset="09" width="104" height="098"/>
+		<Frame id="007" fPosX="0649" fPosY="006" fWidth="103" fHeight="098" xoffset="00" yoffset="09" width="103" height="098"/>
+		<Frame id="008" fPosX="0759" fPosY="006" fWidth="083" fHeight="098" xoffset="19" yoffset="08" width="083" height="098"/>
+		<Frame id="009" fPosX="0849" fPosY="006" fWidth="077" fHeight="099" xoffset="21" yoffset="07" width="077" height="099"/>
+		<Frame id="010" fPosX="0933" fPosY="006" fWidth="065" fHeight="099" xoffset="07" yoffset="00" width="065" height="099"/>
+		<Frame id="011" fPosX="1005" fPosY="006" fWidth="067" fHeight="099" xoffset="05" yoffset="00" width="067" height="099"/>
+		<Frame id="012" fPosX="1079" fPosY="006" fWidth="066" fHeight="097" xoffset="04" yoffset="00" width="066" height="097"/>
+		<Frame id="013" fPosX="0006" fPosY="114" fWidth="066" fHeight="098" xoffset="03" yoffset="00" width="066" height="098"/>
+		<Frame id="014" fPosX="0079" fPosY="114" fWidth="067" fHeight="099" xoffset="01" yoffset="00" width="067" height="099"/>
+		<Frame id="015" fPosX="0153" fPosY="114" fWidth="066" fHeight="099" xoffset="00" yoffset="00" width="066" height="099"/>
+		<Frame id="016" fPosX="0226" fPosY="114" fWidth="067" fHeight="099" xoffset="01" yoffset="00" width="067" height="099"/>
+		<Frame id="017" fPosX="0300" fPosY="114" fWidth="066" fHeight="098" xoffset="03" yoffset="00" width="066" height="098"/>
+		<Frame id="018" fPosX="0373" fPosY="114" fWidth="066" fHeight="097" xoffset="04" yoffset="00" width="066" height="097"/>
+		<Frame id="019" fPosX="0446" fPosY="114" fWidth="067" fHeight="099" xoffset="05" yoffset="00" width="067" height="099"/>
+		<Frame id="020" fPosX="0520" fPosY="114" fWidth="062" fHeight="102" xoffset="50" yoffset="06" width="062" height="102"/>
+		<Frame id="021" fPosX="0589" fPosY="114" fWidth="067" fHeight="095" xoffset="43" yoffset="14" width="067" height="095"/>
+		<Frame id="022" fPosX="0663" fPosY="114" fWidth="080" fHeight="094" xoffset="29" yoffset="20" width="080" height="094"/>
+		<Frame id="023" fPosX="0750" fPosY="114" fWidth="090" fHeight="080" xoffset="17" yoffset="32" width="090" height="080"/>
+		<Frame id="024" fPosX="0847" fPosY="114" fWidth="099" fHeight="066" xoffset="10" yoffset="44" width="099" height="066"/>
+		<Frame id="025" fPosX="0953" fPosY="114" fWidth="101" fHeight="067" xoffset="08" yoffset="47" width="101" height="067"/>
+		<Frame id="026" fPosX="1061" fPosY="114" fWidth="098" fHeight="066" xoffset="12" yoffset="50" width="098" height="066"/>
+		<Frame id="027" fPosX="0006" fPosY="223" fWidth="098" fHeight="066" xoffset="12" yoffset="50" width="098" height="066"/>
+		<Frame id="028" fPosX="0111" fPosY="223" fWidth="098" fHeight="066" xoffset="12" yoffset="50" width="098" height="066"/>
+		<Frame id="029" fPosX="0216" fPosY="223" fWidth="098" fHeight="066" xoffset="12" yoffset="50" width="098" height="066"/>
+		<Frame id="030" fPosX="0321" fPosY="223" fWidth="093" fHeight="088" xoffset="08" yoffset="06" width="093" height="088"/>
+		<Frame id="031" fPosX="0421" fPosY="223" fWidth="092" fHeight="087" xoffset="09" yoffset="06" width="092" height="087"/>
+		<Frame id="032" fPosX="0520" fPosY="223" fWidth="092" fHeight="087" xoffset="09" yoffset="06" width="092" height="087"/>
+		<Frame id="033" fPosX="0619" fPosY="223" fWidth="092" fHeight="087" xoffset="09" yoffset="06" width="092" height="087"/>
+		<Frame id="034" fPosX="0718" fPosY="223" fWidth="092" fHeight="086" xoffset="09" yoffset="06" width="092" height="086"/>
+		<Frame id="035" fPosX="0817" fPosY="223" fWidth="092" fHeight="086" xoffset="09" yoffset="06" width="092" height="086"/>
+		<Frame id="036" fPosX="0916" fPosY="223" fWidth="092" fHeight="086" xoffset="09" yoffset="06" width="092" height="086"/>
+		<Frame id="037" fPosX="1015" fPosY="223" fWidth="092" fHeight="087" xoffset="09" yoffset="06" width="092" height="087"/>
+		<Frame id="038" fPosX="0006" fPosY="318" fWidth="092" fHeight="087" xoffset="09" yoffset="06" width="092" height="087"/>
+		<Frame id="039" fPosX="0105" fPosY="318" fWidth="092" fHeight="087" xoffset="09" yoffset="06" width="092" height="087"/>
+		<Frame id="040" fPosX="0204" fPosY="318" fWidth="058" fHeight="100" xoffset="00" yoffset="00" width="058" height="100"/>
+		<Frame id="041" fPosX="0269" fPosY="318" fWidth="058" fHeight="100" xoffset="00" yoffset="00" width="058" height="100"/>
+		<Frame id="042" fPosX="0334" fPosY="318" fWidth="058" fHeight="100" xoffset="00" yoffset="00" width="058" height="100"/>
+		<Frame id="043" fPosX="0399" fPosY="318" fWidth="058" fHeight="100" xoffset="00" yoffset="00" width="058" height="100"/>
+		<Frame id="044" fPosX="0464" fPosY="318" fWidth="058" fHeight="100" xoffset="00" yoffset="00" width="058" height="100"/>
+		<Frame id="045" fPosX="0529" fPosY="318" fWidth="058" fHeight="100" xoffset="00" yoffset="00" width="058" height="100"/>
+		<Frame id="046" fPosX="0594" fPosY="318" fWidth="058" fHeight="100" xoffset="00" yoffset="00" width="058" height="100"/>
+		<Frame id="047" fPosX="0659" fPosY="318" fWidth="058" fHeight="100" xoffset="00" yoffset="00" width="058" height="100"/>
+		<Frame id="048" fPosX="0724" fPosY="318" fWidth="058" fHeight="100" xoffset="00" yoffset="00" width="058" height="100"/>
+		<Frame id="049" fPosX="0789" fPosY="318" fWidth="058" fHeight="100" xoffset="00" yoffset="00" width="058" height="100"/>
+		<Frame id="050" fPosX="0854" fPosY="318" fWidth="064" fHeight="099" xoffset="05" yoffset="08" width="064" height="099"/>
+		<Frame id="051" fPosX="0925" fPosY="318" fWidth="062" fHeight="102" xoffset="10" yoffset="07" width="062" height="102"/>
+		<Frame id="052" fPosX="0994" fPosY="318" fWidth="061" fHeight="099" xoffset="14" yoffset="06" width="061" height="099"/>
+		<Frame id="053" fPosX="1062" fPosY="318" fWidth="061" fHeight="098" xoffset="14" yoffset="06" width="061" height="098"/>
+		<Frame id="054" fPosX="1130" fPosY="318" fWidth="061" fHeight="098" xoffset="14" yoffset="06" width="061" height="098"/>
+		<Frame id="055" fPosX="0006" fPosY="427" fWidth="061" fHeight="098" xoffset="14" yoffset="06" width="061" height="098"/>
+		<Frame id="056" fPosX="0074" fPosY="427" fWidth="066" fHeight="097" xoffset="14" yoffset="06" width="066" height="097"/>
+		<Frame id="057" fPosX="0147" fPosY="427" fWidth="061" fHeight="096" xoffset="14" yoffset="06" width="061" height="096"/>
+		<Frame id="058" fPosX="0215" fPosY="427" fWidth="064" fHeight="094" xoffset="12" yoffset="06" width="064" height="094"/>
+		<Frame id="059" fPosX="0286" fPosY="427" fWidth="064" fHeight="094" xoffset="12" yoffset="06" width="064" height="094"/>
+		<Frame id="060" fPosX="0357" fPosY="427" fWidth="062" fHeight="100" xoffset="34" yoffset="04" width="062" height="100"/>
+		<Frame id="061" fPosX="0426" fPosY="427" fWidth="061" fHeight="104" xoffset="36" yoffset="04" width="061" height="104"/>
+		<Frame id="062" fPosX="0494" fPosY="427" fWidth="060" fHeight="103" xoffset="37" yoffset="04" width="060" height="103"/>
+		<Frame id="063" fPosX="0561" fPosY="427" fWidth="095" fHeight="107" xoffset="00" yoffset="04" width="095" height="107"/>
+		<Frame id="064" fPosX="0663" fPosY="427" fWidth="095" fHeight="106" xoffset="00" yoffset="05" width="095" height="106"/>
+		<Frame id="065" fPosX="0765" fPosY="427" fWidth="098" fHeight="110" xoffset="00" yoffset="07" width="098" height="110"/>
+		<Frame id="066" fPosX="0870" fPosY="427" fWidth="098" fHeight="110" xoffset="00" yoffset="07" width="098" height="110"/>
+		<Frame id="067" fPosX="0975" fPosY="427" fWidth="099" fHeight="110" xoffset="00" yoffset="07" width="099" height="110"/>
+		<Frame id="068" fPosX="1081" fPosY="427" fWidth="066" fHeight="106" xoffset="29" yoffset="05" width="066" height="106"/>
+		<Frame id="069" fPosX="0006" fPosY="544" fWidth="077" fHeight="099" xoffset="18" yoffset="04" width="077" height="099"/>
+		<Frame id="070" fPosX="0090" fPosY="544" fWidth="065" fHeight="093" xoffset="08" yoffset="06" width="065" height="093"/>
+		<Frame id="071" fPosX="0162" fPosY="544" fWidth="063" fHeight="093" xoffset="10" yoffset="06" width="063" height="093"/>
+		<Frame id="072" fPosX="0232" fPosY="544" fWidth="066" fHeight="093" xoffset="10" yoffset="06" width="066" height="093"/>
+		<Frame id="073" fPosX="0305" fPosY="544" fWidth="074" fHeight="094" xoffset="09" yoffset="05" width="074" height="094"/>
+		<Frame id="074" fPosX="0386" fPosY="544" fWidth="075" fHeight="094" xoffset="09" yoffset="05" width="075" height="094"/>
+		<Frame id="075" fPosX="0468" fPosY="544" fWidth="077" fHeight="093" xoffset="08" yoffset="05" width="077" height="093"/>
+		<Frame id="076" fPosX="0552" fPosY="544" fWidth="075" fHeight="092" xoffset="08" yoffset="06" width="075" height="092"/>
+		<Frame id="077" fPosX="0634" fPosY="544" fWidth="070" fHeight="092" xoffset="08" yoffset="06" width="070" height="092"/>
+		<Frame id="078" fPosX="0711" fPosY="544" fWidth="064" fHeight="093" xoffset="09" yoffset="06" width="064" height="093"/>
+		<Frame id="079" fPosX="0782" fPosY="544" fWidth="064" fHeight="093" xoffset="09" yoffset="06" width="064" height="093"/>
+		<Frame id="080" fPosX="0853" fPosY="544" fWidth="070" fHeight="100" xoffset="00" yoffset="03" width="070" height="100"/>
+		<Frame id="081" fPosX="0930" fPosY="544" fWidth="069" fHeight="102" xoffset="01" yoffset="02" width="069" height="102"/>
+		<Frame id="082" fPosX="1006" fPosY="544" fWidth="068" fHeight="103" xoffset="03" yoffset="01" width="068" height="103"/>
+		<Frame id="083" fPosX="1081" fPosY="544" fWidth="073" fHeight="098" xoffset="02" yoffset="01" width="073" height="098"/>
+		<Frame id="084" fPosX="0006" fPosY="654" fWidth="075" fHeight="099" xoffset="00" yoffset="03" width="075" height="099"/>
+		<Frame id="085" fPosX="0088" fPosY="654" fWidth="069" fHeight="098" xoffset="00" yoffset="03" width="069" height="098"/>
+		<Frame id="086" fPosX="0164" fPosY="654" fWidth="068" fHeight="103" xoffset="02" yoffset="01" width="068" height="103"/>
+		<Frame id="087" fPosX="0239" fPosY="654" fWidth="068" fHeight="101" xoffset="03" yoffset="00" width="068" height="101"/>
+		<Frame id="088" fPosX="0314" fPosY="654" fWidth="068" fHeight="095" xoffset="03" yoffset="01" width="068" height="095"/>
+		<Frame id="089" fPosX="0389" fPosY="654" fWidth="071" fHeight="098" xoffset="00" yoffset="03" width="071" height="098"/>
+		<Frame id="090" fPosX="0467" fPosY="654" fWidth="079" fHeight="080" xoffset="00" yoffset="00" width="079" height="080"/>
+		<Frame id="091" fPosX="0553" fPosY="654" fWidth="079" fHeight="080" xoffset="00" yoffset="00" width="079" height="080"/>
+		<Frame id="092" fPosX="0639" fPosY="654" fWidth="079" fHeight="080" xoffset="00" yoffset="00" width="079" height="080"/>
+		<Frame id="093" fPosX="0725" fPosY="654" fWidth="079" fHeight="080" xoffset="00" yoffset="00" width="079" height="080"/>
+		<Frame id="094" fPosX="0811" fPosY="654" fWidth="079" fHeight="080" xoffset="00" yoffset="00" width="079" height="080"/>
+		<Frame id="095" fPosX="0897" fPosY="654" fWidth="078" fHeight="080" xoffset="00" yoffset="00" width="078" height="080"/>
+		<Frame id="096" fPosX="0982" fPosY="654" fWidth="079" fHeight="080" xoffset="00" yoffset="00" width="079" height="080"/>
+		<Frame id="097" fPosX="1068" fPosY="654" fWidth="079" fHeight="080" xoffset="00" yoffset="00" width="079" height="080"/>
+		<Frame id="098" fPosX="0006" fPosY="764" fWidth="079" fHeight="080" xoffset="00" yoffset="00" width="079" height="080"/>
+		<Frame id="099" fPosX="0092" fPosY="764" fWidth="079" fHeight="080" xoffset="00" yoffset="00" width="079" height="080"/>
+		<Frame id="100" fPosX="0178" fPosY="764" fWidth="062" fHeight="100" xoffset="02" yoffset="03" width="062" height="100"/>
+		<Frame id="101" fPosX="0247" fPosY="764" fWidth="060" fHeight="102" xoffset="06" yoffset="01" width="060" height="102"/>
+		<Frame id="102" fPosX="0314" fPosY="764" fWidth="066" fHeight="102" xoffset="06" yoffset="01" width="066" height="102"/>
+		<Frame id="103" fPosX="0387" fPosY="764" fWidth="076" fHeight="102" xoffset="01" yoffset="01" width="076" height="102"/>
+		<Frame id="104" fPosX="0470" fPosY="764" fWidth="060" fHeight="102" xoffset="17" yoffset="01" width="060" height="102"/>
+		<Frame id="105" fPosX="0537" fPosY="764" fWidth="060" fHeight="102" xoffset="17" yoffset="01" width="060" height="102"/>
+		<Frame id="106" fPosX="0604" fPosY="764" fWidth="061" fHeight="102" xoffset="16" yoffset="01" width="061" height="102"/>
+		<Frame id="107" fPosX="0672" fPosY="764" fWidth="069" fHeight="103" xoffset="04" yoffset="00" width="069" height="103"/>
+		<Frame id="108" fPosX="0748" fPosY="764" fWidth="066" fHeight="102" xoffset="03" yoffset="01" width="066" height="102"/>
+		<Frame id="109" fPosX="0821" fPosY="764" fWidth="061" fHeight="101" xoffset="05" yoffset="02" width="061" height="101"/>
+	</Form>
+	<Form id="50056" name="NinjaFemaleSwimRight" file="forms/NinjaFemaleSwimRight.png" width="304" height="216" 
+            fSpacing="0" fMargin="0" fWidth="76" fHeight="72" aColor="255" nFrames="12"/>
+	<Form id="500561" name="NinjaFemaleSwimDiedRight" file="forms/NinjaFemaleSwimDiedRight.png" width="76" height="72" 
+            fSpacing="0" fMargin="0" fWidth="76" fHeight="72" aColor="255" nFrames="1"/>
+	<Form id="50057" name="NinjaFemaleSwimLeft" file="forms/NinjaFemaleSwimLeft.png" width="304" height="216" 
+            fSpacing="0" fMargin="0" fWidth="76" fHeight="72" aColor="255" nFrames="12"/>
+	<Form id="500571" name="NinjaFemaleSwimDiedLeft" file="forms/NinjaFemaleSwimDiedLeft.png" width="76" height="72" 
+            fSpacing="0" fMargin="0" fWidth="76" fHeight="72" aColor="255" nFrames="1"/>
+	<!-- -->
+	
+	<!-- The bad guys!! -->
+	<!-- The cat -->
+	<Form id="50060" name="CatRight" file="forms/CatRight.png" width="1116" height="496" 
+            fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="74">
+		<Frame id="00" fPosX="0006" fPosY="006" fWidth="66" fHeight="80" xoffset="00" yoffset="12" width="66" height="80"/>
+		<Frame id="01" fPosX="0079" fPosY="006" fWidth="70" fHeight="91" xoffset="11" yoffset="02" width="70" height="91"/>
+		<Frame id="02" fPosX="0156" fPosY="006" fWidth="79" fHeight="91" xoffset="16" yoffset="03" width="79" height="91"/>
+		<Frame id="03" fPosX="0242" fPosY="006" fWidth="78" fHeight="70" xoffset="24" yoffset="23" width="78" height="70"/>
+		<Frame id="04" fPosX="0327" fPosY="006" fWidth="84" fHeight="74" xoffset="24" yoffset="19" width="84" height="74"/>
+		<Frame id="05" fPosX="0418" fPosY="006" fWidth="82" fHeight="70" xoffset="25" yoffset="23" width="82" height="70"/>
+		<Frame id="06" fPosX="0507" fPosY="006" fWidth="80" fHeight="67" xoffset="26" yoffset="26" width="80" height="67"/>
+		<Frame id="07" fPosX="0594" fPosY="006" fWidth="80" fHeight="66" xoffset="26" yoffset="27" width="80" height="66"/>
+		<Frame id="08" fPosX="0681" fPosY="006" fWidth="80" fHeight="66" xoffset="26" yoffset="28" width="80" height="66"/>
+		<Frame id="09" fPosX="0768" fPosY="006" fWidth="80" fHeight="66" xoffset="26" yoffset="28" width="80" height="66"/>
+		<Frame id="10" fPosX="0855" fPosY="006" fWidth="60" fHeight="85" xoffset="12" yoffset="04" width="60" height="85"/>
+		<Frame id="11" fPosX="0922" fPosY="006" fWidth="59" fHeight="91" xoffset="13" yoffset="03" width="59" height="91"/>
+		<Frame id="12" fPosX="0988" fPosY="006" fWidth="61" fHeight="89" xoffset="14" yoffset="02" width="61" height="89"/>
+		<Frame id="13" fPosX="0006" fPosY="104" fWidth="59" fHeight="88" xoffset="13" yoffset="03" width="59" height="88"/>
+		<Frame id="14" fPosX="0072" fPosY="104" fWidth="60" fHeight="86" xoffset="12" yoffset="04" width="60" height="86"/>
+		<Frame id="15" fPosX="0139" fPosY="104" fWidth="59" fHeight="88" xoffset="13" yoffset="03" width="59" height="88"/>
+		<Frame id="16" fPosX="0205" fPosY="104" fWidth="61" fHeight="89" xoffset="14" yoffset="02" width="61" height="89"/>
+		<Frame id="17" fPosX="0273" fPosY="104" fWidth="59" fHeight="88" xoffset="13" yoffset="03" width="59" height="88"/>
+		<Frame id="18" fPosX="0339" fPosY="104" fWidth="66" fHeight="80" xoffset="14" yoffset="14" width="66" height="80"/>
+		<Frame id="19" fPosX="0412" fPosY="104" fWidth="66" fHeight="88" xoffset="23" yoffset="06" width="66" height="88"/>
+		<Frame id="20" fPosX="0485" fPosY="104" fWidth="72" fHeight="92" xoffset="23" yoffset="02" width="72" height="92"/>
+		<Frame id="21" fPosX="0564" fPosY="104" fWidth="79" fHeight="87" xoffset="23" yoffset="07" width="79" height="87"/>
+		<Frame id="22" fPosX="0650" fPosY="104" fWidth="78" fHeight="73" xoffset="24" yoffset="21" width="78" height="73"/>
+		<Frame id="23" fPosX="0735" fPosY="104" fWidth="78" fHeight="70" xoffset="25" yoffset="24" width="78" height="70"/>
+		<Frame id="24" fPosX="0820" fPosY="104" fWidth="80" fHeight="66" xoffset="27" yoffset="28" width="80" height="66"/>
+		<Frame id="25" fPosX="0907" fPosY="104" fWidth="74" fHeight="78" xoffset="26" yoffset="16" width="74" height="78"/>
+		<Frame id="26" fPosX="0988" fPosY="104" fWidth="75" fHeight="87" xoffset="25" yoffset="07" width="75" height="87"/>
+		<Frame id="27" fPosX="0006" fPosY="203" fWidth="71" fHeight="91" xoffset="24" yoffset="03" width="71" height="91"/>
+		<Frame id="28" fPosX="0084" fPosY="203" fWidth="61" fHeight="91" xoffset="19" yoffset="03" width="61" height="91"/>
+		<Frame id="29" fPosX="0152" fPosY="203" fWidth="61" fHeight="90" xoffset="19" yoffset="04" width="61" height="90"/>
+		<Frame id="30" fPosX="0220" fPosY="203" fWidth="61" fHeight="89" xoffset="19" yoffset="05" width="61" height="89"/>
+		<Frame id="31" fPosX="0288" fPosY="203" fWidth="61" fHeight="88" xoffset="19" yoffset="06" width="61" height="88"/>
+		<Frame id="32" fPosX="0356" fPosY="203" fWidth="61" fHeight="88" xoffset="19" yoffset="06" width="61" height="88"/>
+		<Frame id="33" fPosX="0424" fPosY="203" fWidth="61" fHeight="88" xoffset="19" yoffset="06" width="61" height="88"/>
+		<Frame id="34" fPosX="0492" fPosY="203" fWidth="61" fHeight="88" xoffset="19" yoffset="06" width="61" height="88"/>
+		<Frame id="35" fPosX="0560" fPosY="203" fWidth="61" fHeight="89" xoffset="19" yoffset="05" width="61" height="89"/>
+		<Frame id="36" fPosX="0628" fPosY="203" fWidth="61" fHeight="89" xoffset="19" yoffset="05" width="61" height="89"/>
+		<Frame id="37" fPosX="0696" fPosY="203" fWidth="61" fHeight="90" xoffset="19" yoffset="04" width="61" height="90"/>
+		<Frame id="38" fPosX="0764" fPosY="203" fWidth="61" fHeight="91" xoffset="25" yoffset="03" width="61" height="91"/>
+		<Frame id="39" fPosX="0832" fPosY="203" fWidth="60" fHeight="89" xoffset="19" yoffset="03" width="60" height="89"/>
+		<Frame id="40" fPosX="0899" fPosY="203" fWidth="60" fHeight="83" xoffset="12" yoffset="03" width="60" height="83"/>
+		<Frame id="41" fPosX="0966" fPosY="203" fWidth="60" fHeight="84" xoffset="12" yoffset="03" width="60" height="84"/>
+		<Frame id="42" fPosX="1033" fPosY="203" fWidth="60" fHeight="85" xoffset="12" yoffset="04" width="60" height="85"/>
+		<Frame id="43" fPosX="0006" fPosY="301" fWidth="60" fHeight="84" xoffset="12" yoffset="03" width="60" height="84"/>
+		<Frame id="44" fPosX="0073" fPosY="301" fWidth="60" fHeight="83" xoffset="12" yoffset="03" width="60" height="83"/>
+		<Frame id="45" fPosX="0140" fPosY="301" fWidth="60" fHeight="84" xoffset="12" yoffset="03" width="60" height="84"/>
+		<Frame id="46" fPosX="0207" fPosY="301" fWidth="61" fHeight="91" xoffset="25" yoffset="03" width="61" height="91"/>
+		<Frame id="47" fPosX="0275" fPosY="301" fWidth="60" fHeight="88" xoffset="27" yoffset="04" width="60" height="88"/>
+		<Frame id="48" fPosX="0342" fPosY="301" fWidth="60" fHeight="82" xoffset="29" yoffset="05" width="60" height="82"/>
+		<Frame id="49" fPosX="0409" fPosY="301" fWidth="60" fHeight="88" xoffset="27" yoffset="04" width="60" height="88"/>
+		<Frame id="50" fPosX="0476" fPosY="301" fWidth="61" fHeight="91" xoffset="25" yoffset="03" width="61" height="91"/>
+		<Frame id="51" fPosX="0544" fPosY="301" fWidth="60" fHeight="89" xoffset="27" yoffset="04" width="60" height="89"/>
+		<Frame id="52" fPosX="0611" fPosY="301" fWidth="60" fHeight="85" xoffset="28" yoffset="05" width="60" height="85"/>
+		<Frame id="53" fPosX="0678" fPosY="301" fWidth="60" fHeight="89" xoffset="27" yoffset="04" width="60" height="89"/>
+		<Frame id="54" fPosX="0745" fPosY="301" fWidth="67" fHeight="72" xoffset="03" yoffset="22" width="67" height="72"/>
+		<Frame id="55" fPosX="0819" fPosY="301" fWidth="67" fHeight="72" xoffset="03" yoffset="22" width="67" height="72"/>
+		<Frame id="56" fPosX="0893" fPosY="301" fWidth="68" fHeight="72" xoffset="02" yoffset="22" width="68" height="72"/>
+		<Frame id="57" fPosX="0968" fPosY="301" fWidth="68" fHeight="72" xoffset="02" yoffset="22" width="68" height="72"/>
+		<Frame id="58" fPosX="1043" fPosY="301" fWidth="67" fHeight="72" xoffset="03" yoffset="22" width="67" height="72"/>
+		<Frame id="59" fPosX="0006" fPosY="399" fWidth="67" fHeight="72" xoffset="03" yoffset="22" width="67" height="72"/>
+		<Frame id="60" fPosX="0080" fPosY="399" fWidth="67" fHeight="72" xoffset="03" yoffset="22" width="67" height="72"/>
+		<Frame id="61" fPosX="0154" fPosY="399" fWidth="68" fHeight="72" xoffset="02" yoffset="22" width="68" height="72"/>
+		<Frame id="62" fPosX="0229" fPosY="399" fWidth="68" fHeight="72" xoffset="02" yoffset="22" width="68" height="72"/>
+		<Frame id="63" fPosX="0304" fPosY="399" fWidth="67" fHeight="72" xoffset="03" yoffset="22" width="67" height="72"/>
+		<Frame id="64" fPosX="0378" fPosY="399" fWidth="61" fHeight="91" xoffset="19" yoffset="03" width="61" height="91"/>
+		<Frame id="65" fPosX="0446" fPosY="399" fWidth="60" fHeight="91" xoffset="19" yoffset="03" width="60" height="91"/>
+		<Frame id="66" fPosX="0513" fPosY="399" fWidth="60" fHeight="89" xoffset="19" yoffset="03" width="60" height="89"/>
+		<Frame id="67" fPosX="0580" fPosY="399" fWidth="60" fHeight="89" xoffset="19" yoffset="03" width="60" height="89"/>
+		<Frame id="68" fPosX="0647" fPosY="399" fWidth="60" fHeight="90" xoffset="19" yoffset="03" width="60" height="90"/>
+		<Frame id="69" fPosX="0714" fPosY="399" fWidth="61" fHeight="91" xoffset="19" yoffset="03" width="61" height="91"/>
+		<Frame id="70" fPosX="0782" fPosY="399" fWidth="60" fHeight="91" xoffset="19" yoffset="03" width="60" height="91"/>
+		<Frame id="71" fPosX="0849" fPosY="399" fWidth="60" fHeight="89" xoffset="19" yoffset="03" width="60" height="89"/>
+		<Frame id="72" fPosX="0916" fPosY="399" fWidth="60" fHeight="89" xoffset="19" yoffset="03" width="60" height="89"/>
+		<Frame id="73" fPosX="0983" fPosY="399" fWidth="60" fHeight="91" xoffset="19" yoffset="03" width="60" height="91"/>
+	</Form>
+	<Form id="50061" name="CatLeft" file="forms/CatLeft.png" width="1116" height="496" 
+            fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="74">
+		<Frame id="00" fPosX="0006" fPosY="006" fWidth="66" fHeight="80" xoffset="45" yoffset="12" width="66" height="80"/>
+		<Frame id="01" fPosX="0079" fPosY="006" fWidth="70" fHeight="91" xoffset="30" yoffset="02" width="70" height="91"/>
+		<Frame id="02" fPosX="0156" fPosY="006" fWidth="79" fHeight="91" xoffset="16" yoffset="03" width="79" height="91"/>
+		<Frame id="03" fPosX="0242" fPosY="006" fWidth="78" fHeight="70" xoffset="09" yoffset="23" width="78" height="70"/>
+		<Frame id="04" fPosX="0327" fPosY="006" fWidth="84" fHeight="74" xoffset="03" yoffset="19" width="84" height="74"/>
+		<Frame id="05" fPosX="0418" fPosY="006" fWidth="82" fHeight="70" xoffset="04" yoffset="23" width="82" height="70"/>
+		<Frame id="06" fPosX="0507" fPosY="006" fWidth="80" fHeight="67" xoffset="05" yoffset="26" width="80" height="67"/>
+		<Frame id="07" fPosX="0594" fPosY="006" fWidth="80" fHeight="66" xoffset="05" yoffset="27" width="80" height="66"/>
+		<Frame id="08" fPosX="0681" fPosY="006" fWidth="80" fHeight="66" xoffset="05" yoffset="28" width="80" height="66"/>
+		<Frame id="09" fPosX="0768" fPosY="006" fWidth="80" fHeight="66" xoffset="05" yoffset="28" width="80" height="66"/>
+		<Frame id="10" fPosX="0855" fPosY="006" fWidth="60" fHeight="85" xoffset="36" yoffset="04" width="60" height="85"/>
+		<Frame id="11" fPosX="0922" fPosY="006" fWidth="59" fHeight="91" xoffset="36" yoffset="03" width="59" height="91"/>
+		<Frame id="12" fPosX="0988" fPosY="006" fWidth="61" fHeight="89" xoffset="33" yoffset="02" width="61" height="89"/>
+		<Frame id="13" fPosX="0006" fPosY="104" fWidth="59" fHeight="88" xoffset="36" yoffset="03" width="59" height="88"/>
+		<Frame id="14" fPosX="0072" fPosY="104" fWidth="60" fHeight="86" xoffset="36" yoffset="04" width="60" height="86"/>
+		<Frame id="15" fPosX="0139" fPosY="104" fWidth="59" fHeight="88" xoffset="36" yoffset="03" width="59" height="88"/>
+		<Frame id="16" fPosX="0205" fPosY="104" fWidth="61" fHeight="89" xoffset="33" yoffset="02" width="61" height="89"/>
+		<Frame id="17" fPosX="0273" fPosY="104" fWidth="59" fHeight="88" xoffset="36" yoffset="03" width="59" height="88"/>
+		<Frame id="18" fPosX="0339" fPosY="104" fWidth="66" fHeight="80" xoffset="28" yoffset="14" width="66" height="80"/>
+		<Frame id="19" fPosX="0412" fPosY="104" fWidth="66" fHeight="88" xoffset="19" yoffset="06" width="66" height="88"/>
+		<Frame id="20" fPosX="0485" fPosY="104" fWidth="72" fHeight="92" xoffset="13" yoffset="02" width="72" height="92"/>
+		<Frame id="21" fPosX="0564" fPosY="104" fWidth="79" fHeight="87" xoffset="06" yoffset="07" width="79" height="87"/>
+		<Frame id="22" fPosX="0650" fPosY="104" fWidth="78" fHeight="73" xoffset="06" yoffset="21" width="78" height="73"/>
+		<Frame id="23" fPosX="0735" fPosY="104" fWidth="78" fHeight="70" xoffset="05" yoffset="24" width="78" height="70"/>
+		<Frame id="24" fPosX="0820" fPosY="104" fWidth="80" fHeight="66" xoffset="01" yoffset="28" width="80" height="66"/>
+		<Frame id="25" fPosX="0907" fPosY="104" fWidth="74" fHeight="78" xoffset="08" yoffset="16" width="74" height="78"/>
+		<Frame id="26" fPosX="0988" fPosY="104" fWidth="75" fHeight="87" xoffset="08" yoffset="07" width="75" height="87"/>
+		<Frame id="27" fPosX="0006" fPosY="203" fWidth="71" fHeight="91" xoffset="13" yoffset="03" width="71" height="91"/>
+		<Frame id="28" fPosX="0084" fPosY="203" fWidth="61" fHeight="91" xoffset="28" yoffset="03" width="61" height="91"/>
+		<Frame id="29" fPosX="0152" fPosY="203" fWidth="61" fHeight="90" xoffset="28" yoffset="04" width="61" height="90"/>
+		<Frame id="30" fPosX="0220" fPosY="203" fWidth="61" fHeight="89" xoffset="28" yoffset="05" width="61" height="89"/>
+		<Frame id="31" fPosX="0288" fPosY="203" fWidth="61" fHeight="88" xoffset="28" yoffset="06" width="61" height="88"/>
+		<Frame id="32" fPosX="0356" fPosY="203" fWidth="61" fHeight="88" xoffset="28" yoffset="06" width="61" height="88"/>
+		<Frame id="33" fPosX="0424" fPosY="203" fWidth="61" fHeight="88" xoffset="28" yoffset="06" width="61" height="88"/>
+		<Frame id="34" fPosX="0492" fPosY="203" fWidth="61" fHeight="88" xoffset="28" yoffset="06" width="61" height="88"/>
+		<Frame id="35" fPosX="0560" fPosY="203" fWidth="61" fHeight="89" xoffset="28" yoffset="05" width="61" height="89"/>
+		<Frame id="36" fPosX="0628" fPosY="203" fWidth="61" fHeight="89" xoffset="28" yoffset="05" width="61" height="89"/>
+		<Frame id="37" fPosX="0696" fPosY="203" fWidth="61" fHeight="90" xoffset="28" yoffset="04" width="61" height="90"/>
+		<Frame id="38" fPosX="0764" fPosY="203" fWidth="61" fHeight="91" xoffset="22" yoffset="03" width="61" height="91"/>
+		<Frame id="39" fPosX="0832" fPosY="203" fWidth="60" fHeight="89" xoffset="29" yoffset="03" width="60" height="89"/>
+		<Frame id="40" fPosX="0899" fPosY="203" fWidth="60" fHeight="83" xoffset="36" yoffset="03" width="60" height="83"/>
+		<Frame id="41" fPosX="0966" fPosY="203" fWidth="60" fHeight="84" xoffset="36" yoffset="03" width="60" height="84"/>
+		<Frame id="42" fPosX="1033" fPosY="203" fWidth="60" fHeight="85" xoffset="36" yoffset="04" width="60" height="85"/>
+		<Frame id="43" fPosX="0006" fPosY="301" fWidth="60" fHeight="84" xoffset="36" yoffset="03" width="60" height="84"/>
+		<Frame id="44" fPosX="0073" fPosY="301" fWidth="60" fHeight="83" xoffset="36" yoffset="03" width="60" height="83"/>
+		<Frame id="45" fPosX="0140" fPosY="301" fWidth="60" fHeight="84" xoffset="36" yoffset="03" width="60" height="84"/>
+		<Frame id="46" fPosX="0207" fPosY="301" fWidth="61" fHeight="91" xoffset="22" yoffset="03" width="61" height="91"/>
+		<Frame id="47" fPosX="0275" fPosY="301" fWidth="60" fHeight="88" xoffset="21" yoffset="04" width="60" height="88"/>
+		<Frame id="48" fPosX="0342" fPosY="301" fWidth="60" fHeight="82" xoffset="19" yoffset="05" width="60" height="82"/>
+		<Frame id="49" fPosX="0409" fPosY="301" fWidth="60" fHeight="88" xoffset="21" yoffset="04" width="60" height="88"/>
+		<Frame id="50" fPosX="0476" fPosY="301" fWidth="61" fHeight="91" xoffset="22" yoffset="03" width="61" height="91"/>
+		<Frame id="51" fPosX="0544" fPosY="301" fWidth="60" fHeight="89" xoffset="21" yoffset="04" width="60" height="89"/>
+		<Frame id="52" fPosX="0611" fPosY="301" fWidth="60" fHeight="85" xoffset="20" yoffset="05" width="60" height="85"/>
+		<Frame id="53" fPosX="0678" fPosY="301" fWidth="60" fHeight="89" xoffset="21" yoffset="04" width="60" height="89"/>
+		<Frame id="54" fPosX="0745" fPosY="301" fWidth="67" fHeight="72" xoffset="38" yoffset="22" width="67" height="72"/>
+		<Frame id="55" fPosX="0819" fPosY="301" fWidth="67" fHeight="72" xoffset="38" yoffset="22" width="67" height="72"/>
+		<Frame id="56" fPosX="0893" fPosY="301" fWidth="68" fHeight="72" xoffset="38" yoffset="22" width="68" height="72"/>
+		<Frame id="57" fPosX="0968" fPosY="301" fWidth="68" fHeight="72" xoffset="38" yoffset="22" width="68" height="72"/>
+		<Frame id="58" fPosX="1043" fPosY="301" fWidth="67" fHeight="72" xoffset="38" yoffset="22" width="67" height="72"/>
+		<Frame id="59" fPosX="0006" fPosY="399" fWidth="67" fHeight="72" xoffset="38" yoffset="22" width="67" height="72"/>
+		<Frame id="60" fPosX="0080" fPosY="399" fWidth="67" fHeight="72" xoffset="38" yoffset="22" width="67" height="72"/>
+		<Frame id="61" fPosX="0154" fPosY="399" fWidth="68" fHeight="72" xoffset="38" yoffset="22" width="68" height="72"/>
+		<Frame id="62" fPosX="0229" fPosY="399" fWidth="68" fHeight="72" xoffset="38" yoffset="22" width="68" height="72"/>
+		<Frame id="63" fPosX="0304" fPosY="399" fWidth="67" fHeight="72" xoffset="38" yoffset="22" width="67" height="72"/>
+		<Frame id="64" fPosX="0378" fPosY="399" fWidth="61" fHeight="91" xoffset="28" yoffset="03" width="61" height="91"/>
+		<Frame id="65" fPosX="0446" fPosY="399" fWidth="60" fHeight="91" xoffset="29" yoffset="03" width="60" height="91"/>
+		<Frame id="66" fPosX="0513" fPosY="399" fWidth="60" fHeight="89" xoffset="29" yoffset="03" width="60" height="89"/>
+		<Frame id="67" fPosX="0580" fPosY="399" fWidth="60" fHeight="89" xoffset="29" yoffset="03" width="60" height="89"/>
+		<Frame id="68" fPosX="0647" fPosY="399" fWidth="60" fHeight="90" xoffset="29" yoffset="03" width="60" height="90"/>
+		<Frame id="69" fPosX="0714" fPosY="399" fWidth="61" fHeight="91" xoffset="28" yoffset="03" width="61" height="91"/>
+		<Frame id="70" fPosX="0782" fPosY="399" fWidth="60" fHeight="91" xoffset="29" yoffset="03" width="60" height="91"/>
+		<Frame id="71" fPosX="0849" fPosY="399" fWidth="60" fHeight="89" xoffset="29" yoffset="03" width="60" height="89"/>
+		<Frame id="72" fPosX="0916" fPosY="399" fWidth="60" fHeight="89" xoffset="29" yoffset="03" width="60" height="89"/>
+		<Frame id="73" fPosX="0983" fPosY="399" fWidth="60" fHeight="91" xoffset="29" yoffset="03" width="60" height="91"/>
+	</Form>
+	
+	<!-- The Dog -->
+	<Form id="50062" name="DogRight" file="forms/DogRight.png" width="1125" height="507" 
+            fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="74">
+		<Frame id="00" fPosX="0006" fPosY="006" fWidth="69" fHeight="79" xoffset="00" yoffset="14" width="69" height="79"/>
+		<Frame id="01" fPosX="0082" fPosY="006" fWidth="69" fHeight="88" xoffset="16" yoffset="05" width="69" height="88"/>
+		<Frame id="02" fPosX="0158" fPosY="006" fWidth="77" fHeight="89" xoffset="22" yoffset="05" width="77" height="89"/>
+		<Frame id="03" fPosX="0242" fPosY="006" fWidth="78" fHeight="71" xoffset="25" yoffset="23" width="78" height="71"/>
+		<Frame id="04" fPosX="0327" fPosY="006" fWidth="86" fHeight="73" xoffset="26" yoffset="21" width="86" height="73"/>
+		<Frame id="05" fPosX="0420" fPosY="006" fWidth="84" fHeight="66" xoffset="27" yoffset="27" width="84" height="66"/>
+		<Frame id="06" fPosX="0511" fPosY="006" fWidth="83" fHeight="64" xoffset="27" yoffset="29" width="83" height="64"/>
+		<Frame id="07" fPosX="0601" fPosY="006" fWidth="82" fHeight="62" xoffset="27" yoffset="31" width="82" height="62"/>
+		<Frame id="08" fPosX="0690" fPosY="006" fWidth="83" fHeight="63" xoffset="27" yoffset="31" width="83" height="63"/>
+		<Frame id="09" fPosX="0780" fPosY="006" fWidth="83" fHeight="63" xoffset="27" yoffset="31" width="83" height="63"/>
+		<Frame id="10" fPosX="0870" fPosY="006" fWidth="61" fHeight="88" xoffset="12" yoffset="01" width="61" height="88"/>
+		<Frame id="11" fPosX="0938" fPosY="006" fWidth="60" fHeight="94" xoffset="13" yoffset="00" width="60" height="94"/>
+		<Frame id="12" fPosX="1005" fPosY="006" fWidth="59" fHeight="92" xoffset="14" yoffset="00" width="59" height="92"/>
+		<Frame id="13" fPosX="0006" fPosY="107" fWidth="60" fHeight="92" xoffset="13" yoffset="00" width="60" height="92"/>
+		<Frame id="14" fPosX="0073" fPosY="107" fWidth="61" fHeight="90" xoffset="12" yoffset="01" width="61" height="90"/>
+		<Frame id="15" fPosX="0141" fPosY="107" fWidth="60" fHeight="92" xoffset="13" yoffset="00" width="60" height="92"/>
+		<Frame id="16" fPosX="0208" fPosY="107" fWidth="60" fHeight="92" xoffset="14" yoffset="00" width="60" height="92"/>
+		<Frame id="17" fPosX="0275" fPosY="107" fWidth="60" fHeight="92" xoffset="13" yoffset="00" width="60" height="92"/>
+		<Frame id="18" fPosX="0342" fPosY="107" fWidth="70" fHeight="80" xoffset="13" yoffset="15" width="70" height="80"/>
+		<Frame id="19" fPosX="0419" fPosY="107" fWidth="67" fHeight="85" xoffset="24" yoffset="10" width="67" height="85"/>
+		<Frame id="20" fPosX="0493" fPosY="107" fWidth="71" fHeight="91" xoffset="27" yoffset="04" width="71" height="91"/>
+		<Frame id="21" fPosX="0571" fPosY="107" fWidth="77" fHeight="87" xoffset="27" yoffset="08" width="77" height="87"/>
+		<Frame id="22" fPosX="0655" fPosY="107" fWidth="74" fHeight="74" xoffset="28" yoffset="21" width="74" height="74"/>
+		<Frame id="23" fPosX="0736" fPosY="107" fWidth="73" fHeight="72" xoffset="30" yoffset="23" width="73" height="72"/>
+		<Frame id="24" fPosX="0816" fPosY="107" fWidth="74" fHeight="69" xoffset="31" yoffset="27" width="74" height="69"/>
+		<Frame id="25" fPosX="0897" fPosY="107" fWidth="70" fHeight="79" xoffset="30" yoffset="16" width="70" height="79"/>
+		<Frame id="26" fPosX="0974" fPosY="107" fWidth="73" fHeight="87" xoffset="29" yoffset="08" width="73" height="87"/>
+		<Frame id="27" fPosX="0006" fPosY="206" fWidth="70" fHeight="88" xoffset="28" yoffset="07" width="70" height="88"/>
+		<Frame id="28" fPosX="0083" fPosY="206" fWidth="61" fHeight="94" xoffset="19" yoffset="01" width="61" height="94"/>
+		<Frame id="29" fPosX="0151" fPosY="206" fWidth="61" fHeight="93" xoffset="19" yoffset="02" width="61" height="93"/>
+		<Frame id="30" fPosX="0219" fPosY="206" fWidth="61" fHeight="93" xoffset="19" yoffset="02" width="61" height="93"/>
+		<Frame id="31" fPosX="0287" fPosY="206" fWidth="61" fHeight="92" xoffset="19" yoffset="03" width="61" height="92"/>
+		<Frame id="32" fPosX="0355" fPosY="206" fWidth="61" fHeight="92" xoffset="19" yoffset="03" width="61" height="92"/>
+		<Frame id="33" fPosX="0423" fPosY="206" fWidth="61" fHeight="92" xoffset="19" yoffset="03" width="61" height="92"/>
+		<Frame id="34" fPosX="0491" fPosY="206" fWidth="61" fHeight="92" xoffset="19" yoffset="03" width="61" height="92"/>
+		<Frame id="35" fPosX="0559" fPosY="206" fWidth="61" fHeight="93" xoffset="19" yoffset="02" width="61" height="93"/>
+		<Frame id="36" fPosX="0627" fPosY="206" fWidth="61" fHeight="93" xoffset="19" yoffset="02" width="61" height="93"/>
+		<Frame id="37" fPosX="0695" fPosY="206" fWidth="61" fHeight="94" xoffset="19" yoffset="01" width="61" height="94"/>
+		<Frame id="38" fPosX="0763" fPosY="206" fWidth="61" fHeight="93" xoffset="26" yoffset="02" width="61" height="93"/>
+		<Frame id="39" fPosX="0831" fPosY="206" fWidth="61" fHeight="92" xoffset="19" yoffset="00" width="61" height="92"/>
+		<Frame id="40" fPosX="0899" fPosY="206" fWidth="61" fHeight="86" xoffset="12" yoffset="01" width="61" height="86"/>
+		<Frame id="41" fPosX="0967" fPosY="206" fWidth="61" fHeight="87" xoffset="12" yoffset="01" width="61" height="87"/>
+		<Frame id="42" fPosX="1035" fPosY="206" fWidth="61" fHeight="88" xoffset="12" yoffset="01" width="61" height="88"/>
+		<Frame id="43" fPosX="0006" fPosY="307" fWidth="61" fHeight="87" xoffset="12" yoffset="01" width="61" height="87"/>
+		<Frame id="44" fPosX="0074" fPosY="307" fWidth="61" fHeight="86" xoffset="12" yoffset="01" width="61" height="86"/>
+		<Frame id="45" fPosX="0142" fPosY="307" fWidth="61" fHeight="87" xoffset="12" yoffset="01" width="61" height="87"/>
+		<Frame id="46" fPosX="0210" fPosY="307" fWidth="61" fHeight="93" xoffset="26" yoffset="02" width="61" height="93"/>
+		<Frame id="47" fPosX="0278" fPosY="307" fWidth="62" fHeight="91" xoffset="27" yoffset="02" width="62" height="91"/>
+		<Frame id="48" fPosX="0347" fPosY="307" fWidth="61" fHeight="85" xoffset="29" yoffset="03" width="61" height="85"/>
+		<Frame id="49" fPosX="0415" fPosY="307" fWidth="62" fHeight="91" xoffset="27" yoffset="02" width="62" height="91"/>
+		<Frame id="50" fPosX="0484" fPosY="307" fWidth="61" fHeight="93" xoffset="26" yoffset="02" width="61" height="93"/>
+		<Frame id="51" fPosX="0552" fPosY="307" fWidth="61" fHeight="92" xoffset="27" yoffset="02" width="61" height="92"/>
+		<Frame id="52" fPosX="0620" fPosY="307" fWidth="61" fHeight="88" xoffset="29" yoffset="02" width="61" height="88"/>
+		<Frame id="53" fPosX="0688" fPosY="307" fWidth="61" fHeight="92" xoffset="27" yoffset="02" width="61" height="92"/>
+		<Frame id="54" fPosX="0756" fPosY="307" fWidth="67" fHeight="78" xoffset="03" yoffset="18" width="67" height="78"/>
+		<Frame id="55" fPosX="0830" fPosY="307" fWidth="67" fHeight="77" xoffset="03" yoffset="19" width="67" height="77"/>
+		<Frame id="56" fPosX="0904" fPosY="307" fWidth="67" fHeight="77" xoffset="03" yoffset="19" width="67" height="77"/>
+		<Frame id="57" fPosX="0978" fPosY="307" fWidth="67" fHeight="77" xoffset="03" yoffset="19" width="67" height="77"/>
+		<Frame id="58" fPosX="1052" fPosY="307" fWidth="67" fHeight="77" xoffset="03" yoffset="19" width="67" height="77"/>
+		<Frame id="59" fPosX="0006" fPosY="407" fWidth="67" fHeight="78" xoffset="03" yoffset="18" width="67" height="78"/>
+		<Frame id="60" fPosX="0080" fPosY="407" fWidth="67" fHeight="77" xoffset="03" yoffset="19" width="67" height="77"/>
+		<Frame id="61" fPosX="0154" fPosY="407" fWidth="67" fHeight="77" xoffset="03" yoffset="19" width="67" height="77"/>
+		<Frame id="62" fPosX="0228" fPosY="407" fWidth="67" fHeight="77" xoffset="03" yoffset="19" width="67" height="77"/>
+		<Frame id="63" fPosX="0302" fPosY="407" fWidth="67" fHeight="77" xoffset="03" yoffset="19" width="67" height="77"/>
+		<Frame id="64" fPosX="0376" fPosY="407" fWidth="61" fHeight="94" xoffset="19" yoffset="01" width="61" height="94"/>
+		<Frame id="65" fPosX="0444" fPosY="407" fWidth="61" fHeight="93" xoffset="19" yoffset="01" width="61" height="93"/>
+		<Frame id="66" fPosX="0512" fPosY="407" fWidth="61" fHeight="92" xoffset="19" yoffset="00" width="61" height="92"/>
+		<Frame id="67" fPosX="0580" fPosY="407" fWidth="61" fHeight="92" xoffset="19" yoffset="00" width="61" height="92"/>
+		<Frame id="68" fPosX="0648" fPosY="407" fWidth="61" fHeight="93" xoffset="19" yoffset="01" width="61" height="93"/>
+		<Frame id="69" fPosX="0716" fPosY="407" fWidth="61" fHeight="94" xoffset="19" yoffset="01" width="61" height="94"/>
+		<Frame id="70" fPosX="0784" fPosY="407" fWidth="61" fHeight="94" xoffset="19" yoffset="01" width="61" height="94"/>
+		<Frame id="71" fPosX="0852" fPosY="407" fWidth="61" fHeight="92" xoffset="19" yoffset="01" width="61" height="92"/>
+		<Frame id="72" fPosX="0920" fPosY="407" fWidth="61" fHeight="92" xoffset="19" yoffset="01" width="61" height="92"/>
+		<Frame id="73" fPosX="0988" fPosY="407" fWidth="61" fHeight="93" xoffset="19" yoffset="01" width="61" height="93"/>
+	</Form>
+	<Form id="50063" name="DogLeft" file="forms/DogLeft.png" width="1125" height="507" 
+            fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="74">
+		<Frame id="00" fPosX="0006" fPosY="006" fWidth="69" fHeight="79" xoffset="47" yoffset="14" width="69" height="79"/>
+		<Frame id="01" fPosX="0082" fPosY="006" fWidth="69" fHeight="88" xoffset="31" yoffset="05" width="69" height="88"/>
+		<Frame id="02" fPosX="0158" fPosY="006" fWidth="77" fHeight="89" xoffset="17" yoffset="05" width="77" height="89"/>
+		<Frame id="03" fPosX="0242" fPosY="006" fWidth="78" fHeight="71" xoffset="13" yoffset="23" width="78" height="71"/>
+		<Frame id="04" fPosX="0327" fPosY="006" fWidth="86" fHeight="73" xoffset="04" yoffset="21" width="86" height="73"/>
+		<Frame id="05" fPosX="0420" fPosY="006" fWidth="84" fHeight="66" xoffset="05" yoffset="27" width="84" height="66"/>
+		<Frame id="06" fPosX="0511" fPosY="006" fWidth="83" fHeight="64" xoffset="06" yoffset="29" width="83" height="64"/>
+		<Frame id="07" fPosX="0601" fPosY="006" fWidth="82" fHeight="62" xoffset="07" yoffset="31" width="82" height="62"/>
+		<Frame id="08" fPosX="0690" fPosY="006" fWidth="83" fHeight="63" xoffset="06" yoffset="31" width="83" height="63"/>
+		<Frame id="09" fPosX="0780" fPosY="006" fWidth="83" fHeight="63" xoffset="06" yoffset="31" width="83" height="63"/>
+		<Frame id="10" fPosX="0870" fPosY="006" fWidth="61" fHeight="88" xoffset="36" yoffset="01" width="61" height="88"/>
+		<Frame id="11" fPosX="0938" fPosY="006" fWidth="60" fHeight="94" xoffset="36" yoffset="00" width="60" height="94"/>
+		<Frame id="12" fPosX="1005" fPosY="006" fWidth="59" fHeight="92" xoffset="36" yoffset="00" width="59" height="92"/>
+		<Frame id="13" fPosX="0006" fPosY="107" fWidth="60" fHeight="92" xoffset="36" yoffset="00" width="60" height="92"/>
+		<Frame id="14" fPosX="0073" fPosY="107" fWidth="61" fHeight="90" xoffset="36" yoffset="01" width="61" height="90"/>
+		<Frame id="15" fPosX="0141" fPosY="107" fWidth="60" fHeight="92" xoffset="36" yoffset="00" width="60" height="92"/>
+		<Frame id="16" fPosX="0208" fPosY="107" fWidth="60" fHeight="92" xoffset="35" yoffset="00" width="60" height="92"/>
+		<Frame id="17" fPosX="0275" fPosY="107" fWidth="60" fHeight="92" xoffset="36" yoffset="00" width="60" height="92"/>
+		<Frame id="18" fPosX="0342" fPosY="107" fWidth="70" fHeight="80" xoffset="26" yoffset="15" width="70" height="80"/>
+		<Frame id="19" fPosX="0419" fPosY="107" fWidth="67" fHeight="85" xoffset="18" yoffset="10" width="67" height="85"/>
+		<Frame id="20" fPosX="0493" fPosY="107" fWidth="71" fHeight="91" xoffset="11" yoffset="04" width="71" height="91"/>
+		<Frame id="21" fPosX="0571" fPosY="107" fWidth="77" fHeight="87" xoffset="05" yoffset="08" width="77" height="87"/>
+		<Frame id="22" fPosX="0655" fPosY="107" fWidth="74" fHeight="74" xoffset="07" yoffset="21" width="74" height="74"/>
+		<Frame id="23" fPosX="0736" fPosY="107" fWidth="73" fHeight="72" xoffset="06" yoffset="23" width="73" height="72"/>
+		<Frame id="24" fPosX="0816" fPosY="107" fWidth="74" fHeight="69" xoffset="04" yoffset="27" width="74" height="69"/>
+		<Frame id="25" fPosX="0897" fPosY="107" fWidth="70" fHeight="79" xoffset="09" yoffset="16" width="70" height="79"/>
+		<Frame id="26" fPosX="0974" fPosY="107" fWidth="73" fHeight="87" xoffset="07" yoffset="08" width="73" height="87"/>
+		<Frame id="27" fPosX="0006" fPosY="206" fWidth="70" fHeight="88" xoffset="11" yoffset="07" width="70" height="88"/>
+		<Frame id="28" fPosX="0083" fPosY="206" fWidth="61" fHeight="94" xoffset="29" yoffset="01" width="61" height="94"/>
+		<Frame id="29" fPosX="0151" fPosY="206" fWidth="61" fHeight="93" xoffset="29" yoffset="02" width="61" height="93"/>
+		<Frame id="30" fPosX="0219" fPosY="206" fWidth="61" fHeight="93" xoffset="29" yoffset="02" width="61" height="93"/>
+		<Frame id="31" fPosX="0287" fPosY="206" fWidth="61" fHeight="92" xoffset="29" yoffset="03" width="61" height="92"/>
+		<Frame id="32" fPosX="0355" fPosY="206" fWidth="61" fHeight="92" xoffset="29" yoffset="03" width="61" height="92"/>
+		<Frame id="33" fPosX="0423" fPosY="206" fWidth="61" fHeight="92" xoffset="29" yoffset="03" width="61" height="92"/>
+		<Frame id="34" fPosX="0491" fPosY="206" fWidth="61" fHeight="92" xoffset="29" yoffset="03" width="61" height="92"/>
+		<Frame id="35" fPosX="0559" fPosY="206" fWidth="61" fHeight="93" xoffset="29" yoffset="02" width="61" height="93"/>
+		<Frame id="36" fPosX="0627" fPosY="206" fWidth="61" fHeight="93" xoffset="29" yoffset="02" width="61" height="93"/>
+		<Frame id="37" fPosX="0695" fPosY="206" fWidth="61" fHeight="94" xoffset="29" yoffset="01" width="61" height="94"/>
+		<Frame id="38" fPosX="0763" fPosY="206" fWidth="61" fHeight="93" xoffset="22" yoffset="02" width="61" height="93"/>
+		<Frame id="39" fPosX="0831" fPosY="206" fWidth="61" fHeight="92" xoffset="29" yoffset="00" width="61" height="92"/>
+		<Frame id="40" fPosX="0899" fPosY="206" fWidth="61" fHeight="86" xoffset="36" yoffset="01" width="61" height="86"/>
+		<Frame id="41" fPosX="0967" fPosY="206" fWidth="61" fHeight="87" xoffset="36" yoffset="01" width="61" height="87"/>
+		<Frame id="42" fPosX="1035" fPosY="206" fWidth="61" fHeight="88" xoffset="36" yoffset="01" width="61" height="88"/>
+		<Frame id="43" fPosX="0006" fPosY="307" fWidth="61" fHeight="87" xoffset="36" yoffset="01" width="61" height="87"/>
+		<Frame id="44" fPosX="0074" fPosY="307" fWidth="61" fHeight="86" xoffset="36" yoffset="01" width="61" height="86"/>
+		<Frame id="45" fPosX="0142" fPosY="307" fWidth="61" fHeight="87" xoffset="36" yoffset="01" width="61" height="87"/>
+		<Frame id="46" fPosX="0210" fPosY="307" fWidth="61" fHeight="93" xoffset="22" yoffset="02" width="61" height="93"/>
+		<Frame id="47" fPosX="0278" fPosY="307" fWidth="62" fHeight="91" xoffset="20" yoffset="02" width="62" height="91"/>
+		<Frame id="48" fPosX="0347" fPosY="307" fWidth="61" fHeight="85" xoffset="19" yoffset="03" width="61" height="85"/>
+		<Frame id="49" fPosX="0415" fPosY="307" fWidth="62" fHeight="91" xoffset="20" yoffset="02" width="62" height="91"/>
+		<Frame id="50" fPosX="0484" fPosY="307" fWidth="61" fHeight="93" xoffset="22" yoffset="02" width="61" height="93"/>
+		<Frame id="51" fPosX="0552" fPosY="307" fWidth="61" fHeight="92" xoffset="21" yoffset="02" width="61" height="92"/>
+		<Frame id="52" fPosX="0620" fPosY="307" fWidth="61" fHeight="88" xoffset="19" yoffset="02" width="61" height="88"/>
+		<Frame id="53" fPosX="0688" fPosY="307" fWidth="61" fHeight="92" xoffset="21" yoffset="02" width="61" height="92"/>
+		<Frame id="54" fPosX="0756" fPosY="307" fWidth="67" fHeight="78" xoffset="39" yoffset="18" width="67" height="78"/>
+		<Frame id="55" fPosX="0830" fPosY="307" fWidth="67" fHeight="77" xoffset="39" yoffset="19" width="67" height="77"/>
+		<Frame id="56" fPosX="0904" fPosY="307" fWidth="67" fHeight="77" xoffset="39" yoffset="19" width="67" height="77"/>
+		<Frame id="57" fPosX="0978" fPosY="307" fWidth="67" fHeight="77" xoffset="39" yoffset="19" width="67" height="77"/>
+		<Frame id="58" fPosX="1052" fPosY="307" fWidth="67" fHeight="77" xoffset="39" yoffset="19" width="67" height="77"/>
+		<Frame id="59" fPosX="0006" fPosY="407" fWidth="67" fHeight="78" xoffset="39" yoffset="18" width="67" height="78"/>
+		<Frame id="60" fPosX="0080" fPosY="407" fWidth="67" fHeight="77" xoffset="39" yoffset="19" width="67" height="77"/>
+		<Frame id="61" fPosX="0154" fPosY="407" fWidth="67" fHeight="77" xoffset="39" yoffset="19" width="67" height="77"/>
+		<Frame id="62" fPosX="0228" fPosY="407" fWidth="67" fHeight="77" xoffset="39" yoffset="19" width="67" height="77"/>
+		<Frame id="63" fPosX="0302" fPosY="407" fWidth="67" fHeight="77" xoffset="39" yoffset="19" width="67" height="77"/>
+		<Frame id="64" fPosX="0376" fPosY="407" fWidth="61" fHeight="94" xoffset="29" yoffset="01" width="61" height="94"/>
+		<Frame id="65" fPosX="0444" fPosY="407" fWidth="61" fHeight="93" xoffset="29" yoffset="01" width="61" height="93"/>
+		<Frame id="66" fPosX="0512" fPosY="407" fWidth="61" fHeight="92" xoffset="29" yoffset="00" width="61" height="92"/>
+		<Frame id="67" fPosX="0580" fPosY="407" fWidth="61" fHeight="92" xoffset="29" yoffset="00" width="61" height="92"/>
+		<Frame id="68" fPosX="0648" fPosY="407" fWidth="61" fHeight="93" xoffset="29" yoffset="01" width="61" height="93"/>
+		<Frame id="69" fPosX="0716" fPosY="407" fWidth="61" fHeight="94" xoffset="29" yoffset="01" width="61" height="94"/>
+		<Frame id="70" fPosX="0784" fPosY="407" fWidth="61" fHeight="94" xoffset="29" yoffset="01" width="61" height="94"/>
+		<Frame id="71" fPosX="0852" fPosY="407" fWidth="61" fHeight="92" xoffset="29" yoffset="01" width="61" height="92"/>
+		<Frame id="72" fPosX="0920" fPosY="407" fWidth="61" fHeight="92" xoffset="29" yoffset="01" width="61" height="92"/>
+		<Frame id="73" fPosX="0988" fPosY="407" fWidth="61" fHeight="93" xoffset="29" yoffset="01" width="61" height="93"/>
+	</Form>
+	
+	<!-- The robot -->
+	<Form id="50064" name="RobotRight" file="forms/RobotRight.png" width="1223" height="484" 
+            fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="82">
+		<Frame id="00" fPosX="0582" fPosY="001" fWidth="060" fHeight="096" xoffset="03" yoffset="04" width="060" height="096"/>
+		<Frame id="01" fPosX="0679" fPosY="295" fWidth="069" fHeight="094" xoffset="03" yoffset="10" width="069" height="094"/>
+		<Frame id="02" fPosX="0377" fPosY="399" fWidth="076" fHeight="083" xoffset="04" yoffset="16" width="076" height="083"/>
+		<Frame id="03" fPosX="1002" fPosY="278" fWidth="086" fHeight="074" xoffset="03" yoffset="25" width="086" height="074"/>
+		<Frame id="04" fPosX="1117" fPosY="407" fWidth="095" fHeight="066" xoffset="00" yoffset="33" width="095" height="066"/>
+		<Frame id="05" fPosX="0001" fPosY="419" fWidth="101" fHeight="059" xoffset="00" yoffset="42" width="101" height="059"/>
+		<Frame id="06" fPosX="0104" fPosY="418" fWidth="103" fHeight="051" xoffset="03" yoffset="50" width="103" height="051"/>
+		<Frame id="07" fPosX="1117" fPosY="001" fWidth="105" fHeight="049" xoffset="03" yoffset="52" width="105" height="049"/>
+		<Frame id="08" fPosX="1117" fPosY="052" fWidth="105" fHeight="049" xoffset="03" yoffset="52" width="105" height="049"/>
+		<Frame id="09" fPosX="1010" fPosY="430" fWidth="105" fHeight="049" xoffset="03" yoffset="52" width="105" height="049"/>
+		<Frame id="10" fPosX="0388" fPosY="100" fWidth="057" fHeight="097" xoffset="24" yoffset="09" width="057" height="097"/>
+		<Frame id="11" fPosX="0419" fPosY="199" fWidth="057" fHeight="097" xoffset="24" yoffset="09" width="057" height="097"/>
+		<Frame id="12" fPosX="0561" fPosY="295" fWidth="057" fHeight="096" xoffset="24" yoffset="10" width="057" height="096"/>
+		<Frame id="13" fPosX="0619" fPosY="197" fWidth="057" fHeight="096" xoffset="24" yoffset="10" width="057" height="096"/>
+		<Frame id="14" fPosX="0639" fPosY="099" fWidth="057" fHeight="096" xoffset="24" yoffset="10" width="057" height="096"/>
+		<Frame id="15" fPosX="0644" fPosY="001" fWidth="057" fHeight="096" xoffset="24" yoffset="10" width="057" height="096"/>
+		<Frame id="16" fPosX="0620" fPosY="295" fWidth="057" fHeight="096" xoffset="24" yoffset="10" width="057" height="096"/>
+		<Frame id="17" fPosX="0678" fPosY="197" fWidth="057" fHeight="096" xoffset="24" yoffset="10" width="057" height="096"/>
+		<Frame id="18" fPosX="0447" fPosY="100" fWidth="057" fHeight="097" xoffset="24" yoffset="09" width="057" height="097"/>
+		<Frame id="19" fPosX="0445" fPosY="001" fWidth="057" fHeight="097" xoffset="24" yoffset="09" width="057" height="097"/>
+		<Frame id="20" fPosX="0576" fPosY="099" fWidth="061" fHeight="096" xoffset="30" yoffset="11" width="061" height="096"/>
+		<Frame id="21" fPosX="0241" fPosY="101" fWidth="067" fHeight="098" xoffset="25" yoffset="11" width="067" height="098"/>
+		<Frame id="22" fPosX="0802" fPosY="001" fWidth="070" fHeight="092" xoffset="18" yoffset="10" width="070" height="092"/>
+		<Frame id="23" fPosX="0950" fPosY="094" fWidth="071" fHeight="091" xoffset="16" yoffset="10" width="071" height="091"/>
+		<Frame id="24" fPosX="0971" fPosY="187" fWidth="073" fHeight="089" xoffset="15" yoffset="10" width="073" height="089"/>
+		<Frame id="25" fPosX="0529" fPosY="395" fWidth="078" fHeight="085" xoffset="14" yoffset="10" width="078" height="085"/>
+		<Frame id="26" fPosX="0223" fPosY="001" fWidth="080" fHeight="098" xoffset="12" yoffset="10" width="080" height="098"/>
+		<Frame id="27" fPosX="0275" fPosY="201" fWidth="080" fHeight="097" xoffset="11" yoffset="10" width="080" height="097"/>
+		<Frame id="28" fPosX="0056" fPosY="315" fWidth="073" fHeight="101" xoffset="18" yoffset="10" width="073" height="101"/>
+		<Frame id="29" fPosX="0073" fPosY="211" fWidth="068" fHeight="100" xoffset="26" yoffset="11" width="068" height="100"/>
+		<Frame id="30" fPosX="0942" fPosY="373" fWidth="066" fHeight="089" xoffset="22" yoffset="13" width="066" height="089"/>
+		<Frame id="31" fPosX="0952" fPosY="001" fWidth="069" fHeight="091" xoffset="22" yoffset="11" width="069" height="091"/>
+		<Frame id="32" fPosX="0806" fPosY="191" fWidth="086" fHeight="091" xoffset="17" yoffset="10" width="086" height="091"/>
+		<Frame id="33" fPosX="0750" fPosY="292" fWidth="096" fHeight="091" xoffset="13" yoffset="10" width="096" height="091"/>
+		<Frame id="34" fPosX="0773" fPosY="385" fWidth="090" fHeight="091" xoffset="13" yoffset="10" width="090" height="091"/>
+		<Frame id="35" fPosX="0609" fPosY="393" fWidth="084" fHeight="090" xoffset="12" yoffset="10" width="084" height="090"/>
+		<Frame id="36" fPosX="0874" fPosY="001" fWidth="076" fHeight="091" xoffset="19" yoffset="10" width="076" height="091"/>
+		<Frame id="37" fPosX="0926" fPosY="281" fWidth="074" fHeight="090" xoffset="22" yoffset="11" width="074" height="090"/>
+		<Frame id="38" fPosX="0695" fPosY="391" fWidth="076" fHeight="092" xoffset="19" yoffset="10" width="076" height="092"/>
+		<Frame id="39" fPosX="0865" fPosY="377" fWidth="075" fHeight="090" xoffset="16" yoffset="10" width="075" height="090"/>
+		<Frame id="40" fPosX="0848" fPosY="284" fWidth="076" fHeight="091" xoffset="14" yoffset="10" width="076" height="091"/>
+		<Frame id="41" fPosX="0894" fPosY="188" fWidth="075" fHeight="091" xoffset="15" yoffset="10" width="075" height="091"/>
+		<Frame id="42" fPosX="0785" fPosY="097" fWidth="076" fHeight="092" xoffset="17" yoffset="10" width="076" height="092"/>
+		<Frame id="43" fPosX="0357" fPosY="200" fWidth="060" fHeight="097" xoffset="21" yoffset="09" width="060" height="097"/>
+		<Frame id="44" fPosX="0455" fPosY="396" fWidth="072" fHeight="087" xoffset="24" yoffset="18" width="072" height="087"/>
+		<Frame id="45" fPosX="0863" fPosY="095" fWidth="085" fHeight="091" xoffset="24" yoffset="14" width="085" height="091"/>
+		<Frame id="46" fPosX="0703" fPosY="001" fWidth="097" fHeight="094" xoffset="15" yoffset="11" width="097" height="094"/>
+		<Frame id="47" fPosX="0698" fPosY="099" fWidth="085" fHeight="095" xoffset="11" yoffset="10" width="085" height="095"/>
+		<Frame id="48" fPosX="0001" fPosY="001" fWidth="070" fHeight="104" xoffset="09" yoffset="01" width="070" height="104"/>
+		<Frame id="49" fPosX="0737" fPosY="196" fWidth="067" fHeight="094" xoffset="12" yoffset="11" width="067" height="094"/>
+		<Frame id="50" fPosX="0348" fPosY="300" fWidth="069" fHeight="097" xoffset="22" yoffset="09" width="069" height="097"/>
+		<Frame id="51" fPosX="0143" fPosY="206" fWidth="054" fHeight="099" xoffset="28" yoffset="09" width="054" height="099"/>
+		<Frame id="52" fPosX="0001" fPosY="315" fWidth="053" fHeight="102" xoffset="23" yoffset="09" width="053" height="102"/>
+		<Frame id="53" fPosX="0491" fPosY="297" fWidth="068" fHeight="096" xoffset="21" yoffset="09" width="068" height="096"/>
+		<Frame id="54" fPosX="0305" fPosY="001" fWidth="065" fHeight="098" xoffset="18" yoffset="09" width="065" height="098"/>
+		<Frame id="55" fPosX="0199" fPosY="302" fWidth="062" fHeight="098" xoffset="25" yoffset="09" width="062" height="098"/>
+		<Frame id="56" fPosX="0001" fPosY="211" fWidth="070" fHeight="102" xoffset="20" yoffset="09" width="070" height="102"/>
+		<Frame id="57" fPosX="0310" fPosY="101" fWidth="076" fHeight="097" xoffset="14" yoffset="09" width="076" height="097"/>
+		<Frame id="58" fPosX="0131" fPosY="313" fWidth="066" fHeight="099" xoffset="24" yoffset="09" width="066" height="099"/>
+		<Frame id="59" fPosX="0150" fPosY="001" fWidth="071" fHeight="099" xoffset="28" yoffset="09" width="071" height="099"/>
+		<Frame id="60" fPosX="0073" fPosY="001" fWidth="075" fHeight="102" xoffset="23" yoffset="09" width="075" height="102"/>
+		<Frame id="61" fPosX="0504" fPosY="001" fWidth="076" fHeight="096" xoffset="21" yoffset="09" width="076" height="096"/>
+		<Frame id="62" fPosX="0158" fPosY="102" fWidth="081" fHeight="098" xoffset="18" yoffset="09" width="081" height="098"/>
+		<Frame id="63" fPosX="0199" fPosY="202" fWidth="074" fHeight="098" xoffset="25" yoffset="09" width="074" height="098"/>
+		<Frame id="64" fPosX="0001" fPosY="107" fWidth="078" fHeight="102" xoffset="20" yoffset="09" width="078" height="102"/>
+		<Frame id="65" fPosX="0263" fPosY="302" fWidth="083" fHeight="097" xoffset="14" yoffset="09" width="083" height="097"/>
+		<Frame id="66" fPosX="0081" fPosY="105" fWidth="075" fHeight="099" xoffset="24" yoffset="09" width="075" height="099"/>
+		<Frame id="67" fPosX="0372" fPosY="001" fWidth="071" fHeight="097" xoffset="24" yoffset="09" width="071" height="097"/>
+		<Frame id="68" fPosX="0478" fPosY="199" fWidth="069" fHeight="096" xoffset="20" yoffset="09" width="069" height="096"/>
+		<Frame id="69" fPosX="0506" fPosY="099" fWidth="068" fHeight="096" xoffset="19" yoffset="09" width="068" height="096"/>
+		<Frame id="70" fPosX="0549" fPosY="197" fWidth="068" fHeight="096" xoffset="22" yoffset="09" width="068" height="096"/>
+		<Frame id="71" fPosX="0419" fPosY="298" fWidth="070" fHeight="096" xoffset="23" yoffset="09" width="070" height="096"/>
+		<Frame id="72" fPosX="1023" fPosY="001" fWidth="084" fHeight="073" xoffset="05" yoffset="33" width="084" height="073"/>
+		<Frame id="73" fPosX="1023" fPosY="103" fWidth="083" fHeight="074" xoffset="06" yoffset="32" width="083" height="074"/>
+		<Frame id="74" fPosX="1046" fPosY="179" fWidth="083" fHeight="074" xoffset="06" yoffset="32" width="083" height="074"/>
+		<Frame id="75" fPosX="0209" fPosY="402" fWidth="082" fHeight="075" xoffset="07" yoffset="31" width="082" height="075"/>
+		<Frame id="76" fPosX="0293" fPosY="401" fWidth="082" fHeight="075" xoffset="07" yoffset="31" width="082" height="075"/>
+		<Frame id="77" fPosX="1131" fPosY="179" fWidth="082" fHeight="074" xoffset="07" yoffset="32" width="082" height="074"/>
+		<Frame id="78" fPosX="1096" fPosY="331" fWidth="082" fHeight="074" xoffset="07" yoffset="32" width="082" height="074"/>
+		<Frame id="79" fPosX="1108" fPosY="103" fWidth="083" fHeight="074" xoffset="06" yoffset="32" width="083" height="074"/>
+		<Frame id="80" fPosX="1090" fPosY="255" fWidth="083" fHeight="074" xoffset="06" yoffset="32" width="083" height="074"/>
+		<Frame id="81" fPosX="1010" fPosY="354" fWidth="084" fHeight="074" xoffset="05" yoffset="32" width="084" height="074"/>
+	</Form>
+	<Form id="50065" name="RobotLeft" file="forms/RobotLeft.png" width="1223" height="484" 
+            fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="82">
+		<Frame id="00" fPosX="0582" fPosY="001" fWidth="060" fHeight="096" xoffset="49" yoffset="04" width="060" height="096"/>
+		<Frame id="01" fPosX="0679" fPosY="295" fWidth="069" fHeight="094" xoffset="40" yoffset="10" width="069" height="094"/>
+		<Frame id="02" fPosX="0377" fPosY="399" fWidth="076" fHeight="083" xoffset="32" yoffset="16" width="076" height="083"/>
+		<Frame id="03" fPosX="1002" fPosY="278" fWidth="086" fHeight="074" xoffset="23" yoffset="25" width="086" height="074"/>
+		<Frame id="04" fPosX="1117" fPosY="407" fWidth="095" fHeight="066" xoffset="17" yoffset="33" width="095" height="066"/>
+		<Frame id="05" fPosX="0001" fPosY="419" fWidth="101" fHeight="059" xoffset="11" yoffset="42" width="101" height="059"/>
+		<Frame id="06" fPosX="0104" fPosY="418" fWidth="103" fHeight="051" xoffset="06" yoffset="50" width="103" height="051"/>
+		<Frame id="07" fPosX="1117" fPosY="001" fWidth="105" fHeight="049" xoffset="04" yoffset="52" width="105" height="049"/>
+		<Frame id="08" fPosX="1117" fPosY="052" fWidth="105" fHeight="049" xoffset="04" yoffset="52" width="105" height="049"/>
+		<Frame id="09" fPosX="1010" fPosY="430" fWidth="105" fHeight="049" xoffset="04" yoffset="52" width="105" height="049"/>
+		<Frame id="10" fPosX="0388" fPosY="100" fWidth="057" fHeight="097" xoffset="32" yoffset="09" width="057" height="097"/>
+		<Frame id="11" fPosX="0419" fPosY="199" fWidth="057" fHeight="097" xoffset="32" yoffset="09" width="057" height="097"/>
+		<Frame id="12" fPosX="0561" fPosY="295" fWidth="057" fHeight="096" xoffset="32" yoffset="10" width="057" height="096"/>
+		<Frame id="13" fPosX="0619" fPosY="197" fWidth="057" fHeight="096" xoffset="32" yoffset="10" width="057" height="096"/>
+		<Frame id="14" fPosX="0639" fPosY="099" fWidth="057" fHeight="096" xoffset="32" yoffset="10" width="057" height="096"/>
+		<Frame id="15" fPosX="0644" fPosY="001" fWidth="057" fHeight="096" xoffset="32" yoffset="10" width="057" height="096"/>
+		<Frame id="16" fPosX="0620" fPosY="295" fWidth="057" fHeight="096" xoffset="32" yoffset="10" width="057" height="096"/>
+		<Frame id="17" fPosX="0678" fPosY="197" fWidth="057" fHeight="096" xoffset="32" yoffset="10" width="057" height="096"/>
+		<Frame id="18" fPosX="0447" fPosY="100" fWidth="057" fHeight="097" xoffset="32" yoffset="09" width="057" height="097"/>
+		<Frame id="19" fPosX="0445" fPosY="001" fWidth="057" fHeight="097" xoffset="32" yoffset="09" width="057" height="097"/>
+		<Frame id="20" fPosX="0576" fPosY="099" fWidth="061" fHeight="096" xoffset="22" yoffset="11" width="061" height="096"/>
+		<Frame id="21" fPosX="0241" fPosY="101" fWidth="067" fHeight="098" xoffset="21" yoffset="11" width="067" height="098"/>
+		<Frame id="22" fPosX="0802" fPosY="001" fWidth="070" fHeight="092" xoffset="25" yoffset="10" width="070" height="092"/>
+		<Frame id="23" fPosX="0950" fPosY="094" fWidth="071" fHeight="091" xoffset="26" yoffset="10" width="071" height="091"/>
+		<Frame id="24" fPosX="0971" fPosY="187" fWidth="073" fHeight="089" xoffset="25" yoffset="10" width="073" height="089"/>
+		<Frame id="25" fPosX="0529" fPosY="395" fWidth="078" fHeight="085" xoffset="21" yoffset="10" width="078" height="085"/>
+		<Frame id="26" fPosX="0223" fPosY="001" fWidth="080" fHeight="098" xoffset="21" yoffset="10" width="080" height="098"/>
+		<Frame id="27" fPosX="0275" fPosY="201" fWidth="080" fHeight="097" xoffset="22" yoffset="10" width="080" height="097"/>
+		<Frame id="28" fPosX="0056" fPosY="315" fWidth="073" fHeight="101" xoffset="22" yoffset="10" width="073" height="101"/>
+		<Frame id="29" fPosX="0073" fPosY="211" fWidth="068" fHeight="100" xoffset="19" yoffset="11" width="068" height="100"/>
+		<Frame id="30" fPosX="0942" fPosY="373" fWidth="066" fHeight="089" xoffset="25" yoffset="13" width="066" height="089"/>
+		<Frame id="31" fPosX="0952" fPosY="001" fWidth="069" fHeight="091" xoffset="22" yoffset="11" width="069" height="091"/>
+		<Frame id="32" fPosX="0806" fPosY="191" fWidth="086" fHeight="091" xoffset="10" yoffset="10" width="086" height="091"/>
+		<Frame id="33" fPosX="0750" fPosY="292" fWidth="096" fHeight="091" xoffset="04" yoffset="10" width="096" height="091"/>
+		<Frame id="34" fPosX="0773" fPosY="385" fWidth="090" fHeight="091" xoffset="10" yoffset="10" width="090" height="091"/>
+		<Frame id="35" fPosX="0609" fPosY="393" fWidth="084" fHeight="090" xoffset="17" yoffset="10" width="084" height="090"/>
+		<Frame id="36" fPosX="0874" fPosY="001" fWidth="076" fHeight="091" xoffset="18" yoffset="10" width="076" height="091"/>
+		<Frame id="37" fPosX="0926" fPosY="281" fWidth="074" fHeight="090" xoffset="17" yoffset="11" width="074" height="090"/>
+		<Frame id="38" fPosX="0695" fPosY="391" fWidth="076" fHeight="092" xoffset="18" yoffset="10" width="076" height="092"/>
+		<Frame id="39" fPosX="0865" fPosY="377" fWidth="075" fHeight="090" xoffset="22" yoffset="10" width="075" height="090"/>
+		<Frame id="40" fPosX="0848" fPosY="284" fWidth="076" fHeight="091" xoffset="23" yoffset="10" width="076" height="091"/>
+		<Frame id="41" fPosX="0894" fPosY="188" fWidth="075" fHeight="091" xoffset="23" yoffset="10" width="075" height="091"/>
+		<Frame id="42" fPosX="0785" fPosY="097" fWidth="076" fHeight="092" xoffset="20" yoffset="10" width="076" height="092"/>
+		<Frame id="43" fPosX="0357" fPosY="200" fWidth="060" fHeight="097" xoffset="32" yoffset="09" width="060" height="097"/>
+		<Frame id="44" fPosX="0455" fPosY="396" fWidth="072" fHeight="087" xoffset="17" yoffset="18" width="072" height="087"/>
+		<Frame id="45" fPosX="0863" fPosY="095" fWidth="085" fHeight="091" xoffset="04" yoffset="14" width="085" height="091"/>
+		<Frame id="46" fPosX="0703" fPosY="001" fWidth="097" fHeight="094" xoffset="01" yoffset="11" width="097" height="094"/>
+		<Frame id="47" fPosX="0698" fPosY="099" fWidth="085" fHeight="095" xoffset="17" yoffset="10" width="085" height="095"/>
+		<Frame id="48" fPosX="0001" fPosY="001" fWidth="070" fHeight="104" xoffset="34" yoffset="01" width="070" height="104"/>
+		<Frame id="49" fPosX="0737" fPosY="196" fWidth="067" fHeight="094" xoffset="34" yoffset="11" width="067" height="094"/>
+		<Frame id="50" fPosX="0348" fPosY="300" fWidth="069" fHeight="097" xoffset="22" yoffset="09" width="069" height="097"/>
+		<Frame id="51" fPosX="0143" fPosY="206" fWidth="054" fHeight="099" xoffset="31" yoffset="09" width="054" height="099"/>
+		<Frame id="52" fPosX="0001" fPosY="315" fWidth="053" fHeight="102" xoffset="37" yoffset="09" width="053" height="102"/>
+		<Frame id="53" fPosX="0491" fPosY="297" fWidth="068" fHeight="096" xoffset="24" yoffset="09" width="068" height="096"/>
+		<Frame id="54" fPosX="0305" fPosY="001" fWidth="065" fHeight="098" xoffset="30" yoffset="09" width="065" height="098"/>
+		<Frame id="55" fPosX="0199" fPosY="302" fWidth="062" fHeight="098" xoffset="26" yoffset="09" width="062" height="098"/>
+		<Frame id="56" fPosX="0001" fPosY="211" fWidth="070" fHeight="102" xoffset="23" yoffset="09" width="070" height="102"/>
+		<Frame id="57" fPosX="0310" fPosY="101" fWidth="076" fHeight="097" xoffset="23" yoffset="09" width="076" height="097"/>
+		<Frame id="58" fPosX="0131" fPosY="313" fWidth="066" fHeight="099" xoffset="23" yoffset="09" width="066" height="099"/>
+		<Frame id="59" fPosX="0150" fPosY="001" fWidth="071" fHeight="099" xoffset="14" yoffset="09" width="071" height="099"/>
+		<Frame id="60" fPosX="0073" fPosY="001" fWidth="075" fHeight="102" xoffset="15" yoffset="09" width="075" height="102"/>
+		<Frame id="61" fPosX="0504" fPosY="001" fWidth="076" fHeight="096" xoffset="16" yoffset="09" width="076" height="096"/>
+		<Frame id="62" fPosX="0158" fPosY="102" fWidth="081" fHeight="098" xoffset="14" yoffset="09" width="081" height="098"/>
+		<Frame id="63" fPosX="0199" fPosY="202" fWidth="074" fHeight="098" xoffset="14" yoffset="09" width="074" height="098"/>
+		<Frame id="64" fPosX="0001" fPosY="107" fWidth="078" fHeight="102" xoffset="15" yoffset="09" width="078" height="102"/>
+		<Frame id="65" fPosX="0263" fPosY="302" fWidth="083" fHeight="097" xoffset="16" yoffset="09" width="083" height="097"/>
+		<Frame id="66" fPosX="0081" fPosY="105" fWidth="075" fHeight="099" xoffset="14" yoffset="09" width="075" height="099"/>
+		<Frame id="67" fPosX="0372" fPosY="001" fWidth="071" fHeight="097" xoffset="18" yoffset="09" width="071" height="097"/>
+		<Frame id="68" fPosX="0478" fPosY="199" fWidth="069" fHeight="096" xoffset="24" yoffset="09" width="069" height="096"/>
+		<Frame id="69" fPosX="0506" fPosY="099" fWidth="068" fHeight="096" xoffset="26" yoffset="09" width="068" height="096"/>
+		<Frame id="70" fPosX="0549" fPosY="197" fWidth="068" fHeight="096" xoffset="23" yoffset="09" width="068" height="096"/>
+		<Frame id="71" fPosX="0419" fPosY="298" fWidth="070" fHeight="096" xoffset="20" yoffset="09" width="070" height="096"/>
+		<Frame id="72" fPosX="1023" fPosY="001" fWidth="084" fHeight="073" xoffset="24" yoffset="33" width="084" height="073"/>
+		<Frame id="73" fPosX="1023" fPosY="103" fWidth="083" fHeight="074" xoffset="24" yoffset="32" width="083" height="074"/>
+		<Frame id="74" fPosX="1046" fPosY="179" fWidth="083" fHeight="074" xoffset="24" yoffset="32" width="083" height="074"/>
+		<Frame id="75" fPosX="0209" fPosY="402" fWidth="082" fHeight="075" xoffset="24" yoffset="31" width="082" height="075"/>
+		<Frame id="76" fPosX="0293" fPosY="401" fWidth="082" fHeight="075" xoffset="24" yoffset="31" width="082" height="075"/>
+		<Frame id="77" fPosX="1131" fPosY="179" fWidth="082" fHeight="074" xoffset="24" yoffset="32" width="082" height="074"/>
+		<Frame id="78" fPosX="1096" fPosY="331" fWidth="082" fHeight="074" xoffset="24" yoffset="32" width="082" height="074"/>
+		<Frame id="79" fPosX="1108" fPosY="103" fWidth="083" fHeight="074" xoffset="24" yoffset="32" width="083" height="074"/>
+		<Frame id="80" fPosX="1090" fPosY="255" fWidth="083" fHeight="074" xoffset="24" yoffset="32" width="083" height="074"/>
+		<Frame id="81" fPosX="1010" fPosY="354" fWidth="084" fHeight="074" xoffset="24" yoffset="32" width="084" height="074"/>
+	</Form>
+	
+	<!-- Jack -->
+    <Form id="50066" name="JackRight" file="forms/JackRight.png" width="1955" height="410"
+		fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="58">
+		<Frame id="00" fPosX="1727" fPosY="001" fWidth="098" fHeight="129" xoffset="31" yoffset="19" width="098" height="129"/>
+		<Frame id="01" fPosX="0270" fPosY="299" fWidth="111" fHeight="110" xoffset="34" yoffset="38" width="111" height="110"/>
+		<Frame id="02" fPosX="0143" fPosY="300" fWidth="125" fHeight="099" xoffset="39" yoffset="50" width="125" height="099"/>
+		<Frame id="03" fPosX="0001" fPosY="304" fWidth="140" fHeight="099" xoffset="33" yoffset="53" width="140" height="099"/>
+		<Frame id="04" fPosX="1802" fPosY="195" fWidth="146" fHeight="092" xoffset="35" yoffset="58" width="146" height="092"/>
+		<Frame id="05" fPosX="1549" fPosY="282" fWidth="132" fHeight="095" xoffset="35" yoffset="58" width="132" height="095"/>
+		<Frame id="06" fPosX="1421" fPosY="287" fWidth="126" fHeight="096" xoffset="36" yoffset="55" width="126" height="096"/>
+		<Frame id="07" fPosX="1783" fPosY="289" fWidth="126" fHeight="095" xoffset="36" yoffset="55" width="126" height="095"/>
+		<Frame id="08" fPosX="1827" fPosY="098" fWidth="127" fHeight="095" xoffset="35" yoffset="55" width="127" height="095"/>
+		<Frame id="09" fPosX="1827" fPosY="001" fWidth="127" fHeight="095" xoffset="35" yoffset="55" width="127" height="095"/>
+		<Frame id="10" fPosX="0857" fPosY="001" fWidth="093" fHeight="143" xoffset="07" yoffset="06" width="093" height="143"/>
+		<Frame id="11" fPosX="0952" fPosY="001" fWidth="093" fHeight="143" xoffset="07" yoffset="06" width="093" height="143"/>
+		<Frame id="12" fPosX="1320" fPosY="145" fWidth="093" fHeight="142" xoffset="07" yoffset="07" width="093" height="142"/>
+		<Frame id="13" fPosX="1128" fPosY="145" fWidth="094" fHeight="142" xoffset="07" yoffset="07" width="094" height="142"/>
+		<Frame id="14" fPosX="1144" fPosY="001" fWidth="094" fHeight="142" xoffset="07" yoffset="07" width="094" height="142"/>
+		<Frame id="15" fPosX="1031" fPosY="146" fWidth="095" fHeight="142" xoffset="07" yoffset="07" width="095" height="142"/>
+		<Frame id="16" fPosX="1047" fPosY="001" fWidth="095" fHeight="142" xoffset="07" yoffset="07" width="095" height="142"/>
+		<Frame id="17" fPosX="1224" fPosY="145" fWidth="094" fHeight="142" xoffset="07" yoffset="07" width="094" height="142"/>
+		<Frame id="18" fPosX="1240" fPosY="001" fWidth="094" fHeight="142" xoffset="07" yoffset="07" width="094" height="142"/>
+		<Frame id="19" fPosX="0936" fPosY="146" fWidth="093" fHeight="143" xoffset="07" yoffset="06" width="093" height="143"/>
+		<Frame id="20" fPosX="0663" fPosY="001" fWidth="090" fHeight="144" xoffset="16" yoffset="07" width="090" height="144"/>
+		<Frame id="21" fPosX="0477" fPosY="001" fWidth="091" fHeight="145" xoffset="12" yoffset="05" width="091" height="145"/>
+		<Frame id="22" fPosX="1683" fPosY="272" fWidth="098" fHeight="130" xoffset="02" yoffset="04" width="098" height="130"/>
+		<Frame id="23" fPosX="1705" fPosY="134" fWidth="095" fHeight="130" xoffset="04" yoffset="04" width="095" height="130"/>
+		<Frame id="24" fPosX="1608" fPosY="139" fWidth="095" fHeight="131" xoffset="03" yoffset="03" width="095" height="131"/>
+		<Frame id="25" fPosX="1630" fPosY="001" fWidth="095" fHeight="131" xoffset="02" yoffset="03" width="095" height="131"/>
+		<Frame id="26" fPosX="0378" fPosY="001" fWidth="097" fHeight="145" xoffset="02" yoffset="05" width="097" height="145"/>
+		<Frame id="27" fPosX="0755" fPosY="001" fWidth="100" fHeight="143" xoffset="02" yoffset="06" width="100" height="143"/>
+		<Frame id="28" fPosX="1508" fPosY="142" fWidth="098" fHeight="138" xoffset="06" yoffset="07" width="098" height="138"/>
+		<Frame id="29" fPosX="1415" fPosY="145" fWidth="091" fHeight="140" xoffset="15" yoffset="08" width="091" height="140"/>
+		<Frame id="30" fPosX="0570" fPosY="001" fWidth="091" fHeight="144" xoffset="15" yoffset="06" width="091" height="144"/>
+		<Frame id="31" fPosX="0188" fPosY="150" fWidth="090" fHeight="147" xoffset="14" yoffset="06" width="090" height="147"/>
+		<Frame id="32" fPosX="1533" fPosY="001" fWidth="095" fHeight="136" xoffset="07" yoffset="06" width="095" height="136"/>
+		<Frame id="33" fPosX="1336" fPosY="001" fWidth="090" fHeight="142" xoffset="14" yoffset="06" width="090" height="142"/>
+		<Frame id="34" fPosX="0746" fPosY="147" fWidth="090" fHeight="144" xoffset="16" yoffset="07" width="090" height="144"/>
+		<Frame id="35" fPosX="0280" fPosY="001" fWidth="096" fHeight="146" xoffset="09" yoffset="06" width="096" height="146"/>
+		<Frame id="36" fPosX="1428" fPosY="001" fWidth="103" fHeight="139" xoffset="00" yoffset="06" width="103" height="139"/>
+		<Frame id="37" fPosX="0838" fPosY="146" fWidth="096" fHeight="143" xoffset="09" yoffset="06" width="096" height="143"/>
+		<Frame id="38" fPosX="0897" fPosY="291" fWidth="104" fHeight="110" xoffset="00" yoffset="02" width="104" height="110"/>
+		<Frame id="39" fPosX="1108" fPosY="290" fWidth="103" fHeight="110" xoffset="01" yoffset="02" width="103" height="110"/>
+		<Frame id="40" fPosX="1213" fPosY="289" fWidth="102" fHeight="110" xoffset="02" yoffset="02" width="102" height="110"/>
+		<Frame id="41" fPosX="0485" fPosY="295" fWidth="101" fHeight="111" xoffset="03" yoffset="01" width="101" height="111"/>
+		<Frame id="42" fPosX="0588" fPosY="295" fWidth="101" fHeight="111" xoffset="03" yoffset="01" width="101" height="111"/>
+		<Frame id="43" fPosX="0383" fPosY="297" fWidth="100" fHeight="112" xoffset="04" yoffset="00" width="100" height="112"/>
+		<Frame id="44" fPosX="0691" fPosY="293" fWidth="101" fHeight="111" xoffset="03" yoffset="01" width="101" height="111"/>
+		<Frame id="45" fPosX="0794" fPosY="293" fWidth="101" fHeight="111" xoffset="03" yoffset="01" width="101" height="111"/>
+		<Frame id="46" fPosX="1317" fPosY="289" fWidth="102" fHeight="110" xoffset="02" yoffset="02" width="102" height="110"/>
+		<Frame id="47" fPosX="1003" fPosY="291" fWidth="103" fHeight="110" xoffset="01" yoffset="02" width="103" height="110"/>
+		<Frame id="48" fPosX="0094" fPosY="151" fWidth="092" fHeight="147" xoffset="07" yoffset="03" width="092" height="147"/>
+		<Frame id="49" fPosX="0001" fPosY="153" fWidth="091" fHeight="149" xoffset="07" yoffset="04" width="091" height="149"/>
+		<Frame id="50" fPosX="0280" fPosY="149" fWidth="091" fHeight="146" xoffset="07" yoffset="05" width="091" height="146"/>
+		<Frame id="51" fPosX="0653" fPosY="147" fWidth="091" fHeight="144" xoffset="07" yoffset="05" width="091" height="144"/>
+		<Frame id="52" fPosX="0373" fPosY="149" fWidth="091" fHeight="146" xoffset="07" yoffset="04" width="091" height="146"/>
+		<Frame id="53" fPosX="0466" fPosY="148" fWidth="092" fHeight="145" xoffset="07" yoffset="03" width="092" height="145"/>
+		<Frame id="54" fPosX="0001" fPosY="001" fWidth="091" fHeight="150" xoffset="07" yoffset="03" width="091" height="150"/>
+		<Frame id="55" fPosX="0187" fPosY="001" fWidth="091" fHeight="147" xoffset="07" yoffset="04" width="091" height="147"/>
+		<Frame id="56" fPosX="0560" fPosY="148" fWidth="091" fHeight="145" xoffset="07" yoffset="04" width="091" height="145"/>
+		<Frame id="57" fPosX="0094" fPosY="001" fWidth="091" fHeight="148" xoffset="07" yoffset="03" width="091" height="148"/>
+	</Form>
+    <Form id="50067" name="JackLeft" file="forms/JackLeft.png" width="1955" height="410"
+		fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="58">
+		<Frame id="00" fPosX="1727" fPosY="001" fWidth="098" fHeight="129" xoffset="31" yoffset="19" width="098" height="129"/>
+		<Frame id="01" fPosX="0270" fPosY="299" fWidth="111" fHeight="110" xoffset="34" yoffset="38" width="111" height="110"/>
+		<Frame id="02" fPosX="0143" fPosY="300" fWidth="125" fHeight="099" xoffset="39" yoffset="50" width="125" height="099"/>
+		<Frame id="03" fPosX="0001" fPosY="304" fWidth="140" fHeight="099" xoffset="33" yoffset="53" width="140" height="099"/>
+		<Frame id="04" fPosX="1802" fPosY="195" fWidth="146" fHeight="092" xoffset="35" yoffset="58" width="146" height="092"/>
+		<Frame id="05" fPosX="1549" fPosY="282" fWidth="132" fHeight="095" xoffset="35" yoffset="58" width="132" height="095"/>
+		<Frame id="06" fPosX="1421" fPosY="287" fWidth="126" fHeight="096" xoffset="36" yoffset="55" width="126" height="096"/>
+		<Frame id="07" fPosX="1783" fPosY="289" fWidth="126" fHeight="095" xoffset="36" yoffset="55" width="126" height="095"/>
+		<Frame id="08" fPosX="1827" fPosY="098" fWidth="127" fHeight="095" xoffset="35" yoffset="55" width="127" height="095"/>
+		<Frame id="09" fPosX="1827" fPosY="001" fWidth="127" fHeight="095" xoffset="35" yoffset="55" width="127" height="095"/>
+		<Frame id="10" fPosX="0857" fPosY="001" fWidth="093" fHeight="143" xoffset="07" yoffset="06" width="093" height="143"/>
+		<Frame id="11" fPosX="0952" fPosY="001" fWidth="093" fHeight="143" xoffset="07" yoffset="06" width="093" height="143"/>
+		<Frame id="12" fPosX="1320" fPosY="145" fWidth="093" fHeight="142" xoffset="07" yoffset="07" width="093" height="142"/>
+		<Frame id="13" fPosX="1128" fPosY="145" fWidth="094" fHeight="142" xoffset="07" yoffset="07" width="094" height="142"/>
+		<Frame id="14" fPosX="1144" fPosY="001" fWidth="094" fHeight="142" xoffset="07" yoffset="07" width="094" height="142"/>
+		<Frame id="15" fPosX="1031" fPosY="146" fWidth="095" fHeight="142" xoffset="07" yoffset="07" width="095" height="142"/>
+		<Frame id="16" fPosX="1047" fPosY="001" fWidth="095" fHeight="142" xoffset="07" yoffset="07" width="095" height="142"/>
+		<Frame id="17" fPosX="1224" fPosY="145" fWidth="094" fHeight="142" xoffset="07" yoffset="07" width="094" height="142"/>
+		<Frame id="18" fPosX="1240" fPosY="001" fWidth="094" fHeight="142" xoffset="07" yoffset="07" width="094" height="142"/>
+		<Frame id="19" fPosX="0936" fPosY="146" fWidth="093" fHeight="143" xoffset="07" yoffset="06" width="093" height="143"/>
+		<Frame id="20" fPosX="0663" fPosY="001" fWidth="090" fHeight="144" xoffset="16" yoffset="07" width="090" height="144"/>
+		<Frame id="21" fPosX="0477" fPosY="001" fWidth="091" fHeight="145" xoffset="12" yoffset="05" width="091" height="145"/>
+		<Frame id="22" fPosX="1683" fPosY="272" fWidth="098" fHeight="130" xoffset="02" yoffset="04" width="098" height="130"/>
+		<Frame id="23" fPosX="1705" fPosY="134" fWidth="095" fHeight="130" xoffset="04" yoffset="04" width="095" height="130"/>
+		<Frame id="24" fPosX="1608" fPosY="139" fWidth="095" fHeight="131" xoffset="03" yoffset="03" width="095" height="131"/>
+		<Frame id="25" fPosX="1630" fPosY="001" fWidth="095" fHeight="131" xoffset="02" yoffset="03" width="095" height="131"/>
+		<Frame id="26" fPosX="0378" fPosY="001" fWidth="097" fHeight="145" xoffset="02" yoffset="05" width="097" height="145"/>
+		<Frame id="27" fPosX="0755" fPosY="001" fWidth="100" fHeight="143" xoffset="02" yoffset="06" width="100" height="143"/>
+		<Frame id="28" fPosX="1508" fPosY="142" fWidth="098" fHeight="138" xoffset="06" yoffset="07" width="098" height="138"/>
+		<Frame id="29" fPosX="1415" fPosY="145" fWidth="091" fHeight="140" xoffset="15" yoffset="08" width="091" height="140"/>
+		<Frame id="30" fPosX="0570" fPosY="001" fWidth="091" fHeight="144" xoffset="15" yoffset="06" width="091" height="144"/>
+		<Frame id="31" fPosX="0188" fPosY="150" fWidth="090" fHeight="147" xoffset="14" yoffset="06" width="090" height="147"/>
+		<Frame id="32" fPosX="1533" fPosY="001" fWidth="095" fHeight="136" xoffset="07" yoffset="06" width="095" height="136"/>
+		<Frame id="33" fPosX="1336" fPosY="001" fWidth="090" fHeight="142" xoffset="14" yoffset="06" width="090" height="142"/>
+		<Frame id="34" fPosX="0746" fPosY="147" fWidth="090" fHeight="144" xoffset="16" yoffset="07" width="090" height="144"/>
+		<Frame id="35" fPosX="0280" fPosY="001" fWidth="096" fHeight="146" xoffset="09" yoffset="06" width="096" height="146"/>
+		<Frame id="36" fPosX="1428" fPosY="001" fWidth="103" fHeight="139" xoffset="00" yoffset="06" width="103" height="139"/>
+		<Frame id="37" fPosX="0838" fPosY="146" fWidth="096" fHeight="143" xoffset="09" yoffset="06" width="096" height="143"/>
+		<Frame id="38" fPosX="0897" fPosY="291" fWidth="104" fHeight="110" xoffset="00" yoffset="02" width="104" height="110"/>
+		<Frame id="39" fPosX="1108" fPosY="290" fWidth="103" fHeight="110" xoffset="01" yoffset="02" width="103" height="110"/>
+		<Frame id="40" fPosX="1213" fPosY="289" fWidth="102" fHeight="110" xoffset="02" yoffset="02" width="102" height="110"/>
+		<Frame id="41" fPosX="0485" fPosY="295" fWidth="101" fHeight="111" xoffset="03" yoffset="01" width="101" height="111"/>
+		<Frame id="42" fPosX="0588" fPosY="295" fWidth="101" fHeight="111" xoffset="03" yoffset="01" width="101" height="111"/>
+		<Frame id="43" fPosX="0383" fPosY="297" fWidth="100" fHeight="112" xoffset="04" yoffset="00" width="100" height="112"/>
+		<Frame id="44" fPosX="0691" fPosY="293" fWidth="101" fHeight="111" xoffset="03" yoffset="01" width="101" height="111"/>
+		<Frame id="45" fPosX="0794" fPosY="293" fWidth="101" fHeight="111" xoffset="03" yoffset="01" width="101" height="111"/>
+		<Frame id="46" fPosX="1317" fPosY="289" fWidth="102" fHeight="110" xoffset="02" yoffset="02" width="102" height="110"/>
+		<Frame id="47" fPosX="1003" fPosY="291" fWidth="103" fHeight="110" xoffset="01" yoffset="02" width="103" height="110"/>
+		<Frame id="48" fPosX="0094" fPosY="151" fWidth="092" fHeight="147" xoffset="07" yoffset="03" width="092" height="147"/>
+		<Frame id="49" fPosX="0001" fPosY="153" fWidth="091" fHeight="149" xoffset="07" yoffset="04" width="091" height="149"/>
+		<Frame id="50" fPosX="0280" fPosY="149" fWidth="091" fHeight="146" xoffset="07" yoffset="05" width="091" height="146"/>
+		<Frame id="51" fPosX="0653" fPosY="147" fWidth="091" fHeight="144" xoffset="07" yoffset="05" width="091" height="144"/>
+		<Frame id="52" fPosX="0373" fPosY="149" fWidth="091" fHeight="146" xoffset="07" yoffset="04" width="091" height="146"/>
+		<Frame id="53" fPosX="0466" fPosY="148" fWidth="092" fHeight="145" xoffset="07" yoffset="03" width="092" height="145"/>
+		<Frame id="54" fPosX="0001" fPosY="001" fWidth="091" fHeight="150" xoffset="07" yoffset="03" width="091" height="150"/>
+		<Frame id="55" fPosX="0187" fPosY="001" fWidth="091" fHeight="147" xoffset="07" yoffset="04" width="091" height="147"/>
+		<Frame id="56" fPosX="0560" fPosY="148" fWidth="091" fHeight="145" xoffset="07" yoffset="04" width="091" height="145"/>
+		<Frame id="57" fPosX="0094" fPosY="001" fWidth="091" fHeight="148" xoffset="07" yoffset="03" width="091" height="148"/>
+	</Form>
+	<!-- -->
+	
+	<!-- The bee -->
+	<Form id="50090" name="Bee" file="forms/bee.png" width="300" height="100" 
+            fSpacing="0" fMargin="0" fWidth="50" fHeight="50" aColor="255" nFrames="12"/>
+	<!-- -->
+	
+	<!-- The bird -->
+	<Form id="50091" name="Bird" file="forms/bird.png" width="560" height="94" 
+            fSpacing="0" fMargin="0" fWidth="70" fHeight="47" aColor="255" nFrames="16"/>
+	<!-- -->
+	
+	<!-- -->
+	<!-- The forms used as default background in the game while playing -->
+	<!-- In the dessert -->
+	<Form id="50100" name="Dessert0" file="forms/BKDessert0.png" width="1600" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1600" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50101" name="Dessert1" file="forms/BKDessert1.png" width="1600" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1600" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50102" name="Dessert2" file="forms/BKDessert2.png" width="1600" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1600" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50103" name="Dessert3" file="forms/BKDessert3.png" width="1600" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1600" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50104" name="Dessert4" file="forms/BKDessert4.png" width="1600" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1600" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50105" name="Dessert4" file="forms/BKDessert5.png" width="1600" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1600" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50106" name="Dessert4" file="forms/BKDessert6.png" width="1600" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1600" fHeight="600" aColor="255" nFrames="1"/>
+	<!-- In the Dark Forest -->
+	<Form id="50110" name="DarkForest0" file="forms/BKDarkForest0.png" width="1067" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1067" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50111" name="DarkForest1" file="forms/BKDarkForest1.png" width="1067" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1067" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50112" name="DarkForest2" file="forms/BKDarkForest2.png" width="1067" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1067" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50113" name="DarkForest3" file="forms/BKDarkForest3.png" width="1067" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1067" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50114" name="DarkForest4" file="forms/BKDarkForest4.png" width="1067" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1067" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50115" name="DarkForest5" file="forms/BKDarkForest5.png" width="1067" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1067" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50116" name="DarkForest6" file="forms/BKDarkForest6.png" width="1067" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1067" fHeight="600" aColor="255" nFrames="1"/>
+	<!-- In the City -->
+	<Form id="50120" name="City0" file="forms/BKCity0.png" width="1067" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1067" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50121" name="City1" file="forms/BKCity1.png" width="1067" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1067" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50122" name="City2" file="forms/BKCity2.png" width="1067" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1067" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50123" name="City3" file="forms/BKCity3.png" width="1067" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1067" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50124" name="City4" file="forms/BKCity4.png" width="1067" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1067" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50125" name="City5" file="forms/BKCity5.png" width="1067" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1067" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50126" name="City6" file="forms/BKCity6.png" width="1067" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1067" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50127" name="City7" file="forms/BKCity7.png" width="1067" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1067" fHeight="600" aColor="255" nFrames="1"/>
+	<!-- In the Landscape -->
+	<Form id="50130" name="Landscape0" file="forms/BKLandscape0.png" width="1978" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1978" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50131" name="Landscape1" file="forms/BKLandscape1.png" width="1978" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1978" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50132" name="Landscape2" file="forms/BKLandscape2.png" width="1978" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1978" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50133" name="Landscape3" file="forms/BKLandscape3.png" width="1978" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1978" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50134" name="Landscape4" file="forms/BKLandscape4.png" width="1978" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1978" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50135" name="Landscape5" file="forms/BKLandscape5.png" width="1978" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1978" fHeight="600" aColor="255" nFrames="1"/>
+	<!-- In the mountains -->
+	<Form id="50140" name="Mountains0" file="forms/BKMountains0.png" width="1067" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1067" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50141" name="Mountains1" file="forms/BKMountains1.png" width="1067" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1067" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50142" name="Mountains2" file="forms/BKMountains2.png" width="1067" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1067" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50143" name="Mountains3" file="forms/BKMountains3.png" width="1067" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1067" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50144" name="Mountains4" file="forms/BKMountains4.png" width="1067" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1067" fHeight="600" aColor="255" nFrames="1"/>
+	<!-- In the temple -->
+	<Form id="50150" name="Temple0" file="forms/BKTemple0.png" width="1600" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1600" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50151" name="Temple1" file="forms/BKTemple1.png" width="1600" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1600" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50152" name="Temple2" file="forms/BKTemple2.png" width="1600" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1600" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50153" name="Temple3" file="forms/BKTemple3.png" width="1600" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1600" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50154" name="Temple3" file="forms/BKTemple4.png" width="1600" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1600" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50155" name="Temple3" file="forms/BKTemple5.png" width="1600" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1600" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50156" name="Temple3" file="forms/BKTemple6.png" width="1600" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1600" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="50157" name="Temple3" file="forms/BKTemple7.png" width="1600" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1600" fHeight="600" aColor="255" nFrames="1"/>
+	<!-- -->
+	
+	<!-- A simple dark background
+		 It is usually used when simulating environmental wheather effects -->
+	<Form id="50160" name="DarkBackground" file="forms/BlankBackground.png" width="1000" height="1000" 
+						fSpacing="0" fMargin="0" fWidth="1000" fHeight="1000" aColor="255" nFrames="1"/>
+	
+</Forms>

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Objects>
+<!--	<Image id="XX" form="./XXX.jpg"> -->
+<!--		<Attributes> -->
+<!-- 			<Attribute id="X" value="X"/> -->
+<!--      ... -->
+<!--		</Attributes> -->
+<!--	</Image> -->
+<!--	<Polyline id="X" color="X,X,X,X"> -->
+<!--		<Point X="X" Y="X" Z="X"/> -->
+<!--    ... -->
+<!--		<Attributes> -->
+<!-- 			<Attribute id="X" value="X"/> -->
+<!--      ... -->
+<!--		</Attributes> -->
+<!--  </Polyline> -->
+<!--	<Polylgone id="X" color="X,X,X,X"> -->
+<!--		<Point X="X" Y="X" Z="X"/> -->
+<!--    ... -->
+<!--		<Attributes> -->
+<!-- 			<Attribute id="X" value="X"/> -->
+<!--      ... -->
+<!--		</Attributes> -->
+<!--  </Polygone> -->
+<!-- <Ellipse id="X" vX="X" vY="X" vZ="X" r1="X" r2="X" color="X,X,X,X"> -->
+<!--		<Attributes> -->
+<!-- 			<Attribute id="X" value="X"/> -->
+<!--      ... -->
+<!--		</Attributes> -->
+<!-- </Ellipse> -->
+<!--	<Composite id="X" X="X" Y="X" Z="X"> -->
+<!--		<Element id="1"/> -->
+<!--    ... -->
+<!--		<Attributes> -->
+<!-- 			<Attribute id="X" value="X"/> -->
+<!--      ... -->
+<!--		</Attributes> -->
+<!--  </Composite> -->
+</Objects>

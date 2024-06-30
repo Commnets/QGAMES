@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Sounds>
+
+	<Include file="adsounds.xml"/>
+	
+	<!-- Presentation sounds -->
+	<Sound id="100" type="1" loop="-1" file="sounds/BackgroundMusic1.wav"/>
+	<Sound id="101" type="1" loop="-1" file="sounds/BackgroundMusic4.wav"/>
+	<Sound id="102" type="1" loop="-1" file="sounds/BackgroundMusic5.wav"/>
+	<Sound id="103" type="1" loop="-1" file="sounds/BackgroundMusic2.wav"/>
+	<Sound id="104" type="1" loop="00" file="sounds/playerdies5.wav"/>
+	<Sound id="105" type="1" loop="00" file="sounds/endoflevel.wav"/>
+	<Sound id="106" type="1" loop="00" file="sounds/gameover2.wav"/>
+	<Sound id="107" type="1" loop="00" file="sounds/fire.wav"/>
+	
+</Sounds>

@@ -1,0 +1,619 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Configuration">
+      <UniqueIdentifier>{35db46a0-c187-4eec-98aa-10102a16d655}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{980d3990-706b-4c7c-aba5-2cb7aa66ffd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Forms">
+      <UniqueIdentifier>{8b596cd7-19da-420c-b319-63adbd026962}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Maps">
+      <UniqueIdentifier>{30587817-2fb8-4f77-a590-4c70a6f5d546}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Sounds">
+      <UniqueIdentifier>{b55fa731-cb8b-4dcc-8019-56662eae85ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Forms\Sources">
+      <UniqueIdentifier>{b9b4e701-cd8e-4a16-80eb-56cc5293f1e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Maps\Maps">
+      <UniqueIdentifier>{7eab17b6-76be-4570-b14d-6d8b14c8ce09}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Defs.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TestPacMan.rc">
+      <Filter>Archivos de recursos</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="GameIcon.ico">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="forms\24NewTourBlue.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\24NewTourGreen.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\24NewTourRed.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\24NewTourYellow.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\36NewTourBlue.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\36NewTourGreen.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\36NewTourRed.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\36NewTourYellow.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\48NewTourBlue.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\48NewTourGreen.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\48NewTourRed.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\48NewTourYellow.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\background.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BallRolling.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BlueEnergyBar.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\bubbles1.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\bubbles2.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\chompersprites.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\cloud1.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\cloud2.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\cloud3.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Commnets.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\CommnetsBig.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\CommnetsIcon.ico">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\CommnetsIcon.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\CommnetsIconLittle.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\CountDown32.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\CountDown60.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\CountDown88.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\CountDown116.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\CountDown144.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\CountDown172.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\CountDown200.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\CountDown228.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\CountDown256.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Courier10Black.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Courier10White.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\fruits.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\giantpacman.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\greenball.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\GreenEnergyBar.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ManyManyMonsters.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ManyMonsters.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\MonstersAfterPacman.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\MonstersAndPacman.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\MonstersInMaze.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\MonstersLeft.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\MonstersRight.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\NecklaceBallsRolling.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\pacmanloading.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\pacmanlogo.ico">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\pacmanlogo.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\rainbow.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\raindrop.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Ravie12Blue.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Ravie12Green.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Ravie12Orange.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Ravie24Blue.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Ravie24Green.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Ravie24Orange.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Ravie36Blue.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Ravie36Green.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Ravie36Orange.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Ravie72Blue.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Ravie72Green.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Ravie72Orange.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\redball.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\RedEnergyBar.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\SegmentRolling.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic24Blue.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic24Brown.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic24Green.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic24Red.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic24Yellow.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic32Blue.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic32Brown.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic32Green.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic32Red.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic32Yellow.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic36Blue.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic36Brown.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic36Green.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic36Red.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic36Yellow.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic64Blue.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic64Brown.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic64Green.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic64Red.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic64Yellow.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic72Blue.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic72Brown.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic72Green.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic72Red.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic72Yellow.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\windtrace.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\YellowEnergyBar.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="maps\chompermazetiles.png">
+      <Filter>Data\Maps</Filter>
+    </Image>
+    <Image Include="maps\chompermazetiles_blue.png">
+      <Filter>Data\Maps</Filter>
+    </Image>
+    <Image Include="maps\chompermazetiles_green.png">
+      <Filter>Data\Maps</Filter>
+    </Image>
+    <Image Include="maps\chompermazetiles_red.png">
+      <Filter>Data\Maps</Filter>
+    </Image>
+    <Image Include="maps\chompermazetiles_yellow.png">
+      <Filter>Data\Maps</Filter>
+    </Image>
+    <Image Include="maps\location.png">
+      <Filter>Data\Maps</Filter>
+    </Image>
+    <Image Include="maps\mazedirs.png">
+      <Filter>Data\Maps</Filter>
+    </Image>
+    <Image Include="maps\mazezones.png">
+      <Filter>Data\Maps</Filter>
+    </Image>
+    <Image Include="maps\maps\chompermazetiles.png">
+      <Filter>Data\Maps\Maps</Filter>
+    </Image>
+    <Image Include="maps\maps\chompermazetiles_blue.png">
+      <Filter>Data\Maps\Maps</Filter>
+    </Image>
+    <Image Include="maps\maps\chompermazetiles_green.png">
+      <Filter>Data\Maps\Maps</Filter>
+    </Image>
+    <Image Include="maps\maps\chompermazetiles_red.png">
+      <Filter>Data\Maps\Maps</Filter>
+    </Image>
+    <Image Include="maps\maps\chompermazetiles_yellow.png">
+      <Filter>Data\Maps\Maps</Filter>
+    </Image>
+    <Image Include="maps\maps\location.png">
+      <Filter>Data\Maps\Maps</Filter>
+    </Image>
+    <Image Include="maps\maps\mazedirs.png">
+      <Filter>Data\Maps\Maps</Filter>
+    </Image>
+    <Image Include="maps\maps\mazezones.png">
+      <Filter>Data\Maps\Maps</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="adconf.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="adentities.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="adforms.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="adgamestates.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="adguisystem.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="admaps.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="admonitor.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="admovements.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="adobjects.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="adsounds.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="adworlds.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="conf.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="entities.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="forms.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="gamestates.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="guisystem.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="maps.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="monitor.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="movements.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="objects.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="pcconf.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="pcentities.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="pcforms.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="pcgamestates.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="pcguisystem.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="pcletters.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="pcmaps.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="pcmonitor.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="pcmovements.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="pcobjects.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="pcsounds.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="pcworlds.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="sounds.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="worlds.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="sounds\beep.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\catch.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\earthquake.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\eat.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\explosion.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\gamesaved.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\hurt.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\jump.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacman_beginning.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacman_chomp.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacman_chomp_short.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacman_death.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacman_eatfruit.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacman_eatghost.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacman_extrapac.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacman_intermission.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacman_siren.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacman_siren_fast.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacman_siren_veryfast.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacman_threatening.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacmanIIgameoverbackground.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacmanIIhalloffamebackground.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacmanIImenubackground.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacmanIIwinbackground.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\rain.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\throw.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\thunder.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\wick.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\wind.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="maps\empty.tmx">
+      <Filter>Data\Maps</Filter>
+    </None>
+    <None Include="maps\map.tmx">
+      <Filter>Data\Maps</Filter>
+    </None>
+    <None Include="maps\maptest.tmx">
+      <Filter>Data\Maps</Filter>
+    </None>
+    <None Include="maps\normalmap_blue.tmx">
+      <Filter>Data\Maps</Filter>
+    </None>
+    <None Include="maps\normalmap_green.tmx">
+      <Filter>Data\Maps</Filter>
+    </None>
+    <None Include="maps\normalmap_red.tmx">
+      <Filter>Data\Maps</Filter>
+    </None>
+    <None Include="maps\normalmap_yellow.tmx">
+      <Filter>Data\Maps</Filter>
+    </None>
+  </ItemGroup>
+</Project>

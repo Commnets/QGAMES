@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de código fuente">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Configuration">
+      <UniqueIdentifier>{f9358a1c-8993-486b-a675-9fad32bd4a6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Scenes">
+      <UniqueIdentifier>{adf8a1ac-9fd7-45d7-81d0-46de49c74375}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Worlds">
+      <UniqueIdentifier>{27f18fac-890e-4e8c-9d93-307119512058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Scenes">
+      <UniqueIdentifier>{0fdf84f0-7ab1-4f12-a405-28e8c4bb474c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Worlds">
+      <UniqueIdentifier>{6e9ac917-f5e1-4f02-9221-651f9fecd377}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Builders.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1Worlds.cpp">
+      <Filter>Archivos de código fuente\Worlds</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1Scenes.cpp">
+      <Filter>Archivos de código fuente\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Worlds.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage2Scenes.cpp">
+      <Filter>Archivos de código fuente\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage2Worlds.cpp">
+      <Filter>Archivos de código fuente\Worlds</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneActionBlocks.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage3Worlds.cpp">
+      <Filter>Archivos de código fuente\Worlds</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage4Worlds.cpp">
+      <Filter>Archivos de código fuente\Worlds</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage5Worlds.cpp">
+      <Filter>Archivos de código fuente\Worlds</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage3Scenes.cpp">
+      <Filter>Archivos de código fuente\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage4Scenes.cpp">
+      <Filter>Archivos de código fuente\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage5Scenes.cpp">
+      <Filter>Archivos de código fuente\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Artists.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Defs.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="doxy.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Builders.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1Worlds.hpp">
+      <Filter>Archivos de encabezado\Worlds</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1Scenes.hpp">
+      <Filter>Archivos de encabezado\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Worlds.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneActionBlocks.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage2Scenes.hpp">
+      <Filter>Archivos de encabezado\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage3Scenes.hpp">
+      <Filter>Archivos de encabezado\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage4Scenes.hpp">
+      <Filter>Archivos de encabezado\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage5Scenes.hpp">
+      <Filter>Archivos de encabezado\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage2Worlds.hpp">
+      <Filter>Archivos de encabezado\Worlds</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage3Worlds.hpp">
+      <Filter>Archivos de encabezado\Worlds</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage4Worlds.hpp">
+      <Filter>Archivos de encabezado\Worlds</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage5Worlds.hpp">
+      <Filter>Archivos de encabezado\Worlds</Filter>
+    </ClInclude>
+    <ClInclude Include="Artists.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="battleshipicon.ico">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="adentities.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="adforms.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="adgamestates.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="adguisystem.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="admaps.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="admonitor.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="admovements.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="adobjects.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="adsounds.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="adworlds.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="bsentities.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="bsforms.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="bsgamestates.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="bsguisystem.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="bsmaps.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="bsmonitor.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="bsmovements.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="bsobjects.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="bssounds.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="conf.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="entities.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="forms.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="gamestates.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="guisystem.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="maps.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="monitor.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="movements.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="objects.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="sounds.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="worlds.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="bsworlds.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="stage1world.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="stage2world.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BattleshipII.rc">
+      <Filter>Archivos de recursos</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

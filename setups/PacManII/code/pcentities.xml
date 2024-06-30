@@ -1,0 +1,827 @@
+<?xml version="1.0"?>
+<Entities>
+
+	<!-- Includes -->
+	<Include file="adentities.xml"/>
+
+	<!-- Pacman -->
+	<SetOfEntities fromId="50000" number="10">
+		<Forms>
+			<Form id="50020"/>
+			<Form id="50021"/>
+		</Forms>
+		<MovementsBase>
+			<!-- Moving through the maze -->
+			<Movement id="550000"/>
+			<!-- Staying -->
+			<Movement id="570000"/>
+		</MovementsBase>
+		<Animations>
+			<!-- Just looking to the right -->
+			<Animation id="0" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50020"/>
+					<Attribute id="INITIALASPECT" value="10"/>
+					<Attribute id="FINALASPECT" value="10"/>
+					<Attribute id="FRACTIONTOCHANGE" value="0"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Just looking to the left -->
+			<Animation id="1" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50020"/>
+					<Attribute id="INITIALASPECT" value="38"/>
+					<Attribute id="FINALASPECT" value="38"/>
+					<Attribute id="FRACTIONTOCHANGE" value="0"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Just looking up -->
+			<Animation id="2" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50020"/>
+					<Attribute id="INITIALASPECT" value="52"/>
+					<Attribute id="FINALASPECT" value="52"/>
+					<Attribute id="FRACTIONTOCHANGE" value="0"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Just looking down -->
+			<Animation id="3" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50020"/>
+					<Attribute id="INITIALASPECT" value="24"/>
+					<Attribute id="FINALASPECT" value="24"/>
+					<Attribute id="FRACTIONTOCHANGE" value="0"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Eating to the right -->
+			<Animation id="4" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50020"/>
+					<Attribute id="INITIALASPECT" value="10"/>
+					<Attribute id="FINALASPECT" value="12"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Eating to the left -->
+			<Animation id="5" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50020"/>
+					<Attribute id="INITIALASPECT" value="38"/>
+					<Attribute id="FINALASPECT" value="40"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Eating up -->
+			<Animation id="6" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50020"/>
+					<Attribute id="INITIALASPECT" value="52"/>
+					<Attribute id="FINALASPECT" value="54"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Eating down -->
+			<Animation id="7" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50020"/>
+					<Attribute id="INITIALASPECT" value="24"/>
+					<Attribute id="FINALASPECT" value="26"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Giant Pacman Eating Right -->
+			<Animation id="8" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50021"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="2"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Giant Pacman Eating Left -->
+			<Animation id="9" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50021"/>
+					<Attribute id="INITIALASPECT" value="2"/>
+					<Attribute id="FINALASPECT" value="4"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+		</Animations>
+		<States>
+			<!-- Frozen looking to the right -->
+			<State id="0" animation="0" movementBase="570000"/>
+			<!-- Frozen looking to the left -->
+			<State id="1" animation="1" movementBase="570000"/>
+			<!-- Frozen looking up -->
+			<State id="2" animation="2" movementBase="570000"/>
+			<!-- Frozen looking down -->
+			<State id="3" animation="3" movementBase="570000"/>
+			<!-- Eating & frozen looking to the right -->
+			<State id="4" animation="4" movementBase="570000"/>
+			<!-- Eating & frozen looking to the left -->
+			<State id="5" animation="5" movementBase="570000"/>
+			<!-- Eating & fronzen looking up -->
+			<State id="6" animation="6" movementBase="570000"/>
+			<!-- Eating & frozen looking down -->
+			<State id="7" animation="7" movementBase="570000"/>
+			<!-- Eating, moving & looking to the right -->
+			<State id="8" animation="4" movementBase="550000"/>
+			<!-- Eating, moving & looking to the left -->
+			<State id="9" animation="5" movementBase="550000"/>
+			<!-- Eating, moving & looking up -->
+			<State id="10" animation="6" movementBase="550000"/>
+			<!-- Eating, moving & looking down -->
+			<State id="11" animation="7" movementBase="550000"/>
+			<!-- Giant, eating, moving & looking right -->
+			<State id="12" animation="8" movementBase="550000"/>
+			<!-- Giant, eating, moving & looking left -->
+			<State id="13" animation="9" movementBase="550000"/>
+		</States>
+	</SetOfEntities>
+
+	<!-- Inky -->
+	<SetOfEntities fromId="50010" number="10">
+		<Forms>
+			<Form id="50020"/>
+		</Forms>
+		<MovementsBase>
+			<!-- Moving through the maze -->
+			<Movement id="550010"/>
+			<!-- At home -->
+			<Movement id="580010"/>
+		</MovementsBase>
+		<Animations>
+			<!-- Looking to the right -->
+			<Animation id="0" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50020"/>
+					<Attribute id="INITIALASPECT" value="6"/>
+					<Attribute id="FINALASPECT" value="8"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Looking to the left -->
+			<Animation id="1" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50020"/>
+					<Attribute id="INITIALASPECT" value="34"/>
+					<Attribute id="FINALASPECT" value="36"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Looking up -->
+			<Animation id="2" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50020"/>
+					<Attribute id="INITIALASPECT" value="48"/>
+					<Attribute id="FINALASPECT" value="50"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Looking down -->
+			<Animation id="3" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50020"/>
+					<Attribute id="INITIALASPECT" value="20"/>
+					<Attribute id="FINALASPECT" value="22"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Now can be eaten -->
+			<Animation id="4" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50020"/>
+					<Attribute id="INITIALASPECT" value="12"/>
+					<Attribute id="FINALASPECT" value="14"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- After being eaten -->
+			<Animation id="5" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50020"/>
+					<Attribute id="INITIALASPECT" value="40"/>
+					<Attribute id="FINALASPECT" value="42"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Now can be eaten, but in blink status -->
+			<Animation id="6" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50020"/>
+					<Attribute id="INITIALASPECT" value="26"/>
+					<Attribute id="FINALASPECT" value="28"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+		</Animations>
+		<States>
+			<!-- (Starting/Chasing/Going Home/) Pacman while looking to the right -->
+			<State id="0" animation="0" movementBase="550010"/>
+			<!-- (Starting/Chasing/Going Home/) Pacman while looking to the left -->
+			<State id="1" animation="1" movementBase="550010"/>
+			<!-- (Starting/Chasing/Going Home/) Pacman while looking to the up -->
+			<State id="2" animation="2" movementBase="550010"/>
+			<!-- (Starting/Chasing/Going Home/) Pacman while looking to the down -->
+			<State id="3" animation="3" movementBase="550010"/>
+			<!-- Running away from Pacman (they can be eaten) -->
+			<State id="4" animation="4" movementBase="550010"/>
+			<!-- After being eaten going back home -->
+			<State id="5" animation="5" movementBase="550010"/>
+			<!-- Moving at home looking right -->
+			<State id="6" animation="0" movementBase="580010"/>
+			<!-- Moving at home looking left -->
+			<State id="7" animation="1" movementBase="580010"/>
+			<!-- Moving at home looking up -->
+			<State id="8" animation="2" movementBase="580010"/>
+			<!-- Moving at home looking down -->
+			<State id="9" animation="3" movementBase="580010"/>
+			<!-- Running away from Pacman (they can be eaten), but blink -->
+			<State id="10" animation="6" movementBase="550010"/>
+		</States>
+	</SetOfEntities>
+
+	<!-- Blinky -->
+	<SetOfEntities fromId="50020" number="10">
+		<Forms>
+			<Form id="50020"/>
+		</Forms>
+		<MovementsBase>
+			<!-- Moving through the maze -->
+			<Movement id="550020"/>
+			<!-- At home -->
+			<Movement id="580020"/>
+		</MovementsBase>
+		<Animations>
+			<!-- Looking to the right -->
+			<Animation id="0" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50020"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="2"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Looking to the left -->
+			<Animation id="1" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50020"/>
+					<Attribute id="INITIALASPECT" value="28"/>
+					<Attribute id="FINALASPECT" value="30"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Looking up -->
+			<Animation id="2" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50020"/>
+					<Attribute id="INITIALASPECT" value="42"/>
+					<Attribute id="FINALASPECT" value="44"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Looking down -->
+			<Animation id="3" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50020"/>
+					<Attribute id="INITIALASPECT" value="14"/>
+					<Attribute id="FINALASPECT" value="16"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Now can be eaten -->
+			<Animation id="4" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50020"/>
+					<Attribute id="INITIALASPECT" value="12"/>
+					<Attribute id="FINALASPECT" value="14"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Going back home -->
+			<Animation id="5" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50020"/>
+					<Attribute id="INITIALASPECT" value="40"/>
+					<Attribute id="FINALASPECT" value="42"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Now can be eaten, but in blink status -->
+			<Animation id="6" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50020"/>
+					<Attribute id="INITIALASPECT" value="26"/>
+					<Attribute id="FINALASPECT" value="28"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+		</Animations>
+		<States>
+			<!-- (Starting/Chasing/Going Home/) Pacman while looking to the right -->
+			<State id="0" animation="0" movementBase="550020"/>
+			<!-- (Starting/Chasing/Going Home/) Pacman while looking to the left -->
+			<State id="1" animation="1" movementBase="550020"/>
+			<!-- (Starting/Chasing/Going Home/) Pacman while looking to the up -->
+			<State id="2" animation="2" movementBase="550020"/>
+			<!-- (Starting/Chasing/Going Home/) Pacman while looking to the down -->
+			<State id="3" animation="3" movementBase="550020"/>
+			<!-- Running away from Pacman (they can be eaten) -->
+			<State id="4" animation="4" movementBase="550020"/>
+			<!-- After being eaten going back home -->
+			<State id="5" animation="5" movementBase="550020"/>
+			<!-- Moving at home looking right -->
+			<State id="6" animation="0" movementBase="580020"/>
+			<!-- Moving at home looking left -->
+			<State id="7" animation="1" movementBase="580020"/>
+			<!-- Moving at home looking up -->
+			<State id="8" animation="2" movementBase="580020"/>
+			<!-- Moving at home looking down -->
+			<State id="9" animation="3" movementBase="580020"/>
+			<!-- Running away from Pacman (they can be eaten), but blink -->
+			<State id="10" animation="6" movementBase="550020"/>
+		</States>
+	</SetOfEntities>
+
+	<!-- Pinky -->
+	<SetOfEntities fromId="50030" number="10">
+		<Forms>
+			<Form id="50020"/>
+		</Forms>
+		<MovementsBase>
+			<!-- Moving through the maze -->
+			<Movement id="550030"/>
+			<!-- At home -->
+			<Movement id="580030"/>
+		</MovementsBase>
+		<Animations>
+			<!-- Looking to the right -->
+			<Animation id="0" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50020"/>
+					<Attribute id="INITIALASPECT" value="4"/>
+					<Attribute id="FINALASPECT" value="6"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Looking to the left -->
+			<Animation id="1" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50020"/>
+					<Attribute id="INITIALASPECT" value="32"/>
+					<Attribute id="FINALASPECT" value="34"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Looking up -->
+			<Animation id="2" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50020"/>
+					<Attribute id="INITIALASPECT" value="46"/>
+					<Attribute id="FINALASPECT" value="48"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Looking down -->
+			<Animation id="3" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50020"/>
+					<Attribute id="INITIALASPECT" value="18"/>
+					<Attribute id="FINALASPECT" value="20"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Now can be eaten -->
+			<Animation id="4" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50020"/>
+					<Attribute id="INITIALASPECT" value="12"/>
+					<Attribute id="FINALASPECT" value="14"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Going back home -->
+			<Animation id="5" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50020"/>
+					<Attribute id="INITIALASPECT" value="40"/>
+					<Attribute id="FINALASPECT" value="42"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Now can be eaten, but in blink status -->
+			<Animation id="6" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50020"/>
+					<Attribute id="INITIALASPECT" value="26"/>
+					<Attribute id="FINALASPECT" value="28"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+		</Animations>
+		<States>
+			<!-- (Starting/Chasing/Going Home/) Pacman while looking to the right -->
+			<State id="0" animation="0" movementBase="550030"/>
+			<!-- (Starting/Chasing/Going Home/) Pacman while looking to the left -->
+			<State id="1" animation="1" movementBase="550030"/>
+			<!-- (Starting/Chasing/Going Home/) Pacman while looking to the up -->
+			<State id="2" animation="2" movementBase="550030"/>
+			<!-- (Starting/Chasing/Going Home/) Pacman while looking to the down -->
+			<State id="3" animation="3" movementBase="550030"/>
+			<!-- Running away from Pacman (they can be eaten) -->
+			<State id="4" animation="4" movementBase="550030"/>
+			<!-- After being eaten going back home -->
+			<State id="5" animation="5" movementBase="550030"/>
+			<!-- Moving at home looking right -->
+			<State id="6" animation="0" movementBase="580030"/>
+			<!-- Moving at home looking left -->
+			<State id="7" animation="1" movementBase="580030"/>
+			<!-- Moving at home looking up -->
+			<State id="8" animation="2" movementBase="580030"/>
+			<!-- Moving at home looking down -->
+			<State id="9" animation="3" movementBase="580030"/>
+			<!-- Running away from Pacman (they can be eaten), but blink -->
+			<State id="10" animation="6" movementBase="550030"/>
+		</States>
+	</SetOfEntities>
+
+	<!-- Clyde -->
+	<SetOfEntities fromId="50040" number="10">
+		<Forms>
+			<Form id="50020"/>
+		</Forms>
+		<MovementsBase>
+			<!-- Moving through the maze -->
+			<Movement id="550040"/>
+			<!-- At home -->
+			<Movement id="580040"/>
+		</MovementsBase>
+		<Animations>
+			<!-- Looking to the right -->
+			<Animation id="0" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50020"/>
+					<Attribute id="INITIALASPECT" value="2"/>
+					<Attribute id="FINALASPECT" value="4"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Looking to the left -->
+			<Animation id="1" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50020"/>
+					<Attribute id="INITIALASPECT" value="30"/>
+					<Attribute id="FINALASPECT" value="32"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Looking up -->
+			<Animation id="2" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50020"/>
+					<Attribute id="INITIALASPECT" value="44"/>
+					<Attribute id="FINALASPECT" value="46"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Looking down -->
+			<Animation id="3" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50020"/>
+					<Attribute id="INITIALASPECT" value="16"/>
+					<Attribute id="FINALASPECT" value="18"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Now can be eaten -->
+			<Animation id="4" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50020"/>
+					<Attribute id="INITIALASPECT" value="12"/>
+					<Attribute id="FINALASPECT" value="14"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Going back home -->
+			<Animation id="5" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50020"/>
+					<Attribute id="INITIALASPECT" value="40"/>
+					<Attribute id="FINALASPECT" value="42"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Now can be eaten, but in blink status -->
+			<Animation id="6" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50020"/>
+					<Attribute id="INITIALASPECT" value="26"/>
+					<Attribute id="FINALASPECT" value="28"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+		</Animations>
+		<States>
+			<!-- (Starting/Chasing/Going Home/) Pacman while looking to the right -->
+			<State id="0" animation="0" movementBase="550040"/>
+			<!-- (Starting/Chasing/Going Home/) Pacman while looking to the left -->
+			<State id="1" animation="1" movementBase="550040"/>
+			<!-- (Starting/Chasing/Going Home/) Pacman while looking to the up -->
+			<State id="2" animation="2" movementBase="550040"/>
+			<!-- (Starting/Chasing/Going Home/) Pacman while looking to the down -->
+			<State id="3" animation="3" movementBase="550040"/>
+			<!-- Running away from Pacman (they can be eaten) -->
+			<State id="4" animation="4" movementBase="550040"/>
+			<!-- After being eaten going back home -->
+			<State id="5" animation="5" movementBase="550040"/>
+			<!-- Moving at home looking right -->
+			<State id="6" animation="0" movementBase="580040"/>
+			<!-- Moving at home looking left -->
+			<State id="7" animation="1" movementBase="580040"/>
+			<!-- Moving at home looking up -->
+			<State id="8" animation="2" movementBase="580040"/>
+			<!-- Moving at home looking down -->
+			<State id="9" animation="3" movementBase="580040"/>
+			<!-- Running away from Pacman (they can be eaten), but blink -->
+			<State id="10" animation="6" movementBase="550040"/>
+		</States>
+	</SetOfEntities>
+
+	<!-- The fruit -->
+	<SetOfEntities fromId="50050" number="10">
+		<Forms>
+			<Form id="50022"/>
+		</Forms>
+		<MovementsBase>
+			<!-- Just staying -->
+			<Movement id="550050"/>
+			<!-- Moving along the maze -->
+			<Movement id="580050"/>
+		</MovementsBase>
+		<Animations>
+			<!-- Fruit 1 -->
+			<Animation id="0" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50022"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="0"/>
+					<Attribute id="FRACTIONTOCHANGE" value="0"/>
+					<Attribute id="LOOP" value="0"/> <!-- No loop -->
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Fruit 2 -->
+			<Animation id="1" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50022"/>
+					<Attribute id="INITIALASPECT" value="1"/>
+					<Attribute id="FINALASPECT" value="1"/>
+					<Attribute id="FRACTIONTOCHANGE" value="0"/>
+					<Attribute id="LOOP" value="0"/> <!-- No loop -->
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Fruit 3 -->
+			<Animation id="2" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50022"/>
+					<Attribute id="INITIALASPECT" value="2"/>
+					<Attribute id="FINALASPECT" value="2"/>
+					<Attribute id="FRACTIONTOCHANGE" value="0"/>
+					<Attribute id="LOOP" value="0"/> <!-- No loop -->
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Fruit 4 -->
+			<Animation id="3" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50022"/>
+					<Attribute id="INITIALASPECT" value="3"/>
+					<Attribute id="FINALASPECT" value="3"/>
+					<Attribute id="FRACTIONTOCHANGE" value="0"/>
+					<Attribute id="LOOP" value="0"/> <!-- No loop -->
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Fruit 5 -->
+			<Animation id="4" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50022"/>
+					<Attribute id="INITIALASPECT" value="4"/>
+					<Attribute id="FINALASPECT" value="4"/>
+					<Attribute id="FRACTIONTOCHANGE" value="0"/>
+					<Attribute id="LOOP" value="0"/> <!-- No loop -->
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Fruit 6 -->
+			<Animation id="5" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50022"/>
+					<Attribute id="INITIALASPECT" value="5"/>
+					<Attribute id="FINALASPECT" value="5"/>
+					<Attribute id="FRACTIONTOCHANGE" value="0"/>
+					<Attribute id="LOOP" value="0"/> <!-- No loop -->
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Fruit 7 -->
+			<Animation id="6" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50022"/>
+					<Attribute id="INITIALASPECT" value="6"/>
+					<Attribute id="FINALASPECT" value="6"/>
+					<Attribute id="FRACTIONTOCHANGE" value="0"/>
+					<Attribute id="LOOP" value="0"/> <!-- No loop -->
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Fruit 8 -->
+			<Animation id="7" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50022"/>
+					<Attribute id="INITIALASPECT" value="7"/>
+					<Attribute id="FINALASPECT" value="7"/>
+					<Attribute id="FRACTIONTOCHANGE" value="0"/>
+					<Attribute id="LOOP" value="0"/> <!-- No loop -->
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Fruit 9 -->
+			<Animation id="8" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50022"/>
+					<Attribute id="INITIALASPECT" value="8"/>
+					<Attribute id="FINALASPECT" value="8"/>
+					<Attribute id="FRACTIONTOCHANGE" value="0"/>
+					<Attribute id="LOOP" value="0"/> <!-- No loop -->
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Fruit 10 -->
+			<Animation id="9" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50022"/>
+					<Attribute id="INITIALASPECT" value="9"/>
+					<Attribute id="FINALASPECT" value="9"/>
+					<Attribute id="FRACTIONTOCHANGE" value="0"/>
+					<Attribute id="LOOP" value="0"/> <!-- No loop -->
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Fruit 11 -->
+			<Animation id="10" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50022"/>
+					<Attribute id="INITIALASPECT" value="10"/>
+					<Attribute id="FINALASPECT" value="10"/>
+					<Attribute id="FRACTIONTOCHANGE" value="0"/>
+					<Attribute id="LOOP" value="0"/> <!-- No loop -->
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Fruit 12 -->
+			<Animation id="11" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50022"/>
+					<Attribute id="INITIALASPECT" value="11"/>
+					<Attribute id="FINALASPECT" value="11"/>
+					<Attribute id="FRACTIONTOCHANGE" value="0"/>
+					<Attribute id="LOOP" value="0"/> <!-- No loop -->
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+		</Animations>
+		<States>
+			<!-- Staying -->
+			<!-- Fruit 1 -->
+			<State id="0" animation="0" movementBase="550050"/>
+			<!-- Fruit 2 -->
+			<State id="1" animation="1" movementBase="550050"/>
+			<!-- Fruit 3 -->
+			<State id="2" animation="2" movementBase="550050"/>
+			<!-- Fruit 4 -->
+			<State id="3" animation="3" movementBase="550050"/>
+			<!-- Fruit 5 -->
+			<State id="4" animation="4" movementBase="550050"/>
+			<!-- Fruit 6 -->
+			<State id="5" animation="5" movementBase="550050"/>
+			<!-- Fruit 7 -->
+			<State id="6" animation="6" movementBase="550050"/>
+			<!-- Fruit 8 -->
+			<State id="7" animation="7" movementBase="550050"/>
+			<!-- Fruit 9 -->
+			<State id="8" animation="8" movementBase="550050"/>
+			<!-- Fruit 10 -->
+			<State id="9" animation="9" movementBase="550050"/>
+			<!-- Fruit 11 -->
+			<State id="10" animation="10" movementBase="550050"/>
+			<!-- Fruit 12 -->
+			<State id="11" animation="11" movementBase="550050"/>
+
+			<!-- Moving -->
+			<!-- Fruit 1 -->
+			<State id="20" animation="0" movementBase="580050"/>
+			<!-- Fruit 2 -->
+			<State id="21" animation="1" movementBase="580050"/>
+			<!-- Fruit 3 -->
+			<State id="22" animation="2" movementBase="580050"/>
+			<!-- Fruit 4 -->
+			<State id="23" animation="3" movementBase="580050"/>
+			<!-- Fruit 5 -->
+			<State id="24" animation="4" movementBase="580050"/>
+			<!-- Fruit 26 -->
+			<State id="25" animation="5" movementBase="580050"/>
+			<!-- Fruit 27 -->
+			<State id="26" animation="6" movementBase="580050"/>
+			<!-- Fruit 28 -->
+			<State id="27" animation="7" movementBase="580050"/>
+			<!-- Fruit 29 -->
+			<State id="28" animation="8" movementBase="580050"/>
+			<!-- Fruit 210 -->
+			<State id="29" animation="9" movementBase="580050"/>
+			<!-- Fruit 11 -->
+			<State id="30" animation="10" movementBase="580050"/>
+			<!-- Fruit 12 -->
+			<State id="31" animation="11" movementBase="580050"/>
+		</States>
+	</SetOfEntities>
+
+</Entities>

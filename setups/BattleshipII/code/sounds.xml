@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Sounds>
+
+	<!-- Includes -->
+	<Include file="bssounds.xml"/>
+	
+	<!-- wav sounds -->
+	<Sound id="60000" type="1" loop="-1" file="sounds/backgroundmusic10.wav"/>
+	<Sound id="60001" type="1" loop="-1" file="sounds/backgroundmusic11.wav"/>
+	<Sound id="60002" type="1" loop="-1" file="sounds/backgroundmusic12.wav"/>
+	<Sound id="60003" type="1" loop="-1" file="sounds/backgroundmusic13.wav"/>
+	<Sound id="60004" type="1" loop="-1" file="sounds/backgroundmusic14.wav"/>
+	<Sound id="60005" type="1" loop="-1" file="sounds/backgroundmusic15.wav"/>
+	<Sound id="60006" type="1" loop="-1" file="sounds/backgroundmusic16.wav"/>
+	
+</Sounds>

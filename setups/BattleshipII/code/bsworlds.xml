@@ -1,0 +1,441 @@
+<?xml version="1.0"?>
+<Worlds>
+
+	<!-- Includes -->
+	<Include file="adworlds.xml"/>
+
+	<!-- The very basic world.
+		 Used just like a template to create the rest in a real game 
+		 It is made up of a single scene -->
+	<World id="50000">
+		<Scenes>
+			<!-- From 60000 to 60099 are by default TimeLimit scenes, 
+				 meaning they finishes when the the player remain alive in the scene,
+				 the number of seconds defined in the attributes (see below) -->
+			<Scene id="60000">
+			
+				<Actions>
+				
+					<!-- From 70000 to 70999 are block actions reserved to control asteriods -->
+					<!-- Related with asteroids -->
+					<!-- Asteroid 1 -->
+					<Action id="70000">
+						<Attributes>
+							<!-- Common for all SpaceElements: Asteroids, Energy Pills, Shooting and UFOS -->
+							<!-- In seconds time to appear in the screen.
+								 Default value = 2 
+								 Negative value will mean random up to this value. -->
+							<Attribute id="TimeToAppear" value="0"/>
+							<!-- Between 0 (never) and 100 (always).
+								 Verified any time TimeToAppear is reached and no elements are in the scene.
+								 Default value = 100 -->
+							<Attribute id="ProbabilityToAppear" value="100"/> 
+							<!-- YES or NO, meaning whether the element appears little by little (fade) in the initialPosition.
+								 Default value = NO -->
+							<Attribute id="Emerge" value="NO"/> 
+							<!-- After appearing, time in seconds to move.
+								 Default value = 0 
+								 Neagative value will mean random up to that number of seconds. -->
+							<Attribute id="TimeToMove" value="0"/> 
+							<!-- YES or NO, meaning whether another instance of the element
+								 has to appear when the previous one exit the scene or it is killed.
+								 Default value = YES -->
+							<Attribute id="Regenerate" value="YES"/> 
+							<!-- YES or NO, meaninf whether the element "rolls" the scene when exiting this one.
+								 SO, if YES the element can only Regenerate when it is killed.
+								 Default value = NO --> 
+							<Attribute id="Roll" value="NO"/> 
+							<!-- Initial position not defined meaning random (and it has to be so),
+								 depending the type of element and movement (in the top of the visual zone for asteroids e.g.)
+								 The coordinates of the initial position (3D) must be relative to the size of the
+								 movement area of the elements. Their values should be then between 0 and 1.
+								 Attribute id="InitialPosition" value="x,y,z" -->
+							<!-- Movement zone not defined meaning the movement zone of the space element managed.
+								 Depending on the type of the space element, the size of that movement zone could vary.
+								 Attribute id="MovZone" value="x1,y1,z1,x2,y2,z2,v1,v2,v3"/>
+							<!-- Time in seconds that the element must be moving across the scene (and then disappear)
+								 unless it is not killed before or exit the scene
+								 Default value = -1, meaning never. 
+								 Can't be negative -->
+							<Attribute id="MaxTimeAction" value="-1"/>
+							
+							<!-- Specific for asteroids only -->
+							<!-- The type of asteroid.
+								 values admited between 0 and _numberOfAsteroidTypes defined in the structure DataGame.
+								 Default value = -1, meaning random. -->
+							<Attribute id="Type" value="-1"/>
+							<!-- The type of movement of the element.
+								 Default value = 0, but it is not taken into account in the default implementation of the code -->
+							<Attribute id="MovType" value="0"/>
+							<!-- Points given to the user when the element is destroyed.
+								 They could be negative, meaning a punish! -->
+							<Attribute id="PointsGiven" value="100"/>
+							<!-- The speed of the element in the scene.
+								 Default value = 1.
+								 Negative values will mean random up to that number.
+								 The speed of the element will be finally this one plus the speed of the screen, 
+								 determined by the difficuly level -->
+							<Attribute id="Speed" value="-3"/> 
+						</Attributes>
+					</Action>
+					
+					<!-- Asteroid 2 -->
+					<Action id="70001">
+						<Attributes>
+							<Attribute id="TimeToAppear" value="1"/>
+							<Attribute id="PointsGiven" value="100"/>
+							<Attribute id="Speed" value="-3"/>
+						</Attributes>
+					</Action>
+					
+					<!-- Asteroid 3 -->
+					<Action id="70002">
+						<Attributes>
+							<Attribute id="TimeToAppear" value="2"/>
+							<Attribute id="PointsGiven" value="100"/>
+							<Attribute id="Speed" value="-3"/>
+						</Attributes>
+					</Action>
+
+					<!-- From 71000 to 71999 are block actions reserved to control pills of energy -->
+					<!-- Related with the fuel pill -->
+					<Action id="71000">
+						<Attributes>
+							<!-- The common attributes with the asteroids are not explained.
+								 They are the same, and they have the same considerations than above. -->
+							<Attribute id="TimeToAppear" value="5"/> 
+							<Attribute id="ProbabilityToAppear" value="40"/> 
+							
+							<!-- Specific attributes for energy pills -->
+							<!-- Type of energy pill.
+								 Default value = 0. Only one type has been defined in the standard implementation.
+								 Negative values will mean random up to that number -->
+							<Attribute id="Type" value="0"/> 
+							<!-- The type of movement.
+								 Default value = 0, but it is not really used in the default implementation. -->
+							<Attribute id="MovType" value="0"/> 
+							<!-- The energy added to the player when get it.
+								 It is in percentage. So, it must be between 0 and 100. 
+								 Default value = 10. -->
+							<Attribute id="EnergyAdded" value="50"/> 
+							<!-- The speed of the element in the scene.
+								 In this case that speed is not affected by the difficulty level.
+								 Default value = 1.
+								 -1000 or 1000 will mean random up to that value -->
+							<Attribute id="Speed" value="1"/> 
+						</Attributes>
+					</Action>
+
+					<!-- From 72000 to 72999 are block actions reserved to shooting pills -->
+					<!-- Related with the type of shooting pills -->
+					<Action id="72000">
+						<Attributes>
+							<!-- The common attributes with the asteroids are not explained.
+								 They are the same, and they have the same considerations than above. -->
+							<Attribute id="TimeToAppear" value="6"/> 
+							<Attribute id="ProbabilityToAppear" value="50"/> 
+
+							<!-- Specific attributes for shooting pills -->
+							<!-- The type of the shooting pill (but not what to do)
+								 The value shoukd be between 0 and _numberOfShootingPillTypes defined in the structure DataGame
+								 Default value = -1 meaning random. -->
+							<Attribute id="Type" value="0"/> 
+							<!-- The type of movement.
+								 Default value = 0, but it is not really used in the default implementation. -->
+							<Attribute id="MovType" value="0"/> 
+							<!-- When caught, what would the power of shooting assigned to the player?
+								 The values should be between 0 and _numberOfShootingTypes defined in the structure DataGane
+								 Default value = -1, meaning random.
+								 -2 would mean next power to the current one. 
+								 -3 would mean previous power to the current one. -->
+							<Attribute id="TypeShooting" value="-2"/>
+							<!-- The speed of the element in the scene.
+								 Again it is not affected by the difficulty level.
+								 Default value = 1.
+								 Negative values mean random up to that value. -->
+							<Attribute id="Speed" value="1"/> 
+						</Attributes>
+					</Action>
+					
+					<!-- From 73000 to 73999 are block actions reserved to control ufos (enemies) -->
+					<!-- Related with an UFO -->
+					<Action id="73000">
+						<Attributes>
+							<!-- The common attributes with the asteroids are not explained.
+								 They are the same, and they have the same considerations than above. -->
+							<Attribute id="TimeToAppear" value="30"/>
+							<Attribute id="Emerge" value="YES"/>
+							<Attribute id="TimeToMove" value="1"/>
+							<Attribute id="Regenerate" value="YES"/>
+							<!-- In the case of the UFOs, and when not defined, the 
+								 initial position will also depend on the type of movement. 
+								 So, see also below -->
+							<Attribute id="InitialPosition" value="0.25,0.25,0.0"/>
+							
+							<!-- Specific attributes for the UFOS -->
+							<!-- The type of UFO.
+								 Default value = -1, meaning random.
+								 See the file bsentities.xml for more info about how to configure UFOs -->
+							<Attribute id="Type" value="-1"/> 
+							<!-- The type of movement of the UFO.
+								 This is really important in the case of UFOS, because many movements can be defined.
+								 The type of movement is translate into a specific curve.
+								 The method curveforMovementTypeMap defined the translation between movement and curve associated.
+								 The curve associated has to be redefined in the movement builder.
+								 The method defaultInitialPointForMovementType gives the initial point (when not defined)
+								 regargind the type of movement defined.
+								 The method defaultParametersForMovementType returns the default parameters 
+								 for the type of movement when they are not defined (see the comments for the next parameter)
+								 Default value = -1, meaning random. 
+								 Other values:
+									0	= No movement
+									1 	= Horizontal movement
+									2 	= Vertical movement
+									3 	= Circular movement
+									4 	= Horizontal dancing movement
+									5 	= Vertical dancing movement
+									6 	= Right side attacking movement
+									7 	= Left side attacking movement
+									8 	= A line, then an arc then a line again
+									9 	= A line, then an arc , then a line again
+									10  = A sinusoidal line. -->
+							<Attribute id="MovType" value="-1"/> 
+							<!-- Attributes for the movement not defined, meaning to take the default ones
+								 for the movement. To know better them read the doc of the code. 
+								 Also to know what the structure of that parameter list would look like regarding the type of mov 
+								 Attribute id="MovTypeParameters" value="x,x,x,x,x..." -->
+							<!-- Type of shooting of the UFO
+								 Should be a value between 0 and _numberOfShootingTypes defined in the strcuture DataGame.
+								 Default value = 0.
+								 -1 means random. -->
+							<Attribute id="TypeShooting" value="1"/>
+							<!-- Time in seconds to start to think in shooting (it will take also the probability into account).
+								 Default value = 1 second.
+								 Negative values will mean random up to that value -->
+							<Attribute id="TimeToShoot" value="2"/>
+							<!-- Probability to shoot, between 0 and 100 
+								 Default value = 50 -->
+							<Attribute id="ProbabilityToShoot" value="60"/>
+							<!-- The power of the shooting,
+								 Number between 0 and _numberOfShootingTypes defined in the structure DataGame.
+								 Negative values, would mean random up to that number.
+								 Default value = 1 -->
+							<Attribute id="ShootingForce" value="1"/>
+							<!-- The speed of the UFO, usually quick!
+								 Default value = 1. 
+								 The sppeed is affected by the difficulty level also -->
+							<Attribute id="Speed" value="7"/>
+						</Attributes>
+					</Action>
+				</Actions>
+				
+				<Attributes>
+					<Attribute id="NAME" value="Example Time"/>
+					<!-- To indicate the axis the scene can move to
+						 Notice that by default X and Y axis are allowed. 
+						 Whether the scene move or not actually will depend on the size of the foreground map 
+						 @see BKSpace1.xml and so on as an example. 
+						 Initially the moving space is a little bit widder than the screen. -->
+					<Attribute id="MOVEMENT" value="1,1,0"/> 
+					<Attribute id="BACKGROUNDMUSIC" value="50001"/> <!-- The music in the background if it is on -->
+					<Attribute id="SCENETIME" value="60"/> <!-- (60 seconds) The time the scene is going to last (seconds) -->
+				</Attributes>
+				
+				<Conexions>
+					<Conexion id="0" with="60100" at="0"/> 
+				</Conexions>
+				
+				<Maps>
+					<!-- The backgrounds with beautiful space material 
+						 and initially widder than the screen. @see conf.xml -->
+					<Map id="50100" file="maps/BKSpace1.xml"/>
+					<Map id="50101" file="maps/BKSpace2.xml"/>
+					<Map id="50102" file="maps/BKSpace3.xml"/>
+					<Map id="50103" file="maps/BKSpace4.xml"/>
+					<Map id="50104" file="maps/BKSpace5.xml"/>
+					<Map id="50105" file="maps/BKSpace6.xml"/>
+				
+					<!-- A background with starts and planets and with the same width than the standard screen 
+						 @see conf.xml -->
+					<Map id="60000" file="maps/background.xml"/>
+					
+					<!-- A map totally transparent. 
+						 The map has initially the same width than the standard screen (@see conf.xml)
+						 It can be changed to create different visual effects -->
+					<Map id="70000" file="maps/nomap.xml"/>
+				</Maps>
+				
+				<Entities>
+					<!-- No order has been determined for the entities in the screen -->
+				</Entities>
+				
+			</Scene>
+			
+			<!-- 60100 to 60199 Are scenes to control a set of action block sequentially 
+				 See the attributes defined below to know better how to define this type os scenes. -->
+			<Scene id="60100">
+			
+				<Actions>
+				
+					<!-- A pill of energy is also needed -->
+					<Action id="71001">
+						<Attributes>
+							<Attribute id="TimeToAppear" value="5"/>
+							<Attribute id="ProbabilityToAppear" value="40"/>
+							<Attribute id="EnergyAdded" value="40"/>
+							<Attribute id="Speed" value="1"/>
+						</Attributes>
+					</Action>
+
+					<!-- And something to reload the shootings -->
+					<Action id="72001">
+						<Attributes>
+							<Attribute id="TimeToAppear" value="6"/>
+							<Attribute id="ProbabilityToAppear" value="50"/>
+							<Attribute id="TypeShooting" value="-2"/> 
+							<Attribute id="Speed" value="1"/>
+						</Attributes>
+					</Action>
+					
+					<!-- From 74000 to 74999 is a combat formation of UFO -->
+					<Action id="74000">
+						<Attributes>
+							<!-- The combat formation uses UFO's definition parameters
+								 and add others to define specificly the combat formation.
+								 So explanation for the ones refering to the UFOS are not explanied again -->
+							<Attribute id="TimeToAppear" value="1"/>
+							<Attribute id="Emerge" value="YES"/>
+							<Attribute id="TimeToMove" value="1"/> 
+							<Attribute id="Regenerate" value="NO"/>
+							<!-- The initial position here refers to the first UFO of the combat formation
+								 The position of the rest will be calculate according to the combat formation itself. -->
+							<Attribute id="InitialPosition" value="0.23,0.25,0.0"/>
+							<Attribute id="Type" value="2"/> 
+							<!-- The move type here referes to the initial move type, before they start the attack 
+								 if the combat formation defines so!. -->
+							<Attribute id="MovType" value="4"/> 
+							<Attribute id="TypeShooting" value="1"/>
+							<Attribute id="TimeToShoot" value="1"/>
+							<Attribute id="ProbabilityToShoot" value="30"/>
+							<!-- Again the speed here referes to the initial speed, while they are waiting the attack
+								 One it starts, the speed will be defined by the combat formation itself -->
+							<Attribute id="Speed" value="2"/>
+
+							<!-- The specific attrbutes for the combat formation -->
+							<!-- Which is the combat formation of the UFOS.
+								 The combat formation defines both how UFOS locate in the scene at the beginning
+								 and how the attack (if any) after a period of time.
+								 The different combat formations are defined by code. see it. 
+								 Default value = 0.
+								 Other values:
+									0 = Block, then they attack flying to the player one by one.
+									1 = Queue of them, then attack following the movement of the leader:
+										a line, then a circle, then a line back -->
+							<Attribute id="CombatFormation" value="0"/>
+							<!-- Attributes for the combat formation are not defined, meaning the default ones will be taken
+								 Read the code documentation to know them better. They depend on the type of combat formation.
+								 <Attribute id="CombatFormaionAttrs" value="x,x,x,x..."/> -->
+							<!-- Attributes for the attack in this combat formation are not defined either, maaning also
+								 that the default ones will be take. Again, read the documentation for more info of those.
+								 <Attribute id="CombatFormationAttackAttrs value="x,x,x,x,..."/> -->
+							<!-- Number of UFOS being part of the oombat formation.
+								 Positive value.
+								 Default value = 2 -->
+							<Attribute id="NumberUFOS" value="14"/>
+							<!-- Number of seconds to take a decision about to attack or not.
+								 Default value = 1.
+								 0 will mean in every loop. -->
+							<Attribute id="TimerEvery" value="3"/>
+							<!-- If the attack has been decided, how many UFOs of the formation will be affected?
+								 Default value = -1, meaning all. -->
+							<Attribute id="TimerForHowMany" value="-1"/>
+							<!-- Which is the probability to attack when the timer says so? 
+								 Default value = 100 -->
+							<Attribute id="TimerProbability" value="100"/>
+						</Attributes>
+					</Action>
+
+					<Action id="74001">
+						<Attributes>
+							<Attribute id="TimeToAppear" value="1"/>
+							<Attribute id="Emerge" value="YES"/>
+							<Attribute id="TimeToMove" value="1"/> 
+							<Attribute id="Regenerate" value="NO"/>
+							<Attribute id="InitialPosition" value="0.1,0.1,0.0"/>
+							<Attribute id="Type" value="1"/> 
+							<Attribute id="MovType" value="0"/> 
+							<Attribute id="TypeShooting" value="2"/>
+							<Attribute id="TimeToShoot" value="1"/>
+							<Attribute id="ProbabilityToShoot" value="70"/>
+							<Attribute id="Speed" value="7"/>
+							<Attribute id="CombatFormation" value="1"/> 
+							<Attribute id="NumberUFOS" value="10"/>
+							<Attribute id="TimerEvery" value="0"/> 
+						</Attributes>
+					</Action>
+
+					<Action id="74002">
+						<Attributes>
+							<Attribute id="TimeToAppear" value="1"/>
+							<Attribute id="Emerge" value="YES"/>
+							<Attribute id="TimeToMove" value="1"/> 
+							<Attribute id="Regenerate" value="NO"/>
+							<Attribute id="InitialPosition" value="0.9,0.1,0.0"/>
+							<Attribute id="Type" value="2"/> 
+							<Attribute id="MovType" value="0"/> 
+							<Attribute id="TypeShooting" value="3"/>
+							<Attribute id="TimeToShoot" value="1"/>
+							<Attribute id="ProbabilityToShoot" value="70"/>
+							<Attribute id="Speed" value="7"/>
+							<Attribute id="CombatFormation" value="1"/> 
+							<Attribute id="NumberUFOS" value="5"/>
+							<Attribute id="TimerEvery" value="0"/> 
+					</Attributes>
+					</Action>
+					
+				</Actions>
+				
+				<Attributes>
+					<Attribute id="NAME" value="Example Blocks"/>
+					<Attribute id="MOVEMENT" value="1,1,0"/> 
+					<Attribute id="BACKGROUNDMUSIC" value="50001"/> 
+					<!-- This attribute has to exist.
+						 Describes the blocks to show in sequence. That is one after other. -->
+					<Attribute id="SEQUENTIALACTIONBLOCKS" value="74000,74001,74002"/> 
+					<!-- The scene finishes here when the last block finishes.
+						 Notice that no max time has been set for any of the sequential blocks listed,
+						 so a block finishes just only when all UFOs are killed. -->
+				</Attributes>
+				
+				<Conexions>
+					<!-- No more conecctions have been defined, 
+						 so the game finishes when the scene finishes -->
+				</Conexions>
+				
+				<Maps>
+					<Map id="50100" file="maps/BKSpace1.xml"/>
+					<Map id="50101" file="maps/BKSpace2.xml"/>
+					<Map id="50102" file="maps/BKSpace3.xml"/>
+					<Map id="50103" file="maps/BKSpace4.xml"/>
+					<Map id="50104" file="maps/BKSpace5.xml"/>
+					<Map id="50105" file="maps/BKSpace6.xml"/>
+				
+					<Map id="60000" file="maps/background.xml"/>
+					
+					<Map id="70000" file="maps/nomap.xml"/>
+				</Maps>
+				
+				<Entities>
+					<!-- No order has been determined for the entities in the screen -->
+				</Entities>
+			
+			</Scene>
+			
+		</Scenes>
+		
+		<Attributes>
+			<Attribute id="NAME" value="Example"/>
+		</Attributes>
+	</World>
+
+</Worlds>

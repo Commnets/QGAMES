@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Sounds>
+
+	<!-- Includes -->
+	<Include file="adsounds.xml"/>
+	
+</Sounds>

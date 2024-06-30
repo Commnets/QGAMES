@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Maps>
+	
+	<!-- The maps -->
+	<Map id="60002" type="1" file="maps/CityWorld0.tmx"/>
+	<Map id="60003" type="1" file="maps/CityWorld1.tmx"/>
+	<Map id="60004" type="1" file="maps/CityWorld2.tmx"/>
+	<Map id="60005" type="1" file="maps/CityWorld3.tmx"/>
+	<Map id="60006" type="1" file="maps/CityWorld4.tmx"/>
+	<!-- -->
+	
+</Maps>

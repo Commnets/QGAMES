@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Sounds>
+
+	<!-- Includes -->
+	<Include file="dwsounds.xml"/>
+
+	<Sound id="80000" type="1" loop=" 0" file="sounds/dooropenning.wav"/>
+	<Sound id="80001" type="1" loop="-1" file="sounds/background1.wav"/>
+	<Sound id="80002" type="1" loop="-1" file="sounds/background2.wav"/>
+	<Sound id="80003" type="1" loop="-1" file="sounds/background3.wav"/>
+	<Sound id="80004" type="1" loop="-1" file="sounds/background4.wav"/>
+	<Sound id="80005" type="1" loop="-1" file="sounds/background5.wav"/>
+	<Sound id="80006" type="1" loop="-1" file="sounds/background6.wav"/>
+	<Sound id="80007" type="1" loop="-1" file="sounds/beewasps.wav"/>
+	<Sound id="80008" type="1" loop="-1" file="sounds/bats.wav"/>
+	<Sound id="80009" type="1" loop="-1" file="sounds/vultures.wav"/>
+	<Sound id="80010" type="1" loop="-1" file="sounds/monkeycry.wav"/>
+	
+</Sounds>

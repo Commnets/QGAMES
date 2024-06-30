@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:f1f5190727304c86d23678b990b11274:7bb727761a7a7d34d64b9e73508722f5:52af67e577b17eb96d8c6decaf0bdbe6$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="VIdle" file="./forms/VIdle.png" width="410" height="149"
+		fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="?">
+		<Frame id="villager_idle_00000" fPosX="290" fPosY="0" fWidth="60" fHeight="147" xoffset="85" yoffset="5" width="60" height="147"/>
+		<Frame id="villager_idle_10000" fPosX="106" fPosY="0" fWidth="50" fHeight="149" xoffset="92" yoffset="4" width="50" height="149"/>
+		<Frame id="villager_idle_20000" fPosX="206" fPosY="0" fWidth="42" fHeight="148" xoffset="99" yoffset="2" width="42" height="148"/>
+		<Frame id="villager_idle_30000" fPosX="0" fPosY="0" fWidth="53" fHeight="149" xoffset="92" yoffset="0" width="53" height="149"/>
+		<Frame id="villager_idle_40000" fPosX="350" fPosY="0" fWidth="60" fHeight="145" xoffset="87" yoffset="0" width="60" height="145"/>
+		<Frame id="villager_idle_50000" fPosX="156" fPosY="0" fWidth="50" fHeight="149" xoffset="90" yoffset="0" width="50" height="149"/>
+		<Frame id="villager_idle_60000" fPosX="248" fPosY="0" fWidth="42" fHeight="148" xoffset="93" yoffset="2" width="42" height="148"/>
+		<Frame id="villager_idle_70000" fPosX="53" fPosY="0" fWidth="53" fHeight="149" xoffset="87" yoffset="4" width="53" height="149"/>
+    </Form>
+</CommtyExporter>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Maps>
+
+	<!-- Includes -->
+	<Include file="pcmaps.xml"/>
+
+	<!-- Miss Pacman 1 -->
+	<Map id="60000" type="1" file="maps/misspacman1map_blue.tmx"/> 
+	<Map id="60200" type="1" file="maps/misspacman1map_red.tmx"/>
+	<Map id="60400" type="1" file="maps/misspacman1map_green.tmx"/>
+	<Map id="60600" type="1" file="maps/misspacman1map_yellow.tmx"/>
+	
+	<!-- Miss PacMan 2 -->
+	<Map id="61000" type="1" file="maps/misspacman2map_blue.tmx"/>
+	<Map id="61200" type="1" file="maps/misspacman2map_red.tmx"/>
+	<Map id="61400" type="1" file="maps/misspacman2map_green.tmx"/>
+	<Map id="61600" type="1" file="maps/misspacman2map_yellow.tmx"/>
+	
+	<!-- Miss PacMan 3 -->
+	<Map id="62000" type="1" file="maps/misspacman3map_blue.tmx"/>
+	<Map id="62200" type="1" file="maps/misspacman3map_red.tmx"/>
+	<Map id="62400" type="1" file="maps/misspacman3map_green.tmx"/>
+	<Map id="62600" type="1" file="maps/misspacman3map_yellow.tmx"/>
+	
+	<!-- Miss PacMan 4 -->
+	<Map id="63000" type="1" file="maps/misspacman4map_blue.tmx"/>
+	<Map id="63200" type="1" file="maps/misspacman4map_green.tmx"/>
+	<Map id="63400" type="1" file="maps/misspacman4map_yellow.tmx"/>
+	<Map id="63600" type="1" file="maps/misspacman4map_red.tmx"/>
+
+</Maps>

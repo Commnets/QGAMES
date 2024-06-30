@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Movements>
+
+	<!-- Includes -->
+	<Include file="dwmovements.xml"/>
+	
+	<!-- For Vultures -->
+	<!-- Linear movement -->
+	<SetOfMovements fromId="70000" number="10">
+		<Variable id="0" value="1"/> 
+	</SetOfMovements>
+	<!-- Standing -->
+	<SetOfMovements fromId="70010" number="10"/>
+	<!-- -->
+	
+	<!-- For Wasps -->
+	<!-- Linear movement -->
+	<SetOfMovements fromId="71000" number="10">
+		<Variable id="0" value="1"/> 
+	</SetOfMovements>
+	<!-- Standing -->
+	<SetOfMovements fromId="71010" number="10"/>
+	<!-- -->
+	
+	<!-- For Bats -->
+	<!-- Linear movement -->
+	<SetOfMovements fromId="72000" number="10">
+		<Variable id="0" value="1"/> 
+	</SetOfMovements>
+	<!-- Standing -->
+	<SetOfMovements fromId="72010" number="10"/>
+	<!-- -->
+
+</Movements>

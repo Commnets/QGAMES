@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<Worlds>
+	
+	<!-- UFOs -->
+	<!-- This world is the world of the UFOs -->
+	<World id="50003">
+	
+		<Scenes>
+
+			<!-- An Asteroid from time to time, queues of ufos 
+			coming from many places and one special taking care of everything. At least..a challenge stage! -->			
+			<Scene id="70020">
+			
+				<Actions>
+					
+					<!-- Asteroid 1 -->
+					<Action id="70300">
+						<Attributes>
+							<Attribute id="TimeToAppear" value="15"/> <!-- From time to time -->
+							<Attribute id="ProbabilityToAppear" value="80"/>
+							<Attribute id="PointsGiven" value="150"/>
+							<Attribute id="Speed" value="-2"/>
+						</Attributes>
+					</Action>
+				
+					<!-- Single UFO 1 -->
+					<Action id="73300">
+						<Attributes>
+							<Attribute id="TimeToAppear" value="3"/>
+							<Attribute id="Emerge" value="YES"/>
+							<Attribute id="TimeToMove" value="1"/>
+							<Attribute id="Regenerate" value="YES"/>
+							<Attribute id="InitialPosition" value="0.75,0.65,0.0"/>
+							<Attribute id="Type" value="1001"/> 
+							<Attribute id="MovType" value="3"/> <!-- A circle in the middle -->
+							<Attribute id="TypeShooting" value="2"/>
+							<Attribute id="TimeToShoot" value="2"/>
+							<Attribute id="ProbabilityToShoot" value="60"/>
+							<Attribute id="ShootingForce" value="1"/>
+							<Attribute id="Speed" value="7"/>
+						</Attributes>
+					</Action>
+
+					<!-- A set of ufos comming following a queue from the left -->
+					<Action id="74300">
+						<Attributes>
+							<Attribute id="TimeToAppear" value="1"/>
+							<Attribute id="ProbabilityToAppear" value="100"/>
+							<Attribute id="TimeToMove" value="1"/>
+							<Attribute id="Regenerate" value="NO"/>
+							<Attribute id="Roll" value="YES"/>
+							<Attribute id="InitialPosition" value="0.2,0.65,0"/> 
+							<Attribute id="MaxTimeAction" value="30"/> 
+							<Attribute id="Type" value="0"/> 
+							<Attribute id="MovType" value="0"/> 
+							<Attribute id="TypeShooting" value="2"/>
+							<Attribute id="TimeToShoot" value="1"/>
+							<Attribute id="ProbabilityToShoot" value="60"/> 
+							<Attribute id="ShootingForce" value="2"/>
+							<Attribute id="Speed" value="7"/>
+							<Attribute id="CombatFormation" value="1"/> 
+							<Attribute id="CombatFormationAttrs" value="0.25"/>
+							<Attribute id="CombatFormationAttackParameters" value="500.0,100.0,0.0,6.2831,6.0"/> 
+							<Attribute id="NumberUFOS" value="7"/>
+							<Attribute id="TimerEvery" value="0"/> 
+							<Attribute id="TimerForHowMany" value="-1"/> 
+							<Attribute id="TimerProbability" value="100"/> 
+						</Attributes>
+					</Action>
+
+					<!-- Same from the right to the left -->
+					<Action id="74301">
+						<Attributes>
+							<Attribute id="TimeToAppear" value="1"/>
+							<Attribute id="ProbabilityToAppear" value="100"/>
+							<Attribute id="TimeToMove" value="1"/>
+							<Attribute id="Regenerate" value="NO"/>
+							<Attribute id="Roll" value="YES"/>
+							<Attribute id="InitialPosition" value="1.0,0.55,0"/> 
+							<Attribute id="MaxTimeAction" value="30"/> 
+							<Attribute id="Type" value="0"/> 
+							<Attribute id="MovType" value="0"/> 
+							<Attribute id="TypeShooting" value="2"/>
+							<Attribute id="TimeToShoot" value="1"/>
+							<Attribute id="ProbabilityToShoot" value="60"/> 
+							<Attribute id="ShootingForce" value="2"/>
+							<Attribute id="Speed" value="7"/>
+							<Attribute id="CombatFormation" value="1"/> 
+							<Attribute id="CombatFormationAttrs" value="0.25"/>
+							<Attribute id="CombatFormationAttackParameters" value="500.0,100.0,-3.1415,6.2831,6.0"/> 
+							<Attribute id="NumberUFOS" value="7"/>
+							<Attribute id="TimerEvery" value="0"/> 
+							<Attribute id="TimerForHowMany" value="-1"/> 
+							<Attribute id="TimerProbability" value="100"/> 
+						</Attributes>
+					</Action>
+
+					<!-- Again from the left, but others -->
+					<Action id="74302">
+						<Attributes>
+							<Attribute id="TimeToAppear" value="1"/>
+							<Attribute id="ProbabilityToAppear" value="100"/>
+							<Attribute id="TimeToMove" value="1"/>
+							<Attribute id="Regenerate" value="NO"/>
+							<Attribute id="Roll" value="YES"/>
+							<Attribute id="InitialPosition" value="0.2,0.55,0"/> 
+							<Attribute id="MaxTimeAction" value="30"/> 
+							<Attribute id="Type" value="1"/> 
+							<Attribute id="MovType" value="0"/> 
+							<Attribute id="TypeShooting" value="2"/>
+							<Attribute id="TimeToShoot" value="1"/>
+							<Attribute id="ProbabilityToShoot" value="60"/> 
+							<Attribute id="ShootingForce" value="2"/>
+							<Attribute id="Speed" value="7"/>
+							<Attribute id="CombatFormation" value="1"/> 
+							<Attribute id="CombatFormationAttrs" value="0.25"/>
+							<Attribute id="CombatFormationAttackParameters" value="500.0,100.0,0.0,5.0,6.0"/> 
+							<Attribute id="NumberUFOS" value="7"/>
+							<Attribute id="TimerEvery" value="0"/> 
+							<Attribute id="TimerForHowMany" value="-1"/> 
+							<Attribute id="TimerProbability" value="100"/> 
+						</Attributes>
+					</Action>
+
+					<!-- Again from the right, but others -->
+					<Action id="74303">
+						<Attributes>
+							<Attribute id="TimeToAppear" value="1"/>
+							<Attribute id="ProbabilityToAppear" value="100"/>
+							<Attribute id="TimeToMove" value="1"/>
+							<Attribute id="Regenerate" value="NO"/>
+							<Attribute id="Roll" value="YES"/>
+							<Attribute id="InitialPosition" value="1.0,0.65,0"/> 
+							<Attribute id="MaxTimeAction" value="30"/> 
+							<Attribute id="Type" value="1"/>
+							<Attribute id="MovType" value="0"/> 
+							<Attribute id="TypeShooting" value="2"/>
+							<Attribute id="TimeToShoot" value="1"/>
+							<Attribute id="ProbabilityToShoot" value="60"/> 
+							<Attribute id="ShootingForce" value="2"/>
+							<Attribute id="Speed" value="7"/>
+							<Attribute id="CombatFormation" value="1"/> 
+							<Attribute id="CombatFormationAttrs" value="0.25"/>
+							<Attribute id="CombatFormationAttackParameters" value="500.0,100.0,3.1415,5.0,6.0"/> 
+							<Attribute id="NumberUFOS" value="7"/>
+							<Attribute id="TimerEvery" value="0"/> 
+							<Attribute id="TimerForHowMany" value="-1"/> 
+							<Attribute id="TimerProbability" value="100"/> 
+						</Attributes>
+					</Action>
+					
+					<!-- No pills no energy, no nothing...it is a challengue stage -->
+					
+				</Actions>
+			
+				<Attributes>
+					<Attribute id="NAME" value="Destroy all!"/>
+					<Attribute id="SEQUENTIALACTIONBLOCKS" value="74300,74301,74302,74303"/>
+					<Attribute id="MOVEMENT" value="1,1,0"/> 
+					<Attribute id="BACKGROUNDMUSIC" value="60001"/> 
+					<Attribute id="SCENETIME" value="60"/> <!-- Time just for two! -->
+				</Attributes>
+				
+				<Conexions>
+					<Conexion id="0" with="70030" at="0"/>
+				</Conexions>
+				
+				<Maps>
+					<Map id="50102" file="maps/BKSpace3.xml"/>
+					<Map id="70000" file="maps/nomap.xml"/>
+				</Maps>
+				
+				<Entities>
+				</Entities>
+				
+			</Scene>
+			
+		</Scenes>
+		
+		<Attributes>
+			<Attribute id="NAME" value="Challenge Stage"/>
+		</Attributes>
+		
+	</World>
+	
+</Worlds>

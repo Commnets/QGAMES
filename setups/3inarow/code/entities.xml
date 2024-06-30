@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Entities>
+<!--    <Entity id="X"> -->
+<!--      <Forms> -->
+<!--        <Form id="XX"/> -->
+<!--        ... -->
+<!--      </Forms> -->
+<!--      <Capacities> -->
+<!--        <Capacity id="Y" value="YY"/> -->
+<!--        ... -->
+<!--      </Capacities> -->
+<!--      <Physics> -->
+<!--        <Physic id="Z" value="ZZZ"/> -->
+<!--        ... -->
+<!--        </Physics> -->
+<!--      <Movements> -->
+<!--        <Movement id="K"/> -->
+<!--        ... -->
+<!--      </Movements> -->
+<!--    </Entity> -->
+<!--    ... -->
+</Entities>

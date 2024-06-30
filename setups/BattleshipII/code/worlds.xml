@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Worlds>
+
+	<!-- Includes -->
+	<Include file="bsworlds.xml"/>
+	
+	<!-- Every world consists on three different scenes -->
+	<!-- The first stage world -->
+	<Include file="stage1world.xml"/>
+	<!-- The second stage world -->
+	<Include file="stage2world.xml"/>
+	<!-- The third stage world -->
+	<Include file="stage3world.xml"/>
+	<!-- The fourth stage world -->
+	<Include file="stage4world.xml"/>
+	<!-- The fifth stage world -->
+	<Include file="stage5world.xml"/>
+	
+</Worlds>

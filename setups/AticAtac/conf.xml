@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<Properties>
+	<Property id="DATADIR" value="@@DATA_DIR@@"/>
+	<Property id="XSCALE" value="@@SCALE@@"/>
+	<Property id="YSCALE" value="@@SCALE@@"/>
+</Properties>

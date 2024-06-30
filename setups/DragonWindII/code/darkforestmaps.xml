@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Maps>
+	
+	<!-- The maps -->
+	<Map id="80000" type="1" file="maps/DarkForestWorld0.tmx"/>
+	<Map id="80001" type="1" file="maps/DarkForestWorld1.tmx"/>
+	<Map id="80002" type="1" file="maps/DarkForestWorld2.tmx"/>
+	<!-- -->
+	
+</Maps>

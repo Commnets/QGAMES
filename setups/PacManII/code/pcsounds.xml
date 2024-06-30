@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Sounds>
+
+	<!-- Includes -->
+	<Include file="adsounds.xml"/>
+	
+	<!-- Sounds of the game -->
+	<Sound id="50000" type="1" loop="0" file="sounds/pacman_beginning.wav"/>
+	<Sound id="50001" type="1" loop="0" file="sounds/pacman_chomp.wav"/>
+	<Sound id="50002" type="1" loop="0" file="sounds/pacman_death.wav"/>
+	<Sound id="50003" type="1" loop="0" file="sounds/pacman_eatfruit.wav"/>
+	<Sound id="50004" type="1" loop="0" file="sounds/pacman_eatghost.wav"/>
+	<Sound id="50005" type="1" loop="0" file="sounds/pacman_extrapac.wav"/>
+	<Sound id="50006" type="1" loop="1" file="sounds/pacman_intermission.wav"/>
+	<Sound id="50007" type="1" loop="-1" file="sounds/pacman_siren.wav"/>
+	<Sound id="50008" type="1" loop="-1" file="sounds/pacman_siren_fast.wav"/>
+	<Sound id="50009" type="1" loop="-1" file="sounds/pacman_siren_veryfast.wav"/>
+	<Sound id="50010" type="1" loop="-1" file="sounds/pacman_threatening.wav"/>
+	
+	<!-- Backgrounds sounds -->
+	<Sound id="50014" type="1" loop="-1" file="sounds/pacmanIIgameoverbackground.wav"/>
+	<Sound id="50011" type="1" loop="-1" file="sounds/pacmanIIhalloffamebackground.wav"/>
+	<Sound id="50012" type="1" loop="-1" file="sounds/pacmanIImenubackground.wav"/>
+	<Sound id="50013" type="1" loop="-1" file="sounds/pacmanIIwinbackground.wav"/>
+
+</Sounds>

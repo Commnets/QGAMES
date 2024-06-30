@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<Objects>
+
+	<!-- Includes -->
+	<Include file="dwobjects.xml"/>
+
+	<!-- Landscape with cave -->
+	<Background id="80130" form="80130" times="2">
+		<Attributes>
+			<Attribute id="FADEGRADE" value="255"/>
+			<Attribute id="AUTOMATICMOVE" value="YES"/>
+			<Attribute id="MOVDIRECTION" value="1,1,0"/>
+			<Attribute id="SPEED" value="0"/>
+			<Attribute id="PIXELS" value="1"/>
+			<Attribute id="LINKEDBK" value="80131"/>
+			<Attribute id="SPEEDLINKEDBK" value="2"/>
+			<Attribute id="ROLL" value="YES"/>
+		</Attributes>
+	</Background>
+	<Background id="80131" form="80131" times="2">
+		<Attributes>
+			<Attribute id="FADEGRADE" value="255"/>
+			<Attribute id="AUTOMATICMOVE" value="YES"/>
+			<Attribute id="MOVDIRECTION" value="1,1,0"/>
+			<Attribute id="SPEED" value="0"/>
+			<Attribute id="PIXELS" value="1"/>
+			<Attribute id="LINKEDBK" value="80132"/>
+			<Attribute id="SPEEDLINKEDBK" value="2"/>
+			<Attribute id="ROLL" value="YES"/>
+		</Attributes>
+	</Background>
+	<Background id="80132" form="80132" times="2">
+		<Attributes>
+			<Attribute id="FADEGRADE" value="255"/>
+			<Attribute id="AUTOMATICMOVE" value="YES"/>
+			<Attribute id="MOVDIRECTION" value="1,1,0"/>
+			<Attribute id="SPEED" value="0"/>
+			<Attribute id="PIXELS" value="1"/>
+			<Attribute id="LINKEDBK" value="80133"/>
+			<Attribute id="SPEEDLINKEDBK" value="2"/>
+			<Attribute id="ROLL" value="YES"/>
+		</Attributes>
+	</Background>
+	<Background id="80133" form="80133" times="2">
+		<Attributes>
+			<Attribute id="FADEGRADE" value="255"/>
+			<Attribute id="AUTOMATICMOVE" value="YES"/>
+			<Attribute id="MOVDIRECTION" value="1,1,0"/>
+			<Attribute id="SPEED" value="0"/>
+			<Attribute id="PIXELS" value="1"/>
+			<Attribute id="LINKEDBK" value="80134"/>
+			<Attribute id="SPEEDLINKEDBK" value="2"/>
+			<Attribute id="ROLL" value="YES"/>
+		</Attributes>
+	</Background>
+	<Background id="80134" form="80134" times="1">
+		<Attributes>
+			<Attribute id="FADEGRADE" value="255"/>
+			<Attribute id="AUTOMATICMOVE" value="YES"/>
+			<Attribute id="MOVDIRECTION" value="0,0,0"/> <!-- Sun doesn't move -->
+			<Attribute id="SPEED" value="0"/>
+			<Attribute id="PIXELS" value="1"/>
+			<Attribute id="LINKEDBK" value="80135"/>
+			<Attribute id="SPEEDLINKEDBK" value="0"/>
+			<Attribute id="ROLL" value="YES"/>
+			<Attribute id="FIX" value="YES"/>
+		</Attributes>
+	</Background>
+	<Background id="80135" form="80135" times="1">
+		<Attributes>
+			<Attribute id="FADEGRADE" value="255"/>
+			<Attribute id="AUTOMATICMOVE" value="YES"/>
+			<Attribute id="MOVDIRECTION" value="0,0,0"/> <!-- Last Background (blue) doesn't move either -->
+			<Attribute id="SPEED" value="0"/>
+			<Attribute id="PIXELS" value="1"/>
+			<Attribute id="ROLL" value="NO"/>
+			<Attribute id="FIX" value="YES"/>
+		</Attributes>
+	</Background>
+	<!-- Landscape with cave -->
+	
+	<!-- Cave -->
+	<Background id="80136" form="80136" times="1">
+		<Attributes>
+			<Attribute id="FADEGRADE" value="255"/>
+			<Attribute id="AUTOMATICMOVE" value="YES"/>
+			<Attribute id="MOVDIRECTION" value="0,0,0"/> 
+			<Attribute id="SPEED" value="0"/>
+			<Attribute id="PIXELS" value="1"/>
+			<Attribute id="ROLL" value="NO"/>
+			<Attribute id="FIX" value="YES"/>
+		</Attributes>
+	</Background>
+	<!-- Cave -->
+	
+	<!-- Mountains large -->
+	<Background id="80140" form="80140" times="2">
+		<Attributes>
+			<Attribute id="FADEGRADE" value="255"/>
+			<Attribute id="AUTOMATICMOVE" value="YES"/>
+			<Attribute id="MOVDIRECTION" value="1,1,0"/>
+			<Attribute id="SPEED" value="0"/>
+			<Attribute id="PIXELS" value="1"/>
+			<Attribute id="LINKEDBK" value="80141"/>
+			<Attribute id="SPEEDLINKEDBK" value="2"/>
+			<Attribute id="ROLL" value="YES"/>
+		</Attributes>
+	</Background>
+	<Background id="80141" form="80141" times="2">
+		<Attributes>
+			<Attribute id="FADEGRADE" value="255"/>
+			<Attribute id="AUTOMATICMOVE" value="YES"/>
+			<Attribute id="MOVDIRECTION" value="0,0,0"/>
+			<Attribute id="SPEED" value="0"/>
+			<Attribute id="PIXELS" value="1"/>
+			<Attribute id="ROLL" value="NO"/>
+			<Attribute id="FIX" value="YES"/>
+		</Attributes>
+	</Background>
+	<!-- Mountains large -->
+	
+</Objects>

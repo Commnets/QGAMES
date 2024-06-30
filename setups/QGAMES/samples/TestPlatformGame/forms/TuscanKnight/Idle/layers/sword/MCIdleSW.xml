@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:9766be97783c3387bf5ed49f31931a98:adef0ece939f907bd0042cd6badde929:bee03d74c1997c269dd859b84ed516a1$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="MCIdleSW" file="./forms/MCIdleSW.png" width="63" height="126"
+		fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="?">
+		<Frame id="sword-Tuscan_Idle_00000" fPosX="56" fPosY="14" fWidth="7" fHeight="35" xoffset="86" yoffset="72" width="7" height="35"/>
+		<Frame id="sword-Tuscan_Idle_10000" fPosX="0" fPosY="36" fWidth="45" fHeight="31" xoffset="87" yoffset="76" width="45" height="31"/>
+		<Frame id="sword-Tuscan_Idle_20000" fPosX="0" fPosY="0" fWidth="63" fHeight="14" xoffset="97" yoffset="78" width="63" height="14"/>
+		<Frame id="sword-Tuscan_Idle_30000" fPosX="0" fPosY="14" fWidth="48" fHeight="22" xoffset="111" yoffset="67" width="48" height="22"/>
+		<Frame id="sword-Tuscan_Idle_40000" fPosX="48" fPosY="14" fWidth="8" fHeight="30" xoffset="121" yoffset="53" width="8" height="30"/>
+		<Frame id="sword-Tuscan_Idle_50000" fPosX="0" fPosY="95" fWidth="45" fHeight="23" xoffset="83" yoffset="53" width="45" height="23"/>
+		<Frame id="sword-Tuscan_Idle_60000" fPosX="0" fPosY="118" fWidth="43" fHeight="8" xoffset="55" yoffset="65" width="43" height="8"/>
+		<Frame id="sword-Tuscan_Idle_70000" fPosX="0" fPosY="67" fWidth="45" fHeight="28" xoffset="56" yoffset="65" width="45" height="28"/>
+    </Form>
+</CommtyExporter>

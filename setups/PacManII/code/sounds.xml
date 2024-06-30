@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Sounds>
+
+	<!-- Includes -->
+	<Include file="pcsounds.xml"/>
+	
+	<!-- The specific sounds of this version -->
+	<Sound id="60000" type="1" loop="-1" file="sounds/energybackground.wav"/>
+
+</Sounds>

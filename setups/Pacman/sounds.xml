@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Sounds>
+  <Sound id="1" type="1" loop="" file=".\sounds\pacman_beginning.wav"/>
+  <Sound id="2" type="1" loop="" file=".\sounds\pacman_chomp.wav"/>
+  <Sound id="3" type="1" loop="" file=".\sounds\pacman_death.wav"/>
+  <Sound id="4" type="1" loop="" file=".\sounds\pacman_eatfruit.wav"/>
+  <Sound id="5" type="1" loop="" file=".\sounds\pacman_eatghost.wav"/>
+  <Sound id="6" type="1" loop="" file=".\sounds\pacman_extrapac.wav"/>
+  <Sound id="7" type="1" loop="1" file=".\sounds\pacman_intermission.wav"/>
+  <Sound id="8" type="1" loop="-1" file=".\sounds\pacman_siren.wav"/>
+</Sounds>

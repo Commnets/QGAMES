@@ -1,0 +1,598 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de código fuente">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Configuration">
+      <UniqueIdentifier>{f97c3082-dc6b-42dc-9839-aa7b1e3812a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{73a7b0e7-5e24-4201-b7f6-ee3fe8add32b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Forms">
+      <UniqueIdentifier>{36c66ed6-68db-45f3-8cb1-5dc312cace63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Sounds">
+      <UniqueIdentifier>{9b40a235-bc19-451f-a185-47abdb51ca34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Maps">
+      <UniqueIdentifier>{793bc345-f6e9-4193-a811-61aec95097d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Forms\Sources">
+      <UniqueIdentifier>{f1cb840f-5d3f-4313-aed5-b051afa059df}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="TestAdArcade.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Defs.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="TestAdArcade.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Battleship.ico">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="forms\asteroids8.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\asteroids9.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\asteroids10.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\asteroids11.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\asteroids12.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\asteroids13.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BackgroundSpace4.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BackgroundSpace5.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BackgroundSpace6.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BackgroundSpace7.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BallRolling.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Battleship.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BattleshipGameLogo.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BattleshipLittle.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BattleshipRotating.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BlueEnergyBar.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\bubbles1.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\bubbles2.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\bullets.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\cloud1.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\cloud2.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\cloud3.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Commnets.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\CommnetsBig.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\CommnetsIcon.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\CommnetsIconLittle.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\CountDown32.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\CountDown60.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\CountDown88.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\CountDown116.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\CountDown144.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\CountDown172.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\CountDown200.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\CountDown228.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\CountDown256.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Courier10Black.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Courier10White.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\explosion.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\greenball.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\GreenEnergyBar.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\NecklaceBallsRolling.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Planet1.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Planet2.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Planet3.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\rainbow.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\raindrop.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Ravie12Blue.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Ravie12Green.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Ravie12Orange.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Ravie24Blue.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Ravie24Green.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Ravie24Orange.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Ravie36Blue.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Ravie36Green.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Ravie36Orange.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Ravie72Blue.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Ravie72Green.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Ravie72Orange.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\redball.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\RedEnergyBar.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\SegmentRolling.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\shootings1.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\shootings2.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\shootings3.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\SpaceBackground.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\SpaceshipLeft.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\SpaceshipRight.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\SpaceshipStay.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\windtrace.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\YellowEnergyBar.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\CommnetsIcon.ico">
+      <Filter>Data\Forms</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="adentities.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="adforms.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="adguisystem.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="admaps.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="admovements.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="adobjects.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="adsounds.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="adworlds.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="conf.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="entities.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="forms.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="guisystem.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="maps.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="monitor.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="movements.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="objects.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="sounds.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="worlds.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="maps\background.xml">
+      <Filter>Data\Maps</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="sounds\BackgroundMusic1.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\BackgroundMusic2.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\BackgroundMusic3.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\BackgroundMusic4.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\BackgroundMusic5.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\BackgroundMusic6.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\beep.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\catch.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\earthquake.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\eat.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\endoflevel.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\endoflevel2.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\explosion.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\fire.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\gameover.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\gameover2.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\gamesaved.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\hurt.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\jump.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\moreenergy.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\ovniinscreen.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\playerdies.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\playerdies2.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\playerdies3.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\playerdies4.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\playerdies5.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\playerdies6.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\rain.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\throw.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\thunder.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\wick.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\wind.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="forms\asteroids8.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\asteroids9.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\asteroids10.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\asteroids11.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\asteroids12.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\asteroids13.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\B01.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\B02.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\B03.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\B04.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\B05.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\B06.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\B07.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\B08.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\B09.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\B10.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\B11.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\B12.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\B13.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\B14.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\B15.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\B16.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\B17.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\B18.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\B19.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\B20.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\B21.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\B22.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\B23.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\B24.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\BackgroundSpace4.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\BackgroundSpace5.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\BackgroundSpace6.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\BackgroundSpace7.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\BallRolling.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\Battleship.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\BattleshipLittle.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\bullets.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\explosion.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\Planet1.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\Planet2.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\Planet3.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\shootings1.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\shootings2.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\shootings3.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\SpaceBackground.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\Spaceship.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\SpaceshipLeft.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\SpaceshipRight.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\SpaceshipStay.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TestAdArcade.rc">
+      <Filter>Archivos de recursos</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

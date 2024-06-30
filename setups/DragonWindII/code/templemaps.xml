@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Maps>
+	
+	<!-- The maps -->
+	<Map id="100000" type="1" file="maps/TempleWorld0.tmx"/>
+	<Map id="100001" type="1" file="maps/TempleWorld1.tmx"/>
+	<Map id="100002" type="1" file="maps/TempleWorld2.tmx"/>
+	<!-- -->
+	
+</Maps>

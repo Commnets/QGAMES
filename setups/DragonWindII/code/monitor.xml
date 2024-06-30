@@ -1,0 +1,1134 @@
+<?xml version="1.0"?>
+<Monitors>
+	
+	<!-- Include related with the library -->
+	<Include file="dwmonitor.xml"/>
+	
+	<!-- Simple step: 
+		 A copy of 50001 but longer -->
+	<Monitor id="50004" cyclic="YES">
+		<!-- 1: To stand for a while -->
+		<Step type="50000">
+			<Variable id="Type" value="0"/> <!-- Means standing -->
+			<Variable id="Direction" value="1"/> <!-- Meaning to the left -->
+			<!-- Impulse is not neceesary when standing -->
+			<Variable id="Seconds" value="1.0"/> <!-- Seconds -->
+		</Step>
+		
+		<!-- 2: Run -->
+		<Step type="50000">
+			<Variable id="Type" value="3"/> <!-- Means running -->
+			<Variable id="Direction" value="1"/>
+			<Variable id="Impulse" value="1"/> <!-- Normal impulse -->
+			<Variable id="Seconds" value="0"/> <!-- Just finishes when starts -->
+		</Step>
+		
+		<!-- 3: Maintains the previous state for a distance -->
+		<Step type="8">
+			<Variable id="Point" value="1056,-1,-1"/> <!-- It won't be ever this one... -->
+			<Variable id="Distance" value="6"/> <!-- It has to be close to the pixels really advanced per loop -->
+		</Step>
+		
+		<!-- 4: Stands -->
+		<Step type="50000">
+			<Variable id="Type" value="0"/> 
+			<Variable id="Direction" value="1"/> 
+			<Variable id="Seconds" value="1.0"/>
+		</Step>
+		
+		<!-- 5: Stands again, but now looking to the right -->
+		<Step type="50000">
+			<Variable id="Type" value="0"/> 
+			<Variable id="Direction" value="0"/> 
+			<Variable id="Seconds" value="1.0"/>
+		</Step>
+		
+		<!-- 6: Runs but now to the right -->
+		<Step type="50000">
+			<Variable id="Type" value="3"/> 
+			<Variable id="Direction" value="0"/>
+			<Variable id="Impulse" value="1"/> 
+			<Variable id="Seconds" value="0"/> 
+		</Step>
+		
+		<!-- 7: Again, keep the situation for a distance -->
+		<Step type="8">
+			<Variable id="Point" value="1464,-1,-1"/> 
+			<Variable id="Distance" value="6"/> 
+		</Step>
+		
+		<!-- 8: Stands finally  -->
+		<Step type="50000">
+			<Variable id="Type" value="0"/> 
+			<Variable id="Direction" value="0"/> 
+			<Variable id="Seconds" value="1.0"/>
+		</Step>
+	</Monitor>
+	
+	<!-- Simple step: 
+		 A copy of 50001 but even longer -->
+	<Monitor id="50005" cyclic="YES">
+		<!-- 1: To stand for a while -->
+		<Step type="50000">
+			<Variable id="Type" value="0"/> <!-- Means standing -->
+			<Variable id="Direction" value="1"/> <!-- Meaning to the left -->
+			<!-- Impulse is not neceesary when standing -->
+			<Variable id="Seconds" value="1.0"/> <!-- Seconds -->
+		</Step>
+		
+		<!-- 2: Run -->
+		<Step type="50000">
+			<Variable id="Type" value="3"/> <!-- Means running -->
+			<Variable id="Direction" value="1"/>
+			<Variable id="Impulse" value="1"/> <!-- Normal impulse -->
+			<Variable id="Seconds" value="0"/> <!-- Just finishes when starts -->
+		</Step>
+		
+		<!-- 3: Maintains the previous state for a distance -->
+		<Step type="8">
+			<Variable id="Point" value="936,-1,-1"/> <!-- It won't be ever this one... -->
+			<Variable id="Distance" value="6"/> <!-- It has to be close to the pixels really advanced per loop -->
+		</Step>
+		
+		<!-- 4: Stands -->
+		<Step type="50000">
+			<Variable id="Type" value="0"/> 
+			<Variable id="Direction" value="1"/> 
+			<Variable id="Seconds" value="1.0"/>
+		</Step>
+		
+		<!-- 5: Stands again, but now looking to the right -->
+		<Step type="50000">
+			<Variable id="Type" value="0"/> 
+			<Variable id="Direction" value="0"/> 
+			<Variable id="Seconds" value="1.0"/>
+		</Step>
+		
+		<!-- 6: Runs but now to the right -->
+		<Step type="50000">
+			<Variable id="Type" value="3"/> 
+			<Variable id="Direction" value="0"/>
+			<Variable id="Impulse" value="1"/> 
+			<Variable id="Seconds" value="0"/> 
+		</Step>
+		
+		<!-- 7: Again, keep the situation for a distance -->
+		<Step type="8">
+			<Variable id="Point" value="1584,-1,-1"/> 
+			<Variable id="Distance" value="6"/> 
+		</Step>
+		
+		<!-- 8: Stands finally  -->
+		<Step type="50000">
+			<Variable id="Type" value="0"/> 
+			<Variable id="Direction" value="0"/> 
+			<Variable id="Seconds" value="1.0"/>
+		</Step>
+	</Monitor>
+	
+	<!-- Jumping with a random impulse and looking to the left --> 
+	<Monitor id="50006" cyclic="YES">
+		<!-- 1: To stand for a while -->
+		<Step type="50000">
+			<Variable id="Type" value="0"/> <!-- Means standing -->
+			<Variable id="Direction" value="1"/> <!-- Meaning to the left -->
+			<!-- Impulse is not neceesary when standing -->
+			<Variable id="Seconds" value="-2.0"/> <!-- Seconds -->
+		</Step>
+		
+		<!-- 2: Jump -->
+		<Step type="50000">
+			<Variable id="Type" value="2"/> <!-- Means Jump  -->
+			<Variable id="Direction" value="1"/>
+			<Variable id="Impulse" value="-8"/> <!-- Normal impulse -->
+			<!-- Time makes no sense when jumping -->
+		</Step>
+	</Monitor>
+	
+	<!-- Jumping with a random impulse and looking to the right --> 
+	<Monitor id="50007" cyclic="YES">
+		<!-- 1: To stand for a while -->
+		<Step type="50000">
+			<Variable id="Type" value="0"/> <!-- Means standing -->
+			<Variable id="Direction" value="0"/> <!-- Meaning to the right -->
+			<!-- Impulse is not neceesary when standing -->
+			<Variable id="Seconds" value="-2.0"/> <!-- Seconds -->
+		</Step>
+		
+		<!-- 2: Jump -->
+		<Step type="50000">
+			<Variable id="Type" value="2"/> <!-- Means Jump  -->
+			<Variable id="Direction" value="1"/>
+			<Variable id="Impulse" value="-8"/> <!-- Normal impulse -->
+			<!-- Time makes no sense when jumping -->
+		</Step>
+	</Monitor>
+	
+	<!-- Simple step: This is used in one of the caves -->
+	<Monitor id="50008" cyclic="YES">
+		<!-- 1: To stand nothing -->
+		<Step type="50000">
+			<Variable id="Type" value="0"/> <!-- Means standing -->
+			<Variable id="Direction" value="1"/> <!-- Meaning to the left -->
+			<!-- Impulse is not neceesary when standing -->
+			<Variable id="Seconds" value="0.0"/> <!-- Seconds -->
+		</Step>
+		
+		<!-- 2: Run -->
+		<Step type="50000">
+			<Variable id="Type" value="3"/> <!-- Means running -->
+			<Variable id="Direction" value="1"/>
+			<Variable id="Impulse" value="2"/> <!-- Quick -->
+			<Variable id="Seconds" value="0"/> <!-- Just finishes when starts -->
+		</Step>
+		
+		<!-- 3: Maintains the previous state for a distance -->
+		<Step type="8">
+			<Variable id="Point" value="816,-1,-1"/> <!-- It won't be ever this one... -->
+			<Variable id="Distance" value="6"/> <!-- It has to be close to the pixels really advanced per loop -->
+		</Step>
+		
+		<!-- 4: Stands looking to the left -->
+		<Step type="50000">
+			<Variable id="Type" value="0"/> 
+			<Variable id="Direction" value="1"/> 
+			<Variable id="Seconds" value="3.0"/>
+		</Step>
+		
+		<!-- 5: Turn around -->
+		<Step type="50000">
+			<Variable id="Type" value="0"/> 
+			<Variable id="Direction" value="0"/> 
+			<Variable id="Seconds" value="0.0"/>
+		</Step>
+		
+		<!-- 6: Runs but now to the right -->
+		<Step type="50000">
+			<Variable id="Type" value="3"/> 
+			<Variable id="Direction" value="0"/>
+			<Variable id="Impulse" value="1"/> <!-- Slower -->
+			<Variable id="Seconds" value="0"/> 
+		</Step>
+		
+		<!-- 7: Again, keep the situation for a distance -->
+		<Step type="8">
+			<Variable id="Point" value="1536,-1,-1"/> 
+			<Variable id="Distance" value="6"/> 
+		</Step>
+		
+		<!-- 8: Stands nothing finally  -->
+		<Step type="50000">
+			<Variable id="Type" value="0"/> 
+			<Variable id="Direction" value="0"/> 
+			<Variable id="Seconds" value="0.0"/>
+		</Step>
+	</Monitor>
+	
+	<!-- Used by the gorilla to advance to a position when the coin appears in the scene. -->
+	<Monitor id="50009" cyclic="NO">
+		<!-- 1: To stand nothing -->
+		<Step type="50000">
+			<Variable id="Type" value="0"/> <!-- Means standing -->
+			<Variable id="Direction" value="1"/> <!-- Meaning to the left -->
+			<!-- Impulse is not neceesary when standing -->
+			<Variable id="Seconds" value="0.0"/> <!-- Seconds -->
+		</Step>
+		
+		<!-- 2: Run -->
+		<Step type="50000">
+			<Variable id="Type" value="3"/> <!-- Means running -->
+			<Variable id="Direction" value="1"/>
+			<Variable id="Impulse" value="2"/> <!-- Quick -->
+			<Variable id="Seconds" value="0"/> <!-- Just finishes when starts -->
+		</Step>
+		
+		<!-- 3: Maintains the previous state for a distance -->
+		<Step type="8">
+			<Variable id="Point" value="408,-1,-1"/> <!-- It won't be ever this one... -->
+			<Variable id="Distance" value="6"/> <!-- It has to be close to the pixels really advanced per loop -->
+		</Step>
+		
+		<!-- 4: Stands looking to the left -->
+		<Step type="50000">
+			<Variable id="Type" value="0"/> 
+			<Variable id="Direction" value="1"/> 
+			<Variable id="Seconds" value="3.0"/>
+		</Step>
+		
+		<!-- 5: Turns around -->
+		<Step type="50000">
+			<Variable id="Type" value="0"/> 
+			<Variable id="Direction" value="0"/> 
+			<Variable id="Seconds" value="0.0"/>
+		</Step>
+	</Monitor>
+	
+	<!-- Walk to the left a couple of steps a little bit looking to the left -->
+	<Monitor id="50010" cyclic="NO">
+		<!-- 1: To stand nothing -->
+		<Step type="50000">
+			<Variable id="Type" value="0"/> <!-- Means standing -->
+			<Variable id="Direction" value="1"/> <!-- Meaning to the left -->
+			<!-- Impulse is not neceesary when standing -->
+			<Variable id="Seconds" value="0.0"/> <!-- Seconds -->
+		</Step>
+		
+		<!-- 2: Run -->
+		<Step type="50000">
+			<Variable id="Type" value="3"/> <!-- Means running -->
+			<Variable id="Direction" value="1"/>
+			<Variable id="Impulse" value="-4"/> <!-- Random -->
+			<Variable id="Seconds" value="0"/> <!-- Just finishes when starts -->
+		</Step>
+		
+		<!-- 3: Maintains the previous state for a couple of pixels -->
+		<Step type="6">
+			<Variable id="Distance" value="120"/> <!-- Many time this distance is not exact, but it doesn't matter here -->
+		</Step>
+		
+		<!-- 4: Stands looking to the left -->
+		<Step type="50000">
+			<Variable id="Type" value="0"/> 
+			<Variable id="Direction" value="1"/> 
+			<Variable id="Seconds" value="0.0"/> <!-- Immediate -->
+		</Step>
+	</Monitor>
+	
+	<!-- Walk a little bit to the right but still looking to the left. -->
+	<Monitor id="50011" cyclic="NO">
+		<!-- 1: To stand nothing -->
+		<Step type="50000">
+			<Variable id="Type" value="0"/> <!-- Means standing -->
+			<Variable id="Direction" value="1"/> <!-- Meaning to the left -->
+			<!-- Impulse is not neceesary when standing -->
+			<Variable id="Seconds" value="0.0"/> <!-- Seconds -->
+		</Step>
+		
+		<!-- 2: Run -->
+		<Step type="50000">
+			<Variable id="Type" value="3"/> <!-- Means running -->
+			<Variable id="Direction" value="0"/>
+			<Variable id="Backwards" value="YES"/>
+			<Variable id="Impulse" value="-4"/> <!-- Random -->
+			<Variable id="Seconds" value="0"/> <!-- Just finishes when starts -->
+		</Step>
+		
+		<!-- 3: Maintains the previous state for a couple of pixels -->
+		<Step type="6">
+			<Variable id="Distance" value="120"/> <!-- Many time this distance is not exact, but it doesn't matter here -->
+		</Step>
+		
+		<!-- 4: Stands looking to the left -->
+		<Step type="50000">
+			<Variable id="Type" value="0"/> 
+			<Variable id="Direction" value="1"/> 
+			<Variable id="Seconds" value="0.0"/> <!-- Immediate -->
+		</Step>
+	</Monitor>
+
+	<!-- Jack's very complex movement at city scene number 4.
+		 He can jump, walk to the left or walk to the right (but looking to the left) ramdomly.
+		 From tile 40 to tile 52. -->
+	<Monitor id="50012" cyclic="YES">
+		<!-- The movement grouping everything -->
+		<ComplexStep type="21"> <!-- Random -->
+			<!-- 1: Set of movements to jump -->
+			<ComplexStep type="20"> <!-- Sequential -->
+				<!-- 1.1: To stand for a while -->
+				<Step type="50000">
+					<Variable id="Type" value="0"/> <!-- Means standing -->
+					<Variable id="Direction" value="1"/> <!-- Meaning to the left -->
+					<!-- Impulse is not neceesary when standing -->
+					<Variable id="Seconds" value="-2.0"/> <!-- Seconds, random -->
+				</Step>
+				
+				<!-- 1.2: Jump -->
+				<Step type="50000">
+					<Variable id="Type" value="2"/> <!-- Means Jump  -->
+					<Variable id="Direction" value="1"/>
+					<Variable id="Impulse" value="-10"/> <!-- Normal impulse random -->
+					<!-- Time makes no sense when jumping -->
+				</Step>
+			</ComplexStep>
+
+			<!-- 2: Set of movements to walk to the left -->
+			<ComplexStep type="20">
+				<!-- 2.1: To stand nothing -->
+				<Step type="50000">
+					<Variable id="Type" value="0"/> <!-- Means standing -->
+					<Variable id="Direction" value="1"/> <!-- Meaning to the left -->
+					<!-- Impulse is not neceesary when standing -->
+					<Variable id="Seconds" value="0.0"/> <!-- Seconds -->
+				</Step>
+				
+				<!-- 2.2: Run go back -->
+				<Step type="50000">
+					<Variable id="Type" value="10"/> <!-- Means running with limits -->
+					<Variable id="Direction" value="1"/>
+					<Variable id="Impulse" value="-4"/> <!-- Random -->
+					<Variable id="Seconds" value="10"/> <!-- Just finishes when starts -->
+					<Variable id="Pixels" value="100"/>
+					<Variable id="Limits" value="960,0,0,1248,600,0"/>
+				</Step>
+				
+				<!-- 2.3: Stands looking to the left -->
+				<Step type="50000">
+					<Variable id="Type" value="0"/> 
+					<Variable id="Direction" value="1"/> 
+					<Variable id="Seconds" value="0.0"/> <!-- Immediate -->
+				</Step>
+			</ComplexStep>
+			
+			<!-- 3: Set of movements to walk to the right, but looking to the left -->
+			<ComplexStep type="20">
+				<!-- 3.1: To stand nothing -->
+				<Step type="50000">
+					<Variable id="Type" value="0"/> <!-- Means standing -->
+					<Variable id="Direction" value="1"/> <!-- Meaning to the left -->
+					<!-- Impulse is not neceesary when standing -->
+					<Variable id="Seconds" value="0.0"/> <!-- Seconds -->
+				</Step>
+				
+				<!-- 3.2: Run -->
+				<Step type="50000">
+					<Variable id="Type" value="10"/> <!-- Means running -->
+					<Variable id="Direction" value="1"/> <!-- Looking to the left -->
+					<Variable id="Backwards" value="YES"/> <!-- But moving backwards, that's it to the right -->
+					<Variable id="Impulse" value="-4"/> <!-- Random -->
+					<Variable id="Seconds" value="10"/> 
+					<Variable id="Pixels" value="100"/>
+					<Variable id="Limits" value="960,0,0,1248,600,0"/>
+				</Step>
+				
+				<!-- 3.3: Stands looking to the left -->
+				<Step type="50000">
+					<Variable id="Type" value="0"/> 
+					<Variable id="Direction" value="1"/> 
+					<Variable id="Seconds" value="0.0"/> <!-- Immediate -->
+				</Step>
+			</ComplexStep>
+		</ComplexStep>
+	</Monitor>
+
+	<!-- Jack's very complex movement at landscape scene number 4.
+		 He can jump, walk to the left or walk to the right (but looking to the left) ramdomly 
+		 From tile 37 to tile 52 -->
+	<Monitor id="50013" cyclic="YES">
+		<!-- The movement grouping everything -->
+		<ComplexStep type="21"> <!-- Random -->
+			<!-- 1: Set of movements to jump -->
+			<ComplexStep type="20"> <!-- Sequential -->
+				<!-- 1.1: To stand for a while -->
+				<Step type="50000">
+					<Variable id="Type" value="0"/> <!-- Means standing -->
+					<Variable id="Direction" value="1"/> <!-- Meaning to the left -->
+					<!-- Impulse is not neceesary when standing -->
+					<Variable id="Seconds" value="-2.0"/> <!-- Seconds, random -->
+				</Step>
+				
+				<!-- 1.2: Jump -->
+				<Step type="50000">
+					<Variable id="Type" value="2"/> <!-- Means Jump  -->
+					<Variable id="Direction" value="1"/>
+					<Variable id="Impulse" value="-10"/> <!-- Normal impulse random -->
+					<!-- Time makes no sense when jumping -->
+				</Step>
+			</ComplexStep>
+
+			<!-- 2: Set of movements to walk to the left -->
+			<ComplexStep type="20">
+				<!-- 2.1: To stand nothing -->
+				<Step type="50000">
+					<Variable id="Type" value="0"/> <!-- Means standing -->
+					<Variable id="Direction" value="1"/> <!-- Meaning to the left -->
+					<!-- Impulse is not neceesary when standing -->
+					<Variable id="Seconds" value="0.0"/> <!-- Seconds -->
+				</Step>
+				
+				<!-- 2.2: Run go back -->
+				<Step type="50000">
+					<Variable id="Type" value="10"/> <!-- Means running with limits -->
+					<Variable id="Direction" value="1"/>
+					<Variable id="Impulse" value="-4"/> <!-- Random -->
+					<Variable id="Seconds" value="10"/> <!-- Just finishes when starts -->
+					<Variable id="Pixels" value="100"/>
+					<Variable id="Limits" value="888,0,0,1248,600,0"/>
+				</Step>
+				
+				<!-- 2.3: Stands looking to the left -->
+				<Step type="50000">
+					<Variable id="Type" value="0"/> 
+					<Variable id="Direction" value="1"/> 
+					<Variable id="Seconds" value="0.0"/> <!-- Immediate -->
+				</Step>
+			</ComplexStep>
+			
+			<!-- 3: Set of movements to walk to the right, but looking to the left -->
+			<ComplexStep type="20">
+				<!-- 3.1: To stand nothing -->
+				<Step type="50000">
+					<Variable id="Type" value="0"/> <!-- Means standing -->
+					<Variable id="Direction" value="1"/> <!-- Meaning to the left -->
+					<!-- Impulse is not neceesary when standing -->
+					<Variable id="Seconds" value="0.0"/> <!-- Seconds -->
+				</Step>
+				
+				<!-- 3.2: Run -->
+				<Step type="50000">
+					<Variable id="Type" value="10"/> <!-- Means running -->
+					<Variable id="Direction" value="1"/> <!-- Looking to the left -->
+					<Variable id="Backwards" value="YES"/> <!-- But moving backwards, that's it to the right -->
+					<Variable id="Impulse" value="-4"/> <!-- Random -->
+					<Variable id="Seconds" value="10"/> 
+					<Variable id="Pixels" value="100"/>
+					<Variable id="Limits" value="888,0,0,1248,600,0"/>
+				</Step>
+				
+				<!-- 3.3: Stands looking to the left -->
+				<Step type="50000">
+					<Variable id="Type" value="0"/> 
+					<Variable id="Direction" value="1"/> 
+					<Variable id="Seconds" value="0.0"/> <!-- Immediate -->
+				</Step>
+			</ComplexStep>
+		</ComplexStep>
+	</Monitor>
+
+	<!-- Jack's very complex movement at darkforest scene number 2.
+		 He can jump, walk to the left or walk to the right (but looking to the left) ramdomly 
+		 From tile 46 to tile 58 -->
+	<Monitor id="50014" cyclic="YES">
+		<!-- The movement grouping everything -->
+		<ComplexStep type="21"> <!-- Random -->
+			<!-- 1: Set of movements to jump -->
+			<ComplexStep type="20"> <!-- Sequential -->
+				<!-- 1.1: To stand for a while -->
+				<Step type="50000">
+					<Variable id="Type" value="0"/> <!-- Means standing -->
+					<Variable id="Direction" value="1"/> <!-- Meaning to the left -->
+					<!-- Impulse is not neceesary when standing -->
+					<Variable id="Seconds" value="-2.0"/> <!-- Seconds, random -->
+				</Step>
+				
+				<!-- 1.2: Jump -->
+				<Step type="50000">
+					<Variable id="Type" value="2"/> <!-- Means Jump  -->
+					<Variable id="Direction" value="1"/>
+					<Variable id="Impulse" value="-10"/> <!-- Normal impulse random -->
+					<!-- Time makes no sense when jumping -->
+				</Step>
+			</ComplexStep>
+
+			<!-- 2: Set of movements to walk to the left -->
+			<ComplexStep type="20">
+				<!-- 2.1: To stand nothing -->
+				<Step type="50000">
+					<Variable id="Type" value="0"/> <!-- Means standing -->
+					<Variable id="Direction" value="1"/> <!-- Meaning to the left -->
+					<!-- Impulse is not neceesary when standing -->
+					<Variable id="Seconds" value="0.0"/> <!-- Seconds -->
+				</Step>
+				
+				<!-- 2.2: Run go back -->
+				<Step type="50000">
+					<Variable id="Type" value="10"/> <!-- Means running with limits -->
+					<Variable id="Direction" value="1"/>
+					<Variable id="Impulse" value="-4"/> <!-- Random -->
+					<Variable id="Seconds" value="10"/> <!-- Just finishes when starts -->
+					<Variable id="Pixels" value="100"/>
+					<Variable id="Limits" value="1104,0,0,1392,600,0"/>
+				</Step>
+				
+				<!-- 2.3: Stands looking to the left -->
+				<Step type="50000">
+					<Variable id="Type" value="0"/> 
+					<Variable id="Direction" value="1"/> 
+					<Variable id="Seconds" value="0.0"/> <!-- Immediate -->
+				</Step>
+			</ComplexStep>
+			
+			<!-- 3: Set of movements to walk to the right, but looking to the left -->
+			<ComplexStep type="20">
+				<!-- 3.1: To stand nothing -->
+				<Step type="50000">
+					<Variable id="Type" value="0"/> <!-- Means standing -->
+					<Variable id="Direction" value="1"/> <!-- Meaning to the left -->
+					<!-- Impulse is not neceesary when standing -->
+					<Variable id="Seconds" value="0.0"/> <!-- Seconds -->
+				</Step>
+				
+				<!-- 3.2: Run -->
+				<Step type="50000">
+					<Variable id="Type" value="10"/> <!-- Means running -->
+					<Variable id="Direction" value="1"/> <!-- Looking to the left -->
+					<Variable id="Backwards" value="YES"/> <!-- But moving backwards, that's it to the right -->
+					<Variable id="Impulse" value="-4"/> <!-- Random -->
+					<Variable id="Seconds" value="10"/> 
+					<Variable id="Pixels" value="100"/>
+					<Variable id="Limits" value="1104,0,0,1392,600,0"/>
+				</Step>
+				
+				<!-- 3.3: Stands looking to the left -->
+				<Step type="50000">
+					<Variable id="Type" value="0"/> 
+					<Variable id="Direction" value="1"/> 
+					<Variable id="Seconds" value="0.0"/> <!-- Immediate -->
+				</Step>
+			</ComplexStep>
+		</ComplexStep>
+	</Monitor>
+
+	<!-- Jack's very complex movement at mountains scene number 4.
+		 He can jump, walk to the left or walk to the right (but looking to the left) ramdomly 
+		 From tile 65 to tile 82 -->
+	<Monitor id="50015" cyclic="YES">
+		<!-- The movement grouping everything -->
+		<ComplexStep type="21"> <!-- Random -->
+			<!-- 1: Set of movements to jump -->
+			<ComplexStep type="20"> <!-- Sequential -->
+				<!-- 1.1: To stand for a while -->
+				<Step type="50000">
+					<Variable id="Type" value="0"/> <!-- Means standing -->
+					<Variable id="Direction" value="1"/> <!-- Meaning to the left -->
+					<!-- Impulse is not neceesary when standing -->
+					<Variable id="Seconds" value="-2.0"/> <!-- Seconds, random -->
+				</Step>
+				
+				<!-- 1.2: Jump -->
+				<Step type="50000">
+					<Variable id="Type" value="2"/> <!-- Means Jump  -->
+					<Variable id="Direction" value="1"/>
+					<Variable id="Impulse" value="-10"/> <!-- Normal impulse random -->
+					<!-- Time makes no sense when jumping -->
+				</Step>
+			</ComplexStep>
+
+			<!-- 2: Set of movements to walk to the left -->
+			<ComplexStep type="20">
+				<!-- 2.1: To stand nothing -->
+				<Step type="50000">
+					<Variable id="Type" value="0"/> <!-- Means standing -->
+					<Variable id="Direction" value="1"/> <!-- Meaning to the left -->
+					<!-- Impulse is not neceesary when standing -->
+					<Variable id="Seconds" value="0.0"/> <!-- Seconds -->
+				</Step>
+				
+				<!-- 2.2: Run go back -->
+				<Step type="50000">
+					<Variable id="Type" value="10"/> <!-- Means running with limits -->
+					<Variable id="Direction" value="1"/>
+					<Variable id="Impulse" value="-4"/> <!-- Random -->
+					<Variable id="Seconds" value="10"/> <!-- Just finishes when starts -->
+					<Variable id="Pixels" value="100"/>
+					<Variable id="Limits" value="1560,0,0,1968,600,0"/>
+				</Step>
+				
+				<!-- 2.3: Stands looking to the left -->
+				<Step type="50000">
+					<Variable id="Type" value="0"/> 
+					<Variable id="Direction" value="1"/> 
+					<Variable id="Seconds" value="0.0"/> <!-- Immediate -->
+				</Step>
+			</ComplexStep>
+			
+			<!-- 3: Set of movements to walk to the right, but looking to the left -->
+			<ComplexStep type="20">
+				<!-- 3.1: To stand nothing -->
+				<Step type="50000">
+					<Variable id="Type" value="0"/> <!-- Means standing -->
+					<Variable id="Direction" value="1"/> <!-- Meaning to the left -->
+					<!-- Impulse is not neceesary when standing -->
+					<Variable id="Seconds" value="0.0"/> <!-- Seconds -->
+				</Step>
+				
+				<!-- 3.2: Run -->
+				<Step type="50000">
+					<Variable id="Type" value="10"/> <!-- Means running -->
+					<Variable id="Direction" value="1"/> <!-- Looking to the left -->
+					<Variable id="Backwards" value="YES"/> <!-- But moving backwards, that's it to the right -->
+					<Variable id="Impulse" value="-4"/> <!-- Random -->
+					<Variable id="Seconds" value="10"/> 
+					<Variable id="Pixels" value="100"/>
+					<Variable id="Limits" value="1560,0,0,1968,600,0"/>
+				</Step>
+				
+				<!-- 3.3: Stands looking to the left -->
+				<Step type="50000">
+					<Variable id="Type" value="0"/> 
+					<Variable id="Direction" value="1"/> 
+					<Variable id="Seconds" value="0.0"/> <!-- Immediate -->
+				</Step>
+			</ComplexStep>
+		</ComplexStep>
+	</Monitor>
+
+	<!-- Jack's very complex movement at temple scene number 0.
+		 He can jump, walk to the left or walk to the right (but looking to the left) ramdomly 
+		 From tile 65 to tile 82 -->
+	<Monitor id="50016" cyclic="YES">
+		<!-- The movement grouping everything -->
+		<ComplexStep type="21"> <!-- Random -->
+			<!-- 1: Set of movements to jump -->
+			<ComplexStep type="20"> <!-- Sequential -->
+				<!-- 1.1: To stand for a while -->
+				<Step type="50000">
+					<Variable id="Type" value="0"/> <!-- Means standing -->
+					<Variable id="Direction" value="1"/> <!-- Meaning to the left -->
+					<!-- Impulse is not neceesary when standing -->
+					<Variable id="Seconds" value="-2.0"/> <!-- Seconds, random -->
+				</Step>
+				
+				<!-- 1.2: Jump -->
+				<Step type="50000">
+					<Variable id="Type" value="2"/> <!-- Means Jump  -->
+					<Variable id="Direction" value="1"/>
+					<Variable id="Impulse" value="-10"/> <!-- Normal impulse random -->
+					<!-- Time makes no sense when jumping -->
+				</Step>
+			</ComplexStep>
+
+			<!-- 2: Set of movements to walk to the left -->
+			<ComplexStep type="20">
+				<!-- 2.1: To stand nothing -->
+				<Step type="50000">
+					<Variable id="Type" value="0"/> <!-- Means standing -->
+					<Variable id="Direction" value="1"/> <!-- Meaning to the left -->
+					<!-- Impulse is not neceesary when standing -->
+					<Variable id="Seconds" value="0.0"/> <!-- Seconds -->
+				</Step>
+				
+				<!-- 2.2: Run go back -->
+				<Step type="50000">
+					<Variable id="Type" value="10"/> <!-- Means running with limits -->
+					<Variable id="Direction" value="1"/>
+					<Variable id="Impulse" value="-4"/> <!-- Random -->
+					<Variable id="Seconds" value="10"/> <!-- Just finishes when starts -->
+					<Variable id="Pixels" value="100"/>
+					<Variable id="Limits" value="1248,0,0,2040,600,0"/>
+				</Step>
+				
+				<!-- 2.3: Stands looking to the left -->
+				<Step type="50000">
+					<Variable id="Type" value="0"/> 
+					<Variable id="Direction" value="1"/> 
+					<Variable id="Seconds" value="0.0"/> <!-- Immediate -->
+				</Step>
+			</ComplexStep>
+			
+			<!-- 3: Set of movements to walk to the right, but looking to the left -->
+			<ComplexStep type="20">
+				<!-- 3.1: To stand nothing -->
+				<Step type="50000">
+					<Variable id="Type" value="0"/> <!-- Means standing -->
+					<Variable id="Direction" value="1"/> <!-- Meaning to the left -->
+					<!-- Impulse is not neceesary when standing -->
+					<Variable id="Seconds" value="0.0"/> <!-- Seconds -->
+				</Step>
+				
+				<!-- 3.2: Run -->
+				<Step type="50000">
+					<Variable id="Type" value="10"/> <!-- Means running -->
+					<Variable id="Direction" value="1"/> <!-- Looking to the left -->
+					<Variable id="Backwards" value="YES"/> <!-- But moving backwards, that's it to the right -->
+					<Variable id="Impulse" value="-4"/> <!-- Random -->
+					<Variable id="Seconds" value="10"/> 
+					<Variable id="Pixels" value="100"/>
+					<Variable id="Limits" value="1248,0,0,2040,600,0"/>
+				</Step>
+				
+				<!-- 3.3: Stands looking to the left -->
+				<Step type="50000">
+					<Variable id="Type" value="0"/> 
+					<Variable id="Direction" value="1"/> 
+					<Variable id="Seconds" value="0.0"/> <!-- Immediate -->
+				</Step>
+			</ComplexStep>
+		</ComplexStep>
+	</Monitor>
+
+	<!-- Jack's very complex movement at temple scene number 1.
+		 He can jump, walk to the left or walk to the right (but looking to the left) ramdomly 
+		 From tile 65 to tile 82 -->
+	<Monitor id="50017" cyclic="YES">
+		<!-- The movement grouping everything -->
+		<ComplexStep type="21"> <!-- Random -->
+			<!-- 1: Set of movements to jump -->
+			<ComplexStep type="20"> <!-- Sequential -->
+				<!-- 1.1: To stand for a while -->
+				<Step type="50000">
+					<Variable id="Type" value="0"/> <!-- Means standing -->
+					<Variable id="Direction" value="1"/> <!-- Meaning to the left -->
+					<!-- Impulse is not neceesary when standing -->
+					<Variable id="Seconds" value="-2.0"/> <!-- Seconds, random -->
+				</Step>
+				
+				<!-- 1.2: Jump -->
+				<Step type="50000">
+					<Variable id="Type" value="2"/> <!-- Means Jump  -->
+					<Variable id="Direction" value="1"/>
+					<Variable id="Impulse" value="-10"/> <!-- Normal impulse random -->
+					<!-- Time makes no sense when jumping -->
+				</Step>
+			</ComplexStep>
+
+			<!-- 2: Set of movements to walk to the left -->
+			<ComplexStep type="20">
+				<!-- 2.1: To stand nothing -->
+				<Step type="50000">
+					<Variable id="Type" value="0"/> <!-- Means standing -->
+					<Variable id="Direction" value="1"/> <!-- Meaning to the left -->
+					<!-- Impulse is not neceesary when standing -->
+					<Variable id="Seconds" value="0.0"/> <!-- Seconds -->
+				</Step>
+				
+				<!-- 2.2: Run go back -->
+				<Step type="50000">
+					<Variable id="Type" value="10"/> <!-- Means running with limits -->
+					<Variable id="Direction" value="1"/>
+					<Variable id="Impulse" value="-4"/> <!-- Random -->
+					<Variable id="Seconds" value="10"/> <!-- Just finishes when starts -->
+					<Variable id="Pixels" value="100"/>
+					<Variable id="Limits" value="1392,0,0,2040,600,0"/>
+				</Step>
+				
+				<!-- 2.3: Stands looking to the left -->
+				<Step type="50000">
+					<Variable id="Type" value="0"/> 
+					<Variable id="Direction" value="1"/> 
+					<Variable id="Seconds" value="0.0"/> <!-- Immediate -->
+				</Step>
+			</ComplexStep>
+			
+			<!-- 3: Set of movements to walk to the right, but looking to the left -->
+			<ComplexStep type="20">
+				<!-- 3.1: To stand nothing -->
+				<Step type="50000">
+					<Variable id="Type" value="0"/> <!-- Means standing -->
+					<Variable id="Direction" value="1"/> <!-- Meaning to the left -->
+					<!-- Impulse is not neceesary when standing -->
+					<Variable id="Seconds" value="0.0"/> <!-- Seconds -->
+				</Step>
+				
+				<!-- 3.2: Run -->
+				<Step type="50000">
+					<Variable id="Type" value="10"/> <!-- Means running -->
+					<Variable id="Direction" value="1"/> <!-- Looking to the left -->
+					<Variable id="Backwards" value="YES"/> <!-- But moving backwards, that's it to the right -->
+					<Variable id="Impulse" value="-4"/> <!-- Random -->
+					<Variable id="Seconds" value="10"/> 
+					<Variable id="Pixels" value="100"/>
+					<Variable id="Limits" value="1392,0,0,2040,600,0"/>
+				</Step>
+				
+				<!-- 3.3: Stands looking to the left -->
+				<Step type="50000">
+					<Variable id="Type" value="0"/> 
+					<Variable id="Direction" value="1"/> 
+					<Variable id="Seconds" value="0.0"/> <!-- Immediate -->
+				</Step>
+			</ComplexStep>
+		</ComplexStep>
+	</Monitor>
+
+	<!-- Jack's very complex movement at temple scene number 2.
+		 He can jump, walk to the left or walk to the right (but looking to the left) ramdomly 
+		 From tile 65 to tile 82 -->
+	<Monitor id="50018" cyclic="YES">
+		<!-- The movement grouping everything -->
+		<ComplexStep type="21"> <!-- Random -->
+			<!-- 1: Set of movements to jump -->
+			<ComplexStep type="20"> <!-- Sequential -->
+				<!-- 1.1: To stand for a while -->
+				<Step type="50000">
+					<Variable id="Type" value="0"/> <!-- Means standing -->
+					<Variable id="Direction" value="1"/> <!-- Meaning to the left -->
+					<!-- Impulse is not neceesary when standing -->
+					<Variable id="Seconds" value="-2.0"/> <!-- Seconds, random -->
+				</Step>
+				
+				<!-- 1.2: Jump -->
+				<Step type="50000">
+					<Variable id="Type" value="2"/> <!-- Means Jump  -->
+					<Variable id="Direction" value="1"/>
+					<Variable id="Impulse" value="-10"/> <!-- Normal impulse random -->
+					<!-- Time makes no sense when jumping -->
+				</Step>
+			</ComplexStep>
+
+			<!-- 2: Set of movements to walk to the left -->
+			<ComplexStep type="20">
+				<!-- 2.1: To stand nothing -->
+				<Step type="50000">
+					<Variable id="Type" value="0"/> <!-- Means standing -->
+					<Variable id="Direction" value="1"/> <!-- Meaning to the left -->
+					<!-- Impulse is not neceesary when standing -->
+					<Variable id="Seconds" value="0.0"/> <!-- Seconds -->
+				</Step>
+				
+				<!-- 2.2: Run go back -->
+				<Step type="50000">
+					<Variable id="Type" value="10"/> <!-- Means running with limits -->
+					<Variable id="Direction" value="1"/>
+					<Variable id="Impulse" value="-4"/> <!-- Random -->
+					<Variable id="Seconds" value="10"/> <!-- Just finishes when starts -->
+					<Variable id="Pixels" value="100"/>
+					<Variable id="Limits" value="1752,0,0,2040,600,0"/>
+				</Step>
+				
+				<!-- 2.3: Stands looking to the left -->
+				<Step type="50000">
+					<Variable id="Type" value="0"/> 
+					<Variable id="Direction" value="1"/> 
+					<Variable id="Seconds" value="0.0"/> <!-- Immediate -->
+				</Step>
+			</ComplexStep>
+			
+			<!-- 3: Set of movements to walk to the right, but looking to the left -->
+			<ComplexStep type="20">
+				<!-- 3.1: To stand nothing -->
+				<Step type="50000">
+					<Variable id="Type" value="0"/> <!-- Means standing -->
+					<Variable id="Direction" value="1"/> <!-- Meaning to the left -->
+					<!-- Impulse is not neceesary when standing -->
+					<Variable id="Seconds" value="0.0"/> <!-- Seconds -->
+				</Step>
+				
+				<!-- 3.2: Run -->
+				<Step type="50000">
+					<Variable id="Type" value="10"/> <!-- Means running -->
+					<Variable id="Direction" value="1"/> <!-- Looking to the left -->
+					<Variable id="Backwards" value="YES"/> <!-- But moving backwards, that's it to the right -->
+					<Variable id="Impulse" value="-4"/> <!-- Random -->
+					<Variable id="Seconds" value="10"/> 
+					<Variable id="Pixels" value="100"/>
+					<Variable id="Limits" value="1752,0,0,2040,600,0"/>
+				</Step>
+				
+				<!-- 3.3: Stands looking to the left -->
+				<Step type="50000">
+					<Variable id="Type" value="0"/> 
+					<Variable id="Direction" value="1"/> 
+					<Variable id="Seconds" value="0.0"/> <!-- Immediate -->
+				</Step>
+			</ComplexStep>
+		</ComplexStep>
+	</Monitor>
+	
+	<!-- Simple step used in temple scene 0:
+		 Stands for a while (random) looking to the right and then turns around and repite -->
+	<Monitor id="50019" cyclic="YES">
+		<!-- 1: Looking to the right -->
+		<Step type="50000">
+			<Variable id="Type" value="0"/> <!-- Means standing -->
+			<Variable id="Direction" value="0"/> <!-- Meaning to the right -->
+			<!-- The impulse is not necessary when just standing -->
+			<Variable id="Seconds" value="5"/> <!-- A while random -->
+		</Step>
+
+		<!-- 2: Looking to the left -->
+		<Step type="50000">
+			<Variable id="Type" value="0"/> <!-- Means standing -->
+			<Variable id="Direction" value="1"/> <!-- Meaning to the left -->
+			<!-- Impulse is not neceesary when standing -->
+			<Variable id="Seconds" value="5"/> <!-- A while random -->
+		</Step>
+	</Monitor>
+	
+	<!-- Simple step used in temple scene 0:
+		 Stands for a while (random) looking to the left and then turns around and repite
+		 It is the opposite of the previous one. -->
+	<Monitor id="50020" cyclic="YES">
+		<!-- 1: Looking to the left -->
+		<Step type="50000">
+			<Variable id="Type" value="0"/> <!-- Means standing -->
+			<Variable id="Direction" value="1"/> <!-- Meaning to the left -->
+			<!-- The impulse is not necessary when just standing -->
+			<Variable id="Seconds" value="5"/> <!-- A while random -->
+		</Step>
+
+		<!-- 2: Looking to the right -->
+		<Step type="50000">
+			<Variable id="Type" value="0"/> <!-- Means standing -->
+			<Variable id="Direction" value="0"/> <!-- Meaning to the right -->
+			<!-- Impulse is not neceesary when standing -->
+			<Variable id="Seconds" value="5"/> <!-- A while random -->
+		</Step>
+	</Monitor>
+	
+	<!-- Simple step used in temple scene 1 for the monster number 0:
+		 walk over the platform a little bit, then fall on the very basic platform as wals again a little bit
+		 to finalize defending the position. -->
+	<Monitor id="50021" cyclic="NO">
+		<!-- 1: Stands for a while -->
+		<Step type="50000">
+			<Variable id="Type" value="0"/> <!-- Means standing -->
+			<Variable id="Direction" value="0"/> <!-- Meaning to the left -->
+			<!-- Impulse is not neceesary when standing -->
+			<Variable id="Seconds" value="2.0"/> <!-- Seconds -->
+		</Step>
+		
+		<!-- 2: Run -->
+		<Step type="50000">
+			<Variable id="Type" value="3"/> <!-- Means running -->
+			<Variable id="Direction" value="0"/> <!-- Means to the right -->
+			<Variable id="Impulse" value="1"/> <!-- Normal impulse -->
+			<Variable id="Seconds" value="0"/> <!-- Just finishes when starts -->
+		</Step>
+		
+		<!-- 3: Spend the time. It supposed that the zombie will run 
+				and also fell to the basic platform -->
+		<Step type="1">
+			<Variable id="Time" value="2.0"/> <!-- Seconds -->
+		</Step>
+		
+		<!-- 4: Then waits until stands up back 
+				It s supossed that after that time, the zombie will be onm the base -->
+		<Step type="2">
+			<Variable id="State" value="100"/> <!-- Stand right state for a male zombie -->
+		</Step>
+
+		<!-- 5: Stands again, but now looking to the left -->
+		<Step type="50000">
+			<Variable id="Type" value="0"/> 
+			<Variable id="Direction" value="1"/> 
+			<Variable id="Seconds" value="1.0"/>
+		</Step>
+		
+		<!-- 6: Runs but now to the left -->
+		<Step type="50000">
+			<Variable id="Type" value="3"/> 
+			<Variable id="Direction" value="1"/>
+			<Variable id="Impulse" value="1"/> 
+			<Variable id="Seconds" value="0"/> 
+		</Step>
+		
+		<!-- 7: Again, keep the situation for a distance -->
+		<Step type="6">
+			<Variable id="Distance" value="200"/> 
+		</Step>
+		
+		<!-- 8: Stands looking to the left for a while -->
+		<Step type="50000">
+			<Variable id="Type" value="0"/> 
+			<Variable id="Direction" value="1"/> 
+			<Variable id="Seconds" value="1.0"/>
+		</Step>
+
+		<!-- 9: And finally stands back but looking to the right -->
+		<Step type="50000">
+			<Variable id="Type" value="0"/> <!-- Means standing -->
+			<Variable id="Direction" value="0"/> <!-- Meaning to the right -->
+			<!-- Impulse is not neceesary when standing -->
+			<Variable id="Seconds" value="-1"/> <!-- For ever -->
+		</Step>
+	</Monitor>
+
+	<!-- Simple step used in temple scene 1 for the monster number 3:
+		 walk over the platform a little bit, then fall on the very basic platform as wals again a little bit
+		 to finalize defending the position. It is the opposite of the previous one. -->
+	<Monitor id="50022" cyclic="NO">
+		<!-- 1: Stands for a while -->
+		<Step type="50000">
+			<Variable id="Type" value="0"/> <!-- Means standing -->
+			<Variable id="Direction" value="1"/> <!-- Meaning to the left -->
+			<!-- Impulse is not neceesary when standing -->
+			<Variable id="Seconds" value="3.0"/> <!-- Seconds -->
+		</Step>
+		
+		<!-- 2: Run -->
+		<Step type="50000">
+			<Variable id="Type" value="3"/> <!-- Means running -->
+			<Variable id="Direction" value="1"/> <!-- Means to the left -->
+			<Variable id="Impulse" value="1"/> <!-- Normal impulse -->
+			<Variable id="Seconds" value="0"/> <!-- Just finishes when starts -->
+		</Step>
+		
+		<!-- 3: Spend the time. It supposed that the zombie will run 
+				and also fell to the basic platform -->
+		<Step type="1">
+			<Variable id="Time" value="2.0"/> <!-- Seconds -->
+		</Step>
+		
+		<!-- 4: Then waits until stands up back 
+				It s supossed that after that time, the zombie will be onm the base -->
+		<Step type="2">
+			<Variable id="State" value="130"/> <!-- Stand left state for a female zombie -->
+		</Step>
+
+		<!-- 5: Stands again, but now looking to the right -->
+		<Step type="50000">
+			<Variable id="Type" value="0"/> 
+			<Variable id="Direction" value="0"/> 
+			<Variable id="Seconds" value="1.0"/>
+		</Step>
+		
+		<!-- 6: Runs but now to the right -->
+		<Step type="50000">
+			<Variable id="Type" value="3"/> 
+			<Variable id="Direction" value="0"/>
+			<Variable id="Impulse" value="1"/> 
+			<Variable id="Seconds" value="0"/> 
+		</Step>
+		
+		<!-- 7: Again, keep the situation for a distance -->
+		<Step type="6">
+			<Variable id="Distance" value="200"/> 
+		</Step>
+		
+		<!-- 8: Stands looking to the right for a while -->
+		<Step type="50000">
+			<Variable id="Type" value="0"/> 
+			<Variable id="Direction" value="0"/> 
+			<Variable id="Seconds" value="1.0"/>
+		</Step>
+
+		<!-- 9: And finally stands back but looking to the left -->
+		<Step type="50000">
+			<Variable id="Type" value="0"/> <!-- Means standing -->
+			<Variable id="Direction" value="1"/> <!-- Meaning to the left -->
+			<!-- Impulse is not neceesary when standing -->
+			<Variable id="Seconds" value="-1"/> <!-- For ever -->
+		</Step>
+	</Monitor>
+	
+	<!-- Simple step used in temple scene 2 to move the first gorilla.
+		 There is associated a little earthquake any time the gorilla steps the ground! -->
+	<Monitor id="50023" cyclic="YES">
+		<!-- 1: To stand for a while -->
+		<Step type="50000">
+			<Variable id="Type" value="0"/> <!-- Means standing -->
+			<Variable id="Direction" value="0"/> <!-- Meaning to the right -->
+			<!-- Impulse is not neceesary when standing -->
+			<Variable id="Seconds" value="5.0"/> <!-- Seconds -->
+		</Step>
+		
+		<!-- 2: Jump -->
+		<Step type="50000">
+			<Variable id="Type" value="2"/> <!-- Means Jump  -->
+			<Variable id="Direction" value="0"/> <!-- Meaning to the right -->
+			<Variable id="Impulse" value="4"/> <!-- Normal impulse -->
+			<!-- Time makes no sense when jumping -->
+		</Step>
+	</Monitor>
+	
+	<!-- Simple step. 
+		 It is equivalent to the one above but looking to the left -->
+	<Monitor id="50024" cyclic="YES">
+		<!-- 1: To stand for a while -->
+		<Step type="50000">
+			<Variable id="Type" value="0"/> <!-- Means standing -->
+			<Variable id="Direction" value="1"/> <!-- Meaning to the left -->
+			<!-- Impulse is not neceesary when standing -->
+			<Variable id="Seconds" value="6.0"/> <!-- Seconds -->
+		</Step>
+		
+		<!-- 2: Jump -->
+		<Step type="50000">
+			<Variable id="Type" value="2"/> <!-- Means Jump  -->
+			<Variable id="Direction" value="1"/> <!-- Meaning to the left -->
+			<Variable id="Impulse" value="4"/> <!-- Normal impulse -->
+			<!-- Time makes no sense when jumping -->
+		</Step>
+	</Monitor>
+	
+</Monitors>

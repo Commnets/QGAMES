@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- Map with start -->
+<Map name="60000" width="816" height="600">
+	<Layers>
+		<Layer id="0" name="background">
+			<!-- The element 60000 is the background with the stars moving
+				 Read in the objects.xml file -->
+			<Element id="60000" X="0" Y="0" Z="0"/>
+			<Attributes>
+			</Attributes>
+		</Layer>
+	</Layers>
+	<Attributes>
+	</Attributes>
+</Map>

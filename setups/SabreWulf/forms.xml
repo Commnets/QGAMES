@@ -1,0 +1,1148 @@
+<?xml version="1.0"?>
+<Forms>
+
+	<!-- The sabrewulf icon -->
+	<Form id="0" name="ICON" file=".\forms\sman.png" width="17" height="23" 
+		fSpacing="0" fMargin="0" fWidth="17" fHeight="23" aColor="255" nFrames="1"/> 
+	<!-- The sabrewulf background -->
+	<Form id="1" name="BACKGROUND" file=".\forms\JungleBackground.jpg" width="640" height="480" 
+		fSpacing="0" fMargin="0" fWidth="640" fHeight="480" aColor="255" nFrames="1"/>
+	<!-- The sabrewulf logo -->
+	<Form id="2" name="LOGO" file=".\forms\SabrewulfLogo.png" width="521" height="405" 
+		fSpacing="0" fMargin="0" fWidth="521" fHeight="405" aColor="255" nFrames="1"/>
+	<!-- The community networks logo used -->
+	<Form id="3" name="commnets1" file=".\forms\Commnets1.png" width="100" height="34" 
+            fSpacing="0" fMargin="0" fWidth="100" fHeight="34" aColor="255" nFrames="1"/>
+	<!-- Used during the menu manipulation -->
+	<Form id="4" name="Keyboard" file=".\forms\keyboard2.png" width="54" height="54" 
+            fSpacing="0" fMargin="0" fWidth="54" fHeight="54" aColor="255" nFrames="1"/>
+	<Form id="5" name="Joystick" file=".\forms\joystick2.png" width="54" height="54" 
+            fSpacing="0" fMargin="0" fWidth="54" fHeight="54" aColor="255" nFrames="1"/>
+	<Form id="6" name="Go" file=".\forms\go.png" width="54" height="54" 
+            fSpacing="0" fMargin="0" fWidth="54" fHeight="54" aColor="255" nFrames="1"/>
+	<Form id="7" name="Pause" file=".\forms\pause2.png" width="128" height="128" 
+            fSpacing="0" fMargin="0" fWidth="128" fHeight="128" aColor="255" nFrames="1"/>
+	<Form id="8" name="Level" file=".\forms\easy.png" width="54" height="54" 
+            fSpacing="0" fMargin="0" fWidth="54" fHeight="54" aColor="255" nFrames="1"/>
+	<Form id="9" name="Energy" file=".\forms\BarOfEnergy.png" width="360" height="72" 
+            fSpacing="0" fMargin="0" fWidth="360" fHeight="36" aColor="255" nFrames="2"/>
+	<Form id="10" name="Arrows" file=".\forms\Arrows.png" width="64" height="64" 
+            fSpacing="0" fMargin="0" fWidth="32" fHeight="32" aColor="255" nFrames="4"/>
+
+	<!-- Forms making up the maze -->
+	<!-- Even knowing they are not used to paint the maze
+		 they can't be clear, because they are used to know the limits of the maze -->
+	<Form id="28860" name="70bc" file=".\forms\70bc.png" width="144" height="48" 
+		fSpacing="0" fMargin="0" fWidth="144" fHeight="48" aColor="255" nFrames="1"/> 
+	<Form id="29107" name="71b3" file=".\forms\71b3.png" width="80" height="80" 
+		fSpacing="0" fMargin="0" fWidth="80" fHeight="80" aColor="255" nFrames="1"/> 
+	<Form id="29336" name="7298" file=".\forms\7298.png" width="32" height="80" 
+		fSpacing="0" fMargin="0" fWidth="32" fHeight="80" aColor="255" nFrames="1"/> 
+	<Form id="29430" name="72f6" file=".\forms\72f6.png" width="128" height="80" 
+		fSpacing="0" fMargin="0" fWidth="128" fHeight="80" aColor="255" nFrames="1"/> 
+	<Form id="29794" name="7462" file=".\forms\7462.png" width="48" height="112"
+		fSpacing="0" fMargin="0" fWidth="48" fHeight="112" aColor="255" nFrames="1"/> 
+	<Form id="29987" name="7523" file=".\forms\7523.png" width="128" height="112"
+		fSpacing="0" fMargin="0" fWidth="128" fHeight="112" aColor="255" nFrames="1"/> 
+	<Form id="30495" name="771F" file=".\forms\771f.png" width="80" height="112"
+		fSpacing="0" fMargin="0" fWidth="80" fHeight="112" aColor="255" nFrames="1"/> 
+	<Form id="30814" name="785e" file=".\forms\785e.png" width="64" height="64"
+		fSpacing="0" fMargin="0" fWidth="64" fHeight="64" aColor="255" nFrames="1"/> 
+	<Form id="30962" name="78f2" file=".\forms\78f2.png" width="48" height="48"
+		fSpacing="0" fMargin="0" fWidth="48" fHeight="48" aColor="255" nFrames="1"/> 
+	<Form id="31047" name="7947" file=".\forms\7947.png" width="32" height="48"
+		fSpacing="0" fMargin="0" fWidth="32" fHeight="48" aColor="255" nFrames="1"/> 
+	<Form id="31105" name="7981" file=".\forms\7981.png" width="64" height="176"
+		fSpacing="0" fMargin="0" fWidth="64" fHeight="176" aColor="255" nFrames="1"/> 
+	<Form id="31505" name="7b11" file=".\forms\7b11.png" width="96" height="48"
+		fSpacing="0" fMargin="0" fWidth="96" fHeight="48" aColor="255" nFrames="1"/> 
+	<Form id="31671" name="7bb7" file=".\forms\7bb7.png" width="48" height="48"
+		fSpacing="0" fMargin="0" fWidth="48" fHeight="48" aColor="255" nFrames="1"/> 
+	<Form id="31756" name="7c0c" file=".\forms\7c0c.png" width="112" height="48"
+		fSpacing="0" fMargin="0" fWidth="112" fHeight="48" aColor="255" nFrames="1"/> 
+	<Form id="31949" name="7ccd" file=".\forms\7ccd.png" width="112" height="96"
+		fSpacing="0" fMargin="0" fWidth="112" fHeight="96" aColor="255" nFrames="1"/> 
+	<Form id="32331" name="7e4b" file=".\forms\7e4b.png" width="128" height="112"
+		fSpacing="0" fMargin="0" fWidth="128" fHeight="112" aColor="255" nFrames="1"/> 
+	<Form id="32839" name="8047" file=".\forms\8047.png" width="112" height="96"
+		fSpacing="0" fMargin="0" fWidth="112" fHeight="96" aColor="255" nFrames="1"/> 
+	<Form id="33221" name="81c5" file=".\forms\81c5.png" width="112" height="112"
+		fSpacing="0" fMargin="0" fWidth="112" fHeight="112" aColor="255" nFrames="1"/> 
+	<Form id="33666" name="8382" file=".\forms\8382.png" width="16" height="64"
+		fSpacing="0" fMargin="0" fWidth="16" fHeight="64" aColor="255" nFrames="1"/> 
+	<Form id="33706" name="83aa" file=".\forms\83aa.png" width="16" height="64"
+		fSpacing="0" fMargin="0" fWidth="16" fHeight="64" aColor="255" nFrames="1"/> 
+	<Form id="33746" name="83d2" file=".\forms\83d2.png" width="48" height="48"
+		fSpacing="0" fMargin="0" fWidth="48" fHeight="48" aColor="255" nFrames="1"/> 
+	<Form id="33831" name="8427" file=".\forms\8427.png" width="48" height="48"
+		fSpacing="0" fMargin="0" fWidth="48" fHeight="48" aColor="255" nFrames="1"/> 
+	<Form id="33916" name="847c" file=".\forms\847c.png" width="128" height="48"
+		fSpacing="0" fMargin="0" fWidth="128" fHeight="48" aColor="255" nFrames="1"/> 
+	<Form id="34136" name="8558" file=".\forms\8558.png" width="64" height="48"
+		fSpacing="0" fMargin="0" fWidth="64" fHeight="48" aColor="255" nFrames="1"/> 
+	<Form id="34248" name="85c8" file=".\forms\85c8.png" width="96" height="80"
+		fSpacing="0" fMargin="0" fWidth="96" fHeight="80" aColor="255" nFrames="1"/> 
+	<Form id="34522" name="86da" file=".\forms\86da.png" width="64" height="16"
+		fSpacing="0" fMargin="0" fWidth="64" fHeight="16" aColor="255" nFrames="1"/> 
+	<Form id="34562" name="8702" file=".\forms\8702.png" width="64" height="16"
+		fSpacing="0" fMargin="0" fWidth="64" fHeight="16" aColor="255" nFrames="1"/> 
+	<Form id="34602" name="872a" file=".\forms\872a.png" width="64" height="96"
+		fSpacing="0" fMargin="0" fWidth="64" fHeight="96" aColor="255" nFrames="1"/> 
+	<Form id="34822" name="8806" file=".\forms\8806.png" width="112" height="112"
+		fSpacing="0" fMargin="0" fWidth="112" fHeight="112" aColor="255" nFrames="1"/> 
+	<Form id="35267" name="89c3" file=".\forms\89c3.png" width="112" height="112"
+		fSpacing="0" fMargin="0" fWidth="112" fHeight="112" aColor="255" nFrames="1"/> 
+	<Form id="35712" name="8b80" file=".\forms\8b80.png" width="64" height="96"
+		fSpacing="0" fMargin="0" fWidth="64" fHeight="96" aColor="255" nFrames="1"/> 
+	<Form id="35932" name="8c5c" file=".\forms\8c5c.png" width="64" height="48"
+		fSpacing="0" fMargin="0" fWidth="64" fHeight="48" aColor="255" nFrames="1"/> 
+	<Form id="36044" name="8ccc" file=".\forms\8ccc.png" width="64" height="48"
+		fSpacing="0" fMargin="0" fWidth="64" fHeight="48" aColor="255" nFrames="1"/> 
+	<Form id="36156" name="8d3c" file=".\forms\8d3c.png" width="62" height="96"
+		fSpacing="0" fMargin="0" fWidth="62" fHeight="96" aColor="255" nFrames="1"/> 
+	<Form id="36376" name="8e18" file=".\forms\8e18.png" width="88" height="80"
+		fSpacing="0" fMargin="0" fWidth="88" fHeight="80" aColor="255" nFrames="1"/> 
+	<Form id="36650" name="8f2a" file=".\forms\8f2a.png" width="98" height="112"
+		fSpacing="0" fMargin="0" fWidth="98" fHeight="112" aColor="255" nFrames="1"/> 
+	<Form id="37032" name="90a8" file=".\forms\90a8.png" width="128" height="178"
+		fSpacing="0" fMargin="0" fWidth="128" fHeight="178" aColor="255" nFrames="1"/> 
+	<Form id="37828" name="93c4" file=".\forms\93c4.png" width="144" height="84"
+		fSpacing="0" fMargin="0" fWidth="144" fHeight="84" aColor="255" nFrames="1"/> 
+	<Form id="38237" name="955d" file=".\forms\955d.png" width="64" height="48"
+		fSpacing="0" fMargin="0" fWidth="64" fHeight="48" aColor="255" nFrames="1"/> 
+	<Form id="38349" name="95cd" file=".\forms\95cd.png" width="90" height="48"
+		fSpacing="0" fMargin="0" fWidth="90" fHeight="48" aColor="255" nFrames="1"/> 
+	<Form id="38515" name="9673" file=".\forms\9673.png" width="18" height="50"
+		fSpacing="0" fMargin="0" fWidth="18" fHeight="50" aColor="255" nFrames="1"/> 
+		
+	<!-- The maze spaces -->
+	<Form id="10000" name="M0" file=".\forms\0.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/>
+	<!-- There is no aspect for 1 -->
+	<!-- It means there is no maze space of the type 1 -->
+	<Form id="10002" name="M2" file=".\forms\2.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<Form id="10003" name="M3" file=".\forms\3.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<Form id="10004" name="M4" file=".\forms\4.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<Form id="10005" name="M5" file=".\forms\5.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<Form id="10006" name="M6" file=".\forms\6.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<Form id="10007" name="M7" file=".\forms\7.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<Form id="10008" name="M8" file=".\forms\8.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<Form id="10009" name="M9" file=".\forms\9.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<Form id="10010" name="M10" file=".\forms\10.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<Form id="10011" name="M11" file=".\forms\11.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<Form id="10012" name="M12" file=".\forms\12.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<Form id="10013" name="M13" file=".\forms\13.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<Form id="10014" name="M14" file=".\forms\14.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<Form id="10015" name="M15" file=".\forms\15.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<Form id="10016" name="M16" file=".\forms\16.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<Form id="10017" name="M17" file=".\forms\17.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<Form id="10018" name="M18" file=".\forms\18.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<!-- There is no aspect for 19 -->
+	<!-- It means there is no maze space of the type 19 -->
+	<Form id="10020" name="M20" file=".\forms\20.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<Form id="10021" name="M21" file=".\forms\21.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<Form id="10022" name="M22" file=".\forms\22.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<Form id="10023" name="M23" file=".\forms\23.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<Form id="10024" name="M24" file=".\forms\24.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<Form id="10025" name="M25" file=".\forms\25.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<Form id="10026" name="M26" file=".\forms\26.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<Form id="10027" name="M27" file=".\forms\27.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<Form id="10028" name="M28" file=".\forms\28.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<Form id="10029" name="M29" file=".\forms\29.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<Form id="10030" name="M30" file=".\forms\30.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<Form id="10031" name="M31" file=".\forms\31.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<Form id="10032" name="M32" file=".\forms\32.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<Form id="10033" name="M33" file=".\forms\33.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<Form id="10034" name="M34" file=".\forms\34.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<Form id="10035" name="M35" file=".\forms\35.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<!-- There is no aspect for 36 -->
+	<!-- The same with the type 36 -->
+	<Form id="10037" name="M37" file=".\forms\37.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<Form id="10038" name="M38" file=".\forms\38.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<Form id="10039" name="M39" file=".\forms\39.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<Form id="10040" name="M40" file=".\forms\40.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<Form id="10041" name="M41" file=".\forms\41.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<Form id="10042" name="M42" file=".\forms\42.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<Form id="10043" name="M43" file=".\forms\43.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<Form id="10044" name="M44" file=".\forms\44.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<Form id="10045" name="M45" file=".\forms\45.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<Form id="10046" name="M46" file=".\forms\46.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<Form id="10047" name="M47" file=".\forms\47.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<Form id="20000" name="Ground0" file=".\forms\ground0.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/> 
+	<Form id="20001" name="Ground1" file=".\forms\ground1.png" width="512" height="352"
+		fSpacing="0" fMargin="0" fWidth="512" fHeight="352" aColor="255" nFrames="1"/>
+	
+	<!-- The Borders for the presentation screen -->
+	<Form id="20010" name="T00" file=".\forms\T00.png" width="64" height="176"
+		fSpacing="0" fMargin="0" fWidth="64" fHeight="176" aColor="255" nFrames="1"/>
+	<Form id="20011" name="T01" file=".\forms\T01.png" width="32" height="176"
+		fSpacing="0" fMargin="0" fWidth="32" fHeight="176" aColor="255" nFrames="1"/>
+	<Form id="20012" name="T02" file=".\forms\T02.png" width="144" height="176"
+		fSpacing="0" fMargin="0" fWidth="144" fHeight="176" aColor="255" nFrames="1"/>
+	<Form id="20013" name="B01" file=".\forms\B01.png" width="32" height="176"
+		fSpacing="0" fMargin="0" fWidth="32" fHeight="176" aColor="255" nFrames="1"/>
+	<Form id="20014" name="B02" file=".\forms\B02.png" width="144" height="176"
+		fSpacing="0" fMargin="0" fWidth="144" fHeight="176" aColor="255" nFrames="1"/>
+		
+	<!-- The forms for sabreman -->
+	<Form id="600" name="sabreman" file=".\forms\sabreman.png" width="642" height="52"
+		fSpacing="2" fMargin="2" fWidth="38" fHeight="48" aColor="255" nFrames="16"/>
+	<Form id="601" name="speedsabreman" file=".\forms\bluesabreman.png" width="642" height="52"
+		fSpacing="2" fMargin="2" fWidth="38" fHeight="48" aColor="255" nFrames="16"/>
+	<Form id="602" name="stoppedsabremanr" file=".\forms\stunsitright.png" width="36" height="48"
+		fSpacing="0" fMargin="0" fWidth="36" fHeight="48" aColor="255" nFrames="1"/>
+	<Form id="603" name="stoppedsabremanl" file=".\forms\stunsitleft.png" width="36" height="48"
+		fSpacing="0" fMargin="0" fWidth="36" fHeight="48" aColor="255" nFrames="1"/>
+	<Form id="604" name="inmortalsabreman" file=".\forms\redsabreman.png" width="642" height="52"
+		fSpacing="2" fMargin="2" fWidth="38" fHeight="48" aColor="255" nFrames="16"/>
+	<Form id="604" name="inmortalsabreman" file=".\forms\redsabreman.png" width="642" height="52"
+		fSpacing="2" fMargin="2" fWidth="38" fHeight="48" aColor="255" nFrames="16"/>
+	<Form id="605" name="backsabreman" file=".\forms\pinksabreman.png" width="642" height="52"
+		fSpacing="2" fMargin="2" fWidth="38" fHeight="48" aColor="255" nFrames="16"/>
+	<Form id="606" name="fightsabreman" file=".\forms\sabreman1.png" width="896" height="48"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="48" aColor="255" nFrames="16"/>
+	<Form id="607" name="flyrightsabreman" file=".\forms\flyright.png" width="36" height="52"
+		fSpacing="0" fMargin="0" fWidth="36" fHeight="52" aColor="255" nFrames="1"/>
+	<Form id="608" name="fighlefttsabreman" file=".\forms\flyleft.png" width="36" height="52"
+		fSpacing="0" fMargin="0" fWidth="36" fHeight="52" aColor="255" nFrames="1"/>
+	<Form id="609" name="sitrightsabreman" file=".\forms\sitright.png" width="36" height="52"
+		fSpacing="0" fMargin="0" fWidth="36" fHeight="52" aColor="255" nFrames="1"/>
+	<Form id="610" name="sitleftsabreman" file=".\forms\sitleft.png" width="36" height="52"
+		fSpacing="0" fMargin="0" fWidth="36" fHeight="52" aColor="255" nFrames="1"/>
+	<Form id="611" name="dierightsabreman" file=".\forms\dieright.png" width="50" height="52"
+		fSpacing="0" fMargin="0" fWidth="50" fHeight="52" aColor="255" nFrames="1"/>
+	<Form id="612" name="dieleftsabreman" file=".\forms\dieleft.png" width="50" height="52"
+		fSpacing="0" fMargin="0" fWidth="50" fHeight="52" aColor="255" nFrames="1"/>
+		
+	<!-- The forms of the orchild -->
+	<Form id="700" name="redflowers" file=".\forms\redflowers.png" width="280" height="38"
+		fSpacing="0" fMargin="0" fWidth="40" fHeight="38" aColor="255" nFrames="7"/>
+	<Form id="750" name="redorchild" file=".\forms\redorchild.png" width="54" height="38"
+		fSpacing="0" fMargin="0" fWidth="54" fHeight="38" aColor="255" nFrames="1"/>
+	<Form id="701" name="pinkflowers" file=".\forms\pinkflowers.png" width="280" height="38"
+		fSpacing="0" fMargin="0" fWidth="40" fHeight="38" aColor="255" nFrames="7"/>
+	<Form id="751" name="pinkorchild" file=".\forms\pinkorchild.png" width="54" height="38"
+		fSpacing="0" fMargin="0" fWidth="54" fHeight="38" aColor="255" nFrames="1"/>
+	<Form id="702" name="blueflowers" file=".\forms\blueflowers.png" width="280" height="38"
+		fSpacing="0" fMargin="0" fWidth="40" fHeight="38" aColor="255" nFrames="7"/>
+	<Form id="752" name="blueorchild" file=".\forms\blueorchild.png" width="54" height="38"
+		fSpacing="0" fMargin="0" fWidth="54" fHeight="38" aColor="255" nFrames="1"/>
+	<Form id="703" name="yellowflowers" file=".\forms\yellowflowers.png" width="280" height="38"
+		fSpacing="0" fMargin="0" fWidth="40" fHeight="38" aColor="255" nFrames="7"/>
+	<Form id="753" name="yelloworchild" file=".\forms\yelloworchild.png" width="54" height="38"
+		fSpacing="0" fMargin="0" fWidth="54" fHeight="38" aColor="255" nFrames="1"/>
+	<Form id="704" name="whiteflowers" file=".\forms\whiteflowers.png" width="280" height="38"
+		fSpacing="0" fMargin="0" fWidth="40" fHeight="38" aColor="255" nFrames="7"/>
+	<Form id="754" name="whiteorchild" file=".\forms\whiteorchild.png" width="54" height="38"
+		fSpacing="0" fMargin="0" fWidth="54" fHeight="38" aColor="255" nFrames="1"/>
+		
+	<!-- The different objects distributed accross the game -->
+	<Form id="800" name="objects" file=".\forms\objects.png" width="640" height="38"
+		fSpacing="0" fMargin="0" fWidth="40" fHeight="38" aColor="255" nFrames="16"/>
+	<Form id="801" name="amuletlittle" file=".\forms\map.png" width="109" height="79"
+		fSpacing="0" fMargin="0" fWidth="53" fHeight="38" aColor="255" nFrames="4"/>
+	<Form id="802" name="amulet" file=".\forms\amulet.png" width="347" height="249"
+		fSpacing="1" fMargin="1" fWidth="172" fHeight="123" aColor="255" nFrames="4"/>
+	<Form id="803" name="amuletempty" file=".\forms\amuletempty.png" width="347" height="249"
+		fSpacing="1" fMargin="1" fWidth="172" fHeight="123" aColor="255" nFrames="4"/>
+		
+	<!-- The different monsters -->
+	<Form id="900" name="ape" file=".\forms\ape.png" width="160" height="48"
+		fSpacing="0" fMargin="0" fWidth="40" fHeight="48" aColor="255" nFrames="4"/>	
+	<Form id="901" name="bird1" file=".\forms\bird.png" width="160" height="48"
+		fSpacing="0" fMargin="0" fWidth="40" fHeight="48" aColor="255" nFrames="4"/>	
+	<Form id="902" name="bird2" file=".\forms\bird2.png" width="160" height="48"
+		fSpacing="0" fMargin="0" fWidth="40" fHeight="48" aColor="255" nFrames="4"/>	
+	<Form id="903" name="bird3" file=".\forms\bird3.png" width="160" height="48"
+		fSpacing="0" fMargin="0" fWidth="40" fHeight="48" aColor="255" nFrames="4"/>	
+	<Form id="904" name="bug" file=".\forms\bug.png" width="160" height="48"
+		fSpacing="0" fMargin="0" fWidth="40" fHeight="48" aColor="255" nFrames="4"/>	
+	<Form id="905" name="lobster" file=".\forms\lobster.png" width="224" height="48"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="48" aColor="255" nFrames="4"/>	
+	<Form id="906" name="moth" file=".\forms\moth.png" width="160" height="48"
+		fSpacing="0" fMargin="0" fWidth="40" fHeight="48" aColor="255" nFrames="4"/>	
+	<Form id="907" name="mouse" file=".\forms\mouse.png" width="224" height="42"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="42" aColor="255" nFrames="4"/>	
+	<Form id="908" name="scorpion" file=".\forms\scorpion.png" width="224" height="44"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="44" aColor="255" nFrames="4"/>	
+	<Form id="909" name="skunk" file=".\forms\skunk.png" width="224" height="48"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="48" aColor="255" nFrames="4"/>	
+	<Form id="910" name="snake1" file=".\forms\snake.png" width="224" height="44"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="44" aColor="255" nFrames="4"/>	
+	<Form id="911" name="snake2" file=".\forms\snake2.png" width="224" height="44"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="44" aColor="255" nFrames="4"/>	
+	<Form id="912" name="snake3" file=".\forms\snake3.png" width="224" height="44"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="44" aColor="255" nFrames="4"/>	
+	<Form id="913" name="spider1" file=".\forms\spider1.png" width="224" height="48"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="44" aColor="255" nFrames="4"/>	
+	<Form id="914" name="spider2" file=".\forms\spider2.png" width="224" height="48"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="44" aColor="255" nFrames="4"/>	
+	<Form id="915" name="spider3" file=".\forms\spider3.png" width="224" height="48"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="44" aColor="255" nFrames="4"/>	
+	<Form id="916" name="thing" file=".\forms\thing.png" width="160" height="44"
+		fSpacing="0" fMargin="0" fWidth="40" fHeight="44" aColor="255" nFrames="4"/>
+	<Form id="917" name="frog" file=".\forms\frog.png" width="224" height="48"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="48" aColor="255" nFrames="4"/>
+	<Form id="918" name="frog2" file=".\forms\frog2.png" width="224" height="48"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="48" aColor="255" nFrames="4"/>
+	<Form id="919" name="lizard" file=".\forms\lizard.png" width="224" height="32"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="32" aColor="255" nFrames="4"/>
+	<Form id="920" name="owl" file=".\forms\owl.png" width="224" height="48"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="48" aColor="255" nFrames="4"/>
+	<Form id="921" name="owl2" file=".\forms\owl2.png" width="224" height="48"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="48" aColor="255" nFrames="4"/>
+	<Form id="922" name="fire" file=".\forms\fire.png" width="414" height="48"
+		fSpacing="0" fMargin="0" fWidth="46" fHeight="48" aColor="255" nFrames="9"/>
+	<!-- The forms of the monster when appearing -->
+	<Form id="950" name="appearingape" file=".\forms\appearape.png" width="336" height="52"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="52" aColor="255" nFrames="6"/>	
+	<Form id="951" name="appearingbird1" file=".\forms\appearbird1.png" width="336" height="52"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="52" aColor="255" nFrames="6"/>	
+	<Form id="952" name="appearingbird2" file=".\forms\appearbird2.png" width="336" height="52"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="52" aColor="255" nFrames="6"/>	
+	<Form id="953" name="appearingbird3" file=".\forms\appearbird3.png" width="336" height="52"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="52" aColor="255" nFrames="6"/>	
+	<Form id="954" name="appearingbug" file=".\forms\appearbug.png" width="336" height="52"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="52" aColor="255" nFrames="6"/>	
+	<Form id="955" name="appearinglobster" file=".\forms\appearlobster.png" width="336" height="52"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="52" aColor="255" nFrames="6"/>	
+	<Form id="956" name="appearingmoth" file=".\forms\appearmoth.png" width="336" height="52"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="52" aColor="255" nFrames="6"/>	
+	<Form id="957" name="appearingmouse" file=".\forms\appearmouse.png" width="336" height="52"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="52" aColor="255" nFrames="6"/>	
+	<Form id="958" name="appearingscorpion" file=".\forms\appearscorpion.png" width="336" height="52"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="52" aColor="255" nFrames="6"/>	
+	<Form id="959" name="appearingskunk" file=".\forms\appearskunk.png" width="336" height="52"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="52" aColor="255" nFrames="6"/>	
+	<Form id="960" name="appearingsnake1" file=".\forms\appearsnake1.png" width="336" height="52"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="52" aColor="255" nFrames="6"/>	
+	<Form id="961" name="appearingsnake2" file=".\forms\appearsnake2.png" width="336" height="52"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="52" aColor="255" nFrames="6"/>	
+	<Form id="962" name="appearingsnake3" file=".\forms\appearsnake3.png" width="336" height="52"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="52" aColor="255" nFrames="6"/>	
+	<Form id="963" name="appearingspider1" file=".\forms\appearspider1.png" width="336" height="52"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="52" aColor="255" nFrames="6"/>	
+	<Form id="964" name="appearingspider2" file=".\forms\appearspider2.png" width="336" height="52"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="52" aColor="255" nFrames="6"/>	
+	<Form id="965" name="appearingspider3" file=".\forms\appearspider3.png" width="336" height="52"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="52" aColor="255" nFrames="6"/>	
+	<Form id="966" name="appearingthing" file=".\forms\appearthing.png" width="336" height="52"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="52" aColor="255" nFrames="6"/>
+	<Form id="967" name="appearingfrog" file=".\forms\appearfrog.png" width="336" height="52"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="52" aColor="255" nFrames="6"/>
+	<Form id="968" name="appearingfrog2" file=".\forms\appearfrog2.png" width="336" height="52"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="52" aColor="255" nFrames="6"/>
+	<Form id="969" name="appearinglizard" file=".\forms\appearlizard.png" width="336" height="52"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="52" aColor="255" nFrames="6"/>
+	<Form id="970" name="appearingowl" file=".\forms\appearowl.png" width="336" height="52"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="52" aColor="255" nFrames="6"/>
+	<Form id="971" name="appearingowl2" file=".\forms\appearowl2.png" width="336" height="52"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="52" aColor="255" nFrames="6"/>
+	<Form id="972" name="bornfire" file=".\forms\bornfire.png" width="179" height="48"
+		fSpacing="0" fMargin="0" fWidth="44" fHeight="48" aColor="255" nFrames="4"/>
+	<!-- The forms of the monster when dieing -->
+	<Form id="980" name="stabbedape" file=".\forms\stabbedape.png" width="336" height="54"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="54" aColor="255" nFrames="6"/>	
+	<Form id="981" name="stabbedbird1" file=".\forms\stabbedbird1.png" width="336" height="54"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="54" aColor="255" nFrames="6"/>	
+	<Form id="982" name="stabbedbird2" file=".\forms\stabbedbird2.png" width="336" height="54"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="54" aColor="255" nFrames="6"/>	
+	<Form id="983" name="stabbedbird3" file=".\forms\stabbedbird3.png" width="336" height="54"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="54" aColor="255" nFrames="6"/>	
+	<Form id="984" name="stabbedbug" file=".\forms\stabbedbug.png" width="336" height="54"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="54" aColor="255" nFrames="6"/>	
+	<Form id="985" name="stabbedlobster" file=".\forms\stabbedlobster.png" width="336" height="54"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="54" aColor="255" nFrames="6"/>	
+	<Form id="986" name="stabbedmoth" file=".\forms\stabbedmoth.png" width="336" height="54"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="54" aColor="255" nFrames="6"/>	
+	<Form id="987" name="stabbedmouse" file=".\forms\stabbedmouse.png" width="336" height="54"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="54" aColor="255" nFrames="6"/>	
+	<Form id="988" name="stabbedscorpion" file=".\forms\stabbedscorpion.png" width="336" height="54"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="54" aColor="255" nFrames="6"/>	
+	<Form id="989" name="stabbedskunk" file=".\forms\stabbedskunk.png" width="336" height="54"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="54" aColor="255" nFrames="6"/>	
+	<Form id="990" name="stabbedsnake1" file=".\forms\stabbedsnake1.png" width="336" height="54"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="54" aColor="255" nFrames="6"/>	
+	<Form id="991" name="stabbedsnake2" file=".\forms\stabbedsnake2.png" width="336" height="54"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="54" aColor="255" nFrames="6"/>	
+	<Form id="992" name="stabbedsnake3" file=".\forms\stabbedsnake3.png" width="336" height="54"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="54" aColor="255" nFrames="6"/>	
+	<Form id="993" name="stabbedspider1" file=".\forms\stabbedspider1.png" width="336" height="54"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="54" aColor="255" nFrames="6"/>	
+	<Form id="994" name="stabbedspider2" file=".\forms\stabbedspider2.png" width="336" height="54"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="54" aColor="255" nFrames="6"/>	
+	<Form id="995" name="stabbedspider3" file=".\forms\stabbedspider3.png" width="336" height="54"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="54" aColor="255" nFrames="6"/>	
+	<Form id="996" name="stabbedthing" file=".\forms\stabbedthing.png" width="336" height="54"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="54" aColor="255" nFrames="6"/>
+	<Form id="997" name="stabbedfrog" file=".\forms\stabbedfrog.png" width="336" height="54"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="54" aColor="255" nFrames="6"/>
+	<Form id="998" name="stabbedfrog2" file=".\forms\stabbedfrog2.png" width="336" height="54"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="54" aColor="255" nFrames="6"/>
+	<Form id="999" name="stabbedlizard" file=".\forms\stabbedlizard.png" width="336" height="54"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="54" aColor="255" nFrames="6"/>
+	<Form id="1000" name="stabbedowl" file=".\forms\stabbedowl.png" width="336" height="54"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="54" aColor="255" nFrames="6"/>
+	<Form id="1001" name="stabbedowl2" file=".\forms\stabbedowl2.png" width="336" height="54"
+		fSpacing="0" fMargin="0" fWidth="56" fHeight="54" aColor="255" nFrames="6"/>
+	<Form id="1002" name="stabbedfire" file=".\forms\bornfire.png" width="179" height="48"
+		fSpacing="0" fMargin="0" fWidth="44" fHeight="48" aColor="255" nFrames="4"/>
+
+	<!-- The guardian -->
+	<Form id="940" name="guardian" file=".\forms\daemon.png" width="136" height="68"
+		fSpacing="0" fMargin="0" fWidth="68" fHeight="68" aColor="255" nFrames="2"/>
+	<!-- The rhino -->
+	<Form id="941" name="rhino" file=".\forms\rhino.png" width="288" height="44"
+		fSpacing="0" fMargin="0" fWidth="72" fHeight="44" aColor="255" nFrames="4"/>
+	<!-- The hippo -->
+	<Form id="942" name="hippo" file=".\forms\hippo.png" width="288" height="44"
+		fSpacing="0" fMargin="0" fWidth="72" fHeight="44" aColor="255" nFrames="4"/>
+	<Form id="943" name="hipposleep" file=".\forms\hipposleep.png" width="54" height="52"
+		fSpacing="0" fMargin="0" fWidth="54" fHeight="52" aColor="255" nFrames="1"/>
+	<!-- The wolf -->
+	<Form id="944" name="wolf" file=".\forms\wolf.png" width="576" height="52"
+		fSpacing="0" fMargin="0" fWidth="72" fHeight="52" aColor="255" nFrames="8"/>
+	<!-- The spearmans -->
+	<Form id="945" name="warriorsblue" file=".\forms\warriorsblue.png" width="320" height="44"
+		fSpacing="0" fMargin="0" fWidth="40" fHeight="44" aColor="255" nFrames="8"/>
+	<Form id="946" name="warriorspink" file=".\forms\warriorspink.png" width="320" height="44"
+		fSpacing="0" fMargin="0" fWidth="40" fHeight="44" aColor="255" nFrames="8"/>
+	<Form id="947" name="warriorsred" file=".\forms\warriorsred.png" width="320" height="44"
+		fSpacing="0" fMargin="0" fWidth="40" fHeight="44" aColor="255" nFrames="8"/>
+		
+	<!-- The form of the end of the game -->
+	<Form id="1010" name="underwurlde" file=".\forms\underwurlde.png" width="358" height="76"
+		fSpacing="0" fMargin="0" fWidth="358" fHeight="76" aColor="255" nFrames="1"/>
+		
+	<!-- The letters -->
+	<!-- Classical for Community Networks projects -->
+	<Form id="100" name="Letters" file=".\forms\Letters3.png" width="512" height="512" 
+            fSpacing="0" fMargin="0" fWidth="32" fHeight="32" aColor="255" nFrames="256">
+		<Frame id="0" width="7"/>
+		<Frame id="1" width="11"/>
+		<Frame id="2" width="11"/>
+		<Frame id="3" width="18"/>
+		<Frame id="4" width="18"/>
+		<Frame id="5" width="22"/>
+		<Frame id="6" width="22"/>
+		<Frame id="7" width="6"/>
+		<Frame id="8" width="10"/>
+		<Frame id="9" width="10"/>
+		<Frame id="10" width="11"/>
+		<Frame id="11" width="18"/>
+		<Frame id="12" width="11"/>
+		<Frame id="13" width="10"/>
+		<Frame id="14" width="11"/>
+		<Frame id="15" width="13"/>
+		<Frame id="16" width="18"/>
+		<Frame id="17" width="18"/>
+		<Frame id="18" width="18"/>
+		<Frame id="19" width="18"/>
+		<Frame id="20" width="18"/>
+		<Frame id="21" width="18"/>
+		<Frame id="22" width="18"/>
+		<Frame id="23" width="18"/>
+		<Frame id="24" width="18"/>
+		<Frame id="25" width="18"/>
+		<Frame id="26" width="11"/>
+		<Frame id="27" width="11"/>
+		<Frame id="28" width="14"/>
+		<Frame id="29" width="18"/>
+		<Frame id="30" width="14"/>
+		<Frame id="31" width="16"/>
+		<Frame id="32" width="21"/>
+		<Frame id="33" width="22"/>
+		<Frame id="34" width="20"/>
+		<Frame id="35" width="20"/>
+		<Frame id="36" width="21"/>
+		<Frame id="37" width="19"/>
+		<Frame id="38" width="18"/>
+		<Frame id="39" width="21"/>
+		<Frame id="40" width="21"/>
+		<Frame id="41" width="12"/>
+		<Frame id="42" width="18"/>
+		<Frame id="43" width="21"/>
+		<Frame id="44" width="19"/>
+		<Frame id="45" width="27"/>
+		<Frame id="46" width="21"/>
+		<Frame id="47" width="21"/>
+		<Frame id="48" width="22"/>
+		<Frame id="49" width="21"/>
+		<Frame id="50" width="22"/>
+		<Frame id="51" width="17"/>
+		<Frame id="52" width="20"/>
+		<Frame id="53" width="21"/>
+		<Frame id="54" width="22"/>
+		<Frame id="55" width="29"/>
+		<Frame id="56" width="22"/>
+		<Frame id="57" width="21"/>
+		<Frame id="58" width="19"/>
+		<Frame id="59" width="10"/>
+		<Frame id="60" width="13"/>
+		<Frame id="61" width="10"/>
+		<Frame id="62" width="14"/>
+		<Frame id="63" width="14"/>
+		<Frame id="64" width="14"/>
+		<Frame id="65" width="20"/>
+		<Frame id="66" width="21"/>
+		<Frame id="67" width="16"/>
+		<Frame id="68" width="21"/>
+		<Frame id="69" width="17"/>
+		<Frame id="70" width="11"/>
+		<Frame id="71" width="16"/>
+		<Frame id="72" width="21"/>
+		<Frame id="73" width="10"/>
+		<Frame id="74" width="11"/>
+		<Frame id="75" width="21"/>
+		<Frame id="76" width="10"/>
+		<Frame id="77" width="33"/>
+		<Frame id="78" width="21"/>
+		<Frame id="79" width="17"/>
+		<Frame id="80" width="21"/>
+		<Frame id="81" width="21"/>
+		<Frame id="82" width="15"/>
+		<Frame id="83" width="14"/>
+		<Frame id="84" width="12"/>
+		<Frame id="85" width="21"/>
+		<Frame id="86" width="18"/>
+		<Frame id="87" width="24"/>
+		<Frame id="88" width="20"/>
+		<Frame id="89" width="17"/>
+		<Frame id="90" width="19"/>
+		<Frame id="91" width="18"/>
+		<Frame id="92" width="14"/>
+		<Frame id="93" width="18"/>
+		<Frame id="94" width="19"/>
+		<Frame id="95" width="7"/>
+		<Frame id="96" width="18"/>
+		<Frame id="97" width="7"/>
+		<Frame id="98" width="11"/>
+		<Frame id="99" width="18"/>
+		<Frame id="100" width="20"/>
+		<Frame id="101" width="32"/>
+		<Frame id="102" width="18"/>
+		<Frame id="103" width="18"/>
+		<Frame id="104" width="14"/>
+		<Frame id="105" width="32"/>
+		<Frame id="106" width="17"/>
+		<Frame id="107" width="5"/>
+		<Frame id="108" width="31"/>
+		<Frame id="109" width="7"/>
+		<Frame id="110" width="7"/>
+		<Frame id="111" width="7"/>
+		<Frame id="112" width="7"/>
+		<Frame id="113" width="11"/>
+		<Frame id="114" width="11"/>
+		<Frame id="115" width="20"/>
+		<Frame id="116" width="20"/>
+		<Frame id="117" width="19"/>
+		<Frame id="118" width="18"/>
+		<Frame id="119" width="30"/>
+		<Frame id="120" width="14"/>
+		<Frame id="121" width="30"/>
+		<Frame id="122" width="14"/>
+		<Frame id="123" width="5"/>
+		<Frame id="124" width="27"/>
+		<Frame id="125" width="7"/>
+		<Frame id="126" width="7"/>
+		<Frame id="127" width="21"/>
+		<Frame id="128" width="7"/>
+		<Frame id="129" width="11"/>
+		<Frame id="130" width="18"/>
+		<Frame id="131" width="18"/>
+		<Frame id="132" width="19"/>
+		<Frame id="133" width="18"/>
+		<Frame id="134" width="14"/>
+		<Frame id="135" width="18"/>
+		<Frame id="136" width="14"/>
+		<Frame id="137" width="23"/>
+		<Frame id="138" width="12"/>
+		<Frame id="139" width="10"/>
+		<Frame id="140" width="14"/>
+		<Frame id="141" width="10"/>
+		<Frame id="142" width="23"/>
+		<Frame id="143" width="14"/>
+		<Frame id="144" width="9"/>
+		<Frame id="145" width="18"/>
+		<Frame id="146" width="12"/>
+		<Frame id="147" width="12"/>
+		<Frame id="148" width="14"/>
+		<Frame id="149" width="21"/>
+		<Frame id="150" width="18"/>
+		<Frame id="151" width="19"/>
+		<Frame id="152" width="14"/>
+		<Frame id="153" width="12"/>
+		<Frame id="154" width="12"/>
+		<Frame id="155" width="10"/>
+		<Frame id="156" width="26"/>
+		<Frame id="157" width="26"/>
+		<Frame id="158" width="26"/>
+		<Frame id="159" width="16"/>
+		<Frame id="160" width="22"/>
+		<Frame id="161" width="22"/>
+		<Frame id="162" width="22"/>
+		<Frame id="163" width="22"/>
+		<Frame id="164" width="22"/>
+		<Frame id="165" width="22"/>
+		<Frame id="166" width="33"/>
+		<Frame id="167" width="20"/>
+		<Frame id="168" width="19"/>
+		<Frame id="169" width="19"/>
+		<Frame id="170" width="19"/>
+		<Frame id="171" width="19"/>
+		<Frame id="172" width="12"/>
+		<Frame id="173" width="12"/>
+		<Frame id="174" width="12"/>
+		<Frame id="175" width="12"/>
+		<Frame id="176" width="22"/>
+		<Frame id="177" width="21"/>
+		<Frame id="178" width="21"/>
+		<Frame id="179" width="21"/>
+		<Frame id="180" width="21"/>
+		<Frame id="181" width="21"/>
+		<Frame id="182" width="21"/>
+		<Frame id="183" width="18"/>
+		<Frame id="184" width="21"/>
+		<Frame id="185" width="21"/>
+		<Frame id="186" width="21"/>
+		<Frame id="187" width="21"/>
+		<Frame id="188" width="21"/>
+		<Frame id="189" width="21"/>
+		<Frame id="190" width="22"/>
+		<Frame id="191" width="20"/>
+		<Frame id="192" width="20"/>
+		<Frame id="193" width="20"/>
+		<Frame id="194" width="20"/>
+		<Frame id="195" width="20"/>
+		<Frame id="196" width="20"/>
+		<Frame id="197" width="20"/>
+		<Frame id="198" width="28"/>
+		<Frame id="199" width="16"/>
+		<Frame id="200" width="17"/>
+		<Frame id="201" width="17"/>
+		<Frame id="202" width="17"/>
+		<Frame id="203" width="17"/>
+		<Frame id="204" width="10"/>
+		<Frame id="205" width="10"/>
+		<Frame id="206" width="10"/>
+		<Frame id="207" width="10"/>
+		<Frame id="208" width="17"/>
+		<Frame id="209" width="21"/>
+		<Frame id="210" width="17"/>
+		<Frame id="211" width="17"/>
+		<Frame id="212" width="17"/>
+		<Frame id="213" width="17"/>
+		<Frame id="214" width="17"/>
+		<Frame id="215" width="18"/>
+		<Frame id="216" width="17"/>
+		<Frame id="217" width="21"/>
+		<Frame id="218" width="21"/>
+		<Frame id="219" width="21"/>
+		<Frame id="220" width="21"/>
+		<Frame id="221" width="17"/>
+		<Frame id="222" width="21"/>
+		<Frame id="223" width="17"/>
+	</Form>
+	<!-- An african version -->
+	<Form id="101" name="ALetters" file=".\forms\Africa.png" width="512" height="512" 
+            fSpacing="0" fMargin="0" fWidth="32" fHeight="32" aColor="255" nFrames="256">
+		<Frame id="0" width="21"/>
+		<Frame id="1" width="12"/>
+		<Frame id="2" width="13"/>
+		<Frame id="3" width="17"/>
+		<Frame id="4" width="17"/>
+		<Frame id="5" width="17"/>
+		<Frame id="6" width="26"/>
+		<Frame id="7" width="10"/>
+		<Frame id="8" width="12"/>
+		<Frame id="9" width="12"/>
+		<Frame id="10" width="25"/>
+		<Frame id="11" width="29"/>
+		<Frame id="12" width="11"/>
+		<Frame id="13" width="14"/>
+		<Frame id="14" width="12"/>
+		<Frame id="15" width="25"/>
+		<Frame id="16" width="29"/>
+		<Frame id="17" width="17"/>
+		<Frame id="18" width="25"/>
+		<Frame id="19" width="16"/>
+		<Frame id="20" width="28"/>
+		<Frame id="21" width="18"/>
+		<Frame id="22" width="24"/>
+		<Frame id="23" width="23"/>
+		<Frame id="24" width="21"/>
+		<Frame id="25" width="23"/>
+		<Frame id="26" width="14"/>
+		<Frame id="27" width="14"/>
+		<Frame id="28" width="17"/>
+		<Frame id="29" width="16"/>
+		<Frame id="30" width="17"/>
+		<Frame id="31" width="13"/>
+		<Frame id="32" width="17"/>
+		<Frame id="33" width="31"/>
+		<Frame id="34" width="24"/>
+		<Frame id="35" width="20"/>
+		<Frame id="36" width="26"/>
+		<Frame id="37" width="21"/>
+		<Frame id="38" width="22"/>
+		<Frame id="39" width="25"/>
+		<Frame id="40" width="28"/>
+		<Frame id="41" width="12"/>
+		<Frame id="42" width="19"/>
+		<Frame id="43" width="27"/>
+		<Frame id="44" width="19"/>
+		<Frame id="45" width="36"/>
+		<Frame id="46" width="28"/>
+		<Frame id="47" width="30"/>
+		<Frame id="48" width="21"/>
+		<Frame id="49" width="30"/>
+		<Frame id="50" width="25"/>
+		<Frame id="51" width="16"/>
+		<Frame id="52" width="24"/>
+		<Frame id="53" width="27"/>
+		<Frame id="54" width="27"/>
+		<Frame id="55" width="36"/>
+		<Frame id="56" width="31"/>
+		<Frame id="57" width="27"/>
+		<Frame id="58" width="28"/>
+		<Frame id="59" width="17"/>
+		<Frame id="60" width="17"/>
+		<Frame id="61" width="17"/>
+		<Frame id="62" width="17"/>
+		<Frame id="63" width="17"/>
+		<Frame id="64" width="17"/>
+		<Frame id="65" width="31"/>
+		<Frame id="66" width="24"/>
+		<Frame id="67" width="20"/>
+		<Frame id="68" width="26"/>
+		<Frame id="69" width="21"/>
+		<Frame id="70" width="22"/>
+		<Frame id="71" width="25"/>
+		<Frame id="72" width="28"/>
+		<Frame id="73" width="12"/>
+		<Frame id="74" width="19"/>
+		<Frame id="75" width="27"/>
+		<Frame id="76" width="19"/>
+		<Frame id="77" width="36"/>
+		<Frame id="78" width="28"/>
+		<Frame id="79" width="30"/>
+		<Frame id="80" width="21"/>
+		<Frame id="81" width="30"/>
+		<Frame id="82" width="25"/>
+		<Frame id="83" width="16"/>
+		<Frame id="84" width="24"/>
+		<Frame id="85" width="27"/>
+		<Frame id="86" width="27"/>
+		<Frame id="87" width="36"/>
+		<Frame id="88" width="31"/>
+		<Frame id="89" width="27"/>
+		<Frame id="90" width="28"/>
+		<Frame id="91" width="17"/>
+		<Frame id="92" width="17"/>
+		<Frame id="93" width="17"/>
+		<Frame id="94" width="17"/>
+		<Frame id="95" width="0"/>
+		<Frame id="96" width="0"/>
+		<Frame id="97" width="0"/>
+		<Frame id="98" width="0"/>
+		<Frame id="99" width="0"/>
+		<Frame id="100" width="0"/>
+		<Frame id="101" width="0"/>
+		<Frame id="102" width="0"/>
+		<Frame id="103" width="0"/>
+		<Frame id="104" width="0"/>
+		<Frame id="105" width="0"/>
+		<Frame id="106" width="0"/>
+		<Frame id="107" width="0"/>
+		<Frame id="108" width="0"/>
+		<Frame id="109" width="0"/>
+		<Frame id="110" width="0"/>
+		<Frame id="111" width="0"/>
+		<Frame id="112" width="0"/>
+		<Frame id="113" width="0"/>
+		<Frame id="114" width="0"/>
+		<Frame id="115" width="0"/>
+		<Frame id="116" width="0"/>
+		<Frame id="117" width="0"/>
+		<Frame id="118" width="0"/>
+		<Frame id="119" width="0"/>
+		<Frame id="120" width="0"/>
+		<Frame id="121" width="0"/>
+		<Frame id="122" width="0"/>
+		<Frame id="123" width="0"/>
+		<Frame id="124" width="0"/>
+		<Frame id="125" width="0"/>
+		<Frame id="126" width="0"/>
+		<Frame id="127" width="0"/>
+		<Frame id="128" width="2"/>
+		<Frame id="129" width="0"/>
+		<Frame id="130" width="0"/>
+		<Frame id="131" width="0"/>
+		<Frame id="132" width="0"/>
+		<Frame id="133" width="0"/>
+		<Frame id="134" width="0"/>
+		<Frame id="135" width="0"/>
+		<Frame id="136" width="0"/>
+		<Frame id="137" width="0"/>
+		<Frame id="138" width="0"/>
+		<Frame id="139" width="0"/>
+		<Frame id="140" width="0"/>
+		<Frame id="141" width="0"/>
+		<Frame id="142" width="0"/>
+		<Frame id="143" width="0"/>
+		<Frame id="144" width="0"/>
+		<Frame id="145" width="0"/>
+		<Frame id="146" width="0"/>
+		<Frame id="147" width="0"/>
+		<Frame id="148" width="0"/>
+		<Frame id="149" width="0"/>
+		<Frame id="150" width="0"/>
+		<Frame id="151" width="0"/>
+		<Frame id="152" width="0"/>
+		<Frame id="153" width="0"/>
+		<Frame id="154" width="0"/>
+		<Frame id="155" width="0"/>
+		<Frame id="156" width="0"/>
+		<Frame id="157" width="0"/>
+		<Frame id="158" width="0"/>
+		<Frame id="159" width="0"/>
+		<Frame id="160" width="0"/>
+		<Frame id="161" width="0"/>
+		<Frame id="162" width="0"/>
+		<Frame id="163" width="0"/>
+		<Frame id="164" width="0"/>
+		<Frame id="165" width="0"/>
+		<Frame id="166" width="0"/>
+		<Frame id="167" width="0"/>
+		<Frame id="168" width="0"/>
+		<Frame id="169" width="0"/>
+		<Frame id="170" width="0"/>
+		<Frame id="171" width="0"/>
+		<Frame id="172" width="0"/>
+		<Frame id="173" width="0"/>
+		<Frame id="174" width="0"/>
+		<Frame id="175" width="0"/>
+		<Frame id="176" width="0"/>
+		<Frame id="177" width="0"/>
+		<Frame id="178" width="0"/>
+		<Frame id="179" width="0"/>
+		<Frame id="180" width="0"/>
+		<Frame id="181" width="0"/>
+		<Frame id="182" width="0"/>
+		<Frame id="183" width="0"/>
+		<Frame id="184" width="0"/>
+		<Frame id="185" width="0"/>
+		<Frame id="186" width="0"/>
+		<Frame id="187" width="0"/>
+		<Frame id="188" width="0"/>
+		<Frame id="189" width="0"/>
+		<Frame id="190" width="0"/>
+		<Frame id="191" width="0"/>
+		<Frame id="192" width="0"/>
+		<Frame id="193" width="0"/>
+		<Frame id="194" width="0"/>
+		<Frame id="195" width="0"/>
+		<Frame id="196" width="0"/>
+		<Frame id="197" width="0"/>
+		<Frame id="198" width="0"/>
+		<Frame id="199" width="0"/>
+		<Frame id="200" width="0"/>
+		<Frame id="201" width="0"/>
+		<Frame id="202" width="0"/>
+		<Frame id="203" width="0"/>
+		<Frame id="204" width="0"/>
+		<Frame id="205" width="0"/>
+		<Frame id="206" width="0"/>
+		<Frame id="207" width="0"/>
+		<Frame id="208" width="0"/>
+		<Frame id="209" width="0"/>
+		<Frame id="210" width="0"/>
+		<Frame id="211" width="0"/>
+		<Frame id="212" width="0"/>
+		<Frame id="213" width="0"/>
+		<Frame id="214" width="0"/>
+		<Frame id="215" width="0"/>
+		<Frame id="216" width="0"/>
+		<Frame id="217" width="0"/>
+		<Frame id="218" width="0"/>
+		<Frame id="219" width="0"/>
+		<Frame id="220" width="0"/>
+		<Frame id="221" width="0"/>
+		<Frame id="222" width="0"/>
+		<Frame id="223" width="0"/>
+	</Form>
+	<!-- An african little version -->
+	<Form id="102" name="ALittleLetters" file=".\forms\AfricanLittle.png" width="256" height="256" 
+            fSpacing="0" fMargin="0" fWidth="16" fHeight="16" aColor="255" nFrames="256">
+		<Frame id="0" width="10"/>
+		<Frame id="1" width="6"/>
+		<Frame id="2" width="7"/>
+		<Frame id="3" width="9"/>
+		<Frame id="4" width="8"/>
+		<Frame id="5" width="9"/>
+		<Frame id="6" width="13"/>
+		<Frame id="7" width="5"/>
+		<Frame id="8" width="6"/>
+		<Frame id="9" width="6"/>
+		<Frame id="10" width="13"/>
+		<Frame id="11" width="14"/>
+		<Frame id="12" width="6"/>
+		<Frame id="13" width="7"/>
+		<Frame id="14" width="6"/>
+		<Frame id="15" width="13"/>
+		<Frame id="16" width="15"/>
+		<Frame id="17" width="9"/>
+		<Frame id="18" width="12"/>
+		<Frame id="19" width="8"/>
+		<Frame id="20" width="14"/>
+		<Frame id="21" width="9"/>
+		<Frame id="22" width="12"/>
+		<Frame id="23" width="12"/>
+		<Frame id="24" width="10"/>
+		<Frame id="25" width="12"/>
+		<Frame id="26" width="7"/>
+		<Frame id="27" width="7"/>
+		<Frame id="28" width="9"/>
+		<Frame id="29" width="8"/>
+		<Frame id="30" width="9"/>
+		<Frame id="31" width="6"/>
+		<Frame id="32" width="9"/>
+		<Frame id="33" width="15"/>
+		<Frame id="34" width="12"/>
+		<Frame id="35" width="10"/>
+		<Frame id="36" width="13"/>
+		<Frame id="37" width="11"/>
+		<Frame id="38" width="11"/>
+		<Frame id="39" width="12"/>
+		<Frame id="40" width="14"/>
+		<Frame id="41" width="6"/>
+		<Frame id="42" width="10"/>
+		<Frame id="43" width="13"/>
+		<Frame id="44" width="10"/>
+		<Frame id="45" width="18"/>
+		<Frame id="46" width="14"/>
+		<Frame id="47" width="15"/>
+		<Frame id="48" width="11"/>
+		<Frame id="49" width="15"/>
+		<Frame id="50" width="13"/>
+		<Frame id="51" width="8"/>
+		<Frame id="52" width="12"/>
+		<Frame id="53" width="14"/>
+		<Frame id="54" width="14"/>
+		<Frame id="55" width="18"/>
+		<Frame id="56" width="16"/>
+		<Frame id="57" width="13"/>
+		<Frame id="58" width="14"/>
+		<Frame id="59" width="9"/>
+		<Frame id="60" width="9"/>
+		<Frame id="61" width="9"/>
+		<Frame id="62" width="9"/>
+		<Frame id="63" width="9"/>
+		<Frame id="64" width="9"/>
+		<Frame id="65" width="15"/>
+		<Frame id="66" width="12"/>
+		<Frame id="67" width="10"/>
+		<Frame id="68" width="13"/>
+		<Frame id="69" width="11"/>
+		<Frame id="70" width="11"/>
+		<Frame id="71" width="12"/>
+		<Frame id="72" width="14"/>
+		<Frame id="73" width="6"/>
+		<Frame id="74" width="10"/>
+		<Frame id="75" width="13"/>
+		<Frame id="76" width="10"/>
+		<Frame id="77" width="18"/>
+		<Frame id="78" width="14"/>
+		<Frame id="79" width="15"/>
+		<Frame id="80" width="11"/>
+		<Frame id="81" width="15"/>
+		<Frame id="82" width="13"/>
+		<Frame id="83" width="8"/>
+		<Frame id="84" width="12"/>
+		<Frame id="85" width="14"/>
+		<Frame id="86" width="14"/>
+		<Frame id="87" width="18"/>
+		<Frame id="88" width="16"/>
+		<Frame id="89" width="13"/>
+		<Frame id="90" width="14"/>
+		<Frame id="91" width="9"/>
+		<Frame id="92" width="9"/>
+		<Frame id="93" width="9"/>
+		<Frame id="94" width="9"/>
+		<Frame id="95" width="0"/>
+		<Frame id="96" width="0"/>
+		<Frame id="97" width="0"/>
+		<Frame id="98" width="0"/>
+		<Frame id="99" width="0"/>
+		<Frame id="100" width="0"/>
+		<Frame id="101" width="0"/>
+		<Frame id="102" width="0"/>
+		<Frame id="103" width="0"/>
+		<Frame id="104" width="0"/>
+		<Frame id="105" width="0"/>
+		<Frame id="106" width="0"/>
+		<Frame id="107" width="0"/>
+		<Frame id="108" width="0"/>
+		<Frame id="109" width="0"/>
+		<Frame id="110" width="0"/>
+		<Frame id="111" width="0"/>
+		<Frame id="112" width="0"/>
+		<Frame id="113" width="0"/>
+		<Frame id="114" width="0"/>
+		<Frame id="115" width="0"/>
+		<Frame id="116" width="0"/>
+		<Frame id="117" width="0"/>
+		<Frame id="118" width="0"/>
+		<Frame id="119" width="0"/>
+		<Frame id="120" width="0"/>
+		<Frame id="121" width="0"/>
+		<Frame id="122" width="0"/>
+		<Frame id="123" width="0"/>
+		<Frame id="124" width="0"/>
+		<Frame id="125" width="0"/>
+		<Frame id="126" width="0"/>
+		<Frame id="127" width="0"/>
+		<Frame id="128" width="10"/>
+		<Frame id="129" width="0"/>
+		<Frame id="130" width="0"/>
+		<Frame id="131" width="0"/>
+		<Frame id="132" width="0"/>
+		<Frame id="133" width="0"/>
+		<Frame id="134" width="0"/>
+		<Frame id="135" width="0"/>
+		<Frame id="136" width="0"/>
+		<Frame id="137" width="0"/>
+		<Frame id="138" width="0"/>
+		<Frame id="139" width="0"/>
+		<Frame id="140" width="0"/>
+		<Frame id="141" width="0"/>
+		<Frame id="142" width="0"/>
+		<Frame id="143" width="0"/>
+		<Frame id="144" width="0"/>
+		<Frame id="145" width="0"/>
+		<Frame id="146" width="0"/>
+		<Frame id="147" width="0"/>
+		<Frame id="148" width="0"/>
+		<Frame id="149" width="0"/>
+		<Frame id="150" width="0"/>
+		<Frame id="151" width="0"/>
+		<Frame id="152" width="0"/>
+		<Frame id="153" width="0"/>
+		<Frame id="154" width="0"/>
+		<Frame id="155" width="0"/>
+		<Frame id="156" width="0"/>
+		<Frame id="157" width="0"/>
+		<Frame id="158" width="0"/>
+		<Frame id="159" width="0"/>
+		<Frame id="160" width="0"/>
+		<Frame id="161" width="0"/>
+		<Frame id="162" width="0"/>
+		<Frame id="163" width="0"/>
+		<Frame id="164" width="0"/>
+		<Frame id="165" width="0"/>
+		<Frame id="166" width="0"/>
+		<Frame id="167" width="0"/>
+		<Frame id="168" width="0"/>
+		<Frame id="169" width="0"/>
+		<Frame id="170" width="0"/>
+		<Frame id="171" width="0"/>
+		<Frame id="172" width="0"/>
+		<Frame id="173" width="0"/>
+		<Frame id="174" width="0"/>
+		<Frame id="175" width="0"/>
+		<Frame id="176" width="0"/>
+		<Frame id="177" width="0"/>
+		<Frame id="178" width="0"/>
+		<Frame id="179" width="0"/>
+		<Frame id="180" width="0"/>
+		<Frame id="181" width="0"/>
+		<Frame id="182" width="0"/>
+		<Frame id="183" width="0"/>
+		<Frame id="184" width="0"/>
+		<Frame id="185" width="0"/>
+		<Frame id="186" width="0"/>
+		<Frame id="187" width="0"/>
+		<Frame id="188" width="0"/>
+		<Frame id="189" width="0"/>
+		<Frame id="190" width="0"/>
+		<Frame id="191" width="0"/>
+		<Frame id="192" width="0"/>
+		<Frame id="193" width="0"/>
+		<Frame id="194" width="0"/>
+		<Frame id="195" width="0"/>
+		<Frame id="196" width="0"/>
+		<Frame id="197" width="0"/>
+		<Frame id="198" width="0"/>
+		<Frame id="199" width="0"/>
+		<Frame id="200" width="0"/>
+		<Frame id="201" width="0"/>
+		<Frame id="202" width="0"/>
+		<Frame id="203" width="0"/>
+		<Frame id="204" width="0"/>
+		<Frame id="205" width="0"/>
+		<Frame id="206" width="0"/>
+		<Frame id="207" width="0"/>
+		<Frame id="208" width="0"/>
+		<Frame id="209" width="0"/>
+		<Frame id="210" width="0"/>
+		<Frame id="211" width="0"/>
+		<Frame id="212" width="0"/>
+		<Frame id="213" width="0"/>
+		<Frame id="214" width="0"/>
+		<Frame id="215" width="0"/>
+		<Frame id="216" width="0"/>
+		<Frame id="217" width="0"/>
+		<Frame id="218" width="0"/>
+		<Frame id="219" width="0"/>
+		<Frame id="220" width="0"/>
+		<Frame id="221" width="0"/>
+		<Frame id="222" width="0"/>
+		<Frame id="223" width="0"/>
+	</Form>
+		
+</Forms>

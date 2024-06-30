@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- Background map mountains -->
+<Map name="50140" width="2134" height="600">
+	<Layers>
+		<Layer id="0" name="background">
+			<Element id="50140" X="0" Y="0" Z="0"/>
+			<Attributes>
+			</Attributes>
+		</Layer>
+	</Layers>
+	<Attributes>
+		<Attribute id="BASE" value="490"/>
+	</Attributes>
+</Map>

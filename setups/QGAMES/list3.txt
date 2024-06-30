@@ -1,0 +1,2 @@
+.\setups\QGAMES\samples\HelloWorld
+.\setups\QGAMES\samples\HelloWorld2

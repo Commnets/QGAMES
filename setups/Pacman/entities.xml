@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<Entities>
+  <!-- Pacman -->
+  <Entity id="1">
+    <Forms>
+      <Form id="1"/>
+      <Form id="3"/>
+    </Forms> -->
+    <Capacities>
+    </Capacities>
+    <Physics>
+    </Physics>
+    <Movements>
+      <Movement id="1"/>
+    </Movements>
+  </Entity>
+  <!-- Blinky -->
+  <Entity id="2">
+    <Forms>
+      <Form id="1"/>
+    </Forms> -->
+    <Capacities>
+    </Capacities>
+    <Physics>
+    </Physics>
+    <Movements>
+      <Movement id="20"/>
+      <Movement id="21"/>
+      <Movement id="22"/>
+      <Movement id="23"/>
+    </Movements>
+  </Entity>
+  <!-- Pinky -->
+  <Entity id="3">
+    <Forms>
+      <Form id="1"/>
+    </Forms> -->
+    <Capacities>
+    </Capacities>
+    <Physics>
+    </Physics>
+    <Movements>
+      <Movement id="30"/>
+      <Movement id="31"/>
+      <Movement id="32"/>
+      <Movement id="33"/>
+    </Movements>
+  </Entity>
+  <!-- Inky -->
+  <Entity id="4">
+    <Forms>
+      <Form id="1"/>
+    </Forms> -->
+    <Capacities>
+    </Capacities>
+    <Physics>
+    </Physics>
+    <Movements>
+      <Movement id="40"/>
+      <Movement id="41"/>
+      <Movement id="42"/>
+      <Movement id="43"/>
+    </Movements>
+  </Entity>
+  <!-- Clyde -->
+  <Entity id="5">
+    <Forms>
+      <Form id="1"/>
+    </Forms> -->
+    <Capacities>
+    </Capacities>
+    <Physics>
+    </Physics>
+    <Movements>
+      <Movement id="50"/>
+      <Movement id="51"/>
+      <Movement id="52"/>
+      <Movement id="53"/>
+    </Movements>
+  </Entity>
+</Entities>

@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<Movements>
+  <!-- Pacman's movements -->
+  <!-- Pacman's movement in the maze -->
+  <Movement id="1">
+    <Variable id="0" value="10"/>
+  </Movement>
+  <!-- Blinky's movements -->
+  <!-- In the pen, exiting the pen, in the maze, and entering the pen -->
+  <Movement id="20">
+    <Variable id="0" value="10"/>
+    <Variable id="1" value="1"/>
+  </Movement>
+  <Movement id="21">
+    <Variable id="0" value="10"/>
+  </Movement>
+  <Movement id="22">
+    <Variable id="0" value="10"/>
+  </Movement>
+  <Movement id="23">
+    <Variable id="0" value="10"/>
+  </Movement>
+  <!-- Pinky's movements -->
+  <!-- In the pen, exiting the pen, in the maze, and entering the pen -->
+  <Movement id="30">
+    <Variable id="0" value="10"/>
+    <Variable id="1" value="2"/>
+  </Movement>
+  <Movement id="31">
+    <Variable id="0" value="10"/>
+  </Movement>
+  <Movement id="32">
+    <Variable id="0" value="10"/>
+  </Movement>
+  <Movement id="33">
+    <Variable id="0" value="10"/>
+  </Movement>
+  <!-- Inky's movements -->
+  <!-- In the pen, exiting the pen, in the maze, and entering the pen -->
+  <Movement id="40">
+    <Variable id="0" value="10"/>
+    <Variable id="1" value="5"/>
+  </Movement>
+  <Movement id="41">
+    <Variable id="0" value="10"/>
+  </Movement>
+  <Movement id="42">
+    <Variable id="0" value="10"/>
+  </Movement>
+  <Movement id="43">
+    <Variable id="0" value="10"/>
+  </Movement>
+  <!-- Clyde's movements -->
+  <!-- In the pen, exiting the pen, in the maze, and entering the pen -->
+  <Movement id="50">
+    <Variable id="0" value="10"/>
+    <Variable id="1" value="5"/>
+  </Movement>
+  <Movement id="51">
+    <Variable id="0" value="10"/>
+  </Movement>
+  <Movement id="52">
+    <Variable id="0" value="10"/>
+  </Movement>
+  <Movement id="53">
+    <Variable id="0" value="10"/>
+  </Movement>
+</Movements>
