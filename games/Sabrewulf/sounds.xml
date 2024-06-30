@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Sounds>
+	<Sound id="100" type="1" loop="0" file="sounds/amulet1.wav"/> 
+	<Sound id="101" type="1" loop="-1" file="sounds/appear.wav"/>
+	<Sound id="102" type="1" loop="0" file="sounds/chimp.wav"/>
+	<Sound id="103" type="1" loop="0" file="sounds/countdown.wav"/>
+	<Sound id="104" type="1" loop="0" file="sounds/cricket.wav"/>
+	<Sound id="105" type="1" loop="0" file="sounds/diefly2.wav"/>
+	<Sound id="106" type="1" loop="0" file="sounds/diesit.wav"/>
+	<Sound id="107" type="1" loop="0" file="sounds/dietune.wav"/>
+	<Sound id="108" type="1" loop="0" file="sounds/endflower.wav"/>
+	<Sound id="109" type="1" loop="0" file="sounds/flower.wav"/>
+	<Sound id="110" type="1" loop="0" file="sounds/frog.wav"/>
+	<Sound id="111" type="1" loop="0" file="sounds/growl.wav"/>
+	<Sound id="112" type="1" loop="0" file="sounds/hootowl.wav"/>
+	<Sound id="113" type="1" loop="0" file="sounds/hooves.wav"/>
+	<Sound id="114" type="1" loop="0" file="sounds/object.wav"/>
+	<Sound id="115" type="1" loop="0" file="sounds/rattler.wav"/>
+	<Sound id="116" type="1" loop="0" file="sounds/song.wav"/>
+	<Sound id="117" type="1" loop="0" file="sounds/squeakie.wav"/>
+	<Sound id="118" type="1" loop="0" file="sounds/stab1.wav"/>
+	<Sound id="119" type="1" loop="0" file="sounds/startgame1.wav"/>
+	<Sound id="120" type="1" loop="0" file="sounds/stun.wav"/>
+	<Sound id="121" type="1" loop="0" file="sounds/sw-fx.wav"/>
+	<Sound id="122" type="1" loop="0" file="sounds/tribalhit.wav"/>
+	<Sound id="123" type="1" loop="-1" file="sounds/walking.wav"/>
+	<Sound id="124" type="1" loop="0" file="sounds/wolf1.wav"/>
+	<Sound id="125" type="1" loop="0" file="sounds/wolf2.wav"/>
+	
+	<!-- Songs in the presentation of the game -->
+	<Sound id="126" type="1" loop="-1" file="sounds/IntroSong.wav"/>
+	<Sound id="127" type="1" loop="-1" file="sounds/JungleSong0.wav"/>
+	<Sound id="128" type="1" loop="-1" file="sounds/JungleSong1.wav"/>
+	<Sound id="129" type="1" loop="-1" file="sounds/JungleSong3.wav"/>
+	<Sound id="130" type="1" loop="-1" file="sounds/JungleSong4.wav"/>
+	<Sound id="131" type="1" loop="-1" file="sounds/JungleSong6.wav"/>
+</Sounds>

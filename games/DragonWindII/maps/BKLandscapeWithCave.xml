@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- Background map landscape witch cave -->
+<Map name="80130" width="3200" height="1800">
+	<Layers>
+		<Layer id="0" name="background">
+			<Element id="80130" X="0" Y="0" Z="0"/>
+			<Attributes>
+			</Attributes>
+		</Layer>
+	</Layers>
+	<Attributes>
+		<Attribute id="BASE" value="460"/>
+	</Attributes>
+</Map>

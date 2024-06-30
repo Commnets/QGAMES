@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<GUISystems>
+
+	<!-- Includes -->
+	<Include file="adguisystem.xml"/>
+	
+</GUISystems>

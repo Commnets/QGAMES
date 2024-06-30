@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<Worlds>
+
+	<!-- Includes -->
+	<Include file="pcworlds.xml"/>
+
+	<World id="60000">
+	
+		<Scenes>
+			<!-- Classic scene but adding wormy -->
+			<Scene id="60000">  <!-- This type of scene adds Wormy -->
+				<Maps>
+					<Map id="50000" file="maps/normalmap_blue.tmx"/> 
+					<Map id="50100" file="maps/normalmap_green.tmx"/>
+					<Map id="50200" file="maps/normalmap_yellow.tmx"/>
+					<Map id="50300" file="maps/normalmap_red.tmx"/>
+				</Maps>
+
+				<Entities>  
+					<SetOfEntities fromId="50000" number="10" layer="Maze"/> <!-- PacMan -->
+					<SetOfEntities fromId="50010" number="10" layer="Maze"/> <!-- Inky -->
+					<SetOfEntities fromId="50020" number="10" layer="Maze"/> <!-- Blinky -->
+					<SetOfEntities fromId="50030" number="10" layer="Maze"/> <!-- Pinky -->
+					<SetOfEntities fromId="50040" number="10" layer="Maze"/> <!-- Clyde -->
+					<SetOfEntities fromId="60000" number="10" layer="Maze"/> <!-- ...a and also Wormy -->
+				</Entities>
+			</Scene>
+			<!-- --------------------- -->
+
+			<!-- Scene with Ms. Pacman maze, and without Wormy -->
+			<!-- The Ms. Pacman 1 -->
+			<Scene id="70000">  <!-- This type of scene are classical (4 monsters) -->
+				<Maps>
+					<Map id="60000" file="maps/misspacman1map_blue.tmx"/> <!-- with the new maps -->
+					<Map id="60200" file="maps/misspacman1map_red.tmx"/> 
+					<Map id="60400" file="maps/misspacman1map_green.tmx"/> 
+					<Map id="60600" file="maps/misspacman1map_yellow.tmx"/> 
+				</Maps>
+
+				<Entities>  
+					<SetOfEntities fromId="50000" number="10" layer="Maze"/> 
+					<SetOfEntities fromId="50010" number="10" layer="Maze"/> 
+					<SetOfEntities fromId="50020" number="10" layer="Maze"/> 
+					<SetOfEntities fromId="50030" number="10" layer="Maze"/> 
+					<SetOfEntities fromId="50040" number="10" layer="Maze"/> 
+				</Entities>
+			</Scene>
+
+			<!-- The Ms. Pacman 2 -->
+			<Scene id="70100">  
+				<Maps>
+					<Map id="61000" file="maps/misspacman2map_blue.tmx"/> 
+					<Map id="61200" file="maps/misspacman2map_red.tmx"/> 
+					<Map id="61400" file="maps/misspacman2map_green.tmx"/> 
+					<Map id="61600" file="maps/misspacman2map_yellow.tmx"/> 
+				</Maps>
+
+				<Entities>  
+					<SetOfEntities fromId="50000" number="10" layer="Maze"/> 
+					<SetOfEntities fromId="50010" number="10" layer="Maze"/> 
+					<SetOfEntities fromId="50020" number="10" layer="Maze"/> 
+					<SetOfEntities fromId="50030" number="10" layer="Maze"/> 
+					<SetOfEntities fromId="50040" number="10" layer="Maze"/> 
+				</Entities>
+			</Scene>
+
+			<!-- The Ms. Pacman 3 -->
+			<Scene id="70200">  
+				<Maps>
+					<Map id="62000" file="maps/misspacman3map_blue.tmx"/> 
+					<Map id="62200" file="maps/misspacman3map_red.tmx"/> 
+					<Map id="62400" file="maps/misspacman3map_green.tmx"/> 
+					<Map id="62600" file="maps/misspacman3map_yellow.tmx"/> 
+				</Maps>
+
+				<Entities>  
+					<SetOfEntities fromId="50000" number="10" layer="Maze"/> 
+					<SetOfEntities fromId="50010" number="10" layer="Maze"/> 
+					<SetOfEntities fromId="50020" number="10" layer="Maze"/> 
+					<SetOfEntities fromId="50030" number="10" layer="Maze"/> 
+					<SetOfEntities fromId="50040" number="10" layer="Maze"/> 
+				</Entities>
+			</Scene>
+
+			<!-- The Ms. Pacman 4 -->
+			<Scene id="70300" number="100">  
+				<Maps>
+					<Map id="63000" file="maps/misspacman4map_blue.tmx"/> 
+					<Map id="63200" file="maps/misspacman4map_red.tmx"/> 
+					<Map id="63400" file="maps/misspacman4map_green.tmx"/> 
+					<Map id="63600" file="maps/misspacman4map_yellow.tmx"/> 
+				</Maps>
+
+				<Entities>  
+					<SetOfEntities fromId="50000" number="10" layer="Maze"/> 
+					<SetOfEntities fromId="50010" number="10" layer="Maze"/> 
+					<SetOfEntities fromId="50020" number="10" layer="Maze"/> 
+					<SetOfEntities fromId="50030" number="10" layer="Maze"/> 
+					<SetOfEntities fromId="50040" number="10" layer="Maze"/> 
+				</Entities>
+			</Scene>
+			<!-- --------------------- -->
+
+			<!-- Scene with Ms. Pacman maze, and with Wormy -->
+			<!-- The Ms. Pacman 1 -->
+			<Scene id="71000">  <!-- This type of scene adds Wormy -->
+				<Maps>
+					<Map id="60000" file="maps/misspacman1map_blue.tmx"/> 
+					<Map id="60200" file="maps/misspacman1map_red.tmx"/> 
+					<Map id="60400" file="maps/misspacman1map_green.tmx"/> 
+					<Map id="60600" file="maps/misspacman1map_yellow.tmx"/> 
+				</Maps>
+
+				<Entities>  
+					<SetOfEntities fromId="50000" number="10" layer="Maze"/> 
+					<SetOfEntities fromId="50010" number="10" layer="Maze"/> 
+					<SetOfEntities fromId="50020" number="10" layer="Maze"/> 
+					<SetOfEntities fromId="50030" number="10" layer="Maze"/> 
+					<SetOfEntities fromId="50040" number="10" layer="Maze"/> 
+					<SetOfEntities fromId="60000" number="10" layer="Maze"/> <!-- ...a and also Wormy -->
+				</Entities>
+			</Scene>
+
+			<!-- The Ms. Pacman 2 -->
+			<Scene id="71100">  
+				<Maps>
+					<Map id="61000" file="maps/misspacman2map_blue.tmx"/> 
+					<Map id="61200" file="maps/misspacman2map_red.tmx"/> 
+					<Map id="61400" file="maps/misspacman2map_green.tmx"/> 
+					<Map id="61600" file="maps/misspacman2map_yellow.tmx"/> 
+				</Maps>
+
+				<Entities>  
+					<SetOfEntities fromId="50000" number="10" layer="Maze"/> 
+					<SetOfEntities fromId="50010" number="10" layer="Maze"/> 
+					<SetOfEntities fromId="50020" number="10" layer="Maze"/> 
+					<SetOfEntities fromId="50030" number="10" layer="Maze"/> 
+					<SetOfEntities fromId="50040" number="10" layer="Maze"/> 
+					<SetOfEntities fromId="60000" number="10" layer="Maze"/> 
+				</Entities>
+			</Scene>
+
+			<!-- The Ms. Pacman 3 -->
+			<Scene id="71200">  
+				<Maps>
+					<Map id="62000" file="maps/misspacman3map_blue.tmx"/> 
+					<Map id="62200" file="maps/misspacman3map_red.tmx"/> 
+					<Map id="62400" file="maps/misspacman3map_green.tmx"/> 
+					<Map id="62600" file="maps/misspacman3map_yellow.tmx"/> 
+				</Maps>
+
+				<Entities>  
+					<SetOfEntities fromId="50000" number="10" layer="Maze"/> 
+					<SetOfEntities fromId="50010" number="10" layer="Maze"/> 
+					<SetOfEntities fromId="50020" number="10" layer="Maze"/> 
+					<SetOfEntities fromId="50030" number="10" layer="Maze"/> 
+					<SetOfEntities fromId="50040" number="10" layer="Maze"/> 
+					<SetOfEntities fromId="60000" number="10" layer="Maze"/> 
+				</Entities>
+			</Scene>
+
+			<!-- The Ms. Pacman 4 -->
+			<Scene id="71300">  
+				<Maps>
+					<Map id="63000" file="maps/misspacman4map_blue.tmx"/> 
+					<Map id="63200" file="maps/misspacman4map_red.tmx"/> 
+					<Map id="63400" file="maps/misspacman4map_green.tmx"/> 
+					<Map id="63600" file="maps/misspacman4map_yellow.tmx"/> 
+				</Maps>
+
+				<Entities>  
+					<SetOfEntities fromId="50000" number="10" layer="Maze"/> 
+					<SetOfEntities fromId="50010" number="10" layer="Maze"/> 
+					<SetOfEntities fromId="50020" number="10" layer="Maze"/> 
+					<SetOfEntities fromId="50030" number="10" layer="Maze"/> 
+					<SetOfEntities fromId="50040" number="10" layer="Maze"/> 
+					<SetOfEntities fromId="60000" number="10" layer="Maze"/> 
+				</Entities>
+			</Scene>
+			<!-- --------------------- -->
+			
+		</Scenes>
+
+	</World>
+
+</Worlds>

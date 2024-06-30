@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:fd9343f41ab98752dc1a023754113dd0:1f231c0b6240479d1f5d5798521c033d:e1ede4255452fc221178d52300b26383$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="stairs" file="./forms/stairs.png" width="2048" height="1024"
+		fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="?">
+		<Frame id="stairs_E" fPosX="0" fPosY="0" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="stairs_N" fPosX="256" fPosY="0" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="stairs_S" fPosX="512" fPosY="0" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="stairs_W" fPosX="768" fPosY="0" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="stairsAged_E" fPosX="1024" fPosY="0" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="stairsAged_N" fPosX="1280" fPosY="0" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="stairsAged_S" fPosX="1536" fPosY="0" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="stairsAged_W" fPosX="1792" fPosY="0" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="stairsCorner_E" fPosX="0" fPosY="512" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="stairsCorner_N" fPosX="256" fPosY="512" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="stairsCorner_S" fPosX="512" fPosY="512" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="stairsCorner_W" fPosX="768" fPosY="512" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="stairsSpiral_E" fPosX="1024" fPosY="512" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="stairsSpiral_N" fPosX="1280" fPosY="512" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="stairsSpiral_S" fPosX="1536" fPosY="512" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="stairsSpiral_W" fPosX="1792" fPosY="512" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+    </Form>
+</CommtyExporter>

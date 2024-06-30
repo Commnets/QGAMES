@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:f4f417d833a7c896b19eaa65531ab75c:57b44b331d0f954e535e12446466891d:28dbe1dbe7c25023e4edede09c6a7478$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="UFO5" file="./forms/UFO5.png" width="480" height="80"
+		fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="?">
+		<Frame id="UFO00" fPosX="0" fPosY="0" fWidth="80" fHeight="80" xoffset="0" yoffset="0" width="80" height="80"/>
+		<Frame id="UFO01" fPosX="80" fPosY="0" fWidth="80" fHeight="80" xoffset="0" yoffset="0" width="80" height="80"/>
+		<Frame id="UFO02" fPosX="160" fPosY="0" fWidth="80" fHeight="80" xoffset="0" yoffset="0" width="80" height="80"/>
+		<Frame id="UFO03" fPosX="240" fPosY="0" fWidth="80" fHeight="80" xoffset="0" yoffset="0" width="80" height="80"/>
+		<Frame id="UFO04" fPosX="320" fPosY="0" fWidth="80" fHeight="80" xoffset="0" yoffset="0" width="80" height="80"/>
+		<Frame id="UFO05" fPosX="400" fPosY="0" fWidth="80" fHeight="80" xoffset="0" yoffset="0" width="80" height="80"/>
+    </Form>
+</CommtyExporter>

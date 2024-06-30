@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:1059db1f5c614b3dbccb722873e7ffed:753634a840f152f567b11051306d7ea7:69620ee14b21f0da5355fc499d506cf5$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="BigSpaceShip3" file="./forms/BigSpaceShip3.png" width="2048" height="1536"
+		fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="?">
+		<Frame id="SS1" fPosX="0" fPosY="0" fWidth="512" fHeight="512" xoffset="0" yoffset="0" width="512" height="512"/>
+		<Frame id="SS2" fPosX="512" fPosY="0" fWidth="512" fHeight="512" xoffset="0" yoffset="0" width="512" height="512"/>
+		<Frame id="SS3" fPosX="1024" fPosY="0" fWidth="512" fHeight="512" xoffset="0" yoffset="0" width="512" height="512"/>
+		<Frame id="SS4" fPosX="1536" fPosY="0" fWidth="512" fHeight="512" xoffset="0" yoffset="0" width="512" height="512"/>
+		<Frame id="SS5" fPosX="0" fPosY="512" fWidth="512" fHeight="512" xoffset="0" yoffset="0" width="512" height="512"/>
+		<Frame id="SS6" fPosX="512" fPosY="512" fWidth="512" fHeight="512" xoffset="0" yoffset="0" width="512" height="512"/>
+		<Frame id="SS7" fPosX="1024" fPosY="512" fWidth="512" fHeight="512" xoffset="0" yoffset="0" width="512" height="512"/>
+		<Frame id="SS8" fPosX="1536" fPosY="512" fWidth="512" fHeight="512" xoffset="0" yoffset="0" width="512" height="512"/>
+		<Frame id="SS9" fPosX="0" fPosY="1024" fWidth="512" fHeight="512" xoffset="0" yoffset="0" width="512" height="512"/>
+		<Frame id="SS10" fPosX="512" fPosY="1024" fWidth="512" fHeight="512" xoffset="0" yoffset="0" width="512" height="512"/>
+    </Form>
+</CommtyExporter>

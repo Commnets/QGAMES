@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Worlds>
+
+	<!-- Includes from the library -->
+	<Include file="dwworlds.xml"/>
+	
+	<!-- Includes related with this game -->
+	<Include file="cityworlds.xml"/>
+	<Include file="landscapeworlds.xml"/>
+	<Include file="darkforestworlds.xml"/>
+	<Include file="mountainsworlds.xml"/>
+	<Include file="templeworlds.xml"/>
+	
+</Worlds>

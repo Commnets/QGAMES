@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.6.0" orientation="isometric" renderorder="right-down" width="5" height="3" tilewidth="256" tileheight="128" infinite="0" nextlayerid="8" nextobjectid="3">
+ <tileset firstgid="1" source="../assets/floor.tsx"/>
+ <tileset firstgid="81" source="../assets/walls.tsx"/>
+ <layer id="1" name="floor" width="5" height="3" offsetx="0" offsety="16">
+  <data encoding="base64">
+   JAAAAB0AAAAdAAAAHQAAACIAAAAdAAAAHQAAAB0AAAAdAAAAHQAAACMAAAAdAAAAHQAAAB0AAAAhAAAA
+  </data>
+ </layer>
+ <layer id="6" name="carpet" width="5" height="3">
+  <data encoding="base64">
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  </data>
+ </layer>
+ <layer id="2" name="backwalls" width="5" height="3">
+  <data encoding="base64">
+   oQAAAKsAAACrAAAAqwAAAKMAAACVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  </data>
+ </layer>
+ <layer id="5" name="frontwalls" width="5" height="3" opacity="0.5">
+  <data encoding="base64">
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAmAAAAKIAAACqAAAAqgAAAKoAAACkAAAA
+  </data>
+ </layer>
+ <objectgroup id="7" name="conexions">
+  <object id="1" name="1" x="562" y="126" width="76.5" height="129.5">
+   <properties>
+    <property name="TO" value="example-right.tmx"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

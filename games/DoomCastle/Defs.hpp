@@ -1,0 +1,54 @@
+/** \ingroup DoomCastle */
+/*@{*/
+
+/**	
+ *	@file	
+ *	File: Defs.hpp \n
+ *	Framework: DoomCastle \n
+ *	Author: Ignacio Cea Fornies (Community Networks) \n
+ *	Creation Date: 03/05/2021 \n
+ *	Description: Defines and general includes of DoomCastle
+ *	Versions: 1.0 Initial
+ */
+
+#ifndef __DOOMCASTLE_GAMEDEFINES__
+#define __DOOMCASTLE_GAMEDEFINES__
+
+#define __DOOMCASTLE_EXAMPLEWORLDID__								50000
+#define __DOOMCASTLE_EXAMPLESCENEID__								50000
+
+#define __DOOMCASTLE_MAXNUMBEROFLIVESPARAMETER__					"LIVES"
+#define __DOOMCASTLE_INITIALWORLDPARAMETER__						"INITIALWORLD"
+#define __DOOMCASTLE_INITIALWORLDDEFAULTPARAMETER__					__DOOMCASTLE_EXAMPLEWORLDID__
+#define __DOOMCASTLE_INITIALSCENEPARAMETER__						"INITIALSCENE"
+#define __DOOMCASTLE_INITIALSCENEDEFAULTPARAMETER__					__DOOMCASTLE_EXAMPLESCENEID__
+#define __DOOMCASTLE_SHOWFPSPARAMETER__								"FPS"
+#define __DOOMCASTLE_SHOWFPSDEFAULTPARAMETER__						"NO"
+
+#define __DOOMCASTLE_STANDARDCONTROLGAMESTATE__						50000
+
+#define __DOOMCASTLE_KEYJUMP__										7
+#define __DOOMCASTLE_KEYCATCHLEAVE__								8
+#define __DOOMCASTLE_KEYITERATE__									9
+
+// Events
+#define __DOOMCASTLE_MOVINGUPEVENT__								50000
+#define __DOOMCASTLE_MOVINGRIGHTEVENT__								50001
+#define __DOOMCASTLE_MOVINGUPRIGHTEVENT__							50002
+#define __DOOMCASTLE_MOVINGDOWNEVENT__								50003
+#define __DOOMCASTLE_MOVINGDOWNRIGHTEVENT__							50004
+#define __DOOMCASTLE_MOVINGLEFTEVENT__								50005
+#define __DOOMCASTLE_MOVINGUPLEFTEVENT__							50006
+#define __DOOMCASTLE_MOVINGDOWNLEFTEVENT__							50007
+#define __DOOMCASTLE_NOMOVINGEVENT__								50008
+#define __DOOMCASTLE_FIREEVENT__									50009
+#define __DOOMCASTLE_CATCHLEAVESOMETHINGEVENT__						50010
+#define __DOOMCASTLE_ITERATEELEMENTSEVENT__							50011
+#define __DOOMCASTLE_JUMPEVENT__									50012
+
+
+
+#endif
+  
+// End of the file
+/*@}*/

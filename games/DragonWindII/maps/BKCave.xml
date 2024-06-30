@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- Background map cave -->
+<Map name="80136" width="1800" height="600">
+	<Layers>
+		<Layer id="0" name="background">
+			<Element id="80136" X="0" Y="0" Z="0"/>
+			<Attributes>
+			</Attributes>
+		</Layer>
+	</Layers>
+	<Attributes>
+	</Attributes>
+</Map>

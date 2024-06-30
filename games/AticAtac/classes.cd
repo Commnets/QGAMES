@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AticAtacBackgroundEntity" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAMIAgCCARABCCMQREAgiCABAAAAKAAgAAAMAAAEAg=</HashCode>
+      <FileName>BkEntities.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AticAtacThingToCatch" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAIAgAAAAAAAAAQBAAgAAABAAAACAAAAAQMAAAAAA=</HashCode>
+      <FileName>CtEntities.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AticAtacCharacter" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>aCAAAhggEAAgIAwAABEAACAABBABECQDAAAAOBAQEQA=</HashCode>
+      <FileName>Entities.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AticAtacWeapon" Collapsed="true">
+    <Position X="14.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCAAABggAIAAAAwBABEAAAAABBABACCCAAAAMBAAEAA=</HashCode>
+      <FileName>Entities.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EntitiesBuilder" Collapsed="true">
+    <Position X="18" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EntitiesBuilder.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AticAtacFood" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAIAgAAAAAAAAAQBAggAAABAAAACAAAAAAMAAAAAA=</HashCode>
+      <FileName>EtEntities.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AticAtacGame" Collapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YCAhAAGEAGBAAF9gCpUJiSOIVKEogCEBCIBI4EiACiA=</HashCode>
+      <FileName>Game.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameImplementation" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameImplementation.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AticAtacPresentationText" Collapsed="true">
+    <Position X="14.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>GameStates.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AticAtacGameStateLoading" Collapsed="true">
+    <Position X="14.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAgAAAAAIAAAABAABAAAACAIAAAABQCAEAA=</HashCode>
+      <FileName>GameStates.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AticAtacGameStateInitial" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAgAAAAAIABAABAABAAgACAAAAAEgQCAUAA=</HashCode>
+      <FileName>GameStates.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AticAtacGameStateSelect" Collapsed="true">
+    <Position X="18" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAYAAAgBAwgAABACBAIABBAAhAQgASAAAAAACQKBAAg=</HashCode>
+      <FileName>GameStates.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AticAtacGameStateDemo" Collapsed="true">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAABAAAAAgACIAAAAEAACAEAA=</HashCode>
+      <FileName>GameStates.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AticAtacGameStateArrive" Collapsed="true">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BACAAAAAABAAAAAAAAAACBAABAAAACAAAAAAEACAEAA=</HashCode>
+      <FileName>GameStates.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AticAtacGameStatePlaying" Collapsed="true">
+    <Position X="16.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAABAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>GameStates.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AticAtacGameStateFalling" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACgAAAAIAAAAAAAAAAAABAAAQAAACAAAQAAAACAEAA=</HashCode>
+      <FileName>GameStates.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AticAtacGameStateDie" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACBAABAAAACAAAAAAAACAEAA=</HashCode>
+      <FileName>GameStates.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AticAtacGameStateEnd" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAEAAAAAAAAAIBAAABAABAEgACAAAAAEAACAAAA=</HashCode>
+      <FileName>GameStates.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AticAtacGameStateWin" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAIBAAABAABAEgACAAAAAEAADAAAA=</HashCode>
+      <FileName>GameStates.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="General" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARAAAEICAQBABCJAgAECACAAAQADYpAAgAAAAQQIoAM=</HashCode>
+      <FileName>General.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InputHandler" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAEAQkBAAAAAAAEBAAAAAAACAAAAAAAhAAAAAIJAAA=</HashCode>
+      <FileName>InputHandler.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AticAtacMap" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAgAAEASAAARAAAACAAAACAAAAAEAA=</HashCode>
+      <FileName>Maps.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MapsBuilderAddsOn" Collapsed="true">
+    <Position X="12.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>MapsBuilder.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovementEntityInRoom" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAIAgAAgAAKAAAAAAQAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Movements.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovementMonsterInRoom" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAACAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Movements.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovementPlayerInRoom" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAQAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Movements.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovementWeaponInRoom" Collapsed="true">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAEAAAgAA=</HashCode>
+      <FileName>Movements.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovementsBuilder" Collapsed="true">
+    <Position X="14.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>MovementsBuilder.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AticAtacMonster" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KEAgAQgAIBACAAAAQBEAoAABBAAAACAAAgAAMAIEEAA=</HashCode>
+      <FileName>MtEntities.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonsterAppearingBehaviour" Collapsed="true">
+    <Position X="14.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAIAAAAgAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>MtEntities.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonsterMummyBehaviour" Collapsed="true">
+    <Position X="11" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAABAgAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MtEntities.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonsterDevilBehaviour" Collapsed="true">
+    <Position X="16.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAgAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MtEntities.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonsterDraculaBehaviour" Collapsed="true">
+    <Position X="18" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MtEntities.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonsterHunchbackBehaviour" Collapsed="true">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAgAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MtEntities.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonsterFrankesteinBehaviour" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAgAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>MtEntities.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonsterMushroomBehaviour" Collapsed="true">
+    <Position X="12.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MtEntities.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OriginalData" Collapsed="true">
+    <Position X="16.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAACAIAAAAAAAAABAAgAAAAABCAI0A=</HashCode>
+      <FileName>OriginalData.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AticAtacScene" Collapsed="true">
+    <Position X="16.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CIAAEABEACAAAIEgBAEESBBAgAggAiAAAIAAACCAgQA=</HashCode>
+      <FileName>Scenes.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AticAtacChicken" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAABAAAAAAAAEAAAAABAAAAAAIAAAAEAEAAAA=</HashCode>
+      <FileName>ScObjects.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AticAtacScoreFrame" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAABAAAAACAAAAAEAAIEAA=</HashCode>
+      <FileName>ScObjects.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AticAtacLives" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAQAABAIAACAAAABAUEIAAAA=</HashCode>
+      <FileName>ScObjects.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AticAtacThings" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAIEAACAEBAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>ScObjects.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AticAtacTimeCounter" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABEAACAAA=</HashCode>
+      <FileName>ScObjects.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AticAtacScoreCounter" Collapsed="true">
+    <Position X="18" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAABAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>ScObjects.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timer" Collapsed="true">
+    <Position X="18" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Timer.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AticAtacWorld" Collapsed="true">
+    <Position X="16.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYAQAABEICEAAEFgCKEQSgAvAQAAAKAABAAgAAAgAAg=</HashCode>
+      <FileName>Worlds.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorldsBuilder" Collapsed="true">
+    <Position X="7.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAACAABAAAAAAAAAA=</HashCode>
+      <FileName>WorldsBuilder.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="AticAtacFallingEventData" Collapsed="true">
+    <Position X="9.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Events.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="AticAtacChangeRoomEventData" Collapsed="true">
+    <Position X="7.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAwAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Events.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="AticAtacFinishEventData" Collapsed="true">
+    <Position X="11" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Events.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="BackgroundEntities" Collapsed="true">
+    <Position X="7.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BkEntities.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

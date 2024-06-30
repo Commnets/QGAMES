@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:c4552c595504ada5cf20fd33f21a660d:37f32f367191ea28a217dafe51138de1:f8168fe742fce739d3ca021c1e5f8df2$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="barrelsandcrates" file="./forms/barrelsandcrates.png" width="1024" height="4096"
+		fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="?">
+		<Frame id="barrel_E" fPosX="0" fPosY="0" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="barrel_N" fPosX="256" fPosY="0" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="barrel_S" fPosX="512" fPosY="0" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="barrel_W" fPosX="768" fPosY="0" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="barrels_E" fPosX="0" fPosY="512" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="barrels_N" fPosX="256" fPosY="512" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="barrels_S" fPosX="512" fPosY="512" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="barrels_W" fPosX="768" fPosY="512" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="barrelsStacked_E" fPosX="0" fPosY="1024" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="barrelsStacked_N" fPosX="256" fPosY="1024" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="barrelsStacked_S" fPosX="512" fPosY="1024" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="barrelsStacked_W" fPosX="768" fPosY="1024" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="chestClosed_E" fPosX="0" fPosY="1536" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="chestClosed_N" fPosX="256" fPosY="1536" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="chestClosed_S" fPosX="512" fPosY="1536" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="chestClosed_W" fPosX="768" fPosY="1536" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="chestOpen_E" fPosX="0" fPosY="2048" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="chestOpen_N" fPosX="256" fPosY="2048" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="chestOpen_S" fPosX="512" fPosY="2048" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="chestOpen_W" fPosX="768" fPosY="2048" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="woodenCrate_E" fPosX="0" fPosY="2560" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="woodenCrate_N" fPosX="256" fPosY="2560" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="woodenCrate_S" fPosX="512" fPosY="2560" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="woodenCrate_W" fPosX="768" fPosY="2560" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="woodenCrates_E" fPosX="0" fPosY="3072" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="woodenCrates_N" fPosX="256" fPosY="3072" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="woodenCrates_S" fPosX="512" fPosY="3072" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="woodenCrates_W" fPosX="768" fPosY="3072" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="woodenPile_E" fPosX="0" fPosY="3584" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="woodenPile_N" fPosX="256" fPosY="3584" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="woodenPile_S" fPosX="512" fPosY="3584" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="woodenPile_W" fPosX="768" fPosY="3584" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+    </Form>
+</CommtyExporter>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Sounds>
+	<Sound id="1" type="1" loop="0" file="sounds/click1.wav"/>
+	<Sound id="2" type="1" loop="0" file="sounds/click2.wav"/>
+	<Sound id="3" type="1" loop="0" file="sounds/Intro1.wav"/>
+	<Sound id="4" type="1" loop="0" file="sounds/End.wav"/>
+</Sounds>

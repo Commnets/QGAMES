@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map id="Atic Atac" >
+	<!-- just general comments -->
+	<comment desc="wherever red key is placed, that is where the mummy - id of 21 - is placed" />
+	<comment desc="when player is knight he moves through clocks only" />
+	<comment desc="when player is wizard he moves through bookcase only" />
+	<comment desc="when player is surf he moves through barrels onlyh" />
+	<!-- where to place the acg key. random of 8 set positions -->
+	<acg_keylocations>
+		<acg_keylocation left="129" middle="69" right="124" />
+		<acg_keylocation left="133" middle="73" right="43" />
+		<acg_keylocation left="106" middle="59" right="124" />
+		<acg_keylocation left="105" middle="113" right="43" />
+		<acg_keylocation left="103" middle="133" right="124" />
+		<acg_keylocation left="104" middle="127" right="43" />
+		<acg_keylocation left="77" middle="115" right="124" />
+		<acg_keylocation left="23" middle="16" right="43" />
+	</acg_keylocations>
+	<!-- reg/green/cyan/yellow keys. pick one at random from each line -->
+	<yellowkey room1="102" />
+	<redkey room1="23" room2="19" room3="9" room4="13" room5="137" room6="135" room7="128" room8="133" />
+	<cyankey room1="83" room2="143" room3="65" room4="148" room5="51" room6="145" room7="57" room8="76" />
+	<greenkey room1="5" room2="6" room3="7" room4="109" room5="37" room6="36" room7="35" room8="34" />
+
+	<!-- rooms -->
+	<rooms startroom="0" >
+		<!--
+			id is the room number
+			type is the room type - use lookup_roomtypes to find the shape of it
+		-->
+		<room id="0" type="0" />
+		<room id="1" type="2" />
+		<room id="2" type="3" />
+		<room id="3" type="2" />
+		<room id="4" type="4" />
+		<room id="5" type="2" />
+		<room id="6" type="3" />
+		<room id="7" type="2" />
+		<room id="8" type="4" />
+		<room id="9" type="0" />
+		<room id="10" type="3" />
+		<room id="11" type="3" />
+		<room id="12" type="3" />
+		<room id="13" type="0" />
+		<room id="14" type="4" />
+		<room id="15" type="4" />
+		<room id="16" type="4" />
+		<room id="17" type="4" />
+		<room id="18" type="4" />
+		<room id="19" type="0" />
+		<room id="20" type="3" />
+		<room id="21" type="3" />
+		<room id="22" type="3" />
+		<room id="23" type="0" />
+		<room id="24" type="4" />
+		<room id="25" type="3" />
+		<room id="26" type="5" />
+		<room id="27" type="0" />
+		<room id="28" type="8" />
+		<room id="29" type="1" />
+		<room id="30" type="4" />
+		<room id="31" type="2" />
+		<room id="32" type="3" />
+		<room id="33" type="2" />
+		<room id="34" type="4" />
+		<room id="35" type="2" />
+		<room id="36" type="3" />
+		<room id="37" type="2" />
+		<room id="38" type="5" />
+		<room id="39" type="0" />
+		<room id="40" type="4" />
+		<room id="41" type="0" />
+		<room id="42" type="3" />
+		<room id="43" type="0" />
+		<room id="44" type="4" />
+		<room id="45" type="0" />
+		<room id="46" type="3" />
+		<room id="47" type="5" />
+		<room id="48" type="1" />
+		<room id="49" type="10" />
+		<room id="50" type="10" />
+		<room id="51" type="1" />
+		<room id="52" type="10" />
+		<room id="53" type="1" />
+		<room id="54" type="9" />
+		<room id="55" type="9" />
+		<room id="56" type="1" />
+		<room id="57" type="1" />
+		<room id="58" type="1" />
+		<room id="59" type="1" />
+		<room id="60" type="1" />
+		<room id="61" type="1" />
+		<room id="62" type="1" />
+		<room id="63" type="9" />
+		<room id="64" type="1" />
+		<room id="65" type="1" />
+		<room id="66" type="10" />
+		<room id="67" type="1" />
+		<room id="68" type="9" />
+		<room id="69" type="1" />
+		<room id="70" type="1" />
+		<room id="71" type="9" />
+		<room id="72" type="1" />
+		<room id="73" type="10" />
+		<room id="74" type="9" />
+		<room id="75" type="1" />
+		<room id="76" type="1" />
+		<room id="77" type="10" />
+		<room id="78" type="1" />
+		<room id="79" type="9" />
+		<room id="80" type="1" />
+		<room id="81" type="10" />
+		<room id="82" type="9" />
+		<room id="83" type="1" />
+		<room id="84" type="1" />
+		<room id="85" type="1" />
+		<room id="86" type="0" />
+		<room id="87" type="0" />
+		<room id="88" type="0" />
+		<room id="89" type="0" />
+		<room id="90" type="0" />
+		<room id="91" type="0" />
+		<room id="92" type="0" />
+		<room id="93" type="0" />
+		<room id="94" type="0" />
+		<room id="95" type="0" />
+		<room id="96" type="0" />
+		<room id="97" type="0" />
+		<room id="98" type="0" />
+		<room id="99" type="0" />
+		<room id="100" type="0" />
+		<room id="101" type="0" />
+		<room id="102" type="0" />
+		<room id="103" type="0" />
+		<room id="104" type="0" />
+		<room id="105" type="0" />
+		<room id="106" type="0" />
+		<room id="107" type="0" />
+		<room id="108" type="0" />
+		<room id="109" type="0" />
+		<room id="110" type="0" />
+		<room id="111" type="4" />
+		<room id="112" type="0" />
+		<room id="113" type="5" />
+		<room id="114" type="5" />
+		<room id="115" type="3" />
+		<room id="116" type="1" />
+		<room id="117" type="0" />
+		<room id="118" type="0" />
+		<room id="119" type="3" />
+		<room id="120" type="0" />
+		<room id="121" type="4" />
+		<room id="122" type="0" />
+		<room id="123" type="3" />
+		<room id="124" type="0" />
+		<room id="125" type="4" />
+		<room id="126" type="0" />
+		<room id="127" type="0" />
+		<room id="128" type="0" />
+		<room id="129" type="0" />
+		<room id="130" type="0" />
+		<room id="131" type="0" />
+		<room id="132" type="0" />
+		<room id="133" type="0" />
+		<room id="134" type="0" />
+		<room id="135" type="0" />
+		<room id="136" type="0" />
+		<room id="137" type="0" />
+		<room id="138" type="0" />
+		<room id="139" type="4" />
+		<room id="140" type="4" />
+		<room id="141" type="4" />
+		<room id="142" type="11" />
+		<room id="143" type="1" />
+		<room id="144" type="1" />
+		<room id="145" type="1" />
+		<room id="146" type="1" />
+		<room id="147" type="1" />
+		<room id="148" type="1" />
+		<room id="149" type="0" />
+		<room id="150" type="12" />
+	</rooms>
+	<roomobjects>
+		<!--
+			id is used to link jump items together
+			item is the object number to find in the lookup_roomobjects table and determines what the object does
+			room is the room it is in
+			flags is usually the location of the object
+			doorflags is probably not used
+			jumpto_room is the room to jump to when go through this item
+			jumpto_object is the item to come out of when jumpto_room is invoked
+			x/y is the position
+		-->
+		<roomobject id="1" item="2" room="0" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="7" jumpto_object="0" />
+		<roomobject id="3" item="2" room="0" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="25" jumpto_object="2" />
+		<roomobject id="5" item="10" room="0" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="1" jumpto_object="4" />
+		<roomobject id="542" item="36" room="0" x="152" y="127" flags="unknown!" doortime="186" doorflags="214" jumpto_room="142" jumpto_object="543" />
+		<roomobject id="384" item="30" room="0" x="152" y="63" flags="Right" />
+		<roomobject id="386" item="30" room="0" x="152" y="143" flags="Right" />
+		<roomobject id="454" item="37" room="0" x="40" y="23" flags="Top" />
+		<roomobject id="456" item="17" room="0" x="120" y="28" flags="Top" />
+		<roomobject id="458" item="28" room="0" x="56" y="183" flags="Bottom" />
+		<roomobject id="460" item="21" room="0" x="120" y="183" flags="Bottom" />
+		<roomobject id="480" item="29" room="0" x="8" y="71" flags="Left" />
+		<roomobject id="482" item="22" room="0" x="8" y="135" flags="Left" />
+		<roomobject id="4" item="10" room="1" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="0" jumpto_object="5" />
+		<roomobject id="7" item="2" room="1" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="2" jumpto_object="6" />
+		<roomobject id="388" item="30" room="1" x="88" y="39" flags="Top" />
+		<roomobject id="473" item="29" room="1" x="168" y="103" flags="unknown!" />
+		<roomobject id="6" item="2" room="2" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="1" jumpto_object="7" />
+		<roomobject id="9" item="2" room="2" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="3" jumpto_object="8" />
+		<roomobject id="57" item="2" room="2" x="80" y="63" flags="Top" doortime="4" doorflags="86" jumpto_room="24" jumpto_object="56" />
+		<roomobject id="82" item="2" room="2" x="80" y="151" flags="Bottom" doortime="4" doorflags="6" jumpto_room="38" jumpto_object="83" />
+		<roomobject id="1021" item="1018" room="2" x="87" y="103" />
+		<roomobject id="8" item="2" room="3" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="2" jumpto_object="9" />
+		<roomobject id="11" item="2" room="3" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="4" jumpto_object="10" />
+		<roomobject id="255" item="10" room="3" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="108" jumpto_object="254" />
+		<roomobject id="356" item="25" room="3" x="48" y="112" flags="3" doortime="36" doorflags="228" jumpto_room="101" jumpto_object="357" />
+		<roomobject id="369" item="27" room="3" x="104" y="116" flags="3" />
+		<roomobject id="389" item="30" room="3" x="88" y="39" flags="Top" />
+		<roomobject id="10" item="2" room="4" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="3" jumpto_object="11" />
+		<roomobject id="13" item="2" room="4" x="128" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="25" jumpto_object="12" />
+		<roomobject id="15" item="2" room="4" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="5" jumpto_object="14" />
+		<roomobject id="462" item="17" room="4" x="40" y="71" flags="225" />
+		<roomobject id="464" item="22" room="4" x="40" y="135" flags="Left" />
+		<roomobject id="1048" item="1021" room="4" x="87" y="103" />
+		<roomobject id="14" item="2" room="5" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="4" jumpto_object="15" />
+		<roomobject id="17" item="2" room="5" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="6" jumpto_object="16" />
+		<roomobject id="261" item="2" room="5" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="110" jumpto_object="260" />
+		<roomobject id="390" item="30" room="5" x="88" y="183" flags="Bottom" />
+		<roomobject id="1002" item="1002" room="5" x="64" y="112" />
+		<roomobject id="16" item="2" room="6" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="5" jumpto_object="17" />
+		<roomobject id="19" item="2" room="6" x="80" y="63" flags="Top" doortime="4" doorflags="86" jumpto_room="26" jumpto_object="18" />
+		<roomobject id="21" item="9" room="6" x="80" y="151" flags="Bottom" doortime="4" doorflags="6" jumpto_room="8" jumpto_object="20" />
+		<roomobject id="23" item="2" room="6" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="7" jumpto_object="22" />
+		<roomobject id="385" item="30" room="6" x="56" y="71" flags="Top" />
+		<roomobject id="387" item="30" room="6" x="120" y="71" flags="Top" />
+		<roomobject id="471" item="28" room="6" x="56" y="151" flags="Bottom" />
+		<roomobject id="472" item="28" room="6" x="120" y="151" flags="Bottom" />
+		<roomobject id="0" item="2" room="7" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="0" jumpto_object="1" />
+		<roomobject id="22" item="2" room="7" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="6" jumpto_object="23" />
+		<roomobject id="391" item="30" room="7" x="88" y="183" flags="Bottom" />
+		<roomobject id="470" item="37" room="7" x="168" y="111" flags="unknown!" />
+		<roomobject id="1020" item="1018" room="7" x="87" y="103" />
+		<roomobject id="20" item="9" room="8" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="6" jumpto_object="21" />
+		<roomobject id="25" item="2" room="8" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="9" jumpto_object="24" />
+		<roomobject id="541" item="26" room="8" x="40" y="111" flags="225" doortime="6" doorflags="3" jumpto_room="138" jumpto_object="540" />
+		<roomobject id="450" item="28" room="8" x="136" y="103" flags="unknown!" />
+		<roomobject id="24" item="2" room="9" x="80" y="31" flags="Top" doortime="4" doorflags="87" jumpto_room="8" jumpto_object="25" />
+		<roomobject id="27" item="2" room="9" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="10" jumpto_object="26" />
+		<roomobject id="512" item="16" room="9" x="48" y="39" flags="1" doortime="4" doorflags="86" jumpto_room="23" jumpto_object="513" />
+		<roomobject id="375" item="27" room="9" x="72" y="116" flags="3" />
+		<roomobject id="412" item="30" room="9" x="8" y="63" flags="Left" />
+		<roomobject id="414" item="30" room="9" x="8" y="143" flags="Left" />
+		<roomobject id="498" item="22" room="9" x="168" y="71" flags="unknown!" />
+		<roomobject id="500" item="17" room="9" x="160" y="135" flags="65" />
+		<roomobject id="1001" item="1001" room="9" x="64" y="64" />
+		<roomobject id="1044" item="1021" room="9" x="128" y="144" />
+		<roomobject id="26" item="2" room="10" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="9" jumpto_object="27" />
+		<roomobject id="29" item="2" room="10" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="11" jumpto_object="28" />
+		<roomobject id="522" item="23" room="10" x="64" y="71" flags="Top" doortime="4" doorflags="86" jumpto_room="22" jumpto_object="523" />
+		<roomobject id="28" item="2" room="11" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="10" jumpto_object="29" />
+		<roomobject id="31" item="2" room="11" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="12" jumpto_object="30" />
+		<roomobject id="376" item="17" room="11" x="80" y="151" flags="129" />
+		<roomobject id="457" item="22" room="11" x="88" y="55" flags="Top" />
+		<roomobject id="461" item="22" room="11" x="88" y="151" flags="129" />
+		<roomobject id="1054" item="1022" room="11" x="87" y="103" />
+		<roomobject id="30" item="2" room="12" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="11" jumpto_object="31" />
+		<roomobject id="33" item="2" room="12" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="13" jumpto_object="32" />
+		<roomobject id="377" item="17" room="12" x="80" y="151" flags="129" />
+		<roomobject id="497" item="22" room="12" x="88" y="55" flags="Top" />
+		<roomobject id="1015" item="1018" room="12" x="96" y="96" />
+		<roomobject id="1024" item="1019" room="12" x="96" y="112" />
+		<roomobject id="32" item="2" room="13" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="12" jumpto_object="33" />
+		<roomobject id="35" item="2" room="13" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="14" jumpto_object="34" />
+		<roomobject id="262" item="10" room="13" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="111" jumpto_object="263" />
+		<roomobject id="416" item="18" room="13" x="56" y="80" flags="4" doortime="204" doorflags="73" jumpto_room="19" jumpto_object="417" />
+		<roomobject id="510" item="16" room="13" x="48" y="39" flags="1" doortime="4" doorflags="86" jumpto_room="19" jumpto_object="511" />
+		<roomobject id="495" item="21" room="13" x="8" y="111" flags="Left" />
+		<roomobject id="1068" item="1023" room="13" x="48" y="103" />
+		<roomobject id="34" item="2" room="14" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="13" jumpto_object="35" />
+		<roomobject id="37" item="2" room="14" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="15" jumpto_object="36" />
+		<roomobject id="444" item="21" room="14" x="40" y="87" flags="Left" />
+		<roomobject id="453" item="22" room="14" x="40" y="119" flags="Left" />
+		<roomobject id="469" item="37" room="14" x="136" y="111" flags="unknown!" />
+		<roomobject id="36" item="2" room="15" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="14" jumpto_object="37" />
+		<roomobject id="39" item="2" room="15" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="16" jumpto_object="38" />
+		<roomobject id="256" item="9" room="15" x="128" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="109" jumpto_object="257" />
+		<roomobject id="446" item="28" room="15" x="40" y="103" flags="Left" />
+		<roomobject id="1028" item="1019" room="15" x="87" y="103" />
+		<roomobject id="38" item="2" room="16" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="15" jumpto_object="39" />
+		<roomobject id="41" item="8" room="16" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="17" jumpto_object="40" />
+		<roomobject id="448" item="21" room="16" x="136" y="111" flags="unknown!" />
+		<roomobject id="40" item="8" room="17" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="16" jumpto_object="41" />
+		<roomobject id="43" item="2" room="17" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="18" jumpto_object="42" />
+		<roomobject id="250" item="2" room="17" x="128" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="107" jumpto_object="251" />
+		<roomobject id="447" item="29" room="17" x="40" y="103" flags="Left" />
+		<roomobject id="1050" item="1021" room="17" x="87" y="103" />
+		<roomobject id="42" item="2" room="18" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="17" jumpto_object="43" />
+		<roomobject id="45" item="2" room="18" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="19" jumpto_object="44" />
+		<roomobject id="445" item="22" room="18" x="136" y="111" flags="unknown!" />
+		<roomobject id="1085" item="1025" room="18" x="87" y="64" />
+		<roomobject id="44" item="2" room="19" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="18" jumpto_object="45" />
+		<roomobject id="47" item="2" room="19" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="20" jumpto_object="46" />
+		<roomobject id="248" item="2" room="19" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="115" jumpto_object="249" />
+		<roomobject id="417" item="18" room="19" x="112" y="144" flags="4" doortime="204" doorflags="73" jumpto_room="13" jumpto_object="416" />
+		<roomobject id="511" item="16" room="19" x="48" y="183" flags="129" doortime="4" doorflags="6" jumpto_room="13" jumpto_object="510" />
+		<roomobject id="395" item="30" room="19" x="88" y="39" flags="Top" />
+		<roomobject id="1008" item="1008" room="19" x="80" y="80" />
+		<roomobject id="46" item="2" room="20" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="19" jumpto_object="47" />
+		<roomobject id="49" item="2" room="20" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="21" jumpto_object="48" />
+		<roomobject id="443" item="29" room="20" x="88" y="151" flags="Bottom" />
+		<roomobject id="465" item="37" room="20" x="88" y="55" flags="Top" />
+		<roomobject id="48" item="2" room="21" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="20" jumpto_object="49" />
+		<roomobject id="51" item="2" room="21" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="22" jumpto_object="50" />
+		<roomobject id="370" item="25" room="21" x="80" y="128" flags="3" doortime="36" doorflags="228" jumpto_room="102" jumpto_object="371" />
+		<roomobject id="393" item="30" room="21" x="120" y="151" flags="Bottom" />
+		<roomobject id="394" item="30" room="21" x="56" y="151" flags="Bottom" />
+		<roomobject id="463" item="21" room="21" x="88" y="55" flags="Top" />
+		<roomobject id="50" item="2" room="22" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="21" jumpto_object="51" />
+		<roomobject id="53" item="8" room="22" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="23" jumpto_object="52" />
+		<roomobject id="523" item="23" room="22" x="64" y="151" flags="Bottom" doortime="4" doorflags="6" jumpto_room="10" jumpto_object="522" />
+		<roomobject id="442" item="28" room="22" x="88" y="55" flags="Top" />
+		<roomobject id="52" item="8" room="23" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="22" jumpto_object="53" />
+		<roomobject id="55" item="9" room="23" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="24" jumpto_object="54" />
+		<roomobject id="513" item="16" room="23" x="48" y="183" flags="129" doortime="4" doorflags="6" jumpto_room="9" jumpto_object="512" />
+		<roomobject id="392" item="30" room="23" x="88" y="39" flags="Top" />
+		<roomobject id="475" item="29" room="23" x="168" y="103" flags="unknown!" />
+		<roomobject id="1018" item="1018" room="23" x="64" y="64" />
+		<roomobject id="1108" item="1033" room="23" x="80" y="80" />
+		<roomobject id="54" item="9" room="24" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="23" jumpto_object="55" />
+		<roomobject id="56" item="2" room="24" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="2" jumpto_object="57" />
+		<roomobject id="420" item="18" room="24" x="72" y="80" flags="4" doortime="204" doorflags="73" jumpto_room="136" jumpto_object="421" />
+		<roomobject id="424" item="18" room="24" x="88" y="128" flags="4" doortime="204" doorflags="73" jumpto_room="109" jumpto_object="425" />
+		<roomobject id="451" item="29" room="24" x="136" y="103" flags="unknown!" />
+		<roomobject id="474" item="17" room="24" x="40" y="111" flags="225" />
+		<roomobject id="2" item="2" room="25" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="0" jumpto_object="3" />
+		<roomobject id="12" item="2" room="25" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="4" jumpto_object="13" />
+		<roomobject id="455" item="29" room="25" x="88" y="55" flags="Top" />
+		<roomobject id="459" item="29" room="25" x="88" y="151" flags="Bottom" />
+		<roomobject id="18" item="3" room="26" x="72" y="182" flags="Bottom" doortime="22" doorflags="8" jumpto_room="6" jumpto_object="19" />
+		<roomobject id="58" item="2" room="26" x="80" y="40" flags="Top" doortime="4" doorflags="86" jumpto_room="27" jumpto_object="59" />
+		<roomobject id="59" item="2" room="27" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="26" jumpto_object="58" />
+		<roomobject id="60" item="2" room="27" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="28" jumpto_object="61" />
+		<roomobject id="339" item="2" room="27" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="101" jumpto_object="338" />
+		<roomobject id="429" item="18" room="27" x="112" y="80" flags="4" doortime="204" doorflags="73" jumpto_room="106" jumpto_object="428" />
+		<roomobject id="1065" item="1023" room="27" x="87" y="103" />
+		<roomobject id="61" item="3" room="28" x="8" y="119" flags="Left" doortime="8" doorflags="245" jumpto_room="27" jumpto_object="60" />
+		<roomobject id="62" item="2" room="28" x="152" y="111" flags="Right" doortime="175" doorflags="3" jumpto_room="29" jumpto_object="63" />
+		<roomobject id="63" item="1" room="29" x="24" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="28" jumpto_object="62" />
+		<roomobject id="178" item="1" room="29" x="144" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="67" jumpto_object="179" />
+		<roomobject id="1087" item="1025" room="29" x="48" y="103" />
+		<roomobject id="64" item="2" room="30" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="31" jumpto_object="65" />
+		<roomobject id="79" item="10" room="30" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="37" jumpto_object="78" />
+		<roomobject id="1014" item="1018" room="30" x="80" y="87" />
+		<roomobject id="65" item="2" room="31" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="30" jumpto_object="64" />
+		<roomobject id="66" item="2" room="31" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="32" jumpto_object="67" />
+		<roomobject id="380" item="30" room="31" x="152" y="103" flags="Right" />
+		<roomobject id="1010" item="1016" room="31" x="112" y="112" />
+		<roomobject id="67" item="2" room="32" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="31" jumpto_object="66" />
+		<roomobject id="68" item="2" room="32" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="33" jumpto_object="69" />
+		<roomobject id="102" item="11" room="32" x="80" y="151" flags="Bottom" doortime="4" doorflags="6" jumpto_room="47" jumpto_object="103" />
+		<roomobject id="69" item="2" room="33" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="32" jumpto_object="68" />
+		<roomobject id="70" item="2" room="33" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="34" jumpto_object="71" />
+		<roomobject id="212" item="2" room="33" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="136" jumpto_object="213" />
+		<roomobject id="368" item="25" room="33" x="112" y="112" flags="3" doortime="36" doorflags="228" jumpto_room="3" jumpto_object="369" />
+		<roomobject id="381" item="30" room="33" x="8" y="103" flags="Left" />
+		<roomobject id="71" item="2" room="34" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="33" jumpto_object="70" />
+		<roomobject id="72" item="2" room="34" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="35" jumpto_object="73" />
+		<roomobject id="519" item="16" room="34" x="40" y="111" flags="225" doortime="6" doorflags="3" jumpto_room="141" jumpto_object="518" />
+		<roomobject id="73" item="2" room="35" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="34" jumpto_object="72" />
+		<roomobject id="74" item="2" room="35" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="36" jumpto_object="75" />
+		<roomobject id="247" item="9" room="35" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="138" jumpto_object="246" />
+		<roomobject id="383" item="30" room="35" x="8" y="103" flags="Left" />
+		<roomobject id="75" item="2" room="36" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="35" jumpto_object="74" />
+		<roomobject id="76" item="2" room="36" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="37" jumpto_object="77" />
+		<roomobject id="80" item="2" room="36" x="80" y="63" flags="Top" doortime="4" doorflags="86" jumpto_room="38" jumpto_object="81" />
+		<roomobject id="405" item="30" room="36" x="56" y="71" flags="Top" />
+		<roomobject id="407" item="30" room="36" x="120" y="71" flags="Top" />
+		<roomobject id="1083" item="1025" room="36" x="96" y="112" />
+		<roomobject id="77" item="2" room="37" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="36" jumpto_object="76" />
+		<roomobject id="78" item="10" room="37" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="30" jumpto_object="79" />
+		<roomobject id="382" item="30" room="37" x="152" y="103" flags="Right" />
+		<roomobject id="1064" item="1023" room="37" x="107" y="123" />
+		<roomobject id="81" item="3" room="38" x="72" y="182" flags="Bottom" doortime="22" doorflags="8" jumpto_room="36" jumpto_object="80" />
+		<roomobject id="83" item="2" room="38" x="80" y="40" flags="Top" doortime="4" doorflags="86" jumpto_room="2" jumpto_object="82" />
+		<roomobject id="84" item="2" room="39" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="40" jumpto_object="85" />
+		<roomobject id="99" item="2" room="39" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="46" jumpto_object="98" />
+		<roomobject id="100" item="2" room="39" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="47" jumpto_object="101" />
+		<roomobject id="400" item="30" room="39" x="56" y="39" flags="Top" />
+		<roomobject id="402" item="30" room="39" x="120" y="39" flags="Top" />
+		<roomobject id="503" item="37" room="39" x="168" y="71" flags="Right" />
+		<roomobject id="505" item="29" room="39" x="168" y="135" flags="Right" />
+		<roomobject id="1012" item="1018" room="39" x="87" y="103" />
+		<roomobject id="85" item="2" room="40" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="39" jumpto_object="84" />
+		<roomobject id="86" item="10" room="40" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="41" jumpto_object="87" />
+		<roomobject id="1091" item="1025" room="40" x="87" y="103" />
+		<roomobject id="87" item="10" room="41" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="40" jumpto_object="86" />
+		<roomobject id="88" item="2" room="41" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="42" jumpto_object="89" />
+		<roomobject id="211" item="2" room="41" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="126" jumpto_object="210" />
+		<roomobject id="374" item="25" room="41" x="80" y="128" flags="3" doortime="36" doorflags="228" jumpto_room="9" jumpto_object="375" />
+		<roomobject id="506" item="28" room="41" x="168" y="71" flags="Right" />
+		<roomobject id="508" item="17" room="41" x="160" y="135" flags="97" />
+		<roomobject id="89" item="2" room="42" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="41" jumpto_object="88" />
+		<roomobject id="90" item="2" room="42" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="43" jumpto_object="91" />
+		<roomobject id="434" item="18" room="42" x="56" y="87" flags="4" doortime="204" doorflags="73" jumpto_room="45" jumpto_object="435" />
+		<roomobject id="436" item="18" room="42" x="96" y="127" flags="4" doortime="204" doorflags="73" jumpto_room="45" jumpto_object="437" />
+		<roomobject id="91" item="2" room="43" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="42" jumpto_object="90" />
+		<roomobject id="92" item="2" room="43" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="44" jumpto_object="93" />
+		<roomobject id="401" item="30" room="43" x="56" y="39" flags="Top" />
+		<roomobject id="403" item="30" room="43" x="120" y="39" flags="Top" />
+		<roomobject id="1042" item="1021" room="43" x="64" y="128" />
+		<roomobject id="93" item="2" room="44" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="43" jumpto_object="92" />
+		<roomobject id="94" item="2" room="44" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="45" jumpto_object="95" />
+		<roomobject id="95" item="2" room="45" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="44" jumpto_object="94" />
+		<roomobject id="96" item="9" room="45" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="46" jumpto_object="97" />
+		<roomobject id="188" item="2" room="45" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="117" jumpto_object="189" />
+		<roomobject id="360" item="25" room="45" x="80" y="144" flags="3" doortime="36" doorflags="228" jumpto_room="141" jumpto_object="361" />
+		<roomobject id="435" item="18" room="45" x="48" y="128" flags="4" doortime="204" doorflags="73" jumpto_room="42" jumpto_object="434" />
+		<roomobject id="437" item="18" room="45" x="112" y="128" flags="4" doortime="204" doorflags="73" jumpto_room="42" jumpto_object="436" />
+		<roomobject id="97" item="9" room="46" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="45" jumpto_object="96" />
+		<roomobject id="98" item="2" room="46" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="39" jumpto_object="99" />
+		<roomobject id="430" item="18" room="46" x="56" y="87" flags="4" doortime="204" doorflags="73" jumpto_room="125" jumpto_object="431" />
+		<roomobject id="432" item="18" room="46" x="96" y="127" flags="4" doortime="204" doorflags="73" jumpto_room="125" jumpto_object="433" />
+		<roomobject id="101" item="3" room="47" x="72" y="182" flags="Bottom" doortime="22" doorflags="8" jumpto_room="39" jumpto_object="100" />
+		<roomobject id="103" item="11" room="47" x="80" y="40" flags="Top" doortime="4" doorflags="86" jumpto_room="32" jumpto_object="102" />
+		<roomobject id="104" item="1" room="48" x="80" y="167" flags="Bottom" doortime="4" doorflags="6" jumpto_room="49" jumpto_object="105" />
+		<roomobject id="187" item="1" room="48" x="144" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="84" jumpto_object="186" />
+		<roomobject id="272" item="1" room="48" x="24" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="116" jumpto_object="273" />
+		<roomobject id="1003" item="1003" room="48" x="64" y="112" />
+		<roomobject id="105" item="1" room="49" x="80" y="39" flags="Top" doortime="4" doorflags="86" jumpto_room="48" jumpto_object="104" />
+		<roomobject id="106" item="1" room="49" x="80" y="175" flags="Bottom" doortime="4" doorflags="6" jumpto_room="50" jumpto_object="107" />
+		<roomobject id="107" item="1" room="50" x="80" y="39" flags="Top" doortime="4" doorflags="86" jumpto_room="49" jumpto_object="106" />
+		<roomobject id="108" item="1" room="50" x="80" y="175" flags="Bottom" doortime="4" doorflags="6" jumpto_room="51" jumpto_object="109" />
+		<roomobject id="109" item="1" room="51" x="80" y="47" flags="Top" doortime="4" doorflags="86" jumpto_room="50" jumpto_object="108" />
+		<roomobject id="110" item="1" room="51" x="80" y="167" flags="Bottom" doortime="4" doorflags="6" jumpto_room="52" jumpto_object="111" />
+		<roomobject id="114" item="1" room="51" x="144" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="54" jumpto_object="115" />
+		<roomobject id="546" item="38" room="51" x="24" y="111" flags="225" />
+		<roomobject id="1047" item="1021" room="51" x="87" y="103" />
+		<roomobject id="111" item="1" room="52" x="80" y="39" flags="Top" doortime="4" doorflags="86" jumpto_room="51" jumpto_object="110" />
+		<roomobject id="112" item="1" room="52" x="80" y="175" flags="Bottom" doortime="4" doorflags="6" jumpto_room="53" jumpto_object="113" />
+		<roomobject id="113" item="1" room="53" x="80" y="47" flags="Top" doortime="4" doorflags="86" jumpto_room="52" jumpto_object="112" />
+		<roomobject id="271" item="1" room="53" x="80" y="167" flags="Bottom" doortime="4" doorflags="6" jumpto_room="114" jumpto_object="270" />
+		<roomobject id="514" item="16" room="53" x="136" y="111" flags="97" doortime="183" doorflags="3" jumpto_room="143" jumpto_object="515" />
+		<roomobject id="1037" item="1020" room="53" x="87" y="103" />
+		<roomobject id="1059" item="1022" room="53" x="87" y="144" />
+		<roomobject id="1063" item="1023" room="53" x="87" y="64" />
+		<roomobject id="115" item="1" room="54" x="16" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="51" jumpto_object="114" />
+		<roomobject id="116" item="1" room="54" x="152" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="55" jumpto_object="117" />
+		<roomobject id="117" item="1" room="55" x="16" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="54" jumpto_object="116" />
+		<roomobject id="118" item="1" room="55" x="152" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="56" jumpto_object="119" />
+		<roomobject id="1080" item="1024" room="55" x="87" y="103" />
+		<roomobject id="119" item="1" room="56" x="24" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="55" jumpto_object="118" />
+		<roomobject id="120" item="1" room="56" x="80" y="167" flags="Bottom" doortime="4" doorflags="6" jumpto_room="57" jumpto_object="121" />
+		<roomobject id="122" item="13" room="56" x="144" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="58" jumpto_object="123" />
+		<roomobject id="536" item="26" room="56" x="80" y="55" flags="Top" doortime="4" doorflags="86" jumpto_room="75" jumpto_object="537" />
+		<roomobject id="1099" item="1032" room="56" x="107" y="84" />
+		<roomobject id="121" item="1" room="57" x="80" y="47" flags="Top" doortime="4" doorflags="86" jumpto_room="56" jumpto_object="120" />
+		<roomobject id="124" item="1" room="57" x="144" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="59" jumpto_object="125" />
+		<roomobject id="1077" item="1024" room="57" x="67" y="123" />
+		<roomobject id="123" item="13" room="58" x="24" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="56" jumpto_object="122" />
+		<roomobject id="126" item="1" room="58" x="80" y="167" flags="Bottom" doortime="4" doorflags="6" jumpto_room="59" jumpto_object="127" />
+		<roomobject id="352" item="1" room="58" x="80" y="47" flags="Top" doortime="4" doorflags="86" jumpto_room="148" jumpto_object="353" />
+		<roomobject id="1029" item="1019" room="58" x="48" y="72" />
+		<roomobject id="1039" item="1020" room="58" x="87" y="72" />
+		<roomobject id="125" item="1" room="59" x="24" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="57" jumpto_object="124" />
+		<roomobject id="127" item="1" room="59" x="80" y="47" flags="Top" doortime="4" doorflags="86" jumpto_room="58" jumpto_object="126" />
+		<roomobject id="128" item="13" room="59" x="80" y="167" flags="Bottom" doortime="4" doorflags="6" jumpto_room="60" jumpto_object="129" />
+		<roomobject id="130" item="1" room="59" x="144" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="61" jumpto_object="131" />
+		<roomobject id="1004" item="1004" room="59" x="96" y="96" />
+		<roomobject id="1105" item="1032" room="59" x="67" y="123" />
+		<roomobject id="1106" item="1032" room="59" x="107" y="123" />
+		<roomobject id="129" item="13" room="60" x="80" y="47" flags="Top" doortime="4" doorflags="86" jumpto_room="59" jumpto_object="128" />
+		<roomobject id="132" item="1" room="60" x="144" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="62" jumpto_object="133" />
+		<roomobject id="1076" item="1024" room="60" x="67" y="123" />
+		<roomobject id="131" item="1" room="61" x="24" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="59" jumpto_object="130" />
+		<roomobject id="134" item="1" room="61" x="80" y="167" flags="Bottom" doortime="4" doorflags="6" jumpto_room="62" jumpto_object="135" />
+		<roomobject id="136" item="14" room="61" x="144" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="63" jumpto_object="137" />
+		<roomobject id="524" item="23" room="61" x="72" y="55" flags="Top" doortime="4" doorflags="86" jumpto_room="73" jumpto_object="525" />
+		<roomobject id="379" item="39" room="61" x="95" y="95" flags="Top" />
+		<roomobject id="133" item="1" room="62" x="24" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="60" jumpto_object="132" />
+		<roomobject id="135" item="1" room="62" x="80" y="47" flags="Top" doortime="4" doorflags="86" jumpto_room="61" jumpto_object="134" />
+		<roomobject id="530" item="23" room="62" x="136" y="119" flags="Right" doortime="183" doorflags="3" jumpto_room="65" jumpto_object="531" />
+		<roomobject id="1036" item="1020" room="62" x="67" y="123" />
+		<roomobject id="137" item="14" room="63" x="16" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="61" jumpto_object="136" />
+		<roomobject id="138" item="1" room="63" x="152" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="64" jumpto_object="139" />
+		<roomobject id="139" item="1" room="64" x="24" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="63" jumpto_object="138" />
+		<roomobject id="140" item="1" room="64" x="144" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="65" jumpto_object="141" />
+		<roomobject id="142" item="1" room="64" x="80" y="47" flags="Top" doortime="4" doorflags="86" jumpto_room="66" jumpto_object="143" />
+		<roomobject id="340" item="1" room="64" x="80" y="167" flags="Bottom" doortime="4" doorflags="6" jumpto_room="143" jumpto_object="341" />
+		<roomobject id="1094" item="1032" room="64" x="67" y="123" />
+		<roomobject id="141" item="1" room="65" x="24" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="64" jumpto_object="140" />
+		<roomobject id="531" item="23" room="65" x="72" y="167" flags="Bottom" doortime="4" doorflags="6" jumpto_room="62" jumpto_object="530" />
+		<roomobject id="1017" item="1018" room="65" x="87" y="103" />
+		<roomobject id="1030" item="1019" room="65" x="128" y="103" />
+		<roomobject id="143" item="1" room="66" x="80" y="175" flags="Bottom" doortime="4" doorflags="6" jumpto_room="64" jumpto_object="142" />
+		<roomobject id="144" item="1" room="66" x="80" y="39" flags="Top" doortime="4" doorflags="86" jumpto_room="67" jumpto_object="145" />
+		<roomobject id="145" item="1" room="67" x="80" y="167" flags="Bottom" doortime="4" doorflags="6" jumpto_room="66" jumpto_object="144" />
+		<roomobject id="146" item="1" room="67" x="144" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="68" jumpto_object="147" />
+		<roomobject id="150" item="1" room="67" x="80" y="47" flags="Top" doortime="4" doorflags="86" jumpto_room="70" jumpto_object="151" />
+		<roomobject id="179" item="1" room="67" x="24" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="29" jumpto_object="178" />
+		<roomobject id="1093" item="1032" room="67" x="107" y="84" />
+		<roomobject id="1110" item="1035" room="67" x="80" y="80" />
+		<roomobject id="147" item="1" room="68" x="16" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="67" jumpto_object="146" />
+		<roomobject id="148" item="12" room="68" x="152" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="69" jumpto_object="149" />
+		<roomobject id="149" item="12" room="69" x="24" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="68" jumpto_object="148" />
+		<roomobject id="532" item="26" room="69" x="80" y="55" flags="Top" doortime="4" doorflags="86" jumpto_room="83" jumpto_object="533" />
+		<roomobject id="1026" item="1019" room="69" x="87" y="70" />
+		<roomobject id="1098" item="1032" room="69" x="128" y="103" />
+		<roomobject id="151" item="1" room="70" x="80" y="167" flags="Bottom" doortime="4" doorflags="6" jumpto_room="67" jumpto_object="150" />
+		<roomobject id="152" item="1" room="70" x="24" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="71" jumpto_object="153" />
+		<roomobject id="180" item="1" room="70" x="80" y="47" flags="Top" doortime="4" doorflags="86" jumpto_room="81" jumpto_object="181" />
+		<roomobject id="1027" item="1019" room="70" x="67" y="123" />
+		<roomobject id="153" item="1" room="71" x="152" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="70" jumpto_object="152" />
+		<roomobject id="154" item="12" room="71" x="16" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="72" jumpto_object="155" />
+		<roomobject id="155" item="12" room="72" x="144" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="71" jumpto_object="154" />
+		<roomobject id="156" item="1" room="72" x="80" y="167" flags="Bottom" doortime="4" doorflags="6" jumpto_room="73" jumpto_object="157" />
+		<roomobject id="158" item="14" room="72" x="24" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="74" jumpto_object="159" />
+		<roomobject id="164" item="1" room="72" x="80" y="47" flags="Top" doortime="4" doorflags="86" jumpto_room="77" jumpto_object="165" />
+		<roomobject id="1005" item="1005" room="72" x="112" y="112" />
+		<roomobject id="157" item="1" room="73" x="80" y="39" flags="Top" doortime="4" doorflags="86" jumpto_room="72" jumpto_object="156" />
+		<roomobject id="525" item="23" room="73" x="80" y="175" flags="Bottom" doortime="4" doorflags="6" jumpto_room="61" jumpto_object="524" />
+		<roomobject id="1011" item="1017" room="73" x="80" y="64" />
+		<roomobject id="1090" item="1025" room="73" x="87" y="103" />
+		<roomobject id="159" item="14" room="74" x="152" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="72" jumpto_object="158" />
+		<roomobject id="160" item="1" room="74" x="16" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="75" jumpto_object="161" />
+		<roomobject id="161" item="1" room="75" x="144" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="74" jumpto_object="160" />
+		<roomobject id="162" item="1" room="75" x="80" y="47" flags="Top" doortime="4" doorflags="86" jumpto_room="76" jumpto_object="163" />
+		<roomobject id="537" item="26" room="75" x="80" y="167" flags="unknown!" doortime="4" doorflags="6" jumpto_room="56" jumpto_object="536" />
+		<roomobject id="359" item="27" room="75" x="72" y="116" flags="3" />
+		<roomobject id="1049" item="1021" room="75" x="48" y="136" />
+		<roomobject id="163" item="1" room="76" x="80" y="167" flags="Bottom" doortime="4" doorflags="6" jumpto_room="75" jumpto_object="162" />
+		<roomobject id="182" item="1" room="76" x="24" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="85" jumpto_object="183" />
+		<roomobject id="534" item="26" room="76" x="136" y="111" flags="unknown!" doortime="183" doorflags="3" jumpto_room="78" jumpto_object="535" />
+		<roomobject id="1057" item="1022" room="76" x="107" y="123" />
+		<roomobject id="165" item="1" room="77" x="80" y="175" flags="Bottom" doortime="4" doorflags="6" jumpto_room="72" jumpto_object="164" />
+		<roomobject id="166" item="12" room="77" x="80" y="39" flags="Top" doortime="4" doorflags="86" jumpto_room="78" jumpto_object="167" />
+		<roomobject id="167" item="12" room="78" x="80" y="167" flags="Bottom" doortime="4" doorflags="6" jumpto_room="77" jumpto_object="166" />
+		<roomobject id="168" item="1" room="78" x="144" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="79" jumpto_object="169" />
+		<roomobject id="535" item="26" room="78" x="24" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="76" jumpto_object="534" />
+		<roomobject id="1079" item="1024" room="78" x="103" y="64" />
+		<roomobject id="1089" item="1025" room="78" x="64" y="103" />
+		<roomobject id="169" item="1" room="79" x="16" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="78" jumpto_object="168" />
+		<roomobject id="170" item="1" room="79" x="152" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="80" jumpto_object="171" />
+		<roomobject id="1071" item="1023" room="79" x="87" y="103" />
+		<roomobject id="171" item="1" room="80" x="24" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="79" jumpto_object="170" />
+		<roomobject id="172" item="1" room="80" x="80" y="167" flags="Bottom" doortime="4" doorflags="6" jumpto_room="81" jumpto_object="173" />
+		<roomobject id="174" item="13" room="80" x="144" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="82" jumpto_object="175" />
+		<roomobject id="1092" item="1032" room="80" x="87" y="64" />
+		<roomobject id="173" item="1" room="81" x="80" y="39" flags="Top" doortime="4" doorflags="86" jumpto_room="80" jumpto_object="172" />
+		<roomobject id="181" item="1" room="81" x="80" y="175" flags="Bottom" doortime="4" doorflags="6" jumpto_room="70" jumpto_object="180" />
+		<roomobject id="175" item="13" room="82" x="16" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="80" jumpto_object="174" />
+		<roomobject id="176" item="1" room="82" x="152" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="83" jumpto_object="177" />
+		<roomobject id="177" item="1" room="83" x="24" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="82" jumpto_object="176" />
+		<roomobject id="533" item="26" room="83" x="80" y="164" flags="unknown!" doortime="4" doorflags="6" jumpto_room="69" jumpto_object="532" />
+		<roomobject id="544" item="38" room="83" x="128" y="119" flags="97" />
+		<roomobject id="1056" item="1022" room="83" x="67" y="123" />
+		<roomobject id="1070" item="1023" room="83" x="107" y="123" />
+		<roomobject id="1107" item="1032" room="83" x="128" y="64" />
+		<roomobject id="184" item="1" room="84" x="144" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="85" jumpto_object="185" />
+		<roomobject id="186" item="1" room="84" x="24" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="48" jumpto_object="187" />
+		<roomobject id="342" item="1" room="84" x="80" y="167" flags="Bottom" doortime="4" doorflags="6" jumpto_room="144" jumpto_object="343" />
+		<roomobject id="1104" item="1032" room="84" x="87" y="64" />
+		<roomobject id="183" item="1" room="85" x="144" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="76" jumpto_object="182" />
+		<roomobject id="185" item="1" room="85" x="24" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="84" jumpto_object="184" />
+		<roomobject id="547" item="38" room="85" x="80" y="167" flags="129" />
+		<roomobject id="1111" item="1036" room="85" x="80" y="80" />
+		<roomobject id="274" item="2" room="86" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="87" jumpto_object="275" />
+		<roomobject id="298" item="2" room="86" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="90" jumpto_object="299" />
+		<roomobject id="323" item="10" room="86" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="103" jumpto_object="322" />
+		<roomobject id="327" item="11" room="86" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="105" jumpto_object="326" />
+		<roomobject id="404" item="30" room="86" x="56" y="39" flags="Top" />
+		<roomobject id="406" item="30" room="86" x="120" y="39" flags="Top" />
+		<roomobject id="1112" item="1037" room="86" x="88" y="56" />
+		<roomobject id="275" item="2" room="87" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="86" jumpto_object="274" />
+		<roomobject id="276" item="9" room="87" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="88" jumpto_object="277" />
+		<roomobject id="304" item="2" room="87" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="91" jumpto_object="305" />
+		<roomobject id="1062" item="1023" room="87" x="87" y="64" />
+		<roomobject id="277" item="9" room="88" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="87" jumpto_object="276" />
+		<roomobject id="278" item="2" room="88" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="89" jumpto_object="279" />
+		<roomobject id="310" item="2" room="88" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="92" jumpto_object="311" />
+		<roomobject id="1078" item="1024" room="88" x="87" y="64" />
+		<roomobject id="279" item="2" room="89" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="88" jumpto_object="278" />
+		<roomobject id="316" item="11" room="89" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="93" jumpto_object="317" />
+		<roomobject id="325" item="8" room="89" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="104" jumpto_object="324" />
+		<roomobject id="280" item="2" room="90" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="91" jumpto_object="281" />
+		<roomobject id="299" item="2" room="90" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="86" jumpto_object="298" />
+		<roomobject id="300" item="10" room="90" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="94" jumpto_object="301" />
+		<roomobject id="502" item="21" room="90" x="8" y="71" flags="Left" />
+		<roomobject id="504" item="22" room="90" x="8" y="135" flags="Left" />
+		<roomobject id="281" item="2" room="91" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="90" jumpto_object="280" />
+		<roomobject id="282" item="8" room="91" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="92" jumpto_object="283" />
+		<roomobject id="305" item="2" room="91" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="87" jumpto_object="304" />
+		<roomobject id="306" item="9" room="91" x="48" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="95" jumpto_object="307" />
+		<roomobject id="331" item="11" room="91" x="112" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="102" jumpto_object="330" />
+		<roomobject id="426" item="18" room="91" x="56" y="80" flags="4" doortime="204" doorflags="73" jumpto_room="92" jumpto_object="427" />
+		<roomobject id="1088" item="1025" room="91" x="87" y="103" />
+		<roomobject id="283" item="8" room="92" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="91" jumpto_object="282" />
+		<roomobject id="284" item="9" room="92" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="93" jumpto_object="285" />
+		<roomobject id="311" item="2" room="92" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="88" jumpto_object="310" />
+		<roomobject id="312" item="8" room="92" x="112" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="96" jumpto_object="313" />
+		<roomobject id="333" item="11" room="92" x="48" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="102" jumpto_object="332" />
+		<roomobject id="427" item="18" room="92" x="112" y="80" flags="4" doortime="204" doorflags="73" jumpto_room="91" jumpto_object="426" />
+		<roomobject id="285" item="9" room="93" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="92" jumpto_object="284" />
+		<roomobject id="317" item="11" room="93" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="89" jumpto_object="316" />
+		<roomobject id="318" item="2" room="93" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="97" jumpto_object="319" />
+		<roomobject id="419" item="18" room="93" x="112" y="80" flags="4" doortime="204" doorflags="73" jumpto_room="99" jumpto_object="418" />
+		<roomobject id="487" item="37" room="93" x="168" y="111" flags="Right" />
+		<roomobject id="286" item="8" room="94" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="95" jumpto_object="287" />
+		<roomobject id="301" item="10" room="94" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="90" jumpto_object="300" />
+		<roomobject id="302" item="2" room="94" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="98" jumpto_object="303" />
+		<roomobject id="1086" item="1025" room="94" x="87" y="103" />
+		<roomobject id="287" item="8" room="95" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="94" jumpto_object="286" />
+		<roomobject id="288" item="8" room="95" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="96" jumpto_object="289" />
+		<roomobject id="307" item="9" room="95" x="48" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="91" jumpto_object="306" />
+		<roomobject id="308" item="10" room="95" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="99" jumpto_object="309" />
+		<roomobject id="335" item="11" room="95" x="112" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="102" jumpto_object="334" />
+		<roomobject id="289" item="8" room="96" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="95" jumpto_object="288" />
+		<roomobject id="290" item="2" room="96" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="97" jumpto_object="291" />
+		<roomobject id="313" item="8" room="96" x="112" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="92" jumpto_object="312" />
+		<roomobject id="314" item="10" room="96" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="100" jumpto_object="315" />
+		<roomobject id="337" item="11" room="96" x="48" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="102" jumpto_object="336" />
+		<roomobject id="291" item="2" room="97" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="96" jumpto_object="290" />
+		<roomobject id="319" item="2" room="97" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="93" jumpto_object="318" />
+		<roomobject id="320" item="2" room="97" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="101" jumpto_object="321" />
+		<roomobject id="358" item="25" room="97" x="80" y="112" flags="3" doortime="36" doorflags="228" jumpto_room="75" jumpto_object="359" />
+		<roomobject id="485" item="29" room="97" x="168" y="111" flags="Right" />
+		<roomobject id="292" item="2" room="98" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="99" jumpto_object="293" />
+		<roomobject id="303" item="2" room="98" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="94" jumpto_object="302" />
+		<roomobject id="329" item="9" room="98" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="106" jumpto_object="328" />
+		<roomobject id="493" item="21" room="98" x="80" y="183" flags="Bottom" />
+		<roomobject id="293" item="2" room="99" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="98" jumpto_object="292" />
+		<roomobject id="294" item="2" room="99" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="100" jumpto_object="295" />
+		<roomobject id="309" item="10" room="99" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="95" jumpto_object="308" />
+		<roomobject id="418" item="18" room="99" x="56" y="80" flags="4" doortime="204" doorflags="73" jumpto_room="93" jumpto_object="419" />
+		<roomobject id="492" item="17" room="99" x="88" y="183" flags="129" />
+		<roomobject id="295" item="2" room="100" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="99" jumpto_object="294" />
+		<roomobject id="296" item="11" room="100" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="101" jumpto_object="297" />
+		<roomobject id="315" item="10" room="100" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="96" jumpto_object="314" />
+		<roomobject id="491" item="22" room="100" x="88" y="183" flags="Bottom" />
+		<roomobject id="1006" item="1006" room="100" x="128" y="128" />
+		<roomobject id="297" item="11" room="101" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="100" jumpto_object="296" />
+		<roomobject id="321" item="2" room="101" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="97" jumpto_object="320" />
+		<roomobject id="338" item="2" room="101" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="27" jumpto_object="339" />
+		<roomobject id="357" item="27" room="101" x="56" y="116" flags="3" />
+		<roomobject id="489" item="29" room="101" x="88" y="183" flags="Bottom" />
+		<roomobject id="1055" item="1022" room="101" x="87" y="135" />
+		<roomobject id="330" item="11" room="102" x="48" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="91" jumpto_object="331" />
+		<roomobject id="332" item="11" room="102" x="112" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="92" jumpto_object="333" />
+		<roomobject id="334" item="11" room="102" x="48" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="95" jumpto_object="335" />
+		<roomobject id="336" item="11" room="102" x="112" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="96" jumpto_object="337" />
+		<roomobject id="371" item="27" room="102" x="72" y="116" flags="3" />
+		<roomobject id="484" item="17" room="102" x="160" y="71" flags="97" />
+		<roomobject id="486" item="21" room="102" x="168" y="135" flags="Right" />
+		<roomobject id="488" item="22" room="102" x="8" y="71" flags="Left" />
+		<roomobject id="490" item="28" room="102" x="8" y="135" flags="Left" />
+		<roomobject id="1069" item="1023" room="102" x="67" y="135" />
+		<roomobject id="1075" item="1024" room="102" x="107" y="135" />
+		<roomobject id="322" item="10" room="103" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="86" jumpto_object="323" />
+		<roomobject id="516" item="16" room="103" x="152" y="111" flags="97" doortime="183" doorflags="3" jumpto_room="104" jumpto_object="517" />
+		<roomobject id="1016" item="1018" room="103" x="87" y="64" />
+		<roomobject id="324" item="8" room="104" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="89" jumpto_object="325" />
+		<roomobject id="517" item="16" room="104" x="8" y="111" flags="225" doortime="6" doorflags="3" jumpto_room="103" jumpto_object="516" />
+		<roomobject id="1025" item="1019" room="104" x="87" y="64" />
+		<roomobject id="326" item="11" room="105" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="86" jumpto_object="327" />
+		<roomobject id="526" item="23" room="105" x="64" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="106" jumpto_object="527" />
+		<roomobject id="1040" item="1020" room="105" x="48" y="64" />
+		<roomobject id="1058" item="1022" room="105" x="48" y="103" />
+		<roomobject id="1060" item="1022" room="105" x="48" y="144" />
+		<roomobject id="328" item="9" room="106" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="98" jumpto_object="329" />
+		<roomobject id="428" item="18" room="106" x="120" y="152" flags="4" doortime="204" doorflags="73" jumpto_room="27" jumpto_object="429" />
+		<roomobject id="527" item="23" room="106" x="64" y="39" flags="Top" doortime="4" doorflags="86" jumpto_room="105" jumpto_object="526" />
+		<roomobject id="1035" item="1020" room="106" x="48" y="103" />
+		<roomobject id="251" item="2" room="107" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="17" jumpto_object="250" />
+		<roomobject id="252" item="2" room="107" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="108" jumpto_object="253" />
+		<roomobject id="538" item="26" room="107" x="80" y="183" flags="unknown!" doortime="4" doorflags="6" jumpto_room="109" jumpto_object="539" />
+		<roomobject id="1007" item="1007" room="107" x="64" y="64" />
+		<roomobject id="253" item="2" room="108" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="107" jumpto_object="252" />
+		<roomobject id="254" item="10" room="108" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="3" jumpto_object="255" />
+		<roomobject id="528" item="23" room="108" x="64" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="110" jumpto_object="529" />
+		<roomobject id="365" item="27" room="108" x="72" y="116" flags="3" />
+		<roomobject id="1038" item="1020" room="108" x="87" y="71" />
+		<roomobject id="257" item="9" room="109" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="15" jumpto_object="256" />
+		<roomobject id="258" item="2" room="109" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="110" jumpto_object="259" />
+		<roomobject id="425" item="18" room="109" x="48" y="144" flags="4" doortime="204" doorflags="73" jumpto_room="24" jumpto_object="424" />
+		<roomobject id="539" item="26" room="109" x="80" y="39" flags="Top" doortime="4" doorflags="86" jumpto_room="107" jumpto_object="538" />
+		<roomobject id="468" item="28" room="109" x="88" y="183" flags="Bottom" />
+		<roomobject id="1109" item="1034" room="109" x="80" y="80" />
+		<roomobject id="259" item="2" room="110" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="109" jumpto_object="258" />
+		<roomobject id="260" item="2" room="110" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="5" jumpto_object="261" />
+		<roomobject id="529" item="23" room="110" x="64" y="39" flags="Top" doortime="4" doorflags="86" jumpto_room="108" jumpto_object="528" />
+		<roomobject id="367" item="27" room="110" x="72" y="84" flags="3" />
+		<roomobject id="467" item="22" room="110" x="88" y="183" flags="Bottom" />
+		<roomobject id="1033" item="1020" room="110" x="96" y="119" />
+		<roomobject id="263" item="10" room="111" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="13" jumpto_object="262" />
+		<roomobject id="264" item="2" room="111" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="112" jumpto_object="265" />
+		<roomobject id="452" item="21" room="111" x="40" y="103" flags="Left" />
+		<roomobject id="265" item="2" room="112" x="112" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="111" jumpto_object="264" />
+		<roomobject id="266" item="2" room="112" x="48" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="113" jumpto_object="267" />
+		<roomobject id="494" item="22" room="112" x="56" y="183" flags="Bottom" />
+		<roomobject id="496" item="29" room="112" x="120" y="183" flags="Bottom" />
+		<roomobject id="1045" item="1021" room="112" x="128" y="144" />
+		<roomobject id="1074" item="1024" room="112" x="48" y="144" />
+		<roomobject id="1084" item="1025" room="112" x="87" y="144" />
+		<roomobject id="267" item="3" room="113" x="72" y="182" flags="Bottom" doortime="22" doorflags="8" jumpto_room="112" jumpto_object="266" />
+		<roomobject id="268" item="2" room="113" x="80" y="40" flags="Top" doortime="4" doorflags="86" jumpto_room="114" jumpto_object="269" />
+		<roomobject id="269" item="3" room="114" x="72" y="182" flags="Bottom" doortime="22" doorflags="8" jumpto_room="113" jumpto_object="268" />
+		<roomobject id="270" item="2" room="114" x="80" y="40" flags="Top" doortime="4" doorflags="86" jumpto_room="53" jumpto_object="271" />
+		<roomobject id="249" item="2" room="115" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="19" jumpto_object="248" />
+		<roomobject id="354" item="25" room="115" x="80" y="112" flags="3" doortime="36" doorflags="228" jumpto_room="116" jumpto_object="355" />
+		<roomobject id="449" item="22" room="115" x="88" y="151" flags="Bottom" />
+		<roomobject id="466" item="17" room="115" x="88" y="60" flags="Top" />
+		<roomobject id="1019" item="1018" room="115" x="48" y="103" />
+		<roomobject id="273" item="1" room="116" x="144" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="48" jumpto_object="272" />
+		<roomobject id="355" item="27" room="116" x="72" y="116" flags="3" />
+		<roomobject id="1046" item="1021" room="116" x="87" y="135" />
+		<roomobject id="1100" item="1032" room="116" x="48" y="64" />
+		<roomobject id="1101" item="1032" room="116" x="48" y="136" />
+		<roomobject id="1102" item="1032" room="116" x="120" y="136" />
+		<roomobject id="1103" item="1032" room="116" x="128" y="64" />
+		<roomobject id="189" item="2" room="117" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="45" jumpto_object="188" />
+		<roomobject id="190" item="2" room="117" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="118" jumpto_object="191" />
+		<roomobject id="521" item="16" room="117" x="48" y="183" flags="129" doortime="4" doorflags="6" jumpto_room="118" jumpto_object="520" />
+		<roomobject id="1022" item="1019" room="117" x="48" y="64" />
+		<roomobject id="191" item="2" room="118" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="117" jumpto_object="190" />
+		<roomobject id="192" item="2" room="118" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="119" jumpto_object="193" />
+		<roomobject id="207" item="2" room="118" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="125" jumpto_object="206" />
+		<roomobject id="362" item="25" room="118" x="80" y="112" flags="3" doortime="36" doorflags="228" jumpto_room="132" jumpto_object="363" />
+		<roomobject id="520" item="16" room="118" x="48" y="39" flags="1" doortime="4" doorflags="86" jumpto_room="117" jumpto_object="521" />
+		<roomobject id="193" item="2" room="119" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="118" jumpto_object="192" />
+		<roomobject id="194" item="2" room="119" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="120" jumpto_object="195" />
+		<roomobject id="195" item="2" room="120" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="119" jumpto_object="194" />
+		<roomobject id="196" item="2" room="120" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="121" jumpto_object="197" />
+		<roomobject id="372" item="25" room="120" x="112" y="112" flags="3" doortime="36" doorflags="228" jumpto_room="138" jumpto_object="373" />
+		<roomobject id="1052" item="1022" room="120" x="55" y="55" />
+		<roomobject id="197" item="2" room="121" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="120" jumpto_object="196" />
+		<roomobject id="198" item="2" room="121" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="122" jumpto_object="199" />
+		<roomobject id="199" item="2" room="122" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="121" jumpto_object="198" />
+		<roomobject id="200" item="2" room="122" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="123" jumpto_object="201" />
+		<roomobject id="208" item="8" room="122" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="126" jumpto_object="209" />
+		<roomobject id="422" item="18" room="122" x="56" y="80" flags="4" doortime="204" doorflags="73" jumpto_room="129" jumpto_object="423" />
+		<roomobject id="409" item="30" room="122" x="56" y="39" flags="Top" />
+		<roomobject id="411" item="30" room="122" x="120" y="39" flags="Top" />
+		<roomobject id="201" item="2" room="123" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="122" jumpto_object="200" />
+		<roomobject id="202" item="11" room="123" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="124" jumpto_object="203" />
+		<roomobject id="1066" item="1023" room="123" x="80" y="96" />
+		<roomobject id="203" item="11" room="124" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="123" jumpto_object="202" />
+		<roomobject id="204" item="11" room="124" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="125" jumpto_object="205" />
+		<roomobject id="408" item="30" room="124" x="56" y="39" flags="Top" />
+		<roomobject id="410" item="30" room="124" x="120" y="39" flags="Top" />
+		<roomobject id="205" item="11" room="125" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="124" jumpto_object="204" />
+		<roomobject id="206" item="2" room="125" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="118" jumpto_object="207" />
+		<roomobject id="431" item="18" room="125" x="72" y="80" flags="4" doortime="204" doorflags="73" jumpto_room="46" jumpto_object="430" />
+		<roomobject id="433" item="18" room="125" x="88" y="128" flags="4" doortime="204" doorflags="73" jumpto_room="46" jumpto_object="432" />
+		<roomobject id="1034" item="1020" room="125" x="87" y="103" />
+		<roomobject id="209" item="8" room="126" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="122" jumpto_object="208" />
+		<roomobject id="210" item="2" room="126" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="41" jumpto_object="211" />
+		<roomobject id="507" item="22" room="126" x="168" y="96" flags="Right" />
+		<roomobject id="509" item="21" room="126" x="88" y="183" flags="Bottom" />
+		<roomobject id="1072" item="1024" room="126" x="55" y="128" />
+		<roomobject id="1082" item="1025" room="126" x="135" y="128" />
+		<roomobject id="214" item="9" room="127" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="128" jumpto_object="215" />
+		<roomobject id="221" item="2" room="127" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="129" jumpto_object="220" />
+		<roomobject id="413" item="30" room="127" x="56" y="183" flags="Bottom" />
+		<roomobject id="415" item="30" room="127" x="120" y="183" flags="Bottom" />
+		<roomobject id="499" item="21" room="127" x="8" y="96" flags="Left" />
+		<roomobject id="501" item="29" room="127" x="88" y="23" flags="Top" />
+		<roomobject id="1013" item="1018" room="127" x="64" y="64" />
+		<roomobject id="215" item="9" room="128" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="127" jumpto_object="214" />
+		<roomobject id="216" item="2" room="128" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="130" jumpto_object="217" />
+		<roomobject id="1041" item="1020" room="128" x="48" y="64" />
+		<roomobject id="1051" item="1021" room="128" x="87" y="64" />
+		<roomobject id="1061" item="1022" room="128" x="128" y="128" />
+		<roomobject id="219" item="2" room="129" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="130" jumpto_object="218" />
+		<roomobject id="220" item="2" room="129" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="127" jumpto_object="221" />
+		<roomobject id="423" item="18" room="129" x="112" y="80" flags="4" doortime="204" doorflags="73" jumpto_room="122" jumpto_object="422" />
+		<roomobject id="217" item="2" room="130" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="128" jumpto_object="216" />
+		<roomobject id="218" item="2" room="130" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="129" jumpto_object="219" />
+		<roomobject id="222" item="10" room="130" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="135" jumpto_object="223" />
+		<roomobject id="481" item="22" room="130" x="56" y="183" flags="Bottom" />
+		<roomobject id="483" item="21" room="130" x="120" y="183" flags="Bottom" />
+		<roomobject id="232" item="8" room="131" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="132" jumpto_object="233" />
+		<roomobject id="239" item="2" room="131" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="133" jumpto_object="238" />
+		<roomobject id="1023" item="1019" room="131" x="48" y="64" />
+		<roomobject id="233" item="8" room="132" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="131" jumpto_object="232" />
+		<roomobject id="234" item="2" room="132" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="134" jumpto_object="235" />
+		<roomobject id="240" item="11" room="132" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="137" jumpto_object="241" />
+		<roomobject id="363" item="27" room="132" x="72" y="116" flags="3" />
+		<roomobject id="1009" item="1009" room="132" x="96" y="64" />
+		<roomobject id="237" item="2" room="133" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="134" jumpto_object="236" />
+		<roomobject id="238" item="2" room="133" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="131" jumpto_object="239" />
+		<roomobject id="1031" item="1019" room="133" x="67" y="123" />
+		<roomobject id="1081" item="1024" room="133" x="107" y="123" />
+		<roomobject id="235" item="2" room="134" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="132" jumpto_object="234" />
+		<roomobject id="236" item="2" room="134" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="133" jumpto_object="237" />
+		<roomobject id="1032" item="1020" room="134" x="71" y="96" />
+		<roomobject id="223" item="10" room="135" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="130" jumpto_object="222" />
+		<roomobject id="224" item="2" room="135" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="136" jumpto_object="225" />
+		<roomobject id="226" item="2" room="135" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="139" jumpto_object="227" />
+		<roomobject id="476" item="21" room="135" x="56" y="23" flags="Top" />
+		<roomobject id="478" item="22" room="135" x="120" y="23" flags="Top" />
+		<roomobject id="1067" item="1023" room="135" x="87" y="103" />
+		<roomobject id="213" item="2" room="136" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="33" jumpto_object="212" />
+		<roomobject id="225" item="2" room="136" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="135" jumpto_object="224" />
+		<roomobject id="421" item="18" room="136" x="112" y="80" flags="4" doortime="204" doorflags="73" jumpto_room="24" jumpto_object="420" />
+		<roomobject id="396" item="30" room="136" x="8" y="63" flags="Left" />
+		<roomobject id="398" item="30" room="136" x="8" y="143" flags="Left" />
+		<roomobject id="241" item="11" room="137" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="132" jumpto_object="240" />
+		<roomobject id="242" item="2" room="137" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="141" jumpto_object="243" />
+		<roomobject id="244" item="2" room="137" x="160" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="138" jumpto_object="245" />
+		<roomobject id="477" item="22" room="137" x="56" y="183" flags="Bottom" />
+		<roomobject id="479" item="21" room="137" x="120" y="183" flags="Bottom" />
+		<roomobject id="245" item="2" room="138" x="8" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="137" jumpto_object="244" />
+		<roomobject id="246" item="9" room="138" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="35" jumpto_object="247" />
+		<roomobject id="540" item="26" room="138" x="152" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="8" jumpto_object="541" />
+		<roomobject id="373" item="27" room="138" x="104" y="116" flags="3" />
+		<roomobject id="397" item="30" room="138" x="8" y="71" flags="Left" />
+		<roomobject id="399" item="30" room="138" x="8" y="135" flags="Left" />
+		<roomobject id="1043" item="1021" room="138" x="87" y="103" />
+		<roomobject id="1053" item="1022" room="138" x="127" y="127" />
+		<roomobject id="227" item="2" room="139" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="135" jumpto_object="226" />
+		<roomobject id="228" item="2" room="139" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="140" jumpto_object="229" />
+		<roomobject id="364" item="25" room="139" x="80" y="112" flags="3" doortime="36" doorflags="228" jumpto_room="108" jumpto_object="365" />
+		<roomobject id="440" item="21" room="139" x="136" y="111" flags="unknown!" />
+		<roomobject id="229" item="2" room="140" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="139" jumpto_object="228" />
+		<roomobject id="230" item="9" room="140" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="141" jumpto_object="231" />
+		<roomobject id="439" item="29" room="140" x="40" y="103" flags="Left" />
+		<roomobject id="441" item="22" room="140" x="136" y="103" flags="unknown!" />
+		<roomobject id="1073" item="1024" room="140" x="87" y="103" />
+		<roomobject id="231" item="9" room="141" x="80" y="31" flags="Top" doortime="4" doorflags="86" jumpto_room="140" jumpto_object="230" />
+		<roomobject id="243" item="2" room="141" x="80" y="183" flags="Bottom" doortime="4" doorflags="6" jumpto_room="137" jumpto_object="242" />
+		<roomobject id="366" item="25" room="141" x="80" y="80" flags="3" doortime="36" doorflags="228" jumpto_room="110" jumpto_object="367" />
+		<roomobject id="518" item="16" room="141" x="120" y="79" flags="97" doortime="183" doorflags="3" jumpto_room="34" jumpto_object="519" />
+		<roomobject id="361" item="27" room="141" x="72" y="148" flags="3" />
+		<roomobject id="438" item="28" room="141" x="40" y="103" flags="Left" />
+		<roomobject id="543" item="36" room="142" x="0" y="127" flags="Left" doortime="8" doorflags="214" jumpto_room="0" jumpto_object="542" />
+		<roomobject id="341" item="1" room="143" x="80" y="47" flags="Top" doortime="4" doorflags="86" jumpto_room="64" jumpto_object="340" />
+		<roomobject id="515" item="16" room="143" x="24" y="111" flags="225" doortime="6" doorflags="3" jumpto_room="53" jumpto_object="514" />
+		<roomobject id="545" item="38" room="143" x="128" y="119" flags="97" />
+		<roomobject id="1095" item="1032" room="143" x="87" y="143" />
+		<roomobject id="1096" item="1032" room="143" x="67" y="123" />
+		<roomobject id="1097" item="1032" room="143" x="107" y="123" />
+		<roomobject id="343" item="1" room="144" x="80" y="47" flags="Top" doortime="4" doorflags="86" jumpto_room="84" jumpto_object="342" />
+		<roomobject id="344" item="1" room="144" x="80" y="167" flags="Bottom" doortime="4" doorflags="6" jumpto_room="145" jumpto_object="345" />
+		<roomobject id="345" item="1" room="145" x="80" y="47" flags="Top" doortime="4" doorflags="86" jumpto_room="144" jumpto_object="344" />
+		<roomobject id="346" item="1" room="145" x="144" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="146" jumpto_object="347" />
+		<roomobject id="378" item="39" room="145" x="80" y="143" flags="Top" />
+		<roomobject id="347" item="1" room="146" x="24" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="145" jumpto_object="346" />
+		<roomobject id="348" item="1" room="146" x="144" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="147" jumpto_object="349" />
+		<roomobject id="349" item="1" room="147" x="24" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="146" jumpto_object="348" />
+		<roomobject id="350" item="1" room="147" x="144" y="111" flags="Right" doortime="183" doorflags="3" jumpto_room="148" jumpto_object="351" />
+		<roomobject id="351" item="1" room="148" x="24" y="111" flags="Left" doortime="6" doorflags="3" jumpto_room="147" jumpto_object="350" />
+		<roomobject id="353" item="1" room="148" x="80" y="167" flags="Bottom" doortime="4" doorflags="6" jumpto_room="58" jumpto_object="352" />
+	</roomobjects>
+
+	<!-- DESCRIPTIONS FOR THE ITEMS REFERENCED IN THE MAP -->
+	<!-- you may wish to extend them to make them useful for flags, etc -->
+	<!-- ROOMTYPES: the different rooms you can have - id matches room id -->
+	<!-- ROOMOBJECTS: the items placed in a room, e.g. doors, food, baddie, etc -->
+	<!-- ROOMOBJECTTYPES: description of the types available -->
+	<lookup_roomtypes>
+		<roomtype id="0" bmp="aa_room00.gif" desc="square" />
+		<roomtype id="1" bmp="aa_room01.gif" desc="square cave" />
+		<roomtype id="2" bmp="aa_room02.gif" desc="square rounded corners" />
+		<roomtype id="3" bmp="aa_room03.gif" desc="long rectangle" />
+		<roomtype id="4" bmp="aa_room04.gif" desc="tall rectangle" />
+		<roomtype id="5" bmp="aa_room05.gif" desc="stairs going down vertical" />
+		<roomtype id="6" bmp="aa_room06.gif" desc="stairs going up vertical" />
+		<roomtype id="7" bmp="aa_room07.gif" desc="stairs going up horizontal" />
+		<roomtype id="8" bmp="aa_room08.gif" desc="stairs going down horizontal" />
+		<roomtype id="9" bmp="aa_room09.gif" desc="long rectangle cave" />
+		<roomtype id="10" bmp="aa_room10.gif" desc="tall rectangle cave" />
+		<roomtype id="11" bmp="aa_room11.gif" desc="the final screen" />
+		<roomtype id="12" bmp="aa_room12.gif" desc="the falling screen" />
+	</lookup_roomtypes>
+	<lookup_roomobjects>
+		<lookup_roomobject id="1" type="10" bmp="aa_b01.gif" desc="cave door frame" ignoreifdoor="0" />
+		<lookup_roomobject id="2" type="10" bmp="aa_b02.gif" desc="normal door frame" ignoreifdoor="0" />
+		<lookup_roomobject id="3" type="10" bmp="aa_b03.gif" desc="large door frame" ignoreifdoor="0" />
+		<lookup_roomobject id="8" type="10" bmp="aa_b08.gif" desc="red locked door" ignoreifdoor="0" />
+		<lookup_roomobject id="9" type="10" bmp="aa_b09.gif" desc="green locked door" ignoreifdoor="0" />
+		<lookup_roomobject id="10" type="10" bmp="aa_b10.gif" desc="cyan locked door" ignoreifdoor="0" />
+		<lookup_roomobject id="11" type="10" bmp="aa_b11.gif" desc="yellow locked door" ignoreifdoor="0" />
+		<lookup_roomobject id="12" type="10" bmp="aa_b12.gif" desc="red locked cave door" ignoreifdoor="0" />
+		<lookup_roomobject id="13" type="10" bmp="aa_b13.gif" desc="green locked cave door" ignoreifdoor="0" />
+		<lookup_roomobject id="14" type="10" bmp="aa_b14.gif" desc="white locked cave door" ignoreifdoor="0" />
+		<lookup_roomobject id="15" type="10" bmp="aa_b15.gif" desc="yellow locked cave door" ignoreifdoor="0" />
+		<lookup_roomobject id="16" type="11" bmp="aa_b16.gif" desc="clock" ignoreifdoor="0" />
+		<lookup_roomobject id="17" type="14" bmp="aa_b17.gif" desc="picture" ignoreifdoor="0" />
+		<lookup_roomobject id="18" type="14" bmp="aa_b18.gif" desc="table" ignoreifdoor="0" />
+		<lookup_roomobject id="19" type="14" bmp="aa_b19.gif" desc="full chicken" ignoreifdoor="0" />
+		<lookup_roomobject id="20" type="14" bmp="aa_b20.gif" desc="chicken carcass" ignoreifdoor="0" />
+		<lookup_roomobject id="21" type="14" bmp="aa_b21.gif" desc="antler trophy" ignoreifdoor="0" />
+		<lookup_roomobject id="22" type="14" bmp="aa_b22.gif" desc="trophy" ignoreifdoor="0" />
+		<lookup_roomobject id="23" type="12" bmp="aa_b23.gif" desc="bookcase" ignoreifdoor="0" />
+		<lookup_roomobject id="24" type="10" bmp="aa_b24.gif" desc="shut trapdoor" ignoreifdoor="0" />
+		<lookup_roomobject id="25" type="10" bmp="aa_b25.gif" desc="open trapdoor" ignoreifdoor="0" />
+		<lookup_roomobject id="26" type="13" bmp="aa_b26.gif" desc="barrel" ignoreifdoor="0" />
+		<lookup_roomobject id="27" type="14" bmp="aa_b27.gif" desc="rug" ignoreifdoor="0" />
+		<lookup_roomobject id="28" type="14" bmp="aa_b28.gif" desc="ACG shield" ignoreifdoor="0" />
+		<lookup_roomobject id="29" type="14" bmp="aa_b29.gif" desc="shield" ignoreifdoor="0" />
+		<lookup_roomobject id="30" type="14" bmp="aa_b30.gif" desc="knight" ignoreifdoor="0" />
+		<lookup_roomobject id="32" type="10" bmp="aa_b32.gif" desc="shut normal door" ignoreifdoor="0" />
+		<lookup_roomobject id="33" type="10" bmp="aa_b33.gif" desc="open normal door" ignoreifdoor="0" />
+		<lookup_roomobject id="34" type="10" bmp="aa_b34.gif" desc="shut cave door" ignoreifdoor="0" />
+		<lookup_roomobject id="35" type="10" bmp="aa_b35.gif" desc="open cave door" ignoreifdoor="0" />
+		<lookup_roomobject id="36" type="10" bmp="aa_b36.gif" desc="ACG exit door" ignoreifdoor="0" />
+		<lookup_roomobject id="37" type="14" bmp="aa_b37.gif" desc="picture" ignoreifdoor="0" />
+		<lookup_roomobject id="38" type="14" bmp="aa_b38.gif" desc="skeleton" ignoreifdoor="0" />
+		<lookup_roomobject id="39" type="14" bmp="aa_b39.gif" desc="barrels" ignoreifdoor="0" />
+		<lookup_roomobject id="1001" type="3" bmp="aa_leaf.gif" desc="kills mummy" />
+		<lookup_roomobject id="1002" type="3" bmp="aa_cross.gif" desc="kills dracula" />
+		<lookup_roomobject id="1003" type="3" bmp="aa_wrench.gif" desc="kills frankenstein" />
+		<lookup_roomobject id="1004" type="9" bmp="aa_bottle.gif" desc="special item?" />
+		<lookup_roomobject id="1005" type="9" bmp="aa_face.gif" desc="special item?" />
+		<lookup_roomobject id="1006" type="9" bmp="aa_wing.gif" desc="special item?" />
+		<lookup_roomobject id="1007" type="9" bmp="aa_whip.gif" desc="special item?" />
+		<lookup_roomobject id="1008" type="3" bmp="aa_frogleg.gif" desc="kills hunchback" />
+		<lookup_roomobject id="1009" type="9" bmp="aa_amulet.gif" desc="special item?" />
+		<lookup_roomobject id="1016" type="9" bmp="aa_money.gif" desc="special item?" />
+		<lookup_roomobject id="1017" type="9" bmp="aa_skull.gif" desc="special item?" />
+		<lookup_roomobject id="1018" type="1" bmp="aa_can.gif" desc="energy" />
+		<lookup_roomobject id="1019" type="1" bmp="aa_candy.gif" desc="energy" />
+		<lookup_roomobject id="1020" type="1" bmp="aa_leg.gif" desc="energy" />
+		<lookup_roomobject id="1021" type="1" bmp="aa_lollipop.gif" desc="energy" />
+		<lookup_roomobject id="1022" type="1" bmp="aa_cone.gif" desc="energy" />
+		<lookup_roomobject id="1023" type="1" bmp="aa_bowl.gif" desc="energy" />
+		<lookup_roomobject id="1024" type="1" bmp="aa_apple.gif" desc="energy" />
+		<lookup_roomobject id="1025" type="1" bmp="aa_milkbottle.gif" desc="energy" />
+		<lookup_roomobject id="1032" type="1" bmp="aa_mushroom.gif" desc="energy" />
+		<lookup_roomobject id="1033" type="5" bmp="aa_mummy.gif" desc="killed by leaf. BUT! not always here. is placed with red key." />
+		<lookup_roomobject id="1034" type="6" bmp="aa_frankenstein.gif" desc="killed by wrench" />
+		<lookup_roomobject id="1035" type="4" bmp="aa_devil.gif" desc="free roaming" />
+		<lookup_roomobject id="1036" type="7" bmp="aa_dracula.gif" desc="killed by cross" />
+		<lookup_roomobject id="1037" type="8" bmp="aa_hunchback.gif" desc="killed by frog leg" />
+	</lookup_roomobjects>
+
+	<!--
+		id is the main key used by 'item' above in the main body
+		type is the type of the object - see lookup_placeditemtypes
+		killsobject is if the item is used to kill another, e.g. cross kills dracula
+		bmp and desc is there for extra detail
+	-->
+	<lookup_roomobjecttypes>
+		<lookup_roomobjecttype id="1" desc="food" />
+		<lookup_roomobjecttype id="2" desc="saps players energy" />
+		<lookup_roomobjecttype id="3" desc="weapon to kill a baddie" />
+		<lookup_roomobjecttype id="4" desc="baddie (devil) but free roaming cannot be killed" />
+		<lookup_roomobjecttype id="5" desc="mummy - killed by leaf and placed with red key" />
+		<lookup_roomobjecttype id="6" desc="frankenstein - killed by wrench" />
+		<lookup_roomobjecttype id="7" desc="dracula - killed by cross" />
+		<lookup_roomobjecttype id="8" desc="hunchback - killed by frog leg" />
+		<lookup_roomobjecttype id="9" desc="special item?" />
+		<lookup_roomobjecttype id="10" desc="door" />
+		<lookup_roomobjecttype id="11" desc="door - clock" />
+		<lookup_roomobjecttype id="12" desc="door - bookcase" />
+		<lookup_roomobjecttype id="13" desc="door - barrel" />
+		<lookup_roomobjecttype id="14" desc="static room object" />
+	</lookup_roomobjecttypes>
+</map>

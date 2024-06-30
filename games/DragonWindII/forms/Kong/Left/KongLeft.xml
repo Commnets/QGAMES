@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:541255005aa5b57d319a4e1bd8b8216f:fbd7c692bdb2d50697dab941b3eff8a6:7cef6d2812519a24ff92089c0aef30cb$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="KongLeft" file="./forms/KongLeft.png" width="495" height="980"
+		fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="?">
+		<Frame id="kong_attack (1)" fPosX="1" fPosY="407" fWidth="131" fHeight="141" xoffset="21" yoffset="0" width="131" height="141"/>
+		<Frame id="kong_attack (2)" fPosX="134" fPosY="407" fWidth="96" fHeight="141" xoffset="56" yoffset="0" width="96" height="141"/>
+		<Frame id="kong_attack (3)" fPosX="232" fPosY="407" fWidth="97" fHeight="141" xoffset="61" yoffset="0" width="97" height="141"/>
+		<Frame id="kong_attack (4)" fPosX="134" fPosY="266" fWidth="119" fHeight="139" xoffset="26" yoffset="2" width="119" height="139"/>
+		<Frame id="kong_attack (5)" fPosX="255" fPosY="266" fWidth="131" fHeight="139" xoffset="11" yoffset="2" width="131" height="139"/>
+		<Frame id="kong_attack (6)" fPosX="298" fPosY="126" fWidth="118" fHeight="138" xoffset="24" yoffset="3" width="118" height="138"/>
+		<Frame id="kong_dead (1)" fPosX="159" fPosY="126" fWidth="137" fHeight="125" xoffset="33" yoffset="15" width="137" height="125"/>
+		<Frame id="kong_dead (2)" fPosX="343" fPosY="1" fWidth="124" fHeight="123" xoffset="36" yoffset="18" width="124" height="123"/>
+		<Frame id="kong_dead (3)" fPosX="177" fPosY="1" fWidth="164" fHeight="99" xoffset="21" yoffset="44" width="164" height="99"/>
+		<Frame id="kong_dead (4)" fPosX="1" fPosY="1" fWidth="174" fHeight="94" xoffset="12" yoffset="55" width="174" height="94"/>
+		<Frame id="kong_hurt" fPosX="1" fPosY="126" fWidth="156" fHeight="124" xoffset="31" yoffset="16" width="156" height="124"/>
+		<Frame id="kong_idle (1)" fPosX="331" fPosY="407" fWidth="121" fHeight="141" xoffset="48" yoffset="0" width="121" height="141"/>
+		<Frame id="kong_idle (2)" fPosX="1" fPosY="550" fWidth="125" fHeight="141" xoffset="46" yoffset="0" width="125" height="141"/>
+		<Frame id="kong_idle (3)" fPosX="1" fPosY="266" fWidth="131" fHeight="138" xoffset="43" yoffset="3" width="131" height="138"/>
+		<Frame id="kong_idle (4)" fPosX="128" fPosY="550" fWidth="125" fHeight="141" xoffset="46" yoffset="0" width="125" height="141"/>
+		<Frame id="kong_walk (1)" fPosX="255" fPosY="550" fWidth="121" fHeight="141" xoffset="48" yoffset="0" width="121" height="141"/>
+		<Frame id="kong_walk (2)" fPosX="1" fPosY="693" fWidth="133" fHeight="141" xoffset="39" yoffset="0" width="133" height="141"/>
+		<Frame id="kong_walk (3)" fPosX="136" fPosY="693" fWidth="142" fHeight="141" xoffset="35" yoffset="0" width="142" height="141"/>
+		<Frame id="kong_walk (4)" fPosX="310" fPosY="836" fWidth="126" fHeight="143" xoffset="42" yoffset="0" width="126" height="143"/>
+		<Frame id="kong_walk (5)" fPosX="280" fPosY="693" fWidth="115" fHeight="141" xoffset="51" yoffset="0" width="115" height="141"/>
+		<Frame id="kong_walk (6)" fPosX="102" fPosY="836" fWidth="105" fHeight="142" xoffset="55" yoffset="0" width="105" height="142"/>
+		<Frame id="kong_walk (7)" fPosX="209" fPosY="836" fWidth="99" fHeight="142" xoffset="58" yoffset="0" width="99" height="142"/>
+		<Frame id="kong_walk (8)" fPosX="397" fPosY="693" fWidth="97" fHeight="141" xoffset="61" yoffset="1" width="97" height="141"/>
+		<Frame id="kong_walk (9)" fPosX="1" fPosY="836" fWidth="99" fHeight="141" xoffset="60" yoffset="1" width="99" height="141"/>
+		<Frame id="kong_walk (10)" fPosX="378" fPosY="550" fWidth="112" fHeight="141" xoffset="53" yoffset="0" width="112" height="141"/>
+    </Form>
+</CommtyExporter>

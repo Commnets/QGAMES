@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:12ab7e4e598576d84bc64d95eee1a9fc:fdda039e1c787bcb4080a2ded4cc6177:3f1ba2d5f69d4b24cddcf5876b1ac154$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="VultureLeft" file="./forms/VultureLeft.png" width="360" height="90"
+		fSpacing="0" fMargin="0" fWidth="90" fHeight="90" aColor="255" nFrames="?">
+		<Frame id="vulture_fly (1)" fPosX="1" fPosY="1" fWidth="88" fHeight="88" xoffset="0" yoffset="0" width="88" height="88"/>
+		<Frame id="vulture_fly (2)" fPosX="91" fPosY="1" fWidth="88" fHeight="88" xoffset="0" yoffset="0" width="88" height="88"/>
+		<Frame id="vulture_fly (3)" fPosX="181" fPosY="1" fWidth="88" fHeight="88" xoffset="0" yoffset="0" width="88" height="88"/>
+		<Frame id="vulture_fly (4)" fPosX="271" fPosY="1" fWidth="88" fHeight="88" xoffset="0" yoffset="0" width="88" height="88"/>
+    </Form>
+</CommtyExporter>

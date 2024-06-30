@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Worlds>
+
+	<!-- Includes from the library -->
+	<Include file="ptworlds.xml"/>
+	
+</Worlds>

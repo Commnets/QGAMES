@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:550657b04e1bc8b0c052bae1bce5e0e3:ca7d0db60ce2f3ddda1a10c307d24268:87c227a7cad697ca624a02135eac10b2$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="BlankVanish" file="./forms/BlankVanish.png" width="144" height="144"
+		fSpacing="0" fMargin="0" fWidth="72" fHeight="72" aColor="255" nFrames="?">
+		<Frame id="BlankVanishDown" fPosX="0" fPosY="0" fWidth="72" fHeight="72" xoffset="0" yoffset="0" width="72" height="72"/>
+		<Frame id="BlankVanishLeft" fPosX="72" fPosY="0" fWidth="72" fHeight="72" xoffset="0" yoffset="0" width="72" height="72"/>
+		<Frame id="BlankVanishRight" fPosX="0" fPosY="72" fWidth="72" fHeight="72" xoffset="0" yoffset="0" width="72" height="72"/>
+		<Frame id="BlankVanishUp" fPosX="72" fPosY="72" fWidth="72" fHeight="72" xoffset="0" yoffset="0" width="72" height="72"/>
+    </Form>
+</CommtyExporter>

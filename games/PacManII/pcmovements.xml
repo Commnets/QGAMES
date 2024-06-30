@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Movements>
+
+	<!-- Includes -->
+	<Include file="admovements.xml"/>
+
+	<!-- Pacman's Eating movements -->
+	<SetOfMovements fromId="550000" number="10"/>
+	<!-- Pacman's Staying movements -->
+	<SetOfMovements fromId="570000" number="10"/>
+
+	<!-- Inky's through-the-maze chasing movements -->
+	<SetOfMovements fromId="550010" number="10"/>
+	<!-- Inky's at-home movements -->
+	<SetOfMovements fromId="580010" number="10"/>
+
+	<!-- Blinky's through-the-maze chasing movements -->
+	<SetOfMovements fromId="550020" number="10"/>
+	<!-- Blinky's at-home movements -->
+	<SetOfMovements fromId="580020" number="10"/>
+
+	<!-- Pinky's through-the-maze chasing movements -->
+	<SetOfMovements fromId="550030" number="10"/>
+	<!-- Pinky's at-home movements -->
+	<SetOfMovements fromId="580030" number="10"/>
+
+	<!-- Clide's through-the-maze chasing movements -->
+	<SetOfMovements fromId="550040" number="10"/>
+	<!-- Clide's at-home movements -->
+	<SetOfMovements fromId="580040" number="10"/>
+
+	<!-- Fruits stays at any position -->
+	<SetOfMovements fromId="550050" number="10"/>
+	<!-- Fruits moves across the maze -->
+	<SetOfMovements fromId="580050" number="10"/>
+
+</Movements>

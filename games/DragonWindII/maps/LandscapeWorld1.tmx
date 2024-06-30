@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="75" height="75" tilewidth="24" tileheight="24" infinite="0" nextlayerid="23" nextobjectid="12">
+ <tileset firstgid="1" name="Base" tilewidth="24" tileheight="24" spacing="1" margin="1" tilecount="8" columns="8">
+  <image source="maps/Base.png" width="201" height="26"/>
+ </tileset>
+ <tileset firstgid="9" name="Solid" tilewidth="24" tileheight="24" spacing="1" margin="1" tilecount="8" columns="8">
+  <image source="maps/Solid.png" width="201" height="26"/>
+ </tileset>
+ <tileset firstgid="17" name="Ladder" tilewidth="24" tileheight="24" tilecount="36" columns="12">
+  <image source="maps/Ladder.png" width="288" height="72"/>
+ </tileset>
+ <tileset firstgid="53" name="Flags" tilewidth="24" tileheight="24" tilecount="330" columns="30">
+  <image source="maps/MarioFlags.png" width="720" height="264"/>
+ </tileset>
+ <tileset firstgid="383" name="OtherFlags" tilewidth="24" tileheight="24" tilecount="1024" columns="32">
+  <image source="maps/OtherFlags.png" width="768" height="768"/>
+ </tileset>
+ <tileset firstgid="1407" name="Location" tilewidth="24" tileheight="24" tilecount="100" columns="10">
+  <image source="maps/Location.png" width="240" height="240"/>
+ </tileset>
+ <tileset firstgid="1507" name="Notification" tilewidth="24" tileheight="24" tilecount="100" columns="10">
+  <image source="maps/Notification.png" width="240" height="240"/>
+ </tileset>
+ <tileset firstgid="1607" name="BigTree2" tilewidth="24" tileheight="24" tilecount="121" columns="11">
+  <image source="maps/BigTree2.png" width="264" height="264"/>
+ </tileset>
+ <layer id="5" name="DecorationBack_1" width="75" height="75">
+  <data encoding="base64" compression="zlib">
+   eAHt3FtKW0EAgOHoQ3fiBmp34Ep8ta1tBW+1gpeqBeMdvFQteKlJaWy9ga1W86x7cAG6Cn8weSkI5+gJzMn8A/9ThsPMNyGZp9P1olB4TW/oLXXTO3pPH6iHHA8CvVj0UT8N0CB9pCH6RMMU+7itAYxgMUpjNE6faYImaYq+UOyjWgOYxqJIMzRLczRPC7RISxT7uKkBLGOxQqu0Rl9pnTZok75R7KNutYXFNu3QLn2nPSpRmX5Q7KNuVcFin37RbzqgQzqiYzqhvIypVn5fKetRtzrF4g/9pTM6p390QZdUpbyMEk7lBlrlxcF1KqCAAgoooEAcAi/ZZju9ymC7WT4rg+X4CAUUUEABBRRQ4NkCebzf5HHNzz4oH6CAAgoo0LQC/q817dGm2pjfg1RcTlZAAQUUUECByAS8K0V24G5XAQUUUEABBYIU8E4W5LG4KAUUUEABBRQIRMC7UiAH4TIUUEABBRRQIGoB72RRH3+wm29rCXZpwS2sQ6vEZ6JVYqpCKFbTvNunmOL9PlfMvU4xP7nI4zOzsHrKuv9/T9RP9l1Jsfdb5t6lmP+4QPJPOjP4vXrKuhv1nqjkO3emAgookF7gHt0pRx4=
+  </data>
+ </layer>
+ <layer id="15" name="DecorationBack_2" width="75" height="75">
+  <data encoding="base64" compression="zlib">
+   eAHt09VOAzAARuGGC54VdxiugwHbcHffcHd7Nc7egSZrcpqcu/+i+dKGkM6pqw2hnhqokZqomVqoldqonTooxjYdqRA6MeiibuqhDPVSH/XTAA3SEMXYpmQ1jMEIjdIYjdMEZWmSpihH0xRjm5LVDAazlKcCFWmO5mmBFmmJlinGNiWrFQxWaY3WaYM2aYu2aYd2aY9ibFOy2sfggA7piI7phE7pjEpUpnOKsa1Y5Wr441Tt5wKDS7qia7qhW7qje3qgR3qiGNuKTwmncgJWzxi80Cu90Tt90Cd90Tf90C/F2Fb7W/J+CiiggAIKKKCAAgoooIACCiiggAIKKKCAAgoooIACCiiggAIKKKCAAgoooIACCiiggAIKKKCAAgoooIACCiiggAIKKKCAAgoooIACCiiggAIKKKCAAgoooIACCiiggAL/J/AHJwSbvw==
+  </data>
+ </layer>
+ <layer id="1" name="Base_1" width="75" height="75">
+  <data encoding="base64" compression="zlib">
+   eAHt3LsKgDAMBdAivv7/i3UpiEOHUIiRIxSHUpucu2SyNQ8BAgQIECBAgMBMgeX+WMZaA01sSbV2n0DJjhAgQIAAAQIEhgIz55vs+Spy/xDHJgECBAgQIEAgIGC+CqA5QoAAAQIECBAYCGTPV4PSbBEgQIAAAQIESgqYr0rGpmgCBAgQIEDgwwLmqw+HozQCBAgQIECgpID5qmRsiiZAgAABAgR+KLDfPR2Pdf6wx+otvTPqecmqerLqJ0CAQJ5A/79R9XeeoJsJEIgKXN95AqQ=
+  </data>
+ </layer>
+ <layer id="8" name="Base_2" width="75" height="75">
+  <properties>
+   <property name="DIRECTION" value="0,2,0"/>
+   <property name="LENGTH" value="72"/>
+   <property name="SPEED" value="1"/>
+   <property name="TYPEMOV" value="2"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eAHt0MEJAEAIA0Ffnv1XrAVcAYITyH+ZCCNAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAYJtATtD7vLaF6iFAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBwXKABTGIAMg==
+  </data>
+ </layer>
+ <layer id="9" name="Base_3" width="75" height="75">
+  <properties>
+   <property name="DIRECTION" value="0,-2,0"/>
+   <property name="LENGTH" value="72"/>
+   <property name="SPEED" value="1"/>
+   <property name="TYPEMOV" value="2"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eAHt0MENADAIAkBf2v0nrgO4AMmR8IerEgIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQKZAr2z5+jLvGM1AQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQKBAh/rUAAy
+  </data>
+ </layer>
+ <layer id="11" name="Base_4" width="75" height="75">
+  <properties>
+   <property name="DIRECTION" value="0,2,0"/>
+   <property name="LENGTH" value="72"/>
+   <property name="SPEED" value="1"/>
+   <property name="TYPEMOV" value="2"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eAHt0DENAAAIA0EmwL9iEIAAhmvS/XMRRoAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAg8EEgN6KO94c4DQQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBwCgybJQAy
+  </data>
+ </layer>
+ <layer id="12" name="Base_5" width="75" height="75">
+  <properties>
+   <property name="DIRECTION" value="0,-2,0"/>
+   <property name="LENGTH" value="72"/>
+   <property name="SPEED" value="1"/>
+   <property name="TYPEMOV" value="2"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eAHt0LENADAIAzAmyv8XwwF9AORI2RNHCAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIEBgj0DO1Pdp7blgKQECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgcEmg6IgAy
+  </data>
+ </layer>
+ <layer id="13" name="Base_6" width="75" height="75">
+  <properties>
+   <property name="DIRECTION" value="0,2,0"/>
+   <property name="LENGTH" value="72"/>
+   <property name="SPEED" value="1"/>
+   <property name="TYPEMOV" value="2"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eAHt0LEJAEAIA0Ar3/0n1gG+FGwukDaBixACBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQILArkDP3Pq3dG2sECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAgXOBBiNjADI=
+  </data>
+ </layer>
+ <layer id="14" name="Base_7" width="75" height="75">
+  <properties>
+   <property name="DIRECTION" value="0,-2,0"/>
+   <property name="LENGTH" value="72"/>
+   <property name="SPEED" value="1"/>
+   <property name="TYPEMOV" value="2"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eAHt0KENAEAIA0AUz/4TwwCvMJhrUt3mIoQAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIELgRyRt+ndXHGJgECBAgQIECAAAECBAgQIECAwEqgAcJRADI=
+  </data>
+ </layer>
+ <layer id="19" name="BaseRemoveable_Right" width="75" height="75">
+  <data encoding="base64" compression="zlib">
+   eAHt0MEJAAAIA7Hi/kPrCv4EU+j/SGIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECFwQqInY/kK3BgKfBRq2JAAb
+  </data>
+ </layer>
+ <layer id="21" name="BaseRemoveable_Left" width="75" height="75">
+  <data encoding="base64" compression="zlib">
+   eAHt0MEJAAAIA7Hi/kPrCv4EU+j/SGIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIEbgnU5Gx+q14NAQKfBBrGVAAZ
+  </data>
+ </layer>
+ <layer id="22" name="Solid_BackLadder" width="75" height="75">
+  <data encoding="base64" compression="zlib">
+   eAHt1kEKwCAMBECvtv//r33BQkIhHkbwFJbonHYthwABAgQIECBAgMD9Avt74vPTfRvfnd7feLIIAQIECBAgQCAKTPeb6f0Rx5AAAQIECBAg0BCY7jfT+xtkIgQIECBAgACBKKDfRB5DAgQIECBAgEBZQL8qkwkQIECAAAECBKKAfhV5DAkQIECAAAECZQH9qkwmQIAAAQIECBAgQIAAAQIECBAgQIDAhQIHOLMH0Q==
+  </data>
+ </layer>
+ <layer id="10" name="Ladder_1" width="75" height="75">
+  <data encoding="base64" compression="zlib">
+   eAHtlsFOxDAMRPc7gDNwXvj/byO31apKNZmd1qF5SJXYdDy2n92qtxt/EIAABCAAAY/AWwt7b9eHF/4UlfR6Mp7kx2er46td34F6rs4q2V/SKzC6uAV7pSNN7kLSS+/gPCV7pbNO7kLSS+/gPGWyv6TX0QScWp2YXh+OlxPTyz9y7uRNvq8cL6fmESY9rVNrz+us8ypWVXlf4VpVM3ulT61qRnqFW2VVzVV5twT0k6qaq/LqZLbKqpqdvE7MtuPHyajfqP6R6bX/nHe7E7NX5ajfqH4v99H30nO9t4J/2vV7dOEF/um5ptkXIOmmTPeWZt8tvOBGmlXarwBJN2V6D9J+3cILbqT34L+8252+nZiCkcZTOn1f+ZnZA7xq33tMevecvep5Xf2cvdInzF7BSiegK3kGdVbOM+jE6BXNq3T2alVWzhRhpVODFax0ArqSvYKVTkBXrrpXTt9OjD6JeZVO38432bwE9MocVrr7tZSw0ucJK1jpBHQle3Usq1X5On07Mfr05lU630qrsnKmCCudGqxgpRPQlewVrHQCupK9gpVOQFc632S6O0oIQAACEIAABCAAAQhAAAIQgMBxBP4AHAsjIA==
+  </data>
+ </layer>
+ <layer id="2" name="Solid_1" width="75" height="75">
+  <data encoding="base64" compression="zlib">
+   eAHt28Fqg0AABNBc21La///auoelSy/OBI1InyBKMmTd8Rn04ONxzfK2Dfterh/XHOrlo+oqPwW60lXeQJ7kSld5A3mSK13lDeTJO7pq7gePvBe8uqtnxtdV//yQdMZV3quudJVcU22GK65aM0meK64SJ22GK65aM0meK64SJ22GK65aM0meK64SJ22GK65aM0meK64SJ22GK65aM0meK64SJ22GK65aM0meK64SJ22GK65aM0meK64SJ22GK65aM0meK64SJ22GK65aM0meK64SJ22GK65aM0meK64SJ22GK65aM0meK64SJ22Gq2tcfW2v+35ua3q+RvY7f0V4N3mn91LnZEYHc/3b2/x8bI9e7tjV2sHoZPZ1Rj/rWHfvasxlXJtHXmtrP+v+M12tzvf2XzGHdT5n7s//y705r9+feTx+WwMa0IAGNKABDfzHBuYzhe3v85UudPFKAz+L0GB1
+  </data>
+ </layer>
+ <layer id="18" name="SolidRemoveable_Right" width="75" height="75">
+  <data encoding="base64" compression="zlib">
+   eAHt1rENACAIBEALG91/YBnhpdLkTOiekJwUjOERIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQ6AmsatuX1Zv0fxer/A9ZscoF8qS9YpUL5El7xSoXyJOzou6r3EuSwAsCB/lvBIU=
+  </data>
+ </layer>
+ <layer id="20" name="SolidRemoveable_Left" width="75" height="75">
+  <data encoding="base64" compression="zlib">
+   eAHt1DEOABAQBECNhv//Fz/YC41kJLp1ksnSmkWAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIHArMPaAdM/byz4/nzqdHCu9SuuuV6lU3ilvkFXeKlasKgJ5tvK393ysJAECBJ4LLMIZBDw=
+  </data>
+ </layer>
+ <layer id="6" name="DecorationFront_1" width="75" height="75">
+  <data encoding="base64" compression="zlib">
+   eAHt0LENACAMA0GL9WETGJJsEFqke8mdq0tEgAABAgQIEHgXmCNZNfUCu5wOqx7KgwABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAh8LXM8WAnc=
+  </data>
+ </layer>
+ <layer id="3" name="Location" width="75" height="75">
+  <data encoding="base64" compression="zlib">
+   eAHt2c0KgkAQAOAuPXdB0KFrRF36e9OS8CKD/biObX1CRKPO7H5a7bqzmY0AAQLTCCznw+oeB57frb4pnK+bf6zP10rbPZaHvAQIECBA4BOBlf/TT9icQ2BUgW3wvYxiozZCcgIECBBIE1gEv/tpxRUi8CcC0Vgqiv0Jh24SIECgOoGh62rVdTipwbWuDybxKPNEYBfMY6LYkzR2E/hKgcP9/m5eNgIEHgLWEt0JBHIEorFUFMtpjSoECBAg8K6A9b53xV47Pvv5lfnga9ellqP2wdw+itXSH+0kQIAAgX4B64n9PvYSKCEQjaWiWIlacpQRMMcp4ygLAQIECBAgQIAAgUhgHTyDjo4Tq1PgXMH1PSW08ZJQo71DstcFm7pT1Gz7650AAQIECPy6wA1YihUY
+  </data>
+ </layer>
+ <layer id="4" name="Notification" width="75" height="75">
+  <data encoding="base64" compression="zlib">
+   eAHt2qsOwzAQBMAj/f+PbBNYmsLQRcvSNtYYnbSWH2Mze0YjcI3A/rhm3FVGfYYPq36qrLpPpqxSo9esuk+mrFKj12nVe0oJECBAgAABAgQIECBAgAABAgQIECBAgACBlQU+8R688j7tbeZw1q4BAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAg8CWB7Qb/Ft8/XOMr5mbVLyWr7pMpq9ToNavukymr1Oh1WvWeUgIECPyHwAkY/B2Q
+  </data>
+ </layer>
+ <objectgroup id="16" name="ObjectZone">
+  <object id="1" name="1" x="792" y="1536" width="72" height="72">
+   <properties>
+    <property name="0" value="YES"/>
+    <property name="1" value="NO"/>
+    <property name="10" value="2"/>
+    <property name="2" value="NO"/>
+    <property name="3" value="NO"/>
+    <property name="4" value="0,6,21"/>
+    <property name="5" value="0"/>
+    <property name="6" value="40"/>
+    <property name="7" value="2500"/>
+    <property name="8" value="6"/>
+    <property name="9" value="71080"/>
+   </properties>
+  </object>
+  <object id="2" name="2" x="288" y="240" width="72" height="72">
+   <properties>
+    <property name="0" value="YES"/>
+    <property name="1" value="NO"/>
+    <property name="10" value="4"/>
+    <property name="2" value="NO"/>
+    <property name="3" value="NO"/>
+    <property name="4" value="0,6,21"/>
+    <property name="5" value="0"/>
+    <property name="6" value="60"/>
+    <property name="7" value="1000"/>
+    <property name="8" value="5"/>
+    <property name="9" value="71081"/>
+   </properties>
+  </object>
+  <object id="3" name="3" x="576" y="432" width="72" height="72">
+   <properties>
+    <property name="0" value="YES"/>
+    <property name="1" value="NO"/>
+    <property name="10" value="4"/>
+    <property name="2" value="NO"/>
+    <property name="3" value="NO"/>
+    <property name="4" value="0,6,21"/>
+    <property name="5" value="0"/>
+    <property name="6" value="60"/>
+    <property name="7" value="1000"/>
+    <property name="8" value="5"/>
+    <property name="9" value="71082"/>
+   </properties>
+  </object>
+  <object id="4" name="4" x="288" y="624" width="72" height="72">
+   <properties>
+    <property name="0" value="YES"/>
+    <property name="1" value="NO"/>
+    <property name="10" value="4"/>
+    <property name="2" value="NO"/>
+    <property name="3" value="NO"/>
+    <property name="4" value="0,6,21"/>
+    <property name="5" value="0"/>
+    <property name="6" value="60"/>
+    <property name="7" value="1000"/>
+    <property name="8" value="5"/>
+    <property name="9" value="71083"/>
+   </properties>
+  </object>
+  <object id="5" name="5" x="552" y="816" width="72" height="72">
+   <properties>
+    <property name="0" value="YES"/>
+    <property name="1" value="NO"/>
+    <property name="10" value="4"/>
+    <property name="2" value="NO"/>
+    <property name="3" value="NO"/>
+    <property name="4" value="0,6,21"/>
+    <property name="5" value="0"/>
+    <property name="6" value="60"/>
+    <property name="7" value="1000"/>
+    <property name="8" value="5"/>
+    <property name="9" value="71084"/>
+   </properties>
+  </object>
+  <object id="6" name="6" x="288" y="1008" width="72" height="72">
+   <properties>
+    <property name="0" value="YES"/>
+    <property name="1" value="NO"/>
+    <property name="10" value="4"/>
+    <property name="2" value="NO"/>
+    <property name="3" value="NO"/>
+    <property name="4" value="0,6,21"/>
+    <property name="5" value="0"/>
+    <property name="6" value="60"/>
+    <property name="7" value="1000"/>
+    <property name="8" value="5"/>
+    <property name="9" value="71085"/>
+   </properties>
+  </object>
+  <object id="7" name="7" x="576" y="1201.33" width="72" height="72">
+   <properties>
+    <property name="0" value="YES"/>
+    <property name="1" value="NO"/>
+    <property name="10" value="4"/>
+    <property name="2" value="NO"/>
+    <property name="3" value="NO"/>
+    <property name="4" value="0,6,21"/>
+    <property name="5" value="0"/>
+    <property name="6" value="60"/>
+    <property name="7" value="1000"/>
+    <property name="8" value="5"/>
+    <property name="9" value="71086"/>
+   </properties>
+  </object>
+  <object id="8" name="8" x="1488" y="48" width="72" height="72">
+   <properties>
+    <property name="0" value="YES"/>
+    <property name="1" value="NO"/>
+    <property name="10" value="2"/>
+    <property name="2" value="NO"/>
+    <property name="3" value="NO"/>
+    <property name="4" value="0,6,21"/>
+    <property name="5" value="0"/>
+    <property name="6" value="40"/>
+    <property name="7" value="2000"/>
+    <property name="8" value="7"/>
+    <property name="9" value="71087"/>
+   </properties>
+  </object>
+  <object id="9" name="9" x="456" y="696" width="72" height="72">
+   <properties>
+    <property name="0" value="72035"/>
+    <property name="1" value="NO"/>
+   </properties>
+  </object>
+  <object id="10" name="10" x="1104" y="648" width="72" height="72">
+   <properties>
+    <property name="0" value="72035"/>
+    <property name="1" value="YES"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

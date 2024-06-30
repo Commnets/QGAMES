@@ -1,0 +1,109 @@
+/** \ingroup ArcadeGame */
+/*@{*/
+
+/**	
+ *	@file	
+ *	File: definitions.hpp \n
+ *	Framework: Commty Game Library (CGL) \n
+ *	Author: Ignacio Cea Fornies (Community Networks) \n
+ *	Creation Date: 01/12/2014 \n
+ *	Description: Common definitions for an arcade game. \n
+ *	Versions: 1.0 Initial
+ */
+
+#ifndef __QGAMES_ARCADEDEFINITIONS__
+#define __QGAMES_ARCADEDEFINITIONS__
+
+#define __GAME_PROPERTYWORLDSFILE__				"WORLDSFILE"
+#define __GAME_WORLDSDEFINITIONSTDFILE__		"worlds.xml" // ...in the same directory than the executed file...
+#define __GAME_MAPSOBJECTSFILE__				"MAPSFILE"
+#define __GAME_MAPSDEFINITIONSTDFILE__			"maps.xml"
+
+#define __QGAMES_WORLDTAGNAME__					"World"
+#define __QGAMES_WORLDSATTRID__					"id"
+#define __QGAMES_WORLDSCENESBLOCK__				"Scenes"
+#define __QGAMES_WORLDSETOFSCENESBLOCK__		"SetOfScenes"
+#define __QGAMES_WORLDSATTRIBUTESBLOCK__		"Attributes"
+
+#define __QGAMES_WORLDSCENETAGNAME__			"Scene"
+#define __QGAMES_WORLDSSCENESATTRID__			"id"
+#define __QGAMES_WORLDSSCENESACTIONSBLOCK__		"Actions"
+#define __QGAMES_WORLDSSCENESATTRSBLOCK__		"Attributes"
+#define __QGAMES_WORLDSSCENESCONEXIONSBLOCK__	"Conexions"
+#define __QGAMES_WORLDSSCENESMAPSBLOCK__		"Maps"
+#define __QGAMES_WORLDSSCENEENTITIESBLOCK__		"Entities"
+#define __QGAMES_WORLDSSCENETEMPTAGNAME__		"SceneTemplate"
+#define __QGAMES_WORLDSSCENTEMPATTRBASEID__		"baseId"
+#define __QGAMES_WORLDSSCENETEMPATTRNUMBER__	"number"
+
+#define __QGAMES_WORLDSSCENESACTIONATTRID__		"id"
+#define __QGAMES_WORLDSSCENESACTIONATTRACTIVE__	"active"
+#define __QGAMES_WORLDSSCENESACTIONATTRSBLOCK__	"Attributes"
+
+#define __QGAMES_WORLDSSCENESCONATTRID__		"id"
+#define __QGAMES_WORLDSSCENESCONATTRWITHID__	"with"
+#define __QGAMES_WORLDSCENESCONATTRATID__		"at"
+
+#define __QGAMES_WORLDSSCENESMAPSATTRID__		"id"
+#define __QGAMES_WORLDSSCENESMAPSNAMEATTRID__	"file"
+
+#define __QGAMES_WORLDSSCENESATTRSATTRID__		"id"
+#define __QGAMES_WORLDSSCENESATTRSVALUEATTRID__	"value"
+
+#define __QGAMES_WORLDSCENEENTITYTAGNAME__		"Entity"
+#define __QGAMES_WORLDSCENESETENTITIESTAGNAME__ "SetOfEntities"
+#define __QGAMES_WORLDSSCENEENTITYATTRID__		"id"
+#define __QGAMES_WORLDSCENESETENTATTRFROM__		"fromId"
+#define __QGAMES_WORLDSCENESETENTATTRNUMBER__	"number"
+#define __QGAMES_WORLDSSCENEENTITYLAYERATTRID__	"layer"
+
+#define __QGAMES_MAPTAGNAME__					"Map"
+#define __QGAMES_SETOFMAPSTAGNAME__				"SetOfMaps"
+#define __QGAMES_MAPSATTRID__					"id"
+#define __QGAMES_MAPSATTRBASEID__				"baseId"
+#define __QGAMES_MAPSATTRNUMBER__				"number"
+#define __QGAMES_MAPSATTRTYPE__					"type"
+#define __QGAMES_MAPSATTRDEFFILE__				"file"
+
+#define __QGAMES_OBJECTMAPATTRNAME__			"name"
+#define __QGAMES_OBJECTMAPATTRWIDTH__			"width"
+#define __QGAMES_OBJECTMAPATTRHEIGHT__			"height"
+#define __QGAMES_OBJECTMAPATTRDEPTH__			"depth" // Optional!
+#define __QGAMES_OBJECTMAPLAYERSBLOCK__			"Layers"
+#define __QGAMES_OBJECTMAPELEMNTSLAYERBLOCK__	"Layer"
+#define __QGAMES_OBJECTMAPELEMNTBLOCK__			"Element"
+#define __QGAMES_OBJECTMAPATTRSBLOCK__			"Attributes"
+#define __QGAMES_OBJECTMAPELMTSLAYERATTRID__	"id"
+#define __QGAMES_OBJECTMAPELMTSLAYERATTRNAME__	"name"
+#define __QGAMES_OBJECTMAPLAYERELMNTATTRID__	"id"
+#define __QGAMES_OBJECTMAPLAYERELMNTATTRX__		"X"
+#define __QGAMES_OBJECTMAPLAYERELMNTATTRY__		"Y"
+#define __QGAMES_OBJECTMAPLAYERELMNTATTRZ__		"Y"
+#define __QGAMES_OBJECTMAPATTRSATTRID__			"id"
+#define __QGAMES_OBJECTMAPATTRSATTRVALUE__		"value"
+
+#define __QGAMES_STDTYPEMAPSLOADER__			"Maps"
+#define __QGAMES_STDTYPEWORLDSLOADER__			"Worlds"
+
+#define __QGAMES_TILELAYER__					1
+#define __QGAMES_OBJECTLAYER__					2
+#define __QGAMES_IMAGELAYER__					3
+#define __QGAMES_TMXMAP__						1
+#define __QGAMES_OBJECTMAP__					2
+
+#define __QGAMES_COLLISIONWITHTILE__			8006
+#define __QGAMES_ENVCONDITIONSTARTED__			8007
+#define __QGAMES_ENVCONDITIONFINISHED__			8008
+
+// Runtime values structure...
+#define __QGAMES_RUNTIMEVALUESSCENESTYPE__		"SCENES"
+#define __QGAMES_RUNTIMEVALUESMAPSTYPE__		"MAPS"
+#define __QGAMES_RUNTIMEVALUESBLOCKSTYPE__		"BLOCKS"
+#define __QGAMES_RUNTIMEVALUESLAYERSTYPE__		"LAYERS"
+#define __QGAMES_RUNTIMEVALUESMOVTYPE__			"MOV"
+#define __QGAMES_RUNTIMEVALUESMOVSTYPE__		"MOVS"
+
+#endif
+  
+// End of the file
+/*@}*/

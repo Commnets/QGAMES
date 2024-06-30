@@ -1,0 +1,399 @@
+<?xml version="1.0"?>
+<Maps>
+
+	<World id="50005">
+		<Scenes>
+		
+			<!-- TempleWorld0 -->
+			<Scene id="100000">
+				<Actions>
+					<!-- Monsters -->
+					<!-- Block 1 -->
+					<Action id="71200"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50020"/>
+							<Attribute id="Fire" value="YES"/>
+							<Attribute id="TypeOfFire" value="20"/> 
+							<Attribute id="ImpulseOfFire" value="5"/>
+							<Attribute id="SecondsToFire" value="-6"/>
+							<Attribute id="SecondsBetweenFires" value="2"/>
+							<Attribute id="SecondsFiring" value="3"/>
+						</Attributes>
+					</Action>
+					
+					<!-- Block 2 -->
+					<Action id="71201"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50019"/>
+							<Attribute id="Fire" value="YES"/>
+							<Attribute id="TypeOfFire" value="20"/> 
+							<Attribute id="ImpulseOfFire" value="5"/>
+							<Attribute id="SecondsToFire" value="-8"/>
+							<Attribute id="SecondsBetweenFires" value="2"/>
+							<Attribute id="SecondsFiring" value="3"/>
+						</Attributes>
+					</Action>
+					
+					<!-- Block 3 -->
+					<Action id="71202"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50020"/>
+							<Attribute id="Fire" value="YES"/>
+							<Attribute id="TypeOfFire" value="20"/> 
+							<Attribute id="ImpulseOfFire" value="5"/>
+							<Attribute id="SecondsToFire" value="-8"/>
+							<Attribute id="SecondsBetweenFires" value="2"/>
+							<Attribute id="SecondsFiring" value="3"/>
+						</Attributes>
+					</Action>
+					
+					<!-- Block 4 -->
+					<Action id="71203"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50019"/>
+							<Attribute id="Fire" value="YES"/>
+							<Attribute id="TypeOfFire" value="21"/> 
+							<Attribute id="ImpulseOfFire" value="5"/>
+							<Attribute id="SecondsToFire" value="-10"/>
+							<Attribute id="SecondsBetweenFires" value="2"/>
+							<Attribute id="SecondsFiring" value="3"/>
+						</Attributes>
+					</Action>
+					
+					<!-- Block 5 -->
+					<Action id="71204"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50016"/>
+							<Attribute id="Fire" value="YES"/>
+							<Attribute id="TypeOfFire" value="20,21"/> 
+							<Attribute id="ImpulseOfFire" value="10"/>
+							<Attribute id="SecondsToFire" value="-6"/>
+							<Attribute id="SecondsBetweenFires" value="1"/>
+							<Attribute id="SecondsFiring" value="4"/>
+						</Attributes>
+					</Action>
+					
+					<!-- Environment Condition -->
+					<Action id="72095">
+						<Attributes>
+							<Attribute id="TypeCondition" value="3"/> <!-- Wind -->
+							<Attribute id="SecondsToStart" value="0"/>
+							<Attribute id="SecondsCondition" value="-1"/> 
+							<Attribute id="WindDensity" value="1"/>
+							<Attribute id="WindSpeed" value="1"/>
+						</Attributes>
+					</Action>
+				</Actions>
+				
+				<Attributes>
+					<Attribute id="FUNDAMENTAL" value="YES"/>
+					<Attribute id="NAME" value="Two more"/>
+					<Attribute id="MOVEMENT" value="1,0,0"/> 
+					<Attribute id="BACKGROUNDMUSIC" value="80005"/> 
+					<Attribute id="LIQUIDSFLUIDITY" value="6.50"/> 
+				</Attributes>
+				
+				<Conexions>
+					<Conexion id="0" with="100001" at="0"/>
+					<Conexion id="1" with="90005" at="1"/>
+				</Conexions>
+
+				<Maps>
+					<Map id="50150" file="maps/BKTemple.xml"/>
+					<Map id="100000" file="maps/TempleWorld0.tmx"/>
+				</Maps>
+
+				<Entities>
+					<Entity id="50100" layer="Solid_1"/> 
+					<Entity id="50101" layer="Solid_1"/>
+					<SetOfEntities fromId="51000" number="110" layer="Solid_1"/>
+					<SetOfEntities fromId="30000" number="200" layer="Solid_1"/>
+					<SetOfEntities fromId="31000" number="200" layer="Solid_1"/>
+					<SetOfEntities fromId="50110" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="50120" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="60000" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="61000" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="62000" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="32000" number="10" layer="Solid_1"/>
+				</Entities>
+			</Scene>
+			<!-- -->
+		
+			<!-- TempleWorld1 -->
+			<Scene id="100001">
+				<Actions>
+					<!-- Monsters -->
+					<!-- Block 1 -->
+					<Action id="71210"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50021"/>
+							<Attribute id="Fire" value="YES"/>
+							<Attribute id="TypeOfFire" value="20"/> 
+							<Attribute id="ImpulseOfFire" value="5"/>
+							<Attribute id="SecondsToFire" value="-6"/>
+							<Attribute id="SecondsBetweenFires" value="2"/>
+							<Attribute id="SecondsFiring" value="3"/>
+						</Attributes>
+					</Action>
+
+					<!-- Block 2 -->
+					<Action id="71211"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50002"/>
+							<Attribute id="Fire" value="YES"/>
+							<Attribute id="TypeOfFire" value="20"/> 
+							<Attribute id="ImpulseOfFire" value="5"/>
+							<Attribute id="SecondsToFire" value="-6"/>
+							<Attribute id="SecondsBetweenFires" value="2"/>
+							<Attribute id="SecondsFiring" value="3"/>
+						</Attributes>
+					</Action>
+
+					<!-- Block 3 -->
+					<Action id="71212"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50000"/>
+							<Attribute id="Fire" value="YES"/>
+							<Attribute id="TypeOfFire" value="20"/> 
+							<Attribute id="ImpulseOfFire" value="5"/>
+							<Attribute id="SecondsToFire" value="-6"/>
+							<Attribute id="SecondsBetweenFires" value="2"/>
+							<Attribute id="SecondsFiring" value="3"/>
+						</Attributes>
+					</Action>
+
+					<!-- Block 4 -->
+					<Action id="71213"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50022"/>
+							<Attribute id="Fire" value="YES"/>
+							<Attribute id="TypeOfFire" value="20"/> 
+							<Attribute id="ImpulseOfFire" value="5"/>
+							<Attribute id="SecondsToFire" value="-6"/>
+							<Attribute id="SecondsBetweenFires" value="2"/>
+							<Attribute id="SecondsFiring" value="3"/>
+						</Attributes>
+					</Action>
+
+					<!-- Block 5 -->
+					<Action id="71214"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50017"/>
+							<Attribute id="Fire" value="YES"/>
+							<Attribute id="TypeOfFire" value="20"/> 
+							<Attribute id="ImpulseOfFire" value="10"/>
+							<Attribute id="SecondsToFire" value="-6"/>
+							<Attribute id="SecondsBetweenFires" value="2"/>
+							<Attribute id="SecondsFiring" value="3"/>
+						</Attributes>
+					</Action>
+					
+					<!-- Environment Condition -->
+					<Action id="72100">
+						<Attributes>
+							<Attribute id="TypeCondition" value="1"/> <!-- Rain -->
+							<Attribute id="SecondsToStart" value="0"/>
+							<Attribute id="SecondsCondition" value="-1"/> 
+							<Attribute id="RainDensity" value="0.15"/>
+							<Attribute id="RainBackgroundId" value="50160"/>
+						</Attributes>
+					</Action>
+				</Actions>
+				
+				<Attributes>
+					<Attribute id="FUNDAMENTAL" value="YES"/>
+					<Attribute id="NAME" value="Just one more"/>
+					<Attribute id="MOVEMENT" value="1,0,0"/> 
+					<Attribute id="BACKGROUNDMUSIC" value="80005"/> 
+					<Attribute id="LIQUIDSFLUIDITY" value="6.50"/> 
+				</Attributes>
+				
+				<Conexions>
+					<Conexion id="0" with="100002" at="0"/>
+					<Conexion id="1" with="100000" at="1"/>
+				</Conexions>
+
+				<Maps>
+					<Map id="50150" file="maps/BKTemple.xml"/>
+					<Map id="100001" file="maps/TempleWorld1.tmx"/>
+				</Maps>
+
+				<Entities>
+					<Entity id="50100" layer="Solid_1"/> 
+					<Entity id="50101" layer="Solid_1"/>
+					<SetOfEntities fromId="51000" number="110" layer="Solid_1"/>
+					<SetOfEntities fromId="30000" number="200" layer="Solid_1"/>
+					<SetOfEntities fromId="31000" number="200" layer="Solid_1"/>
+					<SetOfEntities fromId="50110" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="50120" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="60000" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="61000" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="62000" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="32000" number="10" layer="Solid_1"/>
+				</Entities>
+			</Scene>
+			<!-- -->
+		
+			<!-- TempleWorld2 -->
+			<Scene id="100002">
+				<Actions>
+					<!-- Monsters -->
+					<!-- Block 1 -->
+					<Action id="71220"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50000"/>
+							<Attribute id="Fire" value="YES"/>
+							<Attribute id="TypeOfFire" value="20"/> 
+							<Attribute id="ImpulseOfFire" value="5"/>
+							<Attribute id="SecondsToFire" value="-6"/>
+							<Attribute id="SecondsBetweenFires" value="2"/>
+							<Attribute id="SecondsFiring" value="3"/>
+						</Attributes>
+					</Action>
+
+					<!-- Block 2 -->
+					<Action id="71221"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50002"/>
+							<Attribute id="Fire" value="YES"/>
+							<Attribute id="TypeOfFire" value="20"/> 
+							<Attribute id="ImpulseOfFire" value="5"/>
+							<Attribute id="SecondsToFire" value="-6"/>
+							<Attribute id="SecondsBetweenFires" value="2"/>
+							<Attribute id="SecondsFiring" value="3"/>
+						</Attributes>
+					</Action>
+
+					<!-- Block 3 -->
+					<Action id="71222"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50000"/>
+							<Attribute id="Fire" value="YES"/>
+							<Attribute id="TypeOfFire" value="20"/> 
+							<Attribute id="ImpulseOfFire" value="5"/>
+							<Attribute id="SecondsToFire" value="-6"/>
+							<Attribute id="SecondsBetweenFires" value="2"/>
+							<Attribute id="SecondsFiring" value="3"/>
+						</Attributes>
+					</Action>
+
+					<!-- Block 4 -->
+					<Action id="71223"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50002"/>
+							<Attribute id="Fire" value="YES"/>
+							<Attribute id="TypeOfFire" value="20"/> 
+							<Attribute id="ImpulseOfFire" value="5"/>
+							<Attribute id="SecondsToFire" value="-6"/>
+							<Attribute id="SecondsBetweenFires" value="2"/>
+							<Attribute id="SecondsFiring" value="3"/>
+						</Attributes>
+					</Action>
+
+					<!-- Block 5 -->
+					<Action id="71224"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50023"/>
+							<Attribute id="Fire" value="NO"/> <!-- It doesn't need to fire -->
+						</Attributes>
+					</Action>
+
+					<!-- Block 6 -->
+					<Action id="71225"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50024"/>
+							<Attribute id="Fire" value="NO"/> <!-- It doesn't need to fire -->
+						</Attributes>
+					</Action>
+
+					<!-- Block 7 -->
+					<Action id="71226"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50018"/>
+							<Attribute id="Fire" value="YES"/>
+							<Attribute id="TypeOfFire" value="20"/> 
+							<Attribute id="ImpulseOfFire" value="10"/>
+							<Attribute id="SecondsToFire" value="-6"/>
+							<Attribute id="SecondsBetweenFires" value="2"/>
+							<Attribute id="SecondsFiring" value="3"/>
+						</Attributes>
+					</Action>
+					
+					<!-- Door Moving Condition -->
+					<Action id="74005">
+						<Attributes>
+							<Attribute id="Set" value="Solid_Door1"/> 
+							<Attribute id="Direction" value="0,-1,0"/>
+							<Attribute id="Length" value="192"/> 
+							<Attribute id="Speed" value="1"/>
+							<Attribute id="Sound" value="-1"/>
+							<Attribute id="SoundChannel" value="-1"/>
+						</Attributes>
+					</Action>
+					
+					<!-- Door Moving Condition -->
+					<Action id="74006">
+						<Attributes>
+							<Attribute id="Set" value="Solid_Door2"/> 
+							<Attribute id="Direction" value="0,-1,0"/>
+							<Attribute id="Length" value="192"/> 
+							<Attribute id="Speed" value="1"/>
+							<Attribute id="Sound" value="-1"/>
+							<Attribute id="SoundChannel" value="-1"/>
+						</Attributes>
+					</Action>
+					
+					<!-- Door Moving Condition -->
+					<Action id="74007">
+						<Attributes>
+							<Attribute id="Set" value="Solid_Door3"/> 
+							<Attribute id="Direction" value="0,-1,0"/>
+							<Attribute id="Length" value="192"/> 
+							<Attribute id="Speed" value="1"/>
+							<Attribute id="Sound" value="-1"/>
+							<Attribute id="SoundChannel" value="-1"/>
+						</Attributes>
+					</Action>
+				</Actions>
+				
+				<Attributes>
+					<Attribute id="FUNDAMENTAL" value="YES"/>
+					<Attribute id="NAME" value="Finally yo are there"/>
+					<Attribute id="MOVEMENT" value="1,0,0"/> 
+					<Attribute id="BACKGROUNDMUSIC" value="80006"/> 
+					<Attribute id="LIQUIDSFLUIDITY" value="6.50"/> 
+				</Attributes>
+				
+				<Conexions>
+					<!-- The other connection will mean the end of the game -->
+					<Conexion id="1" with="100001" at="1"/>
+				</Conexions>
+
+				<Maps>
+					<Map id="50150" file="maps/BKTemple.xml"/>
+					<Map id="100002" file="maps/TempleWorld2.tmx"/>
+				</Maps>
+
+				<Entities>
+					<Entity id="50100" layer="Solid_1"/> 
+					<Entity id="50101" layer="Solid_1"/>
+					<SetOfEntities fromId="51000" number="110" layer="Solid_1"/>
+					<SetOfEntities fromId="30000" number="200" layer="Solid_1"/>
+					<SetOfEntities fromId="31000" number="200" layer="Solid_1"/>
+					<SetOfEntities fromId="50110" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="50120" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="60000" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="61000" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="62000" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="32000" number="10" layer="Solid_1"/>
+				</Entities>
+			</Scene>
+			<!-- -->
+			
+		</Scenes>
+		<Attributes>
+			<Attribute id="NAME" value="The temple"/>
+		</Attributes>
+	</World>
+	
+</Maps>

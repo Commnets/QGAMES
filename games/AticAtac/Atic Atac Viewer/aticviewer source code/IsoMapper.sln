@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsoMapper", "IsoMapper.csproj", "{E3D2743E-BAFC-4442-B148-E1B2EDA5540A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{E3D2743E-BAFC-4442-B148-E1B2EDA5540A}.Debug.ActiveCfg = Debug|.NET
+		{E3D2743E-BAFC-4442-B148-E1B2EDA5540A}.Debug.Build.0 = Debug|.NET
+		{E3D2743E-BAFC-4442-B148-E1B2EDA5540A}.Release.ActiveCfg = Release|.NET
+		{E3D2743E-BAFC-4442-B148-E1B2EDA5540A}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

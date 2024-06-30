@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Movements>
+
+	<!-- Includes -->
+	<Include file="pcmovements.xml"/>
+
+	<!-- Wormy's through-the-maze chasing movements -->
+	<SetOfMovements fromId="600000" number="10"/>
+	<!-- Wormy's at-home movements -->
+	<SetOfMovements fromId="600010" number="10"/>
+
+	<!-- Shield movements -->
+	<SetOfMovements fromId="610000" number="10"/>
+
+</Movements>

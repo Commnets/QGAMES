@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:6c77b6c1756f8b650abb9d80e8f7a91d:fa7d2c7d4e55ab67c281dda1ff36c05b:4aa96383013ebdeef8882ee71879c7a9$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="OrcusLeft" file="./forms/OrcusLeft.png" width="492" height="471"
+		fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="?">
+		<Frame id="AttackLeft (1)" fPosX="247" fPosY="279" fWidth="80" fHeight="136" xoffset="93" yoffset="15" width="80" height="136"/>
+		<Frame id="AttackLeft (2)" fPosX="247" fPosY="1" fWidth="101" fHeight="136" xoffset="72" yoffset="15" width="101" height="136"/>
+		<Frame id="AttackLeft (3)" fPosX="166" fPosY="141" fWidth="113" fHeight="136" xoffset="67" yoffset="14" width="113" height="136"/>
+		<Frame id="AttackLeft (4)" fPosX="350" fPosY="118" fWidth="104" fHeight="132" xoffset="73" yoffset="18" width="104" height="132"/>
+		<Frame id="DeadLeft (1)" fPosX="1" fPosY="142" fWidth="81" fHeight="138" xoffset="90" yoffset="13" width="81" height="138"/>
+		<Frame id="DeadLeft (2)" fPosX="350" fPosY="1" fWidth="108" fHeight="115" xoffset="37" yoffset="31" width="108" height="115"/>
+		<Frame id="DeadLeft (3)" fPosX="329" fPosY="252" fWidth="142" fHeight="80" xoffset="3" yoffset="84" width="142" height="80"/>
+		<Frame id="HurtLeft" fPosX="83" fPosY="1" fWidth="80" fHeight="138" xoffset="90" yoffset="17" width="80" height="138"/>
+		<Frame id="IdleLeft (1)" fPosX="1" fPosY="1" fWidth="80" fHeight="139" xoffset="97" yoffset="15" width="80" height="139"/>
+		<Frame id="IdleLeft (2)" fPosX="1" fPosY="282" fWidth="80" fHeight="138" xoffset="97" yoffset="16" width="80" height="138"/>
+		<Frame id="IdleLeft (3)" fPosX="165" fPosY="281" fWidth="80" fHeight="137" xoffset="97" yoffset="17" width="80" height="137"/>
+		<Frame id="IdleLeft (4)" fPosX="83" fPosY="282" fWidth="80" fHeight="138" xoffset="97" yoffset="16" width="80" height="138"/>
+		<Frame id="WalkLeft (1)" fPosX="84" fPosY="141" fWidth="80" fHeight="138" xoffset="97" yoffset="15" width="80" height="138"/>
+		<Frame id="WalkLeft (2)" fPosX="329" fPosY="334" fWidth="80" fHeight="136" xoffset="97" yoffset="15" width="80" height="136"/>
+		<Frame id="WalkLeft (3)" fPosX="165" fPosY="1" fWidth="80" fHeight="138" xoffset="97" yoffset="15" width="80" height="138"/>
+		<Frame id="WalkLeft (4)" fPosX="411" fPosY="334" fWidth="80" fHeight="134" xoffset="97" yoffset="15" width="80" height="134"/>
+    </Form>
+</CommtyExporter>

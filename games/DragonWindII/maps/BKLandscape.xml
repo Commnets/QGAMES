@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- Background map landscape -->
+<Map name="50130" width="3200" height="600">
+	<Layers>
+		<Layer id="0" name="background">
+			<Element id="50130" X="0" Y="0" Z="0"/>
+			<Attributes>
+			</Attributes>
+		</Layer>
+	</Layers>
+	<Attributes>
+		<Attribute id="BASE" value="460"/>
+	</Attributes>
+</Map>

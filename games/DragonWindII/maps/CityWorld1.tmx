@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="100" height="25" tilewidth="24" tileheight="24" infinite="0" nextlayerid="20" nextobjectid="8">
+ <tileset firstgid="1" name="Armour" tilewidth="24" tileheight="24" tilecount="512" columns="16">
+  <image source="maps/Decoration1.png" width="384" height="768"/>
+ </tileset>
+ <tileset firstgid="513" name="Flags" tilewidth="24" tileheight="24" tilecount="330" columns="30">
+  <image source="maps/MarioFlags.png" width="720" height="264"/>
+ </tileset>
+ <tileset firstgid="843" name="Ladder" tilewidth="24" tileheight="24" tilecount="36" columns="12">
+  <image source="maps/Ladder.png" width="288" height="72"/>
+ </tileset>
+ <tileset firstgid="879" name="Location" tilewidth="24" tileheight="24" tilecount="100" columns="10">
+  <image source="maps/Location.png" width="240" height="240"/>
+ </tileset>
+ <tileset firstgid="979" name="Notification" tilewidth="24" tileheight="24" tilecount="100" columns="10">
+  <image source="maps/Notification.png" width="240" height="240"/>
+ </tileset>
+ <tileset firstgid="1079" name="Base" tilewidth="24" tileheight="24" spacing="1" margin="1" tilecount="8" columns="8">
+  <image source="maps/Base.png" width="201" height="26"/>
+  <tile id="7">
+   <properties>
+    <property name="ANGLE" value="1"/>
+    <property name="CLOCKWISE" value="TRUE"/>
+    <property name="INITANGLE" value="0"/>
+    <property name="RADIX" value="150"/>
+    <property name="SPEED" value="1"/>
+    <property name="TYPE" value="4"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="1087" name="Liquid" tilewidth="24" tileheight="24" spacing="1" margin="1" tilecount="30" columns="6">
+  <image source="maps/Water.png" width="151" height="126"/>
+ </tileset>
+ <tileset firstgid="1117" name="Solid" tilewidth="24" tileheight="24" spacing="1" margin="1" tilecount="8" columns="8">
+  <image source="maps/Solid.png" width="201" height="26"/>
+ </tileset>
+ <tileset firstgid="1125" name="OtherFlags" tilewidth="24" tileheight="24" tilecount="1024" columns="32">
+  <image source="maps/OtherFlags.png" width="768" height="768"/>
+ </tileset>
+ <tileset firstgid="2149" name="PosionedLiquid" tilewidth="24" tileheight="24" spacing="1" margin="1" tilecount="30" columns="6">
+  <image source="maps/PoisonedWater.png" width="151" height="126"/>
+ </tileset>
+ <tileset firstgid="2179" name="Bush1" tilewidth="24" tileheight="24" tilecount="10" columns="5">
+  <image source="maps/Bush1.png" width="120" height="48"/>
+ </tileset>
+ <tileset firstgid="2189" name="BigTree2" tilewidth="24" tileheight="24" tilecount="121" columns="11">
+  <image source="maps/BigTree2.png" width="264" height="264"/>
+ </tileset>
+ <layer id="1" name="DecorationBack_1" width="100" height="25">
+  <data encoding="base64" compression="zlib">
+   eAHtWFtOwzAQtIBK/eMO/edIlK9+ljtQ2kLo4w4gFU7AAUCi92hv0Bt0LGFpE+EoXe2qS7KWVkkc73g8Y0eOQ/DiCrgCroAroKXA4UIL2S7u4NIut2vD3LRUszxmy9yoH+NeCPeIWDZXIbwjuMXymC1zo3qv4MX6148feLFt6McD2k0qbS2P+abl36tXePFW8aPtY6bz2O/5Ctxi3gyF4q4yB/msupvpftjy3v1wP2wpYItNW9fHZwfPHGzNrDKb4h/4IbkWmu7JzrXn+nA//tw3ux/ldUufuro+6LkX1SPef+Gf6Vvxv+mxH8IUMUPMEU+IVCz5oa0D/V7Rc6+kRbru4MVe0Y9n6F8gXhALxBKRiiU/tHWgfqTx111HRKe6dqe808A8pX9OWy5nbl6OozRe7EcDM8dfqp7LmZuX4y2NF/vRwMzxl6rncubm5XhL48V+NDBz/KXquZy5eTne0nixHw3MHH+pei7npnlHcJyEQw==
+  </data>
+ </layer>
+ <layer id="13" name="DecorationBack_2" width="100" height="25">
+  <data encoding="base64" compression="zlib">
+   eAHt1rEJgEAQBMADtVu1A+1Em9BOtCAvEkwfg0dnYcOHYzb5CCFAgAABAgQIECDwP4Gti9izUofAkVuc9qhjDFcQIECAAAECt0DfRAzZMSsECBAgQIDA9wSmNmLOSpnA23+lJbdY7VE2hlcECBAgQIDAQ+AClaYICQ==
+  </data>
+ </layer>
+ <layer id="3" name="Base_1" width="100" height="25">
+  <data encoding="base64" compression="zlib">
+   eAHt2E0KgCAQBlAX3akfqPsfK9dSYVFowxtwIbjwe85iMCVFgAABAgQIECBAgACBewLjkNJUrCXvo9VRzjJ37X7u0GfNd7paW4d3jtZj8hAgQIAAgcgCb85Sf565Ir+xbAQIECBAIKJAy7mjxfxUm/fs3NM/r9qsEXtMJgIECBD4XmAHm/QfIA==
+  </data>
+ </layer>
+ <layer id="4" name="Base_2" width="100" height="25">
+  <properties>
+   <property name="ANGLE" value="1"/>
+   <property name="CLOCKWISE" value="TRUE"/>
+   <property name="INITANGLE" value="0"/>
+   <property name="RADIX" value="120"/>
+   <property name="SPEED" value="1"/>
+   <property name="TYPEMOV" value="4"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eAHt0KENADAMA0GDjNV2/7FaHCm84F4yML1EBAgQIECAAAECvwmsSnbbeV8ECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgMAtc7MQBhw==
+  </data>
+ </layer>
+ <layer id="6" name="Base_Moat" width="100" height="25">
+  <data encoding="base64" compression="zlib">
+   eAHt0LEJAAAIA7AOHuX/l/mCOqfQrVBIIgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgACBm0BX8u3tyZoAAQIECOwFBhA9A4U=
+  </data>
+ </layer>
+ <layer id="8" name="Ladder_1" width="100" height="25">
+  <data encoding="base64" compression="zlib">
+   eAHtlkEKgDAMBAN+UXtWz9r/H90XeAiELmEKObZsZkhJBAcCEIAABCAAgT8C+xZxqIaKs57AKQ+X6sbHehlK8MjDq5r4wIcFAa8QzAc+vAjUpcnsSsxHnY/MroSPOh8Ztpk7dR30ejnzX/Ui4NUNPvDhRcArDfPh5SOzX3l10CsNu1Ivn3QDAQhAAAIQgAAEqgh8bccVhQ==
+  </data>
+ </layer>
+ <layer id="9" name="Solid_1" width="100" height="25">
+  <data encoding="base64" compression="zlib">
+   eAHtmUsKgDAMBbPwmv7Q+5/BimSplJi2bzGFkE2hrzNFtJoxehKYJ7O1FEODAD40PHgKfDgJjY4PDQ+eAh9OQqPjQ8ODp8CHk9DoG++7Q0Qchfv+UiffH0OcsCgEIAABCEAAAhCAAAQgAAEIQAACEIDAfwJLuduqqRb/4O+755q1leZEOWTvNZrj68RkZ+zhLcohe6/RHPh4COCjzbMwei5rfVxdsW/p
+  </data>
+ </layer>
+ <layer id="11" name="Solid_Moat" width="100" height="25">
+  <data encoding="base64" compression="zlib">
+   eAHt0UEKACAIBMA99M7+/4zoC2WQMIJHRWcTRYAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAg0FlgjuS0O//96+2nWew5VS8gj3rTm42v81gYxBb5
+  </data>
+ </layer>
+ <layer id="7" name="Liquid_1" width="100" height="25" opacity="0.75">
+  <properties>
+   <property name="ACCELERATION" value="0.35"/>
+   <property name="ASPECTS" value="7"/>
+   <property name="FORM" value="10016"/>
+   <property name="LOOPS" value="2"/>
+   <property name="POISON" value="YES"/>
+   <property name="PROBABILITYTOAPPEAR" value="0.2"/>
+   <property name="SPEED" value="2"/>
+   <property name="SPEEDCHANGE" value="6"/>
+   <property name="TILES" value="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24"/>
+   <property name="TYPEUPDATE" value="0"/>
+   <property name="VISUALEFFECT" value="0"/>
+   <property name="ZONE" value="11,20,0,30,23,0"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eAHt0bENwDAIBEDKLOrsP0Limgrx5SHRWBik+ypFgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQITATepyrZk9tmu8D580h2v+BlIpDM4u5SOwF57PzSv+WRFu37PrcGKqk=
+  </data>
+ </layer>
+ <layer id="12" name="Liquid_Moat" width="100" height="25" opacity="0.75">
+  <properties>
+   <property name="ACCELERATION" value="0.35"/>
+   <property name="ASPECTS" value="7"/>
+   <property name="FORM" value="10016"/>
+   <property name="LOOPS" value="2"/>
+   <property name="POISON" value="YES"/>
+   <property name="PROBABILITYTOAPPEAR" value="0.2"/>
+   <property name="SPEED" value="2"/>
+   <property name="SPEEDCHANGE" value="6"/>
+   <property name="TILES" value="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24"/>
+   <property name="TYPEUPDATE" value="0"/>
+   <property name="VISUALEFFECT" value="0"/>
+   <property name="ZONE" value="77,20,0,89,23,0"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eAHt0ckJACAMBMA8bVT7L0HtwBXym0B+OWC2ShEgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIEcoE1qtLOv9h4FZgnj7Rfb5vLBdIs7rzqE5BHn+3P5c48NlXSG7s=
+  </data>
+ </layer>
+ <layer id="17" name="Base_Lake" width="100" height="25">
+  <data encoding="base64" compression="zlib">
+   eAHt0LENACAMA0EXGQrB/ntBmz5095JbF5eIAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBH4KnErW8Pb7Uxe4lSIFLg==
+  </data>
+ </layer>
+ <layer id="19" name="Base_LakeMoat" width="100" height="25">
+  <data encoding="base64" compression="zlib">
+   eAHt0LEJADAMA0EVHiok+++VjGAM6e5BpZpLRIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIE/gucStZg+306XRdjA4o=
+  </data>
+ </layer>
+ <layer id="10" name="DecorationFront_1" width="100" height="25" offsetx="0" offsety="10">
+  <data encoding="base64" compression="zlib">
+   eAHt0AdTyHEcwOE/6U4vviEtKkRph2goo9JAm3ZpGRVFy6Y8b+LXnbvv5+55A58si+JAHIgDceCsDuRfzLICCiniEsVcpoRSyignSn+gwucrXKWSKqq5xnVuUMNNovQHbvlcSx23qaeBRppopoVWovQH2ny+w13u0c59HtBBJ110E6U/8NDnHnp5xGOe8JQ++hngGVH6A4M+DzHMCM95wUtGGWOcCaL0ByZ9nmKaV7xmhlnmmGeBRaL0B5Z8XmaFN6yyxjobbPKWd0TpD7z3+QNbbLPDRz6xyx6f+UKU/sC+zwcccsQxX/nGd37wk19E6Q/89vkPfznhlCwvy85xnhwukEsUB+JAHIgDcSAOxIE4EAfiQByIA3EgDsSBOPB/HfgHNgVc0A==
+  </data>
+ </layer>
+ <layer id="15" name="Location" width="100" height="25">
+  <data encoding="base64" compression="zlib">
+   eAHt2E0PQDAMgGGJH4yjk4MIFx8/2VUayTbdR2Ovk7FW+xBkTcOGAAIIIFCzwNnW1f2h6LdTxNalHN7tZNx2Nl5fuLhfxCr6do39spafJfsoXxEVIIAAAgg8Bfjnemr47Y/im+0XxaycAou4R6HjnLVyLQQQQCCGQC/eezFyanLsxurR9GIxdnjxvV6OWav9T/9QWwLv1OthX/PLOO3Y9VyyjuQS4jwCCCCAAAIIIGBT4Ab9Kg8Z
+  </data>
+ </layer>
+ <layer id="16" name="Notification" width="100" height="25">
+  <data encoding="base64" compression="zlib">
+   eAHt18ENgCAQRUES+69OvXq1DVvYRA5/YTwbw84LEMfwENhT4D7WnPtpOle1x9VsPj2y9pkeeswQcF7NUJz3jT893uA7pet5VS3b7T6vzuU9AgQIECBAgACBfQXO4P+LHavokVVdDz2yBLJWY3/okSVgNQQIECBAYB2BD15/FU8=
+  </data>
+ </layer>
+ <objectgroup id="2" name="ObjectZone">
+  <object id="1" name="1" x="1440" y="72" width="72" height="72">
+   <properties>
+    <property name="0" value="YES"/>
+    <property name="1" value="NO"/>
+    <property name="10" value="4"/>
+    <property name="2" value="NO"/>
+    <property name="3" value="NO"/>
+    <property name="4" value="0,6,21"/>
+    <property name="5" value="0"/>
+    <property name="6" value="80"/>
+    <property name="7" value="1000"/>
+    <property name="8" value="5"/>
+    <property name="9" value="71030"/>
+   </properties>
+  </object>
+  <object id="4" name="2" x="1560" y="216" width="72" height="72">
+   <properties>
+    <property name="0" value="YES"/>
+    <property name="1" value="NO"/>
+    <property name="10" value="4"/>
+    <property name="2" value="NO"/>
+    <property name="3" value="NO"/>
+    <property name="4" value="0,6,21"/>
+    <property name="5" value="0"/>
+    <property name="6" value="80"/>
+    <property name="7" value="1000"/>
+    <property name="8" value="5"/>
+    <property name="9" value="71031"/>
+   </properties>
+  </object>
+  <object id="6" name="3" x="1560" y="336" width="72" height="72">
+   <properties>
+    <property name="0" value="YES"/>
+    <property name="1" value="NO"/>
+    <property name="10" value="3"/>
+    <property name="2" value="NO"/>
+    <property name="3" value="NO"/>
+    <property name="4" value="0,6,21"/>
+    <property name="5" value="0"/>
+    <property name="6" value="80"/>
+    <property name="7" value="1000"/>
+    <property name="8" value="5"/>
+    <property name="9" value="71032"/>
+   </properties>
+  </object>
+  <object id="5" name="4" x="2136" y="360" width="72" height="72">
+   <properties>
+    <property name="0" value="YES"/>
+    <property name="1" value="NO"/>
+    <property name="10" value="2"/>
+    <property name="2" value="NO"/>
+    <property name="3" value="YES"/>
+    <property name="4" value="0,6,21"/>
+    <property name="5" value="0"/>
+    <property name="6" value="40"/>
+    <property name="7" value="2000"/>
+    <property name="8" value="7"/>
+    <property name="9" value="71033"/>
+   </properties>
+  </object>
+  <object id="7" name="5" x="120" y="144" width="72" height="72">
+   <properties>
+    <property name="0" value="72010"/>
+    <property name="1" value="YES"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

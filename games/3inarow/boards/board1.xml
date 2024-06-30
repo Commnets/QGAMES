@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Board>
+	<Resources>
+		<Resource id="11" group="1"/>
+		<Resource id="12" group="1"/>
+		<Resource id="13" group="1"/>
+		<Resource id="21" group="2"/>
+		<Resource id="22" group="2"/>
+		<Resource id="23" group="2"/>
+	</Resources>
+	<Squares>
+		<Square id="11"/>
+		<Square id="12"/>
+		<Square id="13"/>
+		<Square id="21"/>
+		<Square id="22"/>
+		<Square id="23"/>
+		<Square id="31"/>
+		<Square id="32"/>
+		<Square id="33"/>
+	</Squares>
+	<SquareConnections>
+	</SquareConnections>
+</Board>

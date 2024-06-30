@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="75" height="25" tilewidth="24" tileheight="24" infinite="0" nextlayerid="11" nextobjectid="2">
+ <tileset firstgid="1" name="Base" tilewidth="24" tileheight="24" spacing="1" margin="1" tilecount="8" columns="8">
+  <image source="maps/Base.png" width="201" height="26"/>
+ </tileset>
+ <tileset firstgid="9" name="Solid" tilewidth="24" tileheight="24" spacing="1" margin="1" tilecount="8" columns="8">
+  <image source="maps/Solid.png" width="201" height="26"/>
+ </tileset>
+ <tileset firstgid="17" name="Mushroom2" tilewidth="24" tileheight="24" tilecount="1" columns="1">
+  <image source="maps/Mushroom2.png" width="24" height="24"/>
+ </tileset>
+ <tileset firstgid="18" name="Mushroom1" tilewidth="24" tileheight="24" tilecount="1" columns="1">
+  <image source="maps/Mushroom1.png" width="24" height="24"/>
+ </tileset>
+ <tileset firstgid="19" name="Bush1" tilewidth="24" tileheight="24" tilecount="10" columns="5">
+  <image source="maps/Bush1.png" width="120" height="48"/>
+ </tileset>
+ <tileset firstgid="29" name="Bush2" tilewidth="24" tileheight="24" tilecount="10" columns="5">
+  <image source="maps/Bush2.png" width="120" height="48"/>
+ </tileset>
+ <tileset firstgid="39" name="Location" tilewidth="24" tileheight="24" tilecount="100" columns="10">
+  <image source="maps/Location.png" width="240" height="240"/>
+ </tileset>
+ <tileset firstgid="139" name="Notification" tilewidth="24" tileheight="24" tilecount="100" columns="10">
+  <image source="maps/Notification.png" width="240" height="240"/>
+ </tileset>
+ <tileset firstgid="239" name="Flags" tilewidth="24" tileheight="24" tilecount="330" columns="30">
+  <image source="maps/MarioFlags.png" width="720" height="264"/>
+ </tileset>
+ <tileset firstgid="569" name="OtherFlags" tilewidth="24" tileheight="24" tilecount="1024" columns="32">
+  <image source="maps/OtherFlags.png" width="768" height="768"/>
+ </tileset>
+ <tileset firstgid="1593" name="BigTree2" tilewidth="24" tileheight="24" tilecount="121" columns="11">
+  <image source="maps/BigTree2.png" width="264" height="264"/>
+ </tileset>
+ <tileset firstgid="1714" name="BigTree1" tilewidth="24" tileheight="24" tilecount="121" columns="11">
+  <image source="maps/BigTree1.png" width="264" height="264"/>
+ </tileset>
+ <layer id="6" name="DecorationBack_1" width="75" height="25">
+  <data encoding="base64" compression="zlib">
+   eAHt1bEJgFAMhOGIk+kmuoWlLmGts6gLuYCn/eNdJQ/9A+muCF8CiaAQQAABBBD4t0BTR7RqKi/QyanHKg9FAgEEEChc4KwKH/DF8Ub9tSnx2zY57eoDr2cji5zWhNUdGHCyL3fGCitbwA9yV1j5An6Su/KtSCKAAAIIfFfgAmUlCl0=
+  </data>
+ </layer>
+ <layer id="8" name="DecorationBack_2" width="75" height="25">
+  <data encoding="base64" compression="zlib">
+   eAHt0NdOFkAQgNH/yneyY8OGiijFhgiiKEpVsGBvKEoVG2BXQKlv6LmZV9gscSc5matJJl+lUqYUKAVKgVKgFCgFSoFSYKMW2LypUtnCVraxnR3spIpd7GYPMTndxE8p9l4N9lHNfg5wkEMcpoYjHCUmp5v4KcU+pkEtx6njBCepp4FGmjhFTE438VOKfVqDM5zlHM2cp4ULtNLGRWJyuomfUux2DS5xmQ6ucJVOrnGdLrqJyekmfkqxezTopY9+bnCTAQa5xW3uEJPTTfyUYt/VYIh73OcBD3nEY57wlGfE5HQTP6XYzzV4wTAvecUIr3nDKGOME5PTTfyUYk9oMMkUb5nmHe/5wEc+MUNMTjfxU4o9q8Ecn/nCV77xnR/85Be/icnpJn5Ksec1WGCRP/xliWVWWGWNdWJyuomfyi4FSoFSoBQoBf7HAv8AqsfdmA==
+  </data>
+ </layer>
+ <layer id="1" name="Base_1" width="75" height="25">
+  <data encoding="base64" compression="zlib">
+   eAHt00EKwDAIBMDQQtv/v7g5SmluYhAmIIQcFIfNGA4BAgQIECBAgECmwDGbfevMHKAXgSAQsyZnAcY1VUDOUjk1Wwh0ztk1d7p/6lns6nmfQOec7VMzmUCdQPyjXe91WiYRIECAQJXAC73BAMU=
+  </data>
+ </layer>
+ <layer id="10" name="Base_2" width="75" height="25">
+  <data encoding="base64" compression="zlib">
+   eAHt0DEKACAMA8Cim/9/sF2EPqCL5QJZA7kIIUCAAAECBAgQIECAAAECBAgQIECAAIEOgZUjr7tjcPDGyW+1g6+6RoAAAQIfC1xuawAy
+  </data>
+ </layer>
+ <layer id="2" name="Solid_1" width="75" height="25">
+  <data encoding="base64" compression="zlib">
+   eAHt18EKgCAQhGHPBb3/41Z0mwRHQVbcP+igbez2NYcqhQMBBBBAAAEEEEAAgRiB42mr5xkzyvJd1eldX8tPHTNgzUr3yNn3btSltiZnvpX6Zc2ZOjjrrDlzbFo1WXLWcnCuZ8mZY9Fbs2vOeh2c+l1z5jz7SE3M1+LcriMO3PP/L8QEEzJABlbKwA0OjBUU
+  </data>
+ </layer>
+ <layer id="3" name="DecorationFront_1" width="75" height="25" offsetx="0" offsety="10">
+  <data encoding="base64" compression="zlib">
+   eAHt0MVOA1AQQNEHhRZ3dyhQ4D/gT+ADcXenaHF3d3e4LGYNm5e8hJnkZFaTTK4xOlpAC2gBLaAFtIAW+HuBao8xNdD5vUAtneostar3GtOARjShGS1oRRva0YFOyLh8Iz/a2F006EYPetGHfgxgEEMYxghkXL6RH23sURqMYRwTCGISU5jGDGYxBxmXb+RHGztEg3ksYBFLWMYKVrGGdWxAxuUb+dHG3qTBFraxg13sYR8HOMQRjiHj8o38aGOf0OAUZzjHBS5xhWvc4BZ3kHH5Rn60se9p8IBHPOEZL3jFG97xgU/IuHwjP9rYXz8NfMaEIRweRCASXvgQhWjIuHwjP9rYMTSIRRzikYBEJCEZKUhFGmRcvpEfbex0GmQgE1nIRg5ykYd8FKAQMi7fyI82dhENilECP0pRhnIEUIFKVEHG5Rv5UbcW0AJaQAtogf9U4BvcNCNu
+  </data>
+ </layer>
+ <layer id="4" name="Location" width="75" height="25">
+  <data encoding="base64" compression="zlib">
+   eAHt1EEKgCAQBdA5T8ugZcu6/5GE1gYJYnx4LkccP8/BKosAAQKZAldmbKkJECBQJwMCCwTM2QJkV/jPQmdgC8vtPwt7sAlx7wk9RluMzNneaf611jn6lI63DXUCBAgQIECAAIHfBRp9OwKy
+  </data>
+ </layer>
+ <layer id="5" name="Notification" width="75" height="25">
+  <data encoding="base64" compression="zlib">
+   eAHt0rENACEMA0D2/x+aASxLaWjgKO0oxZG1PAJnBP4za6/cymr+raxYzQXmk+6K1VzAJAECBAgQINAEvlbIQ4BVkNSAVaWJglWQ1IBVpYmCVZAICBAgQOBBgQ132QaL
+  </data>
+ </layer>
+ <objectgroup id="9" name="ObjectZone">
+  <object id="1" name="1" x="1200" y="288" width="72" height="72">
+   <properties>
+    <property name="0" value="YES"/>
+    <property name="1" value="NO"/>
+    <property name="10" value="0.5"/>
+    <property name="2" value="NO"/>
+    <property name="3" value="NO"/>
+    <property name="4" value="0"/>
+    <property name="5" value="0"/>
+    <property name="6" value="25"/>
+    <property name="7" value="5000"/>
+    <property name="8" value="10"/>
+    <property name="9" value="71110"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

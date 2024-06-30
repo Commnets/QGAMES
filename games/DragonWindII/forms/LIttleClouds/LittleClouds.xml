@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:ad0c8c3d37dd97476c58f0c277d2ca68:a48d6300a9242fa7f8a39ec59b0cff7d:9b82e7369cbd54ac90396f58af01b373$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="LittleClouds" file="./forms/LittleClouds.png" width="432" height="64"
+		fSpacing="0" fMargin="0" fWidth="144" fHeight="64" aColor="255" nFrames="?">
+		<Frame id="cloud1" fPosX="0" fPosY="0" fWidth="144" fHeight="64" xoffset="0" yoffset="0" width="144" height="64"/>
+		<Frame id="cloud2" fPosX="144" fPosY="0" fWidth="144" fHeight="64" xoffset="0" yoffset="0" width="144" height="64"/>
+		<Frame id="cloud3" fPosX="288" fPosY="0" fWidth="144" fHeight="64" xoffset="0" yoffset="0" width="144" height="64"/>
+    </Form>
+</CommtyExporter>

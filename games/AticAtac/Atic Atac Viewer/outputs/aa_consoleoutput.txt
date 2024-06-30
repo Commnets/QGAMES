@@ -1,0 +1,923 @@
+acg key posible locations: left 129, middle 69, right 124
+acg key posible locations: left 133, middle 73, right 43
+acg key posible locations: left 106, middle 59, right 124
+acg key posible locations: left 105, middle 113, right 43
+acg key posible locations: left 103, middle 133, right 124
+acg key posible locations: left 104, middle 127, right 43
+acg key posible locations: left 77, middle 115, right 124
+acg key posible locations: left 23, middle 16, right 43
+
+yellow key is in room 102
+red key is in one of these: 23 19 9 13 137 135 128 133
+green key is in one of these: 5 6 7 109 37 36 35 34
+cyan key is in one of these: 83 143 65 148 51 145 57 76
+
+ROOMS
+room number 0 is of type 0
+room number 1 is of type 2
+room number 2 is of type 3
+room number 3 is of type 2
+room number 4 is of type 4
+room number 5 is of type 2
+room number 6 is of type 3
+room number 7 is of type 2
+room number 8 is of type 4
+room number 9 is of type 0
+room number 10 is of type 3
+room number 11 is of type 3
+room number 12 is of type 3
+room number 13 is of type 0
+room number 14 is of type 4
+room number 15 is of type 4
+room number 16 is of type 4
+room number 17 is of type 4
+room number 18 is of type 4
+room number 19 is of type 0
+room number 20 is of type 3
+room number 21 is of type 3
+room number 22 is of type 3
+room number 23 is of type 0
+room number 24 is of type 4
+room number 25 is of type 3
+room number 26 is of type 5
+room number 27 is of type 0
+room number 28 is of type 8
+room number 29 is of type 1
+room number 30 is of type 4
+room number 31 is of type 2
+room number 32 is of type 3
+room number 33 is of type 2
+room number 34 is of type 4
+room number 35 is of type 2
+room number 36 is of type 3
+room number 37 is of type 2
+room number 38 is of type 5
+room number 39 is of type 0
+room number 40 is of type 4
+room number 41 is of type 0
+room number 42 is of type 3
+room number 43 is of type 0
+room number 44 is of type 4
+room number 45 is of type 0
+room number 46 is of type 3
+room number 47 is of type 5
+room number 48 is of type 1
+room number 49 is of type 10
+room number 50 is of type 10
+room number 51 is of type 1
+room number 52 is of type 10
+room number 53 is of type 1
+room number 54 is of type 9
+room number 55 is of type 9
+room number 56 is of type 1
+room number 57 is of type 1
+room number 58 is of type 1
+room number 59 is of type 1
+room number 60 is of type 1
+room number 61 is of type 1
+room number 62 is of type 1
+room number 63 is of type 9
+room number 64 is of type 1
+room number 65 is of type 1
+room number 66 is of type 10
+room number 67 is of type 1
+room number 68 is of type 9
+room number 69 is of type 1
+room number 70 is of type 1
+room number 71 is of type 9
+room number 72 is of type 1
+room number 73 is of type 10
+room number 74 is of type 9
+room number 75 is of type 1
+room number 76 is of type 1
+room number 77 is of type 10
+room number 78 is of type 1
+room number 79 is of type 9
+room number 80 is of type 1
+room number 81 is of type 10
+room number 82 is of type 9
+room number 83 is of type 1
+room number 84 is of type 1
+room number 85 is of type 1
+room number 86 is of type 0
+room number 87 is of type 0
+room number 88 is of type 0
+room number 89 is of type 0
+room number 90 is of type 0
+room number 91 is of type 0
+room number 92 is of type 0
+room number 93 is of type 0
+room number 94 is of type 0
+room number 95 is of type 0
+room number 96 is of type 0
+room number 97 is of type 0
+room number 98 is of type 0
+room number 99 is of type 0
+room number 100 is of type 0
+room number 101 is of type 0
+room number 102 is of type 0
+room number 103 is of type 0
+room number 104 is of type 0
+room number 105 is of type 0
+room number 106 is of type 0
+room number 107 is of type 0
+room number 108 is of type 0
+room number 109 is of type 0
+room number 110 is of type 0
+room number 111 is of type 4
+room number 112 is of type 0
+room number 113 is of type 5
+room number 114 is of type 5
+room number 115 is of type 3
+room number 116 is of type 1
+room number 117 is of type 0
+room number 118 is of type 0
+room number 119 is of type 3
+room number 120 is of type 0
+room number 121 is of type 4
+room number 122 is of type 0
+room number 123 is of type 3
+room number 124 is of type 0
+room number 125 is of type 4
+room number 126 is of type 0
+room number 127 is of type 0
+room number 128 is of type 0
+room number 129 is of type 0
+room number 130 is of type 0
+room number 131 is of type 0
+room number 132 is of type 0
+room number 133 is of type 0
+room number 134 is of type 0
+room number 135 is of type 0
+room number 136 is of type 0
+room number 137 is of type 0
+room number 138 is of type 0
+room number 139 is of type 4
+room number 140 is of type 4
+room number 141 is of type 4
+room number 142 is of type 11
+room number 143 is of type 1
+room number 144 is of type 1
+room number 145 is of type 1
+room number 146 is of type 1
+room number 147 is of type 1
+room number 148 is of type 1
+room number 149 is of type 0
+room number 150 is of type 12
+
+OBJECTS IN ROOMS
+The types can be seen in the lookups later. 
+obj 1 is itemtype 2,x=80,y=183 doortime=4,jumptoroom=7,jumptoobject=0
+obj 3 is itemtype 2,x=8,y=111 doortime=6,jumptoroom=25,jumptoobject=2
+obj 5 is itemtype 10,x=80,y=31 doortime=4,jumptoroom=1,jumptoobject=4
+obj 542 is itemtype 36,x=152,y=127 doortime=186,jumptoroom=142,jumptoobject=543
+obj 384 is itemtype 30,x=152,y=63 
+obj 386 is itemtype 30,x=152,y=143 
+obj 454 is itemtype 37,x=40,y=23 
+obj 456 is itemtype 17,x=120,y=28 
+obj 458 is itemtype 28,x=56,y=183 
+obj 460 is itemtype 21,x=120,y=183 
+obj 480 is itemtype 29,x=8,y=71 
+obj 482 is itemtype 22,x=8,y=135 
+obj 4 is itemtype 10,x=80,y=183 doortime=4,jumptoroom=0,jumptoobject=5
+obj 7 is itemtype 2,x=8,y=111 doortime=6,jumptoroom=2,jumptoobject=6
+obj 388 is itemtype 30,x=88,y=39 
+obj 473 is itemtype 29,x=168,y=103 
+obj 6 is itemtype 2,x=160,y=111 doortime=183,jumptoroom=1,jumptoobject=7
+obj 9 is itemtype 2,x=8,y=111 doortime=6,jumptoroom=3,jumptoobject=8
+obj 57 is itemtype 2,x=80,y=63 doortime=4,jumptoroom=24,jumptoobject=56
+obj 82 is itemtype 2,x=80,y=151 doortime=4,jumptoroom=38,jumptoobject=83
+obj 1021 is itemtype 1018,x=87,y=103 
+obj 8 is itemtype 2,x=160,y=111 doortime=183,jumptoroom=2,jumptoobject=9
+obj 11 is itemtype 2,x=80,y=183 doortime=4,jumptoroom=4,jumptoobject=10
+obj 255 is itemtype 10,x=8,y=111 doortime=6,jumptoroom=108,jumptoobject=254
+obj 356 is itemtype 25,x=48,y=112 doortime=36,jumptoroom=101,jumptoobject=357
+obj 369 is itemtype 27,x=104,y=116 
+obj 389 is itemtype 30,x=88,y=39 
+obj 10 is itemtype 2,x=80,y=31 doortime=4,jumptoroom=3,jumptoobject=11
+obj 13 is itemtype 2,x=128,y=111 doortime=183,jumptoroom=25,jumptoobject=12
+obj 15 is itemtype 2,x=80,y=183 doortime=4,jumptoroom=5,jumptoobject=14
+obj 462 is itemtype 17,x=40,y=71 
+obj 464 is itemtype 22,x=40,y=135 
+obj 1048 is itemtype 1021,x=87,y=103 
+obj 14 is itemtype 2,x=80,y=31 doortime=4,jumptoroom=4,jumptoobject=15
+obj 17 is itemtype 2,x=160,y=111 doortime=183,jumptoroom=6,jumptoobject=16
+obj 261 is itemtype 2,x=8,y=111 doortime=6,jumptoroom=110,jumptoobject=260
+obj 390 is itemtype 30,x=88,y=183 
+obj 1002 is itemtype 1002,x=64,y=112 
+obj 16 is itemtype 2,x=8,y=111 doortime=6,jumptoroom=5,jumptoobject=17
+obj 19 is itemtype 2,x=80,y=63 doortime=4,jumptoroom=26,jumptoobject=18
+obj 21 is itemtype 9,x=80,y=151 doortime=4,jumptoroom=8,jumptoobject=20
+obj 23 is itemtype 2,x=160,y=111 doortime=183,jumptoroom=7,jumptoobject=22
+obj 385 is itemtype 30,x=56,y=71 
+obj 387 is itemtype 30,x=120,y=71 
+obj 471 is itemtype 28,x=56,y=151 
+obj 472 is itemtype 28,x=120,y=151 
+obj 0 is itemtype 2,x=80,y=31 doortime=4,jumptoroom=0,jumptoobject=1
+obj 22 is itemtype 2,x=8,y=111 doortime=6,jumptoroom=6,jumptoobject=23
+obj 391 is itemtype 30,x=88,y=183 
+obj 470 is itemtype 37,x=168,y=111 
+obj 1020 is itemtype 1018,x=87,y=103 
+obj 20 is itemtype 9,x=80,y=31 doortime=4,jumptoroom=6,jumptoobject=21
+obj 25 is itemtype 2,x=80,y=183 doortime=4,jumptoroom=9,jumptoobject=24
+obj 541 is itemtype 26,x=40,y=111 doortime=6,jumptoroom=138,jumptoobject=540
+obj 450 is itemtype 28,x=136,y=103 
+obj 24 is itemtype 2,x=80,y=31 doortime=4,jumptoroom=8,jumptoobject=25
+obj 27 is itemtype 2,x=8,y=111 doortime=6,jumptoroom=10,jumptoobject=26
+obj 512 is itemtype 16,x=48,y=39 doortime=4,jumptoroom=23,jumptoobject=513
+obj 375 is itemtype 27,x=72,y=116 
+obj 412 is itemtype 30,x=8,y=63 
+obj 414 is itemtype 30,x=8,y=143 
+obj 498 is itemtype 22,x=168,y=71 
+obj 500 is itemtype 17,x=160,y=135 
+obj 1001 is itemtype 1001,x=64,y=64 
+obj 1044 is itemtype 1021,x=128,y=144 
+obj 26 is itemtype 2,x=160,y=111 doortime=183,jumptoroom=9,jumptoobject=27
+obj 29 is itemtype 2,x=8,y=111 doortime=6,jumptoroom=11,jumptoobject=28
+obj 522 is itemtype 23,x=64,y=71 doortime=4,jumptoroom=22,jumptoobject=523
+obj 28 is itemtype 2,x=160,y=111 doortime=183,jumptoroom=10,jumptoobject=29
+obj 31 is itemtype 2,x=8,y=111 doortime=6,jumptoroom=12,jumptoobject=30
+obj 376 is itemtype 17,x=80,y=151 
+obj 457 is itemtype 22,x=88,y=55 
+obj 461 is itemtype 22,x=88,y=151 
+obj 1054 is itemtype 1022,x=87,y=103 
+obj 30 is itemtype 2,x=160,y=111 doortime=183,jumptoroom=11,jumptoobject=31
+obj 33 is itemtype 2,x=8,y=111 doortime=6,jumptoroom=13,jumptoobject=32
+obj 377 is itemtype 17,x=80,y=151 
+obj 497 is itemtype 22,x=88,y=55 
+obj 1015 is itemtype 1018,x=96,y=96 
+obj 1024 is itemtype 1019,x=96,y=112 
+obj 32 is itemtype 2,x=160,y=111 doortime=183,jumptoroom=12,jumptoobject=33
+obj 35 is itemtype 2,x=80,y=31 doortime=4,jumptoroom=14,jumptoobject=34
+obj 262 is itemtype 10,x=80,y=183 doortime=4,jumptoroom=111,jumptoobject=263
+obj 510 is itemtype 16,x=48,y=39 doortime=4,jumptoroom=19,jumptoobject=511
+obj 416 is itemtype 18,x=56,y=80 
+obj 495 is itemtype 21,x=8,y=111 
+obj 1068 is itemtype 1023,x=48,y=103 
+obj 34 is itemtype 2,x=80,y=183 doortime=4,jumptoroom=13,jumptoobject=35
+obj 37 is itemtype 2,x=80,y=31 doortime=4,jumptoroom=15,jumptoobject=36
+obj 444 is itemtype 21,x=40,y=87 
+obj 453 is itemtype 22,x=40,y=119 
+obj 469 is itemtype 37,x=136,y=111 
+obj 36 is itemtype 2,x=80,y=183 doortime=4,jumptoroom=14,jumptoobject=37
+obj 39 is itemtype 2,x=80,y=31 doortime=4,jumptoroom=16,jumptoobject=38
+obj 256 is itemtype 9,x=128,y=111 doortime=183,jumptoroom=109,jumptoobject=257
+obj 446 is itemtype 28,x=40,y=103 
+obj 1028 is itemtype 1019,x=87,y=103 
+obj 38 is itemtype 2,x=80,y=183 doortime=4,jumptoroom=15,jumptoobject=39
+obj 41 is itemtype 8,x=80,y=31 doortime=4,jumptoroom=17,jumptoobject=40
+obj 448 is itemtype 21,x=136,y=111 
+obj 40 is itemtype 8,x=80,y=183 doortime=4,jumptoroom=16,jumptoobject=41
+obj 43 is itemtype 2,x=80,y=31 doortime=4,jumptoroom=18,jumptoobject=42
+obj 250 is itemtype 2,x=128,y=111 doortime=183,jumptoroom=107,jumptoobject=251
+obj 447 is itemtype 29,x=40,y=103 
+obj 1050 is itemtype 1021,x=87,y=103 
+obj 42 is itemtype 2,x=80,y=183 doortime=4,jumptoroom=17,jumptoobject=43
+obj 45 is itemtype 2,x=80,y=31 doortime=4,jumptoroom=19,jumptoobject=44
+obj 445 is itemtype 22,x=136,y=111 
+obj 1085 is itemtype 1025,x=87,y=64 
+obj 44 is itemtype 2,x=80,y=183 doortime=4,jumptoroom=18,jumptoobject=45
+obj 47 is itemtype 2,x=160,y=111 doortime=183,jumptoroom=20,jumptoobject=46
+obj 248 is itemtype 2,x=8,y=111 doortime=6,jumptoroom=115,jumptoobject=249
+obj 511 is itemtype 16,x=48,y=183 doortime=4,jumptoroom=13,jumptoobject=510
+obj 395 is itemtype 30,x=88,y=39 
+obj 417 is itemtype 18,x=112,y=144 
+obj 1008 is itemtype 1008,x=80,y=80 
+obj 46 is itemtype 2,x=8,y=111 doortime=6,jumptoroom=19,jumptoobject=47
+obj 49 is itemtype 2,x=160,y=111 doortime=183,jumptoroom=21,jumptoobject=48
+obj 443 is itemtype 29,x=88,y=151 
+obj 465 is itemtype 37,x=88,y=55 
+obj 48 is itemtype 2,x=8,y=111 doortime=6,jumptoroom=20,jumptoobject=49
+obj 51 is itemtype 2,x=160,y=111 doortime=183,jumptoroom=22,jumptoobject=50
+obj 370 is itemtype 25,x=80,y=128 doortime=36,jumptoroom=102,jumptoobject=371
+obj 393 is itemtype 30,x=120,y=151 
+obj 394 is itemtype 30,x=56,y=151 
+obj 463 is itemtype 21,x=88,y=55 
+obj 50 is itemtype 2,x=8,y=111 doortime=6,jumptoroom=21,jumptoobject=51
+obj 53 is itemtype 8,x=160,y=111 doortime=183,jumptoroom=23,jumptoobject=52
+obj 523 is itemtype 23,x=64,y=151 doortime=4,jumptoroom=10,jumptoobject=522
+obj 442 is itemtype 28,x=88,y=55 
+obj 52 is itemtype 8,x=8,y=111 doortime=6,jumptoroom=22,jumptoobject=53
+obj 55 is itemtype 9,x=80,y=183 doortime=4,jumptoroom=24,jumptoobject=54
+obj 513 is itemtype 16,x=48,y=183 doortime=4,jumptoroom=9,jumptoobject=512
+obj 392 is itemtype 30,x=88,y=39 
+obj 475 is itemtype 29,x=168,y=103 
+obj 1018 is itemtype 1018,x=64,y=64 
+obj 1108 is itemtype 1033,x=80,y=80 
+obj 54 is itemtype 9,x=80,y=31 doortime=4,jumptoroom=23,jumptoobject=55
+obj 56 is itemtype 2,x=80,y=183 doortime=4,jumptoroom=2,jumptoobject=57
+obj 420 is itemtype 18,x=72,y=80 
+obj 424 is itemtype 18,x=88,y=128 
+obj 451 is itemtype 29,x=136,y=103 
+obj 474 is itemtype 17,x=40,y=111 
+obj 2 is itemtype 2,x=160,y=111 doortime=183,jumptoroom=0,jumptoobject=3
+obj 12 is itemtype 2,x=8,y=111 doortime=6,jumptoroom=4,jumptoobject=13
+obj 455 is itemtype 29,x=88,y=55 
+obj 459 is itemtype 29,x=88,y=151 
+obj 18 is itemtype 3,x=72,y=182 doortime=22,jumptoroom=6,jumptoobject=19
+obj 58 is itemtype 2,x=80,y=40 doortime=4,jumptoroom=27,jumptoobject=59
+obj 59 is itemtype 2,x=80,y=183 doortime=4,jumptoroom=26,jumptoobject=58
+obj 60 is itemtype 2,x=160,y=111 doortime=183,jumptoroom=28,jumptoobject=61
+obj 339 is itemtype 2,x=8,y=111 doortime=6,jumptoroom=101,jumptoobject=338
+obj 429 is itemtype 18,x=112,y=80 
+obj 1065 is itemtype 1023,x=87,y=103 
+obj 61 is itemtype 3,x=8,y=119 doortime=8,jumptoroom=27,jumptoobject=60
+obj 62 is itemtype 2,x=152,y=111 doortime=175,jumptoroom=29,jumptoobject=63
+obj 63 is itemtype 1,x=24,y=111 doortime=6,jumptoroom=28,jumptoobject=62
+obj 178 is itemtype 1,x=144,y=111 doortime=183,jumptoroom=67,jumptoobject=179
+obj 1087 is itemtype 1025,x=48,y=103 
+obj 64 is itemtype 2,x=80,y=31 doortime=4,jumptoroom=31,jumptoobject=65
+obj 79 is itemtype 10,x=80,y=183 doortime=4,jumptoroom=37,jumptoobject=78
+obj 1014 is itemtype 1018,x=80,y=87 
+obj 65 is itemtype 2,x=80,y=183 doortime=4,jumptoroom=30,jumptoobject=64
+obj 66 is itemtype 2,x=8,y=111 doortime=6,jumptoroom=32,jumptoobject=67
+obj 380 is itemtype 30,x=152,y=103 
+obj 1010 is itemtype 1016,x=112,y=112 
+obj 67 is itemtype 2,x=160,y=111 doortime=183,jumptoroom=31,jumptoobject=66
+obj 68 is itemtype 2,x=8,y=111 doortime=6,jumptoroom=33,jumptoobject=69
+obj 102 is itemtype 11,x=80,y=151 doortime=4,jumptoroom=47,jumptoobject=103
+obj 69 is itemtype 2,x=160,y=111 doortime=183,jumptoroom=32,jumptoobject=68
+obj 70 is itemtype 2,x=80,y=183 doortime=4,jumptoroom=34,jumptoobject=71
+obj 212 is itemtype 2,x=80,y=31 doortime=4,jumptoroom=136,jumptoobject=213
+obj 368 is itemtype 25,x=112,y=112 doortime=36,jumptoroom=3,jumptoobject=369
+obj 381 is itemtype 30,x=8,y=103 
+obj 71 is itemtype 2,x=80,y=31 doortime=4,jumptoroom=33,jumptoobject=70
+obj 72 is itemtype 2,x=80,y=183 doortime=4,jumptoroom=35,jumptoobject=73
+obj 519 is itemtype 16,x=40,y=111 doortime=6,jumptoroom=141,jumptoobject=518
+obj 73 is itemtype 2,x=80,y=31 doortime=4,jumptoroom=34,jumptoobject=72
+obj 74 is itemtype 2,x=160,y=111 doortime=183,jumptoroom=36,jumptoobject=75
+obj 247 is itemtype 9,x=80,y=183 doortime=4,jumptoroom=138,jumptoobject=246
+obj 383 is itemtype 30,x=8,y=103 
+obj 75 is itemtype 2,x=8,y=111 doortime=6,jumptoroom=35,jumptoobject=74
+obj 76 is itemtype 2,x=160,y=111 doortime=183,jumptoroom=37,jumptoobject=77
+obj 80 is itemtype 2,x=80,y=63 doortime=4,jumptoroom=38,jumptoobject=81
+obj 405 is itemtype 30,x=56,y=71 
+obj 407 is itemtype 30,x=120,y=71 
+obj 1083 is itemtype 1025,x=96,y=112 
+obj 77 is itemtype 2,x=8,y=111 doortime=6,jumptoroom=36,jumptoobject=76
+obj 78 is itemtype 10,x=80,y=31 doortime=4,jumptoroom=30,jumptoobject=79
+obj 382 is itemtype 30,x=152,y=103 
+obj 1064 is itemtype 1023,x=107,y=123 
+obj 81 is itemtype 3,x=72,y=182 doortime=22,jumptoroom=36,jumptoobject=80
+obj 83 is itemtype 2,x=80,y=40 doortime=4,jumptoroom=2,jumptoobject=82
+obj 84 is itemtype 2,x=80,y=183 doortime=4,jumptoroom=40,jumptoobject=85
+obj 99 is itemtype 2,x=8,y=111 doortime=6,jumptoroom=46,jumptoobject=98
+obj 100 is itemtype 2,x=80,y=31 doortime=4,jumptoroom=47,jumptoobject=101
+obj 400 is itemtype 30,x=56,y=39 
+obj 402 is itemtype 30,x=120,y=39 
+obj 503 is itemtype 37,x=168,y=71 
+obj 505 is itemtype 29,x=168,y=135 
+obj 1012 is itemtype 1018,x=87,y=103 
+obj 85 is itemtype 2,x=80,y=31 doortime=4,jumptoroom=39,jumptoobject=84
+obj 86 is itemtype 10,x=80,y=183 doortime=4,jumptoroom=41,jumptoobject=87
+obj 1091 is itemtype 1025,x=87,y=103 
+obj 87 is itemtype 10,x=80,y=31 doortime=4,jumptoroom=40,jumptoobject=86
+obj 88 is itemtype 2,x=8,y=111 doortime=6,jumptoroom=42,jumptoobject=89
+obj 211 is itemtype 2,x=80,y=183 doortime=4,jumptoroom=126,jumptoobject=210
+obj 374 is itemtype 25,x=80,y=128 doortime=36,jumptoroom=9,jumptoobject=375
+obj 506 is itemtype 28,x=168,y=71 
+obj 508 is itemtype 17,x=160,y=135 
+obj 89 is itemtype 2,x=160,y=111 doortime=183,jumptoroom=41,jumptoobject=88
+obj 90 is itemtype 2,x=8,y=111 doortime=6,jumptoroom=43,jumptoobject=91
+obj 434 is itemtype 18,x=56,y=87 
+obj 436 is itemtype 18,x=96,y=127 
+obj 91 is itemtype 2,x=160,y=111 doortime=183,jumptoroom=42,jumptoobject=90
+obj 92 is itemtype 2,x=80,y=31 doortime=4,jumptoroom=44,jumptoobject=93
+obj 401 is itemtype 30,x=56,y=39 
+obj 403 is itemtype 30,x=120,y=39 
+obj 1042 is itemtype 1021,x=64,y=128 
+obj 93 is itemtype 2,x=80,y=183 doortime=4,jumptoroom=43,jumptoobject=92
+obj 94 is itemtype 2,x=80,y=31 doortime=4,jumptoroom=45,jumptoobject=95
+obj 95 is itemtype 2,x=80,y=183 doortime=4,jumptoroom=44,jumptoobject=94
+obj 96 is itemtype 9,x=160,y=111 doortime=183,jumptoroom=46,jumptoobject=97
+obj 188 is itemtype 2,x=8,y=111 doortime=6,jumptoroom=117,jumptoobject=189
+obj 360 is itemtype 25,x=80,y=144 doortime=36,jumptoroom=141,jumptoobject=361
+obj 435 is itemtype 18,x=48,y=128 
+obj 437 is itemtype 18,x=112,y=128 
+obj 97 is itemtype 9,x=8,y=111 doortime=6,jumptoroom=45,jumptoobject=96
+obj 98 is itemtype 2,x=160,y=111 doortime=183,jumptoroom=39,jumptoobject=99
+obj 430 is itemtype 18,x=56,y=87 
+obj 432 is itemtype 18,x=96,y=127 
+obj 101 is itemtype 3,x=72,y=182 doortime=22,jumptoroom=39,jumptoobject=100
+obj 103 is itemtype 11,x=80,y=40 doortime=4,jumptoroom=32,jumptoobject=102
+obj 104 is itemtype 1,x=80,y=167 doortime=4,jumptoroom=49,jumptoobject=105
+obj 187 is itemtype 1,x=144,y=111 doortime=183,jumptoroom=84,jumptoobject=186
+obj 272 is itemtype 1,x=24,y=111 doortime=6,jumptoroom=116,jumptoobject=273
+obj 1003 is itemtype 1003,x=64,y=112 
+obj 105 is itemtype 1,x=80,y=39 doortime=4,jumptoroom=48,jumptoobject=104
+obj 106 is itemtype 1,x=80,y=175 doortime=4,jumptoroom=50,jumptoobject=107
+obj 107 is itemtype 1,x=80,y=39 doortime=4,jumptoroom=49,jumptoobject=106
+obj 108 is itemtype 1,x=80,y=175 doortime=4,jumptoroom=51,jumptoobject=109
+obj 109 is itemtype 1,x=80,y=47 doortime=4,jumptoroom=50,jumptoobject=108
+obj 110 is itemtype 1,x=80,y=167 doortime=4,jumptoroom=52,jumptoobject=111
+obj 114 is itemtype 1,x=144,y=111 doortime=183,jumptoroom=54,jumptoobject=115
+obj 546 is itemtype 38,x=24,y=111 
+obj 1047 is itemtype 1021,x=87,y=103 
+obj 111 is itemtype 1,x=80,y=39 doortime=4,jumptoroom=51,jumptoobject=110
+obj 112 is itemtype 1,x=80,y=175 doortime=4,jumptoroom=53,jumptoobject=113
+obj 113 is itemtype 1,x=80,y=47 doortime=4,jumptoroom=52,jumptoobject=112
+obj 271 is itemtype 1,x=80,y=167 doortime=4,jumptoroom=114,jumptoobject=270
+obj 514 is itemtype 16,x=136,y=111 doortime=183,jumptoroom=143,jumptoobject=515
+obj 1037 is itemtype 1020,x=87,y=103 
+obj 1059 is itemtype 1022,x=87,y=144 
+obj 1063 is itemtype 1023,x=87,y=64 
+obj 115 is itemtype 1,x=16,y=111 doortime=6,jumptoroom=51,jumptoobject=114
+obj 116 is itemtype 1,x=152,y=111 doortime=183,jumptoroom=55,jumptoobject=117
+obj 117 is itemtype 1,x=16,y=111 doortime=6,jumptoroom=54,jumptoobject=116
+obj 118 is itemtype 1,x=152,y=111 doortime=183,jumptoroom=56,jumptoobject=119
+obj 1080 is itemtype 1024,x=87,y=103 
+obj 119 is itemtype 1,x=24,y=111 doortime=6,jumptoroom=55,jumptoobject=118
+obj 120 is itemtype 1,x=80,y=167 doortime=4,jumptoroom=57,jumptoobject=121
+obj 122 is itemtype 13,x=144,y=111 doortime=183,jumptoroom=58,jumptoobject=123
+obj 536 is itemtype 26,x=80,y=55 doortime=4,jumptoroom=75,jumptoobject=537
+obj 1099 is itemtype 1032,x=107,y=84 
+obj 121 is itemtype 1,x=80,y=47 doortime=4,jumptoroom=56,jumptoobject=120
+obj 124 is itemtype 1,x=144,y=111 doortime=183,jumptoroom=59,jumptoobject=125
+obj 1077 is itemtype 1024,x=67,y=123 
+obj 123 is itemtype 13,x=24,y=111 doortime=6,jumptoroom=56,jumptoobject=122
+obj 126 is itemtype 1,x=80,y=167 doortime=4,jumptoroom=59,jumptoobject=127
+obj 352 is itemtype 1,x=80,y=47 doortime=4,jumptoroom=148,jumptoobject=353
+obj 1029 is itemtype 1019,x=48,y=72 
+obj 1039 is itemtype 1020,x=87,y=72 
+obj 125 is itemtype 1,x=24,y=111 doortime=6,jumptoroom=57,jumptoobject=124
+obj 127 is itemtype 1,x=80,y=47 doortime=4,jumptoroom=58,jumptoobject=126
+obj 128 is itemtype 13,x=80,y=167 doortime=4,jumptoroom=60,jumptoobject=129
+obj 130 is itemtype 1,x=144,y=111 doortime=183,jumptoroom=61,jumptoobject=131
+obj 1004 is itemtype 1004,x=96,y=96 
+obj 1105 is itemtype 1032,x=67,y=123 
+obj 1106 is itemtype 1032,x=107,y=123 
+obj 129 is itemtype 13,x=80,y=47 doortime=4,jumptoroom=59,jumptoobject=128
+obj 132 is itemtype 1,x=144,y=111 doortime=183,jumptoroom=62,jumptoobject=133
+obj 1076 is itemtype 1024,x=67,y=123 
+obj 131 is itemtype 1,x=24,y=111 doortime=6,jumptoroom=59,jumptoobject=130
+obj 134 is itemtype 1,x=80,y=167 doortime=4,jumptoroom=62,jumptoobject=135
+obj 136 is itemtype 14,x=144,y=111 doortime=183,jumptoroom=63,jumptoobject=137
+obj 524 is itemtype 23,x=72,y=55 doortime=4,jumptoroom=73,jumptoobject=525
+obj 379 is itemtype 39,x=95,y=95 
+obj 133 is itemtype 1,x=24,y=111 doortime=6,jumptoroom=60,jumptoobject=132
+obj 135 is itemtype 1,x=80,y=47 doortime=4,jumptoroom=61,jumptoobject=134
+obj 530 is itemtype 23,x=136,y=119 doortime=183,jumptoroom=65,jumptoobject=531
+obj 1036 is itemtype 1020,x=67,y=123 
+obj 137 is itemtype 14,x=16,y=111 doortime=6,jumptoroom=61,jumptoobject=136
+obj 138 is itemtype 1,x=152,y=111 doortime=183,jumptoroom=64,jumptoobject=139
+obj 139 is itemtype 1,x=24,y=111 doortime=6,jumptoroom=63,jumptoobject=138
+obj 140 is itemtype 1,x=144,y=111 doortime=183,jumptoroom=65,jumptoobject=141
+obj 142 is itemtype 1,x=80,y=47 doortime=4,jumptoroom=66,jumptoobject=143
+obj 340 is itemtype 1,x=80,y=167 doortime=4,jumptoroom=143,jumptoobject=341
+obj 1094 is itemtype 1032,x=67,y=123 
+obj 141 is itemtype 1,x=24,y=111 doortime=6,jumptoroom=64,jumptoobject=140
+obj 531 is itemtype 23,x=72,y=167 doortime=4,jumptoroom=62,jumptoobject=530
+obj 1017 is itemtype 1018,x=87,y=103 
+obj 1030 is itemtype 1019,x=128,y=103 
+obj 143 is itemtype 1,x=80,y=175 doortime=4,jumptoroom=64,jumptoobject=142
+obj 144 is itemtype 1,x=80,y=39 doortime=4,jumptoroom=67,jumptoobject=145
+obj 145 is itemtype 1,x=80,y=167 doortime=4,jumptoroom=66,jumptoobject=144
+obj 146 is itemtype 1,x=144,y=111 doortime=183,jumptoroom=68,jumptoobject=147
+obj 150 is itemtype 1,x=80,y=47 doortime=4,jumptoroom=70,jumptoobject=151
+obj 179 is itemtype 1,x=24,y=111 doortime=6,jumptoroom=29,jumptoobject=178
+obj 1093 is itemtype 1032,x=107,y=84 
+obj 1110 is itemtype 1035,x=80,y=80 
+obj 147 is itemtype 1,x=16,y=111 doortime=6,jumptoroom=67,jumptoobject=146
+obj 148 is itemtype 12,x=152,y=111 doortime=183,jumptoroom=69,jumptoobject=149
+obj 149 is itemtype 12,x=24,y=111 doortime=6,jumptoroom=68,jumptoobject=148
+obj 532 is itemtype 26,x=80,y=55 doortime=4,jumptoroom=83,jumptoobject=533
+obj 1026 is itemtype 1019,x=87,y=70 
+obj 1098 is itemtype 1032,x=128,y=103 
+obj 151 is itemtype 1,x=80,y=167 doortime=4,jumptoroom=67,jumptoobject=150
+obj 152 is itemtype 1,x=24,y=111 doortime=6,jumptoroom=71,jumptoobject=153
+obj 180 is itemtype 1,x=80,y=47 doortime=4,jumptoroom=81,jumptoobject=181
+obj 1027 is itemtype 1019,x=67,y=123 
+obj 153 is itemtype 1,x=152,y=111 doortime=183,jumptoroom=70,jumptoobject=152
+obj 154 is itemtype 12,x=16,y=111 doortime=6,jumptoroom=72,jumptoobject=155
+obj 155 is itemtype 12,x=144,y=111 doortime=183,jumptoroom=71,jumptoobject=154
+obj 156 is itemtype 1,x=80,y=167 doortime=4,jumptoroom=73,jumptoobject=157
+obj 158 is itemtype 14,x=24,y=111 doortime=6,jumptoroom=74,jumptoobject=159
+obj 164 is itemtype 1,x=80,y=47 doortime=4,jumptoroom=77,jumptoobject=165
+obj 1005 is itemtype 1005,x=112,y=112 
+obj 157 is itemtype 1,x=80,y=39 doortime=4,jumptoroom=72,jumptoobject=156
+obj 525 is itemtype 23,x=80,y=175 doortime=4,jumptoroom=61,jumptoobject=524
+obj 1011 is itemtype 1017,x=80,y=64 
+obj 1090 is itemtype 1025,x=87,y=103 
+obj 159 is itemtype 14,x=152,y=111 doortime=183,jumptoroom=72,jumptoobject=158
+obj 160 is itemtype 1,x=16,y=111 doortime=6,jumptoroom=75,jumptoobject=161
+obj 161 is itemtype 1,x=144,y=111 doortime=183,jumptoroom=74,jumptoobject=160
+obj 162 is itemtype 1,x=80,y=47 doortime=4,jumptoroom=76,jumptoobject=163
+obj 537 is itemtype 26,x=80,y=167 doortime=4,jumptoroom=56,jumptoobject=536
+obj 359 is itemtype 27,x=72,y=116 
+obj 1049 is itemtype 1021,x=48,y=136 
+obj 163 is itemtype 1,x=80,y=167 doortime=4,jumptoroom=75,jumptoobject=162
+obj 182 is itemtype 1,x=24,y=111 doortime=6,jumptoroom=85,jumptoobject=183
+obj 534 is itemtype 26,x=136,y=111 doortime=183,jumptoroom=78,jumptoobject=535
+obj 1057 is itemtype 1022,x=107,y=123 
+obj 165 is itemtype 1,x=80,y=175 doortime=4,jumptoroom=72,jumptoobject=164
+obj 166 is itemtype 12,x=80,y=39 doortime=4,jumptoroom=78,jumptoobject=167
+obj 167 is itemtype 12,x=80,y=167 doortime=4,jumptoroom=77,jumptoobject=166
+obj 168 is itemtype 1,x=144,y=111 doortime=183,jumptoroom=79,jumptoobject=169
+obj 535 is itemtype 26,x=24,y=111 doortime=6,jumptoroom=76,jumptoobject=534
+obj 1079 is itemtype 1024,x=103,y=64 
+obj 1089 is itemtype 1025,x=64,y=103 
+obj 169 is itemtype 1,x=16,y=111 doortime=6,jumptoroom=78,jumptoobject=168
+obj 170 is itemtype 1,x=152,y=111 doortime=183,jumptoroom=80,jumptoobject=171
+obj 1071 is itemtype 1023,x=87,y=103 
+obj 171 is itemtype 1,x=24,y=111 doortime=6,jumptoroom=79,jumptoobject=170
+obj 172 is itemtype 1,x=80,y=167 doortime=4,jumptoroom=81,jumptoobject=173
+obj 174 is itemtype 13,x=144,y=111 doortime=183,jumptoroom=82,jumptoobject=175
+obj 1092 is itemtype 1032,x=87,y=64 
+obj 173 is itemtype 1,x=80,y=39 doortime=4,jumptoroom=80,jumptoobject=172
+obj 181 is itemtype 1,x=80,y=175 doortime=4,jumptoroom=70,jumptoobject=180
+obj 175 is itemtype 13,x=16,y=111 doortime=6,jumptoroom=80,jumptoobject=174
+obj 176 is itemtype 1,x=152,y=111 doortime=183,jumptoroom=83,jumptoobject=177
+obj 177 is itemtype 1,x=24,y=111 doortime=6,jumptoroom=82,jumptoobject=176
+obj 533 is itemtype 26,x=80,y=164 doortime=4,jumptoroom=69,jumptoobject=532
+obj 544 is itemtype 38,x=128,y=119 
+obj 1056 is itemtype 1022,x=67,y=123 
+obj 1070 is itemtype 1023,x=107,y=123 
+obj 1107 is itemtype 1032,x=128,y=64 
+obj 184 is itemtype 1,x=144,y=111 doortime=183,jumptoroom=85,jumptoobject=185
+obj 186 is itemtype 1,x=24,y=111 doortime=6,jumptoroom=48,jumptoobject=187
+obj 342 is itemtype 1,x=80,y=167 doortime=4,jumptoroom=144,jumptoobject=343
+obj 1104 is itemtype 1032,x=87,y=64 
+obj 183 is itemtype 1,x=144,y=111 doortime=183,jumptoroom=76,jumptoobject=182
+obj 185 is itemtype 1,x=24,y=111 doortime=6,jumptoroom=84,jumptoobject=184
+obj 547 is itemtype 38,x=80,y=167 
+obj 1111 is itemtype 1036,x=80,y=80 
+obj 274 is itemtype 2,x=160,y=111 doortime=183,jumptoroom=87,jumptoobject=275
+obj 298 is itemtype 2,x=80,y=183 doortime=4,jumptoroom=90,jumptoobject=299
+obj 323 is itemtype 10,x=80,y=31 doortime=4,jumptoroom=103,jumptoobject=322
+obj 327 is itemtype 11,x=8,y=111 doortime=6,jumptoroom=105,jumptoobject=326
+obj 404 is itemtype 30,x=56,y=39 
+obj 406 is itemtype 30,x=120,y=39 
+obj 1112 is itemtype 1037,x=88,y=56 
+obj 275 is itemtype 2,x=8,y=111 doortime=6,jumptoroom=86,jumptoobject=274
+obj 276 is itemtype 9,x=160,y=111 doortime=183,jumptoroom=88,jumptoobject=277
+obj 304 is itemtype 2,x=80,y=183 doortime=4,jumptoroom=91,jumptoobject=305
+obj 1062 is itemtype 1023,x=87,y=64 
+obj 277 is itemtype 9,x=8,y=111 doortime=6,jumptoroom=87,jumptoobject=276
+obj 278 is itemtype 2,x=160,y=111 doortime=183,jumptoroom=89,jumptoobject=279
+obj 310 is itemtype 2,x=80,y=183 doortime=4,jumptoroom=92,jumptoobject=311
+obj 1078 is itemtype 1024,x=87,y=64 
+obj 279 is itemtype 2,x=8,y=111 doortime=6,jumptoroom=88,jumptoobject=278
+obj 316 is itemtype 11,x=80,y=183 doortime=4,jumptoroom=93,jumptoobject=317
+obj 325 is itemtype 8,x=80,y=31 doortime=4,jumptoroom=104,jumptoobject=324
+obj 280 is itemtype 2,x=160,y=111 doortime=183,jumptoroom=91,jumptoobject=281
+obj 299 is itemtype 2,x=80,y=31 doortime=4,jumptoroom=86,jumptoobject=298
+obj 300 is itemtype 10,x=80,y=183 doortime=4,jumptoroom=94,jumptoobject=301
+obj 502 is itemtype 21,x=8,y=71 
+obj 504 is itemtype 22,x=8,y=135 
+obj 281 is itemtype 2,x=8,y=111 doortime=6,jumptoroom=90,jumptoobject=280
+obj 282 is itemtype 8,x=160,y=111 doortime=183,jumptoroom=92,jumptoobject=283
+obj 305 is itemtype 2,x=80,y=31 doortime=4,jumptoroom=87,jumptoobject=304
+obj 306 is itemtype 9,x=48,y=183 doortime=4,jumptoroom=95,jumptoobject=307
+obj 331 is itemtype 11,x=112,y=183 doortime=4,jumptoroom=102,jumptoobject=330
+obj 426 is itemtype 18,x=56,y=80 
+obj 1088 is itemtype 1025,x=87,y=103 
+obj 283 is itemtype 8,x=8,y=111 doortime=6,jumptoroom=91,jumptoobject=282
+obj 284 is itemtype 9,x=160,y=111 doortime=183,jumptoroom=93,jumptoobject=285
+obj 311 is itemtype 2,x=80,y=31 doortime=4,jumptoroom=88,jumptoobject=310
+obj 312 is itemtype 8,x=112,y=183 doortime=4,jumptoroom=96,jumptoobject=313
+obj 333 is itemtype 11,x=48,y=183 doortime=4,jumptoroom=102,jumptoobject=332
+obj 427 is itemtype 18,x=112,y=80 
+obj 285 is itemtype 9,x=8,y=111 doortime=6,jumptoroom=92,jumptoobject=284
+obj 317 is itemtype 11,x=80,y=31 doortime=4,jumptoroom=89,jumptoobject=316
+obj 318 is itemtype 2,x=80,y=183 doortime=4,jumptoroom=97,jumptoobject=319
+obj 419 is itemtype 18,x=112,y=80 
+obj 487 is itemtype 37,x=168,y=111 
+obj 286 is itemtype 8,x=160,y=111 doortime=183,jumptoroom=95,jumptoobject=287
+obj 301 is itemtype 10,x=80,y=31 doortime=4,jumptoroom=90,jumptoobject=300
+obj 302 is itemtype 2,x=80,y=183 doortime=4,jumptoroom=98,jumptoobject=303
+obj 1086 is itemtype 1025,x=87,y=103 
+obj 287 is itemtype 8,x=8,y=111 doortime=6,jumptoroom=94,jumptoobject=286
+obj 288 is itemtype 8,x=160,y=111 doortime=183,jumptoroom=96,jumptoobject=289
+obj 307 is itemtype 9,x=48,y=31 doortime=4,jumptoroom=91,jumptoobject=306
+obj 308 is itemtype 10,x=80,y=183 doortime=4,jumptoroom=99,jumptoobject=309
+obj 335 is itemtype 11,x=112,y=31 doortime=4,jumptoroom=102,jumptoobject=334
+obj 289 is itemtype 8,x=8,y=111 doortime=6,jumptoroom=95,jumptoobject=288
+obj 290 is itemtype 2,x=160,y=111 doortime=183,jumptoroom=97,jumptoobject=291
+obj 313 is itemtype 8,x=112,y=31 doortime=4,jumptoroom=92,jumptoobject=312
+obj 314 is itemtype 10,x=80,y=183 doortime=4,jumptoroom=100,jumptoobject=315
+obj 337 is itemtype 11,x=48,y=31 doortime=4,jumptoroom=102,jumptoobject=336
+obj 291 is itemtype 2,x=8,y=111 doortime=6,jumptoroom=96,jumptoobject=290
+obj 319 is itemtype 2,x=80,y=31 doortime=4,jumptoroom=93,jumptoobject=318
+obj 320 is itemtype 2,x=80,y=183 doortime=4,jumptoroom=101,jumptoobject=321
+obj 358 is itemtype 25,x=80,y=112 doortime=36,jumptoroom=75,jumptoobject=359
+obj 485 is itemtype 29,x=168,y=111 
+obj 292 is itemtype 2,x=160,y=111 doortime=183,jumptoroom=99,jumptoobject=293
+obj 303 is itemtype 2,x=80,y=31 doortime=4,jumptoroom=94,jumptoobject=302
+obj 329 is itemtype 9,x=8,y=111 doortime=6,jumptoroom=106,jumptoobject=328
+obj 493 is itemtype 21,x=80,y=183 
+obj 293 is itemtype 2,x=8,y=111 doortime=6,jumptoroom=98,jumptoobject=292
+obj 294 is itemtype 2,x=160,y=111 doortime=183,jumptoroom=100,jumptoobject=295
+obj 309 is itemtype 10,x=80,y=31 doortime=4,jumptoroom=95,jumptoobject=308
+obj 418 is itemtype 18,x=56,y=80 
+obj 492 is itemtype 17,x=88,y=183 
+obj 295 is itemtype 2,x=8,y=111 doortime=6,jumptoroom=99,jumptoobject=294
+obj 296 is itemtype 11,x=160,y=111 doortime=183,jumptoroom=101,jumptoobject=297
+obj 315 is itemtype 10,x=80,y=31 doortime=4,jumptoroom=96,jumptoobject=314
+obj 491 is itemtype 22,x=88,y=183 
+obj 1006 is itemtype 1006,x=128,y=128 
+obj 297 is itemtype 11,x=8,y=111 doortime=6,jumptoroom=100,jumptoobject=296
+obj 321 is itemtype 2,x=80,y=31 doortime=4,jumptoroom=97,jumptoobject=320
+obj 338 is itemtype 2,x=160,y=111 doortime=183,jumptoroom=27,jumptoobject=339
+obj 357 is itemtype 27,x=56,y=116 
+obj 489 is itemtype 29,x=88,y=183 
+obj 1055 is itemtype 1022,x=87,y=135 
+obj 330 is itemtype 11,x=48,y=31 doortime=4,jumptoroom=91,jumptoobject=331
+obj 332 is itemtype 11,x=112,y=31 doortime=4,jumptoroom=92,jumptoobject=333
+obj 334 is itemtype 11,x=48,y=183 doortime=4,jumptoroom=95,jumptoobject=335
+obj 336 is itemtype 11,x=112,y=183 doortime=4,jumptoroom=96,jumptoobject=337
+obj 371 is itemtype 27,x=72,y=116 
+obj 484 is itemtype 17,x=160,y=71 
+obj 486 is itemtype 21,x=168,y=135 
+obj 488 is itemtype 22,x=8,y=71 
+obj 490 is itemtype 28,x=8,y=135 
+obj 1069 is itemtype 1023,x=67,y=135 
+obj 1075 is itemtype 1024,x=107,y=135 
+obj 322 is itemtype 10,x=80,y=183 doortime=4,jumptoroom=86,jumptoobject=323
+obj 516 is itemtype 16,x=152,y=111 doortime=183,jumptoroom=104,jumptoobject=517
+obj 1016 is itemtype 1018,x=87,y=64 
+obj 324 is itemtype 8,x=80,y=183 doortime=4,jumptoroom=89,jumptoobject=325
+obj 517 is itemtype 16,x=8,y=111 doortime=6,jumptoroom=103,jumptoobject=516
+obj 1025 is itemtype 1019,x=87,y=64 
+obj 326 is itemtype 11,x=160,y=111 doortime=183,jumptoroom=86,jumptoobject=327
+obj 526 is itemtype 23,x=64,y=183 doortime=4,jumptoroom=106,jumptoobject=527
+obj 1040 is itemtype 1020,x=48,y=64 
+obj 1058 is itemtype 1022,x=48,y=103 
+obj 1060 is itemtype 1022,x=48,y=144 
+obj 328 is itemtype 9,x=160,y=111 doortime=183,jumptoroom=98,jumptoobject=329
+obj 527 is itemtype 23,x=64,y=39 doortime=4,jumptoroom=105,jumptoobject=526
+obj 428 is itemtype 18,x=120,y=152 
+obj 1035 is itemtype 1020,x=48,y=103 
+obj 251 is itemtype 2,x=8,y=111 doortime=6,jumptoroom=17,jumptoobject=250
+obj 252 is itemtype 2,x=160,y=111 doortime=183,jumptoroom=108,jumptoobject=253
+obj 538 is itemtype 26,x=80,y=183 doortime=4,jumptoroom=109,jumptoobject=539
+obj 1007 is itemtype 1007,x=64,y=64 
+obj 253 is itemtype 2,x=8,y=111 doortime=6,jumptoroom=107,jumptoobject=252
+obj 254 is itemtype 10,x=160,y=111 doortime=183,jumptoroom=3,jumptoobject=255
+obj 528 is itemtype 23,x=64,y=183 doortime=4,jumptoroom=110,jumptoobject=529
+obj 365 is itemtype 27,x=72,y=116 
+obj 1038 is itemtype 1020,x=87,y=71 
+obj 257 is itemtype 9,x=8,y=111 doortime=6,jumptoroom=15,jumptoobject=256
+obj 258 is itemtype 2,x=160,y=111 doortime=183,jumptoroom=110,jumptoobject=259
+obj 539 is itemtype 26,x=80,y=39 doortime=4,jumptoroom=107,jumptoobject=538
+obj 425 is itemtype 18,x=48,y=144 
+obj 468 is itemtype 28,x=88,y=183 
+obj 1109 is itemtype 1034,x=80,y=80 
+obj 259 is itemtype 2,x=8,y=111 doortime=6,jumptoroom=109,jumptoobject=258
+obj 260 is itemtype 2,x=160,y=111 doortime=183,jumptoroom=5,jumptoobject=261
+obj 529 is itemtype 23,x=64,y=39 doortime=4,jumptoroom=108,jumptoobject=528
+obj 367 is itemtype 27,x=72,y=84 
+obj 467 is itemtype 22,x=88,y=183 
+obj 1033 is itemtype 1020,x=96,y=119 
+obj 263 is itemtype 10,x=80,y=31 doortime=4,jumptoroom=13,jumptoobject=262
+obj 264 is itemtype 2,x=80,y=183 doortime=4,jumptoroom=112,jumptoobject=265
+obj 452 is itemtype 21,x=40,y=103 
+obj 265 is itemtype 2,x=112,y=31 doortime=4,jumptoroom=111,jumptoobject=264
+obj 266 is itemtype 2,x=48,y=31 doortime=4,jumptoroom=113,jumptoobject=267
+obj 494 is itemtype 22,x=56,y=183 
+obj 496 is itemtype 29,x=120,y=183 
+obj 1045 is itemtype 1021,x=128,y=144 
+obj 1074 is itemtype 1024,x=48,y=144 
+obj 1084 is itemtype 1025,x=87,y=144 
+obj 267 is itemtype 3,x=72,y=182 doortime=22,jumptoroom=112,jumptoobject=266
+obj 268 is itemtype 2,x=80,y=40 doortime=4,jumptoroom=114,jumptoobject=269
+obj 269 is itemtype 3,x=72,y=182 doortime=22,jumptoroom=113,jumptoobject=268
+obj 270 is itemtype 2,x=80,y=40 doortime=4,jumptoroom=53,jumptoobject=271
+obj 249 is itemtype 2,x=160,y=111 doortime=183,jumptoroom=19,jumptoobject=248
+obj 354 is itemtype 25,x=80,y=112 doortime=36,jumptoroom=116,jumptoobject=355
+obj 449 is itemtype 22,x=88,y=151 
+obj 466 is itemtype 17,x=88,y=60 
+obj 1019 is itemtype 1018,x=48,y=103 
+obj 273 is itemtype 1,x=144,y=111 doortime=183,jumptoroom=48,jumptoobject=272
+obj 355 is itemtype 27,x=72,y=116 
+obj 1046 is itemtype 1021,x=87,y=135 
+obj 1100 is itemtype 1032,x=48,y=64 
+obj 1101 is itemtype 1032,x=48,y=136 
+obj 1102 is itemtype 1032,x=120,y=136 
+obj 1103 is itemtype 1032,x=128,y=64 
+obj 189 is itemtype 2,x=160,y=111 doortime=183,jumptoroom=45,jumptoobject=188
+obj 190 is itemtype 2,x=80,y=183 doortime=4,jumptoroom=118,jumptoobject=191
+obj 521 is itemtype 16,x=48,y=183 doortime=4,jumptoroom=118,jumptoobject=520
+obj 1022 is itemtype 1019,x=48,y=64 
+obj 191 is itemtype 2,x=80,y=31 doortime=4,jumptoroom=117,jumptoobject=190
+obj 192 is itemtype 2,x=160,y=111 doortime=183,jumptoroom=119,jumptoobject=193
+obj 207 is itemtype 2,x=80,y=183 doortime=4,jumptoroom=125,jumptoobject=206
+obj 362 is itemtype 25,x=80,y=112 doortime=36,jumptoroom=132,jumptoobject=363
+obj 520 is itemtype 16,x=48,y=39 doortime=4,jumptoroom=117,jumptoobject=521
+obj 193 is itemtype 2,x=8,y=111 doortime=6,jumptoroom=118,jumptoobject=192
+obj 194 is itemtype 2,x=160,y=111 doortime=183,jumptoroom=120,jumptoobject=195
+obj 195 is itemtype 2,x=8,y=111 doortime=6,jumptoroom=119,jumptoobject=194
+obj 196 is itemtype 2,x=80,y=183 doortime=4,jumptoroom=121,jumptoobject=197
+obj 372 is itemtype 25,x=112,y=112 doortime=36,jumptoroom=138,jumptoobject=373
+obj 1052 is itemtype 1022,x=55,y=55 
+obj 197 is itemtype 2,x=80,y=31 doortime=4,jumptoroom=120,jumptoobject=196
+obj 198 is itemtype 2,x=80,y=183 doortime=4,jumptoroom=122,jumptoobject=199
+obj 199 is itemtype 2,x=80,y=31 doortime=4,jumptoroom=121,jumptoobject=198
+obj 200 is itemtype 2,x=8,y=111 doortime=6,jumptoroom=123,jumptoobject=201
+obj 208 is itemtype 8,x=160,y=111 doortime=183,jumptoroom=126,jumptoobject=209
+obj 409 is itemtype 30,x=56,y=39 
+obj 411 is itemtype 30,x=120,y=39 
+obj 422 is itemtype 18,x=56,y=80 
+obj 201 is itemtype 2,x=160,y=111 doortime=183,jumptoroom=122,jumptoobject=200
+obj 202 is itemtype 11,x=8,y=111 doortime=6,jumptoroom=124,jumptoobject=203
+obj 1066 is itemtype 1023,x=80,y=96 
+obj 203 is itemtype 11,x=160,y=111 doortime=183,jumptoroom=123,jumptoobject=202
+obj 204 is itemtype 11,x=80,y=31 doortime=4,jumptoroom=125,jumptoobject=205
+obj 408 is itemtype 30,x=56,y=39 
+obj 410 is itemtype 30,x=120,y=39 
+obj 205 is itemtype 11,x=80,y=183 doortime=4,jumptoroom=124,jumptoobject=204
+obj 206 is itemtype 2,x=80,y=31 doortime=4,jumptoroom=118,jumptoobject=207
+obj 431 is itemtype 18,x=72,y=80 
+obj 433 is itemtype 18,x=88,y=128 
+obj 1034 is itemtype 1020,x=87,y=103 
+obj 209 is itemtype 8,x=8,y=111 doortime=6,jumptoroom=122,jumptoobject=208
+obj 210 is itemtype 2,x=80,y=31 doortime=4,jumptoroom=41,jumptoobject=211
+obj 507 is itemtype 22,x=168,y=96 
+obj 509 is itemtype 21,x=88,y=183 
+obj 1072 is itemtype 1024,x=55,y=128 
+obj 1082 is itemtype 1025,x=135,y=128 
+obj 214 is itemtype 9,x=160,y=111 doortime=183,jumptoroom=128,jumptoobject=215
+obj 221 is itemtype 2,x=80,y=183 doortime=4,jumptoroom=129,jumptoobject=220
+obj 413 is itemtype 30,x=56,y=183 
+obj 415 is itemtype 30,x=120,y=183 
+obj 499 is itemtype 21,x=8,y=96 
+obj 501 is itemtype 29,x=88,y=23 
+obj 1013 is itemtype 1018,x=64,y=64 
+obj 215 is itemtype 9,x=8,y=111 doortime=6,jumptoroom=127,jumptoobject=214
+obj 216 is itemtype 2,x=80,y=183 doortime=4,jumptoroom=130,jumptoobject=217
+obj 1041 is itemtype 1020,x=48,y=64 
+obj 1051 is itemtype 1021,x=87,y=64 
+obj 1061 is itemtype 1022,x=128,y=128 
+obj 219 is itemtype 2,x=160,y=111 doortime=183,jumptoroom=130,jumptoobject=218
+obj 220 is itemtype 2,x=80,y=31 doortime=4,jumptoroom=127,jumptoobject=221
+obj 423 is itemtype 18,x=112,y=80 
+obj 217 is itemtype 2,x=80,y=31 doortime=4,jumptoroom=128,jumptoobject=216
+obj 218 is itemtype 2,x=8,y=111 doortime=6,jumptoroom=129,jumptoobject=219
+obj 222 is itemtype 10,x=160,y=111 doortime=183,jumptoroom=135,jumptoobject=223
+obj 481 is itemtype 22,x=56,y=183 
+obj 483 is itemtype 21,x=120,y=183 
+obj 232 is itemtype 8,x=160,y=111 doortime=183,jumptoroom=132,jumptoobject=233
+obj 239 is itemtype 2,x=80,y=183 doortime=4,jumptoroom=133,jumptoobject=238
+obj 1023 is itemtype 1019,x=48,y=64 
+obj 233 is itemtype 8,x=8,y=111 doortime=6,jumptoroom=131,jumptoobject=232
+obj 234 is itemtype 2,x=80,y=183 doortime=4,jumptoroom=134,jumptoobject=235
+obj 240 is itemtype 11,x=160,y=111 doortime=183,jumptoroom=137,jumptoobject=241
+obj 363 is itemtype 27,x=72,y=116 
+obj 1009 is itemtype 1009,x=96,y=64 
+obj 237 is itemtype 2,x=160,y=111 doortime=183,jumptoroom=134,jumptoobject=236
+obj 238 is itemtype 2,x=80,y=31 doortime=4,jumptoroom=131,jumptoobject=239
+obj 1031 is itemtype 1019,x=67,y=123 
+obj 1081 is itemtype 1024,x=107,y=123 
+obj 235 is itemtype 2,x=80,y=31 doortime=4,jumptoroom=132,jumptoobject=234
+obj 236 is itemtype 2,x=8,y=111 doortime=6,jumptoroom=133,jumptoobject=237
+obj 1032 is itemtype 1020,x=71,y=96 
+obj 223 is itemtype 10,x=8,y=111 doortime=6,jumptoroom=130,jumptoobject=222
+obj 224 is itemtype 2,x=160,y=111 doortime=183,jumptoroom=136,jumptoobject=225
+obj 226 is itemtype 2,x=80,y=183 doortime=4,jumptoroom=139,jumptoobject=227
+obj 476 is itemtype 21,x=56,y=23 
+obj 478 is itemtype 22,x=120,y=23 
+obj 1067 is itemtype 1023,x=87,y=103 
+obj 213 is itemtype 2,x=80,y=183 doortime=4,jumptoroom=33,jumptoobject=212
+obj 225 is itemtype 2,x=8,y=111 doortime=6,jumptoroom=135,jumptoobject=224
+obj 396 is itemtype 30,x=8,y=63 
+obj 398 is itemtype 30,x=8,y=143 
+obj 421 is itemtype 18,x=112,y=80 
+obj 241 is itemtype 11,x=8,y=111 doortime=6,jumptoroom=132,jumptoobject=240
+obj 242 is itemtype 2,x=80,y=31 doortime=4,jumptoroom=141,jumptoobject=243
+obj 244 is itemtype 2,x=160,y=111 doortime=183,jumptoroom=138,jumptoobject=245
+obj 477 is itemtype 22,x=56,y=183 
+obj 479 is itemtype 21,x=120,y=183 
+obj 245 is itemtype 2,x=8,y=111 doortime=6,jumptoroom=137,jumptoobject=244
+obj 246 is itemtype 9,x=80,y=31 doortime=4,jumptoroom=35,jumptoobject=247
+obj 540 is itemtype 26,x=152,y=111 doortime=183,jumptoroom=8,jumptoobject=541
+obj 373 is itemtype 27,x=104,y=116 
+obj 397 is itemtype 30,x=8,y=71 
+obj 399 is itemtype 30,x=8,y=135 
+obj 1043 is itemtype 1021,x=87,y=103 
+obj 1053 is itemtype 1022,x=127,y=127 
+obj 227 is itemtype 2,x=80,y=31 doortime=4,jumptoroom=135,jumptoobject=226
+obj 228 is itemtype 2,x=80,y=183 doortime=4,jumptoroom=140,jumptoobject=229
+obj 364 is itemtype 25,x=80,y=112 doortime=36,jumptoroom=108,jumptoobject=365
+obj 440 is itemtype 21,x=136,y=111 
+obj 229 is itemtype 2,x=80,y=31 doortime=4,jumptoroom=139,jumptoobject=228
+obj 230 is itemtype 9,x=80,y=183 doortime=4,jumptoroom=141,jumptoobject=231
+obj 439 is itemtype 29,x=40,y=103 
+obj 441 is itemtype 22,x=136,y=103 
+obj 1073 is itemtype 1024,x=87,y=103 
+obj 231 is itemtype 9,x=80,y=31 doortime=4,jumptoroom=140,jumptoobject=230
+obj 243 is itemtype 2,x=80,y=183 doortime=4,jumptoroom=137,jumptoobject=242
+obj 366 is itemtype 25,x=80,y=80 doortime=36,jumptoroom=110,jumptoobject=367
+obj 518 is itemtype 16,x=120,y=79 doortime=183,jumptoroom=34,jumptoobject=519
+obj 361 is itemtype 27,x=72,y=148 
+obj 438 is itemtype 28,x=40,y=103 
+obj 543 is itemtype 36,x=0,y=127 doortime=8,jumptoroom=0,jumptoobject=542
+obj 341 is itemtype 1,x=80,y=47 doortime=4,jumptoroom=64,jumptoobject=340
+obj 515 is itemtype 16,x=24,y=111 doortime=6,jumptoroom=53,jumptoobject=514
+obj 545 is itemtype 38,x=128,y=119 
+obj 1095 is itemtype 1032,x=87,y=143 
+obj 1096 is itemtype 1032,x=67,y=123 
+obj 1097 is itemtype 1032,x=107,y=123 
+obj 343 is itemtype 1,x=80,y=47 doortime=4,jumptoroom=84,jumptoobject=342
+obj 344 is itemtype 1,x=80,y=167 doortime=4,jumptoroom=145,jumptoobject=345
+obj 345 is itemtype 1,x=80,y=47 doortime=4,jumptoroom=144,jumptoobject=344
+obj 346 is itemtype 1,x=144,y=111 doortime=183,jumptoroom=146,jumptoobject=347
+obj 378 is itemtype 39,x=80,y=143 
+obj 347 is itemtype 1,x=24,y=111 doortime=6,jumptoroom=145,jumptoobject=346
+obj 348 is itemtype 1,x=144,y=111 doortime=183,jumptoroom=147,jumptoobject=349
+obj 349 is itemtype 1,x=24,y=111 doortime=6,jumptoroom=146,jumptoobject=348
+obj 350 is itemtype 1,x=144,y=111 doortime=183,jumptoroom=148,jumptoobject=351
+obj 351 is itemtype 1,x=24,y=111 doortime=6,jumptoroom=147,jumptoobject=350
+obj 353 is itemtype 1,x=80,y=167 doortime=4,jumptoroom=58,jumptoobject=352
+
+The item types can be seen in the lookups. Press ENTER for the lookup values
+lookup room type 0: bmp=aa_room00.gif, desc=square
+lookup room type 1: bmp=aa_room01.gif, desc=square cave
+lookup room type 2: bmp=aa_room02.gif, desc=square rounded corners
+lookup room type 3: bmp=aa_room03.gif, desc=long rectangle
+lookup room type 4: bmp=aa_room04.gif, desc=tall rectangle
+lookup room type 5: bmp=aa_room05.gif, desc=stairs going down vertical
+lookup room type 6: bmp=aa_room06.gif, desc=stairs going up vertical
+lookup room type 7: bmp=aa_room07.gif, desc=stairs going up horizontal
+lookup room type 8: bmp=aa_room08.gif, desc=stairs going down horizontal
+lookup room type 9: bmp=aa_room09.gif, desc=long rectangle cave
+lookup room type 10: bmp=aa_room10.gif, desc=tall rectangle cave
+lookup room type 11: bmp=aa_room11.gif, desc=the final screen
+lookup room type 12: bmp=aa_room12.gif, desc=the falling screen
+
+The room types are probably not necessary. just give an indication of the room type. Press ENTER for the objects in rooms
+lookup object id 1: type=10, bmp=aa_b01.gif, desc=cave door frame
+lookup object id 2: type=10, bmp=aa_b02.gif, desc=normal door frame
+lookup object id 3: type=10, bmp=aa_b03.gif, desc=large door frame
+lookup object id 8: type=10, bmp=aa_b08.gif, desc=red locked door
+lookup object id 9: type=10, bmp=aa_b09.gif, desc=green locked door
+lookup object id 10: type=10, bmp=aa_b10.gif, desc=cyan locked door
+lookup object id 11: type=10, bmp=aa_b11.gif, desc=yellow locked door
+lookup object id 12: type=10, bmp=aa_b12.gif, desc=red locked cave door
+lookup object id 13: type=10, bmp=aa_b13.gif, desc=green locked cave door
+lookup object id 14: type=10, bmp=aa_b14.gif, desc=white locked cave door
+lookup object id 15: type=10, bmp=aa_b15.gif, desc=yellow locked cave door
+lookup object id 16: type=11, bmp=aa_b16.gif, desc=clock
+lookup object id 17: type=14, bmp=aa_b17.gif, desc=picture
+lookup object id 18: type=14, bmp=aa_b18.gif, desc=table
+lookup object id 19: type=14, bmp=aa_b19.gif, desc=full chicken
+lookup object id 20: type=14, bmp=aa_b20.gif, desc=chicken carcass
+lookup object id 21: type=14, bmp=aa_b21.gif, desc=antler trophy
+lookup object id 22: type=14, bmp=aa_b22.gif, desc=trophy
+lookup object id 23: type=12, bmp=aa_b23.gif, desc=bookcase
+lookup object id 24: type=10, bmp=aa_b24.gif, desc=shut trapdoor
+lookup object id 25: type=10, bmp=aa_b25.gif, desc=open trapdoor
+lookup object id 26: type=13, bmp=aa_b26.gif, desc=barrel
+lookup object id 27: type=14, bmp=aa_b27.gif, desc=rug
+lookup object id 28: type=14, bmp=aa_b28.gif, desc=ACG shield
+lookup object id 29: type=14, bmp=aa_b29.gif, desc=shield
+lookup object id 30: type=14, bmp=aa_b30.gif, desc=knight
+lookup object id 32: type=10, bmp=aa_b32.gif, desc=shut normal door
+lookup object id 33: type=10, bmp=aa_b33.gif, desc=open normal door
+lookup object id 34: type=10, bmp=aa_b34.gif, desc=shut cave door
+lookup object id 35: type=10, bmp=aa_b35.gif, desc=open cave door
+lookup object id 36: type=10, bmp=aa_b36.gif, desc=ACG exit door
+lookup object id 37: type=14, bmp=aa_b37.gif, desc=picture
+lookup object id 38: type=14, bmp=aa_b38.gif, desc=skeleton
+lookup object id 39: type=14, bmp=aa_b39.gif, desc=barrels
+lookup object id 1001: type=3, bmp=aa_leaf.gif, desc=kills mummy
+lookup object id 1002: type=3, bmp=aa_cross.gif, desc=kills dracula
+lookup object id 1003: type=3, bmp=aa_wrench.gif, desc=kills frankenstein
+lookup object id 1004: type=9, bmp=aa_bottle.gif, desc=special item?
+lookup object id 1005: type=9, bmp=aa_face.gif, desc=special item?
+lookup object id 1006: type=9, bmp=aa_wing.gif, desc=special item?
+lookup object id 1007: type=9, bmp=aa_whip.gif, desc=special item?
+lookup object id 1008: type=3, bmp=aa_frogleg.gif, desc=kills hunchback
+lookup object id 1009: type=9, bmp=aa_amulet.gif, desc=special item?
+lookup object id 1016: type=9, bmp=aa_money.gif, desc=special item?
+lookup object id 1017: type=9, bmp=aa_skull.gif, desc=special item?
+lookup object id 1018: type=1, bmp=aa_can.gif, desc=energy
+lookup object id 1019: type=1, bmp=aa_candy.gif, desc=energy
+lookup object id 1020: type=1, bmp=aa_leg.gif, desc=energy
+lookup object id 1021: type=1, bmp=aa_lollipop.gif, desc=energy
+lookup object id 1022: type=1, bmp=aa_cone.gif, desc=energy
+lookup object id 1023: type=1, bmp=aa_bowl.gif, desc=energy
+lookup object id 1024: type=1, bmp=aa_apple.gif, desc=energy
+lookup object id 1025: type=1, bmp=aa_milkbottle.gif, desc=energy
+lookup object id 1032: type=1, bmp=aa_mushroom.gif, desc=energy
+lookup object id 1033: type=5, bmp=aa_mummy.gif, desc=killed by leaf. BUT! not always here. is placed with red key.
+lookup object id 1034: type=6, bmp=aa_frankenstein.gif, desc=killed by wrench
+lookup object id 1035: type=4, bmp=aa_devil.gif, desc=free roaming
+lookup object id 1036: type=7, bmp=aa_dracula.gif, desc=killed by cross
+lookup object id 1037: type=8, bmp=aa_hunchback.gif, desc=killed by frog leg
+
+Object types shows what it is. described next. Press ENTER.
+lookup object type 1: desc=food
+lookup object type 2: desc=saps players energy
+lookup object type 3: desc=weapon to kill a baddie
+lookup object type 4: desc=baddie (devil) but free roaming cannot be killed
+lookup object type 5: desc=mummy - killed by leaf and placed with red key
+lookup object type 6: desc=frankenstein - killed by wrench
+lookup object type 7: desc=dracula - killed by cross
+lookup object type 8: desc=hunchback - killed by frog leg
+lookup object type 9: desc=special item?
+lookup object type 10: desc=door
+lookup object type 11: desc=door - clock
+lookup object type 12: desc=door - bookcase
+lookup object type 13: desc=door - barrel
+lookup object type 14: desc=static room object
+
+Object type probably not needed and just kept in code

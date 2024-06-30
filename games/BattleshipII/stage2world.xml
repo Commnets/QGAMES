@@ -1,0 +1,380 @@
+<?xml version="1.0"?>
+<Worlds>
+	
+	<!-- UFOs -->
+	<!-- This world is the world of the UFOs -->
+	<World id="50002">
+	
+		<Scenes>
+		
+			<!-- The UFOS appears in different formations to fight against the player -->
+			<Scene id="70010">
+			
+				<Actions>
+			
+					<!-- Related with a set of UFO's moving left to right and then attacking-->
+					<Action id="74200">
+						<Attributes>
+							<Attribute id="TimeToAppear" value="1"/>
+							<Attribute id="ProbabilityToAppear" value="100"/>
+							<Attribute id="Emerge" value="YES"/> 
+							<Attribute id="TimeToMove" value="1"/>
+							<Attribute id="Regenerate" value="YES"/> 
+							<Attribute id="Roll" value="NO"/> 
+							<Attribute id="InitialPosition" value="0.457,0.55,0"/>
+							<Attribute id="MaxTimeAction" value="-1"/> 
+							<Attribute id="Type" value="0"/>
+							<Attribute id="MovType" value="4"/>
+							<Attribute id="TypeShooting" value="0"/> 
+							<Attribute id="TimeToShoot" value="3"/>
+							<Attribute id="ProbabilityToShoot" value="40"/>
+							<Attribute id="ShootingForce" value="1"/>
+							<Attribute id="Speed" value="1"/> 
+							<Attribute id="CombatFormation" value="0"/>
+							<Attribute id="CombatFormationAttrs" value="7,0.075,0.075"/>
+							<Attribute id="NumberUFOS" value="21"/> 
+							<Attribute id="TimerEvery" value="4"/>
+							<Attribute id="TimerForHowMany" value="2"/> 
+							<Attribute id="TimerProbability" value="80"/>
+						</Attributes>
+					</Action>
+
+					<!-- A set of UFO's moving left to right and then attacking quicker -->
+					<Action id="74201">
+						<Attributes>
+							<Attribute id="TimeToAppear" value="1"/>
+							<Attribute id="ProbabilityToAppear" value="100"/>
+							<Attribute id="Emerge" value="YES"/>
+							<Attribute id="TimeToMove" value="1"/>
+							<Attribute id="Regenerate" value="NO"/>
+							<Attribute id="Roll" value="NO"/> 
+							<Attribute id="InitialPosition" value="0.457,0.55,0"/>
+							<Attribute id="MaxTimeAction" value="-1"/> 
+							<Attribute id="Type" value="1"/>
+							<Attribute id="MovType" value="4"/> 
+							<Attribute id="TypeShooting" value="0"/>
+							<Attribute id="TimeToShoot" value="3"/>
+							<Attribute id="ProbabilityToShoot" value="60"/>
+							<Attribute id="ShootingForce" value="1"/>
+							<Attribute id="Speed" value="1"/>
+							<Attribute id="CombatFormation" value="0"/> 
+							<Attribute id="CombatFormationAttrs" value="7,0.075,0.075"/>
+							<Attribute id="NumberUFOS" value="21"/> 
+							<Attribute id="TimerEvery" value="3"/>
+							<Attribute id="TimerForHowMany" value="4"/> 
+							<Attribute id="TimerProbability" value="80"/>
+						</Attributes>
+					</Action>
+
+					<!-- A set of UFO's moving left to right and then attacking quicker -->
+					<Action id="74202">
+						<Attributes>
+							<Attribute id="TimeToAppear" value="1"/>
+							<Attribute id="ProbabilityToAppear" value="100"/>
+							<Attribute id="Emerge" value="YES"/>
+							<Attribute id="TimeToMove" value="1"/>
+							<Attribute id="Regenerate" value="NO"/>
+							<Attribute id="Roll" value="NO"/> 
+							<Attribute id="InitialPosition" value="0.457,0.55,0"/>
+							<Attribute id="MaxTimeAction" value="-1"/> 
+							<Attribute id="Type" value="2"/>
+							<Attribute id="MovType" value="4"/> 
+							<Attribute id="TypeShooting" value="0"/>
+							<Attribute id="TimeToShoot" value="2"/>
+							<Attribute id="ProbabilityToShoot" value="40"/>
+							<Attribute id="ShootingForce" value="1"/>
+							<Attribute id="Speed" value="2"/>
+							<Attribute id="CombatFormation" value="0"/> 
+							<Attribute id="CombatFormationAttrs" value="7,0.075,0.075"/>
+							<Attribute id="NumberUFOS" value="14"/> 
+							<Attribute id="TimerEvery" value="3"/>
+							<Attribute id="TimerForHowMany" value="5"/> 
+							<Attribute id="TimerProbability" value="80"/>
+						</Attributes>
+					</Action>
+
+					<!-- A pill of fuel -->
+					<Action id="71200">
+						<Attributes>
+							<Attribute id="TimeToAppear" value="15"/>
+							<Attribute id="ProbabilityToAppear" value="40"/>
+							<Attribute id="EnergyAdded" value="40"/>
+							<Attribute id="Speed" value="2"/>
+						</Attributes>
+					</Action>
+
+					<!-- A shooting pill -->
+					<Action id="72200">
+						<Attributes>
+							<Attribute id="TimeToAppear" value="15"/>
+							<Attribute id="ProbabilityToAppear" value="30"/>
+							<Attribute id="Type" value="1"/>
+							<Attribute id="TypeShooting" value="-2"/> 
+							<Attribute id="Speed" value="1"/>
+						</Attributes>
+					</Action>
+					
+				</Actions>
+				
+				<Attributes>
+					<Attribute id="NAME" value="Rings the bell?"/>
+					<!-- The blocks that are managed sequentially -->
+					<Attribute id="SEQUENTIALACTIONBLOCKS" value="74200,74201,74202"/>
+					<Attribute id="MOVEMENT" value="1,1,0"/> 
+					<Attribute id="BACKGROUNDMUSIC" value="60000"/> 
+				</Attributes>
+				
+				<Conexions>
+					<Conexion id="0" with="70011" at="0"/>
+				</Conexions>
+				
+				<Maps>
+					<Map id="50101" file="maps/BKSpace2.xml"/>
+					<Map id="70000" file="maps/nomap.xml"/>
+				</Maps>
+				
+				<Entities>
+				</Entities>
+				
+			</Scene>
+			
+			<!-- UFOS comes to the user from many different places 
+				 They have to be killed before moving to another block, or wait 60 seconds maximum per block -->
+			<Scene id="70011">
+			
+				<Actions>
+					
+					<!-- Asteroid 1 -->
+					<Action id="70210">
+						<Attributes>
+							<Attribute id="TimeToAppear" value="3"/>
+							<Attribute id="ProbabilityToAppear" value="80"/>
+							<Attribute id="PointsGiven" value="150"/>
+							<Attribute id="Speed" value="-4"/>
+						</Attributes>
+					</Action>
+				
+					<!-- A set of UFOS moving in circle from the left up corner -->
+					<Action id="74210">
+						<Attributes>
+							<Attribute id="TimeToAppear" value="1"/>
+							<Attribute id="ProbabilityToAppear" value="100"/>
+							<Attribute id="TimeToMove" value="1"/>
+							<Attribute id="Regenerate" value="NO"/>
+							<Attribute id="Roll" value="YES"/>
+							<Attribute id="InitialPosition" value="0.25,0.4,0"/>
+							<Attribute id="MaxTimeAction" value="30"/> 
+							<Attribute id="Type" value="0"/> 
+							<Attribute id="MovType" value="0"/> 
+							<Attribute id="TypeShooting" value="1"/>
+							<Attribute id="TimeToShoot" value="2"/>
+							<Attribute id="ProbabilityToShoot" value="40"/> 
+							<Attribute id="ShootingForce" value="2"/>
+							<Attribute id="Speed" value="6"/>
+							<Attribute id="CombatFormation" value="1"/> 
+							<Attribute id="CombatFormationAttrs" value="0.25"/>
+							<Attribute id="NumberUFOS" value="10"/>
+							<Attribute id="TimerEvery" value="0"/> 
+							<Attribute id="TimerForHowMany" value="-1"/> 
+							<Attribute id="TimerProbability" value="100"/> 
+						</Attributes>
+					</Action>
+					
+					<!-- Same from the other corner: right up -->
+					<Action id="74211">
+						<Attributes>
+							<Attribute id="TimeToAppear" value="1"/>
+							<Attribute id="ProbabilityToAppear" value="100"/>
+							<Attribute id="TimeToMove" value="1"/>
+							<Attribute id="Regenerate" value="NO"/>
+							<Attribute id="Roll" value="YES"/>
+							<Attribute id="InitialPosition" value="0.8,0.4,0"/> 
+							<Attribute id="MaxTimeAction" value="30"/> 
+							<Attribute id="Type" value="0"/>
+							<Attribute id="MovType" value="0"/> 
+							<Attribute id="TypeShooting" value="1"/>
+							<Attribute id="TimeToShoot" value="2"/>
+							<Attribute id="ShootingForce" value="2"/>
+							<Attribute id="ProbabilityToShoot" value="40"/>
+							<Attribute id="Speed" value="6"/>
+							<Attribute id="CombatFormation" value="1"/> 
+							<Attribute id="CombatFormationAttrs" value="0.3"/>
+							<Attribute id="NumberUFOS" value="10"/>
+							<Attribute id="TimerEvery" value="0"/> 
+							<Attribute id="TimerForHowMany" value="-1"/> 
+							<Attribute id="TimerProbability" value="100"/> 
+						</Attributes>
+					</Action>
+
+					<!-- A pill of fuel -->
+					<Action id="71210">
+						<Attributes>
+							<Attribute id="TimeToAppear" value="15"/>
+							<Attribute id="ProbabilityToAppear" value="40"/>
+							<Attribute id="EnergyAdded" value="40"/>
+							<Attribute id="Speed" value="2"/>
+						</Attributes>
+					</Action>
+
+					<!-- A shooting pill -->
+					<Action id="72210">
+						<Attributes>
+							<Attribute id="TimeToAppear" value="15"/>
+							<Attribute id="ProbabilityToAppear" value="30"/> 
+							<Attribute id="Type" value="1"/>
+							<Attribute id="TypeShooting" value="-2"/> 
+							<Attribute id="Speed" value="1"/> 
+						</Attributes>
+					</Action>
+					
+				</Actions>
+				
+				<Attributes>
+					<Attribute id="NAME" value="From the corners"/>
+					<Attribute id="SEQUENTIALACTIONBLOCKS" value="74210,74211"/>
+					<Attribute id="MOVEMENT" value="1,1,0"/> 
+					<Attribute id="BACKGROUNDMUSIC" value="60000"/> 
+				</Attributes>
+				
+				<Conexions>
+					<Conexion id="0" with="70012" at="0"/>
+				</Conexions>
+				
+				<Maps>
+					<Map id="50101" file="maps/BKSpace2.xml"/>
+					<Map id="70000" file="maps/nomap.xml"/>
+				</Maps>
+				
+				<Entities>
+				</Entities>
+				
+			</Scene>
+			
+			<!-- Guauuu, ufos moving in a sinusoide from different parts of the screen -->
+			<Scene id="70012">
+			
+				<Actions>
+					
+					<!-- Asteroid 1 -->
+					<Action id="70220">
+						<Attributes>
+							<Attribute id="TimeToAppear" value="3"/>
+							<Attribute id="PointsGiven" value="100"/>
+							<Attribute id="Speed" value="-2"/>
+						</Attributes>
+					</Action>
+					
+					<!-- Asteroid 2 -->
+					<Action id="70221">
+						<Attributes>
+							<Attribute id="TimeToAppear" value="4"/>
+							<Attribute id="ProbabilityToAppear" value="80"/>
+							<Attribute id="PointsGiven" value="150"/>
+							<Attribute id="Speed" value="-2"/>
+						</Attributes>
+					</Action>
+				
+					<!-- A set of UFOS moving in sinusoide from the left to the right corner -->
+					<Action id="74220">
+						<Attributes>
+							<Attribute id="TimeToAppear" value="1"/>
+							<Attribute id="ProbabilityToAppear" value="100"/>
+							<Attribute id="Emerge" value="YES"/>
+							<Attribute id="TimeToMove" value="1"/>
+							<Attribute id="Regenerate" value="NO"/>
+							<Attribute id="InitialPosition" value="0.457,0.6,0"/> 
+							<Attribute id="MaxTimeAction" value="60"/> 
+							<Attribute id="Type" value="2"/> 
+							<Attribute id="MovType" value="0"/>
+							<Attribute id="TypeShooting" value="1"/>
+							<Attribute id="TimeToShoot" value="2"/>
+							<Attribute id="ProbabilityToShoot" value="60"/> 
+							<Attribute id="ShootingForce" value="-2"/>
+							<Attribute id="Speed" value="2"/>
+							<Attribute id="CombatFormation" value="1000"/> <!-- Sinusoide from left to right -->
+							<Attribute id="CombatFormationAttrs" value="0.05"/> <!-- Separantion between elements -->
+							<Attribute id="NumberUFOS" value="5"/>
+							<Attribute id="TimerEvery" value="0"/> 
+							<Attribute id="TimerForHowMany" value="-1"/> 
+							<Attribute id="TimerProbability" value="100"/> 
+						</Attributes>
+					</Action>
+
+					<Action id="74221">
+						<Attributes>
+							<Attribute id="TimeToAppear" value="3"/>
+							<Attribute id="ProbabilityToAppear" value="100"/>
+							<Attribute id="Emerge" value="YES"/>
+							<Attribute id="TimeToMove" value="1"/>
+							<Attribute id="Regenerate" value="NO"/>
+							<Attribute id="InitialPosition" value="0.95,0.6,0"/> 
+							<Attribute id="MaxTimeAction" value="60"/> 
+							<Attribute id="Type" value="2"/> 
+							<Attribute id="MovType" value="0"/>
+							<Attribute id="TypeShooting" value="1"/>
+							<Attribute id="TimeToShoot" value="2"/>
+							<Attribute id="ProbabilityToShoot" value="60"/> 
+							<Attribute id="ShootingForce" value="-2"/>
+							<Attribute id="Speed" value="2"/>
+							<Attribute id="CombatFormation" value="1001"/> <!-- Sinusoide from right to the left -->
+							<Attribute id="CombatFormationAttrs" value="0.05"/> <!-- Separation between elements -->
+							<Attribute id="NumberUFOS" value="5"/>
+							<Attribute id="TimerEvery" value="0"/> 
+							<Attribute id="TimerForHowMany" value="-1"/> 
+							<Attribute id="TimerProbability" value="100"/> 
+						</Attributes>
+					</Action>
+					
+					<!-- A pill of fuel -->
+					<Action id="71220">
+						<Attributes>
+							<Attribute id="TimeToAppear" value="15"/>
+							<Attribute id="ProbabilityToAppear" value="40"/>
+							<Attribute id="EnergyAdded" value="40"/>
+							<Attribute id="Speed" value="2"/>
+						</Attributes>
+					</Action>
+
+					<!-- A shooting pill -->
+					<Action id="72220">
+						<Attributes>
+							<Attribute id="TimeToAppear" value="15"/>
+							<Attribute id="ProbabilityToAppear" value="30"/> 
+							<Attribute id="Type" value="1"/>
+							<Attribute id="TypeShooting" value="-2"/> 
+							<Attribute id="Speed" value="2"/> <!-- Quicker than usual -->
+						</Attributes>
+					</Action>
+					
+				</Actions>
+				
+				<Attributes>
+					<Attribute id="NAME" value="Waves"/>
+					<Attribute id="SEQUENTIALACTIONBLOCKS" value="74220,74221"/>
+					<Attribute id="MOVEMENT" value="1,1,0"/> 
+					<Attribute id="BACKGROUNDMUSIC" value="60000"/> 
+				</Attributes>
+				
+				<Conexions>
+					<Conexion id="0" with="70020" at="0"/>
+				</Conexions>
+				
+				<Maps>
+					<Map id="50101" file="maps/BKSpace2.xml"/>
+					<Map id="70000" file="maps/nomap.xml"/>
+				</Maps>
+				
+				<Entities>
+				</Entities>
+				
+			</Scene>
+			
+		</Scenes>
+		
+		<Attributes>
+			<Attribute id="NAME" value="Now UFOs"/>
+		</Attributes>
+		
+	</World>
+	
+</Worlds>

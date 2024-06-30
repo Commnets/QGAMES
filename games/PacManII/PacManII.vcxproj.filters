@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Builders.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Monsters.cpp">
+      <Filter>Archivos de código fuente\Artists</Filter>
+    </ClCompile>
+    <ClCompile Include="Pacman.cpp">
+      <Filter>Archivos de código fuente\Artists</Filter>
+    </ClCompile>
+    <ClCompile Include="Shield.cpp">
+      <Filter>Archivos de código fuente\Artists</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneActionBlocks.cpp">
+      <Filter>Archivos de código fuente\Action Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes.cpp">
+      <Filter>Archivos de código fuente\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="DataGame.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="doxy.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Builders.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Defs.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Monsters.hpp">
+      <Filter>Archivos de encabezado\Artists</Filter>
+    </ClInclude>
+    <ClInclude Include="Pacman.hpp">
+      <Filter>Archivos de encabezado\Artists</Filter>
+    </ClInclude>
+    <ClInclude Include="Shield.hpp">
+      <Filter>Archivos de encabezado\Artists</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneActionBlocks.hpp">
+      <Filter>Archivos de encabezado\Action Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes.hpp">
+      <Filter>Archivos de encabezado\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="DataGame.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{7704d51b-538c-4433-8f7b-81d65bfda0ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente">
+      <UniqueIdentifier>{f4186b68-18cb-481c-a4d3-8db45f1359d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{993c945d-64c9-4f86-ae2a-6aaff3420072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Artists">
+      <UniqueIdentifier>{543d5569-c774-4c21-a0db-f36b8868dc32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Artists">
+      <UniqueIdentifier>{2216b5ef-812f-4008-a4a7-3effbbff66c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Scenes">
+      <UniqueIdentifier>{2754589e-460b-412f-aecb-29124d9fe096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Scenes">
+      <UniqueIdentifier>{99a0abd8-d471-4a42-8603-723485b5a5fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Action Blocks">
+      <UniqueIdentifier>{0b58018f-8f20-4992-ab4f-92fd56f8c972}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Action Blocks">
+      <UniqueIdentifier>{b578c702-32a9-4129-adef-1682879521e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="CommnetsBig.png">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="CommnetsIcon.png">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="GameIcon.ico">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="QGAMESEmptyTemplate.rc">
+      <Filter>Archivos de recursos</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

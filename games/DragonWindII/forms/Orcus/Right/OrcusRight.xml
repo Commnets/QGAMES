@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:8c80ac0495aa90557e093fc5c745889f:4be1a51daffede2000eac98c53d4b584:7ccf956861fa6b33a0849d63efc94ca7$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="OrcusRight" file="./forms/OrcusRight.png" width="498" height="421"
+		fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="?">
+		<Frame id="AttackRight (1)" fPosX="1" fPosY="1" fWidth="81" fHeight="136" xoffset="110" yoffset="15" width="81" height="136"/>
+		<Frame id="AttackRight (2)" fPosX="84" fPosY="1" fWidth="102" fHeight="136" xoffset="110" yoffset="15" width="102" height="136"/>
+		<Frame id="AttackRight (3)" fPosX="188" fPosY="1" fWidth="113" fHeight="136" xoffset="103" yoffset="14" width="113" height="136"/>
+		<Frame id="AttackRight (4)" fPosX="303" fPosY="1" fWidth="105" fHeight="132" xoffset="106" yoffset="18" width="105" height="132"/>
+		<Frame id="DeadRight (1)" fPosX="410" fPosY="1" fWidth="82" fHeight="138" xoffset="112" yoffset="13" width="82" height="138"/>
+		<Frame id="DeadRight (2)" fPosX="1" fPosY="141" fWidth="107" fHeight="115" xoffset="139" yoffset="31" width="107" height="115"/>
+		<Frame id="DeadRight (3)" fPosX="110" fPosY="141" fWidth="141" fHeight="80" xoffset="136" yoffset="81" width="141" height="80"/>
+		<Frame id="HurtRight" fPosX="253" fPosY="141" fWidth="80" fHeight="138" xoffset="114" yoffset="17" width="80" height="138"/>
+		<Frame id="IdleRight (1)" fPosX="335" fPosY="141" fWidth="80" fHeight="139" xoffset="107" yoffset="15" width="80" height="139"/>
+		<Frame id="IdleRight (2)" fPosX="417" fPosY="141" fWidth="80" fHeight="138" xoffset="107" yoffset="16" width="80" height="138"/>
+		<Frame id="IdleRight (3)" fPosX="1" fPosY="282" fWidth="80" fHeight="137" xoffset="107" yoffset="17" width="80" height="137"/>
+		<Frame id="IdleRight (4)" fPosX="83" fPosY="282" fWidth="80" fHeight="138" xoffset="107" yoffset="16" width="80" height="138"/>
+		<Frame id="WalkRight (1)" fPosX="165" fPosY="282" fWidth="80" fHeight="138" xoffset="107" yoffset="15" width="80" height="138"/>
+		<Frame id="WalkRight (2)" fPosX="247" fPosY="282" fWidth="80" fHeight="136" xoffset="107" yoffset="15" width="80" height="136"/>
+		<Frame id="WalkRight (3)" fPosX="329" fPosY="282" fWidth="80" fHeight="138" xoffset="107" yoffset="15" width="80" height="138"/>
+		<Frame id="WalkRight (4)" fPosX="411" fPosY="282" fWidth="80" fHeight="134" xoffset="107" yoffset="15" width="80" height="134"/>
+    </Form>
+</CommtyExporter>

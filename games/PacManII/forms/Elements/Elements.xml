@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:d44e828d39c4798dd04d8c9c01308562:106878bc9f98bf17444da706ff6c798e:5cd808f38b1e652cbb80a6a9391bd5ec$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="Elements" file="./forms/Elements.png" width="64" height="160"
+		fSpacing="0" fMargin="0" fWidth="32" fHeight="32" aColor="255" nFrames="?">
+		<Frame id="tile000" fPosX="0" fPosY="0" fWidth="32" fHeight="32" xoffset="0" yoffset="0" width="32" height="32"/>
+		<Frame id="tile001" fPosX="32" fPosY="0" fWidth="32" fHeight="32" xoffset="0" yoffset="0" width="32" height="32"/>
+		<Frame id="tile002" fPosX="0" fPosY="32" fWidth="32" fHeight="32" xoffset="0" yoffset="0" width="32" height="32"/>
+		<Frame id="tile003" fPosX="32" fPosY="32" fWidth="32" fHeight="32" xoffset="0" yoffset="0" width="32" height="32"/>
+		<Frame id="tile004" fPosX="0" fPosY="64" fWidth="32" fHeight="32" xoffset="0" yoffset="0" width="32" height="32"/>
+		<Frame id="tile005" fPosX="32" fPosY="64" fWidth="32" fHeight="32" xoffset="0" yoffset="0" width="32" height="32"/>
+		<Frame id="tile006" fPosX="0" fPosY="96" fWidth="32" fHeight="32" xoffset="0" yoffset="0" width="32" height="32"/>
+		<Frame id="tile007" fPosX="32" fPosY="96" fWidth="32" fHeight="32" xoffset="0" yoffset="0" width="32" height="32"/>
+		<Frame id="tile008" fPosX="0" fPosY="128" fWidth="32" fHeight="32" xoffset="0" yoffset="0" width="32" height="32"/>
+		<Frame id="tile009" fPosX="32" fPosY="128" fWidth="32" fHeight="32" xoffset="0" yoffset="0" width="32" height="32"/>
+    </Form>
+</CommtyExporter>

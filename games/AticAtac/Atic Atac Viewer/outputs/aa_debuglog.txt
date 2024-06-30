@@ -1,0 +1,1029 @@
+Doing Room Types
+0	aa_room00.gif	square
+1	aa_room01.gif	square cave
+2	aa_room02.gif	square rounded corners
+3	aa_room03.gif	long rectangle
+4	aa_room04.gif	tall rectangle
+5	aa_room05.gif	stairs going down vertical
+6	aa_room06.gif	stairs going up vertical
+7	aa_room07.gif	stairs going up horizontal
+8	aa_room08.gif	stairs going down horizontal
+9	aa_room09.gif	long rectangle cave
+10	aa_room10.gif	tall rectangle cave
+11	aa_room11.gif	the final screen
+12	aa_room12.gif	the falling screen
+Found 13 room types
+-----------------------------------------
+Doing Room Objects
+1	aa_b01.gif	cave door frame        type: 10	Door Ignore: False
+2	aa_b02.gif	normal door frame      type: 10	Door Ignore: False
+3	aa_b03.gif	large door frame       type: 10	Door Ignore: False
+8	aa_b08.gif	red locked door        type: 10	Door Ignore: False
+9	aa_b09.gif	green locked door      type: 10	Door Ignore: False
+10	aa_b10.gif	cyan locked door      type: 10	Door Ignore: False
+11	aa_b11.gif	yellow locked door     type: 10	Door Ignore: False
+12	aa_b12.gif	red locked cave door   type: 10	Door Ignore: False
+13	aa_b13.gif	green locked cave door type: 10	Door Ignore: False
+14	aa_b14.gif	white locked cave door type: 10	Door Ignore: False
+15	aa_b15.gif	yellow locked cave door type: 10	Door Ignore: False
+16	aa_b16.gif	clock                 type: 11	Door Ignore: False
+17	aa_b17.gif	picture               type: 14	Door Ignore: False
+18	aa_b18.gif	table                type: 14	Door Ignore: False
+19	aa_b19.gif	full chicken           type: 14	Door Ignore: False
+20	aa_b20.gif	chicken carcass       type: 14	Door Ignore: False
+21	aa_b21.gif	antler trophy        type: 14	Door Ignore: False
+22	aa_b22.gif	trophy               type: 14	Door Ignore: False
+23	aa_b23.gif	bookcase              type: 12	Door Ignore: False
+24	aa_b24.gif	shut trapdoor        type: 10	Door Ignore: False
+25	aa_b25.gif	open trapdoor         type: 10	Door Ignore: False
+26	aa_b26.gif	barrel               type: 13	Door Ignore: False
+27	aa_b27.gif	rug                  type: 14	Door Ignore: False
+28	aa_b28.gif	ACG shield           type: 14	Door Ignore: False
+29	aa_b29.gif	shield               type: 14	Door Ignore: False
+30	aa_b30.gif	knight               type: 14	Door Ignore: False
+32	aa_b32.gif	shut normal door    type: 10	Door Ignore: False
+33	aa_b33.gif	open normal door    type: 10	Door Ignore: False
+34	aa_b34.gif	shut cave door      type: 10	Door Ignore: False
+35	aa_b35.gif	open cave door       type: 10	Door Ignore: False
+36	aa_b36.gif	ACG exit door         type: 10	Door Ignore: False
+37	aa_b37.gif	picture            type: 14	Door Ignore: False
+38	aa_b38.gif	skeleton           type: 14	Door Ignore: False
+39	aa_b39.gif	barrels            type: 14	Door Ignore: False
+Found 34 block types
+-----------------------------------------
+Doing Placed Objects
+1001	aa_leaf.gif	leaf	type:3
+1002	aa_cross.gif	cross	type:3
+1003	aa_wrench.gif	wrench	type:3
+1004	aa_bottle.gif	bottle	type:9
+1005	aa_face.gif	face coin	type:9
+1006	aa_wing.gif	wing	type:9
+1007	aa_whip.gif	whip	type:9
+1008	aa_frogleg.gif	frogs leg	type:3
+1009	aa_amulet.gif	amulet	type:9
+1016	aa_money.gif	money	type:9
+1017	aa_skull.gif	skull	type:9
+1018	aa_can.gif	can	type:1
+1018	aa_can.gif	can	type:1
+1018	aa_can.gif	can	type:1
+1018	aa_can.gif	can	type:1
+1018	aa_can.gif	can	type:1
+1018	aa_can.gif	can	type:1
+1018	aa_can.gif	can	type:1
+1018	aa_can.gif	can	type:1
+1018	aa_can.gif	can	type:1
+1018	aa_can.gif	can	type:1
+1019	aa_candy.gif	candy	type:1
+1019	aa_candy.gif	candy	type:1
+1019	aa_candy.gif	candy	type:1
+1019	aa_candy.gif	candy	type:1
+1019	aa_candy.gif	candy	type:1
+1019	aa_candy.gif	candy	type:1
+1019	aa_candy.gif	candy	type:1
+1019	aa_candy.gif	candy	type:1
+1019	aa_candy.gif	candy	type:1
+1019	aa_candy.gif	candy	type:1
+1020	aa_leg.gif	leg	type:1
+1020	aa_leg.gif	leg	type:1
+1020	aa_leg.gif	leg	type:1
+1020	aa_leg.gif	leg	type:1
+1020	aa_leg.gif	leg	type:1
+1020	aa_leg.gif	leg	type:1
+1020	aa_leg.gif	leg	type:1
+1020	aa_leg.gif	leg	type:1
+1020	aa_leg.gif	leg	type:1
+1020	aa_leg.gif	leg	type:1
+1021	aa_lollipop.gif	lollipop	type:1
+1021	aa_lollipop.gif	lollipop	type:1
+1021	aa_lollipop.gif	lollipop	type:1
+1021	aa_lollipop.gif	lollipop	type:1
+1021	aa_lollipop.gif	lollipop	type:1
+1021	aa_lollipop.gif	lollipop	type:1
+1021	aa_lollipop.gif	lollipop	type:1
+1021	aa_lollipop.gif	lollipop	type:1
+1021	aa_lollipop.gif	lollipop	type:1
+1021	aa_lollipop.gif	lollipop	type:1
+1022	aa_cone.gif	cone	type:1
+1022	aa_cone.gif	cone	type:1
+1022	aa_cone.gif	cone	type:1
+1022	aa_cone.gif	cone	type:1
+1022	aa_cone.gif	cone	type:1
+1022	aa_cone.gif	cone	type:1
+1022	aa_cone.gif	cone	type:1
+1022	aa_cone.gif	cone	type:1
+1022	aa_cone.gif	cone	type:1
+1022	aa_cone.gif	cone	type:1
+1023	aa_bowl.gif	bowl	type:1
+1023	aa_bowl.gif	bowl	type:1
+1023	aa_bowl.gif	bowl	type:1
+1023	aa_bowl.gif	bowl	type:1
+1023	aa_bowl.gif	bowl	type:1
+1023	aa_bowl.gif	bowl	type:1
+1023	aa_bowl.gif	bowl	type:1
+1023	aa_bowl.gif	bowl	type:1
+1023	aa_bowl.gif	bowl	type:1
+1023	aa_bowl.gif	bowl	type:1
+1024	aa_apple.gif	apple	type:1
+1024	aa_apple.gif	apple	type:1
+1024	aa_apple.gif	apple	type:1
+1024	aa_apple.gif	apple	type:1
+1024	aa_apple.gif	apple	type:1
+1024	aa_apple.gif	apple	type:1
+1024	aa_apple.gif	apple	type:1
+1024	aa_apple.gif	apple	type:1
+1024	aa_apple.gif	apple	type:1
+1024	aa_apple.gif	apple	type:1
+1025	aa_milkbottle.gif	milkbottle	type:1
+1025	aa_milkbottle.gif	milkbottle	type:1
+1025	aa_milkbottle.gif	milkbottle	type:1
+1025	aa_milkbottle.gif	milkbottle	type:1
+1025	aa_milkbottle.gif	milkbottle	type:1
+1025	aa_milkbottle.gif	milkbottle	type:1
+1025	aa_milkbottle.gif	milkbottle	type:1
+1025	aa_milkbottle.gif	milkbottle	type:1
+1025	aa_milkbottle.gif	milkbottle	type:1
+1025	aa_milkbottle.gif	milkbottle	type:1
+1032	aa_mushroom.gif	mushroom	type:1
+1032	aa_mushroom.gif	mushroom	type:2
+1032	aa_mushroom.gif	mushroom	type:2
+1032	aa_mushroom.gif	mushroom	type:2
+1032	aa_mushroom.gif	mushroom	type:2
+1032	aa_mushroom.gif	mushroom	type:2
+1032	aa_mushroom.gif	mushroom	type:2
+1032	aa_mushroom.gif	mushroom	type:2
+1032	aa_mushroom.gif	mushroom	type:2
+1032	aa_mushroom.gif	mushroom	type:2
+1032	aa_mushroom.gif	mushroom	type:2
+1032	aa_mushroom.gif	mushroom	type:2
+1032	aa_mushroom.gif	mushroom	type:2
+1032	aa_mushroom.gif	mushroom	type:2
+1032	aa_mushroom.gif	mushroom	type:2
+1032	aa_mushroom.gif	mushroom	type:2
+1033	aa_mummy.gif	mummy	type:5
+1034	aa_frankenstein.gif	frankenstein	type:6
+1035	aa_devil.gif	devil	type:4
+1036	aa_dracula.gif	dracula	type:7
+1037	aa_hunchback.gif	hunchback	type:8
+Found 111 placed objects
+-----------------------------------------
+
+Doing Rooms
+
+Room: 0 	Type: 0 	Colour: 66
+Room: 1 	Type: 2 	Colour: 67
+Room: 2 	Type: 3 	Colour: 68
+Room: 3 	Type: 2 	Colour: 69
+Room: 4 	Type: 4 	Colour: 70
+Room: 5 	Type: 2 	Colour: 71
+Room: 6 	Type: 3 	Colour: 70
+Room: 7 	Type: 2 	Colour: 69
+Room: 8 	Type: 4 	Colour: 68
+Room: 9 	Type: 0 	Colour: 67
+Room: 10 	Type: 3 	Colour: 66
+Room: 11 	Type: 3 	Colour: 67
+Room: 12 	Type: 3 	Colour: 68
+Room: 13 	Type: 0 	Colour: 69
+Room: 14 	Type: 4 	Colour: 70
+Room: 15 	Type: 4 	Colour: 71
+Room: 16 	Type: 4 	Colour: 70
+Room: 17 	Type: 4 	Colour: 69
+Room: 18 	Type: 4 	Colour: 68
+Room: 19 	Type: 0 	Colour: 67
+Room: 20 	Type: 3 	Colour: 66
+Room: 21 	Type: 3 	Colour: 67
+Room: 22 	Type: 3 	Colour: 68
+Room: 23 	Type: 0 	Colour: 69
+Room: 24 	Type: 4 	Colour: 70
+Room: 25 	Type: 3 	Colour: 71
+Room: 26 	Type: 5 	Colour: 70
+Room: 27 	Type: 0 	Colour: 69
+Room: 28 	Type: 8 	Colour: 68
+Room: 29 	Type: 1 	Colour: 67
+Room: 30 	Type: 4 	Colour: 66
+Room: 31 	Type: 2 	Colour: 67
+Room: 32 	Type: 3 	Colour: 68
+Room: 33 	Type: 2 	Colour: 69
+Room: 34 	Type: 4 	Colour: 70
+Room: 35 	Type: 2 	Colour: 71
+Room: 36 	Type: 3 	Colour: 70
+Room: 37 	Type: 2 	Colour: 69
+Room: 38 	Type: 5 	Colour: 68
+Room: 39 	Type: 0 	Colour: 67
+Room: 40 	Type: 4 	Colour: 66
+Room: 41 	Type: 0 	Colour: 67
+Room: 42 	Type: 3 	Colour: 68
+Room: 43 	Type: 0 	Colour: 69
+Room: 44 	Type: 4 	Colour: 70
+Room: 45 	Type: 0 	Colour: 71
+Room: 46 	Type: 3 	Colour: 70
+Room: 47 	Type: 5 	Colour: 69
+Room: 48 	Type: 1 	Colour: 68
+Room: 49 	Type: 10 	Colour: 67
+Room: 50 	Type: 10 	Colour: 66
+Room: 51 	Type: 1 	Colour: 67
+Room: 52 	Type: 10 	Colour: 68
+Room: 53 	Type: 1 	Colour: 69
+Room: 54 	Type: 9 	Colour: 70
+Room: 55 	Type: 9 	Colour: 71
+Room: 56 	Type: 1 	Colour: 70
+Room: 57 	Type: 1 	Colour: 69
+Room: 58 	Type: 1 	Colour: 68
+Room: 59 	Type: 1 	Colour: 67
+Room: 60 	Type: 1 	Colour: 66
+Room: 61 	Type: 1 	Colour: 67
+Room: 62 	Type: 1 	Colour: 68
+Room: 63 	Type: 9 	Colour: 69
+Room: 64 	Type: 1 	Colour: 70
+Room: 65 	Type: 1 	Colour: 71
+Room: 66 	Type: 10 	Colour: 70
+Room: 67 	Type: 1 	Colour: 69
+Room: 68 	Type: 9 	Colour: 68
+Room: 69 	Type: 1 	Colour: 67
+Room: 70 	Type: 1 	Colour: 66
+Room: 71 	Type: 9 	Colour: 67
+Room: 72 	Type: 1 	Colour: 69
+Room: 73 	Type: 10 	Colour: 69
+Room: 74 	Type: 9 	Colour: 70
+Room: 75 	Type: 1 	Colour: 71
+Room: 76 	Type: 1 	Colour: 70
+Room: 77 	Type: 10 	Colour: 69
+Room: 78 	Type: 1 	Colour: 68
+Room: 79 	Type: 9 	Colour: 67
+Room: 80 	Type: 1 	Colour: 66
+Room: 81 	Type: 10 	Colour: 67
+Room: 82 	Type: 9 	Colour: 68
+Room: 83 	Type: 1 	Colour: 69
+Room: 84 	Type: 1 	Colour: 70
+Room: 85 	Type: 1 	Colour: 71
+Room: 86 	Type: 0 	Colour: 70
+Room: 87 	Type: 0 	Colour: 69
+Room: 88 	Type: 0 	Colour: 68
+Room: 89 	Type: 0 	Colour: 67
+Room: 90 	Type: 0 	Colour: 66
+Room: 91 	Type: 0 	Colour: 71
+Room: 92 	Type: 0 	Colour: 67
+Room: 93 	Type: 0 	Colour: 68
+Room: 94 	Type: 0 	Colour: 69
+Room: 95 	Type: 0 	Colour: 70
+Room: 96 	Type: 0 	Colour: 71
+Room: 97 	Type: 0 	Colour: 70
+Room: 98 	Type: 0 	Colour: 69
+Room: 99 	Type: 0 	Colour: 68
+Room: 100 	Type: 0 	Colour: 67
+Room: 101 	Type: 0 	Colour: 66
+Room: 102 	Type: 0 	Colour: 67
+Room: 103 	Type: 0 	Colour: 68
+Room: 104 	Type: 0 	Colour: 69
+Room: 105 	Type: 0 	Colour: 70
+Room: 106 	Type: 0 	Colour: 71
+Room: 107 	Type: 0 	Colour: 70
+Room: 108 	Type: 0 	Colour: 69
+Room: 109 	Type: 0 	Colour: 68
+Room: 110 	Type: 0 	Colour: 67
+Room: 111 	Type: 4 	Colour: 66
+Room: 112 	Type: 0 	Colour: 67
+Room: 113 	Type: 5 	Colour: 68
+Room: 114 	Type: 5 	Colour: 69
+Room: 115 	Type: 3 	Colour: 70
+Room: 116 	Type: 1 	Colour: 71
+Room: 117 	Type: 0 	Colour: 70
+Room: 118 	Type: 0 	Colour: 69
+Room: 119 	Type: 3 	Colour: 68
+Room: 120 	Type: 0 	Colour: 67
+Room: 121 	Type: 4 	Colour: 66
+Room: 122 	Type: 0 	Colour: 67
+Room: 123 	Type: 3 	Colour: 68
+Room: 124 	Type: 0 	Colour: 69
+Room: 125 	Type: 4 	Colour: 70
+Room: 126 	Type: 0 	Colour: 71
+Room: 127 	Type: 0 	Colour: 70
+Room: 128 	Type: 0 	Colour: 69
+Room: 129 	Type: 0 	Colour: 68
+Room: 130 	Type: 0 	Colour: 67
+Room: 131 	Type: 0 	Colour: 66
+Room: 132 	Type: 0 	Colour: 67
+Room: 133 	Type: 0 	Colour: 68
+Room: 134 	Type: 0 	Colour: 69
+Room: 135 	Type: 0 	Colour: 70
+Room: 136 	Type: 0 	Colour: 71
+Room: 137 	Type: 0 	Colour: 70
+Room: 138 	Type: 0 	Colour: 69
+Room: 139 	Type: 4 	Colour: 68
+Room: 140 	Type: 4 	Colour: 67
+Room: 141 	Type: 4 	Colour: 66
+Room: 142 	Type: 11 	Colour: 71
+Room: 143 	Type: 1 	Colour: 67
+Room: 144 	Type: 1 	Colour: 68
+Room: 145 	Type: 1 	Colour: 69
+Room: 146 	Type: 1 	Colour: 70
+Room: 147 	Type: 1 	Colour: 71
+Room: 148 	Type: 1 	Colour: 70
+Room: 149 	Type: 0 	Colour: 0
+Room: 150 	Type: 12 	Colour: 0
+
+-------------------------------------------------
+Doing Room Objects
+
+ Room: 7,	Room Link Item: 2	(normal door frame     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 0,	Room Link Item: 2	(normal door frame     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 25,	Room Link Item: 2	(normal door frame     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 0,	Room Link Item: 2	(normal door frame     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 1,	Room Link Item: 10	(cyan locked door     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 0,	Room Link Item: 10	(cyan locked door     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 2,	Room Link Item: 2	(normal door frame     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 1,	Room Link Item: 2	(normal door frame     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 3,	Room Link Item: 2	(normal door frame     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 2,	Room Link Item: 2	(normal door frame     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 4,	Room Link Item: 2	(normal door frame     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 3,	Room Link Item: 2	(normal door frame     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 25,	Room Link Item: 2	(normal door frame     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 4,	Room Link Item: 2	(normal door frame     ), x,y: 128,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 5,	Room Link Item: 2	(normal door frame     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 4,	Room Link Item: 2	(normal door frame     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 6,	Room Link Item: 2	(normal door frame     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 5,	Room Link Item: 2	(normal door frame     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 26,	Room Link Item: 3	(large door frame      ), x,y: 72,182 	flags,doortime,doorflag: 128, 22, 8
+ Room: 6,	Room Link Item: 2	(normal door frame     ), x,y: 80,63 	flags,doortime,doorflag: 0, 4, 86
+ Room: 8,	Room Link Item: 9	(green locked door     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 6,	Room Link Item: 9	(green locked door     ), x,y: 80,151 	flags,doortime,doorflag: 128, 4, 6
+ Room: 7,	Room Link Item: 2	(normal door frame     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 6,	Room Link Item: 2	(normal door frame     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 9,	Room Link Item: 2	(normal door frame     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 87
+ Room: 8,	Room Link Item: 2	(normal door frame     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 10,	Room Link Item: 2	(normal door frame     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 9,	Room Link Item: 2	(normal door frame     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 11,	Room Link Item: 2	(normal door frame     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 10,	Room Link Item: 2	(normal door frame     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 12,	Room Link Item: 2	(normal door frame     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 11,	Room Link Item: 2	(normal door frame     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 13,	Room Link Item: 2	(normal door frame     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 12,	Room Link Item: 2	(normal door frame     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 14,	Room Link Item: 2	(normal door frame     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 13,	Room Link Item: 2	(normal door frame     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 15,	Room Link Item: 2	(normal door frame     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 14,	Room Link Item: 2	(normal door frame     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 16,	Room Link Item: 2	(normal door frame     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 15,	Room Link Item: 2	(normal door frame     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 17,	Room Link Item: 8	(red locked door       ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 16,	Room Link Item: 8	(red locked door       ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 18,	Room Link Item: 2	(normal door frame     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 17,	Room Link Item: 2	(normal door frame     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 19,	Room Link Item: 2	(normal door frame     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 18,	Room Link Item: 2	(normal door frame     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 20,	Room Link Item: 2	(normal door frame     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 19,	Room Link Item: 2	(normal door frame     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 21,	Room Link Item: 2	(normal door frame     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 20,	Room Link Item: 2	(normal door frame     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 22,	Room Link Item: 2	(normal door frame     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 21,	Room Link Item: 2	(normal door frame     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 23,	Room Link Item: 8	(red locked door       ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 22,	Room Link Item: 8	(red locked door       ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 24,	Room Link Item: 9	(green locked door     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 23,	Room Link Item: 9	(green locked door     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 24,	Room Link Item: 2	(normal door frame     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 2,	Room Link Item: 2	(normal door frame     ), x,y: 80,63 	flags,doortime,doorflag: 0, 4, 86
+ Room: 26,	Room Link Item: 2	(normal door frame     ), x,y: 80,40 	flags,doortime,doorflag: 0, 4, 86
+ Room: 27,	Room Link Item: 2	(normal door frame     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 27,	Room Link Item: 2	(normal door frame     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 28,	Room Link Item: 3	(large door frame      ), x,y: 8,119 	flags,doortime,doorflag: 224, 8, 245
+ Room: 28,	Room Link Item: 2	(normal door frame     ), x,y: 152,111 	flags,doortime,doorflag: 96, 175, 3
+ Room: 29,	Room Link Item: 1	(cave door frame       ), x,y: 24,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 30,	Room Link Item: 2	(normal door frame     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 31,	Room Link Item: 2	(normal door frame     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 31,	Room Link Item: 2	(normal door frame     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 32,	Room Link Item: 2	(normal door frame     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 32,	Room Link Item: 2	(normal door frame     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 33,	Room Link Item: 2	(normal door frame     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 33,	Room Link Item: 2	(normal door frame     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 34,	Room Link Item: 2	(normal door frame     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 34,	Room Link Item: 2	(normal door frame     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 35,	Room Link Item: 2	(normal door frame     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 35,	Room Link Item: 2	(normal door frame     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 36,	Room Link Item: 2	(normal door frame     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 36,	Room Link Item: 2	(normal door frame     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 37,	Room Link Item: 2	(normal door frame     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 37,	Room Link Item: 10	(cyan locked door     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 30,	Room Link Item: 10	(cyan locked door     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 36,	Room Link Item: 2	(normal door frame     ), x,y: 80,63 	flags,doortime,doorflag: 0, 4, 86
+ Room: 38,	Room Link Item: 3	(large door frame      ), x,y: 72,182 	flags,doortime,doorflag: 128, 22, 8
+ Room: 2,	Room Link Item: 2	(normal door frame     ), x,y: 80,151 	flags,doortime,doorflag: 128, 4, 6
+ Room: 38,	Room Link Item: 2	(normal door frame     ), x,y: 80,40 	flags,doortime,doorflag: 0, 4, 86
+ Room: 39,	Room Link Item: 2	(normal door frame     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 40,	Room Link Item: 2	(normal door frame     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 40,	Room Link Item: 10	(cyan locked door     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 41,	Room Link Item: 10	(cyan locked door     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 41,	Room Link Item: 2	(normal door frame     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 42,	Room Link Item: 2	(normal door frame     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 42,	Room Link Item: 2	(normal door frame     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 43,	Room Link Item: 2	(normal door frame     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 43,	Room Link Item: 2	(normal door frame     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 44,	Room Link Item: 2	(normal door frame     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 44,	Room Link Item: 2	(normal door frame     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 45,	Room Link Item: 2	(normal door frame     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 45,	Room Link Item: 9	(green locked door     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 46,	Room Link Item: 9	(green locked door     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 46,	Room Link Item: 2	(normal door frame     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 39,	Room Link Item: 2	(normal door frame     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 39,	Room Link Item: 2	(normal door frame     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 47,	Room Link Item: 3	(large door frame      ), x,y: 72,182 	flags,doortime,doorflag: 128, 22, 8
+ Room: 32,	Room Link Item: 11	(yellow locked door    ), x,y: 80,151 	flags,doortime,doorflag: 128, 4, 6
+ Room: 47,	Room Link Item: 11	(yellow locked door    ), x,y: 80,40 	flags,doortime,doorflag: 0, 4, 86
+ Room: 48,	Room Link Item: 1	(cave door frame       ), x,y: 80,167 	flags,doortime,doorflag: 128, 4, 6
+ Room: 49,	Room Link Item: 1	(cave door frame       ), x,y: 80,39 	flags,doortime,doorflag: 0, 4, 86
+ Room: 49,	Room Link Item: 1	(cave door frame       ), x,y: 80,175 	flags,doortime,doorflag: 128, 4, 6
+ Room: 50,	Room Link Item: 1	(cave door frame       ), x,y: 80,39 	flags,doortime,doorflag: 0, 4, 86
+ Room: 50,	Room Link Item: 1	(cave door frame       ), x,y: 80,175 	flags,doortime,doorflag: 128, 4, 6
+ Room: 51,	Room Link Item: 1	(cave door frame       ), x,y: 80,47 	flags,doortime,doorflag: 0, 4, 86
+ Room: 51,	Room Link Item: 1	(cave door frame       ), x,y: 80,167 	flags,doortime,doorflag: 128, 4, 6
+ Room: 52,	Room Link Item: 1	(cave door frame       ), x,y: 80,39 	flags,doortime,doorflag: 0, 4, 86
+ Room: 52,	Room Link Item: 1	(cave door frame       ), x,y: 80,175 	flags,doortime,doorflag: 128, 4, 6
+ Room: 53,	Room Link Item: 1	(cave door frame       ), x,y: 80,47 	flags,doortime,doorflag: 0, 4, 86
+ Room: 51,	Room Link Item: 1	(cave door frame       ), x,y: 144,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 54,	Room Link Item: 1	(cave door frame       ), x,y: 16,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 54,	Room Link Item: 1	(cave door frame       ), x,y: 152,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 55,	Room Link Item: 1	(cave door frame       ), x,y: 16,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 55,	Room Link Item: 1	(cave door frame       ), x,y: 152,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 56,	Room Link Item: 1	(cave door frame       ), x,y: 24,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 56,	Room Link Item: 1	(cave door frame       ), x,y: 80,167 	flags,doortime,doorflag: 128, 4, 6
+ Room: 57,	Room Link Item: 1	(cave door frame       ), x,y: 80,47 	flags,doortime,doorflag: 0, 4, 86
+ Room: 56,	Room Link Item: 13	(green locked cave door), x,y: 144,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 58,	Room Link Item: 13	(green locked cave door), x,y: 24,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 57,	Room Link Item: 1	(cave door frame       ), x,y: 144,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 59,	Room Link Item: 1	(cave door frame       ), x,y: 24,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 58,	Room Link Item: 1	(cave door frame       ), x,y: 80,167 	flags,doortime,doorflag: 128, 4, 6
+ Room: 59,	Room Link Item: 1	(cave door frame       ), x,y: 80,47 	flags,doortime,doorflag: 0, 4, 86
+ Room: 59,	Room Link Item: 13	(green locked cave door), x,y: 80,167 	flags,doortime,doorflag: 128, 4, 6
+ Room: 60,	Room Link Item: 13	(green locked cave door), x,y: 80,47 	flags,doortime,doorflag: 0, 4, 86
+ Room: 59,	Room Link Item: 1	(cave door frame       ), x,y: 144,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 61,	Room Link Item: 1	(cave door frame       ), x,y: 24,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 60,	Room Link Item: 1	(cave door frame       ), x,y: 144,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 62,	Room Link Item: 1	(cave door frame       ), x,y: 24,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 61,	Room Link Item: 1	(cave door frame       ), x,y: 80,167 	flags,doortime,doorflag: 128, 4, 6
+ Room: 62,	Room Link Item: 1	(cave door frame       ), x,y: 80,47 	flags,doortime,doorflag: 0, 4, 86
+ Room: 61,	Room Link Item: 14	(white locked cave door), x,y: 144,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 63,	Room Link Item: 14	(white locked cave door), x,y: 16,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 63,	Room Link Item: 1	(cave door frame       ), x,y: 152,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 64,	Room Link Item: 1	(cave door frame       ), x,y: 24,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 64,	Room Link Item: 1	(cave door frame       ), x,y: 144,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 65,	Room Link Item: 1	(cave door frame       ), x,y: 24,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 64,	Room Link Item: 1	(cave door frame       ), x,y: 80,47 	flags,doortime,doorflag: 0, 4, 86
+ Room: 66,	Room Link Item: 1	(cave door frame       ), x,y: 80,175 	flags,doortime,doorflag: 128, 4, 6
+ Room: 66,	Room Link Item: 1	(cave door frame       ), x,y: 80,39 	flags,doortime,doorflag: 0, 4, 86
+ Room: 67,	Room Link Item: 1	(cave door frame       ), x,y: 80,167 	flags,doortime,doorflag: 128, 4, 6
+ Room: 67,	Room Link Item: 1	(cave door frame       ), x,y: 144,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 68,	Room Link Item: 1	(cave door frame       ), x,y: 16,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 68,	Room Link Item: 12	(red locked cave door  ), x,y: 152,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 69,	Room Link Item: 12	(red locked cave door  ), x,y: 24,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 67,	Room Link Item: 1	(cave door frame       ), x,y: 80,47 	flags,doortime,doorflag: 0, 4, 86
+ Room: 70,	Room Link Item: 1	(cave door frame       ), x,y: 80,167 	flags,doortime,doorflag: 128, 4, 6
+ Room: 70,	Room Link Item: 1	(cave door frame       ), x,y: 24,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 71,	Room Link Item: 1	(cave door frame       ), x,y: 152,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 71,	Room Link Item: 12	(red locked cave door  ), x,y: 16,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 72,	Room Link Item: 12	(red locked cave door  ), x,y: 144,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 72,	Room Link Item: 1	(cave door frame       ), x,y: 80,167 	flags,doortime,doorflag: 128, 4, 6
+ Room: 73,	Room Link Item: 1	(cave door frame       ), x,y: 80,39 	flags,doortime,doorflag: 0, 4, 86
+ Room: 72,	Room Link Item: 14	(white locked cave door), x,y: 24,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 74,	Room Link Item: 14	(white locked cave door), x,y: 152,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 74,	Room Link Item: 1	(cave door frame       ), x,y: 16,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 75,	Room Link Item: 1	(cave door frame       ), x,y: 144,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 75,	Room Link Item: 1	(cave door frame       ), x,y: 80,47 	flags,doortime,doorflag: 0, 4, 86
+ Room: 76,	Room Link Item: 1	(cave door frame       ), x,y: 80,167 	flags,doortime,doorflag: 128, 4, 6
+ Room: 72,	Room Link Item: 1	(cave door frame       ), x,y: 80,47 	flags,doortime,doorflag: 0, 4, 86
+ Room: 77,	Room Link Item: 1	(cave door frame       ), x,y: 80,175 	flags,doortime,doorflag: 128, 4, 6
+ Room: 77,	Room Link Item: 12	(red locked cave door  ), x,y: 80,39 	flags,doortime,doorflag: 0, 4, 86
+ Room: 78,	Room Link Item: 12	(red locked cave door  ), x,y: 80,167 	flags,doortime,doorflag: 128, 4, 6
+ Room: 78,	Room Link Item: 1	(cave door frame       ), x,y: 144,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 79,	Room Link Item: 1	(cave door frame       ), x,y: 16,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 79,	Room Link Item: 1	(cave door frame       ), x,y: 152,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 80,	Room Link Item: 1	(cave door frame       ), x,y: 24,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 80,	Room Link Item: 1	(cave door frame       ), x,y: 80,167 	flags,doortime,doorflag: 128, 4, 6
+ Room: 81,	Room Link Item: 1	(cave door frame       ), x,y: 80,39 	flags,doortime,doorflag: 0, 4, 86
+ Room: 80,	Room Link Item: 13	(green locked cave door), x,y: 144,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 82,	Room Link Item: 13	(green locked cave door), x,y: 16,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 82,	Room Link Item: 1	(cave door frame       ), x,y: 152,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 83,	Room Link Item: 1	(cave door frame       ), x,y: 24,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 29,	Room Link Item: 1	(cave door frame       ), x,y: 144,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 67,	Room Link Item: 1	(cave door frame       ), x,y: 24,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 70,	Room Link Item: 1	(cave door frame       ), x,y: 80,47 	flags,doortime,doorflag: 0, 4, 86
+ Room: 81,	Room Link Item: 1	(cave door frame       ), x,y: 80,175 	flags,doortime,doorflag: 128, 4, 6
+ Room: 76,	Room Link Item: 1	(cave door frame       ), x,y: 24,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 85,	Room Link Item: 1	(cave door frame       ), x,y: 144,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 84,	Room Link Item: 1	(cave door frame       ), x,y: 144,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 85,	Room Link Item: 1	(cave door frame       ), x,y: 24,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 84,	Room Link Item: 1	(cave door frame       ), x,y: 24,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 48,	Room Link Item: 1	(cave door frame       ), x,y: 144,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 45,	Room Link Item: 2	(normal door frame     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 117,	Room Link Item: 2	(normal door frame     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 117,	Room Link Item: 2	(normal door frame     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 118,	Room Link Item: 2	(normal door frame     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 118,	Room Link Item: 2	(normal door frame     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 119,	Room Link Item: 2	(normal door frame     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 119,	Room Link Item: 2	(normal door frame     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 120,	Room Link Item: 2	(normal door frame     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 120,	Room Link Item: 2	(normal door frame     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 121,	Room Link Item: 2	(normal door frame     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 121,	Room Link Item: 2	(normal door frame     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 122,	Room Link Item: 2	(normal door frame     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 122,	Room Link Item: 2	(normal door frame     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 123,	Room Link Item: 2	(normal door frame     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 123,	Room Link Item: 11	(yellow locked door    ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 124,	Room Link Item: 11	(yellow locked door    ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 124,	Room Link Item: 11	(yellow locked door    ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 125,	Room Link Item: 11	(yellow locked door    ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 125,	Room Link Item: 2	(normal door frame     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 118,	Room Link Item: 2	(normal door frame     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 122,	Room Link Item: 8	(red locked door       ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 126,	Room Link Item: 8	(red locked door       ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 126,	Room Link Item: 2	(normal door frame     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 41,	Room Link Item: 2	(normal door frame     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 33,	Room Link Item: 2	(normal door frame     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 136,	Room Link Item: 2	(normal door frame     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 127,	Room Link Item: 9	(green locked door     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 128,	Room Link Item: 9	(green locked door     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 128,	Room Link Item: 2	(normal door frame     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 130,	Room Link Item: 2	(normal door frame     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 130,	Room Link Item: 2	(normal door frame     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 129,	Room Link Item: 2	(normal door frame     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 129,	Room Link Item: 2	(normal door frame     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 127,	Room Link Item: 2	(normal door frame     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 130,	Room Link Item: 10	(cyan locked door     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 135,	Room Link Item: 10	(cyan locked door     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 135,	Room Link Item: 2	(normal door frame     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 136,	Room Link Item: 2	(normal door frame     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 135,	Room Link Item: 2	(normal door frame     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 139,	Room Link Item: 2	(normal door frame     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 139,	Room Link Item: 2	(normal door frame     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 140,	Room Link Item: 2	(normal door frame     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 140,	Room Link Item: 9	(green locked door     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 141,	Room Link Item: 9	(green locked door     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 131,	Room Link Item: 8	(red locked door       ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 132,	Room Link Item: 8	(red locked door       ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 132,	Room Link Item: 2	(normal door frame     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 134,	Room Link Item: 2	(normal door frame     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 134,	Room Link Item: 2	(normal door frame     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 133,	Room Link Item: 2	(normal door frame     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 133,	Room Link Item: 2	(normal door frame     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 131,	Room Link Item: 2	(normal door frame     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 132,	Room Link Item: 11	(yellow locked door    ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 137,	Room Link Item: 11	(yellow locked door    ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 137,	Room Link Item: 2	(normal door frame     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 141,	Room Link Item: 2	(normal door frame     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 137,	Room Link Item: 2	(normal door frame     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 138,	Room Link Item: 2	(normal door frame     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 138,	Room Link Item: 9	(green locked door     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 35,	Room Link Item: 9	(green locked door     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 19,	Room Link Item: 2	(normal door frame     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 115,	Room Link Item: 2	(normal door frame     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 17,	Room Link Item: 2	(normal door frame     ), x,y: 128,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 107,	Room Link Item: 2	(normal door frame     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 107,	Room Link Item: 2	(normal door frame     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 108,	Room Link Item: 2	(normal door frame     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 108,	Room Link Item: 10	(cyan locked door     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 3,	Room Link Item: 10	(cyan locked door     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 15,	Room Link Item: 9	(green locked door     ), x,y: 128,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 109,	Room Link Item: 9	(green locked door     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 109,	Room Link Item: 2	(normal door frame     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 110,	Room Link Item: 2	(normal door frame     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 110,	Room Link Item: 2	(normal door frame     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 5,	Room Link Item: 2	(normal door frame     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 13,	Room Link Item: 10	(cyan locked door     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 111,	Room Link Item: 10	(cyan locked door     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 111,	Room Link Item: 2	(normal door frame     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 112,	Room Link Item: 2	(normal door frame     ), x,y: 112,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 112,	Room Link Item: 2	(normal door frame     ), x,y: 48,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 113,	Room Link Item: 3	(large door frame      ), x,y: 72,182 	flags,doortime,doorflag: 128, 22, 8
+ Room: 113,	Room Link Item: 2	(normal door frame     ), x,y: 80,40 	flags,doortime,doorflag: 0, 4, 86
+ Room: 114,	Room Link Item: 3	(large door frame      ), x,y: 72,182 	flags,doortime,doorflag: 128, 22, 8
+ Room: 114,	Room Link Item: 2	(normal door frame     ), x,y: 80,40 	flags,doortime,doorflag: 0, 4, 86
+ Room: 53,	Room Link Item: 1	(cave door frame       ), x,y: 80,167 	flags,doortime,doorflag: 128, 4, 6
+ Room: 48,	Room Link Item: 1	(cave door frame       ), x,y: 24,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 116,	Room Link Item: 1	(cave door frame       ), x,y: 144,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 86,	Room Link Item: 2	(normal door frame     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 87,	Room Link Item: 2	(normal door frame     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 87,	Room Link Item: 9	(green locked door     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 88,	Room Link Item: 9	(green locked door     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 88,	Room Link Item: 2	(normal door frame     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 89,	Room Link Item: 2	(normal door frame     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 90,	Room Link Item: 2	(normal door frame     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 91,	Room Link Item: 2	(normal door frame     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 91,	Room Link Item: 8	(red locked door       ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 92,	Room Link Item: 8	(red locked door       ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 92,	Room Link Item: 9	(green locked door     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 93,	Room Link Item: 9	(green locked door     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 94,	Room Link Item: 8	(red locked door       ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 95,	Room Link Item: 8	(red locked door       ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 95,	Room Link Item: 8	(red locked door       ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 96,	Room Link Item: 8	(red locked door       ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 96,	Room Link Item: 2	(normal door frame     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 97,	Room Link Item: 2	(normal door frame     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 98,	Room Link Item: 2	(normal door frame     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 99,	Room Link Item: 2	(normal door frame     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 99,	Room Link Item: 2	(normal door frame     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 100,	Room Link Item: 2	(normal door frame     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 100,	Room Link Item: 11	(yellow locked door    ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 101,	Room Link Item: 11	(yellow locked door    ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 86,	Room Link Item: 2	(normal door frame     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 90,	Room Link Item: 2	(normal door frame     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 90,	Room Link Item: 10	(cyan locked door     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 94,	Room Link Item: 10	(cyan locked door     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 94,	Room Link Item: 2	(normal door frame     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 98,	Room Link Item: 2	(normal door frame     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 87,	Room Link Item: 2	(normal door frame     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 91,	Room Link Item: 2	(normal door frame     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 91,	Room Link Item: 9	(green locked door     ), x,y: 48,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 95,	Room Link Item: 9	(green locked door     ), x,y: 48,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 95,	Room Link Item: 10	(cyan locked door     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 99,	Room Link Item: 10	(cyan locked door     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 88,	Room Link Item: 2	(normal door frame     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 92,	Room Link Item: 2	(normal door frame     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 92,	Room Link Item: 8	(red locked door       ), x,y: 112,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 96,	Room Link Item: 8	(red locked door       ), x,y: 112,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 96,	Room Link Item: 10	(cyan locked door     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 100,	Room Link Item: 10	(cyan locked door     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 89,	Room Link Item: 11	(yellow locked door    ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 93,	Room Link Item: 11	(yellow locked door    ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 93,	Room Link Item: 2	(normal door frame     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 97,	Room Link Item: 2	(normal door frame     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 97,	Room Link Item: 2	(normal door frame     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 101,	Room Link Item: 2	(normal door frame     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 103,	Room Link Item: 10	(cyan locked door     ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 86,	Room Link Item: 10	(cyan locked door     ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 104,	Room Link Item: 8	(red locked door       ), x,y: 80,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 89,	Room Link Item: 8	(red locked door       ), x,y: 80,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 105,	Room Link Item: 11	(yellow locked door    ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 86,	Room Link Item: 11	(yellow locked door    ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 106,	Room Link Item: 9	(green locked door     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 98,	Room Link Item: 9	(green locked door     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 102,	Room Link Item: 11	(yellow locked door    ), x,y: 48,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 91,	Room Link Item: 11	(yellow locked door    ), x,y: 112,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 102,	Room Link Item: 11	(yellow locked door    ), x,y: 112,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 92,	Room Link Item: 11	(yellow locked door    ), x,y: 48,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 102,	Room Link Item: 11	(yellow locked door    ), x,y: 48,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 95,	Room Link Item: 11	(yellow locked door    ), x,y: 112,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 102,	Room Link Item: 11	(yellow locked door    ), x,y: 112,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 96,	Room Link Item: 11	(yellow locked door    ), x,y: 48,31 	flags,doortime,doorflag: 0, 4, 86
+ Room: 101,	Room Link Item: 2	(normal door frame     ), x,y: 160,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 27,	Room Link Item: 2	(normal door frame     ), x,y: 8,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 64,	Room Link Item: 1	(cave door frame       ), x,y: 80,167 	flags,doortime,doorflag: 128, 4, 6
+ Room: 143,	Room Link Item: 1	(cave door frame       ), x,y: 80,47 	flags,doortime,doorflag: 0, 4, 86
+ Room: 84,	Room Link Item: 1	(cave door frame       ), x,y: 80,167 	flags,doortime,doorflag: 128, 4, 6
+ Room: 144,	Room Link Item: 1	(cave door frame       ), x,y: 80,47 	flags,doortime,doorflag: 0, 4, 86
+ Room: 144,	Room Link Item: 1	(cave door frame       ), x,y: 80,167 	flags,doortime,doorflag: 128, 4, 6
+ Room: 145,	Room Link Item: 1	(cave door frame       ), x,y: 80,47 	flags,doortime,doorflag: 0, 4, 86
+ Room: 145,	Room Link Item: 1	(cave door frame       ), x,y: 144,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 146,	Room Link Item: 1	(cave door frame       ), x,y: 24,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 146,	Room Link Item: 1	(cave door frame       ), x,y: 144,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 147,	Room Link Item: 1	(cave door frame       ), x,y: 24,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 147,	Room Link Item: 1	(cave door frame       ), x,y: 144,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 148,	Room Link Item: 1	(cave door frame       ), x,y: 24,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 58,	Room Link Item: 1	(cave door frame       ), x,y: 80,47 	flags,doortime,doorflag: 0, 4, 86
+ Room: 148,	Room Link Item: 1	(cave door frame       ), x,y: 80,167 	flags,doortime,doorflag: 128, 4, 6
+ Room: 115,	Room Link Item: 25	(open trapdoor        ), x,y: 80,112 	flags,doortime,doorflag: 3, 36, 228
+ Room: 116,	Static Item  : 27	(rug                 ), x,y: 72,116 	flags,doortime,doorflag: 3, 0, 0
+ Room: 3,	Room Link Item: 25	(open trapdoor        ), x,y: 48,112 	flags,doortime,doorflag: 3, 36, 228
+ Room: 101,	Static Item  : 27	(rug                 ), x,y: 56,116 	flags,doortime,doorflag: 3, 0, 0
+ Room: 97,	Room Link Item: 25	(open trapdoor        ), x,y: 80,112 	flags,doortime,doorflag: 3, 36, 228
+ Room: 75,	Static Item  : 27	(rug                 ), x,y: 72,116 	flags,doortime,doorflag: 3, 0, 0
+ Room: 45,	Room Link Item: 25	(open trapdoor        ), x,y: 80,144 	flags,doortime,doorflag: 3, 36, 228
+ Room: 141,	Static Item  : 27	(rug                 ), x,y: 72,148 	flags,doortime,doorflag: 3, 0, 0
+ Room: 118,	Room Link Item: 25	(open trapdoor        ), x,y: 80,112 	flags,doortime,doorflag: 3, 36, 228
+ Room: 132,	Static Item  : 27	(rug                 ), x,y: 72,116 	flags,doortime,doorflag: 3, 0, 0
+ Room: 139,	Room Link Item: 25	(open trapdoor        ), x,y: 80,112 	flags,doortime,doorflag: 3, 36, 228
+ Room: 108,	Static Item  : 27	(rug                 ), x,y: 72,116 	flags,doortime,doorflag: 3, 0, 0
+ Room: 141,	Room Link Item: 25	(open trapdoor        ), x,y: 80,80 	flags,doortime,doorflag: 3, 36, 228
+ Room: 110,	Static Item  : 27	(rug                 ), x,y: 72,84 	flags,doortime,doorflag: 3, 0, 0
+ Room: 33,	Room Link Item: 25	(open trapdoor        ), x,y: 112,112 	flags,doortime,doorflag: 3, 36, 228
+ Room: 3,	Static Item  : 27	(rug                 ), x,y: 104,116 	flags,doortime,doorflag: 3, 0, 0
+ Room: 21,	Room Link Item: 25	(open trapdoor        ), x,y: 80,128 	flags,doortime,doorflag: 3, 36, 228
+ Room: 102,	Static Item  : 27	(rug                 ), x,y: 72,116 	flags,doortime,doorflag: 3, 0, 0
+ Room: 120,	Room Link Item: 25	(open trapdoor        ), x,y: 112,112 	flags,doortime,doorflag: 3, 36, 228
+ Room: 138,	Static Item  : 27	(rug                 ), x,y: 104,116 	flags,doortime,doorflag: 3, 0, 0
+ Room: 41,	Room Link Item: 25	(open trapdoor        ), x,y: 80,128 	flags,doortime,doorflag: 3, 36, 228
+ Room: 9,	Static Item  : 27	(rug                 ), x,y: 72,116 	flags,doortime,doorflag: 3, 0, 0
+ Room: 11,	Static Item  : 17	(picture              ), x,y: 80,151 	flags,doortime,doorflag: 129, 0, 0
+ Room: 12,	Static Item  : 17	(picture              ), x,y: 80,151 	flags,doortime,doorflag: 129, 0, 0
+ Room: 145,	Static Item  : 39	(barrels           ), x,y: 80,143 	flags,doortime,doorflag: 0, 0, 0
+ Room: 61,	Static Item  : 39	(barrels           ), x,y: 95,95 	flags,doortime,doorflag: 0, 0, 0
+ Room: 31,	Static Item  : 30	(knight              ), x,y: 152,103 	flags,doortime,doorflag: 96, 0, 0
+ Room: 33,	Static Item  : 30	(knight              ), x,y: 8,103 	flags,doortime,doorflag: 224, 0, 0
+ Room: 37,	Static Item  : 30	(knight              ), x,y: 152,103 	flags,doortime,doorflag: 96, 0, 0
+ Room: 35,	Static Item  : 30	(knight              ), x,y: 8,103 	flags,doortime,doorflag: 224, 0, 0
+ Room: 0,	Static Item  : 30	(knight              ), x,y: 152,63 	flags,doortime,doorflag: 96, 0, 0
+ Room: 6,	Static Item  : 30	(knight              ), x,y: 56,71 	flags,doortime,doorflag: 0, 0, 0
+ Room: 0,	Static Item  : 30	(knight              ), x,y: 152,143 	flags,doortime,doorflag: 96, 0, 0
+ Room: 6,	Static Item  : 30	(knight              ), x,y: 120,71 	flags,doortime,doorflag: 0, 0, 0
+ Room: 1,	Static Item  : 30	(knight              ), x,y: 88,39 	flags,doortime,doorflag: 0, 0, 0
+ Room: 3,	Static Item  : 30	(knight              ), x,y: 88,39 	flags,doortime,doorflag: 0, 0, 0
+ Room: 5,	Static Item  : 30	(knight              ), x,y: 88,183 	flags,doortime,doorflag: 128, 0, 0
+ Room: 7,	Static Item  : 30	(knight              ), x,y: 88,183 	flags,doortime,doorflag: 128, 0, 0
+ Room: 23,	Static Item  : 30	(knight              ), x,y: 88,39 	flags,doortime,doorflag: 0, 0, 0
+ Room: 21,	Static Item  : 30	(knight              ), x,y: 120,151 	flags,doortime,doorflag: 128, 0, 0
+ Room: 21,	Static Item  : 30	(knight              ), x,y: 56,151 	flags,doortime,doorflag: 128, 0, 0
+ Room: 19,	Static Item  : 30	(knight              ), x,y: 88,39 	flags,doortime,doorflag: 0, 0, 0
+ Room: 136,	Static Item  : 30	(knight              ), x,y: 8,63 	flags,doortime,doorflag: 224, 0, 0
+ Room: 138,	Static Item  : 30	(knight              ), x,y: 8,71 	flags,doortime,doorflag: 224, 0, 0
+ Room: 136,	Static Item  : 30	(knight              ), x,y: 8,143 	flags,doortime,doorflag: 224, 0, 0
+ Room: 138,	Static Item  : 30	(knight              ), x,y: 8,135 	flags,doortime,doorflag: 224, 0, 0
+ Room: 39,	Static Item  : 30	(knight              ), x,y: 56,39 	flags,doortime,doorflag: 0, 0, 0
+ Room: 43,	Static Item  : 30	(knight              ), x,y: 56,39 	flags,doortime,doorflag: 0, 0, 0
+ Room: 39,	Static Item  : 30	(knight              ), x,y: 120,39 	flags,doortime,doorflag: 0, 0, 0
+ Room: 43,	Static Item  : 30	(knight              ), x,y: 120,39 	flags,doortime,doorflag: 0, 0, 0
+ Room: 86,	Static Item  : 30	(knight              ), x,y: 56,39 	flags,doortime,doorflag: 0, 0, 0
+ Room: 36,	Static Item  : 30	(knight              ), x,y: 56,71 	flags,doortime,doorflag: 0, 0, 0
+ Room: 86,	Static Item  : 30	(knight              ), x,y: 120,39 	flags,doortime,doorflag: 0, 0, 0
+ Room: 36,	Static Item  : 30	(knight              ), x,y: 120,71 	flags,doortime,doorflag: 0, 0, 0
+ Room: 124,	Static Item  : 30	(knight              ), x,y: 56,39 	flags,doortime,doorflag: 0, 0, 0
+ Room: 122,	Static Item  : 30	(knight              ), x,y: 56,39 	flags,doortime,doorflag: 0, 0, 0
+ Room: 124,	Static Item  : 30	(knight              ), x,y: 120,39 	flags,doortime,doorflag: 0, 0, 0
+ Room: 122,	Static Item  : 30	(knight              ), x,y: 120,39 	flags,doortime,doorflag: 0, 0, 0
+ Room: 9,	Static Item  : 30	(knight              ), x,y: 8,63 	flags,doortime,doorflag: 224, 0, 0
+ Room: 127,	Static Item  : 30	(knight              ), x,y: 56,183 	flags,doortime,doorflag: 128, 0, 0
+ Room: 9,	Static Item  : 30	(knight              ), x,y: 8,143 	flags,doortime,doorflag: 224, 0, 0
+ Room: 127,	Static Item  : 30	(knight              ), x,y: 120,183 	flags,doortime,doorflag: 128, 0, 0
+ Room: 13,	Room Link Item: 18	(table               ), x,y: 56,80 	flags,doortime,doorflag: 4, 204, 73
+ Room: 19,	Room Link Item: 18	(table               ), x,y: 112,144 	flags,doortime,doorflag: 4, 204, 73
+ Room: 99,	Room Link Item: 18	(table               ), x,y: 56,80 	flags,doortime,doorflag: 4, 204, 73
+ Room: 93,	Room Link Item: 18	(table               ), x,y: 112,80 	flags,doortime,doorflag: 4, 204, 73
+ Room: 24,	Room Link Item: 18	(table               ), x,y: 72,80 	flags,doortime,doorflag: 4, 204, 73
+ Room: 136,	Room Link Item: 18	(table               ), x,y: 112,80 	flags,doortime,doorflag: 4, 204, 73
+ Room: 122,	Room Link Item: 18	(table               ), x,y: 56,80 	flags,doortime,doorflag: 4, 204, 73
+ Room: 129,	Room Link Item: 18	(table               ), x,y: 112,80 	flags,doortime,doorflag: 4, 204, 73
+ Room: 24,	Room Link Item: 18	(table               ), x,y: 88,128 	flags,doortime,doorflag: 4, 204, 73
+ Room: 109,	Room Link Item: 18	(table               ), x,y: 48,144 	flags,doortime,doorflag: 4, 204, 73
+ Room: 91,	Room Link Item: 18	(table               ), x,y: 56,80 	flags,doortime,doorflag: 4, 204, 73
+ Room: 92,	Room Link Item: 18	(table               ), x,y: 112,80 	flags,doortime,doorflag: 4, 204, 73
+ Room: 106,	Room Link Item: 18	(table               ), x,y: 120,152 	flags,doortime,doorflag: 4, 204, 73
+ Room: 27,	Room Link Item: 18	(table               ), x,y: 112,80 	flags,doortime,doorflag: 4, 204, 73
+ Room: 46,	Room Link Item: 18	(table               ), x,y: 56,87 	flags,doortime,doorflag: 4, 204, 73
+ Room: 125,	Room Link Item: 18	(table               ), x,y: 72,80 	flags,doortime,doorflag: 4, 204, 73
+ Room: 46,	Room Link Item: 18	(table               ), x,y: 96,127 	flags,doortime,doorflag: 4, 204, 73
+ Room: 125,	Room Link Item: 18	(table               ), x,y: 88,128 	flags,doortime,doorflag: 4, 204, 73
+ Room: 42,	Room Link Item: 18	(table               ), x,y: 56,87 	flags,doortime,doorflag: 4, 204, 73
+ Room: 45,	Room Link Item: 18	(table               ), x,y: 48,128 	flags,doortime,doorflag: 4, 204, 73
+ Room: 42,	Room Link Item: 18	(table               ), x,y: 96,127 	flags,doortime,doorflag: 4, 204, 73
+ Room: 45,	Room Link Item: 18	(table               ), x,y: 112,128 	flags,doortime,doorflag: 4, 204, 73
+ Room: 141,	Static Item  : 28	(ACG shield          ), x,y: 40,103 	flags,doortime,doorflag: 224, 0, 0
+ Room: 140,	Static Item  : 29	(shield              ), x,y: 40,103 	flags,doortime,doorflag: 224, 0, 0
+ Room: 139,	Static Item  : 21	(antler trophy       ), x,y: 136,111 	flags,doortime,doorflag: 64, 0, 0
+ Room: 140,	Static Item  : 22	(trophy              ), x,y: 136,103 	flags,doortime,doorflag: 64, 0, 0
+ Room: 22,	Static Item  : 28	(ACG shield          ), x,y: 88,55 	flags,doortime,doorflag: 0, 0, 0
+ Room: 20,	Static Item  : 29	(shield              ), x,y: 88,151 	flags,doortime,doorflag: 128, 0, 0
+ Room: 14,	Static Item  : 21	(antler trophy       ), x,y: 40,87 	flags,doortime,doorflag: 224, 0, 0
+ Room: 18,	Static Item  : 22	(trophy              ), x,y: 136,111 	flags,doortime,doorflag: 64, 0, 0
+ Room: 15,	Static Item  : 28	(ACG shield          ), x,y: 40,103 	flags,doortime,doorflag: 224, 0, 0
+ Room: 17,	Static Item  : 29	(shield              ), x,y: 40,103 	flags,doortime,doorflag: 224, 0, 0
+ Room: 16,	Static Item  : 21	(antler trophy       ), x,y: 136,111 	flags,doortime,doorflag: 64, 0, 0
+ Room: 115,	Static Item  : 22	(trophy              ), x,y: 88,151 	flags,doortime,doorflag: 128, 0, 0
+ Room: 8,	Static Item  : 28	(ACG shield          ), x,y: 136,103 	flags,doortime,doorflag: 64, 0, 0
+ Room: 24,	Static Item  : 29	(shield              ), x,y: 136,103 	flags,doortime,doorflag: 64, 0, 0
+ Room: 111,	Static Item  : 21	(antler trophy       ), x,y: 40,103 	flags,doortime,doorflag: 224, 0, 0
+ Room: 14,	Static Item  : 22	(trophy              ), x,y: 40,119 	flags,doortime,doorflag: 224, 0, 0
+ Room: 0,	Static Item  : 37	(picture           ), x,y: 40,23 	flags,doortime,doorflag: 0, 0, 0
+ Room: 25,	Static Item  : 29	(shield              ), x,y: 88,55 	flags,doortime,doorflag: 0, 0, 0
+ Room: 0,	Static Item  : 17	(picture              ), x,y: 120,28 	flags,doortime,doorflag: 0, 0, 0
+ Room: 11,	Static Item  : 22	(trophy              ), x,y: 88,55 	flags,doortime,doorflag: 0, 0, 0
+ Room: 0,	Static Item  : 28	(ACG shield          ), x,y: 56,183 	flags,doortime,doorflag: 128, 0, 0
+ Room: 25,	Static Item  : 29	(shield              ), x,y: 88,151 	flags,doortime,doorflag: 128, 0, 0
+ Room: 0,	Static Item  : 21	(antler trophy       ), x,y: 120,183 	flags,doortime,doorflag: 128, 0, 0
+ Room: 11,	Static Item  : 22	(trophy              ), x,y: 88,151 	flags,doortime,doorflag: 129, 0, 0
+ Room: 4,	Static Item  : 17	(picture              ), x,y: 40,71 	flags,doortime,doorflag: 225, 0, 0
+ Room: 21,	Static Item  : 21	(antler trophy       ), x,y: 88,55 	flags,doortime,doorflag: 0, 0, 0
+ Room: 4,	Static Item  : 22	(trophy              ), x,y: 40,135 	flags,doortime,doorflag: 224, 0, 0
+ Room: 20,	Static Item  : 37	(picture           ), x,y: 88,55 	flags,doortime,doorflag: 0, 0, 0
+ Room: 115,	Static Item  : 17	(picture              ), x,y: 88,60 	flags,doortime,doorflag: 0, 0, 0
+ Room: 110,	Static Item  : 22	(trophy              ), x,y: 88,183 	flags,doortime,doorflag: 128, 0, 0
+ Room: 109,	Static Item  : 28	(ACG shield          ), x,y: 88,183 	flags,doortime,doorflag: 128, 0, 0
+ Room: 14,	Static Item  : 37	(picture           ), x,y: 136,111 	flags,doortime,doorflag: 64, 0, 0
+ Room: 7,	Static Item  : 37	(picture           ), x,y: 168,111 	flags,doortime,doorflag: 64, 0, 0
+ Room: 6,	Static Item  : 28	(ACG shield          ), x,y: 56,151 	flags,doortime,doorflag: 128, 0, 0
+ Room: 6,	Static Item  : 28	(ACG shield          ), x,y: 120,151 	flags,doortime,doorflag: 128, 0, 0
+ Room: 1,	Static Item  : 29	(shield              ), x,y: 168,103 	flags,doortime,doorflag: 64, 0, 0
+ Room: 24,	Static Item  : 17	(picture              ), x,y: 40,111 	flags,doortime,doorflag: 225, 0, 0
+ Room: 23,	Static Item  : 29	(shield              ), x,y: 168,103 	flags,doortime,doorflag: 64, 0, 0
+ Room: 135,	Static Item  : 21	(antler trophy       ), x,y: 56,23 	flags,doortime,doorflag: 0, 0, 0
+ Room: 137,	Static Item  : 22	(trophy              ), x,y: 56,183 	flags,doortime,doorflag: 128, 0, 0
+ Room: 135,	Static Item  : 22	(trophy              ), x,y: 120,23 	flags,doortime,doorflag: 0, 0, 0
+ Room: 137,	Static Item  : 21	(antler trophy       ), x,y: 120,183 	flags,doortime,doorflag: 128, 0, 0
+ Room: 0,	Static Item  : 29	(shield              ), x,y: 8,71 	flags,doortime,doorflag: 224, 0, 0
+ Room: 130,	Static Item  : 22	(trophy              ), x,y: 56,183 	flags,doortime,doorflag: 128, 0, 0
+ Room: 0,	Static Item  : 22	(trophy              ), x,y: 8,135 	flags,doortime,doorflag: 224, 0, 0
+ Room: 130,	Static Item  : 21	(antler trophy       ), x,y: 120,183 	flags,doortime,doorflag: 128, 0, 0
+ Room: 102,	Static Item  : 17	(picture              ), x,y: 160,71 	flags,doortime,doorflag: 97, 0, 0
+ Room: 97,	Static Item  : 29	(shield              ), x,y: 168,111 	flags,doortime,doorflag: 96, 0, 0
+ Room: 102,	Static Item  : 21	(antler trophy       ), x,y: 168,135 	flags,doortime,doorflag: 96, 0, 0
+ Room: 93,	Static Item  : 37	(picture           ), x,y: 168,111 	flags,doortime,doorflag: 96, 0, 0
+ Room: 102,	Static Item  : 22	(trophy              ), x,y: 8,71 	flags,doortime,doorflag: 224, 0, 0
+ Room: 101,	Static Item  : 29	(shield              ), x,y: 88,183 	flags,doortime,doorflag: 128, 0, 0
+ Room: 102,	Static Item  : 28	(ACG shield          ), x,y: 8,135 	flags,doortime,doorflag: 224, 0, 0
+ Room: 100,	Static Item  : 22	(trophy              ), x,y: 88,183 	flags,doortime,doorflag: 128, 0, 0
+ Room: 99,	Static Item  : 17	(picture              ), x,y: 88,183 	flags,doortime,doorflag: 129, 0, 0
+ Room: 98,	Static Item  : 21	(antler trophy       ), x,y: 80,183 	flags,doortime,doorflag: 128, 0, 0
+ Room: 112,	Static Item  : 22	(trophy              ), x,y: 56,183 	flags,doortime,doorflag: 128, 0, 0
+ Room: 13,	Static Item  : 21	(antler trophy       ), x,y: 8,111 	flags,doortime,doorflag: 224, 0, 0
+ Room: 112,	Static Item  : 29	(shield              ), x,y: 120,183 	flags,doortime,doorflag: 128, 0, 0
+ Room: 12,	Static Item  : 22	(trophy              ), x,y: 88,55 	flags,doortime,doorflag: 0, 0, 0
+ Room: 9,	Static Item  : 22	(trophy              ), x,y: 168,71 	flags,doortime,doorflag: 64, 0, 0
+ Room: 127,	Static Item  : 21	(antler trophy       ), x,y: 8,96 	flags,doortime,doorflag: 224, 0, 0
+ Room: 9,	Static Item  : 17	(picture              ), x,y: 160,135 	flags,doortime,doorflag: 65, 0, 0
+ Room: 127,	Static Item  : 29	(shield              ), x,y: 88,23 	flags,doortime,doorflag: 0, 0, 0
+ Room: 90,	Static Item  : 21	(antler trophy       ), x,y: 8,71 	flags,doortime,doorflag: 224, 0, 0
+ Room: 39,	Static Item  : 37	(picture           ), x,y: 168,71 	flags,doortime,doorflag: 96, 0, 0
+ Room: 90,	Static Item  : 22	(trophy              ), x,y: 8,135 	flags,doortime,doorflag: 224, 0, 0
+ Room: 39,	Static Item  : 29	(shield              ), x,y: 168,135 	flags,doortime,doorflag: 96, 0, 0
+ Room: 41,	Static Item  : 28	(ACG shield          ), x,y: 168,71 	flags,doortime,doorflag: 96, 0, 0
+ Room: 126,	Static Item  : 22	(trophy              ), x,y: 168,96 	flags,doortime,doorflag: 96, 0, 0
+ Room: 41,	Static Item  : 17	(picture              ), x,y: 160,135 	flags,doortime,doorflag: 97, 0, 0
+ Room: 126,	Static Item  : 21	(antler trophy       ), x,y: 88,183 	flags,doortime,doorflag: 128, 0, 0
+ Room: 13,	Room Link Item: 16	(clock                ), x,y: 48,39 	flags,doortime,doorflag: 1, 4, 86
+ Room: 19,	Room Link Item: 16	(clock                ), x,y: 48,183 	flags,doortime,doorflag: 129, 4, 6
+ Room: 9,	Room Link Item: 16	(clock                ), x,y: 48,39 	flags,doortime,doorflag: 1, 4, 86
+ Room: 23,	Room Link Item: 16	(clock                ), x,y: 48,183 	flags,doortime,doorflag: 129, 4, 6
+ Room: 53,	Room Link Item: 16	(clock                ), x,y: 136,111 	flags,doortime,doorflag: 97, 183, 3
+ Room: 143,	Room Link Item: 16	(clock                ), x,y: 24,111 	flags,doortime,doorflag: 225, 6, 3
+ Room: 103,	Room Link Item: 16	(clock                ), x,y: 152,111 	flags,doortime,doorflag: 97, 183, 3
+ Room: 104,	Room Link Item: 16	(clock                ), x,y: 8,111 	flags,doortime,doorflag: 225, 6, 3
+ Room: 141,	Room Link Item: 16	(clock                ), x,y: 120,79 	flags,doortime,doorflag: 97, 183, 3
+ Room: 34,	Room Link Item: 16	(clock                ), x,y: 40,111 	flags,doortime,doorflag: 225, 6, 3
+ Room: 118,	Room Link Item: 16	(clock                ), x,y: 48,39 	flags,doortime,doorflag: 1, 4, 86
+ Room: 117,	Room Link Item: 16	(clock                ), x,y: 48,183 	flags,doortime,doorflag: 129, 4, 6
+ Room: 10,	Room Link Item: 23	(bookcase             ), x,y: 64,71 	flags,doortime,doorflag: 0, 4, 86
+ Room: 22,	Room Link Item: 23	(bookcase             ), x,y: 64,151 	flags,doortime,doorflag: 128, 4, 6
+ Room: 61,	Room Link Item: 23	(bookcase             ), x,y: 72,55 	flags,doortime,doorflag: 0, 4, 86
+ Room: 73,	Room Link Item: 23	(bookcase             ), x,y: 80,175 	flags,doortime,doorflag: 128, 4, 6
+ Room: 105,	Room Link Item: 23	(bookcase             ), x,y: 64,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 106,	Room Link Item: 23	(bookcase             ), x,y: 64,39 	flags,doortime,doorflag: 0, 4, 86
+ Room: 108,	Room Link Item: 23	(bookcase             ), x,y: 64,183 	flags,doortime,doorflag: 128, 4, 6
+ Room: 110,	Room Link Item: 23	(bookcase             ), x,y: 64,39 	flags,doortime,doorflag: 0, 4, 86
+ Room: 62,	Room Link Item: 23	(bookcase             ), x,y: 136,119 	flags,doortime,doorflag: 96, 183, 3
+ Room: 65,	Room Link Item: 23	(bookcase             ), x,y: 72,167 	flags,doortime,doorflag: 128, 4, 6
+ Room: 69,	Room Link Item: 26	(barrel              ), x,y: 80,55 	flags,doortime,doorflag: 0, 4, 86
+ Room: 83,	Room Link Item: 26	(barrel              ), x,y: 80,164 	flags,doortime,doorflag: 160, 4, 6
+ Room: 76,	Room Link Item: 26	(barrel              ), x,y: 136,111 	flags,doortime,doorflag: 64, 183, 3
+ Room: 78,	Room Link Item: 26	(barrel              ), x,y: 24,111 	flags,doortime,doorflag: 224, 6, 3
+ Room: 56,	Room Link Item: 26	(barrel              ), x,y: 80,55 	flags,doortime,doorflag: 0, 4, 86
+ Room: 75,	Room Link Item: 26	(barrel              ), x,y: 80,167 	flags,doortime,doorflag: 160, 4, 6
+ Room: 107,	Room Link Item: 26	(barrel              ), x,y: 80,183 	flags,doortime,doorflag: 160, 4, 6
+ Room: 109,	Room Link Item: 26	(barrel              ), x,y: 80,39 	flags,doortime,doorflag: 0, 4, 86
+ Room: 138,	Room Link Item: 26	(barrel              ), x,y: 152,111 	flags,doortime,doorflag: 96, 183, 3
+ Room: 8,	Room Link Item: 26	(barrel              ), x,y: 40,111 	flags,doortime,doorflag: 225, 6, 3
+ Room: 0,	Room Link Item: 36	(ACG exit door        ), x,y: 152,127 	flags,doortime,doorflag: 64, 186, 214
+ Room: 142,	Room Link Item: 36	(ACG exit door        ), x,y: 0,127 	flags,doortime,doorflag: 224, 8, 214
+ Room: 83,	Static Item  : 38	(skeleton          ), x,y: 128,119 	flags,doortime,doorflag: 97, 0, 0
+ Room: 143,	Static Item  : 38	(skeleton          ), x,y: 128,119 	flags,doortime,doorflag: 97, 0, 0
+ Room: 51,	Static Item  : 38	(skeleton          ), x,y: 24,111 	flags,doortime,doorflag: 225, 0, 0
+ Room: 85,	Static Item  : 38	(skeleton          ), x,y: 80,167 	flags,doortime,doorflag: 129, 0, 0
+
+-------------------------------------------------
+Showing Room Links
+
+Room: 0, Links: 7, 25, 1, 142, 
+Room: 1, Links: 0, 2, 
+Room: 2, Links: 1, 3, 24, 38, 
+Room: 3, Links: 2, 4, 108, 101, 
+Room: 4, Links: 3, 25, 5, 
+Room: 5, Links: 4, 6, 110, 
+Room: 6, Links: 5, 26, 8, 7, 
+Room: 7, Links: 0, 6, 
+Room: 8, Links: 6, 9, 138, 
+Room: 9, Links: 8, 10, 23, 
+Room: 10, Links: 9, 11, 22, 
+Room: 11, Links: 10, 12, 
+Room: 12, Links: 11, 13, 
+Room: 13, Links: 12, 14, 111, 19, 19, 
+Room: 14, Links: 13, 15, 
+Room: 15, Links: 14, 16, 109, 
+Room: 16, Links: 15, 17, 
+Room: 17, Links: 16, 18, 107, 
+Room: 18, Links: 17, 19, 
+Room: 19, Links: 18, 20, 115, 13, 13, 
+Room: 20, Links: 19, 21, 
+Room: 21, Links: 20, 22, 102, 
+Room: 22, Links: 21, 23, 10, 
+Room: 23, Links: 22, 24, 9, 
+Room: 24, Links: 23, 2, 136, 109, 
+Room: 25, Links: 0, 4, 
+Room: 26, Links: 6, 27, 
+Room: 27, Links: 26, 28, 101, 106, 
+Room: 28, Links: 27, 29, 
+Room: 29, Links: 28, 67, 
+Room: 30, Links: 31, 37, 
+Room: 31, Links: 30, 32, 
+Room: 32, Links: 31, 33, 47, 
+Room: 33, Links: 32, 34, 136, 3, 
+Room: 34, Links: 33, 35, 141, 
+Room: 35, Links: 34, 36, 138, 
+Room: 36, Links: 35, 37, 38, 
+Room: 37, Links: 36, 30, 
+Room: 38, Links: 36, 2, 
+Room: 39, Links: 40, 46, 47, 
+Room: 40, Links: 39, 41, 
+Room: 41, Links: 40, 42, 126, 9, 
+Room: 42, Links: 41, 43, 45, 45, 
+Room: 43, Links: 42, 44, 
+Room: 44, Links: 43, 45, 
+Room: 45, Links: 44, 46, 117, 141, 42, 42, 
+Room: 46, Links: 45, 39, 125, 125, 
+Room: 47, Links: 39, 32, 
+Room: 48, Links: 49, 84, 116, 
+Room: 49, Links: 48, 50, 
+Room: 50, Links: 49, 51, 
+Room: 51, Links: 50, 52, 54, 
+Room: 52, Links: 51, 53, 
+Room: 53, Links: 52, 114, 143, 
+Room: 54, Links: 51, 55, 
+Room: 55, Links: 54, 56, 
+Room: 56, Links: 55, 57, 58, 75, 
+Room: 57, Links: 56, 59, 
+Room: 58, Links: 56, 59, 148, 
+Room: 59, Links: 57, 58, 60, 61, 
+Room: 60, Links: 59, 62, 
+Room: 61, Links: 59, 62, 63, 73, 
+Room: 62, Links: 60, 61, 65, 
+Room: 63, Links: 61, 64, 
+Room: 64, Links: 63, 65, 66, 143, 
+Room: 65, Links: 64, 62, 
+Room: 66, Links: 64, 67, 
+Room: 67, Links: 66, 68, 70, 29, 
+Room: 68, Links: 67, 69, 
+Room: 69, Links: 68, 83, 
+Room: 70, Links: 67, 71, 81, 
+Room: 71, Links: 70, 72, 
+Room: 72, Links: 71, 73, 74, 77, 
+Room: 73, Links: 72, 61, 
+Room: 74, Links: 72, 75, 
+Room: 75, Links: 74, 76, 56, 
+Room: 76, Links: 75, 85, 78, 
+Room: 77, Links: 72, 78, 
+Room: 78, Links: 77, 79, 76, 
+Room: 79, Links: 78, 80, 
+Room: 80, Links: 79, 81, 82, 
+Room: 81, Links: 80, 70, 
+Room: 82, Links: 80, 83, 
+Room: 83, Links: 82, 69, 
+Room: 84, Links: 85, 48, 144, 
+Room: 85, Links: 76, 84, 
+Room: 86, Links: 87, 90, 103, 105, 
+Room: 87, Links: 86, 88, 91, 
+Room: 88, Links: 87, 89, 92, 
+Room: 89, Links: 88, 93, 104, 
+Room: 90, Links: 91, 86, 94, 
+Room: 91, Links: 90, 92, 87, 95, 102, 92, 
+Room: 92, Links: 91, 93, 88, 96, 102, 91, 
+Room: 93, Links: 92, 89, 97, 99, 
+Room: 94, Links: 95, 90, 98, 
+Room: 95, Links: 94, 96, 91, 99, 102, 
+Room: 96, Links: 95, 97, 92, 100, 102, 
+Room: 97, Links: 96, 93, 101, 75, 
+Room: 98, Links: 99, 94, 106, 
+Room: 99, Links: 98, 100, 95, 93, 
+Room: 100, Links: 99, 101, 96, 
+Room: 101, Links: 100, 97, 27, 
+Room: 102, Links: 91, 92, 95, 96, 
+Room: 103, Links: 86, 104, 
+Room: 104, Links: 89, 103, 
+Room: 105, Links: 86, 106, 
+Room: 106, Links: 98, 27, 105, 
+Room: 107, Links: 17, 108, 109, 
+Room: 108, Links: 107, 3, 110, 
+Room: 109, Links: 15, 110, 24, 107, 
+Room: 110, Links: 109, 5, 108, 
+Room: 111, Links: 13, 112, 
+Room: 112, Links: 111, 113, 
+Room: 113, Links: 112, 114, 
+Room: 114, Links: 113, 53, 
+Room: 115, Links: 19, 116, 
+Room: 116, Links: 48, 
+Room: 117, Links: 45, 118, 118, 
+Room: 118, Links: 117, 119, 125, 132, 117, 
+Room: 119, Links: 118, 120, 
+Room: 120, Links: 119, 121, 138, 
+Room: 121, Links: 120, 122, 
+Room: 122, Links: 121, 123, 126, 129, 
+Room: 123, Links: 122, 124, 
+Room: 124, Links: 123, 125, 
+Room: 125, Links: 124, 118, 46, 46, 
+Room: 126, Links: 122, 41, 
+Room: 127, Links: 128, 129, 
+Room: 128, Links: 127, 130, 
+Room: 129, Links: 130, 127, 122, 
+Room: 130, Links: 128, 129, 135, 
+Room: 131, Links: 132, 133, 
+Room: 132, Links: 131, 134, 137, 
+Room: 133, Links: 134, 131, 
+Room: 134, Links: 132, 133, 
+Room: 135, Links: 130, 136, 139, 
+Room: 136, Links: 33, 135, 24, 
+Room: 137, Links: 132, 141, 138, 
+Room: 138, Links: 137, 35, 8, 
+Room: 139, Links: 135, 140, 108, 
+Room: 140, Links: 139, 141, 
+Room: 141, Links: 140, 137, 110, 34, 
+Room: 142, Links: 0, 
+Room: 143, Links: 64, 53, 
+Room: 144, Links: 84, 145, 
+Room: 145, Links: 144, 146, 
+Room: 146, Links: 145, 147, 
+Room: 147, Links: 146, 148, 
+Room: 148, Links: 147, 58, 
+Room: 149, Links: 
+Room: 150, Links: 

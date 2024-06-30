@@ -1,0 +1,441 @@
+<?xml version="1.0"?>
+<Entities>
+	
+	<!-- The new definition of shootings -->
+	<SetOfEntities fromId="550000" number="2550">
+		<Forms>
+			<!-- Different forms of the shooting -->
+			<Form id="50400"/>
+			<Form id="50401"/>
+			<Form id="50402"/>
+			
+<!-- ADDED FOR BATTLESHIPII -->
+
+			<!-- A little red ball 
+				 Prepared to be shooted to any direction -->
+			<Form id="60200"/>
+			
+<!-- ADDED FOR BATTLESHIPII -->
+
+			<!-- The explosion of the shooting -->
+			<Form id="50102"/>
+		</Forms>
+		<MovementsBase>
+			<!-- Moving forward -->
+			<Movement id="550000"/>
+			<!-- Staying -->
+			<Movement id="570000"/>
+		</MovementsBase>
+		<Animations>
+			<!-- Type of shooting 0 (short yellow) -->
+			<Animation id="0" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50400"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="0"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Type of shooting 1 (short green) -->
+			<Animation id="1" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50400"/>
+					<Attribute id="INITIALASPECT" value="1"/>
+					<Attribute id="FINALASPECT" value="1"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Type of shooting 2 (short blue) -->
+			<Animation id="2" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50400"/>
+					<Attribute id="INITIALASPECT" value="2"/>
+					<Attribute id="FINALASPECT" value="2"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Type of shooting 3 (long yellow) -->
+			<Animation id="3" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50401"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="0"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Type of shooting 4 (long orange) -->
+			<Animation id="4" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50401"/>
+					<Attribute id="INITIALASPECT" value="1"/>
+					<Attribute id="FINALASPECT" value="1"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Type of shooting 5 (long red) -->
+			<Animation id="5" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50401"/>
+					<Attribute id="INITIALASPECT" value="2"/>
+					<Attribute id="FINALASPECT" value="2"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Type of shooting 6 (double yellow) -->
+			<Animation id="6" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50402"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="0"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Type of shooting 7 (double red) -->
+			<Animation id="7" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50402"/>
+					<Attribute id="INITIALASPECT" value="1"/>
+					<Attribute id="FINALASPECT" value="1"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			
+<!-- ADDED FOR BATTLESHIPII -->
+
+			<!-- Type of shooting 8 (red ball) -->
+			<Animation id="8" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="60200"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="0"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			
+<!-- ADDED FOR BATTLESHIPII -->
+
+			<!-- Shooting exploding (when contact) -->
+			<Animation id="9" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50102"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="20"/>
+					<Attribute id="FRACTIONTOCHANGE" value="3"/>
+					<Attribute id="LOOP" value="0"/> <!-- No loop -->
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- No animation, when it has been destroyed or it is not still visible -->
+			<Animation id="10" type="-1"/>
+		</Animations>
+		<States>
+			<!-- Moving shooting type 0 (short yellow) -->
+			<State id="0" animation="0" movementBase="550000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,-1,0"/>
+				</Attributes>
+			</State>
+			<!-- Moving shooting type 1 (short green) -->
+			<State id="1" animation="1" movementBase="550000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,-1,0"/>
+				</Attributes>
+			</State>
+			<!-- Moving shooting type 2 (short blue) -->
+			<State id="2" animation="2" movementBase="550000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,-1,0"/>
+				</Attributes>
+			</State>
+			<!-- Moving shooting type 3 (long yellow) -->
+			<State id="3" animation="3" movementBase="550000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,-1,0"/>
+				</Attributes>
+			</State>
+			<!-- Moving shooting type 4 (long orange) -->
+			<State id="4" animation="4" movementBase="550000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,-1,0"/>
+				</Attributes>
+			</State>
+			<!-- Moving shooting type 5 (long red) -->
+			<State id="5" animation="5" movementBase="550000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,-1,0"/>
+				</Attributes>
+			</State>
+			<!-- Moving shooting type 6 (double yellow) -->
+			<State id="6" animation="6" movementBase="550000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,-1,0"/>
+				</Attributes>
+			</State>
+			<!-- Moving shooting type 7 (double red) -->
+			<State id="7" animation="7" movementBase="550000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,-1,0"/>
+				</Attributes>
+			</State>
+			
+<!-- ADDED FOR BATTLESHIPII -->
+
+			<!-- Moving shooting type 8 (little red ball) -->
+			<State id="8" animation="8" movementBase="550000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,-1,0"/>
+				</Attributes>
+			</State>
+			
+<!-- ADDED FOR BATTLESHIPII -->
+<!-- MODIFIED FOR BATTLESHIPII -->
+
+			<!-- Shooting exploding -->
+			<State id="9" animation="9" movementBase="570000"/>
+			<!-- Disappearing from the screen -->
+			<State id="10" animation="10" movementBase="570000"/>
+
+<!-- MODIFIED FOR BATTLESHIPII -->
+		</States>
+	</SetOfEntities>
+	
+	<!-- The new definition of the UFOs 
+		 This definition rewrites the one defined in bsentities.xml -->
+	<SetOfEntities fromId="56000" number="50">
+		<Forms>
+			<!-- Different UFO forms -->
+			<!-- UFO 1 -->
+			<Form id="50800"/>
+			<!-- UFO 2 -->
+			<Form id="50801"/>
+			<!-- UFO 3 -->
+			<Form id="50802"/>
+			
+<!-- ADDED FOR BATTLESHIPII -->
+			
+			<!-- UFO 4 -->
+			<Form id="60100"/>
+			<!-- UFO 5 -->
+			<Form id="60101"/>
+			
+			<!-- Very big UFOS -->
+			<!-- Mothership UFO 1 -->
+			<Form id="60000"/>
+			<!-- Mothership UFO 2 -->
+			<Form id="60001"/>
+			<!-- Mothership UFO 3 -->
+			<Form id="60002"/>
+			
+<!-- ADDED FOR BATTLESHIPII -->
+
+			<!-- Little Explosion-->
+			<Form id="50101"/>
+		</Forms>
+		<MovementsBase>
+			<!-- Moving -->
+			<Movement id="56000"/>
+			<!-- Staying -->
+			<Movement id="56100"/>
+		</MovementsBase>
+		<Animations>
+			<!-- Type of UFO 1 -->
+			<Animation id="0" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50800"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="6"/>
+					<Attribute id="FRACTIONTOCHANGE" value="2"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Type of UFO 2 -->
+			<Animation id="1" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50801"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="6"/>
+					<Attribute id="FRACTIONTOCHANGE" value="2"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Type of UFO 3 -->
+			<Animation id="2" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50802"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="4"/>
+					<Attribute id="FRACTIONTOCHANGE" value="2"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+
+<!-- ADDED FOR BATTLESHIPII -->
+
+			<!-- Type of UFO 4 -->
+			<Animation id="3" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="60100"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="6"/>
+					<Attribute id="FRACTIONTOCHANGE" value="2"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Type of UFO 5 -->
+			<Animation id="4" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="60101"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="6"/>
+					<Attribute id="FRACTIONTOCHANGE" value="2"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+
+			<!-- Type of Mothership UFO 1 -->
+			<Animation id="5" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="60000"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="18"/>
+					<Attribute id="FRACTIONTOCHANGE" value="2"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Type of Mothership UFO 2 -->
+			<Animation id="6" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="60001"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="18"/>
+					<Attribute id="FRACTIONTOCHANGE" value="2"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Type of Mothership UFO 3 -->
+			<Animation id="7" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="60002"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="10"/>
+					<Attribute id="FRACTIONTOCHANGE" value="2"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+
+<!-- ADDED FOR BATTLESHIPII -->
+<!-- CORRECTED FOR BATTLESHIPII -->
+
+			<!-- When the UFO is exploding -->
+			<Animation id="8" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50101"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="25"/>
+					<Attribute id="FRACTIONTOCHANGE" value="4"/>
+					<Attribute id="LOOP" value="0"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- No animation when it has been destroyed -->
+			<Animation id="9" type="-1"/>
+
+<!-- CORRECTED FOR BATTLESHIPII -->
+
+		</Animations>
+		<States>
+			<!-- Note that none of the movements define the direction.
+				 It is defined by the block the UFO is contained in, through the parameter "TypeMovement" -->
+			<!-- Freeze UFO 1 -->
+			<State id="0" animation="0" movementBase="56100"/>
+			<!-- Moving UFO 1 -->
+			<State id="1" animation="0" movementBase="56000"/>
+			<!-- Freeze UFO 2 -->
+			<State id="2" animation="1" movementBase="56100"/>
+			<!-- Moving UFO 2 -->
+			<State id="3" animation="1" movementBase="56000"/>
+			<!-- Freeze UFO 3 -->
+			<State id="4" animation="2" movementBase="56100"/>
+			<!-- Moving UFO 3 -->
+			<State id="5" animation="2" movementBase="56000"/>
+
+<!-- ADDED FOR BATTLESHIPII -->
+
+			<!-- Freeze UFO 4 -->
+			<State id="6" animation="3" movementBase="56100"/>
+			<!-- Moving UFO 4 -->
+			<State id="7" animation="3" movementBase="56000"/>
+			<!-- Freeze UFO 5 -->
+			<State id="8" animation="4" movementBase="56100"/>
+			<!-- Moving UFO 5 -->
+			<State id="9" animation="4" movementBase="56000"/>
+			<!-- Freeze Mothership UFO 1 -->
+			<State id="10" animation="5" movementBase="56100"/>
+			<!-- Moving Mothership UFO 1 -->
+			<State id="11" animation="5" movementBase="56000"/>
+			<!-- Freeze Mothership UFO 2 -->
+			<State id="12" animation="6" movementBase="56100"/>
+			<!-- Moving Mothership UFO 2 -->
+			<State id="13" animation="6" movementBase="56000"/>
+			<!-- Freeze Mothership UFO 3 -->
+			<State id="14" animation="7" movementBase="56100"/>
+			<!-- Moving Mothership UFO 3 -->
+			<State id="15" animation="7" movementBase="56000"/>
+
+<!-- ADDED FOR BATTLESHIPII -->
+<!-- CORRECTED FOR BATTLESHIPII -->
+
+			<!-- Exploding -->
+			<State id="16" animation="8" movementBase="56100"/>
+			<!-- Disappearing from the screen -->
+			<State id="17" animation="9" movementBase="56100"/>
+
+<!-- CORRECTED FOR BATTLESHIPII -->
+<!-- ADDED FOR BATTHESHIP
+	 This new state is used only by  mothership ufos.
+	 The "Exploding" state is based not in the animation 7 (a explosion) but the 5 or 6 (depending on the mothership)
+	 These two states are added AFTER the last offical one, because the calculation of those if based on
+	 the number total types of ufos and considering there are only two states possible por ufo (freeze or moving) -->
+	 
+			<!-- Exploding Mothership UFO 1/2/3 -->
+			<State id="18" animation="5" movementBase="56100"/>
+			<!-- Exploding -->
+			<State id="19" animation="6" movementBase="56100"/>
+			<!-- Exploding -->
+			<State id="20" animation="7" movementBase="56100"/>
+
+<!-- ADDED FOR BATTLESHIPII -->
+
+		</States>
+	</SetOfEntities>
+
+	<!-- Includes -->
+	<Include file="bsentities.xml"/>
+
+</Entities>

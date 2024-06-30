@@ -1,0 +1,343 @@
+<?xml version="1.0"?>
+<Maps>
+
+	<World id="50003">
+		<Scenes>
+		
+			<!-- DarkForestWorld0 -->
+			<Scene id="80000">
+				<Actions>
+					<!-- Flying Monsters -->
+					<!-- Bats -->
+					<Action id="70055">
+						<Attributes>
+							<Attribute id="TypeOfMonster" value="4"/> 
+							<Attribute id="TimeToAppear" value="2"/> 
+						</Attributes>
+					</Action>
+
+					<!-- Monsters -->
+					<!-- Block 1 -->
+					<Action id="71120"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50002"/>
+							<Attribute id="Fire" value="YES"/>
+							<Attribute id="TypeOfFire" value="21"/> 
+							<Attribute id="ImpulseOfFire" value="-1"/>
+							<Attribute id="SecondsToFire" value="-2"/>
+							<Attribute id="SecondsBetweenFires" value="1"/>
+							<Attribute id="SecondsFiring" value="5"/>
+						</Attributes>
+					</Action>
+
+					<!-- Block 2 -->
+					<Action id="71121"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50002"/>
+							<Attribute id="Fire" value="YES"/>
+							<Attribute id="TypeOfFire" value="1"/> 
+							<Attribute id="ImpulseOfFire" value="10"/>
+							<Attribute id="SecondsToFire" value="-5"/>
+							<Attribute id="SecondsBetweenFires" value="5"/>
+							<Attribute id="SecondsFiring" value="5"/>
+						</Attributes>
+					</Action>
+
+					<!-- Block 3 -->
+					<Action id="71122"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50000"/>
+							<Attribute id="Fire" value="YES"/>
+							<Attribute id="TypeOfFire" value="1"/> 
+							<Attribute id="ImpulseOfFire" value="5"/>
+							<Attribute id="SecondsToFire" value="-5"/>
+							<Attribute id="SecondsBetweenFires" value="5"/>
+							<Attribute id="SecondsFiring" value="5"/>
+						</Attributes>
+					</Action>
+
+					<!-- Block 4 -->
+					<Action id="71123"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50002"/>
+							<Attribute id="Fire" value="YES"/>
+							<Attribute id="TypeOfFire" value="20"/> 
+							<Attribute id="ImpulseOfFire" value="-2"/>
+							<Attribute id="SecondsToFire" value="-5"/>
+							<Attribute id="SecondsBetweenFires" value="5"/>
+							<Attribute id="SecondsFiring" value="5"/>
+						</Attributes>
+					</Action>
+
+					<!-- Block 5 -->
+					<Action id="71124"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50006"/> 
+							<Attribute id="Fire" value="YES"/>
+							<Attribute id="TypeOfFire" value="1"/> 
+							<Attribute id="ImpulseOfFire" value="10"/>
+							<Attribute id="SecondsToFire" value="-5"/>
+							<Attribute id="SecondsBetweenFires" value="2"/>
+							<Attribute id="SecondsFiring" value="3"/>
+						</Attributes>
+					</Action>
+					
+					<!-- Environment Condition -->
+					<Action id="72055">
+						<Attributes>
+							<Attribute id="TypeCondition" value="1"/> <!-- Rain -->
+							<Attribute id="SecondsToStart" value="3"/>
+							<Attribute id="SecondsCondition" value="-1"/> 
+							<Attribute id="RainDensity" value="0.10"/>
+							<Attribute id="RainBackgroundId" value="50160"/>
+						</Attributes>
+					</Action>
+				</Actions>
+				
+				<Attributes>
+					<Attribute id="FUNDAMENTAL" value="YES"/>
+					<Attribute id="NAME" value="Look carefully the ground"/>
+					<Attribute id="MOVEMENT" value="1,0,0"/> 
+					<Attribute id="BACKGROUNDMUSIC" value="50008"/> 
+					<Attribute id="LIQUIDSFLUIDITY" value="6.50"/> 
+				</Attributes>
+				
+				<Conexions>
+					<Conexion id="0" with="80001" at="0"/>
+					<Conexion id="1" with="70004" at="1"/>
+				</Conexions>
+
+				<Maps>
+					<Map id="50110" file="maps/BKDarkForest.xml"/>
+					<Map id="80000" file="maps/DarkForestWorld0.tmx"/>
+				</Maps>
+
+				<Entities>
+					<Entity id="50100" layer="Solid_3"/> 
+					<Entity id="50101" layer="Solid_3"/>
+					<SetOfEntities fromId="51000" number="110" layer="Solid_3"/>
+					<SetOfEntities fromId="30000" number="200" layer="Solid_3"/>
+					<SetOfEntities fromId="31000" number="200" layer="Solid_3"/>
+					<SetOfEntities fromId="50110" number="10" layer="DecorationFront_4"/> 
+					<SetOfEntities fromId="50120" number="10" layer="DecorationFront_4"/> 
+					<SetOfEntities fromId="60000" number="10" layer="DecorationFront_4"/> 
+					<SetOfEntities fromId="61000" number="10" layer="DecorationFront_4"/> 
+					<SetOfEntities fromId="62000" number="10" layer="DecorationFront_4"/> 
+					<SetOfEntities fromId="32000" number="10" layer="Solid_3"/>
+				</Entities>
+			</Scene>
+			<!-- -->
+		
+			<!-- DarkForestWorld1 -->
+			<Scene id="80001">
+				<Actions>
+					<!-- Flying Monsters -->
+					<!-- Bats -->
+					<Action id="70060">
+						<Attributes>
+							<Attribute id="TypeOfMonster" value="4"/> 
+							<Attribute id="TimeToAppear" value="3"/> 
+						</Attributes>
+					</Action>
+
+					<!-- Block 1 -->
+					<Action id="71130"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50002"/> 
+							<Attribute id="Fire" value="YES"/>
+							<Attribute id="TypeOfFire" value="6"/> 
+							<Attribute id="ImpulseOfFire" value="1"/>
+							<Attribute id="SecondsToFire" value="-5"/>
+							<Attribute id="SecondsBetweenFires" value="1"/>
+							<Attribute id="SecondsFiring" value="2"/>
+						</Attributes>
+					</Action>
+
+					<!-- Block 2 -->
+					<Action id="71131"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50002"/> 
+							<Attribute id="Fire" value="YES"/>
+							<Attribute id="TypeOfFire" value="0"/> 
+							<Attribute id="ImpulseOfFire" value="1"/>
+							<Attribute id="SecondsToFire" value="-5"/>
+							<Attribute id="SecondsBetweenFires" value="1"/>
+							<Attribute id="SecondsFiring" value="2"/>
+						</Attributes>
+					</Action>
+
+					<!-- Block 3 -->
+					<Action id="71132"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50002"/> 
+							<Attribute id="Fire" value="YES"/>
+							<Attribute id="TypeOfFire" value="6"/> 
+							<Attribute id="ImpulseOfFire" value="1"/>
+							<Attribute id="SecondsToFire" value="-5"/>
+							<Attribute id="SecondsBetweenFires" value="1"/>
+							<Attribute id="SecondsFiring" value="2"/>
+						</Attributes>
+					</Action>
+
+					<!-- Block 4 -->
+					<Action id="71133"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50002"/> 
+							<Attribute id="Fire" value="YES"/>
+							<Attribute id="TypeOfFire" value="0"/> 
+							<Attribute id="ImpulseOfFire" value="1"/>
+							<Attribute id="SecondsToFire" value="-5"/>
+							<Attribute id="SecondsBetweenFires" value="1"/>
+							<Attribute id="SecondsFiring" value="2"/>
+						</Attributes>
+					</Action>
+
+					<!-- Block 5 -->
+					<Action id="71134"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50002"/> 
+							<Attribute id="Fire" value="YES"/>
+							<Attribute id="TypeOfFire" value="1"/> 
+							<Attribute id="ImpulseOfFire" value="1"/>
+							<Attribute id="SecondsToFire" value="-6"/>
+							<Attribute id="SecondsBetweenFires" value="1"/>
+							<Attribute id="SecondsFiring" value="2"/>
+						</Attributes>
+					</Action>
+
+					<!-- Block 6 -->
+					<Action id="71135"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50006"/> 
+							<Attribute id="Fire" value="YES"/>
+							<Attribute id="TypeOfFire" value="1,20"/> 
+							<Attribute id="ImpulseOfFire" value="10"/>
+							<Attribute id="SecondsToFire" value="-5"/>
+							<Attribute id="SecondsBetweenFires" value="3"/>
+							<Attribute id="SecondsFiring" value="6"/>
+						</Attributes>
+					</Action>
+					
+					<!-- Layers Removeable -->
+					<Action id="73015">
+						<Attributes>
+							<Attribute id="NumberSets" value="1"/> 
+							<Attribute id="Set0" value="Solid_2"/>
+							<Attribute id="DefaultSet" value="0"/> 
+						</Attributes>
+					</Action>
+				</Actions>
+				
+				<Attributes>
+					<Attribute id="FUNDAMENTAL" value="YES"/>
+					<Attribute id="NAME" value="You need a flashlight"/>
+					<Attribute id="MOVEMENT" value="1,0,0"/> 
+					<Attribute id="BACKGROUNDMUSIC" value="50008"/> 
+					<Attribute id="LIQUIDSFLUIDITY" value="8.50"/> <!-- Thicker -->
+				</Attributes>
+				
+				<Conexions>
+					<Conexion id="0" with="80002" at="0"/>
+					<Conexion id="1" with="80000" at="2"/>
+				</Conexions>
+
+				<Maps>
+					<Map id="50110" file="maps/BKDarkForest.xml"/>
+					<Map id="80001" file="maps/DarkForestWorld1.tmx"/>
+				</Maps>
+
+				<Entities>
+					<Entity id="50100" layer="Solid_1"/> 
+					<Entity id="50101" layer="Solid_1"/>
+					<SetOfEntities fromId="51000" number="110" layer="Solid_1"/>
+					<SetOfEntities fromId="30000" number="200" layer="Solid_1"/>
+					<SetOfEntities fromId="31000" number="200" layer="Solid_1"/>
+					<SetOfEntities fromId="50110" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="50120" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="60000" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="61000" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="62000" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="32000" number="10" layer="Solid_1"/>
+				</Entities>
+			</Scene>
+			<!-- -->
+		
+			<!-- DarkForestWorld2 -->
+			<Scene id="80002">
+				<Actions>
+					<!-- Flying Monsters -->
+					<!-- Bats -->
+					<Action id="70065">
+						<Attributes>
+							<Attribute id="TypeOfMonster" value="4"/> 
+							<Attribute id="TimeToAppear" value="3"/> 
+						</Attributes>
+					</Action>
+
+					<!-- Monsters -->
+					<!-- Block 1 -->
+					<Action id="71140"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50014"/>
+							<Attribute id="Fire" value="YES"/>
+							<Attribute id="TypeOfFire" value="1,20"/> 
+							<Attribute id="ImpulseOfFire" value="10"/>
+							<Attribute id="SecondsToFire" value="-5"/>
+							<Attribute id="SecondsBetweenFires" value="-2"/>
+							<Attribute id="SecondsFiring" value="5"/>
+						</Attributes>
+					</Action>
+					
+					<!-- Environment Condition -->
+					<Action id="72065">
+						<Attributes>
+							<Attribute id="TypeCondition" value="4"/> <!-- Lightning -->
+							<Attribute id="SecondsToStart" value="0"/>
+							<Attribute id="SecondsCondition" value="-5"/> 
+							<Attribute id="LightningsProbability" value="70"/>
+							<Attribute id="LightningsFrecuency" value="3"/>
+						</Attributes>
+					</Action>
+				</Actions>
+				
+				<Attributes>
+					<Attribute id="FUNDAMENTAL" value="YES"/>
+					<Attribute id="NAME" value="I do not want you"/>
+					<Attribute id="MOVEMENT" value="1,0,0"/> 
+					<Attribute id="BACKGROUNDMUSIC" value="80006"/> 
+					<Attribute id="LIQUIDSFLUIDITY" value="6.50"/> 
+				</Attributes>
+				
+				<Conexions>
+					<Conexion id="0" with="90000" at="0"/>
+					<Conexion id="1" with="80001" at="2"/>
+				</Conexions>
+
+				<Maps>
+					<Map id="50110" file="maps/BKDarkForest.xml"/>
+					<Map id="80002" file="maps/DarkForestWorld2.tmx"/>
+				</Maps>
+
+				<Entities>
+					<Entity id="50100" layer="Solid_1"/> 
+					<Entity id="50101" layer="Solid_1"/>
+					<SetOfEntities fromId="51000" number="110" layer="Solid_1"/>
+					<SetOfEntities fromId="30000" number="200" layer="Solid_1"/>
+					<SetOfEntities fromId="31000" number="200" layer="Solid_1"/>
+					<SetOfEntities fromId="50110" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="50120" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="60000" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="61000" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="62000" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="32000" number="10" layer="Solid_1"/>
+				</Entities>
+			</Scene>
+			<!-- -->
+			
+		</Scenes>
+		<Attributes>
+			<Attribute id="NAME" value="The dark forest"/>
+		</Attributes>
+	</World>
+	
+</Maps>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:ed65838f5e802ffc3233121d1636d9b6:0d38a5b2fa1c2d17fbf513fd092a4618:e8d2cf8562496539575258cf97c2f3f0$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="BoarLeft" file="./forms/BoarLeft.png" width="445" height="409"
+		fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="?">
+		<Frame id="boar_dead (1)" fPosX="223" fPosY="202" fWidth="109" fHeight="102" xoffset="41" yoffset="13" width="109" height="102"/>
+		<Frame id="boar_dead (2)" fPosX="111" fPosY="100" fWidth="109" fHeight="98" xoffset="31" yoffset="18" width="109" height="98"/>
+		<Frame id="boar_dead (3)" fPosX="114" fPosY="1" fWidth="110" fHeight="91" xoffset="31" yoffset="23" width="110" height="91"/>
+		<Frame id="boar_dead (4)" fPosX="1" fPosY="1" fWidth="111" fHeight="90" xoffset="29" yoffset="25" width="111" height="90"/>
+		<Frame id="boar_idle (1)" fPosX="222" fPosY="100" fWidth="109" fHeight="98" xoffset="41" yoffset="15" width="109" height="98"/>
+		<Frame id="boar_idle (2)" fPosX="336" fPosY="1" fWidth="108" fHeight="97" xoffset="41" yoffset="16" width="108" height="97"/>
+		<Frame id="boar_idle (3)" fPosX="226" fPosY="1" fWidth="108" fHeight="96" xoffset="41" yoffset="17" width="108" height="96"/>
+		<Frame id="boar_idle (4)" fPosX="1" fPosY="100" fWidth="108" fHeight="97" xoffset="41" yoffset="16" width="108" height="97"/>
+		<Frame id="boar_walk (1)" fPosX="333" fPosY="100" fWidth="109" fHeight="100" xoffset="41" yoffset="13" width="109" height="100"/>
+		<Frame id="boar_walk (2)" fPosX="334" fPosY="202" fWidth="109" fHeight="102" xoffset="41" yoffset="13" width="109" height="102"/>
+		<Frame id="boar_walk (3)" fPosX="1" fPosY="306" fWidth="109" fHeight="102" xoffset="41" yoffset="13" width="109" height="102"/>
+		<Frame id="boar_walk (4)" fPosX="112" fPosY="306" fWidth="109" fHeight="102" xoffset="41" yoffset="13" width="109" height="102"/>
+		<Frame id="boar_walk (5)" fPosX="1" fPosY="202" fWidth="109" fHeight="100" xoffset="41" yoffset="13" width="109" height="100"/>
+		<Frame id="boar_walk (6)" fPosX="223" fPosY="306" fWidth="109" fHeight="102" xoffset="41" yoffset="13" width="109" height="102"/>
+		<Frame id="boar_walk (7)" fPosX="112" fPosY="202" fWidth="109" fHeight="101" xoffset="41" yoffset="13" width="109" height="101"/>
+		<Frame id="boar_walk (8)" fPosX="334" fPosY="306" fWidth="109" fHeight="102" xoffset="41" yoffset="13" width="109" height="102"/>
+    </Form>
+</CommtyExporter>

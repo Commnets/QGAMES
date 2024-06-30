@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:1ce1780650be6c2f9ce6eadfb001ce85:23a056d263d3b04b7d5fcff468035cce:bb9b7e6f67a5e76231d7abee47d94b6b$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="columns" file="./forms/columns.png" width="1024" height="3584"
+		fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="?">
+		<Frame id="stoneColumn_E" fPosX="0" fPosY="0" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="stoneColumn_N" fPosX="256" fPosY="0" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="stoneColumn_S" fPosX="512" fPosY="0" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="stoneColumn_W" fPosX="768" fPosY="0" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="stoneColumnWood_E" fPosX="0" fPosY="512" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="stoneColumnWood_N" fPosX="256" fPosY="512" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="stoneColumnWood_S" fPosX="512" fPosY="512" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="stoneColumnWood_W" fPosX="768" fPosY="512" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="stoneWallColumn_E" fPosX="0" fPosY="1024" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="stoneWallColumn_N" fPosX="256" fPosY="1024" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="stoneWallColumn_S" fPosX="512" fPosY="1024" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="stoneWallColumn_W" fPosX="768" fPosY="1024" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="woodenSupportBeams_E" fPosX="0" fPosY="1536" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="woodenSupportBeams_N" fPosX="256" fPosY="1536" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="woodenSupportBeams_S" fPosX="512" fPosY="1536" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="woodenSupportBeams_W" fPosX="768" fPosY="1536" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="woodenSupports_E" fPosX="0" fPosY="2048" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="woodenSupports_N" fPosX="256" fPosY="2048" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="woodenSupports_S" fPosX="512" fPosY="2048" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="woodenSupports_W" fPosX="768" fPosY="2048" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="woodenSupportsBeam_E" fPosX="0" fPosY="2560" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="woodenSupportsBeam_N" fPosX="256" fPosY="2560" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="woodenSupportsBeam_S" fPosX="512" fPosY="2560" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="woodenSupportsBeam_W" fPosX="768" fPosY="2560" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="woodenSupportsBlock_E" fPosX="0" fPosY="3072" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="woodenSupportsBlock_N" fPosX="256" fPosY="3072" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="woodenSupportsBlock_S" fPosX="512" fPosY="3072" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="woodenSupportsBlock_W" fPosX="768" fPosY="3072" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+    </Form>
+</CommtyExporter>

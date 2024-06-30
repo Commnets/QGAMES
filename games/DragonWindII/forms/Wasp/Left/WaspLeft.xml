@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:a961d59d8c5af8545fbe820cf7775253:acde7d5e37fa39787d11282759673e64:a375a7f243ac0c913a87397401a90003$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="WaspLelft" file="./forms/WaspLelft.png" width="400" height="61"
+		fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="?">
+		<Frame id="bee_fly (1)" fPosX="1" fPosY="1" fWidth="48" fHeight="59" xoffset="19" yoffset="11" width="48" height="59"/>
+		<Frame id="bee_fly (2)" fPosX="51" fPosY="1" fWidth="48" fHeight="59" xoffset="19" yoffset="11" width="48" height="59"/>
+		<Frame id="bee_fly (3)" fPosX="101" fPosY="1" fWidth="48" fHeight="59" xoffset="19" yoffset="11" width="48" height="59"/>
+		<Frame id="bee_fly (4)" fPosX="151" fPosY="1" fWidth="48" fHeight="59" xoffset="19" yoffset="11" width="48" height="59"/>
+		<Frame id="bee_fly (5)" fPosX="201" fPosY="1" fWidth="48" fHeight="59" xoffset="19" yoffset="11" width="48" height="59"/>
+		<Frame id="bee_fly (6)" fPosX="251" fPosY="1" fWidth="48" fHeight="59" xoffset="19" yoffset="11" width="48" height="59"/>
+		<Frame id="bee_fly (7)" fPosX="301" fPosY="1" fWidth="48" fHeight="59" xoffset="19" yoffset="11" width="48" height="59"/>
+		<Frame id="bee_fly (8)" fPosX="351" fPosY="1" fWidth="48" fHeight="59" xoffset="19" yoffset="11" width="48" height="59"/>
+    </Form>
+</CommtyExporter>

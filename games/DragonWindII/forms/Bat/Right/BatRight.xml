@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:50824c640f9069aca6faf1fca73a062b:9a31f504d68636bd6814a276ffc8fbd4:d59719d46261f9a797ed62cf6bb2d20e$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="BatRight" file="./forms/BatRight.png" width="168" height="102"
+		fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="?">
+		<Frame id="FlyRight (1)" fPosX="65" fPosY="45" fWidth="102" fHeight="41" xoffset="1" yoffset="19" width="102" height="41"/>
+		<Frame id="FlyRight (2)" fPosX="1" fPosY="1" fWidth="82" fHeight="42" xoffset="16" yoffset="22" width="82" height="42"/>
+		<Frame id="FlyRight (3)" fPosX="1" fPosY="45" fWidth="62" fHeight="56" xoffset="21" yoffset="20" width="62" height="56"/>
+		<Frame id="FlyRight (4)" fPosX="85" fPosY="1" fWidth="82" fHeight="42" xoffset="16" yoffset="22" width="82" height="42"/>
+    </Form>
+</CommtyExporter>

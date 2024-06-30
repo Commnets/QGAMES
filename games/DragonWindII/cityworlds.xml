@@ -1,0 +1,504 @@
+<?xml version="1.0"?>
+<Maps>
+
+	<World id="50001">
+		<Scenes>
+		
+			<!-- CityWorld0 -->
+			<Scene id="60002">
+				<Actions>
+					<!-- Flying Monsters -->
+					<!-- Bees -->
+					<Action id="70005">
+						<Attributes>
+							<Attribute id="TypeOfMonster" value="0"/> 
+							<Attribute id="TimeToAppear" value="2"/> 
+						</Attributes>
+					</Action>
+					
+					<!-- Monsters -->
+					<!-- Block 1 -->
+					<Action id="71020"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50001"/> 
+							<Attribute id="Fire" value="YES"/>
+							<Attribute id="TypeOfFire" value="0,6"/> 
+							<Attribute id="ImpulseOfFire" value="1"/>
+							<Attribute id="SecondsToFire" value="5"/>
+							<Attribute id="SecondsBetweenFires" value="0.5"/>
+							<Attribute id="SecondsFiring" value="5"/>
+						</Attributes>
+					</Action>
+					
+					<!-- Block 2 -->
+					<Action id="71021"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50002"/> 
+							<Attribute id="Fire" value="YES"/>
+							<Attribute id="TypeOfFire" value="20"/> 
+							<Attribute id="ImpulseOfFire" value="1"/>
+							<Attribute id="SecondsToFire" value="10"/>
+							<Attribute id="SecondsBetweenFires" value="1.5"/>
+							<Attribute id="SecondsFiring" value="3"/>
+						</Attributes>
+					</Action>
+				</Actions>
+				
+				<Attributes>
+					<Attribute id="FUNDAMENTAL" value="YES"/>
+					<Attribute id="NAME" value="Starting the travel"/>
+					<Attribute id="MOVEMENT" value="1,0,0"/> 
+					<Attribute id="BACKGROUNDMUSIC" value="50002"/> 
+					<Attribute id="LIQUIDSFLUIDITY" value="6.50"/> 
+				</Attributes>
+				
+				<Conexions>
+					<Conexion id="0" with="60003" at="0"/>
+				</Conexions>
+
+				<Maps>
+					<Map id="50120" file="maps/BKCity.xml"/>
+					<Map id="60002" file="maps/CityWorld0.tmx"/>
+				</Maps>
+
+				<Entities>
+					<!-- Ninja:
+						 Base_lake is the bottom of the swimmingpools and it must be on top of everything (to resalt the limit) 
+						 Liquid_1 must be also over ninja to transmit the feeling of swimming -->
+					<Entity id="50100" layer="Solid_1"/> 
+					<Entity id="50101" layer="Solid_1"/>
+					<!-- Shooting: They are part of the ninja / bad guys (so they behave like them) -->
+					<SetOfEntities fromId="51000" number="110" layer="Solid_1"/>
+					<!-- Food & Things: They behave like ninja -->
+					<SetOfEntities fromId="30000" number="200" layer="Solid_1"/>
+					<SetOfEntities fromId="31000" number="200" layer="Solid_1"/>
+					<!-- Flying monsters: The move over all -->
+					<SetOfEntities fromId="50110" number="10" layer="ArmourFront_1"/> <!-- Bees -->
+					<SetOfEntities fromId="50120" number="10" layer="ArmourFront_1"/> <!-- Birds -->
+					<SetOfEntities fromId="60000" number="10" layer="ArmourFront_1"/> <!-- Vultures -->
+					<SetOfEntities fromId="61000" number="10" layer="ArmourFront_1"/> <!-- Wasps -->
+					<SetOfEntities fromId="62000" number="10" layer="ArmourFront_1"/> <!-- Bats -->
+					<!-- Bad Guys: Like ninja -->
+					<SetOfEntities fromId="32000" number="10" layer="Solid_1"/>
+				</Entities>
+			</Scene>
+			<!-- -->
+		
+			<!-- CityWorld1 -->
+			<Scene id="60003">
+				<Actions>
+					<!-- Flying monsters -->
+					<!-- Bees -->
+					<Action id="70010">
+						<Attributes>
+							<Attribute id="TypeOfMonster" value="0"/>
+							<Attribute id="TimeToAppear" value="2"/>
+						</Attributes>
+					</Action>
+					
+					<!-- Monsters -->
+					<!-- Block 1 -->
+					<Action id="71030"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50004"/>
+							<Attribute id="Fire" value="YES"/>
+							<Attribute id="TypeOfFire" value="0,6"/>
+							<Attribute id="ImpulseOfFire" value="1"/>
+							<Attribute id="SecondsToFire" value="5"/>
+							<Attribute id="SecondsBetweenFires" value="0.5"/>
+							<Attribute id="SecondsFiring" value="5"/>
+						</Attributes>
+					</Action>
+					
+					<!-- Block 2 -->
+					<Action id="71031"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50005"/> 
+							<Attribute id="Fire" value="YES"/>
+							<Attribute id="TypeOfFire" value="1"/> 
+							<Attribute id="ImpulseOfFire" value="8"/>
+							<Attribute id="SecondsToFire" value="5"/>
+							<Attribute id="SecondsBetweenFires" value="1.5"/>
+							<Attribute id="SecondsFiring" value="5"/>
+						</Attributes>
+					</Action>
+
+					<!-- Block 3 -->
+					<Action id="71032"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50002"/> 
+							<Attribute id="Fire" value="YES"/>
+							<Attribute id="TypeOfFire" value="20"/>
+							<Attribute id="ImpulseOfFire" value="1"/>
+							<Attribute id="SecondsToFire" value="5"/>
+							<Attribute id="SecondsBetweenFires" value="2.5"/>
+							<Attribute id="SecondsFiring" value="5"/>
+						</Attributes>
+					</Action>
+					
+					<!-- Block 4 -->
+					<Action id="71033"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50006"/> 
+							<Attribute id="Fire" value="YES"/>
+							<Attribute id="TypeOfFire" value="1"/> 
+							<Attribute id="ImpulseOfFire" value="10"/>
+							<Attribute id="SecondsToFire" value="-5"/>
+							<Attribute id="SecondsBetweenFires" value="1.5"/>
+							<Attribute id="SecondsFiring" value="-3"/>
+						</Attributes>
+					</Action>
+					
+					<!-- Environment Condition -->
+					<Action id="72010" active="NO"> 
+						<Attributes>
+							<Attribute id="TypeCondition" value="4"/> <!-- Lightnings -->
+							<Attribute id="SecondsToStart" value="2"/>
+							<Attribute id="SecondsCondition" value="-1"/> 
+							<Attribute id="LightningsProbability" value="80"/>
+							<Attribute id="LightningsFrecuency" value="1.5"/>
+						</Attributes>
+					</Action>
+					
+					<!-- Layers Removeable in the Moat -->
+					<Action id="73010">
+						<Attributes>
+							<Attribute id="NumberSets" value="2"/> 
+							<Attribute id="Set0" value="Liquid_Moat,Base_LakeMoat"/>
+							<Attribute id="Set1" value="Solid_Moat,Base_Moat"/>
+							<Attribute id="DefaultSet" value="0"/> 
+						</Attributes>
+					</Action>
+				</Actions>
+				
+				<Attributes>
+					<Attribute id="FUNDAMENTAL" value="YES"/>
+					<Attribute id="NAME" value="A hill to die"/>
+					<Attribute id="MOVEMENT" value="1,0,0"/> 
+					<Attribute id="BACKGROUNDMUSIC" value="50002"/> 
+					<Attribute id="LIQUIDSFLUIDITY" value="6.50"/> 
+				</Attributes>
+
+				<Conexions>
+					<Conexion id="0" with="60004" at="0"/>
+					<Conexion id="1" with="60002" at="2"/>
+					<Conexion id="2" with="60004" at="2"/>
+				</Conexions>
+				<Maps>
+					<Map id="50120" file="maps/BKCity.xml"/>
+					<Map id="60003" file="maps/CityWorld1.tmx"/>
+				</Maps>
+
+				<Entities>
+					<Entity id="50100" layer="Solid_Moat"/> 
+					<Entity id="50101" layer="Solid_Moat"/>
+					<SetOfEntities fromId="51000" number="110" layer="Solid_Moat"/>
+					<SetOfEntities fromId="30000" number="200" layer="Solid_Moat"/>
+					<SetOfEntities fromId="31000" number="200" layer="Solid_Moat"/>
+					<SetOfEntities fromId="50110" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="50120" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="60000" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="61000" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="62000" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="32000" number="10" layer="Solid_Moat"/>
+				</Entities>
+			</Scene>
+			<!-- -->
+		
+			<!-- CityWorld2 -->
+			<Scene id="60004">
+				<Actions>
+					<!-- Flying Monsters -->
+					<!-- Birds -->
+					<Action id="70015">
+						<Attributes>
+							<Attribute id="TypeOfMonster" value="1"/> 
+							<Attribute id="TimeToAppear" value="2"/> 
+						</Attributes>
+					</Action>
+					
+					<!-- Monsters -->
+					<!-- Block 1 -->
+					<Action id="71040"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50002"/> 
+							<Attribute id="Fire" value="YES"/>
+							<Attribute id="TypeOfFire" value="0"/> 
+							<Attribute id="ImpulseOfFire" value="1"/>
+							<Attribute id="SecondsToFire" value="3"/>
+							<Attribute id="SecondsBetweenFires" value="0.5"/>
+							<Attribute id="SecondsFiring" value="5"/>
+						</Attributes>
+					</Action>
+
+					<!-- Block 2 -->
+					<Action id="71041"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50002"/> 
+							<Attribute id="Fire" value="YES"/>
+							<Attribute id="TypeOfFire" value="6"/> 
+							<Attribute id="ImpulseOfFire" value="1"/>
+							<Attribute id="SecondsToFire" value="4"/>
+							<Attribute id="SecondsBetweenFires" value="1"/>
+							<Attribute id="SecondsFiring" value="6"/>
+						</Attributes>
+					</Action>
+
+					<!-- Block 3 -->
+					<Action id="71042"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50002"/> 
+							<Attribute id="Fire" value="YES"/>
+							<Attribute id="TypeOfFire" value="0"/> 
+							<Attribute id="ImpulseOfFire" value="2"/>
+							<Attribute id="SecondsToFire" value="5"/>
+							<Attribute id="SecondsBetweenFires" value="0.5"/>
+							<Attribute id="SecondsFiring" value="5"/>
+						</Attributes>
+					</Action>
+
+					<!-- Block 4 -->
+					<Action id="71043"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50006"/> 
+							<Attribute id="Fire" value="YES"/>
+							<Attribute id="TypeOfFire" value="21,1"/> 
+							<Attribute id="ImpulseOfFire" value="5"/>
+							<Attribute id="SecondsToFire" value="5"/>
+							<Attribute id="SecondsBetweenFires" value="1.5"/>
+							<Attribute id="SecondsFiring" value="3"/>
+						</Attributes>
+					</Action>
+					
+					<!-- Environment Condition -->
+					<Action id="72015">
+						<Attributes>
+							<Attribute id="TypeCondition" value="0"/> <!-- Thunders -->
+							<Attribute id="SecondsToStart" value="0"/>
+							<Attribute id="SecondsCondition" value="-1"/> 
+							<Attribute id="ThundersProbability" value="60"/>
+							<Attribute id="ThundersFrecuency" value="3"/>
+						</Attributes>
+					</Action>
+				</Actions>
+
+				<Attributes>
+					<Attribute id="FUNDAMENTAL" value="YES"/>
+					<Attribute id="NAME" value="Go and Back"/>
+					<Attribute id="MOVEMENT" value="1,0,0"/> 
+					<Attribute id="BACKGROUNDMUSIC" value="50002"/>
+					<Attribute id="LIQUIDSFLUIDITY" value="6.50"/>
+				</Attributes>
+
+				<Conexions>
+					<Conexion id="0" with="60005" at="0"/>
+					<Conexion id="1" with="60003" at="2"/>
+					<Conexion id="2" with="60003" at="3"/>
+				</Conexions>
+
+				<Maps>
+					<Map id="50120" file="maps/BKCity.xml"/>
+					<Map id="60004" file="maps/CityWorld2.tmx"/>
+				</Maps>
+
+				<Entities>
+					<Entity id="50100" layer="Solid_1"/> 
+					<Entity id="50101" layer="Solid_1"/>
+					<SetOfEntities fromId="51000" number="110" layer="Solid_1"/>
+					<SetOfEntities fromId="30000" number="200" layer="Solid_1"/>
+					<SetOfEntities fromId="31000" number="200" layer="Solid_1"/>
+					<SetOfEntities fromId="50110" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="50120" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="60000" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="61000" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="62000" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="32000" number="10" layer="Solid_1"/>
+				</Entities>
+			</Scene>
+			<!-- -->
+		
+			<!-- CityWorld3 -->
+			<Scene id="60005">
+				<Actions>
+					<!-- Flying Monsters -->
+					<!-- Bees -->
+					<Action id="70020">
+						<Attributes>
+							<Attribute id="TypeOfMonster" value="0"/> 
+							<Attribute id="TimeToAppear" value="2"/> 
+						</Attributes>
+					</Action>
+
+					<!-- Birds -->
+					<Action id="70021">
+						<Attributes>
+							<Attribute id="TypeOfMonster" value="1"/> 
+							<Attribute id="TimeToAppear" value="5"/> 
+						</Attributes>
+					</Action>
+					
+					<!-- Monsters -->
+					<!-- Block 1 -->
+					<Action id="71050"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50002"/> 
+							<Attribute id="Fire" value="YES"/>
+							<Attribute id="TypeOfFire" value="0"/> 
+							<Attribute id="ImpulseOfFire" value="1"/>
+							<Attribute id="SecondsToFire" value="3"/>
+							<Attribute id="SecondsBetweenFires" value="1"/>
+							<Attribute id="SecondsFiring" value="5"/>
+						</Attributes>
+					</Action>
+
+					<!-- Block 2 -->
+					<Action id="71051"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50000"/> 
+							<Attribute id="Fire" value="YES"/>
+							<Attribute id="TypeOfFire" value="6"/> 
+							<Attribute id="ImpulseOfFire" value="1"/>
+							<Attribute id="SecondsToFire" value="3"/>
+							<Attribute id="SecondsBetweenFires" value="1"/>
+							<Attribute id="SecondsFiring" value="5"/>
+						</Attributes>
+					</Action>
+
+					<!-- Block 3 -->
+					<Action id="71052"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50006"/> 
+							<Attribute id="Fire" value="YES"/>
+							<Attribute id="TypeOfFire" value="1"/> 
+							<Attribute id="ImpulseOfFire" value="10"/>
+							<Attribute id="SecondsToFire" value="5"/>
+							<Attribute id="SecondsBetweenFires" value="1.5"/>
+							<Attribute id="SecondsFiring" value="3"/>
+						</Attributes>
+					</Action>
+					
+					<!-- Environment Condition -->
+					<Action id="72020">
+						<Attributes>
+							<Attribute id="TypeCondition" value="1"/> <!-- Rain -->
+							<Attribute id="SecondsToStart" value="0"/>
+							<Attribute id="SecondsCondition" value="-1"/> 
+							<Attribute id="RainDensity" value="0.15"/>
+							<Attribute id="RainBackgroundId" value="50160"/>
+						</Attributes>
+					</Action>
+				</Actions>
+
+				<Attributes>
+					<Attribute id="FUNDAMENTAL" value="YES"/>
+					<Attribute id="NAME" value="Run Jump and Fire"/>
+					<Attribute id="MOVEMENT" value="1,0,0"/> 
+					<Attribute id="BACKGROUNDMUSIC" value="50002"/>
+					<Attribute id="LIQUIDSFLUIDITY" value="6.50"/>
+				</Attributes>
+
+				<Conexions>
+					<Conexion id="0" with="60006" at="0"/>
+					<Conexion id="1" with="60004" at="3"/>
+				</Conexions>
+
+				<Maps>
+					<Map id="50120" file="maps/BKCity.xml"/>
+					<Map id="60005" file="maps/CityWorld3.tmx"/>
+				</Maps>
+
+				<Entities>
+					<Entity id="50100" layer="Solid_1"/> 
+					<Entity id="50101" layer="Solid_1"/>
+					<SetOfEntities fromId="51000" number="110" layer="Solid_1"/>
+					<SetOfEntities fromId="30000" number="200" layer="Solid_1"/>
+					<SetOfEntities fromId="31000" number="200" layer="Solid_1"/>
+					<SetOfEntities fromId="50110" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="50120" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="60000" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="61000" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="62000" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="32000" number="10" layer="Solid_1"/>
+				</Entities>
+			</Scene>
+			<!-- -->
+		
+			<!-- CityWorld4 -->
+			<Scene id="60006">
+				<Actions>
+					<!-- Flying Monsters -->
+					<!-- Bees -->
+					<Action id="70025">
+						<Attributes>
+							<Attribute id="TypeOfMonster" value="0"/> 
+							<Attribute id="TimeToAppear" value="0"/> 
+						</Attributes>
+					</Action>
+					
+					<!-- Monsters -->
+					<!-- Block 1 -->
+					<Action id="71060"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50012"/> <!-- Typical complex movement for Jacks -->
+							<Attribute id="Fire" value="YES"/>
+							<Attribute id="TypeOfFire" value="1,20"/> 
+							<Attribute id="ImpulseOfFire" value="10"/> <!-- To maintain bombs away enough -->
+							<Attribute id="SecondsToFire" value="-8"/>
+							<Attribute id="SecondsBetweenFires" value="2"/>
+							<Attribute id="SecondsFiring" value="3"/>
+						</Attributes>
+					</Action>
+					
+					<!-- Environment Condition -->
+					<Action id="72025">
+						<Attributes>
+							<Attribute id="TypeCondition" value="7"/> <!-- Clouds -->
+							<Attribute id="SecondsToStart" value="0"/>
+							<Attribute id="SecondsCondition" value="-1"/> 
+							<Attribute id="CloudsDensity" value="2"/>
+							<Attribute id="CloudsSpeed" value="1"/>
+						</Attributes>
+					</Action>
+				</Actions>
+
+				<Attributes>
+					<Attribute id="FUNDAMENTAL" value="YES"/>
+					<Attribute id="NAME" value="Just Kill him"/>
+					<Attribute id="MOVEMENT" value="1,0,0"/> 
+					<Attribute id="BACKGROUNDMUSIC" value="80006"/>
+					<Attribute id="LIQUIDSFLUIDITY" value="6.50"/>
+				</Attributes>
+
+				<Conexions>
+					<Conexion id="0" with="70000" at="0"/>
+					<Conexion id="1" with="60005" at="2"/>
+				</Conexions>
+
+				<Maps>
+					<Map id="50120" file="maps/BKCity.xml"/>
+					<Map id="60006" file="maps/CityWorld4.tmx"/>
+				</Maps>
+
+				<Entities>
+					<Entity id="50100" layer="Solid_1"/> 
+					<Entity id="50101" layer="Solid_1"/>
+					<SetOfEntities fromId="51000" number="110" layer="Solid_1"/>
+					<SetOfEntities fromId="30000" number="200" layer="Solid_1"/>
+					<SetOfEntities fromId="31000" number="200" layer="Solid_1"/>
+					<SetOfEntities fromId="50110" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="50120" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="60000" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="61000" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="62000" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="32000" number="10" layer="Solid_1"/>
+				</Entities>
+			</Scene>
+			<!-- -->
+			
+		</Scenes>
+		<Attributes>
+			<Attribute id="NAME" value="The City"/>
+		</Attributes>
+	</World>
+	
+</Maps>

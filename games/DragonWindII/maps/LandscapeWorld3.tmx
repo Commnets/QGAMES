@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="75" height="25" tilewidth="24" tileheight="24" infinite="0" nextlayerid="9" nextobjectid="3">
+ <tileset firstgid="1" name="Base" tilewidth="24" tileheight="24" spacing="1" margin="1" tilecount="8" columns="8">
+  <image source="maps/Base.png" width="201" height="26"/>
+ </tileset>
+ <tileset firstgid="9" name="Solid" tilewidth="24" tileheight="24" spacing="1" margin="1" tilecount="8" columns="8">
+  <image source="maps/Solid.png" width="201" height="26"/>
+ </tileset>
+ <tileset firstgid="17" name="OtherFlags" tilewidth="24" tileheight="24" tilecount="1024" columns="32">
+  <image source="maps/OtherFlags.png" width="768" height="768"/>
+ </tileset>
+ <tileset firstgid="1041" name="Ladder" tilewidth="24" tileheight="24" tilecount="36" columns="12">
+  <image source="maps/Ladder.png" width="288" height="72"/>
+ </tileset>
+ <tileset firstgid="1077" name="Location" tilewidth="24" tileheight="24" tilecount="100" columns="10">
+  <image source="maps/Location.png" width="240" height="240"/>
+ </tileset>
+ <tileset firstgid="1177" name="Notification" tilewidth="24" tileheight="24" tilecount="100" columns="10">
+  <image source="maps/Notification.png" width="240" height="240"/>
+ </tileset>
+ <layer id="3" name="DecorationBack_1" width="75" height="25">
+  <data encoding="base64" compression="zlib">
+   eAHt0DERACAQA8EgBJyAf1m8g+9hbyZdqk1EgAABAgQIECBAgAABAgQIECBAgACB/wTmSFZNvcAup8Oqh/IgQIAAgecELnx/ALs=
+  </data>
+ </layer>
+ <layer id="1" name="Base_1" width="75" height="25">
+  <data encoding="base64" compression="zlib">
+   eAHt0LEJAAAIA7Di/0frBS6CUwod2yGJECBAgAABAgQIECBAgAABAgQIECBAgAABAleBmgPdDa7G9gQIEPgWaCLRAJM=
+  </data>
+ </layer>
+ <layer id="6" name="Base_2" width="75" height="25">
+  <data encoding="base64" compression="zlib">
+   eAHt0LERADAIAzEqyP4ThxloLd95gFeVESBAgAABAgQIECCQKtAbPoe/VDDdBAgQIECAAAECBAgQIECAQJTAByOdAGo=
+  </data>
+ </layer>
+ <layer id="7" name="Ladder_1" width="75" height="25">
+  <data encoding="base64" compression="zlib">
+   eAHt1iEOgDAMBdAJToAhGAxgMMD9L0c5wb6ceEvqKpq3v6WtOQQIECBAgACBMQXmacy5RpxqYxVfy8UqtpKrmKrJFatcIO+UK1a5QN7pb8+sltoX/je42hu6YHsZHVUnq67VXUZP1cuqa6WBAAECBAiMJPABqwIC3Q==
+  </data>
+ </layer>
+ <layer id="2" name="Solid_1" width="75" height="25">
+  <data encoding="base64" compression="zlib">
+   eAHt1sEKhDAMRdEu3Izg///utIsHYUh5iAXNeAuSUoNtjkHcW2s7Fwb0AD3wwh44es2rrn/+jg6jlSMzr+r3W8tKp9mzxp7VvFb30MwmW4/v6Klu8YxZDXesxTNpfpef9h+xyohnns2vembPreJz9pxZrbM1ucb7Z/d7S/6nFzq8GF4AK2+kDKwk4SNW3kgZWEnCR6y8kTKwkoSPWHkjZWAlCR+3nqJ/dyIW9AA9UKEHvtJEJa0=
+  </data>
+ </layer>
+ <layer id="4" name="Location" width="75" height="25">
+  <data encoding="base64" compression="zlib">
+   eAHt1TEKwCAMQFGHnqpjx9K69P53aRwEkSBZIiF8IRQlNMlDsBQWAggggAACCCAQQ+A6YvRBFwgggAAC+wVueQMs8UjeHFXOLLF/Kp+KFqeWMzu1vcWp5WRcKzdt3pWVlp/xTDPrc57DPdGsep7X9xvqe9XgvwhEEXjlvlsjSs/0gQACCCCAQCaBH+4yG3c=
+  </data>
+ </layer>
+ <layer id="5" name="Notification" width="75" height="25">
+  <data encoding="base64" compression="zlib">
+   eAHt0qERADAIA0BE9x+AabtCBAoenYv4UOUIECBAgAABAgQIECBAgAABAnMC/ea6tjexyhdmxSoXyJP+ilUuIEmAAAECVwU+83gDtQ==
+  </data>
+ </layer>
+ <objectgroup id="8" name="ObjectZone">
+  <object id="1" name="1" x="1104" y="336" width="72" height="72">
+   <properties>
+    <property name="0" value="YES"/>
+    <property name="1" value="NO"/>
+    <property name="10" value="3"/>
+    <property name="2" value="NO"/>
+    <property name="3" value="NO"/>
+    <property name="4" value="0,6,21"/>
+    <property name="5" value="0"/>
+    <property name="6" value="40"/>
+    <property name="7" value="2500"/>
+    <property name="8" value="6"/>
+    <property name="9" value="71100"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,3287 @@
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!--Third party scripts and code linked to or referenced here are licensed to you by the third parties that own such code, not by Microsoft, see ASP.NET Ajax CDN Terms of Use – http://www.asp.net/ajaxlibrary/CDN.ashx.-->
+        
+<script src="//nexus.ensighten.com/xbox/Bootstrap.js?v=16012200800"></script>
+
+        
+<script src="//cdn.optimizely.com/js/2426010203.js?v=16012200800"></script>
+        <!--
+v 1601.22008.0.0
+s mRA/DgTOxtsOr1f4RLJfyg==
+r 41597f46-22c8-471e-8bc8-4f13a149991a
+-->
+        
+
+<meta name="application-name" content="The Official Xbox 360 Website" />
+<meta name="msapplication-tooltip" content="The Official Xbox 360 Website" />
+
+
+       <meta name="msapplication-task" content="name=My Xbox;action-uri=http://live.xbox.com?cid=jumplist:Live;icon-uri=http://nxeassets.xbox.com/shaxam/0201/30/fc/30fc9af1-e46f-4cee-b034-21a9c0c75461.ICO?v=1#xbl.ICO" />
+
+       <meta name="msapplication-task" content="name=Games + Marketplace;action-uri=http://marketplace.xbox.com?cid=jumplist:marketplace;icon-uri=http://nxeassets.xbox.com/shaxam/0201/30/fc/30fc9af1-e46f-4cee-b034-21a9c0c75461.ICO?v=1#xbl.ICO" />
+
+       <meta name="msapplication-task" content="name=Xbox Support;action-uri=http://support.xbox.com;icon-uri=http://support.xbox.com/SiteAssets/XboxSupportV2/images/favicon.ico" />
+
+       <meta name="msapplication-task" content="name=PC Setup;action-uri=http://www.xbox.com/PCSetup?cid=jumplist:pcsetup;icon-uri=http://support.xbox.com/SiteAssets/XboxSupportV2/images/favicon.ico" />
+
+
+<meta name="ms.siteorg" content="Entertainment and Devices" />
+<meta name="ms.sitename" content="Xbox" />
+
+<meta name="ms.loc" content="IN" />
+<meta name="ms.lang" content="es" />
+<meta name="ms.locale" content="" />
+        <link href="/shell/css/gridlayout.css?v=16012200800" rel="stylesheet" type="text/css" />
+        
+<link href="/shell/css/xboxv3.css?v=16012200800" rel="stylesheet" type="text/css" /><link href="/shell/css/shellstyles.css?v=16012200800" rel="stylesheet" type="text/css" />        
+<link href="/shell/css/shell.css?v=16012200800" rel="stylesheet" type="text/css" />
+        <link href="/shell/css/jquery-ui-theme.css?v=16012200800" rel="stylesheet" type="text/css" />
+
+        <script>
+            
+            (function () {
+                var html5Elements = ['article', 'section', 'header', 'nav', 'footer', 'aside'];
+                for (var i = 0; i < html5Elements.length; i++) {
+                    document.createElement(html5Elements[i]);
+                }
+            })();
+        </script>
+        
+        <script> var mobileChatCapable = false </script>
+
+        
+        <!--Third party scripts and code linked to or referenced here are licensed to you by the third parties that own such code, not by Microsoft, see ASP.NET Ajax CDN Terms of Use – http://www.asp.net/ajaxlibrary/CDN.ashx.-->
+        <script src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.2.min.js?v=16012200800"></script>
+<script src="/shell/js/require.js?v=16012200800"></script>
+<script src="/shell/js/shiny.js?v=16012200800"></script>
+<script src="/shell/js/general.js?v=16012200800"></script>
+        <script src="/shell/js/shims.js?v=16012200800"></script>
+        <script src="/shell/js/jsll.js?v=16012200800"></script>
+        <script src="/shell/js/jsllBootstrap.js?v=16012200800"></script>
+        <script src="/shell/js/instrumentation.js?v=16012200800"></script>
+        <script src="/shell/js/bk-coretag.js?v=16012200800"></script>
+        
+        <script>
+            
+            try {
+                var utcOffsetMinutes = new Date().getTimezoneOffset() * -1;
+                setCookie("UtcOffsetMinutes", utcOffsetMinutes, 30);
+            } catch (e) { }
+        </script>
+
+        
+
+
+<script>
+    define('capiConfig', [], function () {
+        return {
+            isEnabled: 'False' == 'True'
+        }
+    });
+</script>
+
+<script src="/shell/js/capi.js?v=16012200800"></script>
+        
+    
+    <script>
+        window.xboxComShellData = {"version":"1601.22008.0.0","defaultOptionIndex":0,"searchScopeOptions":[{"value":"http://www.xbox.com/es-ES/Search?q={0}#All","context":"Buscar todo","label":"En todo","id":"All","enumValue":0},{"value":"http://www.xbox.com/es-ES/Search?q={0}#General","context":"Búsqueda General","label":"En general","id":"General","enumValue":10},{"value":"http://www.xbox.com/es-ES/Search?q={0}#Games","context":"Buscar en juegos","label":"En los juegos","id":"Games","enumValue":20},{"value":"http://www.xbox.com/es-ES/Search?q={0}#Support","context":"Buscar en Soporte técnico","label":"En soporte técnico","id":"Support","enumValue":30},{"value":"http://www.xbox.com/es-ES/Search?q={0}#Forums","context":"Buscar en foros","label":"En foros","id":"Forums","enumValue":40}]};
+    </script>
+    
+
+
+        
+
+        
+        
+        
+        
+        
+
+        <title>P&#225;gina no encontrada</title>
+
+
+
+
+
+        <script>
+            var xboxComShellData = {};
+            xboxComShellData.searchScopeOptions = [];
+            xboxComShellData.version = "0.0.0.0";
+           
+                    
+                  xboxComShellData.searchScopeOptions.push({
+                    value: "http://www.xbox.com/es-ES/Search?q={0}#All",
+                    context: "Buscar todo",
+                    label: "En todo",
+                    id: "All",
+                    enumValue: 0
+                });
+                
+                    
+                  xboxComShellData.searchScopeOptions.push({
+                    value: "http://www.xbox.com/es-ES/Search?q={0}#General",
+                    context: "Búsqueda General",
+                    label: "En general",
+                    id: "General",
+                    enumValue: 10
+                });
+                
+                    
+                  xboxComShellData.searchScopeOptions.push({
+                    value: "http://www.xbox.com/es-ES/Search?q={0}#Games",
+                    context: "Buscar en juegos",
+                    label: "En los juegos",
+                    id: "Games",
+                    enumValue: 20
+                });
+                
+                    
+                  xboxComShellData.searchScopeOptions.push({
+                    value: "http://www.xbox.com/es-ES/Search?q={0}#Support",
+                    context: "Buscar en Soporte técnico",
+                    label: "En soporte técnico",
+                    id: "Support",
+                    enumValue: 30
+                });
+                
+                    
+                  xboxComShellData.searchScopeOptions.push({
+                    value: "http://www.xbox.com/es-ES/Search?q={0}#Forums",
+                    context: "Buscar en foros",
+                    label: "En foros",
+                    id: "Forums",
+                    enumValue: 40
+                });
+                
+
+
+            xboxComShellData.defaultOptionIndex = 0;
+            
+            require(['window.postXDMessage', 'jquery'], function (postXDMessage, $) {
+                $(function () {
+
+                        postXDMessage({ verb: 'CURRENT_PAGE', uri: window.location.href }, "OTHER");
+                    
+                });
+            });
+        </script>
+
+        <link rel="shortcut icon" href="/shell/images/favicon.ico" />
+        
+    </head>
+
+    <body id="DocumentBody" class="marketplaceEnabled pointsDisabled goldEnabled musicPassEnabled" >
+        <div id="bodycolumn">
+            
+    
+
+            
+ 
+
+<link href="https://assets.onestore.ms/cdnfiles/onestorerolling-1601-22000/shell/v3/scss/shell.min.css" rel="stylesheet" type="text/css" />
+
+<!--[if lte IE 8]>
+    <link href="https://assets.onestore.ms/cdnfiles/onestorerolling-1601-22000/shell/common/respond-proxy.html" id="respond-proxy" rel="respond-proxy"/>
+<![endif]-->
+
+ 
+<!--[if lte IE 8]>
+    <script src="https://assets.onestore.ms/cdnfiles/onestorerolling-1601-22000/shell/common/js/shell_ie8.js"></script>
+<![endif]-->
+
+
+
+<script src="https://mem.gfx.ms/meversion?partner=xboxcomuhf&market=es-ES"></script>
+<script src="https://assets.onestore.ms/cdnfiles/onestorerolling-1601-22000/shell/generated/shellservice.v3.min.js"></script>
+
+<script src="https://www.microsoft.com/uniblends/scripts/blender.js"></script>
+ 
+
+
+
+<div id="shell-header" class="shell-header shell-responsive" ms.pgarea="header">
+    <div class="shell-header-wrapper">
+        <div class="shell-header-top" data-bi-area="HeaderL0" data-bi-view="L0V1">
+
+            <div class="shell-header-brand" ms.cmpgrp="logo" role="banner">
+                        <a id="srv_shellHeaderMicrosoftLogo" href="https://www.microsoft.com" ms.cmpnm="MicrosoftBrandLogo" ms.title="Microsoft"
+           title="Microsoft" data-bi-name="BrandLogo" tabindex="10">
+            <img src="https://assets.onestore.ms/cdnfiles/onestorerolling-1601-22000/shell/v3/images/logo/microsoft.png" alt="Microsoft" />
+        </a>
+
+            </div>
+
+            <div class="shell-header-nav-wrapper" ms.cmpgrp="nav" role="navigation">
+                <ul class="shell-header-nav" id="srv_shellHeaderNav" data-bi-area="L1" data-bi-view="Hovermenus">
+                        <li class="shell-header-user-mobile-container">
+                        </li>
+                                    <li class="shell-header-dropdown  " data-navcontainer="shellmenu_11_NavContainer">
+                                        <div id="shellmenu_11" class="shell-header-dropdown-label">
+                                            <a href="javascript:void(0)" role="menu" ms.title="Tienda" data-bi-name="Store" data-bi-slot="1" tabindex="20">
+                                                Tienda
+                                            </a>
+                                        </div>
+
+
+
+
+
+<div class="shell-header-dropdown-content " role="menu">
+                <dl class="shell-header-dropdown-tab  " ms.cmpnm="Tienda; P&#225;gina principal de la Tienda">
+
+                            <dt id="shellmenu_12" class="shell-header-dropdown-tab-label shell-header-L2menu-direct-link">
+                                <a href="http://www.microsoftstore.com/store/mseea/es_ES/home" role="link" ms.title="P&#225;gina principal de la Tienda" tabindex="20"
+                                   data-bi-name="StoreHome">P&#225;gina principal de la Tienda</a>                         
+                            </dt>
+
+                </dl>
+                <dl class="shell-header-dropdown-tab  " ms.cmpnm="Tienda; Dispositivos">
+
+                            <dt id="shellmenu_13" class="shell-header-dropdown-tab-label">
+                                <a href="javascript:void(0)" role="menuitem" ms.title="Dispositivos" ms.interactiontype="14" tabindex="20"
+                                   data-bi-dnt="">
+                                    Dispositivos
+                                    <i class="shell-icon-dropdown facing-right"></i>
+                                </a>
+                            </dt>
+                            <dd class="shell-header-dropdown-tab-content" data-col="0">
+
+
+
+    <ul class="shell-header-dropdown-tab-list">
+                    <li id="shellmenu_14">
+                        <a href="http://www.microsoftstore.com/store/mseea/es_ES/cat/Surface/categoryID.66342300" class="shell-l3-list-item" role="link" ms.title="Surface" tabindex="20"
+                           data-bi-name="Devices_Surface">
+                            Surface
+                        </a>
+                    </li>
+                    <li id="shellmenu_15">
+                        <a href="http://www.microsoftstore.com/store/mseea/es_ES/cat/Xbox/categoryID.66227700" class="shell-l3-list-item" role="link" ms.title="Xbox" tabindex="20"
+                           data-bi-name="Devices_Xbox">
+                            Xbox
+                        </a>
+                    </li>
+                    <li id="shellmenu_16">
+                        <a href="http://www.microsoftstore.com/store/mseea/es_ES/cat/Microsoft-Lumia/categoryID.67883200" class="shell-l3-list-item" role="link" ms.title="Microsoft Lumia" tabindex="20"
+                           data-bi-name="Devices_WindowsPhone">
+                            Microsoft Lumia
+                        </a>
+                    </li>
+                    <li id="shellmenu_17">
+                        <a href="http://www.microsoftstore.com/store/mseea/es_ES/cat/Accesorios/categoryID.66233400" class="shell-l3-list-item" role="link" ms.title="Accesorios" tabindex="20"
+                           data-bi-name="Devices_Accessories">
+                            Accesorios
+                        </a>
+                    </li>
+
+    </ul>
+
+
+
+                            </dd>
+
+                </dl>
+                <dl class="shell-header-dropdown-tab  " ms.cmpnm="Tienda; Software">
+
+                            <dt id="shellmenu_18" class="shell-header-dropdown-tab-label">
+                                <a href="javascript:void(0)" role="menuitem" ms.title="Software" ms.interactiontype="14" tabindex="20"
+                                   data-bi-dnt="">
+                                    Software
+                                    <i class="shell-icon-dropdown facing-right"></i>
+                                </a>
+                            </dt>
+                            <dd class="shell-header-dropdown-tab-content" data-col="0">
+
+
+
+    <ul class="shell-header-dropdown-tab-list">
+                    <li id="shellmenu_19">
+                        <a href="http://www.microsoftstore.com/store/mseea/es_ES/cat/Office/categoryID.66226700?icid=Office_365_subnav_22092015_All_Office" class="shell-l3-list-item" role="link" ms.title="Office" tabindex="20"
+                           data-bi-name="Store_Software_Office">
+                            Office
+                        </a>
+                    </li>
+                    <li id="shellmenu_20">
+                        <a href="http://www.microsoftstore.com/store/mseea/es_ES/cat/Windows/categoryID.70034100" class="shell-l3-list-item" role="link" ms.title="Windows" tabindex="20"
+                           data-bi-name="Store_Software_Windows">
+                            Windows
+                        </a>
+                    </li>
+                    <li id="shellmenu_21">
+                        <a href="http://www.microsoftstore.com/store/mseea/es_ES/cat/Otro-Software/categoryID.66235500" class="shell-l3-list-item" role="link" ms.title="Otro Software" tabindex="20"
+                           data-bi-name="Store_Software_AdditionalSoftware">
+                            Otro Software
+                        </a>
+                    </li>
+
+    </ul>
+
+
+
+                            </dd>
+
+                </dl>
+                <dl class="shell-header-dropdown-tab  " ms.cmpnm="Tienda; Aplicaciones">
+
+                            <dt id="shellmenu_22" class="shell-header-dropdown-tab-label">
+                                <a href="javascript:void(0)" role="menuitem" ms.title="Aplicaciones" ms.interactiontype="14" tabindex="20"
+                                   data-bi-dnt="">
+                                    Aplicaciones
+                                    <i class="shell-icon-dropdown facing-right"></i>
+                                </a>
+                            </dt>
+                            <dd class="shell-header-dropdown-tab-content" data-col="0">
+
+
+
+    <ul class="shell-header-dropdown-tab-list">
+                    <li id="shellmenu_23">
+                        <a href="https://www.microsoft.com/es-es/store/apps" class="shell-l3-list-item" role="link" ms.title="Todas las aplicaciones" tabindex="20"
+                           data-bi-name="Store_AllApps">
+                            Todas las aplicaciones
+                        </a>
+                    </li>
+                    <li id="shellmenu_24">
+                        <a href="https://www.microsoft.com/es-es/store/apps/windows" class="shell-l3-list-item" role="link" ms.title="Aplicaciones para Windows" tabindex="20"
+                           data-bi-name="Store_Apps_Windowsapps">
+                            Aplicaciones para Windows
+                        </a>
+                    </li>
+                    <li id="shellmenu_25">
+                        <a href="https://www.microsoft.com/es-es/store/apps/windows-phone" class="shell-l3-list-item" role="link" ms.title="Aplicaciones para Windows Phone" tabindex="20"
+                           data-bi-name="Store_Apps_WindowsPhoneapps">
+                            Aplicaciones para Windows Phone
+                        </a>
+                    </li>
+                    <li id="shellmenu_26">
+                        <a href="http://www.xbox.com/es-ES/live/apps/xbox-one" class="shell-l3-list-item" role="link" ms.title="Aplicaciones para Xbox" tabindex="20"
+                           data-bi-name="Store_XboxApps">
+                            Aplicaciones para Xbox
+                        </a>
+                    </li>
+
+    </ul>
+
+
+
+                            </dd>
+
+                </dl>
+                <dl class="shell-header-dropdown-tab  " ms.cmpnm="Tienda; Juegos">
+
+                            <dt id="shellmenu_27" class="shell-header-dropdown-tab-label">
+                                <a href="javascript:void(0)" role="menuitem" ms.title="Juegos" ms.interactiontype="14" tabindex="20"
+                                   data-bi-dnt="">
+                                    Juegos
+                                    <i class="shell-icon-dropdown facing-right"></i>
+                                </a>
+                            </dt>
+                            <dd class="shell-header-dropdown-tab-content" data-col="0">
+
+
+
+    <ul class="shell-header-dropdown-tab-list">
+                    <li id="shellmenu_28">
+                        <a href="https://www.microsoft.com/es-es/store/games" class="shell-l3-list-item" role="link" ms.title="Todos los juegos" tabindex="20"
+                           data-bi-name="Store_AllGames">
+                            Todos los juegos
+                        </a>
+                    </li>
+                    <li id="shellmenu_29">
+                        <a href="http://www.microsoftstore.com/store/mseea/es_ES/list/Juegos-Xbox-One/categoryID.67745000" class="shell-l3-list-item" role="link" ms.title="Juegos de Xbox One" tabindex="20"
+                           data-bi-name="Store_Xbox One games">
+                            Juegos de Xbox One
+                        </a>
+                    </li>
+                    <li id="shellmenu_30">
+                        <a href="http://www.microsoftstore.com/store/mseea/es_ES/list/Juegos-de-Xbox-360/categoryID.66254700" class="shell-l3-list-item" role="link" ms.title="Juegos de Xbox 360" tabindex="20"
+                           data-bi-name="Store_Xbox360Games">
+                            Juegos de Xbox 360
+                        </a>
+                    </li>
+                    <li id="shellmenu_31">
+                        <a href="https://www.microsoft.com/es-es/store/games/windows" class="shell-l3-list-item" role="link" ms.title="Juegos para Windows" tabindex="20"
+                           data-bi-name="Store_Games_Windowsgames">
+                            Juegos para Windows
+                        </a>
+                    </li>
+                    <li id="shellmenu_32">
+                        <a href="https://www.microsoft.com/es-es/store/games/windows-phone" class="shell-l3-list-item" role="link" ms.title="Juegos para Windows Phone " tabindex="20"
+                           data-bi-name="Store_Games_WindowsPhonegames">
+                            Juegos para Windows Phone 
+                        </a>
+                    </li>
+
+    </ul>
+
+
+
+                            </dd>
+
+                </dl>
+                <dl class="shell-header-dropdown-tab  " ms.cmpnm="Tienda; Entretenimiento">
+
+                            <dt id="shellmenu_33" class="shell-header-dropdown-tab-label">
+                                <a href="javascript:void(0)" role="menuitem" ms.title="Entretenimiento" ms.interactiontype="14" tabindex="20"
+                                   data-bi-dnt="">
+                                    Entretenimiento
+                                    <i class="shell-icon-dropdown facing-right"></i>
+                                </a>
+                            </dt>
+                            <dd class="shell-header-dropdown-tab-content" data-col="0">
+
+
+
+    <ul class="shell-header-dropdown-tab-list">
+                    <li id="shellmenu_34">
+                        <a href="https://www.microsoft.com/es-es/store/entertainment" class="shell-l3-list-item" role="link" ms.title="Todo el entretenimiento" tabindex="20"
+                           data-bi-name="Store_Entertainment_AllEntertainment">
+                            Todo el entretenimiento
+                        </a>
+                    </li>
+                    <li id="shellmenu_35">
+                        <a href="https://www.microsoft.com/es-es/store/movies-and-tv" class="shell-l3-list-item" role="link" ms.title="Pel&#237;culas y TV" tabindex="20"
+                           data-bi-name="Store_Entertainment_MoviesAndTV">
+                            Pel&#237;culas y TV
+                        </a>
+                    </li>
+                    <li id="shellmenu_36">
+                        <a href="https://www.microsoft.com/es-es/store/music" class="shell-l3-list-item" role="link" ms.title="M&#250;sica" tabindex="20"
+                           data-bi-name="Store_Entertainment_Music">
+                            M&#250;sica
+                        </a>
+                    </li>
+
+    </ul>
+
+
+
+                            </dd>
+
+                </dl>
+                <dl class="shell-header-dropdown-tab  " ms.cmpnm="Tienda; Empresa y Educaci&#243;n">
+
+                            <dt id="shellmenu_37" class="shell-header-dropdown-tab-label">
+                                <a href="javascript:void(0)" role="menuitem" ms.title="Empresa y Educaci&#243;n" ms.interactiontype="14" tabindex="20"
+                                   data-bi-dnt="">
+                                    Empresa y Educaci&#243;n
+                                    <i class="shell-icon-dropdown facing-right"></i>
+                                </a>
+                            </dt>
+                            <dd class="shell-header-dropdown-tab-content" data-col="0">
+
+
+
+    <ul class="shell-header-dropdown-tab-list">
+                    <li id="shellmenu_38">
+                        <a href="http://www.microsoftstore.com/store/mseea/es_ES/cat/Peque%C3%B1a-empresa/categoryID.66236600" class="shell-l3-list-item" role="link" ms.title="Peque&#241;a empresa" tabindex="20"
+                           data-bi-name="BusinessandEducation_Business">
+                            Peque&#241;a empresa
+                        </a>
+                    </li>
+                    <li id="shellmenu_39">
+                        <a href="http://www.microsoftstore.com/store/mseea/es_ES/cat/Vuelta-al-cole/categoryID.66236400" class="shell-l3-list-item" role="link" ms.title="Estudiantes" tabindex="20"
+                           data-bi-name="BusinessandEducation_Education">
+                            Estudiantes
+                        </a>
+                    </li>
+
+    </ul>
+
+
+
+                            </dd>
+
+                </dl>
+                <dl class="shell-header-dropdown-tab  " ms.cmpnm="Tienda; Ofertas especiales">
+
+                            <dt id="shellmenu_40" class="shell-header-dropdown-tab-label shell-header-L2menu-direct-link">
+                                <a href="http://www.microsoftstore.com/store/mseea/es_ES/cat/categoryID.66412100" role="link" ms.title="Ofertas especiales" tabindex="20"
+                                   data-bi-name="Sale">Ofertas especiales</a>                         
+                            </dt>
+
+                </dl>
+
+</div>
+                                    </li>
+                                    <li class="shell-header-dropdown  " data-navcontainer="shellmenu_41_NavContainer">
+                                        <div id="shellmenu_41" class="shell-header-dropdown-label">
+                                            <a href="javascript:void(0)" role="menu" ms.title="Productos" data-bi-name="Products" data-bi-slot="2" tabindex="20">
+                                                Productos
+                                            </a>
+                                        </div>
+
+
+
+
+
+<div class="shell-header-dropdown-content " role="menu">
+                <dl class="shell-header-dropdown-tab  " ms.cmpnm="Productos; Software y servicios">
+
+                            <dt id="shellmenu_42" class="shell-header-dropdown-tab-label">
+                                <a href="javascript:void(0)" role="menuitem" ms.title="Software y servicios" ms.interactiontype="14" tabindex="20"
+                                   data-bi-dnt="">
+                                    Software y servicios
+                                    <i class="shell-icon-dropdown facing-right"></i>
+                                </a>
+                            </dt>
+                            <dd class="shell-header-dropdown-tab-content" data-col="0">
+
+
+
+    <ul class="shell-header-dropdown-tab-list">
+                    <li id="shellmenu_43">
+                        <a href="//www.microsoft.com/es-es/windows" class="shell-l3-list-item" role="link" ms.title="Windows" tabindex="20"
+                           data-bi-name="Products_SoftwareAndServices_Windows">
+                            Windows
+                        </a>
+                    </li>
+                    <li id="shellmenu_44">
+                        <a href="https://products.office.com/es-es/home?WT.mc_id=oan_winnav_office" class="shell-l3-list-item" role="link" ms.title="Office" tabindex="20"
+                           data-bi-name="Products_SoftwareAndServices_Office">
+                            Office
+                        </a>
+                    </li>
+                    <li id="shellmenu_45">
+                        <a href="http://www.microsoft.com/es-es/download/default.aspx" class="shell-l3-list-item" role="link" ms.title="Seguridad y descargas gratuitas" tabindex="20"
+                           data-bi-name="Products_SoftwareAndServices_FreeDownloadsAndSecurity">
+                            Seguridad y descargas gratuitas
+                        </a>
+                    </li>
+                    <li id="shellmenu_46">
+                        <a href="http://windows.microsoft.com/es-es/internet-explorer/download-ie" class="shell-l3-list-item" role="link" ms.title="Internet Explorer" tabindex="20"
+                           data-bi-name="Products_SoftwareAndServices_InternetExplorer">
+                            Internet Explorer
+                        </a>
+                    </li>
+                    <li id="shellmenu_47">
+                        <a href="http://www.skype.com/es/" class="shell-l3-list-item" role="link" ms.title="Skype" tabindex="20"
+                           data-bi-name="Products_SoftwareAndServices_Skype">
+                            Skype
+                        </a>
+                    </li>
+                    <li id="shellmenu_48">
+                        <a href="http://www.onenote.com/?omkt=es-ES&amp;WT.mc_id=oan_winnav_onenote" class="shell-l3-list-item" role="link" ms.title="OneNote" tabindex="20"
+                           data-bi-name="Products_SoftwareAndServices_OneNote">
+                            OneNote
+                        </a>
+                    </li>
+                    <li id="shellmenu_49">
+                        <a href="https://onedrive.live.com/about/es-es/" class="shell-l3-list-item" role="link" ms.title="OneDrive" tabindex="20"
+                           data-bi-name="Products_SoftwareAndServices_OneDrive">
+                            OneDrive
+                        </a>
+                    </li>
+                    <li id="shellmenu_50">
+                        <a href="http://www.msn.com/es-es/" class="shell-l3-list-item" role="link" ms.title="MSN" tabindex="20"
+                           data-bi-name="Products_SoftwareAndServices_MSN">
+                            MSN
+                        </a>
+                    </li>
+                    <li id="shellmenu_51">
+                        <a href="http://www.bing.com/" class="shell-l3-list-item" role="link" ms.title="Bing" tabindex="20"
+                           data-bi-name="Products_SoftwareAndServices_Bing">
+                            Bing
+                        </a>
+                    </li>
+                    <li id="shellmenu_52">
+                        <a href="https://www.microsoft.com/es-es/groove" class="shell-l3-list-item" role="link" ms.title="Microsoft Groove" tabindex="20"
+                           data-bi-name="Products_SoftwareAndServices_XboxMusic">
+                            Microsoft Groove
+                        </a>
+                    </li>
+                    <li id="shellmenu_53">
+                        <a href="https://www.microsoft.com/es-es/movies-and-tv" class="shell-l3-list-item" role="link" ms.title="Pel&#237;culas y programas de TV de Microsoft" tabindex="20"
+                           data-bi-name="Products_SoftwareAndServices_XboxVideo">
+                            Pel&#237;culas y programas de TV de Microsoft
+                        </a>
+                    </li>
+
+    </ul>
+
+
+
+                            </dd>
+
+                </dl>
+                <dl class="shell-header-dropdown-tab  " ms.cmpnm="Productos; Dispositivos y Xbox">
+
+                            <dt id="shellmenu_54" class="shell-header-dropdown-tab-label">
+                                <a href="javascript:void(0)" role="menuitem" ms.title="Dispositivos y Xbox" ms.interactiontype="14" tabindex="20"
+                                   data-bi-dnt="">
+                                    Dispositivos y Xbox
+                                    <i class="shell-icon-dropdown facing-right"></i>
+                                </a>
+                            </dt>
+                            <dd class="shell-header-dropdown-tab-content" data-col="0">
+
+
+
+    <ul class="shell-header-dropdown-tab-list">
+                    <li id="shellmenu_55">
+                        <a href="https://www.microsoft.com/devices/es-es" class="shell-l3-list-item" role="link" ms.title="Todos los dispositivos Microsoft" tabindex="20"
+                           data-bi-name="Products_DevicesAndXbox">
+                            Todos los dispositivos Microsoft
+                        </a>
+                    </li>
+                    <li id="shellmenu_56">
+                        <a href="http://www.microsoft.com/surface/es-es" class="shell-l3-list-item" role="link" ms.title="Surface" tabindex="20"
+                           data-bi-name="Products_DevicesAndXbox_Surface">
+                            Surface
+                        </a>
+                    </li>
+                    <li id="shellmenu_57">
+                        <a href="https://www.microsoft.com/hardware/es-es" class="shell-l3-list-item" role="link" ms.title="Accesorios para PC" tabindex="20"
+                           data-bi-name="Products_PCAccessories">
+                            Accesorios para PC
+                        </a>
+                    </li>
+                    <li id="shellmenu_58">
+                        <a href="http://www.xbox.com/es-ES/" class="shell-l3-list-item" role="link" ms.title="Xbox y juegos" tabindex="20"
+                           data-bi-name="Products_DevicesAndXbox_XboxAndGames">
+                            Xbox y juegos
+                        </a>
+                    </li>
+                    <li id="shellmenu_59">
+                        <a href="http://www.microsoft.com/es-es/moviles/" class="shell-l3-list-item" role="link" ms.title="Lumia" tabindex="20"
+                           data-bi-name="Products_MicrosoftLumia">
+                            Lumia
+                        </a>
+                    </li>
+
+    </ul>
+
+
+
+                            </dd>
+
+                </dl>
+                <dl class="shell-header-dropdown-tab  " ms.cmpnm="Productos; Para empresas">
+
+                            <dt id="shellmenu_60" class="shell-header-dropdown-tab-label">
+                                <a href="javascript:void(0)" role="menuitem" ms.title="Para empresas" ms.interactiontype="14" tabindex="20"
+                                   data-bi-dnt="">
+                                    Para empresas
+                                    <i class="shell-icon-dropdown facing-right"></i>
+                                </a>
+                            </dt>
+                            <dd class="shell-header-dropdown-tab-content" data-col="0">
+
+
+
+    <ul class="shell-header-dropdown-tab-list">
+                    <li id="shellmenu_61">
+                        <a href="http://www.microsoft.com/es-es/server-cloud/" class="shell-l3-list-item" role="link" ms.title="Plataforma en la nube" tabindex="20"
+                           data-bi-name="Products_ForBusiness_CloudPlatform">
+                            Plataforma en la nube
+                        </a>
+                    </li>
+                    <li id="shellmenu_62">
+                        <a href="http://azure.microsoft.com/es-es/" class="shell-l3-list-item" role="link" ms.title="Microsoft Azure" tabindex="20"
+                           data-bi-name="Products_ForBusiness_MicrosoftAzure">
+                            Microsoft Azure
+                        </a>
+                    </li>
+                    <li id="shellmenu_63">
+                        <a href="http://www.microsoft.com/es-es/dynamics/default.aspx" class="shell-l3-list-item" role="link" ms.title="Microsoft Dynamics" tabindex="20"
+                           data-bi-name="Products_ForBusiness_MicrosoftDynamics">
+                            Microsoft Dynamics
+                        </a>
+                    </li>
+                    <li id="shellmenu_64">
+                        <a href="http://www.microsoft.com/es-es/windows/business/default.aspx" class="shell-l3-list-item" role="link" ms.title="Windows para la empresa" tabindex="20"
+                           data-bi-name="Products_ForBusiness_WindowsForBusiness">
+                            Windows para la empresa
+                        </a>
+                    </li>
+                    <li id="shellmenu_65">
+                        <a href="http://products.office.com/es-es/business/office?WT.mc_id=oan_winnav_officebusn" class="shell-l3-list-item" role="link" ms.title="Office para empresas" tabindex="20"
+                           data-bi-name="Products_ForBusiness_OfficeForBusiness">
+                            Office para empresas
+                        </a>
+                    </li>
+                    <li id="shellmenu_66">
+                        <a href="http://www.skype.com/es/business/" class="shell-l3-list-item" role="link" ms.title="Skype Empresarial" tabindex="20"
+                           data-bi-name="Products_ForBusiness_SkypeForBusiness">
+                            Skype Empresarial
+                        </a>
+                    </li>
+                    <li id="shellmenu_67">
+                        <a href="http://www.microsoft.com/surface/es-es/business/overview" class="shell-l3-list-item" role="link" ms.title="Surface para empresas" tabindex="20"
+                           data-bi-name="Products_ForBusiness_SurfaceForBusiness">
+                            Surface para empresas
+                        </a>
+                    </li>
+                    <li id="shellmenu_68">
+                        <a href="https://www.microsoft.com/enterprise/es-es/default.aspx" class="shell-l3-list-item" role="link" ms.title="Soluciones para Grandes Organizaciones" tabindex="20"
+                           data-bi-name="Products_ForBusiness_EnterpriseSolutions">
+                            Soluciones para Grandes Organizaciones
+                        </a>
+                    </li>
+                    <li id="shellmenu_69">
+                        <a href="http://www.microsoft.com/es-es/business/" class="shell-l3-list-item" role="link" ms.title="Soluciones para la peque&#241;a empresa" tabindex="20"
+                           data-bi-name="Products_ForBusiness_SmallBusinessSolutions">
+                            Soluciones para la peque&#241;a empresa
+                        </a>
+                    </li>
+                    <li id="shellmenu_70">
+                        <a href="https://pinpoint.microsoft.com/es-es" class="shell-l3-list-item" role="link" ms.title="Buscar un proveedor de soluciones" tabindex="20"
+                           data-bi-name="Products_ForBusiness_FindASolutionsProvider">
+                            Buscar un proveedor de soluciones
+                        </a>
+                    </li>
+
+    </ul>
+
+
+
+                            </dd>
+
+                </dl>
+                <dl class="shell-header-dropdown-tab  " ms.cmpnm="Productos; Para desarrolladores y profesionales inform&#225;ticos">
+
+                            <dt id="shellmenu_71" class="shell-header-dropdown-tab-label">
+                                <a href="javascript:void(0)" role="menuitem" ms.title="Para desarrolladores y profesionales inform&#225;ticos" ms.interactiontype="14" tabindex="20"
+                                   data-bi-dnt="">
+                                    Para desarrolladores y profesionales inform&#225;ticos
+                                    <i class="shell-icon-dropdown facing-right"></i>
+                                </a>
+                            </dt>
+                            <dd class="shell-header-dropdown-tab-content" data-col="0">
+
+
+
+    <ul class="shell-header-dropdown-tab-list">
+                    <li id="shellmenu_72">
+                        <a href="https://dev.windows.com/es-es" class="shell-l3-list-item" role="link" ms.title="Desarrollar aplicaciones para Windows" tabindex="20"
+                           data-bi-name="Products_DeveloperAndITPro_DevelopWindowsApps">
+                            Desarrollar aplicaciones para Windows
+                        </a>
+                    </li>
+                    <li id="shellmenu_73">
+                        <a href="http://azure.microsoft.com/es-es/" class="shell-l3-list-item" role="link" ms.title="Microsoft Azure" tabindex="20"
+                           data-bi-name="Products_ForDevelopersAndITPros_Azure">
+                            Microsoft Azure
+                        </a>
+                    </li>
+                    <li id="shellmenu_74">
+                        <a href="http://msdn.microsoft.com/es-es/" class="shell-l3-list-item" role="link" ms.title="MSDN" tabindex="20"
+                           data-bi-name="Products_ForDevelopersAndITPros">
+                            MSDN
+                        </a>
+                    </li>
+                    <li id="shellmenu_75">
+                        <a href="http://technet.microsoft.com/es-es/" class="shell-l3-list-item" role="link" ms.title="TechNet" tabindex="20"
+                           data-bi-name="Products_ForDevelopersAndITPros_TechNet">
+                            TechNet
+                        </a>
+                    </li>
+                    <li id="shellmenu_76">
+                        <a href="http://www.visualstudio.com/es-es/" class="shell-l3-list-item" role="link" ms.title="Visual Studio" tabindex="20"
+                           data-bi-name="Products_ForDevelopersAndITPros_VisualStudio">
+                            Visual Studio
+                        </a>
+                    </li>
+
+    </ul>
+
+
+
+                            </dd>
+
+                </dl>
+                <dl class="shell-header-dropdown-tab  " ms.cmpnm="Productos; Para estudiantes y profesores">
+
+                            <dt id="shellmenu_77" class="shell-header-dropdown-tab-label">
+                                <a href="javascript:void(0)" role="menuitem" ms.title="Para estudiantes y profesores" ms.interactiontype="14" tabindex="20"
+                                   data-bi-dnt="">
+                                    Para estudiantes y profesores
+                                    <i class="shell-icon-dropdown facing-right"></i>
+                                </a>
+                            </dt>
+                            <dd class="shell-header-dropdown-tab-content" data-col="0">
+
+
+
+    <ul class="shell-header-dropdown-tab-list">
+                    <li id="shellmenu_78">
+                        <a href="http://www.microsoftstore.com/store/mseea/es_ES/cat/Student/categoryID.66236400" class="shell-l3-list-item" role="link" ms.title="Ofertas de PCs y tabletas perfectos para estudiantes" tabindex="20"
+                           data-bi-name="Products_ForStudentsAndEducators_ShopPCsAndTablets">
+                            Ofertas de PCs y tabletas perfectos para estudiantes
+                        </a>
+                    </li>
+
+    </ul>
+
+
+
+                            </dd>
+
+                </dl>
+
+</div>
+                                    </li>
+                                    <li class="shell-header-dropdown  " data-navcontainer="shellmenu_79_NavContainer">
+                                        <div id="shellmenu_79" class="shell-header-dropdown-label">
+                                            <a href="javascript:void(0)" role="menu" ms.title="Soporte t&#233;cnico" data-bi-name="Support" data-bi-slot="3" tabindex="20">
+                                                Soporte t&#233;cnico
+                                            </a>
+                                        </div>
+
+
+
+
+
+<div class="shell-header-dropdown-content " role="menu">
+                <dl class="shell-header-dropdown-tab  " ms.cmpnm="Soporte t&#233;cnico; Windows">
+
+                            <dt id="shellmenu_80" class="shell-header-dropdown-tab-label">
+                                <a href="javascript:void(0)" role="menuitem" ms.title="Windows" ms.interactiontype="14" tabindex="20"
+                                   data-bi-dnt="">
+                                    Windows
+                                    <i class="shell-icon-dropdown facing-right"></i>
+                                </a>
+                            </dt>
+                            <dd class="shell-header-dropdown-tab-content" data-col="0">
+
+
+
+    <ul class="shell-header-dropdown-tab-list">
+                    <li id="shellmenu_81">
+                        <a href="http://windows.microsoft.com/es-es/windows/support" class="shell-l3-list-item" role="link" ms.title="Todo el soporte t&#233;cnico de Windows" tabindex="20"
+                           data-bi-name="Support_Windows_AllWindowsSupport">
+                            Todo el soporte t&#233;cnico de Windows
+                        </a>
+                    </li>
+                    <li id="shellmenu_82">
+                        <a href="http://www.microsoftstore.com/store/mseea/es_ES/DisplayHelpContactUsPage/" class="shell-l3-list-item" role="link" ms.title="Ponte en contacto con el equipo de soporte de ventas de Windows" tabindex="20"
+                           data-bi-name="Support_Windows_ContactWindowsSalesSupport">
+                            Ponte en contacto con el equipo de soporte de ventas de Windows
+                        </a>
+                    </li>
+                    <li id="shellmenu_83">
+                        <a href="https://support.microsoft.com/ContactUs/TechnicalSupport?wa=wsignin1.0#gsproductselector/productid/509" class="shell-l3-list-item" role="link" ms.title="Ponte en contacto con el equipo de soporte t&#233;cnico de Windows" tabindex="20"
+                           data-bi-name="Support_Windows_ContactWindowsGechnicalSupport">
+                            Ponte en contacto con el equipo de soporte t&#233;cnico de Windows
+                        </a>
+                    </li>
+                    <li id="shellmenu_84">
+                        <a href="http://windows.microsoft.com/es-es/windows/tutorial" class="shell-l3-list-item" role="link" ms.title="Primeros pasos" tabindex="20"
+                           data-bi-name="Support_Windows_GetStarted">
+                            Primeros pasos
+                        </a>
+                    </li>
+                    <li id="shellmenu_85">
+                        <a href="http://windows.microsoft.com/es-es/windows/install-upgrade-activate-help" class="shell-l3-list-item" role="link" ms.title="Instalar y actualizar" tabindex="20"
+                           data-bi-name="Support_Windows_InstallAndUpgrade">
+                            Instalar y actualizar
+                        </a>
+                    </li>
+                    <li id="shellmenu_86">
+                        <a href="http://windows.microsoft.com/es-es/windows/search-touch-mouse-help" class="shell-l3-list-item" role="link" ms.title="Buscar, funciones t&#225;ctiles y rat&#243;n" tabindex="20"
+                           data-bi-name="Support_Windows_SearchTouchAndMouse">
+                            Buscar, funciones t&#225;ctiles y rat&#243;n
+                        </a>
+                    </li>
+                    <li id="shellmenu_87">
+                        <a href="http://windows.microsoft.com/es-es/windows/personalization-accessibility-help" class="shell-l3-list-item" role="link" ms.title="Personalizaci&#243;n y accesibilidad" tabindex="20"
+                           data-bi-name="Support_Windows_PersonalizationAndEaseOfAccess">
+                            Personalizaci&#243;n y accesibilidad
+                        </a>
+                    </li>
+                    <li id="shellmenu_88">
+                        <a href="http://windows.microsoft.com/es-es/windows/security-privacy-accounts-help" class="shell-l3-list-item" role="link" ms.title="Seguridad, privacidad y cuentas" tabindex="20"
+                           data-bi-name="Support_Windows_SecurityPrivacyAndAccount">
+                            Seguridad, privacidad y cuentas
+                        </a>
+                    </li>
+                    <li id="shellmenu_89">
+                        <a href="http://windows.microsoft.com/es-es/windows/apps-windows-store-help" class="shell-l3-list-item" role="link" ms.title="Aplicaciones y Tienda Windows" tabindex="20"
+                           data-bi-name="Support_Windows_AppsAndWindowsStore">
+                            Aplicaciones y Tienda Windows
+                        </a>
+                    </li>
+                    <li id="shellmenu_90">
+                        <a href="http://windows.microsoft.com/es-es/windows/email-communication-help" class="shell-l3-list-item" role="link" ms.title="Correo electr&#243;nico y comunicaciones" tabindex="20"
+                           data-bi-name="Support_Windows_EmailAndCommunication">
+                            Correo electr&#243;nico y comunicaciones
+                        </a>
+                    </li>
+                    <li id="shellmenu_91">
+                        <a href="http://windows.microsoft.com/es-es/windows/music-photos-video-help" class="shell-l3-list-item" role="link" ms.title="M&#250;sica, fotos y v&#237;deos" tabindex="20"
+                           data-bi-name="Support_Windows_MusicPhotosVideo">
+                            M&#250;sica, fotos y v&#237;deos
+                        </a>
+                    </li>
+                    <li id="shellmenu_92">
+                        <a href="http://windows.microsoft.com/es-es/windows/files-folders-storage-help" class="shell-l3-list-item" role="link" ms.title="Archivos, carpetas y almacenamiento en l&#237;nea" tabindex="20"
+                           data-bi-name="Support_Windows_FilesFoldersAndOnlineStorage">
+                            Archivos, carpetas y almacenamiento en l&#237;nea
+                        </a>
+                    </li>
+                    <li id="shellmenu_93">
+                        <a href="http://windows.microsoft.com/es-es/windows/repair-recovery-help" class="shell-l3-list-item" role="link" ms.title="Reparaci&#243;n y recuperaci&#243;n" tabindex="20"
+                           data-bi-name="Support_Windows_RepairAndRecovery">
+                            Reparaci&#243;n y recuperaci&#243;n
+                        </a>
+                    </li>
+                    <li id="shellmenu_94">
+                        <a href="http://windows.microsoft.com/es-es/windows/devices-drivers-help" class="shell-l3-list-item" role="link" ms.title="Dispositivos y controladores" tabindex="20"
+                           data-bi-name="Support_Windows_DevicesAndDrivers">
+                            Dispositivos y controladores
+                        </a>
+                    </li>
+
+    </ul>
+
+
+
+                            </dd>
+
+                </dl>
+                <dl class="shell-header-dropdown-tab  " ms.cmpnm="Soporte t&#233;cnico; Office">
+
+                            <dt id="shellmenu_95" class="shell-header-dropdown-tab-label">
+                                <a href="javascript:void(0)" role="menuitem" ms.title="Office" ms.interactiontype="14" tabindex="20"
+                                   data-bi-dnt="">
+                                    Office
+                                    <i class="shell-icon-dropdown facing-right"></i>
+                                </a>
+                            </dt>
+                            <dd class="shell-header-dropdown-tab-content" data-col="0">
+
+
+
+    <ul class="shell-header-dropdown-tab-list">
+                    <li id="shellmenu_96">
+                        <a href="https://support.office.com/es-es?WT.mc_id=oan_winnav_officesupport" class="shell-l3-list-item" role="link" ms.title="Todo el soporte t&#233;cnico de Office" tabindex="20"
+                           data-bi-name="Support_Office_AllOfficeSupport">
+                            Todo el soporte t&#233;cnico de Office
+                        </a>
+                    </li>
+                    <li id="shellmenu_97">
+                        <a href="http://www.microsoftstore.com/store/mseea/es_ES/DisplayHelpContactUsPage/?WT.mc_id=oan_winnav_officesalessupport" class="shell-l3-list-item" role="link" ms.title="Ponte en contacto con el equipo de soporte de ventas de Office" tabindex="20"
+                           data-bi-name="Support_Office_ContactOfficeSalesSupport">
+                            Ponte en contacto con el equipo de soporte de ventas de Office
+                        </a>
+                    </li>
+                    <li id="shellmenu_98">
+                        <a href="https://support.microsoft.com/ContactUs/TechnicalSupport?wa=wsignin1.0#gsproductselector/productid/505&amp;WT.mc_id=oan_winnav_officetechsupport" class="shell-l3-list-item" role="link" ms.title="Ponte en contacto con el equipo de soporte t&#233;cnico de Office" tabindex="20"
+                           data-bi-name="Support_Office_Contact OfficeTechnicalSupport">
+                            Ponte en contacto con el equipo de soporte t&#233;cnico de Office
+                        </a>
+                    </li>
+                    <li id="shellmenu_99">
+                        <a href="https://support.office.com/article/What-s-New-and-Improved-in-Office-2016-95c8d81d-08ba-42c1-914f-bca4603e1426" class="shell-l3-list-item" role="link" ms.title="Novedades en 2016" tabindex="20"
+                           data-bi-name="Support_Office_WhatsNew">
+                            Novedades en 2016
+                        </a>
+                    </li>
+                    <li id="shellmenu_100">
+                        <a href="https://support.office.com/article/Office-2016-Quick-Start-Guides-25f909da-3e76-443d-94f4-6cdf7dedc51e" class="shell-l3-list-item" role="link" ms.title="Primeros pasos" tabindex="20"
+                           data-bi-name="Support_Office_GetStarted">
+                            Primeros pasos
+                        </a>
+                    </li>
+                    <li id="shellmenu_101">
+                        <a href="https://products.office.com/download-back-up-restore-microsoft-office-products" class="shell-l3-list-item" role="link" ms.title="Descarga, copias de seguridad y restauraci&#243;n" tabindex="20"
+                           data-bi-name="Support_Office_DownloadBackupAndRestore">
+                            Descarga, copias de seguridad y restauraci&#243;n
+                        </a>
+                    </li>
+                    <li id="shellmenu_102">
+                        <a href="https://support.office.com/article/What-s-new-in-Word-2016-4219dfb5-23fc-4853-95aa-b13a674a6670" class="shell-l3-list-item" role="link" ms.title="Ayuda de Word" tabindex="20"
+                           data-bi-name="Support_Office_WordHelp">
+                            Ayuda de Word
+                        </a>
+                    </li>
+                    <li id="shellmenu_103">
+                        <a href="https://support.office.com/article/What-s-new-in-Outlook-2016-for-Windows-51c81e7a-de25-4a34-a7fe-bd79f8e48647" class="shell-l3-list-item" role="link" ms.title="Ayuda de Outlook" tabindex="20"
+                           data-bi-name="Support_Office_OutlookHelp">
+                            Ayuda de Outlook
+                        </a>
+                    </li>
+                    <li id="shellmenu_104">
+                        <a href="https://support.office.com/article/What-s-new-in-Excel-2016-for-Windows-5fdb9208-ff33-45b6-9e08-1f5cdb3a6c73" class="shell-l3-list-item" role="link" ms.title="Ayuda de Excel" tabindex="20"
+                           data-bi-name="Support_Office_ExcelHelp">
+                            Ayuda de Excel
+                        </a>
+                    </li>
+                    <li id="shellmenu_105">
+                        <a href="https://support.office.com/article/What-s-new-in-PowerPoint-2016-for-Windows-e8ef980c-5b12-4fff-ae3f-0819e6a21a1f" class="shell-l3-list-item" role="link" ms.title="Ayuda de PowerPoint" tabindex="20"
+                           data-bi-name="Support_Office_PowerPointHelp">
+                            Ayuda de PowerPoint
+                        </a>
+                    </li>
+                    <li id="shellmenu_106">
+                        <a href="https://support.office.com/article/What-s-new-in-OneNote-2016-for-Windows-46ac4be4-8907-404e-8380-bc00921b264f" class="shell-l3-list-item" role="link" ms.title="Ayuda de OneNote" tabindex="20"
+                           data-bi-name="Support_Office_OneNoteHelp">
+                            Ayuda de OneNote
+                        </a>
+                    </li>
+                    <li id="shellmenu_107">
+                        <a href="https://support.office.com/article/What-s-new-in-Access-2016-76454345-f85d-47af-ace1-98a456cb3496" class="shell-l3-list-item" role="link" ms.title="Ayuda de Access" tabindex="20"
+                           data-bi-name="Support_Office_AccessHelp">
+                            Ayuda de Access
+                        </a>
+                    </li>
+                    <li id="shellmenu_108">
+                        <a href="https://support.office.com/es-ES/learn/office365-for-business/learn-about-publisher?WT.mc_id=oan_winnav_pubhelp" class="shell-l3-list-item" role="link" ms.title="Ayuda de Publisher" tabindex="20"
+                           data-bi-name="Support_Office_PublisherHelp">
+                            Ayuda de Publisher
+                        </a>
+                    </li>
+
+    </ul>
+
+
+
+                            </dd>
+
+                </dl>
+                <dl class="shell-header-dropdown-tab  " ms.cmpnm="Soporte t&#233;cnico; Surface">
+
+                            <dt id="shellmenu_109" class="shell-header-dropdown-tab-label">
+                                <a href="javascript:void(0)" role="menuitem" ms.title="Surface" ms.interactiontype="14" tabindex="20"
+                                   data-bi-dnt="">
+                                    Surface
+                                    <i class="shell-icon-dropdown facing-right"></i>
+                                </a>
+                            </dt>
+                            <dd class="shell-header-dropdown-tab-content" data-col="0">
+
+
+
+    <ul class="shell-header-dropdown-tab-list">
+                    <li id="shellmenu_110">
+                        <a href="http://www.microsoft.com/Surface/es-es/support" class="shell-l3-list-item" role="link" ms.title="Todo el soporte t&#233;cnico de Surface" tabindex="20"
+                           data-bi-name="Support_Surface_AllSurfaceSupport">
+                            Todo el soporte t&#233;cnico de Surface
+                        </a>
+                    </li>
+                    <li id="shellmenu_111">
+                        <a href="http://www.microsoftstore.com/store/mseea/es_ES/DisplayHelpContactUsPage/" class="shell-l3-list-item" role="link" ms.title="Ponte en contacto con el equipo de soporte de ventas de Surface" tabindex="20"
+                           data-bi-name="Support_Surface_Contact SurfaceSalesSupport">
+                            Ponte en contacto con el equipo de soporte de ventas de Surface
+                        </a>
+                    </li>
+                    <li id="shellmenu_112">
+                        <a href="http://www.microsoft.com/surface/es-es/support/contact-us" class="shell-l3-list-item" role="link" ms.title="Ponte en contacto con el equipo de soporte t&#233;cnico de Surface" tabindex="20"
+                           data-bi-name="Support_Surface_ContactSurfaceTechnicalSupport">
+                            Ponte en contacto con el equipo de soporte t&#233;cnico de Surface
+                        </a>
+                    </li>
+                    <li id="shellmenu_113">
+                        <a href="http://www.microsoft.com/Surface/es-es/support" class="shell-l3-list-item" role="link" ms.title="Temas populares de Surface" tabindex="20"
+                           data-bi-name="Support_Surface_PopularSurfaceTopics">
+                            Temas populares de Surface
+                        </a>
+                    </li>
+                    <li id="shellmenu_114">
+                        <a href="http://www.microsoft.com/surface/es-es/support/browse/surface-3?category=getting-started" class="shell-l3-list-item" role="link" ms.title="Surface 3" tabindex="20"
+                           data-bi-name="Support_Surface_Surface3">
+                            Surface 3
+                        </a>
+                    </li>
+                    <li id="shellmenu_115">
+                        <a href="http://www.microsoft.com/surface/es-es/support/browse/surface-pro-3?category=getting-started" class="shell-l3-list-item" role="link" ms.title="Surface Pro 3" tabindex="20"
+                           data-bi-name="Support_Surface_SurfacePro3">
+                            Surface Pro 3
+                        </a>
+                    </li>
+                    <li id="shellmenu_116">
+                        <a href="http://www.microsoft.com/surface/es-es/support/browse/surface-2?category=getting-started" class="shell-l3-list-item" role="link" ms.title="Surface 2" tabindex="20"
+                           data-bi-name="Support_Surface_Surface2">
+                            Surface 2
+                        </a>
+                    </li>
+                    <li id="shellmenu_117">
+                        <a href="http://www.microsoft.com/surface/es-es/support/browse/surface-pro-2?category=getting-started" class="shell-l3-list-item" role="link" ms.title="Surface Pro 2" tabindex="20"
+                           data-bi-name="Support_Surface_SurfacePro2">
+                            Surface Pro 2
+                        </a>
+                    </li>
+                    <li id="shellmenu_118">
+                        <a href="http://www.microsoft.com/surface/es-es/support/browse/surface-windows-8-pro?category=getting-started" class="shell-l3-list-item" role="link" ms.title="Surface Pro" tabindex="20"
+                           data-bi-name="Support_Surface_SurfacePro">
+                            Surface Pro
+                        </a>
+                    </li>
+                    <li id="shellmenu_119">
+                        <a href="http://www.microsoft.com/surface/es-es/support/browse/surface-with-windows-rt?category=getting-started" class="shell-l3-list-item" role="link" ms.title="Surface RT" tabindex="20"
+                           data-bi-name="Support_Surface_SurfaceRT">
+                            Surface RT
+                        </a>
+                    </li>
+                    <li id="shellmenu_120">
+                        <a href="http://www.microsoft.com/surface/es-es/support/browse/covers-and-keyboard?category=touch" class="shell-l3-list-item" role="link" ms.title="Fundas y teclados" tabindex="20"
+                           data-bi-name="Support_Surface_CoversAndKeyboards">
+                            Fundas y teclados
+                        </a>
+                    </li>
+                    <li id="shellmenu_121">
+                        <a href="http://www.microsoft.com/surface/es-es/support/browse/accessories?category=adapters" class="shell-l3-list-item" role="link" ms.title="Accesorios" tabindex="20"
+                           data-bi-name="Support_Surface_Accessories">
+                            Accesorios
+                        </a>
+                    </li>
+
+    </ul>
+
+
+
+                            </dd>
+
+                </dl>
+                <dl class="shell-header-dropdown-tab  " ms.cmpnm="Soporte t&#233;cnico; Xbox">
+
+                            <dt id="shellmenu_122" class="shell-header-dropdown-tab-label">
+                                <a href="javascript:void(0)" role="menuitem" ms.title="Xbox" ms.interactiontype="14" tabindex="20"
+                                   data-bi-dnt="">
+                                    Xbox
+                                    <i class="shell-icon-dropdown facing-right"></i>
+                                </a>
+                            </dt>
+                            <dd class="shell-header-dropdown-tab-content" data-col="0">
+
+
+
+    <ul class="shell-header-dropdown-tab-list">
+                    <li id="shellmenu_123">
+                        <a href="http://support.xbox.com/es-ES/" class="shell-l3-list-item" role="link" ms.title="Todo el soporte t&#233;cnico de Xbox" tabindex="20"
+                           data-bi-name="Support_Xbox_AllXboxSupport">
+                            Todo el soporte t&#233;cnico de Xbox
+                        </a>
+                    </li>
+                    <li id="shellmenu_124">
+                        <a href="http://www.microsoftstore.com/store/mseea/es_ES/DisplayHelpContactUsPage/" class="shell-l3-list-item" role="link" ms.title="Ponte en contacto con el equipo de soporte de ventas de Xbox" tabindex="20"
+                           data-bi-name="Support_Xbox_Contact XboxSalesSupport">
+                            Ponte en contacto con el equipo de soporte de ventas de Xbox
+                        </a>
+                    </li>
+                    <li id="shellmenu_125">
+                        <a href="http://support.xbox.com/es-es/contact-us" class="shell-l3-list-item" role="link" ms.title="Ponte en contacto con el equipo de soporte t&#233;cnico de Xbox" tabindex="20"
+                           data-bi-name="Support_Xbox_ContactXboxTechnicalSupport">
+                            Ponte en contacto con el equipo de soporte t&#233;cnico de Xbox
+                        </a>
+                    </li>
+                    <li id="shellmenu_126">
+                        <a href="http://support.xbox.com/es-ES/browse/xbox-one" class="shell-l3-list-item" role="link" ms.title="Ayuda de Xbox One" tabindex="20"
+                           data-bi-name="Support_Xbox_XboxOneHelp">
+                            Ayuda de Xbox One
+                        </a>
+                    </li>
+                    <li id="shellmenu_127">
+                        <a href="http://support.xbox.com/es-ES/browse/xbox-360" class="shell-l3-list-item" role="link" ms.title="Ayuda de Xbox 360" tabindex="20"
+                           data-bi-name="Support_Xbox_Xbox360Help">
+                            Ayuda de Xbox 360
+                        </a>
+                    </li>
+                    <li id="shellmenu_128">
+                        <a href="http://support.xbox.com/es-es/browse/xbox-on-windows" class="shell-l3-list-item" role="link" ms.title="Xbox en Windows 10" tabindex="20"
+                           data-bi-name="Support_Xbox_XboxWin10Help">
+                            Xbox en Windows 10
+                        </a>
+                    </li>
+                    <li id="shellmenu_129">
+                        <a href="http://support.xbox.com/es-es/browse/games" class="shell-l3-list-item" role="link" ms.title="Juegos" tabindex="20"
+                           data-bi-name="Support_Xbox_Games">
+                            Juegos
+                        </a>
+                    </li>
+                    <li id="shellmenu_130">
+                        <a href="http://support.xbox.com/es-es/browse/billing" class="shell-l3-list-item" role="link" ms.title="Facturaci&#243;n" tabindex="20"
+                           data-bi-name="Support_Xbox_Billing">
+                            Facturaci&#243;n
+                        </a>
+                    </li>
+                    <li id="shellmenu_131">
+                        <a href="http://support.xbox.com/es-ES/browse/my-account" class="shell-l3-list-item" role="link" ms.title="Mi cuenta" tabindex="20"
+                           data-bi-name="Support_Xbox_My account">
+                            Mi cuenta
+                        </a>
+                    </li>
+                    <li id="shellmenu_132">
+                        <a href="http://support.xbox.com/es-ES/error-code-lookup" class="shell-l3-list-item" role="link" ms.title="B&#250;squeda de c&#243;digos de error y estado" tabindex="20"
+                           data-bi-name="Support_Xbox_ErrorAndStatusCodeSearch">
+                            B&#250;squeda de c&#243;digos de error y estado
+                        </a>
+                    </li>
+                    <li id="shellmenu_133">
+                        <a href="https://myservice.xbox.com/es-ES/pages/welcome.aspx" class="shell-l3-list-item" role="link" ms.title="Reparaci&#243;n" tabindex="20"
+                           data-bi-name="Support_Xbox_Repair">
+                            Reparaci&#243;n
+                        </a>
+                    </li>
+
+    </ul>
+
+
+
+                            </dd>
+
+                </dl>
+                <dl class="shell-header-dropdown-tab  " ms.cmpnm="Soporte t&#233;cnico; Windows Phone">
+
+                            <dt id="shellmenu_134" class="shell-header-dropdown-tab-label">
+                                <a href="javascript:void(0)" role="menuitem" ms.title="Windows Phone" ms.interactiontype="14" tabindex="20"
+                                   data-bi-dnt="">
+                                    Windows Phone
+                                    <i class="shell-icon-dropdown facing-right"></i>
+                                </a>
+                            </dt>
+                            <dd class="shell-header-dropdown-tab-content" data-col="0">
+
+
+
+    <ul class="shell-header-dropdown-tab-list">
+                    <li id="shellmenu_135">
+                        <a href="http://www.windowsphone.com/es-es/how-to/wp8" class="shell-l3-list-item" role="link" ms.title="Todo el soporte t&#233;cnico de Windows Phone" tabindex="20"
+                           data-bi-name="Support_WindowsPhone_AllWindowsPhoneSupport">
+                            Todo el soporte t&#233;cnico de Windows Phone
+                        </a>
+                    </li>
+                    <li id="shellmenu_136">
+                        <a href="http://www.microsoftstore.com/store/mseea/es_ES/DisplayHelpContactUsPage/" class="shell-l3-list-item" role="link" ms.title="Ponte en contacto con el equipo de soporte de ventas de Windows Phone" tabindex="20"
+                           data-bi-name="Support_WindowsPhone_Contact WindowsPhoneSalesSupport">
+                            Ponte en contacto con el equipo de soporte de ventas de Windows Phone
+                        </a>
+                    </li>
+                    <li id="shellmenu_137">
+                        <a href="http://www.windowsphone.com/es-es/How-to/wp-support" class="shell-l3-list-item" role="link" ms.title="Ponte en contacto con el equipo de soporte t&#233;cnico de Windows Phone" tabindex="20"
+                           data-bi-name="Support_WindowsPhone_ContactWindowsPhoneTechnicalSupport">
+                            Ponte en contacto con el equipo de soporte t&#233;cnico de Windows Phone
+                        </a>
+                    </li>
+                    <li id="shellmenu_138">
+                        <a href="http://www.windowsphone.com/es-es/how-to/wp8/basics/get-started-with-windows-phone" class="shell-l3-list-item" role="link" ms.title="Primeros pasos" tabindex="20"
+                           data-bi-name="Support_WindowsPhone_GetStarted">
+                            Primeros pasos
+                        </a>
+                    </li>
+                    <li id="shellmenu_139">
+                        <a href="http://www.microsoft.com/es-es/moviles/soporte/" class="shell-l3-list-item" role="link" ms.title="Soporte t&#233;cnico de tel&#233;fonos Lumia" tabindex="20"
+                           data-bi-name="Support_WindowsPhone_LumiaPhoneSupport">
+                            Soporte t&#233;cnico de tel&#233;fonos Lumia
+                        </a>
+                    </li>
+                    <li id="shellmenu_140">
+                        <a href="http://www.windowsphone.com/es-es/how-to/wp8/accounts-and-billing/sign-in-with-a-microsoft-account" class="shell-l3-list-item" role="link" ms.title="Cuentas y facturaci&#243;n" tabindex="20"
+                           data-bi-name="Support_WindowsPhone_AccountsPlusBilling">
+                            Cuentas y facturaci&#243;n
+                        </a>
+                    </li>
+                    <li id="shellmenu_141">
+                        <a href="http://www.windowsphone.com/es-es/how-to/wp8/apps/get-apps-from-windows-phone-store" class="shell-l3-list-item" role="link" ms.title="Aplicaciones y tienda" tabindex="20"
+                           data-bi-name="Support_WindowsPhone_AppsAndStore">
+                            Aplicaciones y tienda
+                        </a>
+                    </li>
+                    <li id="shellmenu_142">
+                        <a href="http://www.windowsphone.com/es-es/how-to/wp8/calling-and-messaging/make-and-receive-phone-calls" class="shell-l3-list-item" role="link" ms.title="Llamadas y mensajer&#237;a" tabindex="20"
+                           data-bi-name="Support_WindowsPhone_CallingAndMessaging">
+                            Llamadas y mensajer&#237;a
+                        </a>
+                    </li>
+                    <li id="shellmenu_143">
+                        <a href="http://www.windowsphone.com/es-es/how-to/wp8/connectivity/" class="shell-l3-list-item" role="link" ms.title="Conectividad" tabindex="20"
+                           data-bi-name="Support_WindowsPhone_Connectivity">
+                            Conectividad
+                        </a>
+                    </li>
+                    <li id="shellmenu_144">
+                        <a href="http://www.windowsphone.com/es-es/how-to/wp8/cortana/" class="shell-l3-list-item" role="link" ms.title="Cortana" tabindex="20"
+                           data-bi-name="Support_WindowsPhone_Cortana">
+                            Cortana
+                        </a>
+                    </li>
+                    <li id="shellmenu_145">
+                        <a href="http://www.windowsphone.com/es-es/how-to/wp8/settings-and-personalization/accessibility-on-my-phone" class="shell-l3-list-item" role="link" ms.title="Configuraci&#243;n y personalizaci&#243;n" tabindex="20"
+                           data-bi-name="Support_WindowsPhone_SettingsAndPersonalization">
+                            Configuraci&#243;n y personalizaci&#243;n
+                        </a>
+                    </li>
+                    <li id="shellmenu_146">
+                        <a href="http://www.windowsphone.com/es-es/how-to/wp8/email-and-calendar/" class="shell-l3-list-item" role="link" ms.title="Correo electr&#243;nico y calendario" tabindex="20"
+                           data-bi-name="Support_WindowsPhone_EmailAndCalendar">
+                            Correo electr&#243;nico y calendario
+                        </a>
+                    </li>
+                    <li id="shellmenu_147">
+                        <a href="http://www.microsoft.com/es-es/account/default.aspx" class="shell-l3-list-item" role="link" ms.title="Cuenta Microsoft" tabindex="20"
+                           data-bi-name="Support_WindowsPhone_MicrosoftAccount">
+                            Cuenta Microsoft
+                        </a>
+                    </li>
+                    <li id="shellmenu_148">
+                        <a href="http://www.windowsphone.com/es-es/how-to/wp8/music-and-videos/" class="shell-l3-list-item" role="link" ms.title="M&#250;sica y v&#237;deos" tabindex="20"
+                           data-bi-name="Support_WindowsPhone_MusicAndVideos">
+                            M&#250;sica y v&#237;deos
+                        </a>
+                    </li>
+
+    </ul>
+
+
+
+                            </dd>
+
+                </dl>
+                <dl class="shell-header-dropdown-tab  " ms.cmpnm="Soporte t&#233;cnico; Por recurso">
+
+                            <dt id="shellmenu_149" class="shell-header-dropdown-tab-label">
+                                <a href="javascript:void(0)" role="menuitem" ms.title="Por recurso" ms.interactiontype="14" tabindex="20"
+                                   data-bi-dnt="">
+                                    Por recurso
+                                    <i class="shell-icon-dropdown facing-right"></i>
+                                </a>
+                            </dt>
+                            <dd class="shell-header-dropdown-tab-content" data-col="0">
+
+
+
+    <ul class="shell-header-dropdown-tab-list">
+                    <li id="shellmenu_150">
+                        <a href="http://www.microsoftstore.com/store/mseea/es_ES/DisplayHelpContactUsPage/" class="shell-l3-list-item" role="link" ms.title="Soporte t&#233;cnico de Microsoft Store" tabindex="20"
+                           data-bi-name="Support_ByResource_MicrosoftStoreSupport">
+                            Soporte t&#233;cnico de Microsoft Store
+                        </a>
+                    </li>
+                    <li id="shellmenu_151">
+                        <a href="http://support.microsoft.com/?ln=es-es" class="shell-l3-list-item" role="link" ms.title="P&#225;gina principal de soporte t&#233;cnico de Microsoft" tabindex="20"
+                           data-bi-name="Support_ByResource_MicrosoftSupportHome">
+                            P&#225;gina principal de soporte t&#233;cnico de Microsoft
+                        </a>
+                    </li>
+                    <li id="shellmenu_152">
+                        <a href="http://www.microsoft.com/es-es/download/default.aspx" class="shell-l3-list-item" role="link" ms.title="Download Center" tabindex="20"
+                           data-bi-name="Support_ByResource_DownloadCenter">
+                            Download Center
+                        </a>
+                    </li>
+                    <li id="shellmenu_153">
+                        <a href="http://www.microsoft.com/learning/es-es" class="shell-l3-list-item" role="link" ms.title="Cursos para desarrolladores" tabindex="20"
+                           data-bi-name="Support_ByResource_TrainingAndCertification">
+                            Cursos para desarrolladores
+                        </a>
+                    </li>
+                    <li id="shellmenu_154">
+                        <a href="https://support.microsoft.com/es-es/contactus?ws=support&amp;SegNo=2" class="shell-l3-list-item" role="link" ms.title="Llamar o chatear con Answer Desk" tabindex="20"
+                           data-bi-name="Support_ByResource_CallOrChatWithAnswerDesk">
+                            Llamar o chatear con Answer Desk
+                        </a>
+                    </li>
+                    <li id="shellmenu_155">
+                        <a href="http://answers.microsoft.com/es-es" class="shell-l3-list-item" role="link" ms.title="Pregunta a los expertos" tabindex="20"
+                           data-bi-name="Support_ByResource_AskTheExperts">
+                            Pregunta a los expertos
+                        </a>
+                    </li>
+
+    </ul>
+
+
+
+                            </dd>
+
+                </dl>
+                <dl class="shell-header-dropdown-tab  " ms.cmpnm="Soporte t&#233;cnico; Seguridad y actualizaciones">
+
+                            <dt id="shellmenu_156" class="shell-header-dropdown-tab-label">
+                                <a href="javascript:void(0)" role="menuitem" ms.title="Seguridad y actualizaciones" ms.interactiontype="14" tabindex="20"
+                                   data-bi-dnt="">
+                                    Seguridad y actualizaciones
+                                    <i class="shell-icon-dropdown facing-right"></i>
+                                </a>
+                            </dt>
+                            <dd class="shell-header-dropdown-tab-content" data-col="0">
+
+
+
+    <ul class="shell-header-dropdown-tab-list">
+                    <li id="shellmenu_157">
+                        <a href="http://www.microsoft.com/es-es/security/default.aspx" class="shell-l3-list-item" role="link" ms.title="P&#225;gina principal de seguridad" tabindex="20"
+                           data-bi-name="Support_SecurityAndUpdates_SecurityHome">
+                            P&#225;gina principal de seguridad
+                        </a>
+                    </li>
+                    <li id="shellmenu_158">
+                        <a href="http://windows.microsoft.com/es-es/windows/security-essentials-download" class="shell-l3-list-item" role="link" ms.title="Microsoft Security Essentials" tabindex="20"
+                           data-bi-name="Support_SecurityAndUpdates_MicrosoftSecurityEssentials">
+                            Microsoft Security Essentials
+                        </a>
+                    </li>
+                    <li id="shellmenu_159">
+                        <a href="http://windows.microsoft.com/es-es/windows/service-packs-download#sptabs=win81" class="shell-l3-list-item" role="link" ms.title="Windows Update: Service Packs y correcciones" tabindex="20"
+                           data-bi-name="Support_SecurityAndUpdates_WindowsUpdateServicePacksAndFxes">
+                            Windows Update: Service Packs y correcciones
+                        </a>
+                    </li>
+
+    </ul>
+
+
+
+                            </dd>
+
+                </dl>
+                <dl class="shell-header-dropdown-tab  " ms.cmpnm="Soporte t&#233;cnico; Temas populares">
+
+                            <dt id="shellmenu_160" class="shell-header-dropdown-tab-label">
+                                <a href="javascript:void(0)" role="menuitem" ms.title="Temas populares" ms.interactiontype="14" tabindex="20"
+                                   data-bi-dnt="">
+                                    Temas populares
+                                    <i class="shell-icon-dropdown facing-right"></i>
+                                </a>
+                            </dt>
+                            <dd class="shell-header-dropdown-tab-content" data-col="0">
+
+
+
+    <ul class="shell-header-dropdown-tab-list">
+                    <li id="shellmenu_161">
+                        <a href="http://www.microsoft.com/es-es/search/results.aspx?q=error%20messages" class="shell-l3-list-item" role="link" ms.title="Mensajes de error" tabindex="20"
+                           data-bi-name="Support_PopularTopics_ErrorMessages">
+                            Mensajes de error
+                        </a>
+                    </li>
+                    <li id="shellmenu_162">
+                        <a href="http://windows.microsoft.com/es-es/windows/install-upgrade-activate-help" class="shell-l3-list-item" role="link" ms.title="Instalar, actualizar y activar (Windows)" tabindex="20"
+                           data-bi-name="Support_PopularTopics_InstallUpgradeAndActivateWindows">
+                            Instalar, actualizar y activar (Windows)
+                        </a>
+                    </li>
+                    <li id="shellmenu_163">
+                        <a href="http://windows.microsoft.com/es-es/windows/devices-drivers-help" class="shell-l3-list-item" role="link" ms.title="Controladores (sonido, impresora, USB, etc.)" tabindex="20"
+                           data-bi-name="Support_PopularTopics_DriversSoundPrinterUSBMore">
+                            Controladores (sonido, impresora, USB, etc.)
+                        </a>
+                    </li>
+                    <li id="shellmenu_164">
+                        <a href="http://www.microsoft.com/hardware/es-es/downloads" class="shell-l3-list-item" role="link" ms.title="Controladores de hardware de Microsoft" tabindex="20"
+                           data-bi-name="Support_PopularTopics_MicrosoftHardwareDriver">
+                            Controladores de hardware de Microsoft
+                        </a>
+                    </li>
+                    <li id="shellmenu_165">
+                        <a href="http://www.microsoft.com/es-es/download/default.aspx" class="shell-l3-list-item" role="link" ms.title="Download Center" tabindex="20"
+                           data-bi-name="Support_PopularTopics_DownloadCenter">
+                            Download Center
+                        </a>
+                    </li>
+
+    </ul>
+
+
+
+                            </dd>
+
+                </dl>
+                <dl class="shell-header-dropdown-tab  " ms.cmpnm="Soporte t&#233;cnico; Ofertas y Pedidos">
+
+                            <dt id="shellmenu_166" class="shell-header-dropdown-tab-label">
+                                <a href="javascript:void(0)" role="menuitem" ms.title="Ofertas y Pedidos" ms.interactiontype="14" tabindex="20"
+                                   data-bi-dnt="">
+                                    Ofertas y Pedidos
+                                    <i class="shell-icon-dropdown facing-right"></i>
+                                </a>
+                            </dt>
+                            <dd class="shell-header-dropdown-tab-content" data-col="0">
+
+
+
+    <ul class="shell-header-dropdown-tab-list">
+                    <li id="shellmenu_167">
+                        <a href="http://www.microsoftstore.com/store/mseea/es_ES/DisplayHelpPage/" class="shell-l3-list-item" role="link" ms.title="Todas las ventas y pedidos" tabindex="20"
+                           data-bi-name="Support_SalesAndOrders_AllSalesAndOrders">
+                            Todas las ventas y pedidos
+                        </a>
+                    </li>
+                    <li id="shellmenu_168">
+                        <a href="http://www.microsoftstore.com/store/mseea/es_ES/DisplayHelpContactUsPage/" class="shell-l3-list-item" role="link" ms.title="Ponte en contacto con el servicio de soporte t&#233;cnico de Microsoft" tabindex="20"
+                           data-bi-name="Support_SalesAndOrders_ContactMicrosoftStoreSupport">
+                            Ponte en contacto con el servicio de soporte t&#233;cnico de Microsoft
+                        </a>
+                    </li>
+                    <li id="shellmenu_169">
+                        <a href="http://www.microsoftstore.com/store/mseea/es_ES/DisplayHelpOrdersShippingPage/" class="shell-l3-list-item" role="link" ms.title="Pedidos y env&#237;os" tabindex="20"
+                           data-bi-name="Support_SalesAndOrders_OrdersAndShipping">
+                            Pedidos y env&#237;os
+                        </a>
+                    </li>
+                    <li id="shellmenu_170">
+                        <a href="http://www.microsoftstore.com/store/mseea/es_ES/DisplayHelpSoftwareDownloadsPage/" class="shell-l3-list-item" role="link" ms.title="Instrucciones de descarga" tabindex="20"
+                           data-bi-name="Support_SalesAndOrders_DownloadInstructions">
+                            Instrucciones de descarga
+                        </a>
+                    </li>
+                    <li id="shellmenu_171">
+                        <a href="http://www.microsoftstore.com/store/mseea/es_ES/DisplayHelpReturnsRefundsPage/" class="shell-l3-list-item" role="link" ms.title="Reembolsos y devoluciones" tabindex="20"
+                           data-bi-name="Support_SalesAndOrders_RefundReturns">
+                            Reembolsos y devoluciones
+                        </a>
+                    </li>
+                    <li id="shellmenu_172">
+                        <a href="http://www.microsoftstore.com/store/mseea/es_ES/DisplayHelpTechnicalSupportPage" class="shell-l3-list-item" role="link" ms.title="Soporte t&#233;cnico" tabindex="20"
+                           data-bi-name="Support_SalesAndOrders_TechnicalSupport">
+                            Soporte t&#233;cnico
+                        </a>
+                    </li>
+                    <li id="shellmenu_173">
+                        <a href="http://www.microsoftstore.com/store/mseea/es_ES/DisplayHelpFAQPage/" class="shell-l3-list-item" role="link" ms.title="Preguntas m&#225;s frecuentes" tabindex="20"
+                           data-bi-name="Support_SalesAndOrders_FAQs">
+                            Preguntas m&#225;s frecuentes
+                        </a>
+                    </li>
+
+    </ul>
+
+
+
+                            </dd>
+
+                </dl>
+                <dl class="shell-header-dropdown-tab  " ms.cmpnm="Soporte t&#233;cnico; Contacta con nosotros">
+
+                            <dt id="shellmenu_174" class="shell-header-dropdown-tab-label">
+                                <a href="javascript:void(0)" role="menuitem" ms.title="Contacta con nosotros" ms.interactiontype="14" tabindex="20"
+                                   data-bi-dnt="">
+                                    Contacta con nosotros
+                                    <i class="shell-icon-dropdown facing-right"></i>
+                                </a>
+                            </dt>
+                            <dd class="shell-header-dropdown-tab-content" data-col="0">
+
+
+
+    <ul class="shell-header-dropdown-tab-list">
+                    <li id="shellmenu_175">
+                        <a href="http://support.microsoft.com/contactus/?ln=es-es" class="shell-l3-list-item" role="link" ms.title="Contacta con nosotros" tabindex="20"
+                           data-bi-name="Support_ContactUs_ContactUs">
+                            Contacta con nosotros
+                        </a>
+                    </li>
+                    <li id="shellmenu_176">
+                        <a href="http://www.microsoftstore.com/store/mseea/es_ES/DisplayHelpContactUsPage/" class="shell-l3-list-item" role="link" ms.title="Ventas y soporte t&#233;cnico" tabindex="20"
+                           data-bi-name="Support_ContactUs_SalesAndSupport">
+                            Ventas y soporte t&#233;cnico
+                        </a>
+                    </li>
+                    <li id="shellmenu_177">
+                        <a href="http://support.microsoft.com/contactus/?ln=es-es&amp;ws=support&amp;SegNo=2" class="shell-l3-list-item" role="link" ms.title="Preguntas generales" tabindex="20"
+                           data-bi-name="Support_ContactUs_GeneralInquiries">
+                            Preguntas generales
+                        </a>
+                    </li>
+                    <li id="shellmenu_178">
+                        <a href="http://support2.microsoft.com/gp/customer-service-phone-numbers/es-es" class="shell-l3-list-item" role="link" ms.title="Ponte en contacto con el servicio de atenci&#243;n al cliente en todo el mundo" tabindex="20"
+                           data-bi-name="Support_ContactUs_ContactCustomerServiceWorldwide">
+                            Ponte en contacto con el servicio de atenci&#243;n al cliente en todo el mundo
+                        </a>
+                    </li>
+                    <li id="shellmenu_179">
+                        <a href="http://answers.microsoft.com/es-es" class="shell-l3-list-item" role="link" ms.title="Foros de la comunidad de Microsoft" tabindex="20"
+                           data-bi-name="Support_ContactUs_MicrosoftCommunityForums">
+                            Foros de la comunidad de Microsoft
+                        </a>
+                    </li>
+                    <li id="shellmenu_180">
+                        <a href="https://support2.microsoft.com/contactus/emailcontact.aspx?scid=sw;es;1310&amp;ws=1prcen" class="shell-l3-list-item" role="link" ms.title="Comentarios sobre privacidad" tabindex="20"
+                           data-bi-name="Support_ContactUs_PrivacyFeedback">
+                            Comentarios sobre privacidad
+                        </a>
+                    </li>
+
+    </ul>
+
+
+
+                            </dd>
+
+                </dl>
+
+</div>
+                                    </li>
+
+                </ul>
+            </div>
+                <div class="shell-header-user-container">
+                    <dl class="shell-header-user">
+                        <dt>
+                            <span id="meControl">
+                                <div class="msame_Header" tabindex="60" style="display: inline-block; height: 48px; font-size: 14px; border: 1px solid transparent; border-bottom-style: none; width: 100%;">
+                                    <div class="msame_Header_name" style="line-height: 48px; max-width: 160px; display: inline-block; vertical-align: top; font-size: 86%; color: #505050; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; word-break: break-all">Iniciar sesi&#243;n </div>
+                                </div>
+                            </span>
+                        </dt>
+                    </dl>
+                </div>
+            
+            <div class="shell-header-nav-toggle " ms.cmpgrp="nav">
+                <button class="shell-header-toggle-menu" ms.cmpnm="mobile global nav toggle button" ms.title="Toggle menu" title="Alternar men&#250;" type="button" data-bi-name="Toggle Menu" tabindex="55">
+                    <i class="shell-icon-menu"></i>
+                </button>
+            </div>
+
+            <ul class="shell-header-toggle" ms.cmpgrp="header actions">
+                    <li>
+                        <button class="shell-header-toggle-search" type="button" data-bi-name="Toggle Search Icon" ms.title="search toggle" title="Alternar b&#250;squeda" tabindex="45">
+                            <i class="shell-icon-search"></i>
+                        </button>
+                    </li>
+                            </ul>
+
+            <div class="shell-header-actions" ms.cmpgrp="header actions">
+                    <form id="srv_shellHeaderSearchForm" class="shell-search" role="search" action="http://www.xbox.com/es-es/Search" method="GET" autocomplete="off" onsubmit=" return window.msCommonShell.onSearch(this) " ms.cmpnm="search">
+                        <div class="shell-search-wrapper">
+                            <label for="cli_shellHeaderSearchInput" class="sr-only">Search Microsoft</label>
+                            <input id="cli_shellHeaderSearchInput" type="search" title="" name="q" data-bi-dnt="" placeholder="" maxlength="200" tabindex="30" />
+
+
+                            <button type="submit" title="Buscar" data-bi-dnt="" tabindex="40">
+                                <i class="shell-icon-search"></i>
+                                <span class="sr-only">Search</span>
+                            </button>
+                            <div id="cli_searchSuggestionsContainer" class="shell-search-dropdown-container">
+                                <div class="search-dropdown">
+                                    <div class="dropdown-item">
+                                        <ul id="cli_searchSuggestionsResults" data-bi-name="Search Suggestions" data-bi-source="UnifiedSearch" ms.cmpgrp="search suggestions"></ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="fixed-global-nav-buffer"></div>
+
+
+
+
+
+
+<!--[if lt IE 9]>
+<div class="shell-category-header lt-ie9 cat-theme-green" ms.pgarea="categoryheader">
+<![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<div class="shell-category-header cat-theme-green" ms.pgarea="categoryheader">
+    <!--<![endif]-->
+    <div role="navigation" aria-label="Category level navigation" class="shell-category-nav" ms.cmpgrp="cat nav" data-bi-area="CategoryHeader-" data-bi-view="C0">
+        <div class="c-nav-pagination c-nav-pagination-prev">
+            <i class="shell-icon-dropdown facing-left"></i>
+        </div>
+        <ul class="shell-category-top-level shell-category-brand">
+            <li class="c-logo-item">
+                        <a id="shell-cat-header-logo" class="c-logo c-top-nav-link" href="http://www.xbox.com/es-ES/?xr=mebarnav" title="Xbox" ms.title="" data-bi-name="Category logo" tabindex="70">
+                            <span class="cat-class-logo icon-xbox-logo"></span>
+                            <img class="cat-logo-png icon-xbox-logo" alt="Xbox" src="https://assets.onestore.ms/cdnfiles/onestorerolling-1601-22000/shell/v3/images/logo/icon-xbox-logo.png" />
+                        </a>
+                        <a id="shell-cat-header-logo-mobile" class="c-logo-mobile c-top-nav-link c-nav-dropdown" href="javascript:void(0);" ms.title="" ms.interactiontype="14" data-bi-name="Mobile category logo" tabindex="70">
+                            <span class="cat-class-logo icon-xbox-logo"></span>
+                            <img class="cat-logo-png icon-xbox-logo" alt="Xbox" src="https://assets.onestore.ms/cdnfiles/onestorerolling-1601-22000/shell/v3/images/logo/icon-xbox-logo.png" />
+                            <i class="shell-icon-dropdown"></i>
+                        </a>
+                <ul class="c-nav-dropdown-menu" role="menu" data-bi-area="CategoryHeader-" data-bi-view="C1">
+
+
+
+        <li class="c-top-nav-item">
+            <a id="shellmenu_181-mobile" class="c-top-nav-link c-nav-link c-nav-dropdown" href="javascript:void(0);" ms.title="Xbox One" role="menu" ms.interactiontype="14" data-bi-name="XboxOne" data-bi-slot="1" data-show-cta="True" tabindex="70">
+                    <span>
+                        Xbox One
+                        <i class="shell-icon-dropdown"></i>
+                    </span>
+                </a>
+                <ul class="c-nav-dropdown-menu" data-bi-area="CategoryHeader-" data-bi-view="XboxOne-C2" ms.cmpnm="Xbox One" role="menu">
+
+
+
+
+        <li class="c-nav-item ">
+            <a id="shellmenu_182-mobile" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/xbox-one?xr=shellnav" ms.title="Descubre Xbox One" role="link" data-bi-name="XboxOne_MeetXboxOne" data-bi-slot="1" tabindex="70">
+                <span>
+                    Descubre Xbox One
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_183-mobile" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/xbox-one/experience?xr=shellnav" ms.title="Nueva experiencia Xbox" role="link" data-bi-name="XboxOne_NewXboxExperience" data-bi-slot="2" tabindex="70">
+                <span>
+                    Nueva experiencia Xbox
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_184-mobile" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/xbox-one/backward-compatibility" ms.title="Retrocompatibilidad" role="link" data-bi-name="XboxOne_Backward_Compatibility" data-bi-slot="3" tabindex="70">
+                <span>
+                    Retrocompatibilidad
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_185-mobile" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/xbox-one/accessories?xr=shellnav" ms.title="Accesorios" role="link" data-bi-name="XboxOne_Accessories" data-bi-slot="4" tabindex="70">
+                <span>
+                    Accesorios
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_186-mobile" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/xbox-one/consoles?xr=shellnav" ms.title="Consolas" role="link" data-bi-name="XboxOne_BuyNow" data-bi-slot="5" tabindex="70">
+                <span>
+                    Consolas
+                </span>
+            </a>
+
+
+
+        </li>
+
+
+            </ul>
+                        </li>
+        <li class="c-top-nav-item">
+            <a id="shellmenu_187-mobile" class="c-top-nav-link c-nav-link c-nav-dropdown" href="javascript:void(0);" ms.title="Xbox 360" role="menu" ms.interactiontype="14" data-bi-name="Xbox360" data-bi-slot="2" data-show-cta="True" tabindex="70">
+                    <span>
+                        Xbox 360
+                        <i class="shell-icon-dropdown"></i>
+                    </span>
+                </a>
+                <ul class="c-nav-dropdown-menu" data-bi-area="CategoryHeader-" data-bi-view="Xbox360-C2" ms.cmpnm="Xbox 360" role="menu">
+
+
+
+
+        <li class="c-nav-item ">
+            <a id="shellmenu_188-mobile" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/xbox-360?xr=shellnav" ms.title="Descubre Xbox 360" role="link" data-bi-name="Xbox360_MeetXbox360" data-bi-slot="1" tabindex="70">
+                <span>
+                    Descubre Xbox 360
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_189-mobile" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/xbox-360/games?xr=shellnav" ms.title="Juegos" role="link" data-bi-name="Xbox360_Gaming" data-bi-slot="2" tabindex="70">
+                <span>
+                    Juegos
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_190-mobile" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/xbox-one/backward-compatibility" ms.title="Retrocompatibilidad" role="link" data-bi-name="Xbox360_BackwardCompatibility" data-bi-slot="3" tabindex="70">
+                <span>
+                    Retrocompatibilidad
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_191-mobile" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/Xbox-360/Accessories?xr=shellnav" ms.title="Accesorios" role="link" data-bi-name="Xbox360_Accessories" data-bi-slot="4" tabindex="70">
+                <span>
+                    Accesorios
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_192-mobile" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/xbox-360/consoles?xr=shellnav" ms.title="Consolas" role="link" data-bi-name="Xbox360_Consoles" data-bi-slot="5" tabindex="70">
+                <span>
+                    Consolas
+                </span>
+            </a>
+
+
+
+        </li>
+
+
+            </ul>
+                        </li>
+        <li class="c-top-nav-item">
+            <a id="shellmenu_193-mobile" class="c-top-nav-link c-nav-link c-nav-dropdown" href="javascript:void(0);" ms.title="Juegos" role="menu" ms.interactiontype="14" data-bi-name="Games" data-bi-slot="3" data-show-cta="True" tabindex="70">
+                    <span>
+                        Juegos
+                        <i class="shell-icon-dropdown"></i>
+                    </span>
+                </a>
+                <ul class="c-nav-dropdown-menu" data-bi-area="CategoryHeader-" data-bi-view="Games-C2" ms.cmpnm="Juegos" role="menu">
+
+
+
+
+        <li class="c-nav-item ">
+            <a id="shellmenu_194-mobile" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/games/xbox-one?xr=shellnav" ms.title="Xbox One" role="link" data-bi-name="Games_XboxOne" data-bi-slot="1" tabindex="70">
+                <span>
+                    Xbox One
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_195-mobile" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/games/xbox-360?xr=shellnav" ms.title="Xbox 360" role="link" data-bi-name="Games_Xbox360" data-bi-slot="2" tabindex="70">
+                <span>
+                    Xbox 360
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_196-mobile" class="c-nav-dropdown-item c-nav-link " href="http://store.xbox.com" ms.title="Tienda Xbox" role="link" data-bi-name="Games_XboxStore" data-bi-slot="3" tabindex="70">
+                <span>
+                    Tienda Xbox
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_197-mobile" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/live/games-with-gold?xr=shellnav" ms.title="Juegos con Gold" role="link" data-bi-name="XboxLiveGold_GamesWithGold" data-bi-slot="4" tabindex="70">
+                <span>
+                    Juegos con Gold
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_198-mobile" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/entertainment/xbox-one/live-apps/ea-access?xr=shellnav" ms.title="EA Access" role="link" data-bi-name="Games_EAAccess" data-bi-slot="5" tabindex="70">
+                <span>
+                    EA Access
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_199-mobile" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/promotions/sales/sales-and-specials?xr=shellnav" ms.title="Rebajas y especiales" role="link" data-bi-name="Games_SalesAndSpecials" data-bi-slot="6" tabindex="70">
+                <span>
+                    Rebajas y especiales
+                </span>
+            </a>
+
+
+
+        </li>
+
+
+            </ul>
+                        </li>
+        <li class="c-top-nav-item">
+            <a id="shellmenu_200-mobile" class="c-top-nav-link c-nav-link c-nav-dropdown" href="javascript:void(0);" ms.title="Jugar en Windows" role="menu" ms.interactiontype="14" data-bi-name="GamingOnWindows" data-bi-slot="4" data-show-cta="True" tabindex="70">
+                    <span>
+                        Jugar en Windows
+                        <i class="shell-icon-dropdown"></i>
+                    </span>
+                </a>
+                <ul class="c-nav-dropdown-menu" data-bi-area="CategoryHeader-" data-bi-view="GamingOnWindows-C2" ms.cmpnm="Jugar en Windows" role="menu">
+
+
+
+
+        <li class="c-nav-item ">
+            <a id="shellmenu_201-mobile" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/windows-10?xr=shellnav" ms.title="Jugar en Windows 10" role="link" data-bi-name="GamingOnWindows10" data-bi-slot="1" tabindex="70">
+                <span>
+                    Jugar en Windows 10
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_202-mobile" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/windows-10/xbox-app?xr=shellnav" ms.title="App de Xbox en Windows 10" role="link" data-bi-name="Xbox_App_Windows_10" data-bi-slot="2" tabindex="70">
+                <span>
+                    App de Xbox en Windows 10
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_203-mobile" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/games/windows?xr=shellnav" ms.title="Juegos de Windows 10" role="link" data-bi-name="Windows10_Games" data-bi-slot="3" tabindex="70">
+                <span>
+                    Juegos de Windows 10
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_204-mobile" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/windows-10/accessories?xr=shellnav" ms.title="Accesorios de Windows 10" role="link" data-bi-name="Windows10_Accessories" data-bi-slot="4" tabindex="70">
+                <span>
+                    Accesorios de Windows 10
+                </span>
+            </a>
+
+
+
+        </li>
+
+
+            </ul>
+                        </li>
+        <li class="c-top-nav-item">
+            <a id="shellmenu_205-mobile" class="c-top-nav-link c-nav-link c-nav-dropdown" href="javascript:void(0);" ms.title="Xbox Live" role="menu" ms.interactiontype="14" data-bi-name="XboxLiveGold" data-bi-slot="5" data-show-cta="True" tabindex="70">
+                    <span>
+                        Xbox Live
+                        <i class="shell-icon-dropdown"></i>
+                    </span>
+                </a>
+                <ul class="c-nav-dropdown-menu" data-bi-area="CategoryHeader-" data-bi-view="XboxLiveGold-C2" ms.cmpnm="Xbox Live" role="menu">
+
+
+
+
+        <li class="c-nav-item ">
+            <a id="shellmenu_206-mobile" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/live?xr=shellnav" ms.title="Descubre Xbox Live Gold" role="link" data-bi-name="XboxLiveGold_MeetXboxLiveGold" data-bi-slot="1" tabindex="70">
+                <span>
+                    Descubre Xbox Live Gold
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_207-mobile" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/live/Join?xr=shellnav" ms.title="&#218;nete a Xbox Live Gold" role="link" data-bi-name="XboxLiveGold_JoinXboxLiveGold" data-bi-slot="2" tabindex="70">
+                <span>
+                    &#218;nete a Xbox Live Gold
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_208-mobile" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/live/games-with-gold?xr=shellnav" ms.title="Juegos con Gold" role="link" data-bi-name="XboxLiveGold_GamesWithGold" data-bi-slot="3" tabindex="70">
+                <span>
+                    Juegos con Gold
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_209-mobile" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/live/deals-with-gold?xr=shellnav" ms.title="Ofertas con Gold" role="link" data-bi-name="XboxLiveGold_DealsWithGold" data-bi-slot="4" tabindex="70">
+                <span>
+                    Ofertas con Gold
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_210-mobile" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/xbox-store" ms.title="Xbox Store" role="link" data-bi-name="XboxLiveGold_XboxStore" data-bi-slot="5" tabindex="70">
+                <span>
+                    Xbox Store
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_211-mobile" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/live/this-month-on-gold?xr=shellnav" ms.title="Este mes en Gold" role="link" data-bi-name="XboxLiveGold_ThisMonthOnGold" data-bi-slot="6" tabindex="70">
+                <span>
+                    Este mes en Gold
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_212-mobile" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/live/rewards?xr=shellnav" ms.title="Xbox Live Rewards" role="link" data-bi-name="XboxLiveGold_XboxLiveRewards" data-bi-slot="7" tabindex="70">
+                <span>
+                    Xbox Live Rewards
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_213-mobile" class="c-nav-dropdown-item c-nav-link " href="https://account.xbox.com/es-ES/PaymentAndBilling/RedeemCode?xr=shellnav" ms.title="Canjear C&#243;digo" role="link" data-bi-name="XboxLiveGold_RedeemCode" data-bi-slot="8" tabindex="70">
+                <span>
+                    Canjear C&#243;digo
+                </span>
+            </a>
+
+
+
+        </li>
+
+
+            </ul>
+                        </li>
+        <li class="c-top-nav-item">
+            <a id="shellmenu_214-mobile" class="c-top-nav-link c-nav-link c-nav-dropdown" href="javascript:void(0);" ms.title="Soporte t&#233;cnico" role="menu" ms.interactiontype="14" data-bi-name="Support" data-bi-slot="6" data-show-cta="True" tabindex="70">
+                    <span>
+                        Soporte t&#233;cnico
+                        <i class="shell-icon-dropdown"></i>
+                    </span>
+                </a>
+                <ul class="c-nav-dropdown-menu" data-bi-area="CategoryHeader-" data-bi-view="Support-C2" ms.cmpnm="Soporte t&#233;cnico" role="menu">
+
+
+
+
+        <li class="c-nav-item ">
+            <a id="shellmenu_215-mobile" class="c-nav-dropdown-item c-nav-link " href="http://support.xbox.com?xr=shellnav" ms.title="Todo el soporte t&#233;cnico de Xbox" role="link" data-bi-name="Support_AllSupport" data-bi-slot="1" tabindex="70">
+                <span>
+                    Todo el soporte t&#233;cnico de Xbox
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_216-mobile" class="c-nav-dropdown-item c-nav-link " href="http://support.xbox.com/browse/xbox-one?xr=shellnav" ms.title="Xbox One" role="link" data-bi-name="Support_XboxOne" data-bi-slot="2" tabindex="70">
+                <span>
+                    Xbox One
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_217-mobile" class="c-nav-dropdown-item c-nav-link " href="http://support.xbox.com/browse/xbox-360?xr=shellnav" ms.title="Xbox 360" role="link" data-bi-name="Support_Xbox360" data-bi-slot="3" tabindex="70">
+                <span>
+                    Xbox 360
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_218-mobile" class="c-nav-dropdown-item c-nav-link " href="http://support.xbox.com/browse/xbox-on-windows?xr=shellnav" ms.title="Xbox en Windows 10" role="link" data-bi-name="Support_XboxOnWindows" data-bi-slot="4" tabindex="70">
+                <span>
+                    Xbox en Windows 10
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_219-mobile" class="c-nav-dropdown-item c-nav-link " href="http://support.xbox.com/browse/games?xr=shellnav" ms.title="Juegos" role="link" data-bi-name="Support_XboxWindowsGames" data-bi-slot="5" tabindex="70">
+                <span>
+                    Juegos
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_220-mobile" class="c-nav-dropdown-item c-nav-link " href="http://support.xbox.com/browse/billing?xr=shellnav" ms.title="Facturaci&#243;n" role="link" data-bi-name="Support_Billing" data-bi-slot="6" tabindex="70">
+                <span>
+                    Facturaci&#243;n
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_221-mobile" class="c-nav-dropdown-item c-nav-link " href="http://support.xbox.com/browse/my-account?xr=shellnav" ms.title="Mi cuenta" role="link" data-bi-name="Support_MyAccount" data-bi-slot="7" tabindex="70">
+                <span>
+                    Mi cuenta
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_222-mobile" class="c-nav-dropdown-item c-nav-link " href="http://support.xbox.com/browse/xbox-on-other-devices?xr=shellnav" ms.title="Xbox en otros dispositivos" role="link" data-bi-name="Support_XboxOtherDevices" data-bi-slot="8" tabindex="70">
+                <span>
+                    Xbox en otros dispositivos
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_223-mobile" class="c-nav-dropdown-item c-nav-link " href="http://forums.xbox.com/?xr=shellnav" ms.title="Foros de Xbox" role="link" data-bi-name="Support_XboxForums" data-bi-slot="9" tabindex="70">
+                <span>
+                    Foros de Xbox
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_224-mobile" class="c-nav-dropdown-item c-nav-link " href="http://support.xbox.com/error-code-lookup?xr=shellnav" ms.title="B&#250;squeda de c&#243;digos de error y c&#243;digos de estado" role="link" data-bi-name="Support_ErrorStatusCodeSearch" data-bi-slot="10" tabindex="70">
+                <span>
+                    B&#250;squeda de c&#243;digos de error y c&#243;digos de estado
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_225-mobile" class="c-nav-dropdown-item c-nav-link " href="https://support.xbox.com/xbox-live-status?xr=shellnav" ms.title="Estado de Xbox Live" role="link" data-bi-name="Support_XboxLiveStatus" data-bi-slot="11" tabindex="70">
+                <span>
+                    Estado de Xbox Live
+                </span>
+            </a>
+
+
+
+        </li>
+
+
+            </ul>
+                        </li>
+        <li class="c-top-nav-item">
+            <a id="shellmenu_226-mobile" class="c-top-nav-link c-nav-link c-nav-dropdown" href="javascript:void(0);" ms.title="Entretenimiento" role="menu" ms.interactiontype="14" data-bi-name="Entertainment" data-bi-slot="7" data-show-cta="True" tabindex="70">
+                    <span>
+                        Entretenimiento
+                        <i class="shell-icon-dropdown"></i>
+                    </span>
+                </a>
+                <ul class="c-nav-dropdown-menu" data-bi-area="CategoryHeader-" data-bi-view="Entertainment-C2" ms.cmpnm="Entretenimiento" role="menu">
+
+
+
+
+        <li class="c-nav-item ">
+            <a id="shellmenu_227-mobile" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/video?xr=shellnav" ms.title="Pel&#237;culas y TV" role="link" data-bi-name="Entertainment_XboxVideo" data-bi-slot="1" tabindex="70">
+                <span>
+                    Pel&#237;culas y TV
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_228-mobile" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/music?xr=shellnav" ms.title="M&#250;sica" role="link" data-bi-name="Entertainment_C2XboxMusic" data-bi-slot="2" tabindex="70">
+                <span>
+                    M&#250;sica
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_229-mobile" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/xbox-one/games/xbox-fitness?xr=shellnav" ms.title="Xbox Fitness" role="link" data-bi-name="Entertainment_XboxFitness" data-bi-slot="3" tabindex="70">
+                <span>
+                    Xbox Fitness
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_230-mobile" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/entertainment/xbox-one/live-apps?xr=shellnav" ms.title="Apps de Xbox One" role="link" data-bi-name="Entertainment_XboxOneApps" data-bi-slot="4" tabindex="70">
+                <span>
+                    Apps de Xbox One
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_231-mobile" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/entertainment/xbox-360/live-apps?xr=shellnav" ms.title="Apps de Xbox 360" role="link" data-bi-name="Entertainment_Xbox360Apps" data-bi-slot="5" tabindex="70">
+                <span>
+                    Apps de Xbox 360
+                </span>
+            </a>
+
+
+
+        </li>
+
+
+            </ul>
+                        </li>
+
+                </ul>
+            </li>
+
+        </ul>
+        <ul class="shell-category-top-level shell-category-nav-wrapper" role="menu" data-bi-area="CategoryMenuItems-" data-bi-view="C1">
+
+
+
+        <li class="c-top-nav-item">
+            <a id="shellmenu_181" class="c-top-nav-link c-nav-link c-nav-dropdown" href="javascript:void(0);" ms.title="Xbox One" role="menu" ms.interactiontype="14" data-bi-name="XboxOne" data-bi-slot="1" data-show-cta="True" tabindex="70">
+                    <span>
+                        Xbox One
+                        <i class="shell-icon-dropdown"></i>
+                    </span>
+                </a>
+                <ul class="c-nav-dropdown-menu" data-bi-area="CategoryHeader-" data-bi-view="XboxOne-C2" ms.cmpnm="Xbox One" role="menu">
+
+
+
+
+        <li class="c-nav-item ">
+            <a id="shellmenu_182" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/xbox-one?xr=shellnav" ms.title="Descubre Xbox One" role="link" data-bi-name="XboxOne_MeetXboxOne" data-bi-slot="1" tabindex="70">
+                <span>
+                    Descubre Xbox One
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_183" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/xbox-one/experience?xr=shellnav" ms.title="Nueva experiencia Xbox" role="link" data-bi-name="XboxOne_NewXboxExperience" data-bi-slot="2" tabindex="70">
+                <span>
+                    Nueva experiencia Xbox
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_184" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/xbox-one/backward-compatibility" ms.title="Retrocompatibilidad" role="link" data-bi-name="XboxOne_Backward_Compatibility" data-bi-slot="3" tabindex="70">
+                <span>
+                    Retrocompatibilidad
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_185" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/xbox-one/accessories?xr=shellnav" ms.title="Accesorios" role="link" data-bi-name="XboxOne_Accessories" data-bi-slot="4" tabindex="70">
+                <span>
+                    Accesorios
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_186" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/xbox-one/consoles?xr=shellnav" ms.title="Consolas" role="link" data-bi-name="XboxOne_BuyNow" data-bi-slot="5" tabindex="70">
+                <span>
+                    Consolas
+                </span>
+            </a>
+
+
+
+        </li>
+
+
+            </ul>
+                        </li>
+        <li class="c-top-nav-item">
+            <a id="shellmenu_187" class="c-top-nav-link c-nav-link c-nav-dropdown" href="javascript:void(0);" ms.title="Xbox 360" role="menu" ms.interactiontype="14" data-bi-name="Xbox360" data-bi-slot="2" data-show-cta="True" tabindex="70">
+                    <span>
+                        Xbox 360
+                        <i class="shell-icon-dropdown"></i>
+                    </span>
+                </a>
+                <ul class="c-nav-dropdown-menu" data-bi-area="CategoryHeader-" data-bi-view="Xbox360-C2" ms.cmpnm="Xbox 360" role="menu">
+
+
+
+
+        <li class="c-nav-item ">
+            <a id="shellmenu_188" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/xbox-360?xr=shellnav" ms.title="Descubre Xbox 360" role="link" data-bi-name="Xbox360_MeetXbox360" data-bi-slot="1" tabindex="70">
+                <span>
+                    Descubre Xbox 360
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_189" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/xbox-360/games?xr=shellnav" ms.title="Juegos" role="link" data-bi-name="Xbox360_Gaming" data-bi-slot="2" tabindex="70">
+                <span>
+                    Juegos
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_190" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/xbox-one/backward-compatibility" ms.title="Retrocompatibilidad" role="link" data-bi-name="Xbox360_BackwardCompatibility" data-bi-slot="3" tabindex="70">
+                <span>
+                    Retrocompatibilidad
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_191" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/Xbox-360/Accessories?xr=shellnav" ms.title="Accesorios" role="link" data-bi-name="Xbox360_Accessories" data-bi-slot="4" tabindex="70">
+                <span>
+                    Accesorios
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_192" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/xbox-360/consoles?xr=shellnav" ms.title="Consolas" role="link" data-bi-name="Xbox360_Consoles" data-bi-slot="5" tabindex="70">
+                <span>
+                    Consolas
+                </span>
+            </a>
+
+
+
+        </li>
+
+
+            </ul>
+                        </li>
+        <li class="c-top-nav-item">
+            <a id="shellmenu_193" class="c-top-nav-link c-nav-link c-nav-dropdown" href="javascript:void(0);" ms.title="Juegos" role="menu" ms.interactiontype="14" data-bi-name="Games" data-bi-slot="3" data-show-cta="True" tabindex="70">
+                    <span>
+                        Juegos
+                        <i class="shell-icon-dropdown"></i>
+                    </span>
+                </a>
+                <ul class="c-nav-dropdown-menu" data-bi-area="CategoryHeader-" data-bi-view="Games-C2" ms.cmpnm="Juegos" role="menu">
+
+
+
+
+        <li class="c-nav-item ">
+            <a id="shellmenu_194" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/games/xbox-one?xr=shellnav" ms.title="Xbox One" role="link" data-bi-name="Games_XboxOne" data-bi-slot="1" tabindex="70">
+                <span>
+                    Xbox One
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_195" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/games/xbox-360?xr=shellnav" ms.title="Xbox 360" role="link" data-bi-name="Games_Xbox360" data-bi-slot="2" tabindex="70">
+                <span>
+                    Xbox 360
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_196" class="c-nav-dropdown-item c-nav-link " href="http://store.xbox.com" ms.title="Tienda Xbox" role="link" data-bi-name="Games_XboxStore" data-bi-slot="3" tabindex="70">
+                <span>
+                    Tienda Xbox
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_197" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/live/games-with-gold?xr=shellnav" ms.title="Juegos con Gold" role="link" data-bi-name="XboxLiveGold_GamesWithGold" data-bi-slot="4" tabindex="70">
+                <span>
+                    Juegos con Gold
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_198" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/entertainment/xbox-one/live-apps/ea-access?xr=shellnav" ms.title="EA Access" role="link" data-bi-name="Games_EAAccess" data-bi-slot="5" tabindex="70">
+                <span>
+                    EA Access
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_199" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/promotions/sales/sales-and-specials?xr=shellnav" ms.title="Rebajas y especiales" role="link" data-bi-name="Games_SalesAndSpecials" data-bi-slot="6" tabindex="70">
+                <span>
+                    Rebajas y especiales
+                </span>
+            </a>
+
+
+
+        </li>
+
+
+            </ul>
+                        </li>
+        <li class="c-top-nav-item">
+            <a id="shellmenu_200" class="c-top-nav-link c-nav-link c-nav-dropdown" href="javascript:void(0);" ms.title="Jugar en Windows" role="menu" ms.interactiontype="14" data-bi-name="GamingOnWindows" data-bi-slot="4" data-show-cta="True" tabindex="70">
+                    <span>
+                        Jugar en Windows
+                        <i class="shell-icon-dropdown"></i>
+                    </span>
+                </a>
+                <ul class="c-nav-dropdown-menu" data-bi-area="CategoryHeader-" data-bi-view="GamingOnWindows-C2" ms.cmpnm="Jugar en Windows" role="menu">
+
+
+
+
+        <li class="c-nav-item ">
+            <a id="shellmenu_201" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/windows-10?xr=shellnav" ms.title="Jugar en Windows 10" role="link" data-bi-name="GamingOnWindows10" data-bi-slot="1" tabindex="70">
+                <span>
+                    Jugar en Windows 10
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_202" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/windows-10/xbox-app?xr=shellnav" ms.title="App de Xbox en Windows 10" role="link" data-bi-name="Xbox_App_Windows_10" data-bi-slot="2" tabindex="70">
+                <span>
+                    App de Xbox en Windows 10
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_203" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/games/windows?xr=shellnav" ms.title="Juegos de Windows 10" role="link" data-bi-name="Windows10_Games" data-bi-slot="3" tabindex="70">
+                <span>
+                    Juegos de Windows 10
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_204" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/windows-10/accessories?xr=shellnav" ms.title="Accesorios de Windows 10" role="link" data-bi-name="Windows10_Accessories" data-bi-slot="4" tabindex="70">
+                <span>
+                    Accesorios de Windows 10
+                </span>
+            </a>
+
+
+
+        </li>
+
+
+            </ul>
+                        </li>
+        <li class="c-top-nav-item">
+            <a id="shellmenu_205" class="c-top-nav-link c-nav-link c-nav-dropdown" href="javascript:void(0);" ms.title="Xbox Live" role="menu" ms.interactiontype="14" data-bi-name="XboxLiveGold" data-bi-slot="5" data-show-cta="True" tabindex="70">
+                    <span>
+                        Xbox Live
+                        <i class="shell-icon-dropdown"></i>
+                    </span>
+                </a>
+                <ul class="c-nav-dropdown-menu" data-bi-area="CategoryHeader-" data-bi-view="XboxLiveGold-C2" ms.cmpnm="Xbox Live" role="menu">
+
+
+
+
+        <li class="c-nav-item ">
+            <a id="shellmenu_206" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/live?xr=shellnav" ms.title="Descubre Xbox Live Gold" role="link" data-bi-name="XboxLiveGold_MeetXboxLiveGold" data-bi-slot="1" tabindex="70">
+                <span>
+                    Descubre Xbox Live Gold
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_207" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/live/Join?xr=shellnav" ms.title="&#218;nete a Xbox Live Gold" role="link" data-bi-name="XboxLiveGold_JoinXboxLiveGold" data-bi-slot="2" tabindex="70">
+                <span>
+                    &#218;nete a Xbox Live Gold
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_208" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/live/games-with-gold?xr=shellnav" ms.title="Juegos con Gold" role="link" data-bi-name="XboxLiveGold_GamesWithGold" data-bi-slot="3" tabindex="70">
+                <span>
+                    Juegos con Gold
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_209" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/live/deals-with-gold?xr=shellnav" ms.title="Ofertas con Gold" role="link" data-bi-name="XboxLiveGold_DealsWithGold" data-bi-slot="4" tabindex="70">
+                <span>
+                    Ofertas con Gold
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_210" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/xbox-store" ms.title="Xbox Store" role="link" data-bi-name="XboxLiveGold_XboxStore" data-bi-slot="5" tabindex="70">
+                <span>
+                    Xbox Store
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_211" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/live/this-month-on-gold?xr=shellnav" ms.title="Este mes en Gold" role="link" data-bi-name="XboxLiveGold_ThisMonthOnGold" data-bi-slot="6" tabindex="70">
+                <span>
+                    Este mes en Gold
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_212" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/live/rewards?xr=shellnav" ms.title="Xbox Live Rewards" role="link" data-bi-name="XboxLiveGold_XboxLiveRewards" data-bi-slot="7" tabindex="70">
+                <span>
+                    Xbox Live Rewards
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_213" class="c-nav-dropdown-item c-nav-link " href="https://account.xbox.com/es-ES/PaymentAndBilling/RedeemCode?xr=shellnav" ms.title="Canjear C&#243;digo" role="link" data-bi-name="XboxLiveGold_RedeemCode" data-bi-slot="8" tabindex="70">
+                <span>
+                    Canjear C&#243;digo
+                </span>
+            </a>
+
+
+
+        </li>
+
+
+            </ul>
+                        </li>
+        <li class="c-top-nav-item">
+            <a id="shellmenu_214" class="c-top-nav-link c-nav-link c-nav-dropdown" href="javascript:void(0);" ms.title="Soporte t&#233;cnico" role="menu" ms.interactiontype="14" data-bi-name="Support" data-bi-slot="6" data-show-cta="True" tabindex="70">
+                    <span>
+                        Soporte t&#233;cnico
+                        <i class="shell-icon-dropdown"></i>
+                    </span>
+                </a>
+                <ul class="c-nav-dropdown-menu" data-bi-area="CategoryHeader-" data-bi-view="Support-C2" ms.cmpnm="Soporte t&#233;cnico" role="menu">
+
+
+
+
+        <li class="c-nav-item ">
+            <a id="shellmenu_215" class="c-nav-dropdown-item c-nav-link " href="http://support.xbox.com?xr=shellnav" ms.title="Todo el soporte t&#233;cnico de Xbox" role="link" data-bi-name="Support_AllSupport" data-bi-slot="1" tabindex="70">
+                <span>
+                    Todo el soporte t&#233;cnico de Xbox
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_216" class="c-nav-dropdown-item c-nav-link " href="http://support.xbox.com/browse/xbox-one?xr=shellnav" ms.title="Xbox One" role="link" data-bi-name="Support_XboxOne" data-bi-slot="2" tabindex="70">
+                <span>
+                    Xbox One
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_217" class="c-nav-dropdown-item c-nav-link " href="http://support.xbox.com/browse/xbox-360?xr=shellnav" ms.title="Xbox 360" role="link" data-bi-name="Support_Xbox360" data-bi-slot="3" tabindex="70">
+                <span>
+                    Xbox 360
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_218" class="c-nav-dropdown-item c-nav-link " href="http://support.xbox.com/browse/xbox-on-windows?xr=shellnav" ms.title="Xbox en Windows 10" role="link" data-bi-name="Support_XboxOnWindows" data-bi-slot="4" tabindex="70">
+                <span>
+                    Xbox en Windows 10
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_219" class="c-nav-dropdown-item c-nav-link " href="http://support.xbox.com/browse/games?xr=shellnav" ms.title="Juegos" role="link" data-bi-name="Support_XboxWindowsGames" data-bi-slot="5" tabindex="70">
+                <span>
+                    Juegos
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_220" class="c-nav-dropdown-item c-nav-link " href="http://support.xbox.com/browse/billing?xr=shellnav" ms.title="Facturaci&#243;n" role="link" data-bi-name="Support_Billing" data-bi-slot="6" tabindex="70">
+                <span>
+                    Facturaci&#243;n
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_221" class="c-nav-dropdown-item c-nav-link " href="http://support.xbox.com/browse/my-account?xr=shellnav" ms.title="Mi cuenta" role="link" data-bi-name="Support_MyAccount" data-bi-slot="7" tabindex="70">
+                <span>
+                    Mi cuenta
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_222" class="c-nav-dropdown-item c-nav-link " href="http://support.xbox.com/browse/xbox-on-other-devices?xr=shellnav" ms.title="Xbox en otros dispositivos" role="link" data-bi-name="Support_XboxOtherDevices" data-bi-slot="8" tabindex="70">
+                <span>
+                    Xbox en otros dispositivos
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_223" class="c-nav-dropdown-item c-nav-link " href="http://forums.xbox.com/?xr=shellnav" ms.title="Foros de Xbox" role="link" data-bi-name="Support_XboxForums" data-bi-slot="9" tabindex="70">
+                <span>
+                    Foros de Xbox
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_224" class="c-nav-dropdown-item c-nav-link " href="http://support.xbox.com/error-code-lookup?xr=shellnav" ms.title="B&#250;squeda de c&#243;digos de error y c&#243;digos de estado" role="link" data-bi-name="Support_ErrorStatusCodeSearch" data-bi-slot="10" tabindex="70">
+                <span>
+                    B&#250;squeda de c&#243;digos de error y c&#243;digos de estado
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_225" class="c-nav-dropdown-item c-nav-link " href="https://support.xbox.com/xbox-live-status?xr=shellnav" ms.title="Estado de Xbox Live" role="link" data-bi-name="Support_XboxLiveStatus" data-bi-slot="11" tabindex="70">
+                <span>
+                    Estado de Xbox Live
+                </span>
+            </a>
+
+
+
+        </li>
+
+
+            </ul>
+                        </li>
+        <li class="c-top-nav-item">
+            <a id="shellmenu_226" class="c-top-nav-link c-nav-link c-nav-dropdown" href="javascript:void(0);" ms.title="Entretenimiento" role="menu" ms.interactiontype="14" data-bi-name="Entertainment" data-bi-slot="7" data-show-cta="True" tabindex="70">
+                    <span>
+                        Entretenimiento
+                        <i class="shell-icon-dropdown"></i>
+                    </span>
+                </a>
+                <ul class="c-nav-dropdown-menu" data-bi-area="CategoryHeader-" data-bi-view="Entertainment-C2" ms.cmpnm="Entretenimiento" role="menu">
+
+
+
+
+        <li class="c-nav-item ">
+            <a id="shellmenu_227" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/video?xr=shellnav" ms.title="Pel&#237;culas y TV" role="link" data-bi-name="Entertainment_XboxVideo" data-bi-slot="1" tabindex="70">
+                <span>
+                    Pel&#237;culas y TV
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_228" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/music?xr=shellnav" ms.title="M&#250;sica" role="link" data-bi-name="Entertainment_C2XboxMusic" data-bi-slot="2" tabindex="70">
+                <span>
+                    M&#250;sica
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_229" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/xbox-one/games/xbox-fitness?xr=shellnav" ms.title="Xbox Fitness" role="link" data-bi-name="Entertainment_XboxFitness" data-bi-slot="3" tabindex="70">
+                <span>
+                    Xbox Fitness
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_230" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/entertainment/xbox-one/live-apps?xr=shellnav" ms.title="Apps de Xbox One" role="link" data-bi-name="Entertainment_XboxOneApps" data-bi-slot="4" tabindex="70">
+                <span>
+                    Apps de Xbox One
+                </span>
+            </a>
+
+
+
+        </li>
+        <li class="c-nav-item ">
+            <a id="shellmenu_231" class="c-nav-dropdown-item c-nav-link " href="http://www.xbox.com/es-ES/entertainment/xbox-360/live-apps?xr=shellnav" ms.title="Apps de Xbox 360" role="link" data-bi-name="Entertainment_Xbox360Apps" data-bi-slot="5" tabindex="70">
+                <span>
+                    Apps de Xbox 360
+                </span>
+            </a>
+
+
+
+        </li>
+
+
+            </ul>
+                        </li>
+
+        </ul>
+
+        <div class="c-nav-pagination c-nav-pagination-next">
+            <i class="shell-icon-dropdown facing-right"></i>
+        </div>
+    </div>
+
+</div>
+<div class="fixed-category-nav-buffer"></div>
+
+
+
+<script type="text/javascript">
+
+    var shellInitOptions = {
+        lcaDisclaimerEnabled: false,
+        suggestedProductTitle : 'Productos sugeridos'
+    };
+
+    
+    var meControlInitOptions = {
+        containerId: 'meControl',
+            enabled: true,
+        headerHeight: 48,
+        custom: {chevHtml:'<i class="msame_chev_uhf shell-icon-dropdown"></i>'},
+        
+
+        mobileBreakpoints: {
+            shortHeader: 1084
+            },
+
+            
+        extensibleLinks :
+            [
+                        
+                    { string: 'Perfil', url: 'https://account.xbox.com/Profile?xr=mebarnav'
+                            
+                            , id: ''
+                            
+                            },
+        
+                        
+                    { string: 'Amigos', url: 'https://account.xbox.com/Friends?xr=mebarnav'
+                            
+                            , id: ''
+                            
+                            },
+        
+                        
+                    { string: 'Mensajes', url: 'https://account.xbox.com/Messages?xr=mebarnav'
+                            
+                            , id: ''
+                            
+                            },
+        
+                        
+                    { string: 'Configuración de Xbox', url: 'https://account.xbox.com/Settings/Home/?xr=mebarnav#'
+                            
+                            , id: ''
+                            
+                            },
+        
+                        
+                    { string: 'Suscripciones', url: 'https://account.microsoft.com/services?ref=xboxme'
+                            
+                            , id: ''
+                            
+                            },
+        
+                        
+                    { string: 'Canjear código', url: 'https://account.xbox.com/PaymentAndBilling/RedeemCode?xr=mebarnav'
+                            
+                            , id: ''
+                            
+                            },
+        
+            ],
+        
+        rpData:
+    {
+        msaInfo:
+            {
+                        
+                signInUrl: 'https://account.xbox.com/Account/Signin',
+                signOutUrl: '',
+                accountSettingsUrl: 'https://account.microsoft.com/',
+                switchUrl: '',
+                meUrl: 'https://login.live.com/me.srf?wa=wsignin1.0',
+                isSupported: true
+                
+            },
+        aadInfo:
+            {
+            },
+        preferredIdp: 'msa',
+    },
+        signInStr: 'Iniciar sesión',
+        signOutStr: 'Cerrar sesión'
+    };
+</script>
+ 
+
+
+
+
+    <script type="text/javascript">
+
+        require(['jquery', 'common', 'clickstreamTracker', 'vortexEvents'],
+            function ($, common, biTracker, vortexEvents)
+            {
+                var accountAuthority = "https://account.xbox.com";
+                var signInReturnUrl = "http%3a%2f%2fwww.xbox.com%2fError%3f404%3bhttp%3a%2f%2fwww.xbox.com%3a80%2fes-ES%2fNR%2frdonlyres%2fE34F774B-6455-4F73-BA1F-5EA9F961A5E9%2f0%2ffamilyguy006.jpg%3f01AD%3d3xiw9SkCDAlJH_xY4GnzzZ0i7b1x3C7q7_WFCfnb4IxC9J9aW99645Q%2601RI%3d01103AE5F317A0F%2601NA%3d";
+                var signInUrl = accountAuthority + "/Account/Signin?returnUrl=" + signInReturnUrl;
+                var signOutUrl = accountAuthority + "/Account/Signout";
+                var locale = common.locale();
+                var userDataMeControlPath = common.formatString('{0}/{1}/Profile/UserDataMeControl', accountAuthority, locale);
+
+                // tags used for telemetry
+                var wedcsTags = {
+                    EventCategory: "wcs.cot",
+                    ContentName: "wcs.cn",
+                    ContentId: "wcs.cid",
+                    TargetUri: "wcs.ct",
+                    AreaName: "ms.pgarea",
+                    ComponentName: "ms.cmpnm"
+                };
+                var containerControl = "header";
+                var controlName = "MeControl";
+                var buttonClickEvent = "4";
+
+                var shellOptions = {
+                    meControlOptions: {
+                        rpData: {
+                            msaInfo: {
+                                signInUrl: signInUrl,
+                                signOutUrl: signOutUrl,
+                                accountSettingsUrl: accountAuthority
+                            },
+                            preferredIdp: "msa"
+                        },
+                        userData: {
+                            idp: "msa",
+                            firstName: "",
+                            lastName: "",
+                            memberName: "",
+                            cid: "",
+                            authenticatedState: "3"
+                        }
+                    },
+                    // event handlers tracking calls
+                    events: {
+                        onEventLog: function (eventId, dataPoints)
+                        {
+                            if (eventId.indexOf('MeControl_') >= 0 && dataPoints.type)
+                            {
+                                if (dataPoints.type === 'qos' && dataPoints.success === '0')
+                                {
+                                    var eventData = {
+                                        currentOperationName: eventId,
+                                        isSuccess: false,
+                                        latencyMs: dataPoints.duration,
+                                        errorMessage: dataPoints.errorCode + (dataPoints.IDPError ? ':' + dataPoints.IDPError : ''),
+                                        requestUri: dataPoints.targetUri,
+                                        serviceName: controlName,
+                                        operationName: eventId
+                                    };
+                                    vortexEvents.sendApiComplete(eventData);
+                                }
+                                if (dataPoints.type == 'bici' && eventId.indexOf('Ready') < 0)
+                                {
+                                    var content = {
+                                        name: eventId,
+                                        contentId: eventId,
+                                        areaName: controlName,
+                                        targetUri: dataPoints.targetUri
+                                    };
+                                    //To Webi
+                                    biTracker.captureContentPageAction(content);
+                                    //To WEDCS
+                                    window.MscomCustomEvent(wedcsTags.ContentName, eventId, wedcsTags.TargetUri, dataPoints.destUri, wedcsTags.AreaName, containerControl, wedcsTags.ComponentName, controlName);
+                                }
+                            }
+                        },
+                        onSearch: function (searchForm)
+                        {
+                            var query = searchForm.q ? searchForm.q.value : "";
+                            var scope = searchForm.form ? searchForm.form.value : "";
+                            var destUri = searchForm.action + "?" + $(searchForm).serialize();
+                            var actionName = "Search";
+                            var biContent = {
+                                name: actionName,
+                                targetUri: destUri
+                            };
+                            var customData = {
+                                searchTerm: query,
+                                searchScope: scope
+                            };
+                            //To Webi
+                            biTracker.captureContentPageAction(biContent, customData);
+                            //To WEDCS
+                            window.MscomCustomEvent(wedcsTags.EventCategory, buttonClickEvent, wedcsTags.ContentName, actionName, wedcsTags.TargetUri, destUri, wedcsTags.AreaName, containerControl);
+                        }
+                    }
+                };
+
+                if (window.msCommonShell) {
+                    loadShell();
+                }
+                else {
+                    window.onShellReadyToLoad = function () {
+                        window.onShellReadyToLoad = null;
+                        loadShell();
+                    }
+                }
+
+                // all browsers except IE before version 9
+                if (window.addEventListener) {
+                    window.addEventListener("message", receiveMessage, false);
+                }
+                else {
+                    if (window.attachEvent) {
+                        window.attachEvent("onmessage", receiveMessage);
+                    }
+                }
+
+                function loadShellWithUserData(data) {
+                    shellOptions.meControlOptions.userData.firstName = data.FirstName;
+                    shellOptions.meControlOptions.userData.lastName = data.LastName;
+                    shellOptions.meControlOptions.userData.nickName = data.GamerTag;
+                    shellOptions.meControlOptions.userData.tileUrl = data.PublicGamerPic;
+                    shellOptions.meControlOptions.userData.memberName = data.Email;
+                    shellOptions.meControlOptions.userData.cid = data.CID.toString();
+                    shellOptions.meControlOptions.userData.authenticatedState = "1";
+                    shellOptions.meControlOptions.userData.accountTier = data.AccountTier;
+                    window.msCommonShell.load(shellOptions);
+                    $(document).trigger('meControlLoaded', [shellOptions.meControlOptions.userData]);
+                    if (currentUser) {
+                        currentUser.tier = shellOptions.meControlOptions.userData.accountTier;
+                        currentUser.isSignedIn = true;
+                    }
+                }
+
+                function loadShell() {
+                    if (window.msCommonShell) {
+
+                          window.msCommonShell.load(shellOptions);
+                    }
+                }
+
+                function receiveMessage(event) {
+                    if (event.origin == accountAuthority && event.data.FirstName) {
+                        loadShellWithUserData(event.data);
+                    }
+                    else {
+                        return;
+                    }
+
+                }
+            });
+    </script>
+<script type="text/javascript">
+    //<![CDATA[
+    $(function () {
+        InitializeMobileLink("#MobileVersionLinkArea", "desktopVersion", "mobileOverride");
+    });
+    //]]>
+</script>
+
+
+
+
+<div class="cookieBannerWrapper">
+    <div class="bar"></div>
+    <div class="cookieBanner">
+        <div class="alertDescription">Al usar este sitio acepta el uso de cookies para an&#225;lisis, contenido personalizado y publicidad.</div>
+        <div class="learnMore">
+            <a href="http://go.microsoft.com:80/fwlink/?LinkID=259655&amp;clcid=0xc0a" title="Saber más">Saber m&#225;s</a>
+            <img id="cookieBannerCloseButton" src="/Shell/Images/shell/CloseButtonWhite.png" title="Cerrar" />
+        </div>
+    </div>
+</div>            <div id="BodyContent" class="container">
+                
+
+
+
+
+
+
+
+
+<div class="grid-18 NotFound">
+    <h1 class="CustomErrorTitle">&#161;Vaya! &#191;D&#243;nde est&#225; esta p&#225;gina?</h1>
+    <h2>Hemos cambiado algunas cosas de sitio.</h2>
+    <p>Puede que la p&#225;gina que buscas tenga una nueva ubicaci&#243;n o ya no est&#225; disponible. Algunas sugerencias:</p>
+    <ul>
+        <li><a href="http://www.xbox.com/" title="Empieza de nuevo desde la página principal.">Empieza de nuevo desde la p&#225;gina principal.</a></li>
+        <li><a href="/Shell/ChangeLocale" title="Comprueba que el sitio web corresponde a tu país o región.">Comprueba que el sitio web corresponde a tu pa&#237;s o regi&#243;n.</a></li>
+    </ul>
+</div>
+<div class="grid-6 lastgridchild">
+    <img src="/Shell/images/404Avatar.png" title="404" alt="404" aria-label="404"/>
+</div>
+
+
+
+
+
+
+                  <!-- date: [[2016-01-30T15:01:00.8699819Z]] -->
+            </div>
+                     <div id="BodyFooter" class="container"> 
+
+
+<div class="shell-footer" data-bi-area="Footer" data-bi-view="5xLinks">
+    <div class="shell-footer-wrapper" role="contentinfo">
+
+            <div class="shell-footer-menugroups">
+                    <div class="sfm-group">
+                        <div class="grp-title">
+                            Xbox <i class="shell-icon-dropdown"></i>
+                        </div>
+                        <ul>
+                                    <li>
+                                        <a href="http://www.xbox.com/support/?xr=footnav" role="menuitem" ms.title="Asistencia" data-bi-name="FooterMenu_Xbox_Support" data-bi-slot="1" data-bi-source="Compass">
+                                            Asistencia
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://support.xbox.com/games/pc-games/photosensitive-seizure-warning?xr=footnav" role="menuitem" ms.title="Advertencia sobre los ataques de fotosensibilidad" data-bi-name="FooterMenu_Xbox_PhotoSeizureWarning" data-bi-slot="2" data-bi-source="Compass">
+                                            Advertencia sobre los ataques de fotosensibilidad
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.xbox.com/Legal/CodeOfConduct?xr=footnav" role="menuitem" ms.title="C&#243;digo de conducta" data-bi-name="FooterMenu_Xbox_CodeOfConduct" data-bi-slot="3" data-bi-source="Compass">
+                                            C&#243;digo de conducta
+                                        </a>
+                                    </li>
+
+                        </ul>
+                    </div>
+                    <div class="sfm-group">
+                        <div class="grp-title">
+                            For Developers <i class="shell-icon-dropdown"></i>
+                        </div>
+                        <ul>
+                                    <li>
+                                        <a href="http://www.xbox.com/developers?xr=footnav" role="menuitem" ms.title="Games" data-bi-name="FooterMenu_Developers_Games" data-bi-slot="1" data-bi-source="Compass">
+                                            Games
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.xbox.com/developers/id?xr=footnav" role="menuitem" ms.title="ID@Xbox" data-bi-name="FooterMenu_Developers_ID@Xbox" data-bi-slot="2" data-bi-source="Compass">
+                                            ID@Xbox
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://dev.windows.com/games?xr=footnav" role="menuitem" ms.title="Windows 10" data-bi-name="FooterMenu_Developers_Windows10" data-bi-slot="3" data-bi-source="Compass">
+                                            Windows 10
+                                        </a>
+                                    </li>
+
+                        </ul>
+                    </div>
+                    <div class="sfm-group social">
+                        <ul>
+                                    <li class="social"><a href="https://www.facebook.com/Microsoft" ms.title="Facebook" data-bi-name="Facebook" data-bi-slot="1" data-bi-source="Compass"><span class="social-Facebook"></span></a></li>
+                                    <li class="social"><a href="https://twitter.com/microsoft" ms.title="Twitter" data-bi-name="Twitter" data-bi-slot="2" data-bi-source="Compass"><span class="social-Twitter"></span></a></li>
+
+                        </ul>
+                    </div>
+
+            </div>
+
+        <div class="shell-footer-lang">
+                <ul>
+                    <li>
+                        <i class="shell-icon-globe"></i>
+                    </li><li>
+                        <a id="locale-picker-link" href="/Shell/ChangeLocale"
+                           data-bi-name="LocalePicker">
+                            Espa&#241;ol (Espa&#241;a, alfabetizaci&#243;n internacional)&lrm;
+                        </a>
+                    </li>
+                </ul>
+        </div>
+        <div class="shell-footer-copyright">
+            <ul>
+                            <li>
+                                <a id="shellmenu_0" href="http://go.microsoft.com/?linkid=9813837" class="ctl_footerNavLink" data-bi-name="Footer_ContactUs" data-bi-slot="1">
+                                    Contacte con Microsoft
+                                </a>
+                            </li>
+                            <li>
+                                <a id="shellmenu_1" href="http://go.microsoft.com/?linkid=9813838" class="ctl_footerNavLink" data-bi-name="Footer_PrivacyandCookies" data-bi-slot="2">
+                                    Privacidad y Cookies
+                                </a>
+                            </li>
+                            <li>
+                                <a id="shellmenu_2" href="http://go.microsoft.com/fwlink/?LinkID=530144" class="ctl_footerNavLink" data-bi-name="Footer_TermsOfUse" data-bi-slot="3">
+                                    Condiciones de uso 
+                                </a>
+                            </li>
+                            <li>
+                                <a id="shellmenu_3" href="http://www.microsoft.com/trademarks" class="ctl_footerNavLink" data-bi-name="Footer_Trademarks" data-bi-slot="4">
+                                    Marcas registradas
+                                </a>
+                            </li>
+                            <li>
+                                <a id="shellmenu_4" href="http://choice.microsoft.com/" class="ctl_footerNavLink" data-bi-name="Footer_AboutourAds" data-bi-slot="5">
+                                    Sobre nuestra publicidad
+                                </a>
+                            </li>
+
+                <li class="ctl_footerCopyright">
+                    &copy; 2016 Microsoft
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+        </div>
+        
+    
+
+        <script type="text/javascript">
+    require(["jquery", "window.postXDMessage"], function($, postXDMessage) {
+        $(function () {
+            postXDMessage({ verb: 'CLOSE_DIALOG', reason: 'ERROR', errorCode: '404'});
+        });
+    });
+</script>
+
+        <!-- SiteCatalyst code version: H.16.  Copyright 1996-2010 Adobe, Inc. More info available at http://www.omniture.com -->
+<script type="text/javascript">//<![CDATA[
+ try { var s_account="msxboxcomeses,msxboxcomglobal";t_account="msxboxcomv2esES"; } catch(e) {} 
+//]]></script>
+<script type="text/javascript" src="/Shell/js/s_code.js"></script>
+<script type="text/javascript" src="/Shell/js/pageReference.js"></script>
+<script type="text/javascript">//<![CDATA[
+try {
+s.pageName='www\x2ferror';s.events='event1';s.prop2='es-es';s.eVar1='es-es';s.eVar73='default';s.eVar8='n';s.prop10='n';s.channel='www';s.prop1='error';s.eVar7='error';
+var extendedReferrer = s.getQueryParam('xr').toLowerCase();
+if (extendedReferrer.length > 0) { s.prop9 = extendedReferrer; }
+if (!s.eVar2) { s.eVar2 = s.pageName; }
+s.trackingServer="o.xbox.com";
+s.trackingServerSecure="s.xbox.com";
+if ($('#LiveStatusOutage').length > 0) { s.eVar57 = $('#LiveStatusOutage').text(); }
+require(['xbox.biTracking.pageReference'], function(pageReference){ s.eVar61 = pageReference.getReferrer(); });
+s.trackInlineStats=true;
+$('document').ready(function() {
+try {
+if (typeof(OmnitureTracking) != 'undefined') { OmnitureTracking.onBeforePageImpression() }
+var s_code=s.t(); if (s_code) document.write(s_code);
+}catch(ex){}
+});
+}catch(e){}
+//]]></script>
+<noscript><img src="http://o.xbox.com/b/ss/msxboxcomeses,msxboxcomglobal/1/H.16--NS/0?pageName=NoScriptPage" height="1" width="1" border="0" alt="" /></noscript><!--/DO NOT REMOVE/--><!-- End SiteCatalyst code version: H.16. --><!-- Start WEDCS tracking -->
+<script type="text/javascript">
+try {
+var varSegmentation = 0; var varClickTracking = 1;var varCustomerTracking = 0; varCustomerCookies = ['MUID']
+document.write("<script type='text/javascript' src='http://c.microsoft.com/ms.js'><\/script>");
+} catch(e) {}
+</script>
+<noscript><img src="http://c.microsoft.com/trans_pixel.aspx" height="1" width="1" border="0" alt="" /></noscript>
+<!-- End WEDCS tracking -->
+<script type="text/javascript" src="http://js.microsoft.com/library/svy/xbox/broker.js"></script><script type="text/javascript">//<![CDATA[
+try{    if ((typeof BusinessTracking != 'undefined') && (BusinessTracking.extendPageViewData)) {
+        BusinessTracking.extendPageViewData();
+    }}catch(e){}
+//]]></script>
+
+        
+
+    </body>
+
+</html>
+

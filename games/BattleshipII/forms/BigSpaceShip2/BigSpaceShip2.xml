@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:b576961557a29db1146dc7c99ba574d4:7e9dda28aa9b639e03864c83d89465be:af24f228b975e53a06c6ac5d932ab2ff$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="BigSpaceShip2" file="./forms/BigSpaceShip2.png" width="3600" height="1800"
+		fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="?">
+		<Frame id="SS000" fPosX="0" fPosY="0" fWidth="600" fHeight="600" xoffset="0" yoffset="0" width="600" height="600"/>
+		<Frame id="SS001" fPosX="600" fPosY="0" fWidth="600" fHeight="600" xoffset="0" yoffset="0" width="600" height="600"/>
+		<Frame id="SS002" fPosX="1200" fPosY="0" fWidth="600" fHeight="600" xoffset="0" yoffset="0" width="600" height="600"/>
+		<Frame id="SS003" fPosX="1800" fPosY="0" fWidth="600" fHeight="600" xoffset="0" yoffset="0" width="600" height="600"/>
+		<Frame id="SS004" fPosX="2400" fPosY="0" fWidth="600" fHeight="600" xoffset="0" yoffset="0" width="600" height="600"/>
+		<Frame id="SS005" fPosX="3000" fPosY="0" fWidth="600" fHeight="600" xoffset="0" yoffset="0" width="600" height="600"/>
+		<Frame id="SS006" fPosX="0" fPosY="600" fWidth="600" fHeight="600" xoffset="0" yoffset="0" width="600" height="600"/>
+		<Frame id="SS007" fPosX="600" fPosY="600" fWidth="600" fHeight="600" xoffset="0" yoffset="0" width="600" height="600"/>
+		<Frame id="SS008" fPosX="1200" fPosY="600" fWidth="600" fHeight="600" xoffset="0" yoffset="0" width="600" height="600"/>
+		<Frame id="SS009" fPosX="1800" fPosY="600" fWidth="600" fHeight="600" xoffset="0" yoffset="0" width="600" height="600"/>
+		<Frame id="SS010" fPosX="2400" fPosY="600" fWidth="600" fHeight="600" xoffset="0" yoffset="0" width="600" height="600"/>
+		<Frame id="SS011" fPosX="3000" fPosY="600" fWidth="600" fHeight="600" xoffset="0" yoffset="0" width="600" height="600"/>
+		<Frame id="SS012" fPosX="0" fPosY="1200" fWidth="600" fHeight="600" xoffset="0" yoffset="0" width="600" height="600"/>
+		<Frame id="SS013" fPosX="600" fPosY="1200" fWidth="600" fHeight="600" xoffset="0" yoffset="0" width="600" height="600"/>
+		<Frame id="SS014" fPosX="1200" fPosY="1200" fWidth="600" fHeight="600" xoffset="0" yoffset="0" width="600" height="600"/>
+		<Frame id="SS015" fPosX="1800" fPosY="1200" fWidth="600" fHeight="600" xoffset="0" yoffset="0" width="600" height="600"/>
+		<Frame id="SS016" fPosX="2400" fPosY="1200" fWidth="600" fHeight="600" xoffset="0" yoffset="0" width="600" height="600"/>
+		<Frame id="SS017" fPosX="3000" fPosY="1200" fWidth="600" fHeight="600" xoffset="0" yoffset="0" width="600" height="600"/>
+    </Form>
+</CommtyExporter>

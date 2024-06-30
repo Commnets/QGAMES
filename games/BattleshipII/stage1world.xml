@@ -1,0 +1,287 @@
+<?xml version="1.0"?>
+<Worlds>
+	
+	<!-- Asteroids -->
+	<!-- The first worls is passing throught a set of asteroids in three different scenes.
+		 Every scene is more difficult that the previous one: More asteroids, quicker, and with more power -->
+	<World id="50001">
+	
+		<Scenes>
+			
+			<!-- Starting the travel -->
+			<Scene id="70000">
+			
+				<Actions>
+				
+					<!-- Blocks related with asteroids 
+						 To know the possible parameters and its default values, please check bsworlds.xml -->
+					<!-- From 70000 to 70999 -->
+					<!-- 70X00 to 70X99 World X (starting from 1) -->
+					<!-- 70XY0 to 70XY9 World X, Scene Y with in World (starting from 0) -->
+					<Action id="70100">
+						<Attributes>
+							<Attribute id="TimeToAppear" value="0"/>
+							<Attribute id="ProbabilityToAppear" value="100"/> 
+							<Attribute id="Emerge" value="NO"/> 
+							<Attribute id="TimeToMove" value="0"/> 
+							<Attribute id="Regenerate" value="YES"/> 
+							<Attribute id="Roll" value="NO"/> 
+							<Attribute id="MaxTimeAction" value="-1"/> 
+							<Attribute id="Type" value="-1"/> 
+							<Attribute id="MovType" value="0"/> 
+							<Attribute id="PointsGiven" value="100"/> 
+							<Attribute id="Speed" value="-2"/> 
+						</Attributes>
+					</Action>
+					
+					<!-- Asteroid 2 -->
+					<Action id="70101">
+						<Attributes>
+							<Attribute id="TimeToAppear" value="0"/>
+							<Attribute id="PointsGiven" value="100"/>
+							<Attribute id="Speed" value="-2"/>
+						</Attributes>
+					</Action>
+					
+					<!-- Asteroid 3 -->
+					<Action id="70102">
+						<Attributes>
+							<Attribute id="TimeToAppear" value="1"/>
+							<Attribute id="PointsGiven" value="100"/>
+							<Attribute id="Speed" value="-2"/>
+						</Attributes>
+					</Action>
+
+					<!-- A pill to load energy -->
+					<!-- From 71000 to 71999 -->
+					<!-- 71X00 to 71X99 World X (starting from 1) -->
+					<!-- 71XY0 to 71XY9 World X, Scene Y (starting from 0) -->
+					<Action id="71100">
+						<Attributes>
+							<Attribute id="TimeToAppear" value="15"/> 
+							<Attribute id="ProbabilityToAppear" value="40"/> 
+							<Attribute id="Emerge" value="NO"/> 
+							<Attribute id="TimeToMove" value="0"/> 
+							<Attribute id="Regenerate" value="YES"/> 
+							<Attribute id="Roll" value="NO"/> 
+							<Attribute id="MaxTimeAction" value="-1"/> 
+							<Attribute id="Type" value="0"/> 
+							<Attribute id="MovType" value="0"/> 
+							<Attribute id="EnergyAdded" value="50"/> 
+							<Attribute id="Speed" value="1"/> 
+						</Attributes>
+					</Action>
+					
+					<!-- A shooting pill -->
+					<!-- From 72000 to 72999 -->
+					<!-- 72X00 to 72X99 World X (starting from 1) -->-
+					<!-- 72XY0 to 72XY9 World X, Scene Y (starting from 0) -->
+					<Action id="72100">
+						<Attributes>
+							<Attribute id="TimeToAppear" value="15"/> 
+							<Attribute id="ProbabilityToAppear" value="40"/> 
+							<Attribute id="Emerge" value="NO"/> 
+							<Attribute id="TimeToMove" value="0"/> 
+							<Attribute id="Regenerate" value="YES"/> 
+							<Attribute id="Roll" value="NO"/> 
+							<Attribute id="Type" value="0"/> 
+							<Attribute id="MovType" value="0"/> 
+							<Attribute id="TypeShooting" value="-2"/> 
+							<Attribute id="Speed" value="1"/> 
+						</Attributes>
+					</Action>
+					
+				</Actions>
+				
+				<Attributes>
+					<Attribute id="NAME" value="Starting the travel"/>
+					<Attribute id="MOVEMENT" value="1,1,0"/> 
+					<Attribute id="BACKGROUNDMUSIC" value="50001"/> 
+					<Attribute id="SCENETIME" value="60"/> <!-- 1 minute to fight -->
+				</Attributes>
+				
+				<Conexions>
+					<Conexion id="0" with="70001" at="0"/>
+				</Conexions>
+				
+				<Maps>
+					<Map id="50100" file="maps/BKSpace1.xml"/>
+					<Map id="70000" file="maps/nomap.xml"/>
+				</Maps>
+				
+				<Entities>
+				</Entities>
+				
+			</Scene>
+			
+			<!-- The travel gets harder! -->
+			<Scene id="70001">
+			
+				<Actions>
+				
+					<!-- Asteroid 1 -->
+					<Action id="70110">
+						<Attributes>
+							<Attribute id="TimeToAppear" value="0"/>
+							<Attribute id="PointsGiven" value="100"/>
+							<Attribute id="Speed" value="-2"/>
+						</Attributes>
+					</Action>
+					
+					<!-- Asteroid 2 -->
+					<Action id="70111">
+						<Attributes>
+							<Attribute id="TimeToAppear" value="0"/>
+							<Attribute id="PointsGiven" value="100"/>
+							<Attribute id="Speed" value="-2"/>
+						</Attributes>
+					</Action>
+					
+					<!-- Asteroid 3 -->
+					<Action id="70112">
+						<Attributes>
+							<Attribute id="TimeToAppear" value="0"/>
+							<Attribute id="PointsGiven" value="200"/>
+							<Attribute id="Speed" value="-3"/> <!-- One of them will be even quicker -->
+						</Attributes>
+					</Action>
+
+					<!-- An energy pill -->
+					<Action id="71110">
+						<Attributes>
+							<Attribute id="TimeToAppear" value="15"/>
+							<Attribute id="ProbabilityToAppear" value="40"/> 
+							<Attribute id="EnergyAdded" value="50"/>
+							<Attribute id="Speed" value="1"/>
+						</Attributes>
+					</Action>
+
+					<!-- A shooting pill -->
+					<Action id="72110">
+						<Attributes>
+							<Attribute id="TimeToAppear" value="15"/>
+							<Attribute id="ProbabilityToAppear" value="40"/> 
+							<Attribute id="Type" value="0"/>
+							<Attribute id="TypeShooting" value="-2"/>
+							<Attribute id="Speed" value="1"/>
+						</Attributes>
+					</Action>
+					
+				</Actions>
+				
+				<Attributes>
+					<Attribute id="NAME" value="More asteroids"/>
+					<Attribute id="MOVEMENT" value="1,1,0"/> 
+					<Attribute id="BACKGROUNDMUSIC" value="50001"/> 
+					<Attribute id="SCENETIME" value="80"/> 
+				</Attributes>
+				
+				<Conexions>
+					<Conexion id="0" with="70002" at="0"/>
+				</Conexions>
+				
+				<Maps>
+					<Map id="50100" file="maps/BKSpace1.xml"/>
+					<Map id="70000" file="maps/nomap.xml"/>
+				</Maps>
+				
+				<Entities>
+				</Entities>
+
+			</Scene>
+			
+			<!-- An even harder! -->
+			<Scene id="70002">
+			
+				<Actions>
+				
+					<!-- Asteroid 1 -->
+					<Action id="70120">
+						<Attributes>
+							<Attribute id="TimeToAppear" value="0"/>
+							<Attribute id="PointsGiven" value="100"/>
+							<Attribute id="Speed" value="-2"/>
+						</Attributes>
+					</Action>
+					
+					<!-- Asteroid 2 -->
+					<Action id="70121">
+						<Attributes>
+							<Attribute id="TimeToAppear" value="0"/>
+							<Attribute id="PointsGiven" value="100"/>
+							<Attribute id="Speed" value="-2"/>
+						</Attributes>
+					</Action>
+					
+					<!-- Asteroid 3 -->
+					<Action id="70122">
+						<Attributes>
+							<Attribute id="TimeToAppear" value="0"/>
+							<Attribute id="PointsGiven" value="200"/>
+							<Attribute id="Speed" value="-3"/>
+						</Attributes>
+					</Action>
+					
+					<!-- Asteroid 4 -->
+					<Action id="70123">
+						<Attributes>
+							<Attribute id="TimeToAppear" value="0"/>
+							<Attribute id="ProbabilityToAppear" value="80"/> 
+							<Attribute id="PointsGiven" value="200"/>
+							<Attribute id="Speed" value="-3"/> 
+						</Attributes>
+					</Action>
+
+					<!-- A pill of fuel -->
+					<Action id="71120">
+						<Attributes>
+							<Attribute id="TimeToAppear" value="15"/>
+							<Attribute id="ProbabilityToAppear" value="40"/> 
+							<Attribute id="EnergyAdded" value="50"/>
+							<Attribute id="Speed" value="1"/>
+						</Attributes>
+					</Action>
+
+					<!-- A shooting pill -->
+					<Action id="72120">
+						<Attributes>
+							<Attribute id="TimeToAppear" value="15"/> 
+							<Attribute id="ProbabilityToAppear" value="30"/> 
+							<Attribute id="Type" value="0"/>
+							<Attribute id="TypeShooting" value="-2"/>
+							<Attribute id="Speed" value="1"/>
+						</Attributes>
+					</Action>
+					
+				</Actions>
+				
+				<Attributes>
+					<Attribute id="NAME" value="Over and over!"/>
+					<Attribute id="MOVEMENT" value="1,1,0"/> 
+					<Attribute id="BACKGROUNDMUSIC" value="50001"/> 
+					<Attribute id="SCENETIME" value="100"/> 
+				</Attributes>
+				
+				<Conexions>
+					<Conexion id="0" with="70010" at="0"/>
+				</Conexions>
+				
+				<Maps>
+					<Map id="50100" file="maps/BKSpace1.xml"/>
+					<Map id="70000" file="maps/nomap.xml"/>
+				</Maps>
+				
+				<Entities>
+				</Entities>
+				
+			</Scene>
+			
+		</Scenes>
+		
+		<Attributes>
+			<Attribute id="NAME" value="Asteroids"/>
+		</Attributes>
+		
+	</World>
+	
+</Worlds>

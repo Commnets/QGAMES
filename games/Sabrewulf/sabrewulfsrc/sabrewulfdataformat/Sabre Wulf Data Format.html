@@ -1,0 +1,1038 @@
+
+<!-- saved from url=(0069)file:///D:/Temp/sabrewulfdataformat/Sabre%20Wulf%20Data%20Format.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+<meta name="description" content="this page contains the data format of the classic spectrum game by ultimate - atic atac">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="keywords" content="sabre wulf, dataformat, data format, formats, spectrum, ultimate">
+<title>Sabre Wulf Data Format</title>
+</head>
+
+<body bgcolor="#000000" text="#FFFF00" style="font-family: Arial Black">
+<div align="center"><center>
+
+<table border="0" cellpadding="7" cellspacing="0" width="600">
+  <tbody><tr>
+    <td><img src="./Sabre Wulf Data Format_files/sw_logo.jpg" border="0" width="156" height="122"></td>
+    <td><font color="#FFFF00">SABRE WULF DATA FORMAT<br>
+    <font size="2">this document contains the data format for sabre wulf, it is not complete
+    but gives a good start and understanding. for futher information <a href="http://www.icemark.com/downloads/index.html#Spectrum">download sabre wulf&nbsp; source</a> this
+    may help fill in some of the blanks. should you find any errors with this document or
+    indeed have any information to add, please send me an email. </font></font></td>
+  </tr>
+</tbody></table>
+</center></div>
+
+<p>&nbsp;</p>
+<div align="center"><center>
+
+<table border="0" cellpadding="7" cellspacing="0" width="600">
+  <tbody><tr>
+    <td width="107" bgcolor="#808080"><font color="#FFFFFF">address</font></td>
+    <td width="80" bgcolor="#808080">0xA29D</td>
+    <td width="409" bgcolor="#808080">Amulet Start Positions</td>
+  </tr>
+  <tr>
+    <td width="107"></td>
+    <td width="489" colspan="2"><font size="2">this table holds the map start positions of the
+    four parts of the amulet. there are 8 entries in the table</font></td>
+  </tr>
+</tbody></table>
+</center></div><div align="center"><center>
+
+<table border="0" cellpadding="7" cellspacing="0" width="600">
+  <tbody><tr>
+    <td width="25"></td>
+    <td width="69"><font color="#FFFFFF">type</font></td>
+    <td width="63"><font color="#FFFFFF">offset</font></td>
+    <td width="261"><font color="#FFFFFF">description</font></td>
+    <td width="164"></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">BYTE</font></td>
+    <td width="63"><font size="2">00</font></td>
+    <td width="261"><font size="2">location for amulet part 1</font></td>
+    <td width="164" rowspan="4"><font size="2"></font><p align="center"><font size="2">
+    <img src="./Sabre Wulf Data Format_files/sw_amulet.jpg" border="0" width="146" height="105"></font></p></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">BYTE</font></td>
+    <td width="63"><font size="2">01</font></td>
+    <td width="261"><font size="2">location for amulet part 2</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">BYTE</font></td>
+    <td width="63"><font size="2">02</font></td>
+    <td width="261"><font size="2">location for amulet part 3</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">BYTE</font></td>
+    <td width="63"><font size="2">03</font></td>
+    <td width="261"><font size="2">location for amulet part 4</font></td>
+  </tr>
+</tbody></table>
+</center></div>
+
+<p align="center">&nbsp;</p>
+<div align="center"><center>
+
+<table border="0" cellpadding="7" cellspacing="0" width="600">
+  <tbody><tr>
+    <td width="107" bgcolor="#808080"><font color="#FFFFFF">address</font></td>
+    <td width="80" bgcolor="#808080">0x6036</td>
+    <td width="409" bgcolor="#808080">unknown location table</td>
+  </tr>
+  <tr>
+    <td width="107"></td>
+    <td width="489" colspan="2"><font size="2">this table is used after a location has
+    changed. it holds one byte per location type.</font></td>
+  </tr>
+</tbody></table>
+</center></div><div align="center"><center>
+
+<table border="0" cellpadding="7" cellspacing="0" width="600">
+  <tbody><tr>
+    <td width="25"></td>
+    <td width="69"><font color="#FFFFFF">type</font></td>
+    <td width="63"><font color="#FFFFFF">offset</font></td>
+    <td width="425"><font color="#FFFFFF">description</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">BYTE</font></td>
+    <td width="63"><font size="2">00</font></td>
+    <td width="425"><font size="2">unknown</font></td>
+  </tr>
+</tbody></table>
+</center></div>
+
+<p>&nbsp;</p>
+<div align="center"><center>
+
+<table border="0" cellpadding="7" cellspacing="0" width="600">
+  <tbody><tr>
+    <td width="107" bgcolor="#808080"><font color="#FFFFFF">address</font></td>
+    <td width="80" bgcolor="#808080">0x6066</td>
+    <td width="409" bgcolor="#808080">map layout</td>
+  </tr>
+  <tr>
+    <td width="107"></td>
+    <td width="489" colspan="2"><font size="2">the map is a fixed 16x16 grid. all location no
+    references&nbsp; are a direct offset into this table. the table holds a location type
+    which is used for all other functions.</font></td>
+  </tr>
+</tbody></table>
+</center></div><div align="center"><center>
+
+<table border="0" cellpadding="7" cellspacing="0" width="600">
+  <tbody><tr>
+    <td width="25"></td>
+    <td width="69"><font color="#FFFFFF">type</font></td>
+    <td width="63"><font color="#FFFFFF">offset</font></td>
+    <td width="425"><font color="#FFFFFF">description</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">BYTE</font></td>
+    <td width="63"><font size="2">00</font></td>
+    <td width="425"><font size="2">location type</font></td>
+  </tr>
+</tbody></table>
+</center></div>
+
+<p align="center">&nbsp;</p>
+<div align="center"><center>
+
+<table border="0" cellpadding="7" cellspacing="0" width="600">
+  <tbody><tr>
+    <td width="107" bgcolor="#808080"><font color="#FFFFFF">address</font></td>
+    <td width="80" bgcolor="#808080">0x6166</td>
+    <td width="409" bgcolor="#808080">location type table</td>
+  </tr>
+  <tr>
+    <td width="107"></td>
+    <td width="489" colspan="2"><font size="2">a list of offsets to the data for each location
+    type, there are 48 entries.</font></td>
+  </tr>
+</tbody></table>
+</center></div><div align="center"><center>
+
+<table border="0" cellpadding="7" cellspacing="0" width="600">
+  <tbody><tr>
+    <td width="25"></td>
+    <td width="69"><font color="#FFFFFF">type</font></td>
+    <td width="63"><font color="#FFFFFF">offset</font></td>
+    <td width="425"><font color="#FFFFFF">description</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">WORD</font></td>
+    <td width="63"><font size="2">00</font></td>
+    <td width="425"><font size="2">offset to location data</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"></td>
+    <td width="63"></td>
+    <td width="425"></td>
+  </tr>
+</tbody></table>
+</center></div>
+
+<p>&nbsp;</p>
+<div align="center"><center>
+
+<table border="0" cellpadding="7" cellspacing="0" width="600">
+  <tbody><tr>
+    <td width="107" bgcolor="#808080"><font color="#FFFFFF">address</font></td>
+    <td width="80" bgcolor="#808080">0x6200</td>
+    <td width="409" bgcolor="#808080">start of location type data</td>
+  </tr>
+  <tr>
+    <td width="107"></td>
+    <td width="489" colspan="2"><font size="2">the location data is a series of data that
+    describes the graphic type and the screen coordinate to draw it at.</font></td>
+  </tr>
+</tbody></table>
+</center></div><div align="center"><center>
+
+<table border="0" cellpadding="7" cellspacing="0" width="600">
+  <tbody><tr>
+    <td width="25"></td>
+    <td width="69"><font color="#FFFFFF">type</font></td>
+    <td width="63"><font color="#FFFFFF">offset</font></td>
+    <td width="425"><font color="#FFFFFF">description</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">WORD</font></td>
+    <td width="63"><font size="2">00</font></td>
+    <td width="425"><font size="2">offset - offset to background sprite data</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">BYTE</font></td>
+    <td width="63"><font size="2">02</font></td>
+    <td width="425"><font size="2">x coordinate</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">BYTE</font></td>
+    <td width="63"><font size="2">03</font></td>
+    <td width="425"><font size="2">y coordinate</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"></td>
+    <td width="63"></td>
+    <td width="425"><font size="2">... REPEAT UNTIL OFFSET = 0</font></td>
+  </tr>
+</tbody></table>
+</center></div>
+
+<p align="center">&nbsp;</p>
+<div align="center"><center>
+
+<table border="0" cellpadding="7" cellspacing="0" width="600">
+  <tbody><tr>
+    <td bgcolor="#808080"><p align="center"><a name="ScreenTypes"></a>other location types</p></td>
+  </tr>
+</tbody></table>
+</center></div><div align="center"><center>
+
+<table border="0" cellpadding="7" cellspacing="0" width="600">
+  <tbody><tr>
+    <td align="center" width="98"></td>
+    <td align="center" width="470"><p align="left"><small>two other location types are
+    available but are not actually locations</small></p></td>
+  </tr>
+</tbody></table>
+</center></div><div align="center"><center>
+
+<table border="0" cellpadding="7" cellspacing="0" width="600">
+  <tbody><tr>
+    <td width="25"></td>
+    <td width="69"></td>
+    <td width="63"><font color="#FFFFFF">offset</font></td>
+    <td width="425"><font color="#FFFFFF">description</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"></td>
+    <td width="63"><font size="2">0x61c6</font></td>
+    <td width="425"><font size="2">grass border for presentation</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"></td>
+    <td width="63"><font size="2">0xc386</font></td>
+    <td width="425"><font size="2">underwurlde end screen graphic</font></td>
+  </tr>
+</tbody></table>
+</center></div>
+
+<p>&nbsp;</p>
+<div align="center"><center>
+
+<table border="0" cellpadding="7" cellspacing="0" width="600">
+  <tbody><tr>
+    <td width="596" bgcolor="#808080" colspan="2"><font color="#FFFFFF">sprite structure
+    format</font></td>
+  </tr>
+  <tr>
+    <td width="107"></td>
+    <td width="489"><small>this is the structure used for all sprite entries within the game.</small></td>
+  </tr>
+</tbody></table>
+</center></div><div align="center"><center>
+
+<table border="0" cellpadding="7" cellspacing="0" width="600">
+  <tbody><tr>
+    <td width="25"></td>
+    <td width="69"><font color="#FFFFFF">type</font></td>
+    <td width="63"><font color="#FFFFFF">offset</font></td>
+    <td width="425"><font color="#FFFFFF">description</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">BYTE</font></td>
+    <td width="63"><font size="2">00</font></td>
+    <td width="425"><font size="2">sprite image no ( <a href="http://www.icemark.com/downloads/index.html">check
+    the sprites in the download</a> )</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">BYTE</font></td>
+    <td width="63"><font size="2">01</font></td>
+    <td width="425"><font size="2">current location</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">BYTE</font></td>
+    <td width="63"><font size="2">02</font></td>
+    <td width="425"><font size="2">unknown</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">BYTE</font></td>
+    <td width="63"><font size="2">03</font></td>
+    <td width="425"><font size="2">screen x coordinate</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">BYTE</font></td>
+    <td width="63"><font size="2">04</font></td>
+    <td width="425"><font size="2">screen y coordinate</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">BYTE</font></td>
+    <td width="63"><font size="2">05</font></td>
+    <td width="425"><font size="2">attribute color</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">BYTE</font></td>
+    <td width="63"><font size="2">06</font></td>
+    <td width="425"><font size="2">( delta x ) ??</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">BYTE</font></td>
+    <td width="63"><font size="2">07</font></td>
+    <td width="425"><font size="2">( delta y ) ??</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">BYTE</font></td>
+    <td width="63"><font size="2">08</font></td>
+    <td width="425"><font size="2">unknown</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">BYTE</font></td>
+    <td width="63"><font size="2">09</font></td>
+    <td width="425"><font size="2">unknown</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">BYTE</font></td>
+    <td width="63"><font size="2">0A</font></td>
+    <td width="425"><font size="2">unknown</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">BYTE</font></td>
+    <td width="63"><font size="2">0B</font></td>
+    <td width="425"><font size="2">unknown</font></td>
+  </tr>
+</tbody></table>
+</center></div>
+
+<p>&nbsp;</p>
+<div align="center"><center>
+
+<table border="0" cellpadding="7" cellspacing="0" width="600">
+  <tbody><tr>
+    <td width="107" bgcolor="#808080"><font color="#FFFFFF">address</font></td>
+    <td width="80" bgcolor="#808080">0xDC6C</td>
+    <td width="409" bgcolor="#808080">location object screen positions</td>
+  </tr>
+  <tr>
+    <td width="107"><p align="center">
+    <img src="./Sabre Wulf Data Format_files/7523.gif" alt="7523.gif (806 bytes)" width="66" height="59"></p></td>
+    <td width="489" colspan="2"><font size="2">this table holds the 4 possible object screen
+    locations for the different screen types. the game places 2 objects into random selected
+    slots.<br>
+    NOTE: if the location has an amulet then it is always placed in (object 1)</font></td>
+  </tr>
+</tbody></table>
+</center></div><div align="center"><center>
+
+<table border="0" cellpadding="7" cellspacing="0" width="600">
+  <tbody><tr>
+    <td width="25"></td>
+    <td width="69"><font color="#FFFFFF">type</font></td>
+    <td width="64"><font color="#FFFFFF">offset</font></td>
+    <td width="424"><font color="#FFFFFF">description</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">BYTE</font></td>
+    <td width="64"><font size="2">00</font></td>
+    <td width="424"><font size="2">x coordinate ( object 1 - or orchid )</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">BYTE</font></td>
+    <td width="64"><font size="2">01</font></td>
+    <td width="424"><font size="2">y coordinate ( object 1&nbsp; or orchid )</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">BYTE</font></td>
+    <td width="64"><font size="2">02</font></td>
+    <td width="424"><font size="2">x coordinate ( object 2 )</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">BYTE</font></td>
+    <td width="64"><font size="2">03</font></td>
+    <td width="424"><font size="2">y coordinate ( object 2 )</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">BYTE</font></td>
+    <td width="64"><font size="2">04</font></td>
+    <td width="424"><font size="2">x coordinate ( object 3 )</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">BYTE</font></td>
+    <td width="64"><font size="2">05</font></td>
+    <td width="424"><font size="2">y coordinate ( object 3 )</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">BYTE</font></td>
+    <td width="64"><font size="2">06</font></td>
+    <td width="424"><font size="2">x coordinate ( object 4 )</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">BYTE</font></td>
+    <td width="64"><font size="2">07</font></td>
+    <td width="424"><font size="2">y coordinate ( object 4 )</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"></td>
+    <td width="64"></td>
+    <td width="424"></td>
+  </tr>
+</tbody></table>
+</center></div>
+
+<p>&nbsp;</p>
+<div align="center"><center>
+
+<table border="0" cellpadding="7" cellspacing="0" width="600">
+  <tbody><tr>
+    <td width="107" bgcolor="#808080"><font color="#FFFFFF">address</font></td>
+    <td width="80" bgcolor="#808080">0xD6A6</td>
+    <td width="409" bgcolor="#808080">location orchid screen positions</td>
+  </tr>
+  <tr>
+    <td width="107"></td>
+    <td width="489" colspan="2"></td>
+  </tr>
+</tbody></table>
+</center></div><div align="center"><center>
+
+<table border="0" cellpadding="7" cellspacing="0" width="600">
+  <tbody><tr>
+    <td width="25"></td>
+    <td width="69"><font color="#FFFFFF">type</font></td>
+    <td width="63"><font color="#FFFFFF">offset</font></td>
+    <td width="425"><font color="#FFFFFF">description</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">BYTE</font></td>
+    <td width="63"><font size="2">00</font></td>
+    <td width="425"><font size="2">x coordinate</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">BYTE</font></td>
+    <td width="63"><font size="2">01</font></td>
+    <td width="425"><font size="2">y coordinate</font></td>
+  </tr>
+</tbody></table>
+</center></div>
+
+<p>&nbsp;</p>
+<div align="center"><center>
+
+<table border="0" cellpadding="7" cellspacing="0" width="600">
+  <tbody><tr>
+    <td width="107" bgcolor="#808080"><font color="#FFFFFF">address</font></td>
+    <td width="80" bgcolor="#808080">0xA7F8</td>
+    <td width="409" bgcolor="#808080"><a name="itemlist"></a>location orchid type table?</td>
+  </tr>
+  <tr>
+    <td width="107"><p align="center"><img src="./Sabre Wulf Data Format_files/orchid.gif" width="64" height="42" border="1"></p></td>
+    <td width="489" colspan="2"><font size="2">this table is used for orchid information for
+    each location type not each location. it is a live table and just holds defaults at start
+    up.<br>
+    all locations that use the same location type will have the same orchid activity.</font></td>
+  </tr>
+</tbody></table>
+</center></div><div align="center"><center>
+
+<table border="0" cellpadding="7" cellspacing="0" width="600">
+  <tbody><tr>
+    <td width="25"></td>
+    <td width="69"><font color="#FFFFFF">type</font></td>
+    <td width="63"><font color="#FFFFFF">offset</font></td>
+    <td width="425"><font color="#FFFFFF">description</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69" valign="top"><font size="2">BYTE</font></td>
+    <td width="63" valign="top"><font size="2">00</font></td>
+    <td width="425"><font size="2">unknown</font><div align="left"><table border="1" cellpadding="7" cellspacing="0" width="1">
+      <tbody><tr>
+        <td width="36" align="center" bgcolor="#808080" colspan="4"><font size="1" color="#FFFFFF">??</font></td>
+        <td width="9" align="center" bgcolor="#808080"><font size="1" color="#FFFFFF">?</font></td>
+        <td width="27" colspan="3" align="center" bgcolor="#808080"><font size="1" color="#FFFFFF">??</font></td>
+      </tr>
+      <tr>
+        <td width="9" align="center" bgcolor="#BEBE00"><font size="1" color="#000000">7</font></td>
+        <td width="9" align="center" bgcolor="#BEBE00"><font size="1" color="#000000">6</font></td>
+        <td width="9" align="center" bgcolor="#BEBE00"><font size="1" color="#000000">5</font></td>
+        <td width="9" align="center" bgcolor="#BEBE00"><font size="1" color="#000000">4</font></td>
+        <td width="9" align="center" bgcolor="#DCDC00"><font size="1" color="#000000">3</font></td>
+        <td width="9" align="center" bgcolor="#FFFF00"><font size="1" color="#000000">2</font></td>
+        <td width="9" align="center" bgcolor="#FFFF00"><font size="1" color="#000000">1</font></td>
+        <td width="9" align="center" bgcolor="#FFFF00"><font size="1" color="#000000">0</font></td>
+      </tr>
+    </tbody></table>
+    </div></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">BYTE</font></td>
+    <td width="63"><font size="2">01</font></td>
+    <td width="425"><font size="2">unknown</font></td>
+  </tr>
+</tbody></table>
+</center></div>
+
+<p>&nbsp;</p>
+<div align="center"><center>
+
+<table border="0" cellpadding="7" cellspacing="0" width="600">
+  <tbody><tr>
+    <td width="107" bgcolor="#808080"><font color="#FFFFFF">address</font></td>
+    <td width="69" bgcolor="#808080">0x70bc</td>
+    <td width="420" bgcolor="#808080">background graphics</td>
+  </tr>
+  <tr>
+    <td width="107"><p align="center"><img src="./Sabre Wulf Data Format_files/8e18.gif" width="44" height="40"></p></td>
+    <td width="489" colspan="2"></td>
+  </tr>
+</tbody></table>
+</center></div><div align="center"><center>
+
+<table border="0" cellpadding="7" cellspacing="0" width="600">
+  <tbody><tr>
+    <td width="25"></td>
+    <td width="69"><font color="#FFFFFF">type</font></td>
+    <td width="63"><font color="#FFFFFF">offset</font></td>
+    <td width="425"><font color="#FFFFFF">description</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">BYTE</font></td>
+    <td width="63"><font size="2">00</font></td>
+    <td width="425"><font size="2">width - in bytes</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">BYTE</font></td>
+    <td width="63"><font size="2">01</font></td>
+    <td width="425"><font size="2">depth</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">BYTE</font></td>
+    <td width="63"><font size="2">03...size</font></td>
+    <td width="425"><font size="2">image data ( size = width*depth )</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">BYTE</font></td>
+    <td width="63"></td>
+    <td width="425"><font size="2">attribute data</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"></td>
+    <td width="63"></td>
+    <td width="425"></td>
+  </tr>
+</tbody></table>
+</center></div><div align="center"><center>
+
+<table border="0" cellpadding="7" cellspacing="0" width="600">
+</table>
+</center></div>
+
+<p>&nbsp;</p>
+<div align="center"><center>
+
+<table border="0" cellpadding="7" cellspacing="0" width="600">
+  <tbody><tr>
+    <td bgcolor="#808080"><p align="center">background <a name="GraphicType"></a>graphic types</p></td>
+  </tr>
+</tbody></table>
+</center></div><div align="center"><center>
+
+<table border="0" cellpadding="2" cellspacing="0" width="600">
+  <tbody><tr>
+    <td align="center"><img src="./Sabre Wulf Data Format_files/70bc.gif" width="74" height="26"></td>
+    <td align="center"><img src="./Sabre Wulf Data Format_files/71b3.gif" width="42" height="44"></td>
+    <td align="center"><img src="./Sabre Wulf Data Format_files/7298.gif" width="18" height="42"></td>
+    <td align="center"><img src="./Sabre Wulf Data Format_files/72f6.gif" width="65" height="44"></td>
+    <td align="center"><img src="./Sabre Wulf Data Format_files/7462.gif" width="25" height="57"></td>
+    <td align="center"><img src="./Sabre Wulf Data Format_files/7523.gif" alt="7523.gif (806 bytes)" width="66" height="59"></td>
+    <td align="center"><img src="./Sabre Wulf Data Format_files/771f.gif" width="42" height="58"></td>
+    <td align="center"><img src="./Sabre Wulf Data Format_files/785e.gif" width="32" height="34"></td>
+  </tr>
+  <tr>
+    <td align="center">70BC</td>
+    <td align="center">71B3</td>
+    <td align="center">7298</td>
+    <td align="center">72F6</td>
+    <td align="center">7462</td>
+    <td align="center">7523</td>
+    <td align="center">771F</td>
+    <td align="center">785E</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="./Sabre Wulf Data Format_files/78f2.gif" width="27" height="27"></td>
+    <td align="center"><img src="./Sabre Wulf Data Format_files/7947.gif" width="18" height="27"></td>
+    <td align="center"><img src="./Sabre Wulf Data Format_files/7981.gif" width="34" height="93"></td>
+    <td align="center"><img src="./Sabre Wulf Data Format_files/7b11.gif" width="50" height="26"></td>
+    <td align="center"><img src="./Sabre Wulf Data Format_files/7bb7.gif" width="26" height="27"></td>
+    <td align="center"><img src="./Sabre Wulf Data Format_files/7c0c.gif" width="57" height="25"></td>
+    <td align="center"><img src="./Sabre Wulf Data Format_files/7ccd.gif" width="61" height="53"></td>
+    <td align="center"><img src="./Sabre Wulf Data Format_files/7e4b.gif" width="66" height="59"></td>
+  </tr>
+  <tr>
+    <td align="center">78F2</td>
+    <td align="center">7947</td>
+    <td align="center">7981</td>
+    <td align="center">7B11</td>
+    <td align="center">7BB7</td>
+    <td align="center">7C0C</td>
+    <td align="center">7CCD</td>
+    <td align="center">7E4B</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="./Sabre Wulf Data Format_files/8047.gif" width="56" height="48"></td>
+    <td align="center"><img src="./Sabre Wulf Data Format_files/81c5.gif" width="56" height="56"></td>
+    <td align="center"><img src="./Sabre Wulf Data Format_files/8382.gif" width="8" height="32"></td>
+    <td align="center"><img src="./Sabre Wulf Data Format_files/83aa.gif" width="8" height="32"></td>
+    <td align="center"><img src="./Sabre Wulf Data Format_files/83d2.gif" width="24" height="24"></td>
+    <td align="center"><img src="./Sabre Wulf Data Format_files/8427.gif" width="24" height="24"></td>
+    <td align="center"><img src="./Sabre Wulf Data Format_files/847c.gif" width="64" height="24"></td>
+    <td align="center"><img src="./Sabre Wulf Data Format_files/8558.gif" width="32" height="24"></td>
+  </tr>
+  <tr>
+    <td align="center">8047</td>
+    <td align="center">81C5</td>
+    <td align="center">8382</td>
+    <td align="center">83AA</td>
+    <td align="center">83D2</td>
+    <td align="center">8427</td>
+    <td align="center">847C</td>
+    <td align="center">8558</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="./Sabre Wulf Data Format_files/85c8.gif" width="48" height="40"></td>
+    <td align="center"><img src="./Sabre Wulf Data Format_files/86da.gif" width="32" height="8"></td>
+    <td align="center"><img src="./Sabre Wulf Data Format_files/8702.gif" width="31" height="7"></td>
+    <td align="center"><img src="./Sabre Wulf Data Format_files/872a.gif" width="32" height="48"></td>
+    <td align="center"><img src="./Sabre Wulf Data Format_files/8806.gif" width="57" height="57"></td>
+    <td align="center"><img src="./Sabre Wulf Data Format_files/89c3.gif" width="55" height="56"></td>
+    <td align="center"><img src="./Sabre Wulf Data Format_files/8b80.gif" width="31" height="49"></td>
+    <td align="center"><img src="./Sabre Wulf Data Format_files/8c5c.gif" width="32" height="24"></td>
+  </tr>
+  <tr>
+    <td align="center">85C8</td>
+    <td align="center">86DA</td>
+    <td align="center">8702</td>
+    <td align="center">872A</td>
+    <td align="center">8806</td>
+    <td align="center">89C3</td>
+    <td align="center">8B80</td>
+    <td align="center">8C5C</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="./Sabre Wulf Data Format_files/8ccc.gif" width="32" height="24"></td>
+    <td align="center"><img src="./Sabre Wulf Data Format_files/8d3c.gif" width="31" height="48"></td>
+    <td align="center"><img src="./Sabre Wulf Data Format_files/8e18.gif" width="44" height="40"></td>
+    <td align="center"><img src="./Sabre Wulf Data Format_files/8f2a.gif" width="49" height="56"></td>
+    <td align="center"><img src="./Sabre Wulf Data Format_files/90a8.gif" width="64" height="89"></td>
+    <td align="center"><img src="./Sabre Wulf Data Format_files/93c4.gif" width="72" height="42"></td>
+    <td align="center"><img src="./Sabre Wulf Data Format_files/955d.gif" width="32" height="24"></td>
+    <td align="center"><img src="./Sabre Wulf Data Format_files/95cd.gif" width="45" height="24"></td>
+  </tr>
+  <tr>
+    <td align="center">8CCC</td>
+    <td align="center">8D3C</td>
+    <td align="center">8E18</td>
+    <td align="center">8F2A</td>
+    <td align="center">90A8</td>
+    <td align="center">93C4</td>
+    <td align="center">955D</td>
+    <td align="center">95CD</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="./Sabre Wulf Data Format_files/9673.gif" width="9" height="25"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td align="center">9673</td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+  </tr>
+</tbody></table>
+</center></div><div align="center"><center>
+
+<table border="0" cellpadding="7" cellspacing="0" width="600">
+</table>
+</center></div>
+
+<p>&nbsp;</p>
+<div align="center"><center>
+
+<table border="0" cellpadding="7" cellspacing="0" width="600">
+  <tbody><tr>
+    <td width="107" bgcolor="#808080"><font color="#FFFFFF">address</font></td>
+    <td width="64" bgcolor="#808080">0xbf84</td>
+    <td width="425" bgcolor="#808080">sprites offset table</td>
+  </tr>
+  <tr>
+    <td width="107"></td>
+    <td width="489" colspan="2"></td>
+  </tr>
+</tbody></table>
+</center></div><div align="center"><center>
+
+<table border="0" cellpadding="7" cellspacing="0" width="600">
+  <tbody><tr>
+    <td width="25"></td>
+    <td width="69"><font color="#FFFFFF">type</font></td>
+    <td width="63"><font color="#FFFFFF">offset</font></td>
+    <td width="425"><font color="#FFFFFF">description</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">WORD</font></td>
+    <td width="63"><font size="2">00</font></td>
+    <td width="425"><font size="2">offset - offset to data</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"></td>
+    <td width="63"></td>
+    <td width="425"></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font color="#FFFFFF"><small>0xc10e</small></font></td>
+    <td width="488" colspan="2">sprite data format</td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font color="#FFFFFF">type</font></td>
+    <td width="63"><font color="#FFFFFF">offset</font></td>
+    <td width="425"><font color="#FFFFFF">description</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">BYTE</font></td>
+    <td width="63"><font size="2">00</font></td>
+    <td width="425"><font size="2">width - in bytes</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">BYTE</font></td>
+    <td width="63"><font size="2">01</font></td>
+    <td width="425"><font size="2">depth</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">BYTE</font></td>
+    <td width="63"><font size="2">03...size</font></td>
+    <td width="425"><font size="2">image data ( size = width*depth )</font></td>
+  </tr>
+</tbody></table>
+</center></div>
+
+<p>&nbsp;</p>
+<div align="center"><center>
+
+<table border="0" cellpadding="7" cellspacing="0" width="600">
+</table>
+</center></div><div align="center"><center>
+
+<table border="0" cellpadding="7" cellspacing="0" width="600">
+  <tbody><tr>
+    <td width="107" bgcolor="#808080"><font color="#FFFFFF">address</font></td>
+    <td width="80" bgcolor="#808080">0xAC77</td>
+    <td width="409" bgcolor="#808080">default immortal moving objects</td>
+  </tr>
+  <tr>
+    <td width="107"></td>
+    <td width="489" colspan="2"><font size="2">this table holds the default sprite structures
+    for the 12 moving immortals. inc sabre man.</font></td>
+  </tr>
+</tbody></table>
+</center></div><div align="center"><center>
+
+<table border="0" cellpadding="7" cellspacing="0" width="600">
+  <tbody><tr>
+    <td width="25"></td>
+    <td width="69"></td>
+    <td width="63"><font color="#FFFFFF">entry</font></td>
+    <td width="425"><font color="#FFFFFF">description</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"></td>
+    <td width="63"><font size="2">00</font></td>
+    <td width="425"><font size="2">sabre man</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"></td>
+    <td width="63"><font size="2">01</font></td>
+    <td width="425"><font size="2">rhino running left</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"></td>
+    <td width="63"><font size="2">02</font></td>
+    <td width="425"><font size="2">rhino running right</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"></td>
+    <td width="63"><font size="2">03</font></td>
+    <td width="425"><font size="2">rhino running left</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"></td>
+    <td width="63"><font size="2">04</font></td>
+    <td width="425"><font size="2">rhino running right</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"></td>
+    <td width="63"><font size="2">05</font></td>
+    <td width="425"><font size="2">spear man</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"></td>
+    <td width="63"><font size="2">06</font></td>
+    <td width="425"><font size="2">spear man</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"></td>
+    <td width="63"><font size="2">07</font></td>
+    <td width="425"><font size="2">spear man</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"></td>
+    <td width="63"><font size="2">08</font></td>
+    <td width="425"><font size="2">fire</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"></td>
+    <td width="63"><font size="2">09</font></td>
+    <td width="425"><font size="2">wolf</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"></td>
+    <td width="63"><font size="2">0a</font></td>
+    <td width="425"><font size="2">hippo</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"></td>
+    <td width="63"><font size="2">0b</font></td>
+    <td width="425"><font size="2">guardian</font></td>
+  </tr>
+</tbody></table>
+</center></div>
+
+<p align="center">&nbsp;</p>
+<div align="center"><center>
+
+<table border="0" cellpadding="7" cellspacing="0" width="600">
+  <tbody><tr>
+    <td width="107" bgcolor="#808080"><font color="#FFFFFF">address</font></td>
+    <td width="80" bgcolor="#808080">0x9702</td>
+    <td width="409" bgcolor="#808080">sprite working structures</td>
+  </tr>
+  <tr>
+    <td width="107"></td>
+    <td width="489" colspan="2"><font size="2">this table holds the&nbsp; sprite structures
+    for the 25 active sprites while the game runs</font></td>
+  </tr>
+</tbody></table>
+</center></div><div align="center"><center>
+
+<table border="0" cellpadding="7" cellspacing="0" width="600">
+  <tbody><tr>
+    <td width="25"></td>
+    <td width="69"><font color="#FFFFFF">offset</font></td>
+    <td width="63"><font color="#FFFFFF">number</font></td>
+    <td width="425"><font color="#FFFFFF">description</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">0x9702</font></td>
+    <td width="63"><font size="2">12</font></td>
+    <td width="425"><font size="2">immortals</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">0x9792</font></td>
+    <td width="63"><font size="2">06</font></td>
+    <td width="425"><font size="2">nasties</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">0x97da</font></td>
+    <td width="63"><font size="2">01</font></td>
+    <td width="425"><font size="2">orchid</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">0x97e6</font></td>
+    <td width="63"><font size="2">02</font></td>
+    <td width="425"><font size="2">objects</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">0x97fe</font></td>
+    <td width="63"><font size="2">04</font></td>
+    <td width="425"><font size="2">amulet parts</font></td>
+  </tr>
+</tbody></table>
+</center></div>
+
+<p align="center">&nbsp;</p>
+<div align="center"><center>
+
+<table border="0" cellpadding="7" cellspacing="0" width="600">
+  <tbody><tr>
+    <td width="107" bgcolor="#808080"><font color="#FFFFFF">address</font></td>
+    <td width="80" bgcolor="#808080">&nbsp;</td>
+    <td width="409" bgcolor="#808080">various random tables</td>
+  </tr>
+  <tr>
+    <td width="107"></td>
+    <td width="489" colspan="2"><font size="2">the following tables are used to randomly
+    select the type and colorr of certain sprites.</font></td>
+  </tr>
+</tbody></table>
+</center></div><div align="center"><center>
+
+<table border="0" cellpadding="7" cellspacing="0" width="600">
+  <tbody><tr>
+    <td width="25"></td>
+    <td width="69"><font color="#FFFFFF">offset</font></td>
+    <td width="63"><font color="#FFFFFF">number</font></td>
+    <td width="425"><font color="#FFFFFF">description</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">0xaf6d</font></td>
+    <td width="63"><font size="2">16</font></td>
+    <td width="425"><font size="2">orchid colours</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">0xa41a</font></td>
+    <td width="63"><font size="2">16</font></td>
+    <td width="425"><font size="2">nasty sprite types</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">0xa3a7</font></td>
+    <td width="63"><font size="2">16</font></td>
+    <td width="425"><font size="2">object colours</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"><font size="2">0x9ab8</font></td>
+    <td width="63"><font size="2">04</font></td>
+    <td width="425"><font size="2">other colours for flashing?</font></td>
+  </tr>
+  <tr>
+    <td width="25"></td>
+    <td width="69"></td>
+    <td width="63"></td>
+    <td width="425"></td>
+  </tr>
+</tbody></table>
+</center></div>
+
+</body></html>

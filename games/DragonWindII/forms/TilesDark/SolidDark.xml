@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:1bcd1d5e673fef9aaa166307e292ba98:b19a216de89e5054c7c081503e376a20:dcffc95ed4574f92dc2c133c79a8f857$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="SolidDark" file="./forms/SolidDark.png" width="201" height="26"
+		fSpacing="1" fMargin="1" fWidth="1" fHeight="1" aColor="255" nFrames="?">
+		<Frame id="4" fPosX="1" fPosY="1" fWidth="24" fHeight="24" xoffset="0" yoffset="0" width="24" height="24"/>
+		<Frame id="5" fPosX="26" fPosY="1" fWidth="24" fHeight="24" xoffset="0" yoffset="0" width="24" height="24"/>
+		<Frame id="6" fPosX="51" fPosY="1" fWidth="24" fHeight="24" xoffset="0" yoffset="0" width="24" height="24"/>
+		<Frame id="8" fPosX="76" fPosY="1" fWidth="24" fHeight="24" xoffset="0" yoffset="0" width="24" height="24"/>
+		<Frame id="9" fPosX="101" fPosY="1" fWidth="24" fHeight="24" xoffset="0" yoffset="0" width="24" height="24"/>
+		<Frame id="10" fPosX="126" fPosY="1" fWidth="24" fHeight="24" xoffset="0" yoffset="0" width="24" height="24"/>
+		<Frame id="12" fPosX="151" fPosY="1" fWidth="24" fHeight="24" xoffset="0" yoffset="0" width="24" height="24"/>
+		<Frame id="13" fPosX="176" fPosY="1" fWidth="24" fHeight="24" xoffset="0" yoffset="0" width="24" height="24"/>
+    </Form>
+</CommtyExporter>

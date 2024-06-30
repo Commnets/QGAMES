@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="21" height="24" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="1">
+ <tileset firstgid="1" name="corners" tilewidth="32" tileheight="32" tilecount="80" columns="10">
+  <image source="maps/chompermazetilesfull_blue.png" width="320" height="256"/>
+ </tileset>
+ <tileset firstgid="81" name="location" tilewidth="32" tileheight="32" tilecount="100" columns="10">
+  <image source="maps/location.png" trans="000000" width="320" height="320"/>
+ </tileset>
+ <tileset firstgid="181" name="mazedirs" tilewidth="32" tileheight="32" tilecount="15" columns="15">
+  <image source="maps/mazedirs.png" trans="000000" width="480" height="32"/>
+ </tileset>
+ <tileset firstgid="196" name="zones" tilewidth="32" tileheight="32" tilecount="8" columns="1">
+  <image source="maps/mazezones.png" trans="000000" width="32" height="256"/>
+ </tileset>
+ <layer id="1" name="Background" width="21" height="24">
+  <data encoding="base64" compression="zlib">
+   eJxjYKANkKciHjVz1MxRM0fNHDVz1Mzhbia1AQDG5TKf
+  </data>
+ </layer>
+ <layer id="2" name="Maze" width="21" height="24">
+  <data encoding="base64" compression="zlib">
+   eJy1VF0PgjAQm0oE/OZBBWZ48Nn///vckjU09ZDF4CUN6nV3tcfOuf9EEVAvgC3VbAKGBdBIzUdAmXJF6onPqkU5ZTqvNQd6tgG9/DZkcL7VtGqUGRyrZuy9kxpeznnJV6JXa1q9c79rzZb8jn3jLM7puUscn55WHjPrqWZN+q2eVqjONtWJ8RQu+xhjFbAmbEg3fOV4kU7gkriIfcCBcKRc5J3kvKVT+18DboT7xP+xdGJGv/qJ+2Zx0B+eY+7Qjbn3wrc0TN0lziPm7pBz47ul+thX+Mb3p5ZzubtO++dywSvc532HbkB9rNw437m9NLenLa61k/Fuxt6d4Sv72FHOu+mdnKsrx0/1zEKXweG9tHS8AdybHdo=
+  </data>
+ </layer>
+ <layer id="4" name="Directions" width="21" height="24">
+  <data encoding="base64" compression="zlib">
+   eJzVlGsOhCAMhHv/+6hZ17DAyVYTJ9RJWxv/2YRAaDt8lIfIu2za27q3+ex5vDrzGC+G5o96HluxXl5GE3tYgphIs8rYT3HyNhn77glNS+Ou9zQ1X1dzmndz/Jo3YrXmM2fGBg6cBc6mnSzN8ZerjHxk3DWut1cv9lel8b3hLWrNpnK03zLNyfcvW1/UwOLk9bGnmfruxGfWfzpvxTAf30/mzWh6HHe8bEedcbbMB26uI+KOvOivi3gif/SHTGK/Z6uOVez/L8P21Acm1FQ35tatUcyb7A+ylZvh
+  </data>
+ </layer>
+ <layer id="6" name="MazeZones" width="21" height="24">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUwMAJPBgfOIKGcYGjVDAD2Sx0TAiQagelZpAbnqNgFIwCygEAkbobzw==
+  </data>
+ </layer>
+ <layer id="3" name="MazeLocations" width="21" height="24">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUYAPNJKhtobLdxJrXSqK5baQ6hM7mjYJRMAqoBwAmbwMd
+  </data>
+ </layer>
+ <layer id="5" name="ArtistsLocations" width="21" height="24">
+  <data encoding="base64" compression="zlib">
+   eJwLYqAuCKSyeaNgFAwUiCZBbT6V7S4gUl0sEMcAcRyR6gvJcw5OUERl80YB8SB1oB0wCqgKQqhsXjAQAwBMIQTk
+  </data>
+ </layer>
+</map>

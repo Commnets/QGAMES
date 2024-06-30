@@ -1,0 +1,4 @@
+#!/bin/sh
+gcc -c sabre.c -o sabre.o
+gcc -c display.c -o display.o
+gcc -o sabre sabre.o display.o `allegro-config --libs` -framework carbon

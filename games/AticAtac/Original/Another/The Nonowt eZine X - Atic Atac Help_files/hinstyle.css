@@ -1,0 +1,21 @@
+BODY {background-image: url(../../gifpics/solbk.gif);
+scrollbar-face-color: #999999; 
+scrollbar-shadow-color: #CCCCCC; 
+scrollbar-highlight-color: #666666; 
+scrollbar-3dlight-color: #CCCCCC; 
+scrollbar-darkshadow-color: #333333; 
+scrollbar-track-color: #FFFFFF; 
+scrollbar-arrow-color: #FFFFFF }
+HR {color: black}
+H1 {font: bold 28pt "Times New Roman",Times,Arial,Helvetica,Sans-serif; color: blue; text-align: center; padding-right: 1em; padding-left: 1em}
+H2 {font: bold 18pt "Times New Roman",Times,Arial,Helvetica,Sans-serif; text-align: center; padding-right: 1em; padding-left: 1em}
+H3 {font: bold 16pt "Times New Roman",Times,Arial,Helvetica,Sans-serif; text-align: left; padding-right: 1em; padding-left: 1em}
+H4 {font: bold 14pt "Times New Roman",Times,Arial,Helvetica,Sans-serif; text-align: center; padding-right: 1em; padding-left: 1em}
+H5 {font: bold 14pt "Times New Roman",Times,Arial,Helvetica,Sans-serif; text-align: left; padding-right: 1em; padding-left: 1em}
+H6 {font: bold 12pt Arial,Helvetica,Sans-serif; text-align: left; padding-right: 1em; padding-left: 1em}
+P {font: 12pt "Times New Roman",Times,Arial,Helvetica,Sans-serif; text-align: justify; padding-right: 1em; padding-left: 1em}
+BLOCKQUOTE {font: bold 12pt Times,Arial,Helvetica,Sans-serif; text-align: justify}
+A:link {color: red; text-decoration: none}
+A:visited {color: gray; text-decoration: none}
+A:active {color: blue; text-decoration: none}
+A:hover {background: red; color:white; text-decoration: none}

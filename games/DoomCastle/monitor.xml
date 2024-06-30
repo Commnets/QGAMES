@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Monitors>
+	
+	<!-- Include related with the library -->
+	<Include file="ptmonitor.xml"/>
+	
+</Monitors>

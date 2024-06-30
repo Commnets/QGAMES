@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:15f216b8286c3c12cfc5138198e2047a:4bf6100be8af96698edeeb7bd56f98ef:af253bcbc9c40644d9b643427f153ca2$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="BatLeft" file="./forms/BatLeft.png" width="168" height="102"
+		fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="?">
+		<Frame id="FlyLeft (1)" fPosX="65" fPosY="45" fWidth="102" fHeight="41" xoffset="43" yoffset="19" width="102" height="41"/>
+		<Frame id="FlyLeft (2)" fPosX="1" fPosY="1" fWidth="82" fHeight="42" xoffset="48" yoffset="22" width="82" height="42"/>
+		<Frame id="FlyLeft (3)" fPosX="1" fPosY="45" fWidth="62" fHeight="56" xoffset="63" yoffset="20" width="62" height="56"/>
+		<Frame id="FlyLeft (4)" fPosX="85" fPosY="1" fWidth="82" fHeight="42" xoffset="48" yoffset="22" width="82" height="42"/>
+    </Form>
+</CommtyExporter>

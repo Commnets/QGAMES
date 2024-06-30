@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<Maps>
+
+	<!-- Includes -->
+	<Include file="ptworlds.xml"/>
+
+	<!-- For the game to run properly,
+		 all worlds have to have a different id from the scenes, and these from the actions blocks.
+		 The standard actionblocks are from 7000 onwards and from 71000 onwards.
+		 This give us a maximum of 1000 different action blocks per game. -->
+
+	<!-- The very basic world.
+		 Used just like a template to create the rest in a real game 
+		 It is made up of a single scene -->
+	<World id="50000">
+		<Scenes>
+			<Scene id="60000">
+				<Actions>
+					<!-- Type of action related with flying monsters -->
+					<Action id="70000">
+						<Attributes>
+							<Attribute id="TypeOfMonster" value="0"/> <!-- Bees -->
+							<Attribute id="TimeToAppear" value="2"/> <!-- Seconds -->
+						</Attributes>
+					</Action>
+					<!-- Type of action related with flying monsters -->
+					<Action id="70001">
+						<Attributes>
+							<Attribute id="TypeOfMonster" value="1"/> <!-- Birds -->
+							<Attribute id="TimeToAppear" value="4"/> <!-- Seconds -->
+						</Attributes>
+					</Action> 
+					<!-- Type of action related with the monsters on platforms -->
+					<!-- Monster in block 1 -->
+					<Action id="71000"> <!-- @defined at themap.tmx (whatever the map is), parameter 8 block 1 -->
+						<Attributes>
+							<Attribuye id="MonitorId" value="50001"/> <!-- @see dwmonitor.xml -->
+							<Attribute id="Fire" value="YES"/>
+							<Attribute id="TypeOfFire" value="0,6"/> <!-- Arrow ot star flying -->
+							<Attribute id="ImpulseOfFire" value="-3"/>
+							<Attribute id="SecondsToFire" value="5"/>
+							<Attribute id="SecondsBetweenFires" value="0.5"/>
+							<Attribute id="SecondsFiring" value="5"/>
+						</Attributes>
+					</Action>
+					<!-- Type of action, consisting in an environment condition -->
+					<Action id="72000" active="NO">
+						<Attributes>
+							<Attribute id="TypeCondition" value="4"/>
+							<Attribute id="SecondsToStart" value="1"/>
+							<Attribute id="SecondsCondition" value="-1"/> <!-- No end -->
+							<Attribute id="RainDensity" value="0.35"/>
+							<Attribute id="RainBackgroundId" value="50160"/>
+							<Attribute id="CloudsDensity" value="2"/>
+							<Attribute id="LightningsProbability" value="95"/>
+							<Attribute id="LightningsFrecuency" value="1"/>
+						</Attributes>
+					</Action>
+				</Actions>
+				<Attributes>
+					<Attribute id="FUNDAMENTAL" value="YES"/>
+					<Attribute id="NAME" value="Scn Example"/>
+					<Attribute id="MOVEMENT" value="1,0,0"/> <!-- To indicate the axis the scene moves towards -->
+					<Attribute id="BACKGROUNDMUSIC" value="50002"/> <!-- The music in the background if it is on -->
+					<Attribute id="LIQUIDSFLUIDITY" value="6.50"/> <!-- Nothing is 1!! -->
+				</Attributes>
+				<Conexions>
+					<Conexion id="0" with="60001" at="0"/>
+				</Conexions>
+				<Maps>
+					<!-- The backgrounds -->
+					<Map id="50100" file="maps/BKDessert.xml"/>
+					<Map id="50110" file="maps/BKDarkForest.xml"/>
+					<Map id="50120" file="maps/BKCity.xml"/>
+					<Map id="50130" file="maps/BKLandscape.xml"/>
+					<Map id="50140" file="maps/BKMountains.xml"/>
+					<Map id="50150" file="maps/BKTemple.xml"/>
+					<!-- And a tile map just like an example again -->
+					<Map id="60000" file="maps/Example.tmx"/>
+				</Maps>
+				<Entities>
+					<!-- Over which layer have the entities to be located? -->
+					<Entity id="50100" layer="Solid_1"/> <!-- The male main ninja -->
+					<Entity id="50101" layer="Solid_1"/> <!-- The female main ninja -->
+					<SetOfEntities fromId="51000" number="110" layer="Solid_1"/> <!-- The shootings -->
+					<SetOfEntities fromId="30000" number="200" layer="Solid_1"/> <!-- The food -->
+					<SetOfEntities fromId="31000" number="200" layer="Solid_1"/> <!-- Things to be caught -->
+					<SetOfEntities fromId="50110" number="10" layer="DecorationFront_1"/> <!-- The bees -->
+					<SetOfEntities fromId="50120" number="10" layer="DecorationFront_1"/> <!-- The birds -->
+					<SetOfEntities fromId="32000" number="10" layer="Solid_1"/> <!-- The bad guys -->
+				</Entities>
+			</Scene>
+			
+			<!-- Just to show how two scenes connect -->
+			<Scene id="60001">
+				<Actions>
+					<Action id="71001"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50002"/> 
+							<Attribute id="Fire" value="YES"/>
+							<Attribute id="TypeOfFire" value="0"/> 
+							<Attribute id="ImpulseOfFire" value="1"/>
+							<Attribute id="SecondsToFire" value="5"/>
+							<Attribute id="SecondsBetweenFires" value="0.5"/>
+							<Attribute id="SecondsFiring" value="5"/>
+						</Attributes>
+					</Action>
+					<Action id="71002"> 
+						<Attributes>
+							<Attribuye id="MonitorId" value="50003"/> 
+							<Attribute id="Fire" value="YES"/>
+							<Attribute id="TypeOfFire" value="1"/> 
+							<Attribute id="ImpulseOfFire" value="10"/>
+							<Attribute id="SecondsToFire" value="5"/>
+							<Attribute id="SecondsBetweenFires" value="2"/>
+							<Attribute id="SecondsFiring" value="4"/>
+						</Attributes>
+					</Action>
+				</Actions>
+				<Attributes>
+					<Attribute id="FUNDAMENTAL" value="YES"/>
+					<Attribute id="NAME" value="Scn Example Next"/>
+					<Attribute id="MOVEMENT" value="1,0,0"/> 
+					<Attribute id="BACKGROUNDMUSIC" value="50002"/> 
+					<Attribute id="LIQUIDSFLUIDITY" value="5.50"/> 
+				</Attributes>
+				<Conexions>
+					<Conexion id="1" with="60000" at="2"/>
+				</Conexions>
+				<Maps>
+					<Map id="50100" file="maps/BKDessert.xml"/>
+					<Map id="50110" file="maps/BKDarkForest.xml"/>
+					<Map id="50120" file="maps/BKCity.xml"/>
+					<Map id="50130" file="maps/BKLandscape.xml"/>
+					<Map id="50140" file="maps/BKMountains.xml"/>
+					<Map id="50150" file="maps/BKTemple.xml"/>
+					<Map id="60001" file="maps/ExampleNext.tmx"/>
+				</Maps>
+				<Entities>
+					<Entity id="50100" layer="Solid_1"/> 
+					<Entity id="50101" layer="Solid_1"/> 
+					<SetOfEntities fromId="51000" number="110" layer="Solid_1"/> 
+					<SetOfEntities fromId="30000" number="200" layer="Solid_1"/> 
+					<SetOfEntities fromId="31000" number="200" layer="Solid_1"/> 
+					<SetOfEntities fromId="50110" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="50120" number="10" layer="DecorationFront_1"/> 
+					<SetOfEntities fromId="32000" number="10" layer="Solid_1"/> 
+				</Entities>
+			</Scene>
+		</Scenes>
+		<Attributes>
+			<Attribute id="NAME" value="Wrld Example"/>
+		</Attributes>
+	</World>
+	
+</Maps>

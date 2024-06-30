@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:0d13f613b60e04b29de26ebcee8ce7b5:e8e1a3a8bc7d1f4b70a3f41f69d37412:25d788d94fb17add2520f21df3e9862b$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="chairsandtables" file="./forms/chairsandtables.png" width="1024" height="3584"
+		fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="?">
+		<Frame id="chair_E" fPosX="0" fPosY="0" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="chair_N" fPosX="256" fPosY="0" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="chair_S" fPosX="512" fPosY="0" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="chair_W" fPosX="768" fPosY="0" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="tableChairsBroken_E" fPosX="0" fPosY="512" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="tableChairsBroken_N" fPosX="256" fPosY="512" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="tableChairsBroken_S" fPosX="512" fPosY="512" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="tableChairsBroken_W" fPosX="768" fPosY="512" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="tableRound_E" fPosX="0" fPosY="1024" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="tableRound_N" fPosX="256" fPosY="1024" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="tableRound_S" fPosX="512" fPosY="1024" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="tableRound_W" fPosX="768" fPosY="1024" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="tableRoundChairs_E" fPosX="0" fPosY="1536" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="tableRoundChairs_N" fPosX="256" fPosY="1536" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="tableRoundChairs_S" fPosX="512" fPosY="1536" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="tableRoundChairs_W" fPosX="768" fPosY="1536" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="tableRoundItemsChairs_E" fPosX="0" fPosY="2048" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="tableRoundItemsChairs_N" fPosX="256" fPosY="2048" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="tableRoundItemsChairs_S" fPosX="512" fPosY="2048" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="tableRoundItemsChairs_W" fPosX="768" fPosY="2048" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="tableShort_E" fPosX="0" fPosY="2560" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="tableShort_N" fPosX="256" fPosY="2560" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="tableShort_S" fPosX="512" fPosY="2560" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="tableShort_W" fPosX="768" fPosY="2560" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="tableShortChairs_E" fPosX="0" fPosY="3072" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="tableShortChairs_N" fPosX="256" fPosY="3072" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="tableShortChairs_S" fPosX="512" fPosY="3072" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+		<Frame id="tableShortChairs_W" fPosX="768" fPosY="3072" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256" height="512"/>
+    </Form>
+</CommtyExporter>
