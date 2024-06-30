@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Forms>
+	<Form id="1" name="bk1" file=".\forms\Background1.png" width="970" height="546" 
+		fSpacing="0" fMargin="0" fWidth="970" fHeight="546" aColor="255" nFrames="1"/>
+	<Form id="2" name="bk2" file=".\forms\Background2.png" width="640" height="480"
+		fSpacing="0" fMargin="0" fWidth="640" fHeight="480" aColor="255" nFrames="1"/>
+	<Form id="4" name="wolf" file=".\forms\animate.png" width="768" height="82"
+		fSpacing="0" fMargin="0" fWidth="128" fHeight="82" aColor="255" nFrames="6"/>
+</Forms>

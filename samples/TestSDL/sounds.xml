@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Sounds>
+
+	<Sound id="10" type="0" loop="-1" file=".\sounds\backgroundsound1.wav"/>
+	<Sound id="11" type="0" loop="-1" file=".\sounds\backgroundsound2.wav"/>
+	
+</Sounds>

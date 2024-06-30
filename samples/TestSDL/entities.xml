@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<Entities>
+
+	<!-- The score objects -->
+	<SetOfEntities fromId="10" number="4">
+		<Forms>
+			<Form id="10"/>
+			<Form id="11"/>
+			<Form id="12"/>
+			<Form id="13"/>
+		</Forms>
+	</SetOfEntities>
+
+	<!-- The ninja -->
+	<Entity id="100">
+		<Forms>
+			<!-- Looking to the right -->
+			<Form id="20"/>
+			<!-- Looking to the left -->
+			<Form id="30"/>
+		</Forms>
+		<Movements>
+			<!-- Run -->
+			<Movement id="100"/>
+			<!-- Stay -->
+			<Movement id="101"/>
+			<!-- Jump -->
+			<Movement id="102"/>
+			<!-- Fall -->
+			<Movement id="103"/>
+		</Movements>
+		<Animations>
+			<!-- Running right -->
+			<Animation id="0" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="20"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="6"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Running left -->
+			<Animation id="1" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="30"/>
+					<Attribute id="INITIALASPECT" value="4"/>
+					<Attribute id="FINALASPECT" value="10"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Falling right -->
+			<Animation id="2" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="20"/>
+					<Attribute id="INITIALASPECT" value="6"/>
+					<Attribute id="FINALASPECT" value="8"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Falling left -->
+			<Animation id="3" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="30"/>
+					<Attribute id="INITIALASPECT" value="2"/>
+					<Attribute id="FINALASPECT" value="4"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Jumping right -->
+			<Animation id="4" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="20"/>
+					<Attribute id="INITIALASPECT" value="6"/>
+					<Attribute id="FINALASPECT" value="8"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Jumping left -->
+			<Animation id="5" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="30"/>
+					<Attribute id="INITIALASPECT" value="2"/>
+					<Attribute id="FINALASPECT" value="4"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+				<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Staying right -->
+			<Animation id="6" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="20"/>
+					<Attribute id="INITIALASPECT" value="6"/>
+					<Attribute id="FINALASPECT" value="8"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+			<!-- Staying left -->
+			<Animation id="7" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="30"/>
+					<Attribute id="INITIALASPECT" value="2"/>
+					<Attribute id="FINALASPECT" value="4"/>
+					<Attribute id="FRACTIONTOCHANGE" value="6"/>
+					<Attribute id="LOOP" value="1"/>
+					<!-- Not linked with anyone -->
+				</Attributes>
+			</Animation>
+		</Animations>
+		<States>
+			<!-- Staying looking to the right -->
+			<State id="0" animation="6" movement="101"/>
+			<!-- Staying looking to the left -->
+			<State id="1" animation="7" movement="101"/>
+			<!-- Running looking to the right -->
+			<State id="2" animation="0" movement="100">
+				<Attributes>
+					<Attribute id="DIRECTION" value="1,0,0"/>
+				</Attributes>
+			</State>
+			<!-- Running looking to the left -->
+			<State id="3" animation="1" movement="100">
+				<Attributes>
+					<Attribute id="DIRECTION" value="-1,0,0"/>
+				</Attributes>
+			</State>			
+			<!-- Falling looking to the right -->
+			<State id="4" animation="2" movement="103">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,1,0"/>
+				</Attributes>
+			</State>
+			<!-- Falling looking to the left -->
+			<State id="5" animation="3" movement="103">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,1,0"/>
+				</Attributes>
+			</State>			
+			<!-- Jumping looking to the right -->
+			<State id="6" animation="4" movement="102">
+				<Attributes>
+					<Attribute id="DIRECTION" value="1,-1,0"/>
+				</Attributes>
+			</State>
+			<!-- Jumping looking to the left -->
+			<State id="7" animation="5" movement="102">
+				<Attributes>
+					<Attribute id="DIRECTION" value="-1,-1,0"/>
+				</Attributes>
+			</State>			
+		</States>
+	</Entity>
+
+</Entities>

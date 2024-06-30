@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Movements>
+	<Movement id="1">
+		<Variable id="1" value="2.0"/>
+		<Variable id="2" value="3.5"/>
+		<Variable id="3" value="1.4"/>
+	</Movement>
+	<Movement id="2">
+		<Variable id="1" value="1.1"/>
+		<Variable id="2" value="2.6"/>
+		<Variable id="3" value="4.8"/>
+	</Movement>
+	<Movement id="3">
+		<Variable id="1" value="2.1"/>
+		<Variable id="2" value="3.6"/>
+		<Variable id="3" value="1.7"/>
+	</Movement>
+</Movements>

@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<Rooms>
+
+	<Room id="100" type="100">
+		<!-- 
+			Any decoration element has and id unique in the room, 
+			a entity template (a copy will be done), an initial form and aspect (it might change along the game).
+			The position of the decoration element is defined in terms of pixels 
+		-->
+		<Decoration>
+			<DecorationElement id="0" entityId="1" iform="80000" iaspect="0" position="200,200,-32"/>
+		</Decoration>
+		<Walls>
+			<!-- 
+				 Wall id. unique in the room.
+				 Brick entity id. A clone will be created per brick from this entity.
+				 Initial Form and aspect. Obvioulsy they can changle with the game.
+				 The position of the rference corner of the first brick.
+				 The size of the wall in number of bricks. They must be all positive.
+			-->
+			<Wall 
+				id="0" 
+				brickEntityId="0" brickIForm="80000" brickIAspect="0" position="50,50,-32" 
+				bricksWidth="8" bricksHeight="3" bricksDepth="1">
+				<Hole position="1,0,0"/>
+				<Hole position="2,0,0"/>
+				<!-- 
+					Any decoration element has and id unique in the wall, 
+					a entity template (a copy will be done), an initial form and aspect (it might change along the game).
+					The position of the decoration element is defined in terms of bricks 
+				-->
+				<Decoration>
+					<DecorationElement id="0" entityId="1" iform="80000" iaspect="0" position="2,2,1"/>
+				</Decoration>
+			</Wall>
+			<Wall 
+				id="1" 
+				brickEntityId="0" brickIForm="80000" brickIAspect="0" position="50,400,-32" 
+				bricksWidth="8" bricksHeight="3" bricksDepth="1">
+				<Decoration>
+					<DecorationElement id="0" entityId="1" iform="80000" iaspect="0" position="1,2,1"/>
+				</Decoration>
+			</Wall>
+			<Wall 
+				id="2" 
+				brickEntityId="0" brickIForm="80000" brickIAspect="0" position="100,150,-32" 
+				bricksWidth="1" bricksHeight="2" bricksDepth="5">
+				<Decoration>
+					<DecorationElement id="0" entityId="1" iform="80000" iaspect="0" position="1,0,0"/>
+				</Decoration>
+			</Wall>
+			<Wall 
+				id="3" 
+				brickEntityId="0" brickIForm="80000" brickIAspect="0" position="400,150,-32" 
+				bricksWidth="1" bricksHeight="5" bricksDepth="5">
+				<!-- A big windows in the middle -->
+				<Hole position="0,2,1"/>
+				<Hole position="0,3,1"/>
+				<Hole position="0,2,2"/>
+				<Hole position="0,3,2"/>
+				<Hole position="0,2,3"/>
+				<Hole position="0,3,3"/>
+				<Decoration>
+					<DecorationElement id="0" entityId="1" iform="80000" iaspect="0" position="0.25,1,1"/>
+				</Decoration>
+			</Wall>
+		</Walls>
+
+	</Room>
+
+	<Room id="101" type="100">
+	
+		<OverRoom id="100"/>
+
+	</Room>
+
+</Rooms>

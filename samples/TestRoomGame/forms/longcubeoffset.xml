@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:7c3aeae0e24eb5fac1f9c1326b0c67b9:bfac77faadf2675f7fd5e1921aa47481:ee5d376690acf0244541b98ac23f4acf$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="longcubeoffsettps" file="./forms/longcubeoffsettps.png" width="161" height="199"
+		fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="?">
+		<Frame id="longcubeoffset" fPosX="0" fPosY="0" fWidth="161" fHeight="199" xoffset="40" yoffset="20" width="161" height="199"/>
+    </Form>
+</CommtyExporter>

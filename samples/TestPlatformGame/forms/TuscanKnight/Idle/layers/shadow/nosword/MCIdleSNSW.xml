@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:16f72e1d7250ebf98cf7f0d691592979:6ae5096afb74d8eef6dd89583ebb1e52:7e0a2ca297706ab4d8002fd369644946$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="MCIdleSNSW" file="./forms/MCIdleSNSW.png" width="89" height="120"
+		fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="?">
+		<Frame id="shadow_Tuscan_Idle_00000" fPosX="0" fPosY="0" fWidth="47" fHeight="32" xoffset="90" yoffset="107" width="47" height="32"/>
+		<Frame id="shadow_Tuscan_Idle_10000" fPosX="47" fPosY="0" fWidth="42" fHeight="34" xoffset="93" yoffset="106" width="42" height="34"/>
+		<Frame id="shadow_Tuscan_Idle_20000" fPosX="0" fPosY="91" fWidth="37" fHeight="29" xoffset="93" yoffset="108" width="37" height="29"/>
+		<Frame id="shadow_Tuscan_Idle_30000" fPosX="0" fPosY="62" fWidth="46" fHeight="29" xoffset="85" yoffset="107" width="46" height="29"/>
+		<Frame id="shadow_Tuscan_Idle_40000" fPosX="37" fPosY="93" fWidth="49" fHeight="27" xoffset="86" yoffset="109" width="49" height="27"/>
+		<Frame id="shadow_Tuscan_Idle_50000" fPosX="46" fPosY="34" fWidth="41" fHeight="30" xoffset="91" yoffset="110" width="41" height="30"/>
+		<Frame id="shadow_Tuscan_Idle_60000" fPosX="46" fPosY="64" fWidth="41" fHeight="29" xoffset="92" yoffset="109" width="41" height="29"/>
+		<Frame id="shadow_Tuscan_Idle_70000" fPosX="0" fPosY="32" fWidth="46" fHeight="30" xoffset="91" yoffset="110" width="46" height="30"/>
+    </Form>
+</CommtyExporter>

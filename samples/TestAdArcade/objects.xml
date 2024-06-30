@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Objects>
+
+	<!-- Includes -->
+	<Include file="adobjects.xml"/>
+
+	<Background id="100" form="200" times="2">
+		<Attributes>
+			<Attribute id="FADEGRADE" value="255"/>
+			<Attribute id="AUTOMATICMOVE" value="YES"/>
+			<Attribute id="MOVDIRECTION" value="0,-1,0"/>
+			<Attribute id="SPEED" value="0"/>
+			<Attribute id="PIXELS" value="1"/>
+			<Attribute id="ROLL" value="YES"/>
+		</Attributes>
+	</Background>
+	
+</Objects>

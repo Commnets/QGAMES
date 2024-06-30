@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Sounds>
+	<Sound id="1" file=".\sounds\Sound1.mp3"/>
+	<Sound id="2" file=".\sounds\Sound2.mp3"/>
+	<Sound id="3" file=".\sounds\Sound3.mp3"/>
+	<Sound id="4" file=".\sounds\Sound4.mp3"/>
+</Sounds>

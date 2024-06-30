@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Forms>
+
+	<!-- The ninja -->
+	<Form id="0" name="ninjaright" file=".\ninjaright.png" width="640" height="64"
+		fSpacing="0" fMargin="0" fWidth="64" fHeight="64" aColor="255" nFrames="10"/>
+	<Form id="1" name="ninjaleft" file=".\ninjaleft.png" width="640" height="64"
+		fSpacing="0" fMargin="0" fWidth="64" fHeight="64" aColor="255" nFrames="10"/>
+
+	<!-- The backgrounds -->
+	<Form id="100" name="background1" file=".\background1.jpeg" width="640" height="480"
+		fSpacing="0" fMargin="0" fWidth="640" fHeight="480" aColor="255" nFrames="1"/>
+	<Form id="101" name="background2" file=".\background2.jpeg" width="640" height="480"
+		fSpacing="0" fMargin="0" fWidth="640" fHeight="480" aColor="255" nFrames="1"/>
+
+</Forms>

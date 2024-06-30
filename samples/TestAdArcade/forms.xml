@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+<Forms>
+
+	<!-- Includes -->
+	<Include file="adforms.xml"/>
+	
+	<!-- The battle spaceship -->
+	<Form id="99" name="BattleshipGameLogo" file="forms/BattleshipGameLogo.png" width="32" height="32" 
+            fSpacing="0" fMargin="0" fWidth="32" fHeight="32" aColor="255" nFrames="1"/>
+	<Form id="100" name="SpaceshipRight" file="forms/SpaceshipRight.png" width="92" height="288" 
+            fSpacing="0" fMargin="0" fWidth="92" fHeight="96" aColor="255" nFrames="3"/>
+	<Form id="101" name="SpaceshipLeft" file="forms/SpaceshipLeft.png" width="92" height="288" 
+            fSpacing="0" fMargin="0" fWidth="92" fHeight="96" aColor="255" nFrames="3"/>
+	<Form id="102" name="SpaceshipStay" file="forms/SpaceshipStay.png" width="92" height="288" 
+            fSpacing="0" fMargin="0" fWidth="92" fHeight="96" aColor="255" nFrames="3"/>
+	<Form id="103" name="Battleship" file="forms/Battleship.png" width="276" height="255" 
+            fSpacing="0" fMargin="0" fWidth="276" fHeight="255" aColor="255" nFrames="1"/>
+	<Form id="104" name="BattleshipLittle" file="forms/BattleshipLittle.png" width="50" height="46" 
+            fSpacing="0" fMargin="0" fWidth="50" fHeight="46" aColor="255" nFrames="1"/>
+	<Form id="105" name="BattleshipRotating" file="forms/BattleshipRotating.png" width="2304" height="96" 
+            fSpacing="0" fMargin="0" fWidth="96" fHeight="96" aColor="255" nFrames="24"/>
+
+	<!-- Explosion -->
+	<Form id="106" name="Explosion" file="forms/explosion.png" width="1280" height="1280"
+			fSpacing="0" fMargin="0" fWidth="256" fHeight="256" aColor="255" nFrames="25"/>
+			
+	<!-- The asteroids -->
+	<!-- asteroid type 1 -->
+	<Form id="110" name="Asteroid8" file="forms/asteroids8.png" width="854" height="447"
+			fSpacing="0" fMargin="0" fWidth="100" fHeight="100" aColor="255" nFrames="16">
+		<Frame id="00" fPosX="000" fPosY="302" fWidth="152" fHeight="144" xoffset="077" yoffset="53" width="152" height="144"/>
+		<Frame id="01" fPosX="000" fPosY="000" fWidth="161" fHeight="141" xoffset="074" yoffset="56" width="161" height="141"/>
+		<Frame id="02" fPosX="322" fPosY="000" fWidth="157" fHeight="138" xoffset="077" yoffset="53" width="157" height="138"/>
+		<Frame id="03" fPosX="152" fPosY="302" fWidth="151" fHeight="139" xoffset="082" yoffset="43" width="151" height="139"/>
+		<Frame id="04" fPosX="420" fPosY="138" fWidth="144" fHeight="152" xoffset="085" yoffset="35" width="144" height="152"/>
+		<Frame id="05" fPosX="000" fPosY="141" fWidth="141" fHeight="161" xoffset="086" yoffset="32" width="141" height="161"/>
+		<Frame id="06" fPosX="282" fPosY="141" fWidth="138" fHeight="157" xoffset="091" yoffset="35" width="138" height="157"/>
+		<Frame id="07" fPosX="715" fPosY="144" fWidth="139" fHeight="151" xoffset="100" yoffset="40" width="139" height="151"/>
+		<Frame id="08" fPosX="636" fPosY="000" fWidth="152" fHeight="144" xoffset="095" yoffset="43" width="152" height="144"/>
+		<Frame id="09" fPosX="161" fPosY="000" fWidth="161" fHeight="141" xoffset="089" yoffset="43" width="161" height="141"/>
+		<Frame id="10" fPosX="479" fPosY="000" fWidth="157" fHeight="138" xoffset="090" yoffset="49" width="157" height="138"/>
+		<Frame id="11" fPosX="564" fPosY="144" fWidth="151" fHeight="139" xoffset="091" yoffset="58" width="151" height="139"/>
+		<Frame id="12" fPosX="557" fPosY="295" fWidth="144" fHeight="152" xoffset="096" yoffset="53" width="144" height="152"/>
+		<Frame id="13" fPosX="141" fPosY="141" fWidth="141" fHeight="161" xoffset="098" yoffset="47" width="141" height="161"/>
+		<Frame id="14" fPosX="420" fPosY="290" fWidth="137" fHeight="157" xoffset="096" yoffset="48" width="137" height="157"/>
+		<Frame id="15" fPosX="701" fPosY="295" fWidth="139" fHeight="151" xoffset="085" yoffset="49" width="139" height="151"/>
+	</Form>
+
+	<!-- asteroid type 2 -->
+	<Form id="111" name="Asteroid9" file="forms/asteroids9.png" width="854" height="447"
+			fSpacing="0" fMargin="0" fWidth="100" fHeight="100" aColor="255" nFrames="16">
+		<Frame id="00" fPosX="000" fPosY="302" fWidth="152" fHeight="144" xoffset="077" yoffset="53" width="152" height="144"/>
+		<Frame id="01" fPosX="000" fPosY="000" fWidth="161" fHeight="141" xoffset="074" yoffset="56" width="161" height="141"/>
+		<Frame id="02" fPosX="322" fPosY="000" fWidth="157" fHeight="138" xoffset="077" yoffset="53" width="157" height="138"/>
+		<Frame id="03" fPosX="152" fPosY="302" fWidth="151" fHeight="139" xoffset="082" yoffset="43" width="151" height="139"/>
+		<Frame id="04" fPosX="420" fPosY="138" fWidth="144" fHeight="152" xoffset="085" yoffset="35" width="144" height="152"/>
+		<Frame id="05" fPosX="000" fPosY="141" fWidth="141" fHeight="161" xoffset="086" yoffset="32" width="141" height="161"/>
+		<Frame id="06" fPosX="282" fPosY="141" fWidth="138" fHeight="157" xoffset="091" yoffset="35" width="138" height="157"/>
+		<Frame id="07" fPosX="715" fPosY="144" fWidth="139" fHeight="151" xoffset="100" yoffset="40" width="139" height="151"/>
+		<Frame id="08" fPosX="636" fPosY="000" fWidth="152" fHeight="144" xoffset="095" yoffset="43" width="152" height="144"/>
+		<Frame id="09" fPosX="161" fPosY="000" fWidth="161" fHeight="141" xoffset="089" yoffset="43" width="161" height="141"/>
+		<Frame id="10" fPosX="479" fPosY="000" fWidth="157" fHeight="138" xoffset="090" yoffset="49" width="157" height="138"/>
+		<Frame id="11" fPosX="564" fPosY="144" fWidth="151" fHeight="139" xoffset="091" yoffset="58" width="151" height="139"/>
+		<Frame id="12" fPosX="557" fPosY="295" fWidth="144" fHeight="152" xoffset="096" yoffset="53" width="144" height="152"/>
+		<Frame id="13" fPosX="141" fPosY="141" fWidth="141" fHeight="161" xoffset="098" yoffset="47" width="141" height="161"/>
+		<Frame id="14" fPosX="420" fPosY="290" fWidth="137" fHeight="157" xoffset="096" yoffset="48" width="137" height="157"/>
+		<Frame id="15" fPosX="701" fPosY="295" fWidth="139" fHeight="151" xoffset="085" yoffset="49" width="139" height="151"/>
+	</Form>
+	
+	<!--asteroid type 3 -->
+	<Form id="112" name="Asteroid10" file="forms/asteroids10.png" width="451" height="877"
+			fSpacing="0" fMargin="0" fWidth="100" fHeight="100" aColor="255" nFrames="16">
+		<Frame id="00" fPosX="144" fPosY="586" fWidth="149" fHeight="144" xoffset="92" yoffset="46" width="149" height="144"/>
+		<Frame id="01" fPosX="148" fPosY="148" fWidth="159" fHeight="148" xoffset="86" yoffset="47" width="159" height="148"/>
+		<Frame id="02" fPosX="145" fPosY="441" fWidth="156" fHeight="145" xoffset="87" yoffset="50" width="156" height="145"/>
+		<Frame id="03" fPosX="144" fPosY="730" fWidth="145" fHeight="146" xoffset="93" yoffset="49" width="145" height="146"/>
+		<Frame id="04" fPosX="000" fPosY="634" fWidth="144" fHeight="149" xoffset="92" yoffset="50" width="144" height="149"/>
+		<Frame id="05" fPosX="000" fPosY="000" fWidth="148" fHeight="160" xoffset="87" yoffset="43" width="148" height="160"/>
+		<Frame id="06" fPosX="000" fPosY="320" fWidth="145" fHeight="157" xoffset="87" yoffset="44" width="145" height="157"/>
+		<Frame id="07" fPosX="304" fPosY="297" fWidth="146" fHeight="145" xoffset="87" yoffset="51" width="146" height="145"/>
+		<Frame id="08" fPosX="301" fPosY="442" fWidth="149" fHeight="144" xoffset="83" yoffset="50" width="149" height="144"/>
+		<Frame id="09" fPosX="148" fPosY="000" fWidth="160" fHeight="148" xoffset="79" yoffset="45" width="160" height="148"/>
+		<Frame id="10" fPosX="147" fPosY="296" fWidth="157" fHeight="145" xoffset="81" yoffset="45" width="157" height="145"/>
+		<Frame id="11" fPosX="289" fPosY="731" fWidth="145" fHeight="146" xoffset="86" yoffset="45" width="145" height="146"/>
+		<Frame id="12" fPosX="307" fPosY="148" fWidth="144" fHeight="149" xoffset="88" yoffset="41" width="144" height="149"/>
+		<Frame id="13" fPosX="000" fPosY="160" fWidth="147" fHeight="160" xoffset="90" yoffset="37" width="147" height="160"/>
+		<Frame id="14" fPosX="000" fPosY="477" fWidth="144" fHeight="157" xoffset="93" yoffset="39" width="144" height="157"/>
+		<Frame id="15" fPosX="293" fPosY="586" fWidth="146" fHeight="145" xoffset="91" yoffset="44" width="146" height="145"/>
+	</Form>
+	
+	<!-- asteroid type 4 -->
+	<Form id="113" name="Asteroid11" file="forms/asteroids11.png" width="846" height="440"
+			fSpacing="0" fMargin="0" fWidth="100" fHeight="100" aColor="255" nFrames="16">
+		<Frame id="00" fPosX="147" fPosY="139" fWidth="150" fHeight="144" xoffset="95" yoffset="44" width="150" height="144"/>
+		<Frame id="01" fPosX="000" fPosY="000" fWidth="153" fHeight="139" xoffset="94" yoffset="50" width="153" height="139"/>
+		<Frame id="02" fPosX="306" fPosY="000" fWidth="153" fHeight="140" xoffset="92" yoffset="52" width="153" height="140"/>
+		<Frame id="03" fPosX="459" fPosY="000" fWidth="148" fHeight="140" xoffset="95" yoffset="57" width="148" height="140"/>
+		<Frame id="04" fPosX="000" fPosY="279" fWidth="144" fHeight="150" xoffset="94" yoffset="53" width="144" height="150"/>
+		<Frame id="05" fPosX="288" fPosY="284" fWidth="139" fHeight="153" xoffset="93" yoffset="52" width="139" height="153"/>
+		<Frame id="06" fPosX="427" fPosY="287" fWidth="140" fHeight="153" xoffset="90" yoffset="50" width="140" height="153"/>
+		<Frame id="07" fPosX="447" fPosY="140" fWidth="140" fHeight="147" xoffset="85" yoffset="53" width="140" height="147"/>
+		<Frame id="08" fPosX="297" fPosY="140" fWidth="150" fHeight="144" xoffset="79" yoffset="52" width="150" height="144"/>
+		<Frame id="09" fPosX="153" fPosY="000" fWidth="153" fHeight="139" xoffset="77" yoffset="51" width="153" height="139"/>
+		<Frame id="10" fPosX="607" fPosY="000" fWidth="153" fHeight="140" xoffset="79" yoffset="48" width="153" height="140"/>
+		<Frame id="11" fPosX="000" fPosY="139" fWidth="147" fHeight="140" xoffset="82" yoffset="43" width="147" height="140"/>
+		<Frame id="12" fPosX="144" fPosY="283" fWidth="144" fHeight="150" xoffset="86" yoffset="37" width="144" height="150"/>
+		<Frame id="13" fPosX="567" fPosY="287" fWidth="139" fHeight="153" xoffset="92" yoffset="35" width="139" height="153"/>
+		<Frame id="14" fPosX="706" fPosY="287" fWidth="140" fHeight="153" xoffset="94" yoffset="37" width="140" height="153"/>
+		<Frame id="15" fPosX="587" fPosY="140" fWidth="140" fHeight="147" xoffset="99" yoffset="40" width="140" height="147"/>
+	</Form>
+
+	<!-- asteroid type 5 -->
+	<Form id="114" name="Asteroid12" file="forms/asteroids12.png" width="846" height="440"
+			fSpacing="0" fMargin="0" fWidth="100" fHeight="100" aColor="255" nFrames="16">
+		<Frame id="00" fPosX="147" fPosY="139" fWidth="150" fHeight="144" xoffset="95" yoffset="44" width="150" height="144"/>
+		<Frame id="01" fPosX="000" fPosY="000" fWidth="153" fHeight="139" xoffset="94" yoffset="50" width="153" height="139"/>
+		<Frame id="02" fPosX="306" fPosY="000" fWidth="153" fHeight="140" xoffset="92" yoffset="52" width="153" height="140"/>
+		<Frame id="03" fPosX="459" fPosY="000" fWidth="148" fHeight="140" xoffset="95" yoffset="57" width="148" height="140"/>
+		<Frame id="04" fPosX="000" fPosY="279" fWidth="144" fHeight="150" xoffset="94" yoffset="53" width="144" height="150"/>
+		<Frame id="05" fPosX="288" fPosY="284" fWidth="139" fHeight="153" xoffset="93" yoffset="52" width="139" height="153"/>
+		<Frame id="06" fPosX="427" fPosY="287" fWidth="140" fHeight="153" xoffset="90" yoffset="50" width="140" height="153"/>
+		<Frame id="07" fPosX="447" fPosY="140" fWidth="140" fHeight="147" xoffset="85" yoffset="53" width="140" height="147"/>
+		<Frame id="08" fPosX="297" fPosY="140" fWidth="150" fHeight="144" xoffset="79" yoffset="52" width="150" height="144"/>
+		<Frame id="09" fPosX="153" fPosY="000" fWidth="153" fHeight="139" xoffset="77" yoffset="51" width="153" height="139"/>
+		<Frame id="10" fPosX="607" fPosY="000" fWidth="153" fHeight="140" xoffset="79" yoffset="48" width="153" height="140"/>
+		<Frame id="11" fPosX="000" fPosY="139" fWidth="147" fHeight="140" xoffset="82" yoffset="43" width="147" height="140"/>
+		<Frame id="12" fPosX="144" fPosY="283" fWidth="144" fHeight="150" xoffset="86" yoffset="37" width="144" height="150"/>
+		<Frame id="13" fPosX="567" fPosY="287" fWidth="139" fHeight="153" xoffset="92" yoffset="35" width="139" height="153"/>
+		<Frame id="14" fPosX="706" fPosY="287" fWidth="140" fHeight="153" xoffset="94" yoffset="37" width="140" height="153"/>
+		<Frame id="15" fPosX="587" fPosY="140" fWidth="140" fHeight="147" xoffset="99" yoffset="40" width="140" height="147"/>
+	</Form>
+	
+	<!-- asteroid type 6 -->
+	<Form id="115" name="Asteroid13" file="forms/asteroids13.png" width="846" height="440"
+			fSpacing="0" fMargin="0" fWidth="100" fHeight="100" aColor="255" nFrames="16">
+		<Frame id="00" fPosX="147" fPosY="139" fWidth="150" fHeight="144" xoffset="95" yoffset="44" width="150" height="144"/>
+		<Frame id="01" fPosX="000" fPosY="000" fWidth="153" fHeight="139" xoffset="94" yoffset="50" width="153" height="139"/>
+		<Frame id="02" fPosX="306" fPosY="000" fWidth="153" fHeight="140" xoffset="92" yoffset="52" width="153" height="140"/>
+		<Frame id="03" fPosX="459" fPosY="000" fWidth="148" fHeight="140" xoffset="95" yoffset="57" width="148" height="140"/>
+		<Frame id="04" fPosX="000" fPosY="279" fWidth="144" fHeight="150" xoffset="94" yoffset="53" width="144" height="150"/>
+		<Frame id="05" fPosX="288" fPosY="284" fWidth="139" fHeight="153" xoffset="93" yoffset="52" width="139" height="153"/>
+		<Frame id="06" fPosX="427" fPosY="287" fWidth="140" fHeight="153" xoffset="90" yoffset="50" width="140" height="153"/>
+		<Frame id="07" fPosX="447" fPosY="140" fWidth="140" fHeight="147" xoffset="85" yoffset="53" width="140" height="147"/>
+		<Frame id="08" fPosX="297" fPosY="140" fWidth="150" fHeight="144" xoffset="79" yoffset="52" width="150" height="144"/>
+		<Frame id="09" fPosX="153" fPosY="000" fWidth="153" fHeight="139" xoffset="77" yoffset="51" width="153" height="139"/>
+		<Frame id="10" fPosX="607" fPosY="000" fWidth="153" fHeight="140" xoffset="79" yoffset="48" width="153" height="140"/>
+		<Frame id="11" fPosX="000" fPosY="139" fWidth="147" fHeight="140" xoffset="82" yoffset="43" width="147" height="140"/>
+		<Frame id="12" fPosX="144" fPosY="283" fWidth="144" fHeight="150" xoffset="86" yoffset="37" width="144" height="150"/>
+		<Frame id="13" fPosX="567" fPosY="287" fWidth="139" fHeight="153" xoffset="92" yoffset="35" width="139" height="153"/>
+		<Frame id="14" fPosX="706" fPosY="287" fWidth="140" fHeight="153" xoffset="94" yoffset="37" width="140" height="153"/>
+		<Frame id="15" fPosX="587" fPosY="140" fWidth="140" fHeight="147" xoffset="99" yoffset="40" width="140" height="147"/>
+	</Form>
+	
+	<!-- The battleship shootings -->
+	<Form id="120" name="shootings" file="forms/bullets.png" width="120" height="50"
+			fSpacing="0" fMargin="0" fWidth="40" fHeight="50" aColor="255" nFrames="3"/>
+	
+	<!-- The different type of shootings -->
+	<Form id="150" name="shootings1" file="forms/shootings1.png" width="39" height="117"
+			fSpacing="0" fMargin="0" fWidth="39" fHeight="39" aColor="255" nFrames="3"/>
+	<Form id="151" name="shootings2" file="forms/shootings2.png" width="68" height="285"
+			fSpacing="0" fMargin="0" fWidth="68" fHeight="95" aColor="255" nFrames="3"/>
+	<Form id="152" name="shootings3" file="forms/shootings3.png" width="25" height="58"
+			fSpacing="0" fMargin="0" fWidth="25" fHeight="29" aColor="255" nFrames="2"/>
+	
+	<!-- The space background for the game -->
+	<Form id="200" name="SpaceBackground" file="forms/SpaceBackground.png" width="816" height="844" 
+            fSpacing="0" fMargin="0" fWidth="816" fHeight="844" aColor="255" nFrames="1"/>
+
+	<!-- Images of planets being used in different states of the game -->
+	<Form id="201" name="Planet1" file="forms/Planet1.png" width="480" height="480" 
+            fSpacing="0" fMargin="0" fWidth="480" fHeight="480" aColor="255" nFrames="1"/>
+	<Form id="202" name="Planet2" file="forms/Planet2.png" width="480" height="485" 
+            fSpacing="0" fMargin="0" fWidth="480" fHeight="485" aColor="255" nFrames="1"/>
+	<Form id="203" name="Planet3" file="forms/Planet3.png" width="480" height="480" 
+            fSpacing="0" fMargin="0" fWidth="480" fHeight="480" aColor="255" nFrames="1"/>
+			
+	<!-- The background used during the presentation -->
+	<Form id="300" name="Background4" file="forms/BackgroundSpace4.png" width="1066" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1066" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="301" name="Background5" file="forms/BackgroundSpace5.png" width="1066" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1066" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="302" name="Background6" file="forms/BackgroundSpace6.png" width="1066" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1066" fHeight="600" aColor="255" nFrames="1"/>
+	<Form id="303" name="Background7" file="forms/BackgroundSpace7.png" width="1066" height="600" 
+            fSpacing="0" fMargin="0" fWidth="1066" fHeight="600" aColor="255" nFrames="1"/>
+
+</Forms>

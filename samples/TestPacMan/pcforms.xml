@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Forms>
+
+	<!-- Includes -->
+	<Include file="adforms.xml"/>
+	<Include file="pcletters.xml"/>
+
+	<!-- Logo Game -->
+	<Form id="50000" name="PacManIcon" file="forms/pacmanlogo.png" width="32" height="32"
+		fSpacing="0" fMargin="0" fWidth="32" fHeight="32" aColor="255" nFrames="1"/>
+	
+	<!-- Pacman when loading -->
+	<Form id="50001" name="PacManLoading" file="forms/pacmanloading.png" width="530" height="530"
+		fSpacing="0" fMargin="0" fWidth="530" fHeight="530" aColor="255" nFrames="1"/>
+
+	<!-- Backgrounds -->
+	<Form id="50010" name="background" file="forms/background.png" width="608" height="704"
+		fSpacing="0" fMargin="0" fWidth="608" fHeight="704" aColor="255" nFrames="1"/>
+	<Form id="50011" name="BKManyManyMonsters" file="forms/ManyManyMonsters.png" width="608" height="704"
+		fSpacing="0" fMargin="0" fWidth="608" fHeight="704" aColor="255" nFrames="1"/>
+	<Form id="50012" name="BKManyMonsters" file="forms/ManyMonsters.png" width="608" height="704"
+		fSpacing="0" fMargin="0" fWidth="608" fHeight="704" aColor="255" nFrames="1"/>
+	<Form id="50013" name="BKMonstersAfterPacman" file="forms/MonstersAfterPacman.png" width="608" height="704"
+		fSpacing="0" fMargin="0" fWidth="608" fHeight="704" aColor="255" nFrames="1"/>
+	<Form id="50014" name="BKMonstersAndPacman" file="forms/MonstersAndPacman.png" width="608" height="704"
+		fSpacing="0" fMargin="0" fWidth="608" fHeight="704" aColor="255" nFrames="1"/>
+	<Form id="50015" name="BKMonstersInMaze" file="forms/MonstersInMaze.png" width="608" height="704"
+		fSpacing="0" fMargin="0" fWidth="608" fHeight="704" aColor="255" nFrames="1"/>
+	<Form id="50016" name="BKMonstersLeft" file="forms/MonstersLeft.png" width="608" height="704"
+		fSpacing="0" fMargin="0" fWidth="608" fHeight="704" aColor="255" nFrames="1"/>
+	<Form id="50017" name="BKMonstersRight" file="forms/MonstersRight.png" width="608" height="704"
+		fSpacing="0" fMargin="0" fWidth="608" fHeight="704" aColor="255" nFrames="1"/>
+	
+	<!-- All characters -->
+	<Form id="50020" name="PacManAll" file="forms/chompersprites.png" width="448" height="128" 
+		fSpacing="0" fMargin="0" fWidth="32" fHeight="32" aColor="255" nFrames="56"/>
+	<!-- Giant Pacman (used in relax states of the game) -->
+	<Form id="50021" name="GiantPacMan" file="forms/giantpacman.png" width="256" height="256"
+		fSpacing="0" fMargin="0" fWidth="128" fHeight="128" aColor="255" nFrames="4"/>
+	<!-- The fruit -->
+	<Form id="50022" name="Fruit" file="forms/fruits.png" width="128" height="96"
+		fSpacing="0" fMargin="0" fWidth="32" fHeight="32" aColor="255" nFrames="12"/>
+
+</Forms>

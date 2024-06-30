@@ -1,0 +1,2685 @@
+<?xml version="1.0"?>
+<Entities>
+
+	<!-- Includes -->
+	<Include file="ptentities.xml"/>
+	
+	<!-- Male entity used when introducing the game -->
+	<Entity id="50000">
+		<Forms>
+			<!-- Ninja male looking to the right -->
+			<Form id="50050"/>
+		</Forms>
+		<Movements>
+			<!-- This movement means totally stopped -->
+			<Movement id="10000"/>
+		</Movements>
+		<Animations>
+			<!-- When paused -->
+			<Animation id="0" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50050"/>
+					<Attribute id="INITIALASPECT" value="80"/>
+					<Attribute id="FINALASPECT" value="90"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+		</Animations>
+		<States>
+			<!-- Running with no movement -->
+			<State id="0" animation="0" movement="10000"/>
+		</States>
+	</Entity>
+	
+	<!-- Female entity used when introducing the game -->
+	<Entity id="50001">
+		<Forms>
+			<!-- Ninja female looking to the left -->
+			<Form id="50054"/>
+		</Forms>
+		<Movements>
+			<!-- This movement means totally stopped -->
+			<Movement id="10000"/>
+		</Movements>
+		<Animations>
+			<!-- When paused -->
+			<Animation id="0" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50054"/>
+					<Attribute id="INITIALASPECT" value="80"/>
+					<Attribute id="FINALASPECT" value="90"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+		</Animations>
+		<States>
+			<!-- Running with no movement -->
+			<State id="0" animation="0" movement="10000"/>
+		</States>
+	</Entity>
+	
+	<!-- The shootings -->
+	<!-- 10 per character in the scene: ninja + 10 bud guys maximum in definition -->
+	<SetOfEntities fromId="51000" number="110"> 
+		<Forms>
+			<!-- The arrow -->
+			<Form id="50200"/>
+			<!-- The star -->
+			<Form id="50201"/>
+			<!-- The bomb -->
+			<Form id="50202"/>
+			<!-- The pollball -->
+			<Form id="50203"/>
+			<!-- The explosion -->
+			<!-- Anyone of the above can explode -->
+			<Form id="50204"/>
+		</Forms>
+		<MovementsBase>
+			<!-- Standing -->
+			<Movement id="57000"/>
+			<!-- Parabolic flying -->
+			<Movement id="57500"/>
+			<!-- Bouncing -->
+			<Movement id="58000"/>
+			<!-- Rolling -->
+			<Movement id="58500"/>
+			<!-- Falling -->
+			<Movement id="59000"/>
+		</MovementsBase>
+		<Animations>
+			<!-- Arrow moving to the right -->
+			<Animation id="0" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50200"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="6"/>
+					<Attribute id="FRACTIONTOCHANGE" value="3"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Arrow moving to the left -->
+			<Animation id="1" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50200"/>
+					<Attribute id="INITIALASPECT" value="6"/>
+					<Attribute id="FINALASPECT" value="12"/>
+					<Attribute id="FRACTIONTOCHANGE" value="3"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Star moving to the right -->
+			<Animation id="2" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50201"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="6"/>
+					<Attribute id="FRACTIONTOCHANGE" value="3"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Star moving to the left -->
+			<Animation id="3" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50201"/>
+					<Attribute id="INITIALASPECT" value="6"/>
+					<Attribute id="FINALASPECT" value="12"/>
+					<Attribute id="FRACTIONTOCHANGE" value="3"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Bomb moving to the right -->
+			<Animation id="4" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50202"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="6"/>
+					<Attribute id="FRACTIONTOCHANGE" value="3"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Bomb moving to the left -->
+			<Animation id="5" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50202"/>
+					<Attribute id="INITIALASPECT" value="6"/>
+					<Attribute id="FINALASPECT" value="12"/>
+					<Attribute id="FRACTIONTOCHANGE" value="3"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Pollball moving to the right -->
+			<Animation id="6" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50203"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="32"/>
+					<Attribute id="FRACTIONTOCHANGE" value="3"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Pollball moving to the left -->
+			<Animation id="7" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50203"/>
+					<Attribute id="INITIALASPECT" value="32"/>
+					<Attribute id="FINALASPECT" value="64"/>
+					<Attribute id="FRACTIONTOCHANGE" value="3"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Shooting exploding -->
+			<Animation id="8" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50204"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="25"/>
+					<Attribute id="FRACTIONTOCHANGE" value="2"/>
+					<Attribute id="LOOP" value="0"/>
+				</Attributes>
+			</Animation>
+		</Animations>
+		<States>
+			<!-- Related with the arrow -->
+			<!-- The arrow can just stand, fly, or bounce, or explode -->
+			<!-- Arrow standing to the right -->
+			<State id="0" animation="0" movementBase="57000"/>
+			<!-- Arrow standing to the left -->
+			<State id="1" animation="1" movementBase="57000"/>
+			<!-- Arrow flying to the right -->
+			<State id="2" animation="0" movementBase="57500">
+				<Attributes>
+					<Attribute id="DIRECTION" value="100,-100,0"/> 
+					<Attribute id="ACCELERATION" value="50,100,0"/> 
+				</Attributes>
+			</State>
+			<!-- Arrow flying to the left -->
+			<State id="3" animation="1" movementBase="57500">
+				<Attributes>
+					<Attribute id="DIRECTION" value="-100,-100,0"/> 
+					<Attribute id="ACCELERATION" value="-50,100,0"/> 
+				</Attributes>
+			</State>
+			<!-- Arrow bouncing to the right -->
+			<State id="4" animation="0" movementBase="58000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="50,-100,0"/> 
+					<Attribute id="ACCELERATION" value="0,100,0"/> 
+				</Attributes>
+			</State>
+			<!-- Arrow bouncing to the left -->
+			<State id="5" animation="1" movementBase="58000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="-50,-100,0"/> 
+					<Attribute id="ACCELERATION" value="0,100,0"/> 
+				</Attributes>
+			</State>
+
+			<!-- Related with the star -->
+			<!-- The star can just stand, fly, or bounce, or explode -->
+			<!-- Star standing to the right -->
+			<State id="10" animation="2" movementBase="57000"/>
+			<!-- Star standing to the left -->
+			<State id="11" animation="3" movementBase="57000"/>
+			<!-- Star flying to the right -->
+			<State id="12" animation="2" movementBase="57500">
+				<Attributes>
+					<Attribute id="DIRECTION" value="100,-100,0"/> 
+					<Attribute id="ACCELERATION" value="50,100,0"/> 
+				</Attributes>
+			</State>
+			<!-- Star flying to the left -->
+			<State id="13" animation="3" movementBase="57500">
+				<Attributes>
+					<Attribute id="DIRECTION" value="-100,-100,0"/> 
+					<Attribute id="ACCELERATION" value="-50,100,0"/> 
+				</Attributes>
+			</State>
+			<!-- Star bouncing to the right -->
+			<State id="14" animation="2" movementBase="58000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="50,-100,0"/> 
+					<Attribute id="ACCELERATION" value="0,100,0"/> 
+				</Attributes>
+			</State>
+			<!-- Star bouncing to the left -->
+			<State id="15" animation="3" movementBase="58000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="-50,-100,0"/> 
+					<Attribute id="ACCELERATION" value="0,100,0"/> 
+				</Attributes>
+			</State>
+
+			<!-- Related with the bomb -->
+			<!-- The bomb can just stand, fly, or bounce, or explode -->
+			<!-- Bomb standing to the right -->
+			<State id="20" animation="4" movementBase="57000"/>
+			<!-- Bomb standing to the left -->
+			<State id="21" animation="5" movementBase="57000"/>
+			<!-- Bomb flying to the right -->
+			<State id="22" animation="4" movementBase="57500">
+				<Attributes>
+					<Attribute id="DIRECTION" value="100,-100,0"/> 
+					<Attribute id="ACCELERATION" value="50,100,0"/> 
+				</Attributes>
+			</State>
+			<!-- Bomb flying to the left -->
+			<State id="23" animation="5" movementBase="57500">
+				<Attributes>
+					<Attribute id="DIRECTION" value="-100,-100,0"/> 
+					<Attribute id="ACCELERATION" value="-50,100,0"/> 
+				</Attributes>
+			</State>
+			<!-- Bomb bouncing to the right -->
+			<State id="24" animation="4" movementBase="58000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="50,-100,0"/> 
+					<Attribute id="ACCELERATION" value="0,100,0"/> 
+				</Attributes>
+			</State>
+			<!-- Bomb bouncing to the left -->
+			<State id="25" animation="5" movementBase="58000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="-50,-100,0"/> 
+					<Attribute id="ACCELERATION" value="0,100,0"/> 
+				</Attributes>
+			</State>
+
+			<!-- Related with the pollball -->
+			<!-- The Pollball can just stand, fly, or bounce, or roll, or explode -->
+			<!-- Pollball standing to the right -->
+			<State id="30" animation="6" movementBase="57000"/>
+			<!-- Pollball standing to the left -->
+			<State id="31" animation="7" movementBase="57000"/>
+			<!-- Pollball flying to the right -->
+			<State id="32" animation="6" movementBase="57500">
+				<Attributes>
+					<Attribute id="DIRECTION" value="50,-100,0"/> 
+					<Attribute id="ACCELERATION" value="0,100,0"/> 
+				</Attributes>
+			</State>
+			<!-- Pollball flying to the left -->
+			<State id="33" animation="7" movementBase="57500">
+				<Attributes>
+					<Attribute id="DIRECTION" value="-50,-100,0"/> 
+					<Attribute id="ACCELERATION" value="0,100,0"/> 
+				</Attributes>
+			</State>
+			<!-- Pollball bouncing to the right -->
+			<State id="34" animation="6" movementBase="58000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="50,-100,0"/> 
+					<Attribute id="ACCELERATION" value="0,100,0"/> 
+				</Attributes>
+			</State>
+			<!-- Pollball bouncing to the left -->
+			<State id="35" animation="7" movementBase="58000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="-50,-100,0"/> 
+					<Attribute id="ACCELERATION" value="0,100,0"/> 
+				</Attributes>
+			</State>
+			<!-- Pollball rolling to the right -->
+			<State id="36" animation="6" movementBase="58500">
+				<Attributes>
+					<Attribute id="DIRECTION" value="200,0,0"/> 
+					<Attribute id="ACCELERATION" value="0,0,0"/> 
+				</Attributes>
+			</State>
+			<!-- Pollball rolling to the left -->
+			<State id="37" animation="7" movementBase="58500">
+				<Attributes>
+					<Attribute id="DIRECTION" value="-200,0,0"/> 
+					<Attribute id="ACCELERATION" value="0,0,0"/> 
+				</Attributes>
+			</State>
+			<!-- Pollball falling to the right -->
+			<State id="38" animation="6" movementBase="59000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,100,0"/> <!-- Going down -->
+					<Attribute id="ACCELERATION" value="0,500,0"/> <!-- Gravity -->
+				</Attributes>
+			</State>
+			<!-- Pollball falling to the left -->
+			<State id="39" animation="7" movementBase="59000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,100,0"/> <!-- Going down -->
+					<Attribute id="ACCELERATION" value="0,500,0"/> <!-- Gravity -->
+				</Attributes>
+			</State>
+		
+			<!-- Common to everyone -->
+			<!-- Exploding -->
+			<State id="50" animation="8" movementBase="57000"/>
+		</States>
+	</SetOfEntities>
+	
+	<!-- This is the main character (male) -->
+	<Entity id="50100">
+		<Forms>
+			<!--Looking to the right -->
+			<Form id="50050"/>
+			<!-- Looking to the left -->
+			<Form id="50051"/>
+			<!--Swiming to the right -->
+			<Form id="50052"/>
+			<Form id="500521"/>
+			<!-- Swiming to the left -->
+			<Form id="50053"/>
+			<Form id="500531"/>
+		</Forms>
+		<Physics>
+			<Physic id="0" value="150"/> <!-- Max speed falling -->
+		</Physics>
+		<Movements>
+			<!-- Standing -->
+			<Movement id="50000"/>
+			<!-- Running -->
+			<Movement id="50001"/>
+			<!-- Jumping -->
+			<Movement id="50002"/>
+			<!-- Slidding -->
+			<Movement id="50003"/>
+			<!-- Climbing -->
+			<Movement id="50004"/>
+			<!-- Climbing fixed is like standing in terms of movement -->
+			<!-- Attacking -->
+			<Movement id="50005"/>
+			<!-- Throwing is like standing in terms of movements -->
+			<!-- Glidding -->
+			<Movement id="50006"/>
+			<!-- Falling is like jumping in terms of movements (with some adjustments in initial physics
+				 (maxspeed, defined in the physics of the ninja (see above) -->
+			<!-- Jumping & Attacking is like Jumping in terms of movements -->
+			<!-- Jumping & Throwing is like Jumping in terms of movements -->
+			<!-- Dieing is like Standing in terms of movements -->
+			<!-- Died is like Standing also in terms of movements -->
+			<!-- Being happy is like jumping but quicker. This ia parameter in the definition of the animation -->
+			<!-- Floating in the water -->
+			<Movement id="50007"/>
+			<!-- Being happy -->
+			<Movement id="50008"/>
+		</Movements>
+		<Animations>
+			<!-- Look like a Ninja -->
+			<!-- Looking to the right -->
+			<!-- Standing -->
+			<Animation id="0" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50050"/>
+					<Attribute id="INITIALASPECT" value="40"/>
+					<Attribute id="FINALASPECT" value="50"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Running -->
+			<Animation id="1" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50050"/>
+					<Attribute id="INITIALASPECT" value="80"/>
+					<Attribute id="FINALASPECT" value="90"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Jumping -->
+			<!-- Being happy is like jumping in terms of animation -->
+			<Animation id="2" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50050"/>
+					<Attribute id="INITIALASPECT" value="50"/>
+					<Attribute id="FINALASPECT" value="60"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Falling is like jumping in terms of animation -->
+			<!-- Slidding -->
+			<Animation id="3" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50050"/>
+					<Attribute id="INITIALASPECT" value="90"/>
+					<Attribute id="FINALASPECT" value="100"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Climbing -->
+			<Animation id="4" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50050"/>
+					<Attribute id="INITIALASPECT" value="10"/>
+					<Attribute id="FINALASPECT" value="20"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Attacking -->
+			<Animation id="5" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50050"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="10"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Throwing something -->
+			<Animation id="6" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50050"/>
+					<Attribute id="INITIALASPECT" value="100"/>
+					<Attribute id="FINALASPECT" value="110"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="0"/>
+				</Attributes>
+			</Animation>
+			<!-- Gliding -->
+			<Animation id="7" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50050"/>
+					<Attribute id="INITIALASPECT" value="30"/>
+					<Attribute id="FINALASPECT" value="40"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Jumping & Attacking -->
+			<Animation id="8" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50050"/>
+					<Attribute id="INITIALASPECT" value="60"/>
+					<Attribute id="FINALASPECT" value="70"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Jumping & Throwing -->
+			<Animation id="9" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50050"/>
+					<Attribute id="INITIALASPECT" value="70"/>
+					<Attribute id="FINALASPECT" value="80"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Dieing -->
+			<Animation id="10" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50050"/>
+					<Attribute id="INITIALASPECT" value="20"/>
+					<Attribute id="FINALASPECT" value="30"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="0"/>
+				</Attributes>
+			</Animation>
+			<!-- Died (just the last frame of dieing) -->
+			<Animation id="11" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50050"/>
+					<Attribute id="INITIALASPECT" value="29"/>
+					<Attribute id="FINALASPECT" value="29"/>
+					<Attribute id="FRACTIONTOCHANGE" value="0"/>
+					<Attribute id="LOOP" value="0"/> <!-- Not to loop -->
+				</Attributes>
+			</Animation>
+			<!-- Climbing fixed -->
+			<Animation id="12" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50050"/>
+					<Attribute id="INITIALASPECT" value="19"/>
+					<Attribute id="FINALASPECT" value="19"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="0"/> <!-- Not to loop -->
+				</Attributes>
+			</Animation>
+			
+			<!-- Looking to the left -->
+			<!-- Standing -->
+			<Animation id="20" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50051"/>
+					<Attribute id="INITIALASPECT" value="40"/>
+					<Attribute id="FINALASPECT" value="50"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Running -->
+			<Animation id="21" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50051"/>
+					<Attribute id="INITIALASPECT" value="80"/>
+					<Attribute id="FINALASPECT" value="90"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Jumping -->
+			<!-- Being happy is like jumping in terms of animation -->
+			<Animation id="22" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50051"/>
+					<Attribute id="INITIALASPECT" value="50"/>
+					<Attribute id="FINALASPECT" value="60"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Falling is like jumping in terms of animation -->
+			<!-- Slidding -->
+			<Animation id="23" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50051"/>
+					<Attribute id="INITIALASPECT" value="90"/>
+					<Attribute id="FINALASPECT" value="100"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Climbing -->
+			<Animation id="24" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50051"/>
+					<Attribute id="INITIALASPECT" value="10"/>
+					<Attribute id="FINALASPECT" value="20"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Attacking -->
+			<Animation id="25" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50051"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="10"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Throwing something -->
+			<Animation id="26" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50051"/>
+					<Attribute id="INITIALASPECT" value="100"/>
+					<Attribute id="FINALASPECT" value="110"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="0"/>
+				</Attributes>
+			</Animation>
+			<!-- Gliding -->
+			<Animation id="27" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50051"/>
+					<Attribute id="INITIALASPECT" value="30"/>
+					<Attribute id="FINALASPECT" value="40"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Jumping & Attacking -->
+			<Animation id="28" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50051"/>
+					<Attribute id="INITIALASPECT" value="60"/>
+					<Attribute id="FINALASPECT" value="70"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Jumping & Throwing -->
+			<Animation id="29" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50051"/>
+					<Attribute id="INITIALASPECT" value="70"/>
+					<Attribute id="FINALASPECT" value="80"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Dieing -->
+			<Animation id="30" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50051"/>
+					<Attribute id="INITIALASPECT" value="20"/>
+					<Attribute id="FINALASPECT" value="30"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="0"/>
+				</Attributes>
+			</Animation>
+			<!-- Died (just the last frame of dieing) -->
+			<Animation id="31" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50051"/>
+					<Attribute id="INITIALASPECT" value="29"/>
+					<Attribute id="FINALASPECT" value="29"/>
+					<Attribute id="FRACTIONTOCHANGE" value="0"/>
+					<Attribute id="LOOP" value="0"/> <!-- Not to loop -->
+				</Attributes>
+			</Animation>
+			<!-- Climbing fixed -->
+			<Animation id="32" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50051"/>
+					<Attribute id="INITIALASPECT" value="19"/>
+					<Attribute id="FINALASPECT" value="19"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="0"/>
+				</Attributes>
+			</Animation>
+			
+			<!-- Look like a Fish -->
+			<!-- Looking to the right -->
+			<!-- Standing / Swiming, ...-->
+			<Animation id="40" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50052"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="12"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Dieing and Died -->
+			<Animation id="41" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="500521"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="0"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="0"/>
+				</Attributes>
+			</Animation>
+			
+			<!-- Looking to the left -->
+			<!-- Standing / Swiming, ...-->
+			<Animation id="50" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50053"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="12"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Dieing and Died -->
+			<Animation id="51" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="500531"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="0"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="0"/>
+				</Attributes>
+			</Animation>
+		</Animations>
+		<States>
+			<!-- In the land -->
+			<!-- Looking to the right -->
+			<!-- Standing -->
+			<State id="0" animation="0" movement="50000"/>
+			<!-- Running 
+				 This movement always comes rom standing, with no speed and no acceleration previous -->
+			<State id="1" animation="1" movement="50001">
+				<Attributes>
+					<Attribute id="DIRECTION" value="50,0,0"/> 
+					<!-- Going to the right (the movement speed is important)  -->
+					<Attribute id="ACCELERATION" value="0,0,0"/> 
+					<!-- It is supossed it is in a base, so no gravity at all affecting -->
+				</Attributes>
+			</State>
+			<!-- Jumping 
+				 This movement comes always from standing or running with no acceleration and
+				 either no speed or only in the x axis. -->
+			<State id="2" animation="2" movement="50002">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,-100,0"/> 
+					<!-- Speed added to go up inthe y axis -->
+					<!-- This parameter is changed by code in the game regarding the level of impulse provided -->
+					<Attribute id="ACCELERATION" value="0,100,0"/> 
+					<!-- Gravity -->
+				</Attributes>
+			</State>
+			<!-- Slidding 
+				 This movement comes always from standing or running, 
+				 so there is never acceleration and the speed is either 0 or the minimum in the X axis -->
+			<State id="3" animation="3" movement="50003">
+				<Attributes>
+					<Attribute id="DIRECTION" value="100,0,0"/> 
+					<!-- Added if running -->
+					<!-- This parameter is changed in the game regarding the level of impulse provided -->
+					<Attribute id="ACCELERATION" value="-100,0,0"/> 
+					<!-- To reduce the speed -->
+				</Attributes>
+			</State>
+			<!-- Climbing 
+				 This movement comes always from standing, but it is a total different one, 
+				 so the movement parameters are not inherit from anyone. -->
+			<State id="4" animation="4" movement="50004">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,1,0"/> 
+					<!-- Going down by default (movement can be changed by the player -->
+					<Attribute id="ACCELERATION" value="0,0,0"/> 
+					<!-- Gravity is not taken into account -->
+				</Attributes>
+			</State>
+			<!-- Attacking -->
+			<State id="5" animation="5" movement="50005"/>
+			<!-- Throwing something -->
+			<State id="6" animation="6" movement="50000"/>
+			<!-- Glidding 
+				 This movement comes always from falling and always when the maxspeed (module) has been reached,
+				 so the values are to reduce the vertical speed and to to change the acceleration -->
+			<State id="7" animation="7" movement="50006">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,-125,0"/> 
+					<Attribute id="ACCELERATION" value="0,-75,0"/> 
+					<!-- Reduced from the gravity when falling (100) -->
+				</Attributes>
+			</State>
+			<!-- Jumping & Attacking -->
+			<State id="8" animation="8" movement="50002"/>
+			<!-- Jumping & Throwing -->
+			<State id="9" animation="9" movement="50002"/>
+			<!-- Dieing -->
+			<State id="10" animation="10" movement="50000"/>
+			<!-- Falling 
+				 This movement comes from standing or running, so the acceleration's module is 0
+				 and the speed vector will have only values in the horizontal axis. -->
+			<State id="11" animation="2" movement="50002">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,1,0"/> <!-- Minimum to force going down -->
+					<Attribute id="ACCELERATION" value="0,100,0"/> <!-- Gravity -->
+				</Attributes>
+			</State>
+			<!-- Died -->
+			<State id="12" animation="11" movement="50000"/>
+			<!-- Climbing fixed -->
+			<State id="13" animation="12" movement="50000"/>
+			<!-- Being happy 
+				 Like jumping but "bigger". @see Jumpìng above. 
+				 @see also the parameters of the movement in dwmovements.xml -->
+			<State id="14" animation="2" movement="50008">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,-150,0"/> 
+					<Attribute id="ACCELERATION" value="0,100,0"/> 
+				</Attributes>
+			</State>
+
+			<!-- Looking to the left -->
+			<!-- For more detail, 
+				 take a look to the comments in the equivalent state of the male looking to the right --> 
+			<!-- Standing -->
+			<State id="20" animation="20" movement="50000"/>
+			<!-- Running -->
+			<State id="21" animation="21" movement="50001">
+				<Attributes>
+					<Attribute id="DIRECTION" value="-50,0,0"/> 
+					<Attribute id="ACCELERATION" value="0,0,0"/> 
+				</Attributes>
+			</State>
+			<!-- Jumping -->
+			<State id="22" animation="22" movement="50002">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,-100,0"/> 
+					<Attribute id="ACCELERATION" value="0,100,0"/> 
+				</Attributes>
+			</State>
+			<!-- Slidding -->
+			<State id="23" animation="23" movement="50003">
+				<Attributes>
+					<Attribute id="DIRECTION" value="-100,0,0"/> 
+					<Attribute id="ACCELERATION" value="100,0,0"/> 
+				</Attributes>
+			</State>
+			<!-- Climbing -->
+			<State id="24" animation="24" movement="50004">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,1,0"/> 
+					<Attribute id="ACCELERATION" value="0,0,0"/> 
+				</Attributes>
+			</State>
+			<!-- Attacking -->
+			<State id="25" animation="25" movement="50005"/>
+			<!-- Throwing something -->
+			<State id="26" animation="26" movement="50000"/>
+			<!-- Glidding -->
+			<State id="27" animation="27" movement="50006">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,-125,0"/> 
+					<Attribute id="ACCELERATION" value="0,-75,0"/> 
+				</Attributes>
+			</State>
+			<!-- Jumping & Attacking -->
+			<State id="28" animation="28" movement="50002"/>
+			<!-- Jumping & Throwing -->
+			<State id="29" animation="29" movement="50002"/>
+			<!-- Dieing -->
+			<State id="30" animation="30" movement="50000"/>
+			<!-- Falling -->
+			<State id="31" animation="22" movement="50002">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,1,0"/> 
+					<Attribute id="ACCELERATION" value="0,100,0"/> 
+				</Attributes>
+			</State>
+			<!-- Died -->
+			<State id="32" animation="31" movement="50000"/>
+			<!-- Climbing fixed -->
+			<State id="33" animation="32" movement="50000"/>
+			<!-- Being happy -->
+			<State id="34" animation="22" movement="50008">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,-150,0"/> 
+					<Attribute id="ACCELERATION" value="0,100,0"/> 
+				</Attributes>
+			</State>
+			
+			<!-- In the water -->
+			<!-- Looking to the right -->
+			<!-- Standing, Swiming,...
+				 This movement comes from falling, jumping or glidding, 
+				 where the acceleration is always gravity's, so there is no need to add any value to the accleration.
+				 The speed is managed by the player using impulses, 
+				 so there is not need either to add any value to this one. -->
+			<State id="40" animation="40" movement="50007">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,0,0"/> 
+					<Attribute id="ACCELERATION" value="0,0,0"/> 
+				</Attributes>
+			</State>
+			<!-- Dieing & Died -->
+			<State id="41" animation="41" movement="50000"/>
+			
+			<!-- Looking to the left -->
+			<!-- Standing, Swiming, ...-->
+			<State id="50" animation="50" movement="50007">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,0,0"/> 
+					<Attribute id="ACCELERATION" value="0,0,0"/> 
+				</Attributes>
+			</State>
+			<!-- Dieing & Died -->
+			<State id="51" animation="51" movement="50000"/>
+		</States>
+	</Entity>
+	
+	<!-- This is the main character (female) -->
+	<Entity id="50101">
+		<Forms>
+			<!--Looking to the right -->
+			<Form id="50054"/>
+			<!-- Looking to the left -->
+			<Form id="50055"/>
+			<!--Swiming to the right -->
+			<Form id="50056"/>
+			<Form id="500561"/>
+			<!-- Swiming to the left -->
+			<Form id="50057"/>
+			<Form id="500571"/>
+		</Forms>
+		<Physics>
+			<Physic id="0" value="150"/> <!-- Max speed falling -->
+		</Physics>
+		<Movements>
+			<!-- Standing -->
+			<Movement id="50100"/>
+			<!-- Running -->
+			<Movement id="50101"/>
+			<!-- Jumping -->
+			<Movement id="50102"/>
+			<!-- Slidding -->
+			<Movement id="50103"/>
+			<!-- Climbing -->
+			<Movement id="50104"/>
+			<!-- Climbing fixed is like standing in terms of movement -->
+			<!-- Attacking -->
+			<Movement id="50105"/>
+			<!-- Throwing is like standing in terms of movements -->
+			<!-- Glidding -->
+			<Movement id="50106"/>
+			<!-- Falling is like jumping in terms of movements (with some adjustments in initial physics -->
+			<!-- Jumping & Attacking is like Jumping in terms of movements -->
+			<!-- Jumping & Throwing is like Jumping in terms of movements -->
+			<!-- Dieing is like Standing in terms of movements -->
+			<!-- Died is like Standing also in terms of movements -->
+			<!-- Floating in the water -->
+			<Movement id="50107"/>
+			<!-- Being happy -->
+			<Movement id="50108"/>
+		</Movements>
+		<Animations>
+			<!-- Look like a Ninja -->
+			<!-- Looking to the right -->
+			<!-- Standing -->
+			<Animation id="0" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50054"/>
+					<Attribute id="INITIALASPECT" value="40"/>
+					<Attribute id="FINALASPECT" value="50"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Running -->
+			<Animation id="1" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50054"/>
+					<Attribute id="INITIALASPECT" value="80"/>
+					<Attribute id="FINALASPECT" value="90"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Jumping -->
+			<!-- Being happy is like jumping in terms of animation -->
+			<Animation id="2" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50054"/>
+					<Attribute id="INITIALASPECT" value="50"/>
+					<Attribute id="FINALASPECT" value="60"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Falling is like jumping in terms of animation -->
+			<!-- Slidding -->
+			<Animation id="3" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50054"/>
+					<Attribute id="INITIALASPECT" value="90"/>
+					<Attribute id="FINALASPECT" value="100"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Climbing -->
+			<Animation id="4" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50054"/>
+					<Attribute id="INITIALASPECT" value="10"/>
+					<Attribute id="FINALASPECT" value="20"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Attacking -->
+			<Animation id="5" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50054"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="10"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Throwing something -->
+			<Animation id="6" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50054"/>
+					<Attribute id="INITIALASPECT" value="100"/>
+					<Attribute id="FINALASPECT" value="110"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="0"/>
+				</Attributes>
+			</Animation>
+			<!-- Gliding -->
+			<Animation id="7" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50054"/>
+					<Attribute id="INITIALASPECT" value="30"/>
+					<Attribute id="FINALASPECT" value="40"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Jumping & Attacking -->
+			<Animation id="8" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50054"/>
+					<Attribute id="INITIALASPECT" value="60"/>
+					<Attribute id="FINALASPECT" value="70"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Jumping & Throwing -->
+			<Animation id="9" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50054"/>
+					<Attribute id="INITIALASPECT" value="70"/>
+					<Attribute id="FINALASPECT" value="80"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Dieing -->
+			<Animation id="10" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50054"/>
+					<Attribute id="INITIALASPECT" value="20"/>
+					<Attribute id="FINALASPECT" value="30"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="0"/>
+				</Attributes>
+			</Animation>
+			<!-- Died (just the last frame of dieing) -->
+			<Animation id="11" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50054"/>
+					<Attribute id="INITIALASPECT" value="29"/>
+					<Attribute id="FINALASPECT" value="29"/>
+					<Attribute id="FRACTIONTOCHANGE" value="0"/>
+					<Attribute id="LOOP" value="0"/> <!-- Tot loop needed -->
+				</Attributes>
+			</Animation>
+			<!-- Climbing fixed -->
+			<Animation id="12" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50054"/>
+					<Attribute id="INITIALASPECT" value="19"/>
+					<Attribute id="FINALASPECT" value="19"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="0"/>
+				</Attributes>
+			</Animation>
+			
+			<!-- Looking to the left -->
+			<!-- Standing -->
+			<Animation id="20" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50055"/>
+					<Attribute id="INITIALASPECT" value="40"/>
+					<Attribute id="FINALASPECT" value="50"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Running -->
+			<Animation id="21" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50055"/>
+					<Attribute id="INITIALASPECT" value="80"/>
+					<Attribute id="FINALASPECT" value="90"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Jumping -->
+			<!-- Being happy is like jumping in terms of animation -->
+			<Animation id="22" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50055"/>
+					<Attribute id="INITIALASPECT" value="50"/>
+					<Attribute id="FINALASPECT" value="60"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Falling is like jumping in terms of animation -->
+			<!-- Slidding -->
+			<Animation id="23" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50055"/>
+					<Attribute id="INITIALASPECT" value="90"/>
+					<Attribute id="FINALASPECT" value="100"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Climbing -->
+			<Animation id="24" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50055"/>
+					<Attribute id="INITIALASPECT" value="10"/>
+					<Attribute id="FINALASPECT" value="20"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Attacking -->
+			<Animation id="25" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50055"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="10"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Throwing something -->
+			<Animation id="26" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50055"/>
+					<Attribute id="INITIALASPECT" value="100"/>
+					<Attribute id="FINALASPECT" value="110"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="0"/>
+				</Attributes>
+			</Animation>
+			<!-- Gliding -->
+			<Animation id="27" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50055"/>
+					<Attribute id="INITIALASPECT" value="30"/>
+					<Attribute id="FINALASPECT" value="40"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Jumping & Attacking -->
+			<Animation id="28" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50055"/>
+					<Attribute id="INITIALASPECT" value="60"/>
+					<Attribute id="FINALASPECT" value="70"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Jumping & Throwing -->
+			<Animation id="29" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50055"/>
+					<Attribute id="INITIALASPECT" value="70"/>
+					<Attribute id="FINALASPECT" value="80"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Dieing -->
+			<Animation id="30" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50055"/>
+					<Attribute id="INITIALASPECT" value="20"/>
+					<Attribute id="FINALASPECT" value="30"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="0"/>
+				</Attributes>
+			</Animation>
+			<!-- Died (just the last frame of dieing) -->
+			<Animation id="31" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50055"/>
+					<Attribute id="INITIALASPECT" value="29"/>
+					<Attribute id="FINALASPECT" value="29"/>
+					<Attribute id="FRACTIONTOCHANGE" value="0"/>
+					<Attribute id="LOOP" value="0"/> <!-- Tot loop needed -->
+				</Attributes>
+			</Animation>
+			<!-- Climbing fixed -->
+			<Animation id="32" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50055"/>
+					<Attribute id="INITIALASPECT" value="19"/>
+					<Attribute id="FINALASPECT" value="19"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="0"/>
+				</Attributes>
+			</Animation>
+			
+			<!-- Look like a Fish -->
+			<!-- Looking to the right -->
+			<!-- Standing / Swiming, ...-->
+			<Animation id="40" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50056"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="12"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Dieing and Died -->
+			<Animation id="41" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="500561"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="0"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="0"/>
+				</Attributes>
+			</Animation>
+			
+			<!-- Looking to the left -->
+			<!-- Standing / Swiming, ...-->
+			<Animation id="50" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50057"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="12"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Dieing and Died -->
+			<Animation id="51" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="500571"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="0"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="0"/>
+				</Attributes>
+			</Animation>
+		</Animations>
+		<States>
+			<!-- In the land -->
+			<!-- Looking to the right -->
+			<!-- For more detail, 
+				 take a look to the comments in the equivalent state of the male looking to the right --> 
+			<!-- Standing -->
+			<State id="0" animation="0" movement="50100"/>
+			<!-- Running -->
+			<State id="1" animation="1" movement="50101">
+				<Attributes>
+					<Attribute id="DIRECTION" value="50,0,0"/> 
+					<Attribute id="ACCELERATION" value="0,0,0"/> 
+				</Attributes>
+			</State>
+			<!-- Jumping -->
+			<State id="2" animation="2" movement="50102">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,-100,0"/> 
+					<Attribute id="ACCELERATION" value="0,100,0"/> 
+				</Attributes>
+			</State>
+			<!-- Slidding -->
+			<State id="3" animation="3" movement="50103">
+				<Attributes>
+					<Attribute id="DIRECTION" value="100,0,0"/> 
+					<Attribute id="ACCELERATION" value="-100,0,0"/> 
+				</Attributes>
+			</State>
+			<!-- Climbing -->
+			<State id="4" animation="4" movement="50104">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,1,0"/> 
+					<Attribute id="ACCELERATION" value="0,0,0"/> 
+				</Attributes>
+			</State>
+			<!-- Attacking -->
+			<State id="5" animation="5" movement="50105"/>
+			<!-- Throwing something -->
+			<State id="6" animation="6" movement="50100"/>
+			<!-- Glidding -->
+			<State id="7" animation="7" movement="50106">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,-125,0"/> 
+					<Attribute id="ACCELERATION" value="0,-75,0"/> 
+				</Attributes>
+			</State>
+			<!-- Jumping & Attacking -->
+			<State id="8" animation="8" movement="50102"/>
+			<!-- Jumping & Throwing -->
+			<State id="9" animation="9" movement="50102"/>
+			<!-- Dieing -->
+			<State id="10" animation="10" movement="50100"/>
+			<!-- Falling (is like jumping in terms of movement (adjusting some physics) -->
+			<State id="11" animation="2" movement="50102">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,1,0"/> 
+					<Attribute id="ACCELERATION" value="0,100,0"/> 
+				</Attributes>
+			</State>
+			<!-- Died -->
+			<State id="12" animation="11" movement="50100"/>
+			<!-- Climbing fixed -->
+			<State id="13" animation="12" movement="50100"/>
+			<!-- Being happy -->
+			<State id="14" animation="2" movement="50108">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,-150,0"/> 
+					<Attribute id="ACCELERATION" value="0,100,0"/> 
+				</Attributes>
+			</State>
+
+			<!-- Looking to the left -->
+			<!-- For more detail, 
+				 take a look to the comments in the equivalent state of the male looking to the right --> 
+			<!-- Standing -->
+			<State id="20" animation="20" movement="50100"/>
+			<!-- Running -->
+			<State id="21" animation="21" movement="50101">
+				<Attributes>
+					<Attribute id="DIRECTION" value="-50,0,0"/> 
+					<Attribute id="ACCELERATION" value="0,0,0"/> 
+				</Attributes>
+			</State>
+			<!-- Jumping -->
+			<State id="22" animation="22" movement="50102">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,-100,0"/> 
+					<Attribute id="ACCELERATION" value="0,100,0"/> 
+				</Attributes>
+			</State>
+			<!-- Slidding -->
+			<State id="23" animation="23" movement="50103">
+				<Attributes>
+					<Attribute id="DIRECTION" value="-100,0,0"/> 
+					<Attribute id="ACCELERATION" value="100,0,0"/> 
+				</Attributes>
+			</State>
+			<!-- Climbing -->
+			<State id="24" animation="24" movement="50104">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,1,0"/> 
+					<Attribute id="ACCELERATION" value="0,0,0"/> 
+				</Attributes>
+			</State>
+			<!-- Attacking -->
+			<State id="25" animation="25" movement="50105"/>
+			<!-- Throwing something -->
+			<State id="26" animation="26" movement="50100"/>
+			<!-- Glidding -->
+			<State id="27" animation="27" movement="50106">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,-125,0"/> 
+					<Attribute id="ACCELERATION" value="0,-75,0"/> 
+				</Attributes>
+			</State>
+			<!-- Jumping & Attacking -->
+			<State id="28" animation="28" movement="50102"/>
+			<!-- Jumping & Throwing -->
+			<State id="29" animation="29" movement="50102"/>
+			<!-- Dieing -->
+			<State id="30" animation="30" movement="50100"/>
+			<!-- Falling (is like jumping in terms of movement (adjusting some physics) -->
+			<State id="31" animation="22" movement="50102">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,1,0"/> 
+					<Attribute id="ACCELERATION" value="0,100,0"/> 
+				</Attributes>
+			</State>
+			<!-- Died -->
+			<State id="32" animation="31" movement="50100"/>
+			<!-- Climbing fixed -->
+			<State id="33" animation="32" movement="50100"/>
+			<!-- Being happy -->
+			<State id="34" animation="22" movement="50108">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,-150,0"/> 
+					<Attribute id="ACCELERATION" value="0,100,0"/> 
+				</Attributes>
+			</State>
+			
+			<!-- In the water -->
+			<!-- Looking to the right -->
+			<!-- For more detail, 
+				 take a look to the comments in the equivalent state of the male looking to the right --> 
+			<!-- Standing, Swiming, ...-->
+			<State id="40" animation="40" movement="50107">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,0,0"/> 
+					<Attribute id="ACCELERATION" value="0,0,0"/> 
+				</Attributes>
+			</State>
+			<!-- Dieing & Died -->
+			<State id="41" animation="41" movement="50100"/>
+			
+			<!-- Looking to the left -->
+			<!-- For more detail, 
+				 take a look to the comments in the equivalent state of the male looking to the right --> 
+			<!-- Standing, Swiming, ...-->
+			<State id="50" animation="50" movement="50107">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,0,0"/> 
+					<Attribute id="ACCELERATION" value="0,0,0"/> 
+				</Attributes>
+			</State>
+			<!-- Dieing & Died -->
+			<State id="51" animation="51" movement="50100"/>
+		</States>
+	</Entity>
+	
+	<!-- The food -->
+	<!-- All elements defined from the id 30000 will be built as something to eat (1000 limit) -->
+	<SetOfEntities fromId="30000" number="200">
+		<Forms>
+			<Form id="50006"/>
+		</Forms>
+		<MovementsBase>
+			<Movement id="50300"/>
+			<Movement id="51300"/>
+			<Movement id="52300"/>
+		</MovementsBase>
+		<Animations>
+			<!-- No animation -->
+			<Animation id="0" type="-1"/>
+		</Animations>
+		<States>
+			<!-- Standing -->
+			<State id="0" animation="0" movementBase="50300"/>
+			<!-- Falling -->
+			<State id="1" animation="0" movementBase="51300">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,1,0"/> <!-- Going down -->
+					<Attribute id="ACCELERATION" value="0,100,0"/> <!-- Gravity -->
+				</Attributes>
+			</State>
+			<!-- In the air -->
+			<State id="2" animation="0" movementBase="52300"/>
+		</States>
+	</SetOfEntities>
+	
+	<!-- The things to be caught -->
+	<!-- All elements defined from the id 31000 will be built as something to be caught (limit 1000) -->
+	<SetOfEntities fromId="31000" number="200">
+		<Forms>
+			<Form id="50005"/>
+		</Forms>
+		<MovementsBase>
+			<Movement id="53300"/>
+			<Movement id="54300"/>
+		</MovementsBase>
+		<Animations>
+			<!-- No animation -->
+			<Animation id="0" type="-1"/>
+		</Animations>
+		<States>
+			<!-- Standing -->
+			<State id="0" animation="0" movementBase="53300"/>
+			<!-- Falling -->
+			<State id="1" animation="0" movementBase="54300">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,1,0"/> <!-- Going down -->
+					<Attribute id="ACCELERATION" value="0,100,0"/> <!-- Gravity -->
+				</Attributes>
+			</State>
+		</States>
+	</SetOfEntities>
+	
+	<!-- The bees -->
+	<SetOfEntities fromId="50110" number="10">
+		<Forms>
+			<Form id="50090"/>
+		</Forms>
+		<MovementsBase>
+			<!-- Linear movement to a position in the screen -->
+			<Movement id="56000"/>
+			<!-- Standing -->
+			<Movement id="56010"/>
+		</MovementsBase>
+		<Animations>
+			<!-- Moving the wings and looking to the right -->
+			<Animation id="0" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50090"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="6"/>
+					<Attribute id="FRACTIONTOCHANGE" value="3"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Moving the wings and looking to the left -->
+			<Animation id="1" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50090"/>
+					<Attribute id="INITIALASPECT" value="6"/>
+					<Attribute id="FINALASPECT" value="12"/>
+					<Attribute id="FRACTIONTOCHANGE" value="3"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+		</Animations>
+		<States>
+			<!-- Flying to the right -->
+			<!-- The parameters related to the movement has to be set in the code -->
+			<State id="0" animation="0" movementBase="56000"/>
+			<!-- Standing and looking to the right -->
+			<State id="1" animation="0" movementBase="56010"/>
+			<!-- Flying to the left -->
+			<!-- The parameters related to the movement has to be set in the code -->
+			<State id="2" animation="1" movementBase="56000"/>
+			<!-- Standing and looking to the left -->
+			<State id="3" animation="1" movementBase="56010"/>
+		</States>
+	</SetOfEntities>
+	
+	<!-- The birds -->
+	<SetOfEntities fromId="50120" number="10">
+		<Forms>
+			<Form id="50091"/>
+		</Forms>
+		<MovementsBase>
+			<!-- Linear movement to a position in the screen -->
+			<Movement id="56100"/>
+			<!-- Standing -->
+			<Movement id="56110"/>
+		</MovementsBase>
+		<Animations>
+			<!-- Moving the wings and looking to the right -->
+			<Animation id="0" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50091"/>
+					<Attribute id="INITIALASPECT" value="8"/>
+					<Attribute id="FINALASPECT" value="16"/>
+					<Attribute id="FRACTIONTOCHANGE" value="3"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Moving the wings and looking to the left -->
+			<Animation id="1" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50091"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="8"/>
+					<Attribute id="FRACTIONTOCHANGE" value="3"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+		</Animations>
+		<States>
+			<!-- Flying to the right -->
+			<!-- The parameters related to the movement has to be set in the code -->
+			<State id="0" animation="0" movementBase="56100"/>
+			<!-- Standing and looking to the right -->
+			<State id="1" animation="0" movementBase="56110"/>
+			<!-- Flying to the left -->
+			<!-- The parameters related to the movement has to be set in the code -->
+			<State id="2" animation="1" movementBase="56100"/>
+			<!-- Standing and looking to the left -->
+			<State id="3" animation="1" movementBase="56110"/>
+		</States>
+	</SetOfEntities>
+	
+	<!-- The flocks of bees -->
+	<!-- For easy level -->
+	<CompositeEntity id="50130">
+		<!-- In the composite entity they are created as a copy -->
+		<RefSetOfEntities fromId="50110" number="10"/>
+		<Physics>
+			<Physic id="0" value="200"/> <!-- Max speed -->
+			<Physic id="1" value="200"/> <!-- Acceleration -->
+		</Physics>
+		<Attributes>
+			<Attribute id="NUMBEROFMONSTERS" value="2"/>
+			<Attribute id="RADIX" value="30"/>
+			<Attribute id="TIMETOMOVE" value="1"/>
+			<Attribute id="TIMEMOVING" value="30"/>
+			<Attribute id="SHOOTINGENERGY" value="1"/>
+			<Attribute id="DIEWHENHIT" value="YES"/>
+		</Attributes>
+	</CompositeEntity>
+	<CompositeEntity id="50131">
+		<RefSetOfEntities fromId="50110" number="10"/>
+		<Physics>
+			<Physic id="0" value="200"/> 
+			<Physic id="1" value="200"/> 
+		</Physics>
+		<Attributes>
+			<Attribute id="NUMBEROFMONSTERS" value="3"/>
+			<Attribute id="RADIX" value="60"/>
+			<Attribute id="TIMETOMOVE" value="0.5"/>
+			<Attribute id="TIMEMOVING" value="30"/>
+			<Attribute id="SHOOTINGENERGY" value="1"/>
+			<Attribute id="DIEWHENHIT" value="YES"/>
+		</Attributes>
+	</CompositeEntity>
+	
+	<!-- For medium level -->
+	<CompositeEntity id="50132">
+		<RefSetOfEntities fromId="50110" number="10"/>
+		<Physics>
+			<Physic id="0" value="200"/> 
+			<Physic id="1" value="200"/> 
+		</Physics>
+		<Attributes>
+			<Attribute id="NUMBEROFMONSTERS" value="3"/>
+			<Attribute id="RADIX" value="60"/>
+			<Attribute id="TIMETOMOVE" value="0.5"/>
+			<Attribute id="TIMEMOVING" value="20"/>
+			<Attribute id="SHOOTINGENERGY" value="1"/>
+			<Attribute id="DIEWHENHIT" value="YES"/>
+		</Attributes>
+	</CompositeEntity>
+	<CompositeEntity id="50133">
+		<RefSetOfEntities fromId="50110" number="10"/>
+		<Physics>
+			<Physic id="0" value="200"/> 
+			<Physic id="1" value="200"/> 
+		</Physics>
+		<Attributes>
+			<Attribute id="NUMBEROFMONSTERS" value="5"/>
+			<Attribute id="RADIX" value="60"/>
+			<Attribute id="TIMETOMOVE" value="0.5"/>
+			<Attribute id="TIMEMOVING" value="10"/>
+			<Attribute id="SHOOTINGENERGY" value="1"/>
+			<Attribute id="DIEWHENHIT" value="YES"/>
+		</Attributes>
+	</CompositeEntity>
+
+	<!-- For difficult level -->
+	<CompositeEntity id="50134">
+		<RefSetOfEntities fromId="50110" number="10"/>
+		<Physics>
+			<Physic id="0" value="200"/> 
+			<Physic id="1" value="200"/> 
+		</Physics>
+		<Attributes>
+			<Attribute id="NUMBEROFMONSTERS" value="7"/>
+			<Attribute id="RADIX" value="80"/>
+			<Attribute id="TIMETOMOVE" value="0.5"/>
+			<Attribute id="TIMEMOVING" value="15"/>
+			<Attribute id="SHOOTINGENERGY" value="2"/>
+			<Attribute id="DIEWHENHIT" value="YES"/>
+		</Attributes>
+	</CompositeEntity>
+	<CompositeEntity id="50135">
+		<RefSetOfEntities fromId="50110" number="10"/>
+		<Physics>
+			<Physic id="0" value="200"/> 
+			<Physic id="1" value="200"/> 
+		</Physics>
+		<Attributes>
+			<Attribute id="NUMBEROFMONSTERS" value="10"/>
+			<Attribute id="RADIX" value="80"/>
+			<Attribute id="TIMETOMOVE" value="0.5"/>
+			<Attribute id="TIMEMOVING" value="7"/>
+			<Attribute id="SHOOTINGENERGY" value="2"/>
+			<Attribute id="DIEWHENHIT" value="YES"/>
+		</Attributes>
+	</CompositeEntity>
+	
+	<!-- The flocks of birds -->
+	<!-- For easy level -->
+	<CompositeEntity id="50140">
+		<!-- In the composite entity they are created as a copy -->
+		<RefSetOfEntities fromId="50120" number="10"/>
+		<Physics>
+			<Physic id="0" value="200"/> <!-- Max speed -->
+			<Physic id="1" value="150"/> <!-- Acceleration -->
+		</Physics>
+		<Attributes>
+			<Attribute id="NUMBEROFMONSTERS" value="2"/>
+			<Attribute id="RADIX" value="30"/>
+			<Attribute id="TIMETOMOVE" value="1"/>
+			<Attribute id="TIMEMOVING" value="30"/>
+			<Attribute id="SHOOTINGENERGY" value="1"/>
+			<Attribute id="DIEWHENHIT" value="NO"/>
+		</Attributes>
+	</CompositeEntity>
+	<CompositeEntity id="50141">
+		<RefSetOfEntities fromId="50120" number="10"/>
+		<Physics>
+			<Physic id="0" value="200"/> 
+			<Physic id="1" value="150"/> 
+		</Physics>
+		<Attributes>
+			<Attribute id="NUMBEROFMONSTERS" value="3"/>
+			<Attribute id="RADIX" value="60"/>
+			<Attribute id="TIMETOMOVE" value="0.5"/>
+			<Attribute id="TIMEMOVING" value="30"/>
+			<Attribute id="SHOOTINGENERGY" value="1"/>
+			<Attribute id="DIEWHENHIT" value="NO"/>
+		</Attributes>
+	</CompositeEntity>
+
+	<!-- For medium level -->
+	<CompositeEntity id="50142">
+		<RefSetOfEntities fromId="50120" number="10"/>
+		<Physics>
+			<Physic id="0" value="200"/> 
+			<Physic id="1" value="150"/> 
+		</Physics>
+		<Attributes>
+			<Attribute id="NUMBEROFMONSTERS" value="3"/>
+			<Attribute id="RADIX" value="60"/>
+			<Attribute id="TIMETOMOVE" value="0.5"/>
+			<Attribute id="TIMEMOVING" value="20"/>
+			<Attribute id="SHOOTINGENERGY" value="1"/>
+			<Attribute id="DIEWHENHIT" value="NO"/>
+		</Attributes>
+	</CompositeEntity>
+	<CompositeEntity id="50143">
+		<RefSetOfEntities fromId="50120" number="10"/>
+		<Physics>
+			<Physic id="0" value="200"/> 
+			<Physic id="1" value="150"/> 
+		</Physics>
+		<Attributes>
+			<Attribute id="NUMBEROFMONSTERS" value="5"/>
+			<Attribute id="RADIX" value="60"/>
+			<Attribute id="TIMETOMOVE" value="0.5"/>
+			<Attribute id="TIMEMOVING" value="10"/>
+			<Attribute id="SHOOTINGENERGY" value="1"/>
+			<Attribute id="DIEWHENHIT" value="NO"/>
+		</Attributes>
+	</CompositeEntity>
+
+	<!-- For difficult level -->
+	<CompositeEntity id="50144">
+		<RefSetOfEntities fromId="50120" number="10"/>
+		<Physics>
+			<Physic id="0" value="200"/> 
+			<Physic id="1" value="150"/> 
+		</Physics>
+		<Attributes>
+			<Attribute id="NUMBEROFMONSTERS" value="7"/>
+			<Attribute id="RADIX" value="80"/>
+			<Attribute id="TIMETOMOVE" value="0.5"/>
+			<Attribute id="TIMEMOVING" value="15"/>
+			<Attribute id="SHOOTINGENERGY" value="2"/>
+			<Attribute id="DIEWHENHIT" value="NO"/>
+		</Attributes>
+	</CompositeEntity>
+	<CompositeEntity id="50145">
+		<RefSetOfEntities fromId="50120" number="10"/>
+		<Physics>
+			<Physic id="0" value="200"/> 
+			<Physic id="1" value="150"/> 
+		</Physics>
+		<Attributes>
+			<Attribute id="NUMBEROFMONSTERS" value="10"/>
+			<Attribute id="RADIX" value="80"/>
+			<Attribute id="TIMETOMOVE" value="0.5"/>
+			<Attribute id="TIMEMOVING" value="7"/>
+			<Attribute id="SHOOTINGENERGY" value="2"/>
+			<Attribute id="DIEWHENHIT" value="NO"/>
+		</Attributes>
+	</CompositeEntity>
+	
+	<!-- The bad guys -->
+	<SetOfEntities fromId="32000" number="10">
+		<Forms>
+			<!-- The cat -->
+			<!--Looking to the right -->
+			<Form id="50060"/>
+			<!-- Looking to the left -->
+			<Form id="50061"/>
+			<!-- The dog -->
+			<!--Looking to the right -->
+			<Form id="50062"/>
+			<!-- Looking to the left -->
+			<Form id="50063"/>
+			<!-- The robot -->
+			<!--Looking to the right -->
+			<Form id="50064"/>
+			<!-- Looking to the left -->
+			<Form id="50065"/>
+			<!-- Jack -->
+			<!--Looking to the right -->
+			<Form id="50066"/>
+			<!-- Looking to the left -->
+			<Form id="50067"/>
+		</Forms>
+		<MovementsBase>
+			<!-- Standing -->
+			<Movement id="60000"/>
+			<!-- Running -->
+			<Movement id="61000"/>
+			<!-- Jumping -->
+			<Movement id="62000"/>
+			<!-- Slidding -->
+			<Movement id="63000"/>
+			<!-- Falling is like jumping in terms of movements (with some adjustments in initial physics
+				 (maxspeed, defined in the physics of the ninja (see above) -->
+			<!-- Dieing is like Standing in terms of movements -->
+			<!-- Died is like Standing also in terms of movements -->
+		</MovementsBase>
+		<Animations>
+			<!-- Look like a Cat -->
+			<!-- Looking to the right -->
+			<!-- Standing -->
+			<Animation id="0" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50060"/>
+					<Attribute id="INITIALASPECT" value="28"/>
+					<Attribute id="FINALASPECT" value="38"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Running -->
+			<Animation id="1" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50060"/>
+					<Attribute id="INITIALASPECT" value="46"/>
+					<Attribute id="FINALASPECT" value="54"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Jumping -->
+			<Animation id="2" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50060"/>
+					<Attribute id="INITIALASPECT" value="38"/>
+					<Attribute id="FINALASPECT" value="46"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Falling -->
+			<Animation id="3" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50060"/>
+					<Attribute id="INITIALASPECT" value="10"/>
+					<Attribute id="FINALASPECT" value="16"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Sliding -->
+			<Animation id="4" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50060"/>
+					<Attribute id="INITIALASPECT" value="54"/>
+					<Attribute id="FINALASPECT" value="64"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Dieing -->
+			<Animation id="5" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50060"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="10"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="0"/>
+				</Attributes>
+			</Animation>
+			<!-- Died (just the last frame of dieing) -->
+			<Animation id="6" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50060"/>
+					<Attribute id="INITIALASPECT" value="9"/>
+					<Attribute id="FINALASPECT" value="9"/>
+					<Attribute id="FRACTIONTOCHANGE" value="0"/>
+					<Attribute id="LOOP" value="0"/> <!-- Not to loop -->
+				</Attributes>
+			</Animation>
+			
+			<!-- Looking to the left -->
+			<!-- Standing -->
+			<Animation id="10" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50061"/>
+					<Attribute id="INITIALASPECT" value="28"/>
+					<Attribute id="FINALASPECT" value="38"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Running -->
+			<Animation id="11" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50061"/>
+					<Attribute id="INITIALASPECT" value="46"/>
+					<Attribute id="FINALASPECT" value="54"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Jumping -->
+			<Animation id="12" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50061"/>
+					<Attribute id="INITIALASPECT" value="38"/>
+					<Attribute id="FINALASPECT" value="46"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Falling -->
+			<Animation id="13" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50061"/>
+					<Attribute id="INITIALASPECT" value="10"/>
+					<Attribute id="FINALASPECT" value="16"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Sliding -->
+			<Animation id="14" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50061"/>
+					<Attribute id="INITIALASPECT" value="54"/>
+					<Attribute id="FINALASPECT" value="64"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Dieing -->
+			<Animation id="15" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50061"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="10"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="0"/>
+				</Attributes>
+			</Animation>
+			<!-- Died (just the last frame of dieing) -->
+			<Animation id="16" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50061"/>
+					<Attribute id="INITIALASPECT" value="9"/>
+					<Attribute id="FINALASPECT" value="9"/>
+					<Attribute id="FRACTIONTOCHANGE" value="0"/>
+					<Attribute id="LOOP" value="0"/> <!-- Not to loop -->
+				</Attributes>
+			</Animation>
+			<!-- -->
+
+			<!-- Look like a Dog -->
+			<!-- Looking to the right -->
+			<!-- Standing -->
+			<Animation id="20" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50062"/>
+					<Attribute id="INITIALASPECT" value="28"/>
+					<Attribute id="FINALASPECT" value="38"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Running -->
+			<Animation id="21" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50062"/>
+					<Attribute id="INITIALASPECT" value="46"/>
+					<Attribute id="FINALASPECT" value="54"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Jumping -->
+			<Animation id="22" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50062"/>
+					<Attribute id="INITIALASPECT" value="38"/>
+					<Attribute id="FINALASPECT" value="46"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Falling -->
+			<Animation id="23" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50062"/>
+					<Attribute id="INITIALASPECT" value="10"/>
+					<Attribute id="FINALASPECT" value="16"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Sliding -->
+			<Animation id="24" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50062"/>
+					<Attribute id="INITIALASPECT" value="54"/>
+					<Attribute id="FINALASPECT" value="64"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Dieing -->
+			<Animation id="25" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50062"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="10"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="0"/>
+				</Attributes>
+			</Animation>
+			<!-- Died (just the last frame of dieing) -->
+			<Animation id="26" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50062"/>
+					<Attribute id="INITIALASPECT" value="9"/>
+					<Attribute id="FINALASPECT" value="9"/>
+					<Attribute id="FRACTIONTOCHANGE" value="0"/>
+					<Attribute id="LOOP" value="0"/> <!-- Not to loop -->
+				</Attributes>
+			</Animation>
+			
+			<!-- Looking to the left -->
+			<!-- Standing -->
+			<Animation id="30" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50063"/>
+					<Attribute id="INITIALASPECT" value="28"/>
+					<Attribute id="FINALASPECT" value="38"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Running -->
+			<Animation id="31" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50063"/>
+					<Attribute id="INITIALASPECT" value="46"/>
+					<Attribute id="FINALASPECT" value="54"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Jumping -->
+			<Animation id="32" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50063"/>
+					<Attribute id="INITIALASPECT" value="38"/>
+					<Attribute id="FINALASPECT" value="46"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Falling -->
+			<Animation id="33" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50063"/>
+					<Attribute id="INITIALASPECT" value="10"/>
+					<Attribute id="FINALASPECT" value="16"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Sliding -->
+			<Animation id="34" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50063"/>
+					<Attribute id="INITIALASPECT" value="54"/>
+					<Attribute id="FINALASPECT" value="64"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Dieing -->
+			<Animation id="35" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50063"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="10"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="0"/>
+				</Attributes>
+			</Animation>
+			<!-- Died (just the last frame of dieing) -->
+			<Animation id="36" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50063"/>
+					<Attribute id="INITIALASPECT" value="9"/>
+					<Attribute id="FINALASPECT" value="9"/>
+					<Attribute id="FRACTIONTOCHANGE" value="0"/>
+					<Attribute id="LOOP" value="0"/> <!-- Not to loop -->
+				</Attributes>
+			</Animation>
+			<!-- -->
+
+			<!-- Look like a Robot -->
+			<!-- Looking to the right -->
+			<!-- Standing -->
+			<Animation id="40" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50064"/>
+					<Attribute id="INITIALASPECT" value="10"/>
+					<Attribute id="FINALASPECT" value="20"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Running -->
+			<Animation id="41" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50064"/>
+					<Attribute id="INITIALASPECT" value="51"/>
+					<Attribute id="FINALASPECT" value="59"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Jumping -->
+			<Animation id="42" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50064"/>
+					<Attribute id="INITIALASPECT" value="20"/>
+					<Attribute id="FINALASPECT" value="30"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Falling is like jumping in terms of animation -->
+			<!-- Sliding -->
+			<Animation id="43" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50064"/>
+					<Attribute id="INITIALASPECT" value="72"/>
+					<Attribute id="FINALASPECT" value="82"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Dieing -->
+			<Animation id="44" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50064"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="10"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="0"/>
+				</Attributes>
+			</Animation>
+			<!-- Died (just the last frame of dieing) -->
+			<Animation id="45" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50064"/>
+					<Attribute id="INITIALASPECT" value="9"/>
+					<Attribute id="FINALASPECT" value="9"/>
+					<Attribute id="FRACTIONTOCHANGE" value="0"/>
+					<Attribute id="LOOP" value="0"/> <!-- Not to loop -->
+				</Attributes>
+			</Animation>
+			
+			<!-- Looking to the left -->
+			<!-- Standing -->
+			<Animation id="50" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50065"/>
+					<Attribute id="INITIALASPECT" value="10"/>
+					<Attribute id="FINALASPECT" value="20"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Running -->
+			<Animation id="51" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50065"/>
+					<Attribute id="INITIALASPECT" value="51"/>
+					<Attribute id="FINALASPECT" value="59"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Jumping -->
+			<Animation id="52" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50065"/>
+					<Attribute id="INITIALASPECT" value="20"/>
+					<Attribute id="FINALASPECT" value="30"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Falling is like jumping in terms of animation -->
+			<!-- Sliding -->
+			<Animation id="53" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50065"/>
+					<Attribute id="INITIALASPECT" value="72"/>
+					<Attribute id="FINALASPECT" value="82"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Dieing -->
+			<Animation id="54" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50065"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="10"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="0"/>
+				</Attributes>
+			</Animation>
+			<!-- Died (just the last frame of dieing) -->
+			<Animation id="55" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50065"/>
+					<Attribute id="INITIALASPECT" value="9"/>
+					<Attribute id="FINALASPECT" value="9"/>
+					<Attribute id="FRACTIONTOCHANGE" value="0"/>
+					<Attribute id="LOOP" value="0"/> <!-- Not to loop -->
+				</Attributes>
+			</Animation>
+
+			<!-- Look like Jack -->
+			<!-- Looking to the right -->
+			<!-- Standing -->
+			<Animation id="60" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50066"/>
+					<Attribute id="INITIALASPECT" value="10"/>
+					<Attribute id="FINALASPECT" value="20"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Running -->
+			<Animation id="61" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50066"/>
+					<Attribute id="INITIALASPECT" value="30"/>
+					<Attribute id="FINALASPECT" value="38"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Jumping -->
+			<Animation id="62" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50066"/>
+					<Attribute id="INITIALASPECT" value="20"/>
+					<Attribute id="FINALASPECT" value="30"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Falling is like jumping in terms of animation -->
+			<!-- Sliding -->
+			<Animation id="63" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50066"/>
+					<Attribute id="INITIALASPECT" value="38"/>
+					<Attribute id="FINALASPECT" value="48"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Dieing -->
+			<Animation id="64" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50066"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="10"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="0"/>
+				</Attributes>
+			</Animation>
+			<!-- Died (just the last frame of dieing) -->
+			<Animation id="65" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50066"/>
+					<Attribute id="INITIALASPECT" value="9"/>
+					<Attribute id="FINALASPECT" value="9"/>
+					<Attribute id="FRACTIONTOCHANGE" value="0"/>
+					<Attribute id="LOOP" value="0"/> <!-- Not to loop -->
+				</Attributes>
+			</Animation>
+			
+			<!-- Looking to the left -->
+			<!-- Standing -->
+			<Animation id="70" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50067"/>
+					<Attribute id="INITIALASPECT" value="10"/>
+					<Attribute id="FINALASPECT" value="20"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Running -->
+			<Animation id="71" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50067"/>
+					<Attribute id="INITIALASPECT" value="30"/>
+					<Attribute id="FINALASPECT" value="38"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Jumping -->
+			<Animation id="72" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50067"/>
+					<Attribute id="INITIALASPECT" value="20"/>
+					<Attribute id="FINALASPECT" value="30"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Falling is like jumping in terms of animation -->
+			<!-- Sliding -->
+			<Animation id="73" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50067"/>
+					<Attribute id="INITIALASPECT" value="38"/>
+					<Attribute id="FINALASPECT" value="48"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="1"/>
+				</Attributes>
+			</Animation>
+			<!-- Dieing -->
+			<Animation id="74" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50067"/>
+					<Attribute id="INITIALASPECT" value="0"/>
+					<Attribute id="FINALASPECT" value="10"/>
+					<Attribute id="FRACTIONTOCHANGE" value="5"/>
+					<Attribute id="LOOP" value="0"/>
+				</Attributes>
+			</Animation>
+			<!-- Died (just the last frame of dieing) -->
+			<Animation id="75" type="0">
+				<Attributes>
+					<Attribute id="FORM" value="50067"/>
+					<Attribute id="INITIALASPECT" value="9"/>
+					<Attribute id="FINALASPECT" value="9"/>
+					<Attribute id="FRACTIONTOCHANGE" value="0"/>
+					<Attribute id="LOOP" value="0"/> <!-- Not to loop -->
+				</Attributes>
+			</Animation>
+			<!-- -->
+			
+		</Animations>
+		<States>
+			<!-- The Cat -->
+			<!-- Looking to the right -->
+			<!-- Standing -->
+			<State id="0" animation="0" movementBase="60000"/>
+			<!-- Running -->
+			<State id="1" animation="1" movementBase="61000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="50,0,0"/> <!-- Going to the right (the movement speed is important)  -->
+					<Attribute id="ACCELERATION" value="0,0,0"/> <!-- It is supossed it is in a base, so no gravity at all affecting -->
+				</Attributes>
+			</State>
+			<!-- Jumping -->
+			<State id="2" animation="2" movementBase="62000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,-100,0"/> <!-- Going Up -->
+					<!-- This parameter is changed in the game regarding the level of impulse provided -->
+					<Attribute id="ACCELERATION" value="0,100,0"/> <!-- Gravity -->
+				</Attributes>
+			</State>
+			<!-- Falling -->
+			<State id="3" animation="3" movementBase="62000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,1,0"/> <!-- Going down -->
+					<Attribute id="ACCELERATION" value="0,100,0"/> <!-- Gravity -->
+				</Attributes>
+			</State>
+			<!-- Slidding -->
+			<State id="4" animation="4" movementBase="63000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="100,0,0"/> <!-- Slidding to the right -->
+					<!-- This parameter is changed in the game regarding the level of impulse provided -->
+					<Attribute id="ACCELERATION" value="-100,0,0"/> <!-- To reduce the speed -->
+				</Attributes>
+			</State>
+			<!-- Dieing -->
+			<State id="5" animation="5" movementBase="60000"/>
+			<!-- Died -->
+			<State id="6" animation="6" movementBase="60000"/>
+			
+			<!-- Looking to the left -->
+			<!-- Standing -->
+			<State id="10" animation="10" movementBase="60000"/>
+			<!-- Running -->
+			<State id="11" animation="11" movementBase="61000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="-50,0,0"/> <!-- Going to the left (the movement speed is important)  -->
+					<Attribute id="ACCELERATION" value="0,0,0"/> <!-- It is supossed it is in a base, so no gravity at all affecting -->
+				</Attributes>
+			</State>
+			<!-- Jumping -->
+			<State id="12" animation="12" movementBase="62000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,-100,0"/> <!-- Going Up -->
+					<!-- This parameter is changed in the game regarding the level of impulse provided -->
+					<Attribute id="ACCELERATION" value="0,100,0"/> <!-- Gravity -->
+				</Attributes>
+			</State>
+			<!-- Falling -->
+			<State id="13" animation="13" movementBase="62000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,1,0"/> <!-- Going down -->
+					<Attribute id="ACCELERATION" value="0,100,0"/> <!-- Gravity -->
+				</Attributes>
+			</State>
+			<!-- Slidding -->
+			<State id="14" animation="14" movementBase="63000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="-100,0,0"/> <!-- Slidding to the left -->
+					<!-- This parameter is changed in the game regarding the level of impulse provided -->
+					<Attribute id="ACCELERATION" value="-100,0,0"/> <!-- To reduce the speed -->
+				</Attributes>
+			</State>
+			<!-- Dieing -->
+			<State id="15" animation="15" movementBase="60000"/>
+			<!-- Died -->
+			<State id="16" animation="16" movementBase="60000"/>
+			<!-- -->
+			
+			<!-- The Dog -->
+			<!-- Looking to the right -->
+			<!-- Standing -->
+			<State id="20" animation="20" movementBase="60000"/>
+			<!-- Running -->
+			<State id="21" animation="21" movementBase="61000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="50,0,0"/> <!-- Going to the right (the movement speed is important)  -->
+					<Attribute id="ACCELERATION" value="0,0,0"/> <!-- It is supossed it is in a base, so no gravity at all affecting -->
+				</Attributes>
+			</State>
+			<!-- Jumping -->
+			<State id="22" animation="22" movementBase="62000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,-100,0"/> <!-- Going Up -->
+					<!-- This parameter is changed in the game regarding the level of impulse provided -->
+					<Attribute id="ACCELERATION" value="0,100,0"/> <!-- Gravity -->
+				</Attributes>
+			</State>
+			<!-- Falling -->
+			<State id="23" animation="23" movementBase="62000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,1,0"/> <!-- Going down -->
+					<Attribute id="ACCELERATION" value="0,100,0"/> <!-- Gravity -->
+				</Attributes>
+			</State>
+			<!-- Slidding -->
+			<State id="24" animation="24" movementBase="63000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="100,0,0"/> <!-- Slidding to the right -->
+					<!-- This parameter is changed in the game regarding the level of impulse provided -->
+					<Attribute id="ACCELERATION" value="-100,0,0"/> <!-- To reduce the speed -->
+				</Attributes>
+			</State>
+			<!-- Dieing -->
+			<State id="25" animation="25" movementBase="60000"/>
+			<!-- Died -->
+			<State id="26" animation="26" movementBase="60000"/>
+			
+			<!-- Looking to the left -->
+			<!-- Standing -->
+			<State id="30" animation="30" movementBase="60000"/>
+			<!-- Running -->
+			<State id="31" animation="31" movementBase="61000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="-50,0,0"/> <!-- Going to the left (the movement speed is important)  -->
+					<Attribute id="ACCELERATION" value="0,0,0"/> <!-- It is supossed it is in a base, so no gravity at all affecting -->
+				</Attributes>
+			</State>
+			<!-- Jumping -->
+			<State id="32" animation="32" movementBase="62000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,-100,0"/> <!-- Going Up -->
+					<!-- This parameter is changed in the game regarding the level of impulse provided -->
+					<Attribute id="ACCELERATION" value="0,100,0"/> <!-- Gravity -->
+				</Attributes>
+			</State>
+			<!-- Falling -->
+			<State id="33" animation="33" movementBase="62000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,1,0"/> <!-- Going down -->
+					<Attribute id="ACCELERATION" value="0,100,0"/> <!-- Gravity -->
+				</Attributes>
+			</State>
+			<!-- Slidding -->
+			<State id="34" animation="34" movementBase="63000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="-100,0,0"/> <!-- Slidding to the left -->
+					<!-- This parameter is changed in the game regarding the level of impulse provided -->
+					<Attribute id="ACCELERATION" value="-100,0,0"/> <!-- To reduce the speed -->
+				</Attributes>
+			</State>
+			<!-- Dieing -->
+			<State id="35" animation="35" movementBase="60000"/>
+			<!-- Died -->
+			<State id="36" animation="36" movementBase="60000"/>
+			
+			<!-- The Robot -->
+			<!-- Looking to the right -->
+			<!-- Standing -->
+			<State id="40" animation="40" movementBase="60000"/>
+			<!-- Running -->
+			<State id="41" animation="41" movementBase="61000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="50,0,0"/> <!-- Going to the right (the movement speed is important)  -->
+					<Attribute id="ACCELERATION" value="0,0,0"/> <!-- It is supossed it is in a base, so no gravity at all affecting -->
+				</Attributes>
+			</State>
+			<!-- Jumping -->
+			<State id="42" animation="42" movementBase="62000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,-100,0"/> <!-- Going Up -->
+					<!-- This parameter is changed in the game regarding the level of impulse provided -->
+					<Attribute id="ACCELERATION" value="0,100,0"/> <!-- Gravity -->
+				</Attributes>
+			</State>
+			<!-- Falling -->
+			<State id="43" animation="42" movementBase="62000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,1,0"/> <!-- Going down -->
+					<Attribute id="ACCELERATION" value="0,100,0"/> <!-- Gravity -->
+				</Attributes>
+			</State>
+			<!-- Slidding -->
+			<State id="44" animation="43" movementBase="63000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="100,0,0"/> <!-- Slidding to the right -->
+					<!-- This parameter is changed in the game regarding the level of impulse provided -->
+					<Attribute id="ACCELERATION" value="-100,0,0"/> <!-- To reduce the speed -->
+				</Attributes>
+			</State>
+			<!-- Dieing -->
+			<State id="45" animation="44" movementBase="60000"/>
+			<!-- Died -->
+			<State id="46" animation="45" movementBase="60000"/>
+			
+			<!-- Looking to the left -->
+			<!-- Standing -->
+			<State id="50" animation="50" movementBase="60000"/>
+			<!-- Running -->
+			<State id="51" animation="51" movementBase="61000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="-50,0,0"/> <!-- Going to the left (the movement speed is important)  -->
+					<Attribute id="ACCELERATION" value="0,0,0"/> <!-- It is supossed it is in a base, so no gravity at all affecting -->
+				</Attributes>
+			</State>
+			<!-- Jumping -->
+			<State id="52" animation="52" movementBase="62000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,-100,0"/> <!-- Going Up -->
+					<!-- This parameter is changed in the game regarding the level of impulse provided -->
+					<Attribute id="ACCELERATION" value="0,100,0"/> <!-- Gravity -->
+				</Attributes>
+			</State>
+			<!-- Falling -->
+			<State id="53" animation="52" movementBase="62000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,1,0"/> <!-- Going down -->
+					<Attribute id="ACCELERATION" value="0,100,0"/> <!-- Gravity -->
+				</Attributes>
+			</State>
+			<!-- Slidding -->
+			<State id="54" animation="53" movementBase="63000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="-100,0,0"/> <!-- Slidding to the left -->
+					<!-- This parameter is changed in the game regarding the level of impulse provided -->
+					<Attribute id="ACCELERATION" value="-100,0,0"/> <!-- To reduce the speed -->
+				</Attributes>
+			</State>
+			<!-- Dieing -->
+			<State id="55" animation="54" movementBase="60000"/>
+			<!-- Died -->
+			<State id="56" animation="55" movementBase="60000"/>
+			
+			<!-- Jack -->
+			<!-- Looking to the right -->
+			<!-- Standing -->
+			<State id="60" animation="60" movementBase="60000"/>
+			<!-- Running -->
+			<State id="61" animation="61" movementBase="61000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="50,0,0"/> <!-- Going to the right (the movement speed is important)  -->
+					<Attribute id="ACCELERATION" value="0,0,0"/> <!-- It is supossed it is in a base, so no gravity at all affecting -->
+				</Attributes>
+			</State>
+			<!-- Jumping -->
+			<State id="62" animation="62" movementBase="62000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,-100,0"/> <!-- Going Up -->
+					<!-- This parameter is changed in the game regarding the level of impulse provided -->
+					<Attribute id="ACCELERATION" value="0,100,0"/> <!-- Gravity -->
+				</Attributes>
+			</State>
+			<!-- Falling -->
+			<State id="63" animation="62" movementBase="62000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,1,0"/> <!-- Going down -->
+					<Attribute id="ACCELERATION" value="0,100,0"/> <!-- Gravity -->
+				</Attributes>
+			</State>
+			<!-- Slidding -->
+			<State id="64" animation="63" movementBase="63000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="100,0,0"/> <!-- Slidding to the right -->
+					<!-- This parameter is changed in the game regarding the level of impulse provided -->
+					<Attribute id="ACCELERATION" value="-100,0,0"/> <!-- To reduce the speed -->
+				</Attributes>
+			</State>
+			<!-- Dieing -->
+			<State id="65" animation="64" movementBase="60000"/>
+			<!-- Died -->
+			<State id="66" animation="65" movementBase="60000"/>
+			
+			<!-- Looking to the left -->
+			<!-- Standing -->
+			<State id="70" animation="70" movementBase="60000"/>
+			<!-- Running -->
+			<State id="71" animation="71" movementBase="61000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="-50,0,0"/> <!-- Going to the left (the movement speed is important)  -->
+					<Attribute id="ACCELERATION" value="0,0,0"/> <!-- It is supossed it is in a base, so no gravity at all affecting -->
+				</Attributes>
+			</State>
+			<!-- Jumping -->
+			<State id="72" animation="72" movementBase="62000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,-100,0"/> <!-- Going Up -->
+					<!-- This parameter is changed in the game regarding the level of impulse provided -->
+					<Attribute id="ACCELERATION" value="0,100,0"/> <!-- Gravity -->
+				</Attributes>
+			</State>
+			<!-- Falling -->
+			<State id="73" animation="72" movementBase="62000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="0,1,0"/> <!-- Going down -->
+					<Attribute id="ACCELERATION" value="0,100,0"/> <!-- Gravity -->
+				</Attributes>
+			</State>
+			<!-- Slidding -->
+			<State id="74" animation="73" movementBase="63000">
+				<Attributes>
+					<Attribute id="DIRECTION" value="-100,0,0"/> <!-- Slidding to the left -->
+					<!-- This parameter is changed in the game regarding the level of impulse provided -->
+					<Attribute id="ACCELERATION" value="-100,0,0"/> <!-- To reduce the speed -->
+				</Attributes>
+			</State>
+			<!-- Dieing -->
+			<State id="75" animation="74" movementBase="60000"/>
+			<!-- Died -->
+			<State id="76" animation="75" movementBase="60000"/>
+			<!-- -->
+		</States>
+	</SetOfEntities>
+
+</Entities>

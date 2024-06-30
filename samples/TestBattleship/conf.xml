@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Properties>
+
+	<!-- General Properties -->
+	<!-- The name of the game -->
+	<Property id="GAMENAME" value="Space Battleship"/>
+	<!-- The icon of the game -->
+	<Property id="GAMEICON" value="50000"/> <!-- Represents the logo of Battleship -->
+	<!-- Where the temporal files are stored in release version, and also the configuration saved -->
+	<Property id="DATADIR" value="C:/Temp"/>
+	<!-- When windows is in Full 4K and the scale letters are in other proportion than 1 (take care of this prm) -->
+	<Property id="XSCALE" value="2.5"/>
+	<Property id="YSCALE" value="2.5"/>
+	
+	<!-- Related with the visible screen -->
+	<Property id="SCREENWIDTH" value="816"/>
+	<Property id="SCREENHEIGHT" value="600"/>
+	<Property id="SCREENXPOSITION" value="10"/>
+	<Property id="SCREENYPOSITION" value="10"/>
+	
+	<!-- The initial world -->
+	<Property id="INITIALWORLD" value="50000"/>
+	<!-- The initial scene -->
+	<Property id="INITIALSCENE" value="60100"/>
+	<!-- The number of lives -->
+	<Property id="LIVES" value="3"/>
+	<!-- Whether to show the FPS -->
+	<Property id="FPS" value="YES"/>
+	
+	<!-- The password to avoid being destroyed -->
+	<Property id="PASSWORD" value="ICFNO"/>
+
+</Properties>

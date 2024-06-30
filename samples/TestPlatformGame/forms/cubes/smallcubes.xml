@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:b3516bd1d457750c6a3bbb4b24bc8be1:c9e4d79e64211d24856c4757edb87f14:dba0a7443184fdb0f4c2a6f17e5eb211$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="smallcubes" file="./forms/smallcubes.png" width="783" height="87"
+		fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="?">
+		<Frame id="smallbluecube" fPosX="1" fPosY="1" fWidth="85" fHeight="85" xoffset="11" yoffset="0" width="85" height="85"/>
+		<Frame id="smallcyancube" fPosX="88" fPosY="1" fWidth="85" fHeight="85" xoffset="11" yoffset="0" width="85" height="85"/>
+		<Frame id="smallgreencube" fPosX="175" fPosY="1" fWidth="85" fHeight="85" xoffset="11" yoffset="0" width="85" height="85"/>
+		<Frame id="smallorangecube" fPosX="262" fPosY="1" fWidth="85" fHeight="85" xoffset="11" yoffset="0" width="85" height="85"/>
+		<Frame id="smallpinkcube" fPosX="349" fPosY="1" fWidth="85" fHeight="85" xoffset="11" yoffset="0" width="85" height="85"/>
+		<Frame id="smallpurplecube" fPosX="436" fPosY="1" fWidth="85" fHeight="85" xoffset="11" yoffset="0" width="85" height="85"/>
+		<Frame id="smallredcube" fPosX="523" fPosY="1" fWidth="85" fHeight="85" xoffset="11" yoffset="0" width="85" height="85"/>
+		<Frame id="smallwhitecube" fPosX="610" fPosY="1" fWidth="85" fHeight="85" xoffset="11" yoffset="0" width="85" height="85"/>
+		<Frame id="smallyellowcube" fPosX="697" fPosY="1" fWidth="85" fHeight="85" xoffset="11" yoffset="0" width="85" height="85"/>
+    </Form>
+</CommtyExporter>

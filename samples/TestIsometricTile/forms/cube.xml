@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:54fdd0255fdc49cb88f4eccff7ca2937:f7dd14392c38fc13aa8b5af79a3e345c:b9b040ab8d4c69d7c63bad2aaa7fe56c$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="cubetps" file="./forms/cubetps.png" width="81" height="81"
+		fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="?">
+		<Frame id="cube" fPosX="0" fPosY="0" fWidth="81" fHeight="81" xoffset="0" yoffset="0" width="81" height="81"/>
+    </Form>
+</CommtyExporter>

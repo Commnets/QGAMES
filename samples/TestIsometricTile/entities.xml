@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Entities>
+
+	<!-- The cubes -->
+	<SetOfEntities fromId="0" number="10">
+		<Forms>
+			<Form id="80000"/>
+			<Form id="80001"/>
+			<Form id="80002"/>
+			<Form id="80003"/>
+			<Form id="80004"/>
+		</Forms>
+		<Movements>
+		</Movements>
+		<Animations>
+		</Animations>
+		<States>
+		</States>
+	</SetOfEntities>
+
+	<!-- The knights -->
+	<SetOfEntities fromId="100" number="10">
+		<Forms>
+			<Form id="90000"/>
+		</Forms>
+		<MovementsBase>
+		</MovementsBase>
+		<Animations>
+		</Animations>
+		<States>
+		</States>
+	</SetOfEntities>
+
+</Entities>

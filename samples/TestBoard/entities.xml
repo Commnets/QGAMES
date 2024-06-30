@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Entities>
+	<Entity id="1">
+		<Forms>
+			<Form id="1"/>
+			<Form id="2"/>
+		</Forms>
+		<Capacities>
+			<Capacity id="1" value="true"/>
+			<Capacity id="2" value="false"/>
+		</Capacities>
+		<Physics>
+			<Physic id="1" value="10.0"/>
+			<Physic id="2" value="8.3"/>
+		</Physics>
+		<Movements>
+			<Movement id="1"/>
+			<Movement id="2"/>
+		</Movements>
+	</Entity>
+	<Entity id="2" currentForm="1" currentMovement="2">
+		<Forms>
+			<Form id="1"/>
+			<Form id="2"/>
+		</Forms>
+		<Capacities>
+			<Capacity id="1" value="true"/>
+			<Capacity id="2" value="false"/>
+		</Capacities>
+		<Physics>
+			<Physic id="1" value="10.0"/>
+			<Physic id="2" value="8.3"/>
+		</Physics>
+		<Movements>
+			<Movement id="1"/>
+			<Movement id="2"/>
+		</Movements>
+	</Entity>	
+</Entities>

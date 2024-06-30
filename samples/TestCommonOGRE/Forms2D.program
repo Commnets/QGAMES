@@ -1,0 +1,17 @@
+/---------------------------------------------------
+// Programs to manage 2D forms under Commty QGAMES library
+//---------------------------------------------------
+
+vertex_program Forms2DVP hlsl
+{
+    source Forms2D.hlsl
+    entry_point VertexShaderFunction
+    target vs_4_0
+}
+
+fragment_program Forms2DFP hlsl
+{
+    source Forms2D.hlsl
+    entry_point PixelShaderFunction
+    target ps_4_0
+}

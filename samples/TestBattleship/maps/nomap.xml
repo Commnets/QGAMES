@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- No map. To draw over the backgrounds -->
+<!-- See that this map has exactly the same size than the screen
+	 So, there won't be any scroll associated when moving -->
+<Map name="70000" width="816" height="600">
+	<Layers>
+		<Layer id="0" name="transparent">
+			<!-- The element 70000 is a transparent object with no movement at all -->
+			<Element id="70000" X="0" Y="0" Z="0"/>
+			<Attributes>
+			</Attributes>
+		</Layer>
+	</Layers>
+	<Attributes>
+	</Attributes>
+</Map>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:0378544fe0bfcc51a8392bfd50888231:48e9b4bbd4c277ab3eff48a98d668dd7:25b378e646f383f88a6db33c7017e254$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="verysmallcubesforthings" file="./forms/verysmallcubesforthings.png" width="368" height="46"
+		fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="?">
+		<Frame id="verysmallcyancubeforthings" fPosX="1" fPosY="1" fWidth="44" fHeight="44" xoffset="5" yoffset="0" width="44" height="44"/>
+		<Frame id="verysmallgreencubeforthings" fPosX="47" fPosY="1" fWidth="44" fHeight="44" xoffset="5" yoffset="0" width="44" height="44"/>
+		<Frame id="verysmallorangecubeforthings" fPosX="93" fPosY="1" fWidth="44" fHeight="44" xoffset="5" yoffset="0" width="44" height="44"/>
+		<Frame id="verysmallpinkcubeforthings" fPosX="139" fPosY="1" fWidth="44" fHeight="44" xoffset="5" yoffset="0" width="44" height="44"/>
+		<Frame id="verysmallpurplecubeforthings" fPosX="185" fPosY="1" fWidth="44" fHeight="44" xoffset="5" yoffset="0" width="44" height="44"/>
+		<Frame id="verysmallredcubeforthings" fPosX="231" fPosY="1" fWidth="44" fHeight="44" xoffset="5" yoffset="0" width="44" height="44"/>
+		<Frame id="verysmallwhitecubeforthings" fPosX="277" fPosY="1" fWidth="44" fHeight="44" xoffset="5" yoffset="0" width="44" height="44"/>
+		<Frame id="verysmallyellowcubeforthings" fPosX="323" fPosY="1" fWidth="44" fHeight="44" xoffset="5" yoffset="0" width="44" height="44"/>
+    </Form>
+</CommtyExporter>

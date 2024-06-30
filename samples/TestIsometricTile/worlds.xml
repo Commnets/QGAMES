@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Worlds>
+
+	<World id="100">
+		<Scenes>
+			<Scene id="100">
+				<Attributes>
+				</Attributes>
+				<Conexions>
+				</Conexions>
+
+				<Maps>
+					<Map id="100" file=".\maps\Test.tmx"/>
+				</Maps>
+			</Scene>
+		</Scenes>
+
+		<Attributes>
+		</Attributes>
+	</World>
+
+</Worlds>

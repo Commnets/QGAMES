@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- Background map -->
+<Map name="0" width="1600" height="600">
+	<Layers>
+		<Layer id="0" name="background">
+			<!-- The element 100 is the background 
+				 Read in the objects.xml file -->
+			<Element id="100" X="0" Y="0" Z="0"/>
+			<Attributes>
+			</Attributes>
+		</Layer>
+	</Layers>
+	<Attributes>
+	</Attributes>
+</Map>

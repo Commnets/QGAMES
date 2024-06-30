@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Objects>
+
+	<Image id="1" form=".\objects\Test.jpg">
+		<Attributes>
+			<Attribute id="1" value="1"/>
+		</Attributes>
+	</Image>
+	<Polyline id="2" color="255,255,255,255"> 
+		<Point X="0" Y="0" Z="0"/>
+		<Point X="10" Y="10" Z="0"/>
+		<Attributes>
+			<Attribute id="1" value="1"/>
+		</Attributes>
+	</Polyline>
+	<Polygon id="3" color="255,255,255,255">
+		<Point X="0" Y="0" Z="0"/>
+		<Point X="10" Y="10" Z="0"/>
+		<Point X="20" Y="20" Z="0"/>
+		<Attributes>
+			<Attribute id="1" value="1"/>
+		</Attributes>
+	</Polygon>
+	<Ellipse id="4" vX="0" vY="0" vZ="1" r1="100" r2="100" color="255,255,255,255">
+		<Attributes>
+			<Attribute id="1" value="1"/>
+		</Attributes>
+	</Ellipse>
+	<Composite id="5" X="10" Y="10" Z="0">
+		<Element id="1"/>
+		<Element id="2"/>
+		<Element id="3"/>
+		<Element id="4"/>
+		<Attributes>
+			<Attribute id="1" value="1"/>
+		</Attributes>
+	</Composite>
+	
+</Objects>

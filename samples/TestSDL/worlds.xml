@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<Worlds>
+
+	<World id="1">
+		<Scenes>
+			<Scene id="1">
+				<Maps>
+					<Map id="1" file=".\maps\platform.tmx"/>
+				</Maps>
+				<Entities>
+					<Entity id="100" layer="Decoration1"/>
+				</Entities>
+			</Scene>
+		</Scenes>
+	</World>
+	
+</Worlds>

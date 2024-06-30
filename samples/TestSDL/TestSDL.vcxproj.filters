@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de código fuente">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Configuration">
+      <UniqueIdentifier>{b3a04953-a486-4575-9f5a-c0cbbbcab597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{5f06a3a8-196c-4ad2-a9d4-d8314ac0ca66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Forms">
+      <UniqueIdentifier>{740781bc-cf3e-4e34-a96a-87d8d21f34be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Sounds">
+      <UniqueIdentifier>{9adf0147-6a33-44d2-aaee-2c178a9527c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Maps">
+      <UniqueIdentifier>{d62f991a-3d98-44e3-9865-1d8454ac4d88}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TestSDL.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Defs.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="TestSDL.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="logo.ico">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="forms\background1.jpeg">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\background2.jpeg">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\bomb.gif">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Commnets.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Letters.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\lives.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\logo.ico">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ninjaleft.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ninjaright.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\prisioner.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\slow.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\star.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\troll.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="maps\tileset.png">
+      <Filter>Data\Maps</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="conf.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="entities.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="forms.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="guisystem.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="maps.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="movements.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="objects.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="sounds.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="worlds.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="maps\platform.tmx">
+      <Filter>Data\Maps</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="sounds\backgroundsound1.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\backgroundsound1.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\backgroundsound2.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\backgroundsound2.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TestSDL.rc">
+      <Filter>Archivos de recursos</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

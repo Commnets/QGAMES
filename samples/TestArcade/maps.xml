@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Maps>
+	<Map id="1" type="1" file=".\maps\Map1.xml"/>
+	<Map id="2" type="2" file=".\maps\Map2.xml"/>
+	<Map id="3" type="3" file=".\maps\Map3.xml"/>
+	<Map id="4" type="1" file=".\maps\Map4.xml"/>
+</Maps>

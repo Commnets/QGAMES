@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:2c2ef0afab80f1543aeed5bb11568c8f:67359f327c49cdb4a80a7822f90f276b:db31a9033fcdd7261948b4ebf7419b2a$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="highcubeoffsettps" file="./forms/highcubeoffsettps.png" width="81" height="159"
+		fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="?">
+		<Frame id="highcubeoffset" fPosX="0" fPosY="0" fWidth="81" fHeight="159" xoffset="40" yoffset="20" width="81" height="159"/>
+    </Form>
+</CommtyExporter>

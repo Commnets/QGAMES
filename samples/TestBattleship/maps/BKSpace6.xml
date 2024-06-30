@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- Background map with space betautiful forms
+	 Notice that the width could be widder than the size of the screen, and also the height. 
+	 Doing so, you could create different effects related with the lateral movement. -->
+<Map name="50105" width="816" height="600">
+	<Layers>
+		<Layer id="0" name="background">
+			<Element id="50105" X="0" Y="0" Z="0"/>
+			<Attributes>
+			</Attributes>
+		</Layer>
+	</Layers>
+	<Attributes>
+	</Attributes>
+</Map>

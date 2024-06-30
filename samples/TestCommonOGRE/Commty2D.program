@@ -1,0 +1,17 @@
+/---------------------------------------------------
+// Programs to manage 2D figures under Commty QGAMES library
+//---------------------------------------------------
+
+vertex_program Commty2DVP hlsl
+{
+    source Commty2D.hlsl
+    entry_point VertexShaderFunction
+    target vs_4_0
+}
+
+fragment_program Commty2DFP hlsl
+{
+    source Commty2D.hlsl
+    entry_point PixelShaderFunction
+    target ps_4_0
+}

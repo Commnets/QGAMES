@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<GameStates>
+
+	<!-- Includes -->
+	<Include file="ptmovements.xml"/>
+	
+	<!-- For shootings -->
+	<!-- Standing (when exploding e.g.) 
+		 As many as shots -->
+	<SetOfMovements fromId="57000" number="110"/>
+	<!-- Parabolic moving when being thrown -->
+	<SetOfMovements fromId="57500" number="110">
+		<Variable id="0" value="7"/> <!-- Basic speed -->
+	</SetOfMovements>
+	<!-- Bouncing -->
+	<SetOfMovements fromId="58000" number="110">
+		<Variable id="0" value="1"/> <!-- Basic speed -->
+	</SetOfMovements>
+	<!-- Rolling -->
+	<SetOfMovements fromId="58500" number="110">
+		<Variable id="0" value="1"/> <!-- Basic speed -->
+	</SetOfMovements>
+	<!-- Falling -->
+	<SetOfMovements fromId="59000" number="110">
+		<Variable id="0" value="1"/> <!-- Basic speed -->
+	</SetOfMovements>
+	<!-- -->
+	
+	<!-- For Ninja Male -->
+	<!-- Standing -->
+	<Movement id="50000"/>
+	<!-- Running -->
+	<Movement id="50001">
+		<Variable id="0" value="4"/> <!-- Basic speed -->
+	</Movement>
+	<!-- Jumping -->
+	<Movement id="50002">
+		<Variable id="0" value="2"/> <!-- Basic speed -->
+	</Movement>
+	<!-- Slidding -->
+	<Movement id="50003">
+		<Variable id="0" value="4"/> <!-- Basic speed -->
+	</Movement>
+	<!-- Climbing -->
+	<Movement id="50004">
+		<Variable id="0" value="2"/> <!-- Basic speed -->
+	</Movement>
+	<!-- Attacking -->
+	<Movement id="50005"/>
+	<!-- Glidding -->
+	<Movement id="50006">
+		<Variable id="0" value="1"/> <!-- Basic speed -->
+	</Movement>
+	<!-- Floating -->
+	<Movement id="50007">
+		<Variable id="0" value="1"/> <!-- Basic speed -->
+	</Movement>
+	<!-- Being happy 
+		 It is like jumping but quicker -->
+	<Movement id="50008">
+		<Variable id="0" value="5"/> <!-- 2 times quicker -->
+	</Movement>
+	<!-- -->
+	
+	<!-- For Ninja Female -->
+	<!-- Standing -->
+	<Movement id="50100"/>
+	<!-- Running -->
+	<Movement id="50101">
+		<Variable id="0" value="4"/> <!-- Basic speed -->
+	</Movement>
+	<!-- Jumping -->
+	<Movement id="50102">
+		<Variable id="0" value="2"/> <!-- Basic speed -->
+	</Movement>
+	<!-- Slidding -->
+	<Movement id="50103">
+		<Variable id="0" value="4"/> <!-- Basic speed -->
+	</Movement>
+	<!-- Climbing -->
+	<Movement id="50104">
+		<Variable id="0" value="2"/> <!-- Basic speed -->
+	</Movement>
+	<!-- Attacking -->
+	<Movement id="50105"/>
+	<!-- Glidding -->
+	<Movement id="50106">
+		<Variable id="0" value="1"/> <!-- Basic speed -->
+	</Movement>
+	<!-- Floating -->
+	<Movement id="50107">
+		<Variable id="0" value="1"/> <!-- Basic speed -->
+	</Movement>
+	<!-- Being happy 
+		 It is like jumping but quicker -->
+	<Movement id="50108">
+		<Variable id="0" value="5"/> <!-- 2 times quicker -->
+	</Movement>
+	<!-- -->
+	
+	<!-- For Food -->
+	<!-- Standing -->
+	<SetOfMovements fromId="50300" number="200"/>
+	<!-- Falling -->
+	<SetOfMovements fromId="51300" number="200">
+		<Variable id="0" value="1"/> <!-- Basic speed -->
+	</SetOfMovements>
+	<!-- In the air -->
+	<SetOfMovements fromId="52300" number="200"/>
+	<!-- -->
+	
+	<!-- For Things -->
+	<!-- Standing -->
+	<SetOfMovements fromId="53300" number="200"/>
+	<!-- Falling -->
+	<SetOfMovements fromId="54300" number="200">
+		<Variable id="0" value="1"/> <!-- Basic speed -->
+	</SetOfMovements>
+	<!-- -->
+	
+	<!-- For bees -->
+	<!-- Linear movement -->
+	<!-- Parameters are set in the game -->
+	<SetOfMovements fromId="56000" number="10">
+		<Variable id="0" value="1"/> <!-- Basic speed -->
+	</SetOfMovements>
+	<!-- Standing -->
+	<SetOfMovements fromId="56010" number="10"/>
+	<!-- -->
+	
+	<!-- For birds -->
+	<!-- Linear movement -->
+	<!-- Parameters are set in the game -->
+	<SetOfMovements fromId="56100" number="10">
+		<Variable id="0" value="1"/> <!-- Basic speed -->
+	</SetOfMovements>
+	<!-- Standing -->
+	<SetOfMovements fromId="56110" number="10"/>
+	<!-- -->
+	
+	<!-- For bad guys -->
+	<!-- Standing -->
+	<SetOfMovements fromId="60000" number="10"/>
+	<!-- Running -->
+	<SetOfMovements fromId="61000" number="10">
+		<Variable id="0" value="4"/> <!-- Basic speed -->
+	</SetOfMovements>
+	<!-- Jumping -->
+	<SetOfMovements fromId="62000" number="10">
+		<Variable id="0" value="2"/> <!-- Basic speed -->
+	</SetOfMovements>
+	<!-- Slidding -->
+	<SetOfMovements fromId="63000" number="10">
+		<Variable id="0" value="4"/> <!-- Basic speed -->
+	</SetOfMovements>
+	<!-- -->
+
+</GameStates>

@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<GUISystems>
+
+	<!-- The GUI System is used in the Introduction state -->
+	<GUISystem id="10" main="1">
+	
+		<!-- The main widget has to be a composite (type 0)
+			 to allow  the reference to other widgets -->
+		<Widget id="1" type="0" position="0,0,0">
+			<RefWidget id="2"/>
+			<RefWidget id="3"/>	
+			<RefWidget id="4"/>	
+			<RefWidget id="5"/>	
+			<RefWidget id="6"/>	
+		</Widget>
+
+		<!-- Option 1: To use the keyboard -->
+		<Widget id="2" type="1" position="0,0,0">
+			<Attributes>
+				<Attribute id="Form" value="200"/>
+				<Attribute id="BaseChr" value="32"/>
+				<Attribute id="AlphaOn" value="255"/>
+				<Attribute id="AlphaOff" value="150"/>
+				<Attribute id="PixelsAmong" value="0"/>
+				<Attribute id="Direction" value="HORIZONTALRIGHT"/>
+				<Attribute id="Text" value="Keyboard"/>
+			</Attributes>
+		</Widget>
+		
+		<!-- Option 2: To use the joystick -->
+		<Widget id="3" type="1" position="0,40,0">
+			<Attributes>
+				<Attribute id="Form" value="200"/>
+				<Attribute id="BaseChr" value="32"/>
+				<Attribute id="AlphaOn" value="255"/>
+				<Attribute id="AlphaOff" value="150"/>
+				<Attribute id="PixelsAmong" value="0"/>
+				<Attribute id="Direction" value="HORIZONTALRIGHT"/>
+				<Attribute id="Text" value="Joystick"/>
+			</Attributes>
+		</Widget>
+		
+		<!-- Option 3: To access to the list of best players (just for demo purposes) -->
+		<Widget id="4" type="1" position="0,80,0">
+			<Attributes>
+				<Attribute id="Form" value="200"/>
+				<Attribute id="BaseChr" value="32"/>
+				<Attribute id="AlphaOn" value="255"/>
+				<Attribute id="AlphaOff" value="150"/>
+				<Attribute id="PixelsAmong" value="0"/>
+				<Attribute id="Direction" value="HORIZONTALRIGHT"/>
+				<Attribute id="Text" value="Hall of fame"/>
+			</Attributes>
+		</Widget>
+		
+		<!-- Option 4: To introduce the name of the player before starting (for demo purposes) -->
+		<Widget id="5" type="2" position="0,120,0">
+			<Attributes>
+				<Attribute id="Form" value="200"/>
+				<Attribute id="BaseChr" value="32"/>
+				<Attribute id="AlphaOn" value="255"/>
+				<Attribute id="AlphaOff" value="150"/>
+				<Attribute id="PixelsAmong" value="0"/>
+				<Attribute id="Chars" value="5"/>
+				<Attribute id="Mask" value="AAAAA"/>
+				<Attribute id="CursorColor" value="150,150,150,255"/>
+				<Attribute id="Location" value="RIGHT"/>
+				<Attribute id="Text" value="Your Name: "/>
+			</Attributes>
+		</Widget>
+		
+		<!-- Option 5: To start the game -->
+		<Widget id="6" type="1" position="0,160,0">
+			<Attributes>
+				<Attribute id="Form" value="200"/>
+				<Attribute id="BaseChr" value="32"/>
+				<Attribute id="AlphaOn" value="255"/>
+				<Attribute id="AlphaOff" value="150"/>
+				<Attribute id="PixelsAmong" value="0"/>
+				<Attribute id="Direction" value="HORIZONTALRIGHT"/>
+				<Attribute id="Text" value="Start Game"/>
+			</Attributes>
+		</Widget>
+		
+	</GUISystem>
+</GUISystems>

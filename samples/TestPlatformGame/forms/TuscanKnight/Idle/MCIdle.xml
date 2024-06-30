@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:d7898b2470362b579f78dfb973c91a6f:42602a7ce347bb87fa31937ba9eb29e5:31cdf982661885c04f9d478680adff2e$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="MCIdle" file="./forms/MCIdle.png" width="166" height="220"
+		fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="8">
+		<Frame id="00000" fPosX="000" fPosY="000" fWidth="48" fHeight="111" xoffset="85" yoffset="27" width="48" height="111"/>
+		<Frame id="10000" fPosX="092" fPosY="000" fWidth="41" fHeight="112" xoffset="88" yoffset="27" width="41" height="112"/>
+		<Frame id="20000" fPosX="133" fPosY="000" fWidth="33" fHeight="110" xoffset="90" yoffset="27" width="33" height="110"/>
+		<Frame id="30000" fPosX="048" fPosY="112" fWidth="44" fHeight="108" xoffset="82" yoffset="27" width="44" height="108"/>
+		<Frame id="40000" fPosX="000" fPosY="111" fWidth="48" fHeight="105" xoffset="82" yoffset="27" width="48" height="105"/>
+		<Frame id="50000" fPosX="092" fPosY="112" fWidth="41" fHeight="108" xoffset="86" yoffset="27" width="41" height="108"/>
+		<Frame id="60000" fPosX="133" fPosY="110" fWidth="33" fHeight="110" xoffset="92" yoffset="27" width="33" height="110"/>
+		<Frame id="70000" fPosX="048" fPosY="000" fWidth="44" fHeight="112" xoffset="89" yoffset="27" width="44" height="112"/>
+    </Form>
+</CommtyExporter>

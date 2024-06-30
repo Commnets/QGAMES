@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Movements>
+
+	<!-- Horizontal movement used to Run -->
+	<Movement id="100">
+		<!-- Speed -->
+		<Variable id="0" value="2"/>
+	</Movement>
+	<!-- Staying movement -->
+	<Movement id="101"/>
+	<!-- Jump movement -->
+	<Movement id="102">
+		<!-- Length of the parabola -->
+		<Variable id="0" value="128"/>
+		<!-- Height of the parabola -->
+		<Variable id="1" value="96"/>
+		<!-- Time to get the maximum height (in fractions of second) -->
+		<Variable id="2" value="0.5"/>
+		<!-- Speed -->
+		<Variable id="3" value="1"/>
+	</Movement>
+	<!-- Vertical movement used to Fall -->
+	<Movement id="103">
+		<!-- Speed -->
+		<Variable id="0" value="2"/>
+	</Movement>
+  
+</Movements>
