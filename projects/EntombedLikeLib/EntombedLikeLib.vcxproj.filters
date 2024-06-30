@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de código fuente">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Configuration">
+      <UniqueIdentifier>{70faeb32-154c-4a5f-b2a5-9920efb25cd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{04657228-7b39-4ff4-adf9-b13a80449aa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Forms">
+      <UniqueIdentifier>{a1d838a6-d0bf-4d17-aba4-4177ed9ab3be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Sounds">
+      <UniqueIdentifier>{1e39f77a-04fe-4088-a8f4-7ae137e3dacb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Maps">
+      <UniqueIdentifier>{57d111cc-07d8-4c67-ba6b-7239f2fcf3cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Foundation">
+      <UniqueIdentifier>{09c4d9a9-4cdf-4afd-9895-030cc0f27ede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Communications">
+      <UniqueIdentifier>{e746e5a8-0af3-471e-942b-318e28f75832}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Structure">
+      <UniqueIdentifier>{d082b451-a0c0-4e8c-9f82-ecdc61b12884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Foundation">
+      <UniqueIdentifier>{571532bd-649f-484f-ac9e-ffd97a65233c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Communications">
+      <UniqueIdentifier>{79dd1b19-1e25-4767-8a03-4b262b8508a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Structure">
+      <UniqueIdentifier>{cb060106-f8e3-429e-b58e-465d4764e55f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Media">
+      <UniqueIdentifier>{91ee40d1-ab57-45fb-848b-a45708aef2d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Media">
+      <UniqueIdentifier>{35c27673-306f-41ac-beef-657877de7b92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Structure\Builders">
+      <UniqueIdentifier>{781fee2b-cc79-424b-b830-ca0592b37a54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Media\Builders">
+      <UniqueIdentifier>{01c2d1e1-d01a-432b-8e28-35001f1e811e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Communications\Builders">
+      <UniqueIdentifier>{6ac5dc2c-4182-46d3-bef0-952287f3eb16}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\EntombedLike\etdefinitions.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\EntombedLike\etinclude.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\EntombedLike\etroom.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="etentities.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="etforms.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="etgamestates.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="etguisystem.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="etmaps.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="etmonitor.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="etmovements.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="etobjects.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="etsounds.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="etworlds.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\etroom.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

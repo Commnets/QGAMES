@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.5" orientation="isometric" renderorder="right-down" width="6" height="6" tilewidth="256" tileheight="128" infinite="0" nextlayerid="15" nextobjectid="1">
+ <tileset firstgid="1" name="MainCharacter" tilewidth="256" tileheight="512" tilecount="9" columns="3">
+  <image source="MaleStanding.png" width="774" height="1542"/>
+ </tileset>
+ <tileset firstgid="10" name="Walls" tilewidth="256" tileheight="512" tilecount="112" columns="28">
+  <image source="Walls.png" width="7168" height="2048"/>
+ </tileset>
+ <tileset firstgid="122" name="Floors" tilewidth="256" tileheight="512" tilecount="70" columns="14">
+  <image source="Floors.png" width="3584" height="2560"/>
+ </tileset>
+ <layer id="13" name="Base" width="6" height="6">
+  <data encoding="base64" compression="zlib">
+   eJxbyMDAsA+KF0LpOUhie5DY2PA6KL0IjYaZtwfJXJh5ILwbh3kAaa0Z0A==
+  </data>
+ </layer>
+ <group id="8" name="Walls">
+  <layer id="14" name="XMainCharacterExample1" width="6" height="6">
+   <data encoding="base64" compression="zlib">
+   eJxjYMANmHCwiQGseMzCJg8DAAQoABE=
+  </data>
+  </layer>
+ </group>
+</map>

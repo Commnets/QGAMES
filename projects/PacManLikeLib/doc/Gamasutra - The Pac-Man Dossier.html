@@ -1,0 +1,3433 @@
+
+<!-- saved from url=(0074)https://www.gamasutra.com/view/feature/3938/the_pacman_dossier.php?print=1 -->
+<html><script type="text/javascript">window["_gaUserPrefs"] = { ioo : function() { return true; } }</script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<style type="text/css">
+table, body {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px;}
+h3.title {font-size: 16px; background: #eeeeee; width: 100%; padding: 3px;}
+span.gamacode {
+	/*font-family: "courier new";*/
+	display: block;
+	padding-left: 20px;
+	text-align: left;
+}
+@media screen and (min-width:480px) {
+	.content{
+		width: 750px; 
+		margin:auto;
+		word-wrap: break-word;
+	}
+}
+@media screen and (max-width:768px) {
+	.content{
+			width: 100% !important;
+			font-size:14px !important;
+			word-wrap: break-word;
+	}
+	.content img {
+		max-width: 100%;
+		height: auto !important;
+	}   
+	.content table {
+                width : inherit !important;
+        }
+
+	
+}
+</style>
+
+<title>Gamasutra - The Pac-Man Dossier</title>
+</head>
+<body><div class="content">
+<div style="border: 2px solid #ccc; width: 100%;"><a href="http://www.gamasutra.com/"><img border="0" src="./Gamasutra - The Pac-Man Dossier_files/gamalogo.gif"></a>
+	<a href="javascript:window.print()"><img src="./Gamasutra - The Pac-Man Dossier_files/print.gif" style="border: 0pt none ; float: right; margin-top: 10px;"></a>
+</div>
+<div style="clear:both;"></div>
+<h3 class="title">The Pac-Man Dossier</h3>
+By Jamey Pittman
+<a href="https://www.gamasutra.com/view/feature/132330/the_pacman_dossier.php"><img src="./Gamasutra - The Pac-Man Dossier_files/pacman_header.jpg" align="right" style="border:0; margin:5px;"></a><p align="left">
+<em>[What design and AI lessons can we learn from Namco's seminal Pac-Man? From history through behavior, Gamasutra presents a comprehensive Jamey Pittman-authored guide to the classic game.]</em>
+</p>
+<p align="left">
+In
+1999, Billy Mitchell of Hollywood, Florida became the first person
+to obtain a perfect score of 3,333,360 at <em>Pac-Man, </em>eating
+every possible dot, energizer, ghost, and bonus on every level
+without losing a single life in the process.
+</p>
+<p align="left">
+But perhaps what is
+most amazing is the fact he can play without using any memorized
+routines widely known as "patterns". 
+</p>
+<p align="left">
+Instead, he
+relies on his familiarity with how each ghost behaves as it moves
+through the maze, using that knowledge to keep Pac-Man one step
+ahead of his enemies at all times.
+</p>
+<p align="left">
+Unlike
+Mitchell, most players are only able to rack up high scores with
+the aid of multiple patterns that take advantage of the game's
+deterministic nature. 
+</p>
+<p align="left">
+These patterns require perfect memorization
+and recall to be of any real use - a single hesitation or
+wrong turn during execution can make the remainder of a pattern
+useless.
+</p>
+<p align="left">
+Not surprisingly, an over-reliance on these routines
+leaves many a player clueless as to how to effectively avoid the
+ghosts and finish off the remaining dots in the higher levels once
+a mistake occurs.
+</p>
+<p align="left">
+<img style="width: 240px; height: 363px" src="./Gamasutra - The Pac-Man Dossier_files/pmgst.png" border="1" alt="" hspace="5" vspace="5" width="240" height="363" align="right">Most
+<em>Pac-Man</em> strategy guides available on the internets today
+are very similar in content to the books that used to be sold back
+in the early 80s
+</p>
+<p align="left">
+A summary of gameplay and scoring is provided
+first, followed by a list of patterns to be memorized by the
+reader, but very little insight is offered on how the game works
+or how the ghosts make decisions. 
+</p>
+<p align="left">
+Therefore, the purpose of this
+guide is to give the player and game designers a better design understanding of <em>Pac-Man</em> by taking a closer look at gameplay,
+maze logic, ghost personalities, and the mysterious "split
+screen" level.
+</p>
+<p align="left">
+All
+information provided has been extracted from or verified with the
+disassembly output from the Midway <em>Pac-Man</em>
+arcade ROMs along
+with controlled observations of actual gameplay. As such, I have a
+high confidence in its accuracy. 
+</p>
+<p align="left">
+That said, if you notice an error
+or omission, please contact me so it can be corrected as soon as possible. I hope you find the
+information just as interesting and useful as I did for gaining a
+better understanding of this classic game.
+</p>
+<p align="left">
+Special
+thanks to Don Hodges (<a href="http://www.donhodges.com/">www.donhodges.com</a>)
+whose invaluable contributions to this guide can be found in every
+chapter.
+</p>
+<hr name="false">
+<h1 align="left"><img style="width: 32px; height: 32px" src="./Gamasutra - The Pac-Man Dossier_files/cherry.png" border="0" alt="" hspace="5" vspace="5" width="32" height="32" align="left">Chapter 1: Welcome to the Machine <br>
+</h1>
+<p align="left">
+"<em>I
+don't have any particular interest in [computers]. I'm interested
+in creating images that communicate with people. A computer is not
+the only medium that uses images; I could use the movies or
+television or any other visual medium. It just so happens I use
+the computer."-Toru Iwatani</em>
+</p>
+<p align="left">
+It was 1977 when a
+self-taught, capable young man named Toru Iwatani came to work for
+Namco Limited, a Tokyo-based amusement manufacturer whose main
+product lines at the time were projection-based amusement rides
+and light gun shooting galleries.
+</p>
+<p align="left">
+He was just 22 years old with no
+formal training in computers, visual arts, or graphic design, but
+his creativity and aptitude for game design were obvious to the
+Namco executives that met with Iwatani. They offered to hire
+him-with assurances they would find a place for him in the
+company-and he accepted.
+</p>
+<p align="left">
+Iwatani
+eventually found his place designing titles for Namco's new video
+games division. His limited computer skills necessitated his being
+paired with a programmer who would write the actual code while
+Iwatani took on the role of game designer for the project.
+</p>
+<p align="left">
+<img style="width: 224px; height: 272px" src="./Gamasutra - The Pac-Man Dossier_files/geebee.jpg" border="1" alt="" hspace="5" vspace="5" width="224" height="272" align="right">This
+was a new job for the game industry in 1977 when most games were
+designed by the programmers who coded them. In addition to a
+programmer, Iwatani's team would usually include a hardware
+engineer to develop the various devices and components, a graphic
+artist to realize his visual ideas, and a music composer for any
+music and sound effects needed in the game.
+</p>
+<p align="left">
+Iwatani
+had initially wanted to work on pinball machines, but Namco had no
+interest in the pinball business. Perhaps as a concession, his
+first game design, called <em>Gee Bee,</em> was
+a paddle game similar to Atari's <em>Breakout</em>
+but with a decidedly
+pinball-inspired slant to the gameplay. 
+</p>
+<p align="left">
+Released in 1978, it was
+Namco's first original video game-they had only ported
+existing Atari games to the Japanese market up to this point-and
+it enjoyed moderate success in the arcades.
+</p>
+<p align="left">
+<img style="width: 200px; height: 229px" src="./Gamasutra - The Pac-Man Dossier_files/si.jpg" border="1" alt="" hspace="5" vspace="5" width="200" height="229" align="left">But
+the paddle games were losing ground fast to a new genre. The
+unprecedented success of Taito's <em>Space Invaders</em> in
+1978 caused an industry-wide shift toward space-themed,
+shoot-'em-up games (as well as a national coin shortage in Japan).
+</p>
+<p align="left">
+Game manufacturers scrambled to match Taito's success with space
+shooters of their own. Namco was quick to follow suit, assigning a
+team to start work on a <em>Space Invaders</em> clone
+at once. It was around this time that Toru Iwatani began thinking
+about designing a different kind of game. He felt the shoot-'em-up
+craze was destined to fade away like the paddle games before them.
+</p>
+<p align="left">
+Rather than make another space shooter, Toru wanted to take his
+game design in a completely new direction that did not focus on
+violence or conflict, and would appeal to both male <em>and</em>
+female audiences.
+</p>
+<p align="left">
+He
+took inspiration from a children's story about a creature that
+protected children from monsters by eating them. One of Iwatani's
+design methods included taking key words associated with a story
+to aid in developing his ideas. The kanji word <em>taberu
+</em>("to eat"),
+became the premise for the game. 
+</p>
+<p align="left">
+The word <em>kuchi</em>
+("mouth") has a
+square shape for its kanji symbol and provided the inspiration for
+the game's main character-the better-known legend of Iwatani
+receiving his inspiration from a pizza pie with a slice missing
+was, by his own admission, not entirely correct:
+</p>
+<p align="left">
+<img style="width: 200px; height: 262px" src="./Gamasutra - The Pac-Man Dossier_files/torueatspizzathumb.jpg" border="1" alt="" hspace="5" vspace="5" width="200" height="262" align="right">"<em>Well,
+it's half true. In Japanese the character for mouth (kuchi) is a
+square shape. It's not circular like the pizza, but I decided to
+round it out. There was the temptation to make the Pac-Man shape
+less simple. While I was designing this game, someone suggested we
+add eyes. But we eventually discarded that idea because once we
+added eyes, we would want to add glasses and maybe a moustache. There would just be no end to it. </em>
+</p>
+<p align="left">
+<em>Food is the other part of the
+basic concept. In my initial design, I had put the player in the
+midst of food all over the screen. As I thought about it, I
+realized the player wouldn't know exactly what to do: the purpose
+of the game would be obscure. So I created a maze and put the food
+in it. Then whoever played the game would have some structure by
+moving through the maze. </em>
+</p>
+<p align="left">
+<em>The Japanese have a slang word-paku
+paku-they use to describe the motion of the mouth opening
+and closing while one eats. The name Puck-Man came from that
+word."</em>
+</p>
+<p>
+-<em>Toru
+Iwatani</em>
+</p>
+<p align="left">
+The monsters from
+the children's story were included as four ghosts that chase the
+player through the maze, providing an element of tension. Attacks
+on the player were designed to come in waves (similar to <em>Space
+Invaders</em>) as opposed to an endless assault, and each ghost was
+given an unique personality and character. 
+</p>
+<p align="left">
+The children's story
+also included the concept of <em>kokoro</em> ("spirit")
+or a life force used by the creature that allowed him to eat the
+monsters. Toru incorporated this aspect of the story as four
+edible power pellets in the maze that turn the tables on the
+ghosts, making them vulnerable to being eaten by the player.
+</p>
+<p align="left">
+<img style="width: 224px; height: 256px" src="./Gamasutra - The Pac-Man Dossier_files/galaxian.jpg" border="1" alt="" hspace="5" vspace="5" width="224" height="256" align="left">With
+a name and a basic design in place, Iwatani was ready to begin
+work. The team Namco assigned Iwatani to bring <em>Puck-Man</em> to
+life included a programmer (Shigeo Funaki), a hardware engineer, a
+cabinet designer, and a music composer (Toshio Kai). 
+</p>
+<p align="left">
+Development
+got underway in early 1979. In the course of that year, two new
+pinball-themed designs from Iwatani-<em>Bomb Bee</em> and
+<em>Cutie Q-</em>were both released during <em>Puck-Man's</em>
+development cycle. Both games were similar to <em>Gee Bee </em>but
+with stronger gameplay and improved visuals<em>.</em>
+</p>
+<p align="left">
+The Namco team
+working on the <em>Space Invaders</em> clone for the past several
+months had just achieved a technological coup for Namco: the first
+game to use a true, multi-colored, RGB display instead of the
+monochrome monitors with colored cellophane tape so prevalent at
+the time. 
+</p>
+<p align="left">
+Thanks to the breakthrough of the other team, Iwatani
+now had the new promise of color to enhance his design. Mindful
+that he wanted the game to appeal to women, he immediately decided
+to use it on the ghosts, choosing pastel shades for the bodies and
+adding expressive, blue eyes. Dark blue was used for the maze
+itself, while Puck-Man was drenched in a brilliant yellow.
+</p>
+<p align="left">
+<img style="width: 222px; height: 342px" src="./Gamasutra - The Pac-Man Dossier_files/puckman.jpg" border="1" alt="" hspace="5" vspace="5" width="222" height="342" align="right">The
+look and feel of <em>Puck-Man</em> continued to evolve for over a
+year. A large amount of time and effort was put into developing
+the ghosts unique movement patterns through the maze and tweaking
+the game difficulty variables as boards were cleared. 
+</p>
+<p align="left">
+Bonus
+symbols (including the <em>Galaxian</em> flagship) were added into
+the mix at some point, and the ghosts were finally given names:
+Akabei, Pinky, Aosuke, and Guzuta. Sound effects and music were
+some of the final touches added as development neared an end along
+with constant tweaking of the ghosts' behavior.
+</p>
+<p align="left">
+<em>Puck-Man's</em>
+creation was a year and five months in the making-the
+longest ever for a video game to that point. Finally, on May 22<sup>nd</sup>,
+1980, it was released to arcades in Japan. Initially, the game did
+moderately well, but was no overnight sensation. 
+</p>
+<p align="left">
+In fact, Namco's
+multi-colored <em>Space Invaders </em>clone, called <em>Galaxian,</em>
+was much more popular with the gaming public-the
+predominately male, game-playing audience in Japan was unsure what
+to make of <em>Puck-Man </em>with its cartoon-like characters, maze,
+and pastel colors, whereas <em>Galaxian</em> was more immediately
+familiar to them with its shoot-'em-up space theme.
+</p>
+<p align="left">
+Midway
+was a distributor of coin-operated video games in the U.S. that
+was always looking for the next big hit from Japan to license and
+bring to America. They opted for both <em>Puck-Man</em> and
+<em>Galaxian</em>, modifying
+the cabinets and artwork to make them easier to manufacture as
+well as providing a more American look and feel.
+</p>
+<p align="left">
+<img style="width: 200px; height: 358px" src="./Gamasutra - The Pac-Man Dossier_files/cabinet3.png" border="1" alt="" hspace="5" vspace="5" width="200" height="358" align="left"><em>Puck-Man</em>
+went through the majority of the
+changes: the cabinet was modified slightly, changing the color
+from white to a bright yellow to make it stand out in the arcade.
+The detailed, multi-colored cabinet artwork was replaced with
+cheaper-to-produce, three-color artwork illustrating an iconic
+representation of Puck-Man (now drawn with eyes and feet) and one
+blue ghost. 
+</p>
+<p align="left">
+English names were given to the ghosts (Blinky, Pinky,
+Inky, and Clyde), and the Namco title was changed to Midway. The
+most significant change to <em>Puck-Man</em> was
+the name. Midway feared it would be too easy for nasty-minded
+vandals to change the P in <em>Puck-Man </em>to
+an F, creating an unsavory epithet.
+</p>
+<p align="left">
+Not wanting their product
+associated with this word, Midway renamed the game <em>Pac-Man</em>
+before releasing it to American
+arcades in October 1980.
+</p>
+<p align="left">
+But
+the situation in America was reversed from Japan for these two
+titles. <em>Galaxian</em> got
+lost in the shuffle of the shoot-'em-up craze that blanketed
+America's arcades and, by the fall of 1980, it was already
+competing with more advanced video games like <em>Defender</em>.
+</p>
+<p align="left">
+In the end, <em>Galaxian</em> enjoyed
+moderate success in America and in Japan, but was never the smash
+hit the original <em>Space Invaders</em> was.
+<em>Pac-Man</em> was another
+story. There were no games to compare it to-it was in a
+genre all by itself. The bright yellow cabinet, visuals, and
+sounds drew a great deal of attention. No one had seen a game
+quite like this before. 
+</p>
+<p align="left">
+The addictive gameplay and challenge of
+increasing levels of difficulty kept the die-hard gamers more than
+happy, while the simplicity of the game appealed to younger
+children. The lack of war-like motifs and violence did as Iwatani
+had hoped and attracted a sizable female audience-a first
+for a video game. Even the parents wary of the violence-themed
+arcade games had no problem with their kids playing as cute and
+innocuous a game as <em>Pac-Man</em>.
+</p>
+<p align="left">
+<img style="width: 200px; height: 340px" src="./Gamasutra - The Pac-Man Dossier_files/pbook.jpg" border="1" alt="" hspace="5" vspace="5" width="200" height="340" align="right"><em>Pac-Man</em>
+went on to capture the world's imagination like nothing before or
+since. It was a genuine phenomenon on a global scale, selling over
+100,000 machines in its first year alone. Easy to learn but
+notoriously difficult to master, everyone from school children to
+Wall Street executives dropped quarter after quarter into an
+ever-increasing number of waiting
+<em>Pac-Man</em> machines. 
+</p>
+<p align="left">
+By 1982, <em>Pac-Man</em> merchandise was
+literally everywhere: t-shirts, hats, keychains, wrist bands,
+bedsheets, air fresheners, wall clocks, drinking glasses, trading
+cards, stickers, cereal boxes, comic books-even a Saturday
+morning cartoon. 
+</p>
+<p align="left">
+A novelty song called "<em>Pac-Man Fever"</em>
+received significant radio play, reaching number nine on the U.S.
+Billboard charts. Many books were written offering tips and tricks
+used by the best players to achieve high scores-the
+first-ever strategy guides published for a video game.
+</p>
+<p align="left">
+Fast-forward to
+nearly thirty years later: <em>Pac-Man </em>remains the best-selling
+coin-operated video game in history. Still considered the most
+widely-recognized video game character in the U.S., his likeness
+has been licensed to over 250 companies for over 400 products. 
+</p>
+<p align="left">
+His
+namesake has been adopted by the business world to describe a way
+to defend against a hostile takeover (the defending company
+swallows up the larger company instead in a move known as the
+"Pac-Man defense"). There is even an upright <em>Pac-Man</em>
+machine on display at the
+Smithsonian Institution in Washington, D.C. 
+</p>
+<p align="left">
+Unlike the majority of
+his early-80s contemporaries, new <em>Pac-Man</em> games
+are still in development today. Most recently, <em>Pac-Man
+Championship Edition</em> was
+released in 2007 for the X-Box 360 console with the aid of Namco
+game designer Toru Iwatani.
+</p>
+<p align="left">
+<img style="width: 184px; height: 180px" src="./Gamasutra - The Pac-Man Dossier_files/arcadepacman2.png" border="1" alt="" hspace="5" vspace="5" width="184" height="180" align="left">Interest
+in the original coin-op title has never completely faded,
+thankfully. Thanks to Namco's re-release of <em>Pac-Man</em>
+and other arcade
+classics for modern home consoles, new generations of Pac-addicts
+have worn their hands out playing a game often older than
+themselves.
+</p>
+<p align="left">
+Many classic titles are also kept alive thanks to the
+advent of high-quality arcade emulators available for the home
+computer (like MAME) that use a software copy of the arcade ROM
+chips to recreate the game with 100% accuracy. Several web pages
+with information about the original <em>Pac-Man</em>
+arcade game can be
+found online including <a href="http://en.wikipedia.org/wiki/Pacman">Wikipedia</a>
+and the <a href="http://www.klov.com/game_detail.php?game_id=10816">Killer
+List Of Video Games</a>.
+</p>
+<hr name="false">
+<h1 align="left">
+<img style="width: 32px; height: 32px" src="./Gamasutra - The Pac-Man Dossier_files/strawberry.png" border="0" alt="" hspace="5" vspace="5" width="32" height="32" align="left">Chapter 2: Gameplay Details 
+</h1>
+<p align="left">
+"<em>As
+Pac-Man was originally conceived to appeal to women players, it is
+a very easy and approachable game. I believe that is an ingredient
+in the longevity of the game."-Toru Iwatani, creator
+of Pac-Man</em> 
+</p>
+<p align="justify">
+<strong>The
+Basics</strong>
+</p>
+<p align="left">
+The
+premise of <em>Pac-Man</em> is delightfully simple: using a four-way
+joystick, the player guides Pac-Man-up, down, left, and
+right-through a maze filled with dots for him to gobble up.
+Four ghost monsters are also in the maze and chase after our hero,
+trying to capture and kill him. 
+</p>
+<p align="left">
+The goal is to clear the maze of
+dots while avoiding the deadly ghosts. Each round starts with the
+ghosts in the "monster pen" at the center of the maze,
+emerging from it to join in the chase. 
+</p>
+<p align="left">
+If Pac-Man is captured by a
+ghost, a life is lost, the ghosts are returned to their pen, and a
+new Pac-Man is placed at the starting position before play
+continues. When the maze is cleared of all dots, the board is
+reset, and a new round begins. If Pac-Man gets caught by a ghost
+when he has no extra lives, the game is over.
+</p>
+<p align="left">
+<img style="width: 336px; height: 432px" src="./Gamasutra - The Pac-Man Dossier_files/lvl1.png" border="1" alt="" hspace="5" vspace="5" width="336" height="432" align="right">There are 244 dots
+in the maze, and Pac-Man must eat them all in order to proceed to
+the next round. The 240 small dots are worth ten points each, and
+the four large, flashing dots - best known as <em>energizers</em> - are
+worth 50 points each. 
+</p>
+<p align="left">
+This yields a total of 2,600 points for
+clearing the maze of dots each round. Players have two ways to
+increase their score beyond what is earned from eating dots:
+</p>
+<p align="left">
+The first way to
+increase your score each round is by turning the tables on your
+enemies by making them your prey. Whenever Pac-Man eats one of the
+four energizer dots located in the corners of the maze, the ghosts
+reverse their direction and, in early levels, turn the same shade
+of blue for a short period of time before returning to normal.
+</p>
+<p align="left">
+While blue, they are vulnerable to Pac-Man and can be gobbled up
+for extra points providing they are caught before the time
+expires. After being eaten, a ghost's eyes will return to the
+monster pen where it is resurrected, exiting to chase Pac-Man once
+again. 
+</p>
+<p align="left">
+The first ghost captured after an energizer has been eaten
+is always worth 200 points. Each additional ghost captured from
+the same energizer will then be worth twice as many points as the
+one before it-400, 800, and 1,600 points, respectively. If
+all four ghosts are captured at all four energizers, an additional
+12,000 points can be earned on these earlier levels. This should
+not prove too terribly difficult to achieve for the first few
+rounds as the ghosts initially remain blue for several seconds.
+</p>
+<p align="left">
+Soon after, however, the ghosts' "blue time" will get
+reduced to one or two seconds at the most, making it much more
+problematic to capture all four before time runs out on these
+boards. By level 19, the ghosts stop turning blue altogether and
+can no longer be eaten for additional points.
+</p>
+<p align="left">
+The second way to
+increase your score each round is by eating the <em>bonus
+symbols</em> (commonly
+known as <em>fruit</em>)
+that appear directly below the monster pen twice each round for
+additional points. The first bonus fruit appears after 70 dots
+have been cleared from the maze; the second one appears after 170
+dots are cleared. 
+</p>
+<p align="left">
+Each fruit is worth anywhere from 100 to 5,000
+points, depending on what level the player is currently on.
+Whenever a fruit appears, the amount of time it stays on the
+screen before disappearing is always between nine and ten seconds.
+The <em>exact</em>
+duration (i.e., 9.3333 seconds,
+10.0 seconds, 9.75 seconds, etc.) is variable and does
+not become predictable with
+the use of patterns. In other words, executing the <em>same</em>
+pattern on the <em>same</em>
+level twice is no guarantee for
+how long the bonus fruit will stay onscreen each time. 
+</p>
+<p align="left">
+This
+usually goes unnoticed given that the majority of patterns are
+designed to eat the bonus fruit as quickly as possible after it
+has been triggered to appear. The symbols used for the last six
+rounds completed, plus the current round are also shown along the
+bottom edge of the screen (often called the fruit counter or level
+counter). See <em>Table
+A.1</em> in the
+appendices for all bonus fruit and scoring values, per level.
+</p>
+<p align="left">
+Ghosts have three
+mutually-exclusive modes of behavior they can be in during play:
+<em>chase</em>, <em>scatter</em>, and <em>frightened</em>. Each mode has
+a different objective/goal to be carried out:
+</p>
+<ol>
+	<li>
+	<p align="left">
+	<strong>CHASE</strong> - A
+	ghost's objective in <em>chase </em>mode is to find and capture
+	Pac-Man by hunting him down through the maze. Each ghost exhibits
+	unique behavior when chasing Pac-Man, giving them their different
+	personalities: Blinky (red) is very aggressive and hard to shake
+	once he gets behind you, Pinky (pink) tends to get in front of
+	you and cut you off, Inky (light blue) is the least predictable
+	of the bunch, and Clyde (orange) seems to do his own thing and
+	stay out of the way.
+	</p>
+	</li>
+	<li>
+	<p align="left">
+	<strong>SCATTER </strong>- In
+	<em>scatter </em>mode, the ghosts give up the chase for a few
+	seconds and head for their respective home corners. It is a
+	welcome but brief rest-soon enough, they will revert to
+	chase mode and be after Pac-Man again.
+	</p>
+	</li>
+	<li>
+	<p align="left">
+	<strong>FRIGHTENED</strong> - Ghosts
+	enter <em>frightened </em>mode whenever Pac-Man eats one of the
+	four energizers located in the far corners of the maze. During
+	the early levels, the ghosts will all turn dark blue (meaning
+	they are vulnerable) and aimlessly wander the maze for a few
+	seconds. They will flash moments before returning to their
+	previous mode of behavior.
+	</p>
+	</li>
+</ol>
+<p align="justify">
+<strong>Reversal
+Of Fortune</strong>
+</p>
+<p align="left">
+<img style="width: 100px; height: 91px" src="./Gamasutra - The Pac-Man Dossier_files/ghost_blue.png" border="1" alt="" hspace="5" vspace="5" width="100" height="91" align="left">In
+all three modes of behavior, the ghosts are prohibited from
+reversing their direction of travel. As such, they can only choose
+between continuing on their current course or turning off to one
+side or the other at the next intersection. Thus, once a ghost
+chooses which way to go at a maze intersection, it has no option
+but to continue forward on that path until the next intersection
+is reached. 
+</p>
+<p align="left">
+Of course, if you've spent any time playing <em>Pac-Man</em>,
+you already know the ghosts <em>will</em> reverse direction at
+certain times. But how can this be if they are expressly
+prohibited from doing so on their own? The answer is: when
+changing modes, the system can override the ghosts' normal
+behavior, forcing them to go the opposite way. Whenever this
+happens, it is a visual indicator of their behavior changing from
+one mode to another. 
+</p>
+<p align="left">
+Ghosts are forced to reverse direction by the
+system anytime the mode changes from: chase-to-scatter,
+chase-to-frightened, scatter-to-chase, and scatter-to-frightened.
+Ghosts do not reverse direction when changing back from frightened
+to chase or scatter modes.
+</p>
+<p align="left">
+When the system
+forces the ghosts to reverse course, they do not necessarily
+change direction simultaneously; some ghosts may continue forward
+for a fraction of a second before turning around. 
+</p>
+<p align="left">
+The delay
+between when the system signals a reversal and when a ghost
+actually responds depends on how long it takes the ghost to enter
+the next game tile along its present course after the reversal
+signal is given (more on tiles in Chapter 3). Once the ghost
+enters a new tile, it will obey the reversal signal and turn
+around.
+</p>
+<p align="justify">
+<strong>Scatter,
+Chase, Repeat...</strong>
+</p>
+<p align="left">
+Ghosts alternate
+between scatter and chase modes during gameplay at predetermined
+intervals. These mode changes are easy to spot as the ghosts
+simultaneously reverse direction when they occur. Scatter modes
+happen four times per level before the ghosts stay in chase mode
+indefinitely. 
+</p>
+<p align="left">
+Good players will take full advantage of the scatter
+periods by using the brief moment when the ghosts are not chasing
+Pac-Man to clear dots from the more dangerous areas of the maze.
+The scatter/chase timer gets reset whenever a life is lost or a
+level is completed. At the start of a level or after losing a
+life, ghosts emerge from the ghost pen already in the first of the
+four scatter modes.
+</p>
+<p align="left">
+<img style="width: 100px; height: 96px" src="./Gamasutra - The Pac-Man Dossier_files/pacman1.png" border="1" alt="" hspace="5" vspace="5" width="100" height="96" align="right">For
+the first four levels, the first two scatter periods last for
+seven seconds each. They change to five seconds each for level
+five and beyond. The third scatter mode is always set to five
+seconds. The fourth scatter period lasts for five seconds on level
+one, but then is only 1/60<sup>th</sup> of a second for the rest
+of play. When this occurs, it appears as a simple reversal of
+direction by the ghosts. 
+</p>
+<p align="left">
+The first and second chase periods last
+for 20 seconds each. The third chase period is 20 seconds on level
+one but then balloons to 1,033 seconds for levels two through
+four, and 1,037 seconds for all levels beyond-lasting over
+17 minutes! If the ghosts enter frightened mode, the scatter/chase
+timer is paused. 
+</p>
+<p align="left">
+When time runs out, they return to the mode they
+were in before being frightened and the scatter/chase timer
+resumes. This information is summarized in the following table
+(all values are in seconds):
+</p>
+<table border="1" cellspacing="0" cellpadding="4" width="264" bordercolor="#000000">
+	<tbody>
+		<tr>
+			<td width="47" bgcolor="#e6e6e6">
+			<p align="center">
+			<strong>Mode</strong>
+			</p>
+			</td>
+			<td width="53" bgcolor="#e6e6e6">
+			<p align="center">
+			<strong>Level
+			1</strong>
+			</p>
+			</td>
+			<td width="71" bgcolor="#e6e6e6">
+			<p align="center">
+			<strong>Levels
+			2-4</strong>
+			</p>
+			</td>
+			<td width="59" bgcolor="#e6e6e6">
+			<p align="center">
+			<strong>Levels
+			5+</strong>
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="47" bgcolor="#ffffff">
+			<p align="center">
+			Scatter
+			</p>
+			</td>
+			<td width="53" bgcolor="#ffffff">
+			<p align="right">
+			7
+			</p>
+			</td>
+			<td width="71" bgcolor="#ffffff">
+			<p align="right">
+			7
+			</p>
+			</td>
+			<td width="59" bgcolor="#ffffff">
+			<p align="right">
+			5
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="47" bgcolor="#ffffff">
+			<p align="center">
+			Chase
+			</p>
+			</td>
+			<td width="53" bgcolor="#ffffff">
+			<p align="right">
+			20
+			</p>
+			</td>
+			<td width="71" bgcolor="#ffffff">
+			<p align="right">
+			20
+			</p>
+			</td>
+			<td width="59" bgcolor="#ffffff">
+			<p align="right">
+			20
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="47" bgcolor="#ffffff">
+			<p align="center">
+			Scatter
+			</p>
+			</td>
+			<td width="53" bgcolor="#ffffff">
+			<p align="right">
+			7
+			</p>
+			</td>
+			<td width="71" bgcolor="#ffffff">
+			<p align="right">
+			7
+			</p>
+			</td>
+			<td width="59" bgcolor="#ffffff">
+			<p align="right">
+			5
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="47" bgcolor="#ffffff">
+			<p align="center">
+			Chase
+			</p>
+			</td>
+			<td width="53" bgcolor="#ffffff">
+			<p align="right">
+			20
+			</p>
+			</td>
+			<td width="71" bgcolor="#ffffff">
+			<p align="right">
+			20
+			</p>
+			</td>
+			<td width="59" bgcolor="#ffffff">
+			<p align="right">
+			20
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="47" bgcolor="#ffffff">
+			<p align="center">
+			Scatter
+			</p>
+			</td>
+			<td width="53" bgcolor="#ffffff">
+			<p align="right">
+			5
+			</p>
+			</td>
+			<td width="71" bgcolor="#ffffff">
+			<p align="right">
+			5
+			</p>
+			</td>
+			<td width="59" bgcolor="#ffffff">
+			<p align="right">
+			5
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="47" bgcolor="#ffffff">
+			<p align="center">
+			Chase
+			</p>
+			</td>
+			<td width="53" bgcolor="#ffffff">
+			<p align="right">
+			20
+			</p>
+			</td>
+			<td width="71" bgcolor="#ffffff">
+			<p align="right">
+			1033
+			</p>
+			</td>
+			<td width="59" bgcolor="#ffffff">
+			<p align="right">
+			1037
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="47" bgcolor="#ffffff">
+			<p align="center">
+			Scatter
+			</p>
+			</td>
+			<td width="53" bgcolor="#ffffff">
+			<p align="right">
+			5
+			</p>
+			</td>
+			<td width="71" bgcolor="#ffffff">
+			<p align="right">
+			1/60
+			</p>
+			</td>
+			<td width="59" bgcolor="#ffffff">
+			<p align="right">
+			1/60
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="47" bgcolor="#ffffff">
+			<p align="center">
+			Chase
+			</p>
+			</td>
+			<td width="53" bgcolor="#ffffff">
+			<p align="right">
+			indefinite
+			</p>
+			</td>
+			<td width="71" bgcolor="#ffffff">
+			<p align="right">
+			indefinite
+			</p>
+			</td>
+			<td width="59" bgcolor="#ffffff">
+			<p align="right">
+			indefinite
+			</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<p align="justify">
+<strong>Frightening
+Behavior</strong>
+</p>
+<p align="justify">
+Anytime Pac-Man
+eats one of the four energizers on the level, the ghosts reverse
+direction and, on earlier levels, go into <em>frightened</em>
+mode. Frightened ghosts turn dark
+blue and wander about the maze for a few moments, flashing briefly
+as a warning before returning to normal. Ghosts use a
+pseudo-random number generator (PRNG) to pick a way to turn at
+each intersection when frightened. 
+</p>
+<p align="justify">
+The PRNG generates an
+pseudo-random memory address to read the last few bits from. These
+bits are translated into the direction a frightened ghost must
+first try. If a wall blocks the chosen direction, the ghost then
+attempts the remaining directions in this order: <em>up,
+left, down, </em>and <em>right,</em>
+until a passable direction is
+found. The PRNG gets reset with an identical seed value every new
+level and every new life, causing predictable results. 
+</p>
+<p align="justify">
+This is why
+the frightened ghosts' movements are repeatable in the context of
+a memorized pattern or sequence. As the levels progress, the time
+ghosts spend in frightened mode grows shorter until eventually
+they no longer turn blue at all (they still reverse direction).
+Refer to <em>Table
+A.1</em> in the
+appendices for the frightened time in seconds and number of
+flashes, per level.
+</p>
+<p align="justify">
+<strong>Speed</strong>
+</p>
+<p align="left">
+The game starts
+with Pac-Man at 80% of his maximum speed. By the fifth level,
+Pac-Man is moving at full speed and will continue to do so until
+the 21<sup>st</sup>
+level. At that point, he slows
+back down to 90% and holds this speed for the remainder of the
+game. Every time Pac-Man eats a regular dot, he stops moving for
+one frame (1/60<sup>th</sup>
+of a second), slowing his
+progress by roughly ten percent-just enough for a following
+ghost to overtake him. 
+</p>
+<p align="left">
+Eating an energizer dot causes Pac-Man to
+stop moving for three frames. The normal speed maintained by the
+ghosts is a little slower than Pac-Man's until the 21<sup>st</sup>
+level when they start moving
+faster than he does. If a ghost enters a side tunnel, however, its
+speed is cut nearly in half. 
+</p>
+<p align="left">
+When frightened, ghosts move at a
+much slower rate of speed than normal and, for levels one through
+four, Pac-Man also speeds up. The table below summarizes the speed
+data for both Pac-Man and the ghosts, per level. This information
+is also contained in <em>Table
+A.1</em> in the
+appendices.
+</p>
+<table border="1" cellspacing="0" cellpadding="4" width="436" bordercolor="#000000">
+	<tbody>
+		<tr valign="bottom">
+			<td width="42">
+			<p align="center">
+			&nbsp;
+			</p>
+			<br>
+			</td>
+			<td colspan="4" width="207" bgcolor="#ffff00">
+			<p align="center">
+			<strong>PAC-MAN
+			SPEED</strong>
+			</p>
+			</td>
+			<td colspan="3" width="161" bgcolor="#ffd320">
+			<p align="center">
+			<strong>GHOST
+			SPEED</strong>
+			</p>
+			</td>
+		</tr>
+		<tr valign="bottom">
+			<td width="42" bgcolor="#e6e6e6">
+			<p align="center">
+			<strong>LEVEL</strong>
+			</p>
+			</td>
+			<td width="37" bgcolor="#e6e6e6">
+			<p align="center">
+			<strong>NORM</strong>
+			</p>
+			</td>
+			<td width="49" bgcolor="#e6e6e6">
+			<p align="center">
+			<strong>NORM
+			DOTS</strong>
+			</p>
+			</td>
+			<td width="52" bgcolor="#e6e6e6">
+			<p align="center">
+			<strong>FRIGHT</strong>
+			</p>
+			</td>
+			<td width="45" bgcolor="#e6e6e6">
+			<p align="center">
+			<strong>FRIGHT
+			DOTS</strong>
+			</p>
+			</td>
+			<td width="40" bgcolor="#e6e6e6">
+			<p align="center">
+			<strong>NORM</strong>
+			</p>
+			</td>
+			<td width="53" bgcolor="#e6e6e6">
+			<p align="center">
+			<strong>FRIGHT</strong>
+			</p>
+			</td>
+			<td width="52" bgcolor="#e6e6e6">
+			<p align="center">
+			<strong>TUNNEL</strong>
+			</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td width="42" bgcolor="#ffffff">
+			<p align="center">
+			1
+			</p>
+			</td>
+			<td width="37" bgcolor="#ffff00">
+			<p align="center">
+			80%
+			</p>
+			</td>
+			<td width="49" bgcolor="#ffff00">
+			<p align="center">
+			71%
+			</p>
+			</td>
+			<td width="52" bgcolor="#ffff00">
+			<p align="center">
+			90%
+			</p>
+			</td>
+			<td width="45" bgcolor="#ffff00">
+			<p align="center">
+			79%
+			</p>
+			</td>
+			<td width="40" bgcolor="#ffd320">
+			<p align="center">
+			75%
+			</p>
+			</td>
+			<td width="53" bgcolor="#ffd320">
+			<p align="center">
+			50%
+			</p>
+			</td>
+			<td width="52" bgcolor="#ffd320">
+			<p align="center">
+			40%
+			</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td width="42" bgcolor="#ffffff">
+			<p align="center">
+			2
+			- 4
+			</p>
+			</td>
+			<td width="37" bgcolor="#ffff00">
+			<p align="center">
+			90%
+			</p>
+			</td>
+			<td width="49" bgcolor="#ffff00">
+			<p align="center">
+			79%
+			</p>
+			</td>
+			<td width="52" bgcolor="#ffff00">
+			<p align="center">
+			95%
+			</p>
+			</td>
+			<td width="45" bgcolor="#ffff00">
+			<p align="center">
+			83%
+			</p>
+			</td>
+			<td width="40" bgcolor="#ffd320">
+			<p align="center">
+			85%
+			</p>
+			</td>
+			<td width="53" bgcolor="#ffd320">
+			<p align="center">
+			55%
+			</p>
+			</td>
+			<td width="52" bgcolor="#ffd320">
+			<p align="center">
+			45%
+			</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td width="42" bgcolor="#ffffff">
+			<p align="center">
+			5
+			- 20
+			</p>
+			</td>
+			<td width="37" bgcolor="#ffff00">
+			<p align="center">
+			100%
+			</p>
+			</td>
+			<td width="49" bgcolor="#ffff00">
+			<p align="center">
+			87%
+			</p>
+			</td>
+			<td width="52" bgcolor="#ffff00">
+			<p align="center">
+			100%
+			</p>
+			</td>
+			<td width="45" bgcolor="#ffff00">
+			<p align="center">
+			87%
+			</p>
+			</td>
+			<td width="40" bgcolor="#ffd320">
+			<p align="center">
+			95%
+			</p>
+			</td>
+			<td width="53" bgcolor="#ffd320">
+			<p align="center">
+			60%
+			</p>
+			</td>
+			<td width="52" bgcolor="#ffd320">
+			<p align="center">
+			50%
+			</p>
+			</td>
+		</tr>
+		<tr valign="top">
+			<td width="42" bgcolor="#ffffff">
+			<p align="center">
+			21+
+			</p>
+			</td>
+			<td width="37" bgcolor="#ffff00">
+			<p align="center">
+			90%
+			</p>
+			</td>
+			<td width="49" bgcolor="#ffff00">
+			<p align="center">
+			79%
+			</p>
+			</td>
+			<td width="52" bgcolor="#ffff00">
+			<p align="center">
+			-
+			</p>
+			</td>
+			<td width="45" bgcolor="#ffff00">
+			<p align="center">
+			-
+			</p>
+			</td>
+			<td width="40" bgcolor="#ffd320">
+			<p align="center">
+			95%
+			</p>
+			</td>
+			<td width="53" bgcolor="#ffd320">
+			<p align="center">
+			-
+			</p>
+			</td>
+			<td width="52" bgcolor="#ffd320">
+			<p align="center">
+			50%
+			</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<hr name="false">
+<p align="justify">
+<strong>Cornering</strong>
+</p>
+<p align="left">
+Pac-Man is able to
+navigate the turns in the maze faster than his enemies. He does
+not have to wait until he reaches the middle of a turn to change
+direction as the ghosts do (see picture below). Instead, he may
+start turning several pixels before he reaches the center of a
+turn and for several pixels after passing it.
+</p>
+<p align="left">
+Turns taken one or
+more pixels before reaching the center are "pre-turns";
+turns taken one or more pixels after are "post-turns".
+Players learn to consistently move the joystick in the direction
+Pac-Man should go well before arriving at the center of a turn,
+ensuring each pre-turn is started as many pixels away from center
+as possible.
+</p>
+<p align="left">
+This technique is known as <em>cornering</em> and is
+one of the first skills a new <em>Pac-Man</em> player should master.
+For every successful pre-turn maneuver, Pac-Man puts a little more
+distance between himself and any ghosts following close behind.
+</p>
+<p align="left">
+Such a small gain in distance may not seem terribly significant at
+first, but cornering through a quick series of turns will shake
+off even the most determined pursuer. It is a vital tool for
+survival in the higher levels of the game.
+</p>
+<p align="center">
+<img style="width: 441px; height: 248px" src="./Gamasutra - The Pac-Man Dossier_files/cornering.png" border="1" alt="" hspace="5" vspace="5" width="441" height="248" align="middle">
+</p>
+<p align="left">
+Whenever Pac-Man
+makes a pre-turn or post-turn, his orientation changes, and he
+starts to move one pixel in his new direction for every pixel
+traveled in his old direction, effectively doubling his speed as
+he moves at a 45 degree angle. Once he reaches the centerline of
+the new direction's path, he starts moving purely in that
+direction and his speed returns to normal. 
+</p>
+<p align="left">
+The greatest distance
+advantage is thereby gained by making the earliest pre-turn
+possible. The illustration below shows the layout of pre-turn
+pixels (shown in green), center point pixels (shown in yellow),
+and post-turn pixels (shown in red) for each of the four possible
+directions a turn can be approached. Each example shows Pac-Man
+entering the same four-way intersection from a different
+direction. 
+</p>
+<p align="left">
+When entering from the left, there are three pre-turn
+pixels before the center of the turn, and four post-turn pixels.
+Conversely, entering the same intersection from the right yields
+four pre-turn pixels and three post-turn ones. Entering from the
+top as opposed to the bottom exhibits the same property. 
+</p>
+<p align="left">
+For any
+turn that is made later than the earliest possible pre-turn,
+Pac-Man will be one frame behind where he would be for every pixel
+of "lateness" in the turn. Basically, it pays to move
+the joystick well before reaching a turn to maximize your speed.
+</p>
+<p align="center">
+<a href="http://www.gamasutra.com/db_area/images/feature/3938/cornering_example2.png"><img style="width: 303px; height: 294px" src="./Gamasutra - The Pac-Man Dossier_files/cornering_example2_sm.png" border="1" alt="" hspace="5" vspace="5" width="303" height="294"></a><br>
+<strong>(click image for full size)</strong>
+</p>
+<p align="left">
+Turning at the
+earliest pre-turns possible is also required to successfully
+execute most any pattern. Patterns are meant to be played with
+perfect cornering because it removes the human element of
+uncertainty as to when Pac-Man will turn. Without cornering, it
+would be nigh-impossible to reproduce the exact timing of every
+turn as made by the pattern's author, thereby increasing the
+possibility of unpredictable ghost behavior due to Pac-Man not
+being in the exact same tile at the exact same time anymore.
+</p>
+<p align="left">
+Typically, the most popular patterns have been those that tend to
+"hold together" well when small input timing flaws
+occur (turning three pixels away from center instead of four when
+approaching a turn from the right is a timing flaw, for example).
+Other patterns-especially those that bring Pac-Man very
+close to the ghosts late in the sequence-tend to "fall
+apart" unless every turn is perfectly cornered. 
+</p>
+<p align="left">
+During a
+long <em>Pac-Man </em>session, even
+the best players will make occasional timing mistakes during a
+fast series of turns and have to deal with the possible
+consequences. As such, one should aim for perfect cornering at all
+times but remain alert for unexpected ghost behavior from subtle
+input timing flaws creeping into the pattern.
+</p>
+<p align="justify">
+<strong>Home Sweet Home</strong>
+</p>
+<p align="left">
+<img style="width: 194px; height: 190px" src="./Gamasutra - The Pac-Man Dossier_files/startpositions.png" border="1" alt="" hspace="5" vspace="5" width="194" height="190" align="left">Commonly
+referred to as the <em>ghost house</em> or <em>monster pen</em>, this
+cordoned-off area in the center of the maze is the domain of the
+four ghosts and off-limits to Pac-Man. 
+</p>
+<p align="left">
+Whenever a level is
+completed or a life is lost, the ghosts are returned to their
+starting positions in and around the ghost house before play
+continues-Blinky is always located just above and outside,
+while the other three are placed inside: Inky on the left, Pinky
+in the middle, and Clyde on the right. 
+</p>
+<p align="left">
+The pink door on top is
+used by the ghosts to enter or exit the house. Once a ghost
+leaves, however, it cannot reenter unless it is first captured by
+Pac-Man-then the disembodied eyes can return home to be
+revived. Since Blinky is already on the outside after a level is
+completed or a life is lost, the only time he can get inside the
+ghost house is after Pac-Man captures him, and he immediately
+turns around to leave once revived. 
+</p>
+<p align="left">
+That's about all there is to
+know about Blinky's behavior in terms of the ghost house, but
+determining when the other three ghosts leave home is an involved
+process based on several variables and conditions. The rest of
+this section will deal with them exclusively. Accordingly, any
+mention of "the ghosts" below refers to Pinky, Inky,
+and Clyde, but not Blinky.
+</p>
+<p align="left">
+The first control
+used to evaluate when the ghosts leave home is a personal counter
+each ghost retains for tracking the number of dots Pac-Man eats.
+Each ghost's "dot counter" is reset to zero when a
+level begins and can only be active when inside the ghost house,
+but only one ghost's counter can be active at any given time
+regardless of how many ghosts are inside. 
+</p>
+<p align="left">
+The order of preference
+for choosing which ghost's counter to activate is: Pinky, then
+Inky, and then Clyde. For every dot Pac-Man eats, the preferred
+ghost in the house (if any) gets its dot counter increased by one.
+Each ghost also has a "dot limit" associated with his
+counter, per level. 
+</p>
+<p align="left">
+If the preferred ghost reaches or exceeds his
+dot limit, it immediately exits the house and its dot counter is
+deactivated (but not reset). The most-preferred ghost still
+waiting inside the house (if any) activates its timer at this
+point and begins counting dots. 
+</p>
+<p align="left">
+Pinky's dot limit
+is always set to zero, causing him to leave home immediately when
+every level begins. For the first level, Inky has a limit of 30
+dots, and Clyde has a limit of 60. This results in Pinky exiting
+immediately which, in turn, activates Inky's dot counter. His
+counter must then reach or exceed 30 dots before he can leave the
+house. 
+</p>
+<p align="left">
+Once Inky starts to leave, Clyde's counter (which is still
+at zero) is activated and starts counting dots. When his counter
+reaches or exceeds 60, he may exit. On the second level, Inky's
+dot limit is changed from 30 to zero, while Clyde's is changed
+from 60 to 50. Inky will exit the house as soon as the level
+begins from now on. 
+</p>
+<p align="left">
+Starting at level three, all the ghosts have a
+dot limit of zero for the remainder of the game and will leave the
+ghost house immediately at the start of every level.
+</p>
+<p align="left">
+Whenever a life is
+lost, the system disables (but does not reset) the ghosts'
+individual dot counters and uses a global dot counter instead.
+This counter is enabled and reset to zero after a life is lost,
+counting the number of dots eaten from that point forward. 
+</p>
+<p align="left">
+The
+three ghosts inside the house must wait for this special counter
+to tell them when to leave. Pinky is released when the counter
+value is equal to 7 and Inky is released when it equals 17. The
+only way to deactivate the counter is for Clyde to be inside the
+house when the counter equals 32; otherwise, it will keep counting
+dots even after the ghost house is empty. 
+</p>
+<p align="left">
+If Clyde <em>is</em>
+present at the appropriate time, the global counter is reset to
+zero and deactivated, and the ghosts' personal dot limits are
+re-enabled and used as before for determining when to leave the
+house (including Clyde who is still in the house at this time).
+</p>
+<p align="left">
+If dot counters
+were the only control, Pac-Man could simply stop eating dots early
+on and keep the ghosts trapped inside the house forever.
+Consequently, a separate timer control was implemented to handle
+this case by tracking the amount of time elapsed since Pac-Man has
+last eaten a dot. This timer is always running but gets reset to
+zero each time a dot is eaten. 
+</p>
+<p align="left">
+Anytime Pac-Man avoids eating dots
+long enough for the timer to reach its limit, the most-preferred
+ghost waiting in the ghost house (if any) is forced to leave
+immediately, and the timer is reset to zero. The same order of
+preference described above is used by this control as well. The
+game begins with an initial timer limit of four seconds, but
+lowers to it to three seconds starting with level five.
+</p>
+<p align="left">
+The more astute
+reader may have already noticed there is subtle flaw in this
+system resulting in a way to keep Pinky, Inky, and Clyde inside
+the ghost house for a very long time after eating them. The trick
+involves having to sacrifice a life in order to reset and enable
+the global dot counter, and then making sure Clyde exits the house
+<em>before</em> that counter is equal to 32. 
+</p>
+<p align="left">
+This is accomplished by
+avoiding eating dots and waiting for the timer limit to force
+Clyde out. Once Clyde is moving for the exit, start eating dots
+again until at least 32 dots have been consumed since the life was
+lost. Now head for an energizer and gobble up some ghosts. Blinky
+will leave the house immediately as usual, but the other three
+ghosts will remain "stuck" inside as long as Pac-Man
+continues eating dots with sufficient frequency as not to trigger
+the control timer. 
+</p>
+<p align="left">
+Why does this happen? The key lies in how the
+global dot counter works-it cannot be deactivated if Clyde
+is outside the house when the counter has a value of 32. By
+letting the timer force Clyde out before 32 dots are eaten, the
+global dot counter will keep counting dots instead of deactivating
+when it reaches 32. Now when the ghosts are eaten by Pac-Man and
+return home, they will still be using the global dot counter to
+determine when to leave. 
+</p>
+<p align="left">
+As previously described, however, this
+counter's logic only checks for three values: 7, 17, and 32, and
+once those numbers are exceeded, the counter has no way to release
+the ghosts associated with them. The only control left to release
+the ghosts is the timer which can be easily avoided by eating a
+dot every so often to reset it. Click on the YouTube video below
+to see a demonstration of this curious behavior:
+</p>
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="425" height="344">
+	<param name="movie" value="http://www.youtube.com/v/GI_kHYAUZOU&amp;hl=en&amp;fs=1">
+	<param name="quality" value="high">
+	<param name="menu" value="false">
+	<param name="wmode" value="">
+	<embed src="http://www.youtube.com/v/GI_kHYAUZOU&amp;hl=en&amp;fs=1" wmode="" quality="high" menu="false" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="425" height="344">
+</object>
+<p align="left">
+The last thing to
+mention about the ghost house is how to determine whether a ghost
+will move right or left after exiting the home. Ghosts typically
+move to the left once they get outside, but if the system changes
+modes one or more times when a ghost is inside, that ghost will
+move to the right instead of the left upon leaving the house.
+</p>
+<p align="justify">
+<strong>Areas To Exploit</strong>
+</p>
+<div style="text-align: center">
+<img style="width: 336px; height: 372px" src="./Gamasutra - The Pac-Man Dossier_files/exploit.png" border="1" alt="" hspace="5" vspace="5" width="336" height="372">
+</div>
+<p align="left">
+The illustration
+above highlights four special "zones" in the maze
+where ghost behavior is limited by certain conditions which can be
+exploited to the player's advantage. The two red zones represent
+the areas where ghosts are forbidden to make upward turns. Once a
+ghost enters either of these two zones, it may only travel from
+right-to-left or left-to-right until exiting the area. 
+</p>
+<p align="left">
+Thus, only
+Pac-Man has access to these four, upward-facing tunnel entrances.
+It will serve the player well to remember the ghosts can still
+access these tunnels from the other end! The red zone restrictions
+are enforced during both scatter and chase modes, but in
+frightened mode the red zones are ignored temporarily, allowing
+the ghosts to turn upwards if they so choose. 
+</p>
+<p align="left">
+The pink zones are
+in the two halves of the connecting side-tunnel. As mentioned
+previously, any ghost that enters the tunnel will suffer an
+immediate speed penalty until leaving the zone. This slow-down
+rule is always enforced and applies to ghosts only-Pac-Man
+is immune.
+</p>
+<hr name="false">
+<h1 align="left">
+<img style="width: 32px; height: 32px" src="./Gamasutra - The Pac-Man Dossier_files/peach.png" border="0" alt="" hspace="5" vspace="5" width="32" height="32" align="left">Chapter 3: Maze Logic 101
+</h1>
+<p align="left">
+We need to take a
+look at how ghosts are able to move through the maze in pursuit of
+a goal. All pathfinding logic described in this chapter is shared
+by the four ghosts - it is important to understand what they
+have in common before we get into what makes them different.
+</p>
+<p align="left">
+Before we proceed, let's see how
+the game tracks the location of Pac-Man and the four ghosts
+(herein referred to as <em>actors </em>for
+brevity's sake). The visible game screen should be thought of as a
+regular grid of tiles, each eight pixels square. 
+</p>
+<p align="left">
+The actual pixel
+dimensions of the screen are 224 x 288, so dividing each value by
+eight yields a grid that is 28 x 36 tiles in size.
+</p>
+<p align="left">
+Each tile is either
+in legal space or dead space. In the picture above, legal space is
+shown as the gray-colored tiles; all other tiles are considered
+dead space. 
+</p>
+<p align="left">
+Actors only travel between the tiles in legal space.
+Each dot sits in the center of a tile, meaning they are exactly
+eight pixels (one tile) apart-this is useful for estimating
+distances during gameplay: 
+</p>
+<div style="text-align: center">
+<img style="width: 448px; height: 576px" src="./Gamasutra - The Pac-Man Dossier_files/tiles.png" border="1" alt="" hspace="5" vspace="5" width="448" height="576">
+</div>
+<p align="justify">
+<strong>What Tile Am I In?</strong>
+</p>
+<p align="left">
+As the actors move
+through the maze, the game keeps track of the tile each one
+occupies. An actor is only associated with a single tile at a
+time, although its graphic will overlap into the surrounding
+tiles. The location of the actor's center point is what determines
+the tile it occupies at any given time. As the actors can move at
+pixel-level precision, they are often not centered directly on top
+of the tile they are in. Consider the following example:
+</p>
+<div style="text-align: center">
+<a href="http://www.gamasutra.com/db_area/images/feature/3938/tilemove2.png"><img style="width: 292px; height: 300px" src="./Gamasutra - The Pac-Man Dossier_files/tilemove2_sm.png" border="1" alt="" hspace="5" vspace="5" width="292" height="300"></a><br>
+<strong>(click image for full size)</strong><br>
+</div>
+<p align="left">
+The transparent red
+ghost is moving left-to-right across a row of tiles in legal
+space. In frame one, its occupied tile (shown in bright red) is
+near the left side of the picture. It does not matter that some of
+the ghost's graphic is not in the tile-what matters is that
+the ghost's center point <em>is</em> in the tile. 
+</p>
+<p align="left">
+By frame two, it
+has moved far enough for its center point to be in the adjacent
+tile to the right and its occupied tile is updated accordingly.
+The ghost continues to be associated with the same tile until
+frame six where its center point has now crossed over into the
+next one.
+</p>
+<p align="left">
+The underlying
+concept of tiles is essential for understanding the ghosts'
+pathfinding logic as it only cares about
+the tile an actor occupies-not its per-pixel location within
+that tile. To the logic routines, the five actors look very much
+like the picture below. 
+</p>
+<p align="left">
+Each actor is defined by the tile it
+presently occupies along with its current direction of travel.
+Distances between actors are also measured in tiles (the pink
+ghost is five tiles away from Pac-Man horizontally and one tile
+away vertically, for example).
+</p>
+<div style="text-align: center">
+<img style="width: 288px; height: 360px" src="./Gamasutra - The Pac-Man Dossier_files/tilegame.png" border="1" alt="" hspace="5" vspace="5" width="288" height="360">
+</div>
+<p align="justify">
+<strong>Just Passing Through</strong>
+</p>
+<p align="left">
+It wasn't too long
+after the release of <em>Pac-Man</em> when
+word began to spread of players occasionally passing straight
+through a ghost unharmed, seemingly at random. This rumor turned
+out to be completely true as most die-hard <em>Pac-Man</em> players
+can attest. 
+</p>
+<p align="left">
+If you play the game long enough, you will eventually
+see Pac-Man run into one of the ghosts and come out unscathed on
+the other side-it doesn't happen very often so enjoy it when
+it does! Some players have even gone so far as to incorporate this
+mysterious pass-through oddity into their patterns.
+</p>
+<p align="left">
+The root cause of
+this elusive peculiarity lies in the way the game detects
+collisions between Pac-Man and the four ghosts. Any time Pac-Man
+occupies the same tile as a ghost, he is considered to have
+collided with that ghost and a life is lost. 
+</p>
+<p align="left">
+It is irrelevant
+whether the ghost moved into Pac-Man's tile or Pac-Man into the
+ghost's-the result is the same either way. This logic proves
+sufficient for handling collisions more than 99% of the time
+during gameplay, but does not account for one very special case:
+</p>
+<div style="text-align: center">
+<img style="width: 507px; height: 263px" src="./Gamasutra - The Pac-Man Dossier_files/passthrubug.png" border="1" alt="" hspace="5" vspace="5" width="507" height="263">
+</div>
+<p align="left">
+The above picture
+illustrates the conditions necessary to produce this curious
+behavior. There are five consecutive frames showing Blinky and
+Pac-Man passing through each other. Below each frame is the same
+scene represented by the tiles they currently occupy and the
+per-pixel location of their center points. Pac-Man and Blinky are
+at just the right position and speed relative to one another to
+cause them to swap tiles with each other simultaneously. 
+</p>
+<p align="left">
+In other
+words, Pac-Man's center point moves upwards into Blinky's tile in
+the same 1/60<sup>th</sup> of a second that Blinky's center point
+moves downwards into Pac-Man's tile, resulting in them moving past
+each other without colliding. Note that Pac-Man's origin point is
+centered on the top edge of his tile in frame four; this is still
+considered to be inside the bottom tile, but moving up one more
+pixel will push him over the edge into the next one. 
+</p>
+<p align="left">
+Pac-Man and
+Blinky have now swapped tiles with each other in frame five, and
+Pac-Man can go on his merry way because he never "collided"
+(i.e., shared the same tile) with Blinky at all! Click on the
+YouTube video below to see an example of the pass-through bug (it
+happens 40 seconds after playback begins):
+</p>
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="425" height="344">
+	<param name="movie" value="http://www.youtube.com/v/VbzW6iNDx9U&amp;hl=en&amp;fs=1">
+	<param name="quality" value="high">
+	<param name="menu" value="false">
+	<param name="wmode" value="">
+	<embed src="http://www.youtube.com/v/VbzW6iNDx9U&amp;hl=en&amp;fs=1" wmode="" quality="high" menu="false" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="425" height="344">
+</object>
+<hr name="false">
+<p align="justify">
+<strong>Target Tiles</strong>
+</p>
+<p align="justify">
+Whenever a ghost
+is in chase or scatter mode, it is trying to reach a <em>target
+tile</em> somewhere on (or off) the screen. A target tile is merely
+a way to describe the tile a ghost would like to occupy at any
+given moment. 
+</p>
+<p align="justify">
+This tile can be fixed in place or change location
+frequently. Whenever the ghosts
+scatter to the corners of the maze, for example, each ghost is
+striving to reach a fixed target tile located somewhere near its
+home corner. 
+</p>
+<p align="justify">
+In chase mode, the target tile is usually (but not
+always) related to Pac-Man's current tile which changes often.
+Although it may not be obvious at first, the only difference
+between chase and scatter mode to a ghost is where its target tile
+is located. The same pathfinding logic applies in either case.
+</p>
+<p align="justify">
+<strong>Looking
+Ahead</strong>
+</p>
+<p align="left">
+Ghosts are always
+thinking one step into the future as they move through the maze.
+Whenever a ghost enters a new tile, it looks ahead to the next
+tile along its current direction of travel and decides which way
+it will go when it gets there. 
+</p>
+<p align="left">
+When it eventually reaches that
+tile, it will change its direction of travel to whatever it had
+decided on a tile beforehand. The process is then repeated,
+looking ahead into the next tile along its new direction of travel
+and making its next decision on which way to go.
+</p>
+<p align="left">
+When a ghost looks
+ahead into the upcoming tile, it must examine the possible exits
+from that tile to determine a way to proceed. In the picture
+below, the red ghost has just arrived at tile A and is moving
+right-to-left. It immediately looks ahead to tile B (the next tile
+along its direction of travel). 
+</p>
+<p align="left">
+Each tile has four potential exits
+to be considered: right, left, up, and down. In the case of tile
+B, the up and down exits are blocked by walls and must be
+discarded as potential candidates. The right exit is also
+discounted because it would only take the ghost back to tile A
+again, and ghosts never voluntarily reverse direction. With three
+of the four possible exits eliminated from tile B, moving left is
+the only remaining choice.
+</p>
+<div style="text-align: center">
+<img style="width: 192px; height: 128px" src="./Gamasutra - The Pac-Man Dossier_files/aisimple2.png" border="1" alt="" hspace="5" vspace="5" width="192" height="128">
+</div>
+<p align="left">
+This example is the
+most simple to explain as the ghost has but one way it can legally
+move. As such, we did not have to worry about where its target
+tile was located. The majority of game tiles in legal space are
+similar to this one, but things get more interesting when a ghost
+approaches a tile with more potential exits to choose from.
+</p>
+<p align="justify">
+<strong>Intersections</strong>
+</p>
+<p align="left">
+When a ghost
+arrives one tile away from an upcoming intersection, it must
+choose between several possible directions in which to proceed.
+Consider the following example:
+</p>
+<div style="text-align: center">
+<a href="http://www.gamasutra.com/db_area/images/feature/3938/intersectall.png"><img style="width: 225px; height: 160px" src="./Gamasutra - The Pac-Man Dossier_files/intersectall_sm.png" border="1" alt="" hspace="5" vspace="5" width="225" height="160"></a><br>
+<strong>(click image for full size)</strong><br>
+</div>
+<p align="left">
+In the first
+picture, the red ghost has just reached tile A and is seeking its
+target (shown as the green tile). It immediately looks ahead to
+the subsequent tile along its present direction of travel (up). In
+this case, that tile is a four-way intersection. As this
+intersection tile has no walls blocking off any of the exits, the
+ghost can only discard his reverse direction (down), leaving three
+exits open for travel. 
+</p>
+<p align="left">
+It looks one
+tile beyond the intersection in each of the three remaining
+directions, collecting "test tiles" (shown as
+the tiles with dashed, white lines). In the middle picture, the
+ghost triangulates the distance from each of these test tiles to
+its target tile. 
+</p>
+<p align="left">
+Whichever direction's test tile has the shortest
+distance to the target becomes the direction the ghost will take
+upon reaching the intersection tile. In this case, the right test
+tile has the shortest distance to the target, and the ghost
+updates its chosen direction for the intersection tile
+accordingly.
+</p>
+<p align="left">
+Sometimes
+a ghost is presented with two or more test tiles that have the
+same distance to the target tile. In the example below, the red
+ghost must choose between moving down or left at the upcoming
+intersection tile. Unfortunately, both test tiles have the same
+distance to the target (bottom left). 
+</p>
+<p align="left">
+To break the tie, the ghost
+prefers directions in this order: <em>up,
+left, down, right</em>. Up
+is the most preferred direction; right is the least. Therefore,
+the ghost chooses to go left at the intersection because left
+precedes down in the preference list. Although it may seem obvious
+to a person that going down was the better choice to reach the
+target, ghosts are not that smart. They cannot see more than a few
+tiles ahead and, as a consequence, cannot recognize the disparity
+between these two options.
+</p>
+<div style="text-align: center">
+<a href="http://www.gamasutra.com/db_area/images/feature/3938/tiebreakall.png"><img style="width: 237px; height: 192px" src="./Gamasutra - The Pac-Man Dossier_files/tiebreakall_sm.png" border="1" alt="" hspace="5" vspace="5" width="237" height="192"></a>
+</div>
+<p align="justify">
+<strong>Scatter Targets</strong>
+</p>
+<p align="left">
+As mentioned
+before, each ghost has a fixed target tile it is trying to reach
+in scatter mode. The picture below shows the actual tile used by
+each ghost. Notice each target tile is in dead space on either the
+top or bottom edge of the screen. As such, the ghosts will never
+be able to reach them. 
+</p>
+<p align="left">
+Luckily, a ghost does not care if its goal
+is attainable or not-the A.I. routines are very
+short-sighted. All a ghost cares about is following the
+pathfinding logic described above to make the best choice it can
+on which way to turn at the next tile. 
+</p>
+<p align="left">
+As a result, it will simply
+make circles in the area of the maze nearest its target tile until
+the target is set to some other location. That's all scatter mode
+really is. The only reason a ghost has a "favorite corner"
+of the maze at all is due to the location of a target tile it will
+never reach.
+</p>
+<div style="text-align: center">
+<img style="width: 224px; height: 288px" src="./Gamasutra - The Pac-Man Dossier_files/scatter.png" border="1" alt="" hspace="5" vspace="5" width="224" height="288"><br>
+<hr name="false">
+</div>
+<h1 align="left">
+<img style="width: 32px; height: 32px" src="./Gamasutra - The Pac-Man Dossier_files/peach.png" border="0" alt="" hspace="5" vspace="5" width="32" height="32" align="left"></h1>
+<h1 align="left">Chapter 4: Meet the Ghosts
+</h1>
+<p align="left">
+"<em>First,
+you've got to learn how to control the monsters. See how the red,
+pink and blue are grouped together? It's easier to control two
+monsters than four."-Billy Mitchell, champion Pac-Man
+player</em>
+</p>
+<p align="left">
+In the last
+chapter, we learned how a ghost follows a target tile through the
+maze. Now we will take a closer look at Blinky, Pinky, Inky, and
+Clyde to better understand why they behave so differently when in
+chase mode. They all share the same pathfinding logic for chasing
+a target tile, so how is it each one behaves differently when
+following Pac-Man? 
+</p>
+<p align="left">
+The answer is delightfully simple: <em>Pac-Man's
+tile is not always the target</em>. Every ghost has a distinct
+method for calculating its target tile in chase mode, resulting in
+their unique personalities. Some of the ghosts use Pac-Man's
+actual tile as the target; others only use it as an intermediate
+step to find another tile. 
+</p>
+<p align="left">
+Sometimes a ghost is targeting a tile
+that has absolutely nothing to do with Pac-Man at all! Regardless
+of where a ghost's target tile is at the time, Pac-Man will still
+be killed if he gets in that ghost's way.
+</p>
+<p align="left">
+Rumor has it Toru
+Iwatani and his team spent months doing nothing but tweaking and
+refining the ghost A.I. routines before releasing Pac-Man to the
+world. Their efforts show in the final product: Itawani's team
+created the illusion of complex pathfinding by using very simple
+logic and very little code.
+</p>
+<p align="left">
+<img style="width: 104px; height: 121px" src="./Gamasutra - The Pac-Man Dossier_files/blinky2.png" border="0" alt="" hspace="5" vspace="5" width="104" height="121" align="left"><strong>Blinky:</strong>
+The red ghost's character is aptly described as that of a <em>shadow
+</em>and is best-known as "Blinky". In Japan, his
+character is represented by the word <em>oikake,</em> which means
+"<em>to run down or pursue"</em>. Blinky seems to always
+be the first of the ghosts to track Pac-Man down in the maze. He
+is by far the most aggressive of the four and will doggedly pursue
+Pac-Man once behind him.
+</p>
+<p align="left">
+Of all the ghosts'
+targeting schemes for chase mode, Blinky's is the most simple and
+direct, using Pac-Man's current tile as his target. In the
+pictures above, we can see Blinky's target tile is the same as
+Pac-Man's currently occupied tile. Targeting Pac-Man directly in
+this way results in a very determined and tenacious ghost who is
+tough to shake when he's right behind you.
+</p>
+<div style="text-align: center">
+<img style="width: 541px; height: 192px" src="./Gamasutra - The Pac-Man Dossier_files/blinky.png" border="1" alt="" hspace="5" vspace="5" width="541" height="192">
+</div>
+<p align="left">
+All ghosts move at
+the same rate of speed when a level begins, but Blinky will
+increase his rate of speed twice each round based on the number of
+dots remaining in the maze. While in this accelerated state,
+Blinky is commonly called "<em>Cruise Elroy</em>", yet
+no one seems to know where this custom was originated or what it
+means. 
+</p>
+<p align="left">
+On the first level, for example, Blinky becomes Elroy when
+there are 20 dots remaining in the maze, accelerating to be at
+least as fast as Pac-Man. More importantly, his scatter mode
+behavior is also modified to target Pac-Man's tile in lieu of his
+typical fixed target tile for any remaining scatter periods in the
+level. 
+</p>
+<p align="left">
+This causes Elroy to chase Pac-Man while the other three
+ghosts continue to scatter as normal. As if that weren't bad
+enough, when only 10 dots remain, Elroy speeds up <em>again </em>to
+the point where he is now perceptibly faster than Pac-Man.
+</p>
+<p align="left">
+If a life is lost
+any time after Blinky has become Elroy, he will revert back to his
+normal behavior and speed when play resumes, heading for his home
+corner during the initial scatter period. But once the last ghost
+(Clyde) has left the ghost house in the middle of the board, he
+will turn back into Elroy again. 
+</p>
+<p align="left">
+Keep in mind: he is <em>still
+</em>in scatter mode the
+entire time. All that has changed is the target tile-he will
+still reverse direction when entering and exiting scatter mode as
+before. As the levels progress, Blinky will turn into Elroy with
+more dots remaining in the maze than in previous rounds.  Refer to
+<em>Table
+A.1</em> in the
+appendices for dot counts and speeds for both Elroy changes, per
+level.
+</p>
+<p align="left">
+<img style="width: 104px; height: 121px" src="./Gamasutra - The Pac-Man Dossier_files/pinky.png" border="0" alt="" hspace="5" vspace="5" width="104" height="121" align="left"><strong>Pinky:</strong>
+Nicknamed "Pinky", the pink ghost's character is
+described as one who is <em>speedy. </em>In Japan, he is
+characterized as <em>machibuse, </em>meaning "<em>to perform an
+ambush", </em>perhaps because Pinky always seems to be able
+to get ahead of you and cut you off when you least expect it. 
+</p>
+<p align="left">
+He
+always moves at the same speed as Inky and Clyde, however, which
+suggests <em>speedy</em> is a poor translation of the more
+appropriate <em>machibuse</em>. Pinky and Blinky often seem to be
+working in concert to box Pac-Man in, leaving him with nowhere to
+run.
+</p>
+<p align="left">
+In chase mode,
+Pinky behaves as he does because he does not target Pac-Man's tile
+directly. Instead, he selects an offset four tiles away from
+Pac-Man in the direction Pac-Man is currently moving (with one
+exception). The pictures below illustrate the four possible
+offsets Pinky will use to determine his target tile based on
+Pac-Man's orientation:
+</p>
+<div style="text-align: center">
+<img style="width: 328px; height: 295px" src="./Gamasutra - The Pac-Man Dossier_files/pinky1.png" border="1" alt="" hspace="5" vspace="5" width="328" height="295">
+</div>
+<p align="left">
+If Pac-Man is
+moving left, Pinky's target tile will be four game tiles to the
+left of Pac-Man's current tile. If Pac-Man is moving right,
+Pinky's tile will be four tiles to the right. If Pac-Man is moving
+down, Pinky's target is four tiles below. 
+</p>
+<p align="left">
+Finally, if Pac-Man is
+moving up, Pinky's target tile will be four tiles up and
+four tiles to the left. This
+interesting outcome is due to a subtle error in the logic code
+that calculates Pinky's offset from Pac-Man. This piece of code
+works properly for the other three cases but, when Pac-Man is
+moving upwards, triggers an overflow bug that mistakenly includes
+a left offset equal in distance to the expected up offset (we will
+see this same issue in Inky's logic later). 
+</p>
+<p align="left">
+Don Hodges' website
+has an excellent article giving a thorough, code-level analysis of
+this bug, including the source code and a proposed fix-click
+<a href="http://donhodges.com/pacman_pinky_explanation.htm">here</a>
+to go there now.
+</p>
+<div style="text-align: center">
+<img style="width: 240px; height: 216px" src="./Gamasutra - The Pac-Man Dossier_files/pinky2.png" border="1" alt="" hspace="5" vspace="5" width="240" height="216">
+</div>
+<p align="left">
+Pinky is the
+easiest ghost to exert control over thanks to his targeting
+scheme. By changing direction, you can dictate where Pinky will
+turn next when he is nearby (see above picture). If you are facing
+off closely with Pinky, he will turn before he reaches you if he
+can. This happens due to the fact Pac-Man has come close enough to
+Pinky for Pinky's target tile to now be behind him. 
+</p>
+<p align="left">
+In the picture above, Pinky chooses to turn up at the intersection because moving
+left would have taken him further away from his target tile. The
+longest-lived example of this is the technique known as "head
+faking". This is where the player shakes the joystick to
+cause Pac-Man to rapidly change direction back and forth,
+hopefully causing a ghost to change course in the process. 
+</p>
+<p align="left">
+As it
+turns out, the shaking is not necessary-one well-timed,
+quick reversal of direction towards Pinky just before he decides
+what to do at an upcoming intersection is all that is needed to
+get him off your tail.
+</p>
+<p align="left">
+<img style="width: 104px; height: 121px" src="./Gamasutra - The Pac-Man Dossier_files/inky.png" border="0" alt="" hspace="5" vspace="5" width="104" height="121" align="left"><strong>Inky:</strong>
+The light-blue ghost is nicknamed "Inky" and his
+character is described as one who is <em>bashful</em>. In Japan, he
+is portrayed as <em>kimagure</em>, meaning "<em>a fickle,
+moody, or uneven temper"</em>. Perhaps not surprisingly, Inky
+is the least predictable of the ghosts. 
+</p>
+<p align="left">
+Sometimes he chases
+Pac-Man aggressively like Blinky; other times he jumps ahead of
+Pac-Man as Pinky would. He might even wander off like Clyde on
+occasion! 
+</p>
+<p align="left">
+In fact, Inky may be the most dangerous ghost of all due
+to his erratic behavior. <em>Bashful</em> is not a very good
+translation of <em>kimagure,</em> and misleads the player to assume
+Inky will shy away from Pac-Man when he gets close which is not
+always the case.
+</p>
+<div style="text-align: center">
+<img style="width: 264px; height: 240px" src="./Gamasutra - The Pac-Man Dossier_files/inkya.png" border="1" alt="" hspace="5" vspace="5" width="264" height="240">
+</div>
+<p align="left">
+Inky uses the most
+complex targeting scheme of the four ghosts in chase mode. He
+needs Pac-Man's current tile/orientation <strong>and</strong> Blinky's
+current tile to calculate his final target. To envision Inky's
+target, imagine an intermediate offset two tiles away from
+Pac-Man's tile in the direction Pac-Man is moving (shown as the
+dashed, green tile in the picture above), then draw a line from
+Blinky's tile to that offset. Now double the line length by
+extending the line out just as far again, and you will have Inky's
+target tile as shown above.
+</p>
+<div style="text-align: center">
+<img style="width: 240px; height: 360px" src="./Gamasutra - The Pac-Man Dossier_files/inkyb.png" border="1" alt="" hspace="5" vspace="5" width="240" height="360">
+</div>
+<p align="left">
+For the same
+reasons already discussed in Pinky's case, Inky's offset
+calculation from Pac-Man is two tiles up <strong>and</strong> two tiles left
+when Pac-Man is moving up (shown above). The other three
+orientations have the expected offset of two tiles in the
+direction Pac-Man is moving.
+</p>
+<p align="left">
+Inky's targeting
+logic will keep him away from Pac-Man when Blinky is far away from
+Pac-Man, but as Blinky draws closer, so will Inky's target tile.
+This explains why Inky's behavior seems more variable as Pac-Man
+moves away from Blinky. Like Pinky, Inky's course can often be
+altered by Pac-Man changing direction or "head-faking".
+How much or how little effect this will have on Inky's decisions
+is directly related to where Blinky is at the time.
+</p>
+<p align="left">
+<img style="width: 104px; height: 121px" src="./Gamasutra - The Pac-Man Dossier_files/clyde.png" border="0" alt="" hspace="5" vspace="5" width="104" height="121" align="left"><strong>Clyde:</strong>
+The orange ghost is nicknamed "Clyde" and is
+characterized as one who is <em>pokey.</em> In Japan, his character
+is described as <em>otoboke</em>, meaning "<em>pretending
+ignorance",</em> and his nickname is "<em>Guzuta"</em>,
+meaning "<em>one who lags behind"</em>. 
+</p>
+<p align="left">
+In reality,
+Clyde moves at the same speed as Inky and Pinky so his character
+description is a bit misleading. Clyde is the last ghost to leave
+the pen and tends to separate himself from the other ghosts by
+shying away from Pac-Man and doing his own thing when he isn't
+patrolling his corner of the maze. 
+</p>
+<p align="left">
+Although not nearly as
+dangerous as the other three ghosts, his behavior can seem
+unpredictable at times and should still be considered a threat.
+</p>
+<div style="text-align: center">
+<img style="width: 389px; height: 317px" src="./Gamasutra - The Pac-Man Dossier_files/clydej.png" border="1" alt="" hspace="5" vspace="5" width="389" height="317">
+</div>
+<p align="left">
+In
+chase mode, Clyde's target differs based on his proximity to
+Pac-Man. When more than eight tiles away, he uses Pac-Man's tile
+as his target (shown as the yellow target above). If Clyde is
+<em>closer</em>
+than
+eight tiles away, he switches to his scatter mode target instead,
+and starts heading for his corner until he is far enough away to
+target Pac-Man again. 
+</p>
+<p align="left">
+In the picture above, Clyde is stuck in an
+endless loop thanks to his targeting scheme. Outside of the dashed
+area, Clyde acts exactly as Blinky would, heading straight for
+Pac-Man, but upon entering the dashed area, Clyde will change his
+mind and head for his scatter target instead. 
+</p>
+<p align="left">
+Leaving the eight
+tile perimeter surrounding Pac-Man causes his target to change
+<em>back</em>
+to
+Pac-Man's tile and results in Clyde circling the island
+indefinitely until Pac-Man moves elsewhere or a mode change
+occurs.
+</p>
+<p align="left">
+Clyde's targeting
+method results in him not being particularly dangerous unless you
+get in his way as he runs back to his corner or before he can
+reach an intersection to turn away. Extra care should be taken
+when Pac-Man is in Clyde's home corner as Clyde is less likely to
+get out of the way.
+</p>
+<hr name="false">
+<h1 align="left">
+<img style="width: 32px; height: 32px" src="./Gamasutra - The Pac-Man Dossier_files/apple.png" border="0" alt="" hspace="5" vspace="5" width="32" height="32" align="left">Chapter 5: Deciphering The Split Screen
+</h1>
+<p align="justify">
+<em>"This is the way the world ends<br>
+This is the way the world ends<br>
+This is the way the world ends<br>
+Not with a bang but with a whimper."<br>
+—T. S. Eliot</em> 
+</p>
+<p align="justify">
+<strong>On
+The Edge Of Forever</strong>
+</p>
+<p align="left">
+Pac-Man was always
+meant to be a game with no ending. The developers at Namco
+mistakenly assumed the game's increasing difficulty was sufficient
+to prevent anyone from playing indefinitely. Of course, within a
+few years of Pac-Man's release, players had discovered that every
+level beyond the 21<sup>st</sup> was identical. 
+</p>
+<p align="left">
+Patterns were
+quickly created to exploit this fact and, for any player able to
+get past the first 20 levels, the game now became a test of
+endurance to see how many points you could rack up before losing
+focus and making a mistake. High scores soared into the millions
+and most players agreed the game simply went on forever.
+</p>
+<p align="left">
+Eventually, a few highly-skilled players were able to complete 255
+consecutive levels of play (scoring over three million points and
+taking several hours to accomplish) and found a surprise waiting
+for them on level 256. It was a surprise no one knew about-not
+even the developers at Namco.
+</p>
+<p align="left">
+<img style="width: 224px; height: 288px" src="./Gamasutra - The Pac-Man Dossier_files/level256.png" border="1" alt="" hspace="5" vspace="5" width="224" height="288" align="left">The
+256<sup>th</sup> level displays the left half of the maze
+correctly, but the right half is a jumbled mess of randomly
+colored letters, numbers, and symbols. Notice the bonus counter in
+the lower-right of the screen is also malfunctioning. 
+</p>
+<p align="left">
+The left
+side of the maze plays normally, but the right side is a different
+story. Although both the player and the ghosts can navigate
+through the right half of the screen, the original maze walls no
+longer apply. 
+</p>
+<p align="left">
+Instead, Pac-Man must be guided through a confusing
+series of open areas, tunnels, one-way intersections, lone walls,
+and pass-throughs-all <em>invisible </em>to the player-while
+four ghosts are in hot pursuit.
+</p>
+<p align="left">
+Why does this
+broken level happen in the first place? The culprit is the routine
+responsible for drawing the bonus symbols along the bottom edge of
+the screen. Here's what happens: when level 256 is reached, the
+internal level counter is incremented to 255 (the level counter
+starts at zero - not one) and the routine for drawing the
+bonus symbols is called. 
+</p>
+<p align="left">
+The routine loads the current level
+counter value (255) into a CPU register and increments that
+register by one. Unfortunately, 255 is the largest number that can
+fit in a single byte which is the size of the Z-80 CPU registers,
+so when the value is incremented the overflow is discarded leaving
+a zero in the register instead of the expected value of 256. This
+zero value leads the routine to believe this is an early level
+since its value is less than seven. 
+</p>
+<p align="left">
+The routine starts drawing
+bonus symbols using the confused register as a counter. At the end
+of every drawing loop, the register is decreased by one and <em>then</em>
+checked to see if it is zero (the signal for the routine to stop
+drawing symbols). Since the register already has a zero in it to
+start, the first decrement will roll the value back to 255. It
+will keep decrementing the register and drawing symbols until the
+register is reduced to zero again, causing the loop to run a total
+of 256 times. 
+</p>
+<p align="left">
+This means that memory locations outside the bounds
+of the bonus symbol table are drawn to the screen at increasing
+locations in video memory. This half-broken level was named the
+"split screen" by players; developers refer to it as a
+"kill screen".
+</p>
+<p align="justify">
+<strong>Playing
+The Level</strong>
+</p>
+<p align="left">
+<img style="width: 255px; height: 288px" src="./Gamasutra - The Pac-Man Dossier_files/level256hiddendots.png" border="1" alt="" hspace="5" vspace="5" width="255" height="288" align="left">There
+are 114 dots on the left half of the screen, nine dots on the
+right, and one bonus key, totaling 6,310 points. When all of the
+dots have been cleared, nothing happens. The game does not
+consider a level to be completed until 244 dots have been eaten,
+so there is nothing left to do but sacrifice Pac-Man to a hungry
+ghost. 
+</p>
+<p align="left">
+Interestingly, every time a life is lost, the nine dots on
+the right half of the screen get reset and can be eaten again,
+resulting in an additional 90 points per extra man. In the
+best-case scenario (five extra men), 6,760 points is the maximum
+score possible, but only 168 dots can be harvested-not
+enough to change levels-so we are stuck. There are no more
+dots to gobble or energizers to eat. 
+</p>
+<p align="left">
+There is no final victory
+waiting for Pac-Man, only an empty half-maze full of ghosts. The
+game has an ending after all-just not a very happy or
+exciting one.
+</p>
+<p align="left">
+Four of the nine
+dots on the right half of the screen are invisible, but can be
+heard when eaten. The picture on the left shows all nine dot
+locations. Dots 1, 5, 6, and 9 are invisible; the rest can be seen
+but some are a different color than normal. 
+</p>
+<p align="left">
+Anyone reaching
+this level quickly realized: to safely map out the right side of
+the screen something had to be done about the ghosts. After much
+tinkering, it was discovered that a ghost would get "trapped"
+on the right edge of the screen if he got too close to it. 
+</p>
+<p align="left">
+Once
+trapped, a ghost can only move up or down but never right or left
+again. By leading ghosts near the edge of the screen, a skilled
+player could eventually get the ghosts out of the way and
+concentrate on exploring the right half of the maze and collecting
+the dots.
+</p>
+<p align="left">
+<img style="width: 224px; height: 288px" src="./Gamasutra - The Pac-Man Dossier_files/level256waitingspotpath.png" border="1" alt="" hspace="5" vspace="5" width="224" height="288" align="right">There
+are many methods for trapping the ghosts. One of the easiest ways
+to trap the three important ghosts is shown in the picture to the
+right. The yellow line shows Pac-Man's path from the start of the
+level to a spot near the bottom-right. 
+</p>
+<p align="left">
+The exact instructions are
+as follows: begin by going right until you reach a blue letter
+'N', then go down. Keep going down until you reach a blue letter
+'F', then go right. Keep going right until you reach a yellow 'B',
+then go down again. When executed properly, Pac-Man will hit an
+invisible wall almost immediately after the last turn is made. Now
+we wait. 
+</p>
+<p align="left">
+The red ghost will get stuck first. The pink ghost
+follows a few seconds later. The blue ghost will continue to move
+freely for several moments until the next scatter mode occurs. At
+that point, it will try to reach some location near the right edge
+of the screen and get stuck with the pink and red ghost instead.
+</p>
+<p align="left">
+Now the orange ghost is the only one still on the loose
+(bottom-right). Clyde is no real threat, however, since he runs to
+his corner whenever Pac-Man gets close (see Chapter 4), making it
+relatively easy to clean up all the dots. Be sure to take care
+around the lower-left corner of the maze-the orange ghost
+will have nowhere left to run to and will be much more aggressive.
+</p>
+<p align="left">
+Click on the
+YouTube video below to watch this ghost-trapping method in action:
+</p>
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="425" height="344">
+	<param name="movie" value="http://www.youtube.com/v/2K7orNZNGU8&amp;hl=en&amp;fs=1">
+	<param name="quality" value="high">
+	<param name="menu" value="false">
+	<param name="wmode" value="">
+	<embed src="http://www.youtube.com/v/2K7orNZNGU8&amp;hl=en&amp;fs=1" wmode="" quality="high" menu="false" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="425" height="344">
+</object>
+<hr name="false">
+<p align="justify">
+<strong>Believe
+It Or Not</strong>
+</p>
+<p align="left">
+Some versions of
+the <em>Pac-Man</em> ROMs have a "rack test" feature,
+allowing the cabinet owner to skip ahead to the next level of play
+whenever they want. To date, the only known way to legitimately
+get past level 256 is by using the rack test switch inside these
+machines. 
+</p>
+<p align="left">
+The result is that the game loops back around to the
+first board, but with the score intact and the ghosts still
+behaving as though it were level 21 or above. Many of the <em>Pac-Man</em>
+ROMs available for use with the MAME emulator also have this rack
+test feature, making it relatively easy for those without an
+arcade version handy to quickly get to the split-screen and
+beyond.
+</p>
+<p align="left">
+For decades,
+<em>Pac-Man</em> enthusiasts worldwide have heard the whispers about
+a "secret trick" allowing a player to get past level
+256 and continue playing without using the aforementioned rack
+test. Several players have boasted having acquired this holy grail
+of <em>Pac-Man</em> knowledge over the years, but no one has been
+able to make good on their claims by actually proving it. 
+</p>
+<p align="left">
+This
+topic became so hotly debated in the upper echelons of the arcade
+gaming community that Billy Mitchell-who was convinced it
+was impossible-offered a $100,000 cash prize to the first
+player to prove they could legitimately get past level 256,
+leaving the challenge open for a full year. The prize money went
+unclaimed.
+</p>
+<p align="left">
+In spite of the
+evidence against there being a way to get past level 256, rumors
+still persist and can occasionally be found in classic gaming
+forums online, yet no one has been able to back up their words
+with indisputable proof. It's hard to imagine why anyone who could
+legitimately get past the level did not collect Mr. Mitchell's
+prize money to be sure. 
+</p>
+<p align="left">
+Still the occasional whispers can be
+heard. Perhaps it is simply natural for people to want to believe
+in the possibility as opposed to not-like Santa Claus or the
+Easter Bunny. Then again, maybe there is some middle-aged <em>Pac-Man</em>
+junkie out there who is withholding secrets to a 30 year-old
+amusement device for his or her own unfathomable reasons. Stranger
+things have happened. You be the judge.
+</p>
+<h1 align="left">
+<img style="width: 32px; height: 32px" src="./Gamasutra - The Pac-Man Dossier_files/grapes.png" border="0" alt="" hspace="5" vspace="5" width="32" height="32" align="left">References and Further Reading
+</h1>
+<ul>
+	<li>
+	<p>
+	<a href="http://www.donhodges.com/how_high_can_you_get2.htm">Splitting
+	Apart The Split Screen</a>,
+	Don Hodges
+	</p>
+	</li>
+	<li>
+	<p>
+	<img style="width: 200px; height: 259px" src="./Gamasutra - The Pac-Man Dossier_files/pacmanadmidway.png" border="1" alt="" hspace="5" vspace="5" width="200" height="259" align="right"><a href="http://www.donhodges.com/pacman_pinky_explanation.htm">Pac-Man's
+	Ghost Behavior Analyzed And Fixed</a>,
+	Don Hodges
+	</p>
+	</li>
+	<li>
+	<p>
+	<a href="http://www.lomont.org/Software/Games/PacMan/PacmanASM.html">Pac-Man
+	Source Code With Comments</a>,
+	Chris Lomont
+	</p>
+	</li>
+	<li>
+	<p>
+	<a href="http://www.lomont.org/Software/Games/PacMan/PacmanEmulation.htm">Pac-Man
+	Emulation Guide</a>,
+	Chris Lomont
+	</p>
+	</li>
+	<li>
+	<p>
+	<a href="http://www.zutco.com/pacman.htm">The
+	Virtual Pac-Man Museum</a>,
+	Chuck and Vicki Gill
+	</p>
+	</li>
+	<li>
+	<p>
+	<a href="http://classicgaming.gamespy.com/View.php?view=Articles.Detail&amp;id=249">Pacman:
+	The Phenomenon - Part 1</a>,
+	Marty Goldberg
+	</p>
+	</li>
+	<li>
+	<p>
+	<a href="http://www.mameworld.net/pacman/history/p1_01.htm">The
+	History of Pac-Man</a>,
+	Doug Trueman
+	</p>
+	</li>
+	<li>
+	<p>
+	<a href="http://www.arcade-history.com/?n=pac-man&amp;page=detail&amp;id=1914">Pac-Man
+	Entry At Arcade History</a>,
+	Alexis Bousiges
+	</p>
+	</li>
+	<li>
+	<p>
+	<a href="http://www.twingalaxies.com/forums/viewtopic.php?t=12231&amp;sid=952475feee2cecf34396953264253a59">Pac-Man
+	ghost behavior revealed</a>,
+	Twin Galaxies forum topic
+	</p>
+	</li>
+	<li>
+	<p>
+	<a href="http://www.atariage.com/forums/index.php?showtopic=68707&amp;st=50">Pac-Man
+	ghost AI question</a>,
+	AtariAge forum topic
+	</p>
+	</li>
+	<li>
+	<p>
+	<a href="http://www.gamasutra.com/feature/item/view/feature/3867/reawakening_the_sleeping_giant_.php">Reawakening
+	The Sleeping Giant: The Pac-Man CE Interview</a>,
+	Christian Nutt
+	</p>
+	</li>
+</ul>
+<h1 align="left">
+<img style="width: 32px; height: 32px" src="./Gamasutra - The Pac-Man Dossier_files/galax.png" border="0" alt="" hspace="5" vspace="5" width="32" height="32" align="left">Appendix A: Reference Tables
+</h1>
+<div style="text-align: center">
+<a href="http://www.gamasutra.com/db_area/images/feature/3938/tablea1.png"><img style="width: 327px; height: 183px" src="./Gamasutra - The Pac-Man Dossier_files/tablea1_sm.png" border="1" alt="" hspace="5" vspace="5" width="327" height="183"></a><br>
+<strong>(click image for full size)</strong><br>
+</div>
+<p align="center">
+<strong>Table
+A.2 - Difficulty Specifications</strong>
+</p>
+<p align="left">
+There
+is a small spot on the Pac-Man PCB where you can solder two pads
+together to set the game to "hard" difficulty. The
+only difference in hard difficulty is that five of the levels (1,
+3, 6, 19, and 20) are eliminated from play. The system does <em>not</em>
+eliminate any of the bonus symbols, however, causing much
+confusion as to what level you're really playing. 
+</p>
+<p align="left">
+Level two is the
+first board in hard difficulty for example, but the cherry symbol
+is used instead of the strawberry. It's still level two in terms
+of gameplay, but with cherry symbols in place of the usual
+strawberries. Also, the bonus point values are changed to match
+the current symbol being used. You can determine the difficulty
+setting of a machine by observing which ghost kills Pac-Man during
+the attract mode demo game. 
+</p>
+<p align="left">
+In normal difficulty, Pac-Man gets
+captured by Inky in the lower-left area of the maze. If the
+difficulty jumper has been connected, however, he is captured by
+Clyde near the same location.
+</p>
+<table border="1" cellspacing="0" cellpadding="4" width="300" bordercolor="#000000">
+	<tbody>
+		<tr>
+			<td width="48" bgcolor="#e6e6e6">
+			<p align="center">
+			<strong>Normal</strong>
+			</p>
+			</td>
+			<td width="87" bgcolor="#e6e6e6">
+			<p align="center">
+			<strong>Normal
+			Bonus</strong>
+			</p>
+			</td>
+			<td width="49" bgcolor="#e6e6e6">
+			<p align="center">
+			<strong>Hard</strong>
+			</p>
+			</td>
+			<td width="82" bgcolor="#e6e6e6">
+			<p align="center">
+			<strong>Hard
+			Bonus</strong>
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="48" bgcolor="#ffffff">
+			<p align="center">
+			1
+			</p>
+			</td>
+			<td width="87" bgcolor="#ffffff">
+			<p align="center">
+			Cherries
+			</p>
+			</td>
+			<td width="49" bgcolor="#ffffff">
+			<p align="center">
+			- 
+			</p>
+			</td>
+			<td width="82" bgcolor="#ffffff">
+			<p align="center">
+			- 
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="48" bgcolor="#ffffff">
+			<p align="center">
+			2
+			</p>
+			</td>
+			<td width="87" bgcolor="#ffffff">
+			<p align="center">
+			Strawberry
+			</p>
+			</td>
+			<td width="49" bgcolor="#ffffff">
+			<p align="center">
+			2
+			</p>
+			</td>
+			<td width="82" bgcolor="#ffffff">
+			<p align="center">
+			Cherries
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="48" bgcolor="#ffffff">
+			<p align="center">
+			3
+			</p>
+			</td>
+			<td width="87" bgcolor="#ffffff">
+			<p align="center">
+			Peach
+			1
+			</p>
+			</td>
+			<td width="49" bgcolor="#ffffff">
+			<p align="center">
+			- 
+			</p>
+			</td>
+			<td width="82" bgcolor="#ffffff">
+			<p align="center">
+			- 
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="48" bgcolor="#ffffff">
+			<p align="center">
+			4
+			</p>
+			</td>
+			<td width="87" bgcolor="#ffffff">
+			<p align="center">
+			Peach
+			2
+			</p>
+			</td>
+			<td width="49" bgcolor="#ffffff">
+			<p align="center">
+			4
+			</p>
+			</td>
+			<td width="82" bgcolor="#ffffff">
+			<p align="center">
+			Strawberry
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="48" bgcolor="#ffffff">
+			<p align="center">
+			5
+			</p>
+			</td>
+			<td width="87" bgcolor="#ffffff">
+			<p align="center">
+			Apple
+			1
+			</p>
+			</td>
+			<td width="49" bgcolor="#ffffff">
+			<p align="center">
+			5
+			</p>
+			</td>
+			<td width="82" bgcolor="#ffffff">
+			<p align="center">
+			Peach
+			1
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="48" bgcolor="#ffffff">
+			<p align="center">
+			6
+			</p>
+			</td>
+			<td width="87" bgcolor="#ffffff">
+			<p align="center">
+			Apple
+			2
+			</p>
+			</td>
+			<td width="49" bgcolor="#ffffff">
+			<p align="center">
+			- 
+			</p>
+			</td>
+			<td width="82" bgcolor="#ffffff">
+			<p align="center">
+			- 
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="48" bgcolor="#ffffff">
+			<p align="center">
+			7
+			</p>
+			</td>
+			<td width="87" bgcolor="#ffffff">
+			<p align="center">
+			Grapes
+			1
+			</p>
+			</td>
+			<td width="49" bgcolor="#ffffff">
+			<p align="center">
+			7
+			</p>
+			</td>
+			<td width="82" bgcolor="#ffffff">
+			<p align="center">
+			Peach
+			2
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="48" bgcolor="#ffffff">
+			<p align="center">
+			8
+			</p>
+			</td>
+			<td width="87" bgcolor="#ffffff">
+			<p align="center">
+			Grapes
+			2
+			</p>
+			</td>
+			<td width="49" bgcolor="#ffffff">
+			<p align="center">
+			8
+			</p>
+			</td>
+			<td width="82" bgcolor="#ffffff">
+			<p align="center">
+			Apple
+			1
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="48" bgcolor="#ffffff">
+			<p align="center">
+			9
+			</p>
+			</td>
+			<td width="87" bgcolor="#ffffff">
+			<p align="center">
+			Galaxian
+			1
+			</p>
+			</td>
+			<td width="49" bgcolor="#ffffff">
+			<p align="center">
+			9
+			</p>
+			</td>
+			<td width="82" bgcolor="#ffffff">
+			<p align="center">
+			Apple
+			2
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="48" bgcolor="#ffffff">
+			<p align="center">
+			10
+			</p>
+			</td>
+			<td width="87" bgcolor="#ffffff">
+			<p align="center">
+			Galaxian
+			2
+			</p>
+			</td>
+			<td width="49" bgcolor="#ffffff">
+			<p align="center">
+			10
+			</p>
+			</td>
+			<td width="82" bgcolor="#ffffff">
+			<p align="center">
+			Grapes
+			1
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="48" bgcolor="#ffffff">
+			<p align="center">
+			11
+			</p>
+			</td>
+			<td width="87" bgcolor="#ffffff">
+			<p align="center">
+			Bell
+			1
+			</p>
+			</td>
+			<td width="49" bgcolor="#ffffff">
+			<p align="center">
+			11
+			</p>
+			</td>
+			<td width="82" bgcolor="#ffffff">
+			<p align="center">
+			Grapes
+			2
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="48" bgcolor="#ffffff">
+			<p align="center">
+			12
+			</p>
+			</td>
+			<td width="87" bgcolor="#ffffff">
+			<p align="center">
+			Bell
+			2
+			</p>
+			</td>
+			<td width="49" bgcolor="#ffffff">
+			<p align="center">
+			12
+			</p>
+			</td>
+			<td width="82" bgcolor="#ffffff">
+			<p align="center">
+			Galaxian
+			1
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="48" bgcolor="#ffffff">
+			<p align="center">
+			13
+			</p>
+			</td>
+			<td width="87" bgcolor="#ffffff">
+			<p align="center">
+			Key
+			1
+			</p>
+			</td>
+			<td width="49" bgcolor="#ffffff">
+			<p align="center">
+			13
+			</p>
+			</td>
+			<td width="82" bgcolor="#ffffff">
+			<p align="center">
+			Galaxian
+			2
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="48" bgcolor="#ffffff">
+			<p align="center">
+			14
+			</p>
+			</td>
+			<td width="87" bgcolor="#ffffff">
+			<p align="center">
+			Key
+			2
+			</p>
+			</td>
+			<td width="49" bgcolor="#ffffff">
+			<p align="center">
+			14
+			</p>
+			</td>
+			<td width="82" bgcolor="#ffffff">
+			<p align="center">
+			Bell
+			1
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="48" bgcolor="#ffffff">
+			<p align="center">
+			15
+			</p>
+			</td>
+			<td width="87" bgcolor="#ffffff">
+			<p align="center">
+			Key
+			3
+			</p>
+			</td>
+			<td width="49" bgcolor="#ffffff">
+			<p align="center">
+			15
+			</p>
+			</td>
+			<td width="82" bgcolor="#ffffff">
+			<p align="center">
+			Bell
+			2
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="48" bgcolor="#ffffff">
+			<p align="center">
+			16
+			</p>
+			</td>
+			<td width="87" bgcolor="#ffffff">
+			<p align="center">
+			Key
+			4
+			</p>
+			</td>
+			<td width="49" bgcolor="#ffffff">
+			<p align="center">
+			16
+			</p>
+			</td>
+			<td width="82" bgcolor="#ffffff">
+			<p align="center">
+			Key
+			1
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="48" bgcolor="#ffffff">
+			<p align="center">
+			17
+			</p>
+			</td>
+			<td width="87" bgcolor="#ffffff">
+			<p align="center">
+			Key
+			5
+			</p>
+			</td>
+			<td width="49" bgcolor="#ffffff">
+			<p align="center">
+			17
+			</p>
+			</td>
+			<td width="82" bgcolor="#ffffff">
+			<p align="center">
+			Key
+			2
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="48" bgcolor="#ffffff">
+			<p align="center">
+			18
+			</p>
+			</td>
+			<td width="87" bgcolor="#ffffff">
+			<p align="center">
+			Key
+			6
+			</p>
+			</td>
+			<td width="49" bgcolor="#ffffff">
+			<p align="center">
+			18
+			</p>
+			</td>
+			<td width="82" bgcolor="#ffffff">
+			<p align="center">
+			Key
+			3
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="48" bgcolor="#ffffff">
+			<p align="center">
+			19
+			</p>
+			</td>
+			<td width="87" bgcolor="#ffffff">
+			<p align="center">
+			Key
+			7
+			</p>
+			</td>
+			<td width="49" bgcolor="#ffffff">
+			<p align="center">
+			- 
+			</p>
+			</td>
+			<td width="82" bgcolor="#ffffff">
+			<p align="center">
+			- 
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="48" bgcolor="#ffffff">
+			<p align="center">
+			20
+			</p>
+			</td>
+			<td width="87" bgcolor="#ffffff">
+			<p align="center">
+			Key
+			8
+			</p>
+			</td>
+			<td width="49" bgcolor="#ffffff">
+			<p align="center">
+			- 
+			</p>
+			</td>
+			<td width="82" bgcolor="#ffffff">
+			<p align="center">
+			- 
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="48" bgcolor="#ffffff">
+			<p align="center">
+			21+
+			</p>
+			</td>
+			<td width="87" bgcolor="#ffffff">
+			<p align="center">
+			Key
+			9
+			</p>
+			</td>
+			<td width="49" bgcolor="#ffffff">
+			<p align="center">
+			21+
+			</p>
+			</td>
+			<td width="82" bgcolor="#ffffff">
+			<p align="center">
+			Key
+			4+
+			</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<h1>
+<img style="width: 32px; height: 32px" src="./Gamasutra - The Pac-Man Dossier_files/bell.png" border="0" alt="" hspace="5" vspace="5" width="32" height="32" align="left">APPENDIX
+B: Easter Eggs &amp; Tricks
+</h1>
+<p align="left">
+This
+section is meant to contain not only the easter egg below, but
+also tricks-interesting ways players have found to create
+unexpected behavior in <em>Pac-Man</em>.
+I have seen a few of these curious abuses of a <em>Pac-Man</em>
+machine before, but
+I don't know how to recreate them. 
+</p>
+<p align="left">
+As such, I am asking for any
+help the readers of this guide can provide towards expanding this
+section. Please send any <em>Pac-Man</em>
+tricks you may know
+me for inclusion in the guide; full credit will be given for your
+altruism and ingenuity.
+</p>
+<p>
+<strong>NAMCO
+Easter Egg</strong>
+</p>
+<p align="left">
+There
+is a secret message hidden in <em>Pac-Man</em> by the developers at
+Namco. To see it, put the machine into service mode and wait for
+the settings screen to appear. Now quickly toggle service mode off
+and on (an alignment grid will appear on the screen). 
+</p>
+<p align="left">
+While
+holding down the player 1 and player 2 buttons, toggle service
+mode off and on again <em>very</em> quickly (if done properly, the
+grid will stay on the screen), and then push the joystick in the
+following directions: UP x 4, LEFT x 4, RIGHT x 4, DOWN x 4. The
+message "MADE BY NAMCO" will appear sideways on the
+screen, spelled out using energizers.
+</p>
+<div style="text-align: center">
+<img style="width: 224px; height: 288px" src="./Gamasutra - The Pac-Man Dossier_files/0008.png" border="1" alt="" hspace="5" vspace="5" width="224" height="288">
+</div>
+<h1>
+<img style="width: 32px; height: 32px" src="./Gamasutra - The Pac-Man Dossier_files/key.png" border="0" alt="" hspace="5" vspace="5" width="32" height="32" align="left">APPENDIX
+C: Hardware Information
+</h1>
+<p>
+<strong>Specifications:</strong>
+</p>
+<ul>
+	<li>
+	<p>
+	Platform -
+	<em>NAMCO 8-bit PCB</em>
+	</p>
+	</li>
+	<li>
+	<p>
+	CPU -
+	<em>Z80A at 3.072 MHz</em>
+	</p>
+	</li>
+	<li>
+	<p>
+	ROM - <em>16K
+	in four, 4K chips</em>
+	</p>
+	</li>
+	<li>
+	<p>
+	RAM -
+	<em>Almost 2K</em>
+	</p>
+	</li>
+	<li>
+	<p>
+	Display -
+	<em>Raster</em>
+	</p>
+	</li>
+	<li>
+	<p>
+	Orientation -
+	<em>Vertical</em>
+	</p>
+	</li>
+	<li>
+	<p>
+	Resolution -
+	<em>224x288</em>
+	</p>
+	</li>
+	<li>
+	<p>
+	Colors -
+	<em>16</em>
+	</p>
+	</li>
+	<li>
+	<p>
+	Attributes -
+	<em>Eight 16x16 hardware sprites</em>
+	</p>
+	</li>
+	<li>
+	<p>
+	Refresh rate -
+	<em>60.61 Hz</em>
+	</p>
+	</li>
+	<li>
+	<p>
+	Sound -
+	<em>Custom monophonic 3-voice waveform sound
+	generator chip</em>
+	</p>
+	</li>
+	<li>
+	<p>
+	Controls
+	- One <em>4-way leaf joystick, 1P/2P
+	buttons</em>
+	</p>
+	</li>
+	<li>
+	<p>
+	Models
+	- <em>Upright, Mini, and Cocktail</em>
+	</p>
+	</li>
+</ul>
+<p>
+<strong>Midway
+Operator's Reference Books:</strong>
+</p>
+<ul>
+	<li>
+	<p>
+	<a href="http://home.comcast.net/~jpittman2/pacman/pacman_opmanual.pdf"><em>Pac-Man
+	O</em>perator's
+	Manual</a>
+	</p>
+	</li>
+	<li>
+	<p>
+	<a href="http://home.comcast.net/~jpittman2/pacman/pactrb1.pdf">Troubleshooting
+	Logic Board Part I for <em>Pac-Man</em>
+	and
+	<em>Ms.
+	Pac-Man</em></a>
+	</p>
+	</li>
+</ul>
+<h1>
+APPENDIX
+D: Vintage Guides
+</h1>
+<ul>
+	<li>
+	<p align="justify">
+	<a href="http://home.comcast.net/~jpittman2/pacman/BreakAMillionAtPacman.pdf">Break
+	A Million At Pac-Man</a> - Ernest
+	Zavisca, Ph.D. and Gary Beltowski.
+	</p>
+	</li>
+	<li>
+	<p align="justify">
+	<a href="http://home.comcast.net/~jpittman2/pacman/HowToWinAtPacman.pdf">How
+	To Win At Pac-Man</a> - Penguin Books.
+	</p>
+	</li>
+</ul>
+<hr name="false">
+<h1><img style="width: 32px; height: 32px" src="./Gamasutra - The Pac-Man Dossier_files/cherry.png" border="0" alt="" hspace="5" vspace="5" width="32" height="32" align="left">Glossary</h1>
+<p>
+<strong>apple:</strong>
+The bonus symbol for levels five and six. Worth 700 points.
+</p>
+<p>
+<strong>bell:</strong>
+The bonus symbol for levels eleven and twelve. Worth 3,000 points.
+</p>
+<p>
+<strong>Blinky:</strong>
+The red ghost. Also known as “Akabei” or “Macky” in Puck-Man.
+</p>
+<p>
+<strong>bonus symbol:</strong>
+The often fruit-related symbol that appears twice per level below the ghost house and can be eaten for additional scoring. The point-value depends on the specific symbol and can range anywhere from 100 to 5,000 points each. Also known as fruit.
+</p>
+<p>
+<strong>cherries:</strong>
+The bonus symbol for the first round of play. Worth 100 points.
+</p>
+<p>
+<strong>Clyde:</strong>
+The orange ghost. Also known as “Guzuta” or “Mocky” in Puck-Man.
+</p>
+<p>
+<strong>cornering:</strong>
+The technique of moving the joystick in the direction one wishes to go well before reaching the center of a turn, ensuring Pac-Man will take the turn as quickly as possible.
+</p>
+<p>
+<strong>Cruise Elroy:</strong>
+When a certain number of dots are all that remain in a level, Blinky (red ghost) will change “gears”, speeding up as well as chasing Pac-Man even in scatter mode. He speeds up yet again when half the dots remain from the first change.
+</p>
+<p>
+<strong>dots:</strong>
+The 244 objects in the maze Pac-Man must eat to move on to the next round. There are 240 small dots worth 10 points each, and 4 energizer dots worth 50 points each. Also known as pills.
+</p>
+<p>
+<strong>energizer:</strong>
+One of four, large, flashing dots located near the corners of the maze worth 50 points each. When Pac-Man eats an energizer, the ghosts simultaneously reverse direction and, on earlier levels, turn dark blue. Pac-Man can then eat the blue ghosts for additional points, scoring more for each consecutive ghost eaten from one energizer: 200, 400, 800, and 1,600 points respectively. Also known as a power pills, fuel tanks, and vitamins.
+</p>
+<p>
+<strong>flipping:</strong>
+“Flipping the machine” refers to when a player earns one million points. The game is unable to display a score larger than 999,999, so the score readout “flips” over to zero and keeps counting. Also known as rolling the machine.
+</p>
+<p>
+<strong>fruit:</strong>
+See bonus symbol.
+</p>
+<p>
+<strong>galaxian:</strong>
+The bonus symbol for levels nine and ten. Also known as a tulip or a thunderbird. Worth 2,000 points.
+</p>
+<p>
+<strong>ghost house:</strong>
+The rectangular area in the middle of the maze where the ghosts start each new level and new life, returning to the house whenever they are captured by Pac-Man. Also known as the monster pen.
+</p>
+<p>
+<strong>ghosts:</strong>
+Pac-Man's four enemies in the maze are typically referred to as ghosts or monsters.
+</p>
+<p>
+<strong>grapes:</strong>
+The bonus symbol for levels seven and eight. Also known as a grenade. Worth 1,000 points.
+</p>
+<p>
+<strong>grenade:</strong>
+See grapes.
+</p>
+<p>
+<strong>head faking:</strong>
+Changing Pac-Man's direction back and forth in quick succession in an attempt to affect the turning logic of one or more ghosts in play. Blinky and Clyde do not use Pac-Man's current direction in their chase logic, so they are unaffected by head faking.
+</p>
+<p>
+<strong>Inky:</strong>
+The blue ghost. Also known as “Aosuke” or “Mucky” in Puck-Man.
+</p>
+<p>
+<strong>intersection:</strong>
+Anywhere pathways in the maze intersect, yielding more than one option on which way to proceed.
+</p>
+<p>
+<strong>key:</strong>
+The bonus symbol for levels 13 and above. Worth 5,000 points.
+</p>
+<p>
+<strong>monster pen:</strong>
+See ghost house.
+</p>
+<p>
+<strong>monsters:</strong>
+See ghosts.
+</p>
+<p>
+<strong>orange:</strong>
+See peach.
+</p>
+<p>
+<strong>pattern:</strong>
+A memorized series of turns associated with a particular level or levels that, when repeated, clears the maze of dots without getting Pac-Man captured by any of the ghosts. Also known as a routine.
+</p>
+<p>
+<strong>peach:</strong>
+The bonus symbol for levels three and four. Also known as an orange. Worth 500 points.
+</p>
+<p>
+<strong>pills:</strong>
+See dots.
+</p>
+<p>
+<strong>Pinky:</strong>
+The pink ghost. Also known as “Micky” in Puck-Man.
+</p>
+<p>
+<strong>power pill:</strong>
+See energizer.
+</p>
+<p>
+<strong>routine:</strong>
+See pattern.
+</p>
+<p>
+<strong>side tunnel:</strong>
+The connecting tunnel between the right and left edges of the screen. Entering this tunnel will “wrap” the player around to the other side of the screen. The monsters always suffer a speed penalty while in the tunnel while Pac-Man does not. Also known as The Tube, The Time Warp, and The Scoot.
+</p>
+<p>
+<strong>split screen:</strong>
+The 256th level of the game, where the right half of the screen is filled with garbage instead of the usual maze.
+</p>
+<p>
+<strong>strawberry:</strong>
+The bonus symbol for level two. Worth 300 points.
+</p>
+<p>
+<strong>thunderbird:</strong>
+See galaxian.
+</p>
+<p>
+<strong>tulip:</strong>
+See galaxian.
+</p>
+<h1>
+<img style="width: 32px; height: 32px" src="./Gamasutra - The Pac-Man Dossier_files/strawberry.png" border="0" alt="" hspace="5" vspace="5" width="32" height="32" align="left">Frequently Asked Questions
+</h1>
+<p>
+<strong>Q:
+How do I get past the split screen?</strong>
+</p>
+<p>
+A:
+The only known way to get past the split screen is via the “rack test” feature available on some Pac-Man ROMs (see Chapter 5).
+</p>
+<p>
+<strong>Q:
+What is a “perfect score”?</strong>
+</p>
+<p>
+A:
+A perfect score in Pac-Man is 3,333,360 points, which can only be attained by playing a perfect game. This requires catching all four ghosts at every energizer, gobbling down every bonus fruit, and never once losing a life for 256 consectutive levels of play. 
+</p>
+<p>
+All extra lives are needed once the split screen is reached to eat the nine dots hidden on the right side of the screen the maximum number of times—they respawn every time a life is lost. This was first achieved by Billy Mitchell of Hollywood, Florida in 1999.
+</p>
+<p>
+<strong>Q:
+Is it true that some of the ghost A.I. routines examine the joystick directly to make decisions?</strong>
+</p>
+<p>
+A:
+This is false. The memory-mapped IN0 joystick port is completely removed from the pathfinding and logic routines in the code.
+</p>
+<p>
+<strong>Q:
+What other games from the Pac-Man family will this ghost logic work with?</strong>
+</p>
+<p>
+A:
+Pac-Man Plus and Ms. Pac-Man both use the same basic pathfinding/targeting logic as the original Pac-Man. Many popular bootleg ROMs like the Atlantic City Chip and Hanglyman also use this logic.
+</p>
+<p>
+<strong>Q:
+Why are all of the bonus symbols food-related except for the galaxian, the bell, and the key?</strong>
+</p>
+<p>
+A:
+The galaxian was added as a nod to the Namco space-shooter title, Galaxian, which was under development at the same time as Pac-Man. No one knows why Toru Iwatani chose a bell and a key for the final two bonus symbols. 
+</p>
+<p>
+It has been theorized the bell may actually be some sort of food like an Asian cashew or even a blancmange dessert, which would make it consistent with the food theme. The bell at least has the possibility of being something else—no one has any theories on the key being anything but ... well ... a key.
+</p>
+<p>
+<strong>Q:
+Why are some members of the NAMCO development team listed by name but not others in Chapter 1?</strong>
+</p>
+<p>
+A:
+I have not been able to find out these persons' names—I'm sure they are documented somewhere but I have yet to find that information. If you know of any reliable sources for the names of the full NAMCO development team, please let me know (jamey.pittman@yahoo.com).
+</p>
+<p>
+<em>[NOTE: The latest version of the Pac-Man Dossier is <a href="http://home.comcast.net/~jpittman2/pacman/pacmandossier.html">available at Jamey Pittman's website</a>, and he can be contacted at <a href="mailto:jamey.pittman@yahoo.com">jamey.pittman@yahoo.com</a> with questions, comments, and updates. Gamasutra will be working with Jamey on new dossiers for other games to be published in the future.] </em>
+</p>
+
+
+<p style="background: #eee; text-align: center; padding: 5px;"><a href="https://www.gamasutra.com/view/feature/132330/the_pacman_dossier.php">Return to the full version of this article</a><br>
+Copyright © 
+<script type="text/javascript">
+  <!--
+  var currentTime = new Date()
+  var year = currentTime.getFullYear()
+  document.write( year)
+  //-->
+</script>2021
+
+UBM Tech, All rights reserved
+</p>
+
+
+</div> 
+
+</body></html>

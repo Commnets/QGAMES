@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de código fuente">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Foundation">
+      <UniqueIdentifier>{baa8c2f3-2f93-41d5-86ab-d50f7ed7e18d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Structure">
+      <UniqueIdentifier>{1925b2a1-5403-440d-880b-9b6eea983ac2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Screen">
+      <UniqueIdentifier>{a8e61376-bcef-4005-aa12-82af7cc4d65c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Foundation">
+      <UniqueIdentifier>{2c7ecb7c-d193-4056-becf-4a768c9da1b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Screen">
+      <UniqueIdentifier>{90c0a389-914f-4cb5-83b4-c1e4fe5ef365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Screen\Builders">
+      <UniqueIdentifier>{12898d6b-3595-4e10-8547-057a951c58b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Structure">
+      <UniqueIdentifier>{c9c626e8-abab-4e9d-8b4c-b1f02e2994f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Structure\Builders">
+      <UniqueIdentifier>{be0d7dac-8e71-4e52-b3a8-e75abf0333c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Screen\Builders">
+      <UniqueIdentifier>{ee1e4983-7361-4c83-afa7-d1c396fb7a93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Structure\Builders">
+      <UniqueIdentifier>{d576483b-3bdf-4fce-a3eb-6c02b9913e52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Communications">
+      <UniqueIdentifier>{1219436e-a477-4110-9656-d82c463f8590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Communications">
+      <UniqueIdentifier>{ba397209-60e9-4a8e-aadc-279ebb2bb26c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Communications\Builders">
+      <UniqueIdentifier>{c6470184-9cf5-4d6f-85ba-d71a556699ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Communications\Builders">
+      <UniqueIdentifier>{6c5f50eb-d117-4cba-80f3-1946c754889a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\OGRE\ogreengine.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\OGRE\ogreform.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\OGRE\ogregame.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\OGRE\ogreinputhandler.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\OGRE\ogreformbuilder.cpp">
+      <Filter>Archivos de código fuente\Structure\Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\OGRE\ogrescreen.cpp">
+      <Filter>Archivos de código fuente\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\OGRE\ogremovementcontroller.cpp">
+      <Filter>Archivos de código fuente\Screen</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\CommonOGRE\ogredefinitions.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\CommonOGRE\ogreinclude.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\CommonOGRE\ogreengine.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\CommonOGRE\ogreform.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\CommonOGRE\ogregame.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\CommonOGRE\ogreinputhandler.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\CommonOGRE\ogreformbuilder.hpp">
+      <Filter>Archivos de encabezado\Structure\Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\CommonOGRE\ogrescreen.hpp">
+      <Filter>Archivos de encabezado\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\CommonOGRE\ogremovementcontroller.hpp">
+      <Filter>Archivos de encabezado\Screen</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

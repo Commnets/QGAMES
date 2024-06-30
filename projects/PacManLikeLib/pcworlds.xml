@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<Worlds>
+
+	<!-- Includes -->
+	<Include file="adworlds.xml"/>
+
+	<World id="50000">
+		<Scenes>
+			<!-- The standard scene
+				 It is not needed to define neither monster action blocks nor fruit ones
+				 because they will be added in the constructor of the scene -->
+			<Scene id="50000"> 
+				<Maps>
+					<Map id="50000" file="maps/normalmap_blue.tmx"/>
+					<Map id="50100" file="maps/normalmap_green.tmx"/>
+					<Map id="50200" file="maps/normalmap_yellow.tmx"/>
+					<Map id="50300" file="maps/normalmap_red.tmx"/>
+				</Maps>
+
+				<Entities>  
+					<SetOfEntities fromId="50000" number="10" layer="Maze"/>
+					<SetOfEntities fromId="50010" number="10" layer="Maze"/>
+					<SetOfEntities fromId="50020" number="10" layer="Maze"/>
+					<SetOfEntities fromId="50030" number="10" layer="Maze"/>
+					<SetOfEntities fromId="50040" number="10" layer="Maze"/>
+				</Entities>
+			</Scene>
+			
+			<!-- Just for testing purposes -->
+			<Scene id="50100"> 
+				<Maps>
+					<Map id="52000" file="maps/maptest.tmx"/>
+				</Maps>
+
+				<Entities>  
+					<SetOfEntities fromId="50000" number="10" layer="Maze"/>
+					<SetOfEntities fromId="50010" number="10" layer="Maze"/>
+					<SetOfEntities fromId="50020" number="10" layer="Maze"/>
+					<SetOfEntities fromId="50030" number="10" layer="Maze"/>
+					<SetOfEntities fromId="50040" number="10" layer="Maze"/>
+				</Entities>
+			</Scene>
+
+			<!-- A no standard scene
+				 but it behaves quite similar to the standard one -->
+			<Scene id="53000"> 
+				<Actions>
+					<!-- The monsters -->
+					<!-- Inky -->
+					<Action id="10000">
+						<Attributes>
+							<Attribute id="ENTITYID" value="50010"/> 
+							<Attribute id="MONSTERNUMBER" value="0"/> 
+							<Attribute id="POINTS" value="100"/> 
+						</Attributes>
+					</Action>
+					<!-- Blinky -->
+					<Action id="10001">
+						<Attributes>
+							<Attribute id="ENTITYID" value="50020"/> 
+							<Attribute id="MONSTERNUMBER" value="1"/> 
+							<Attribute id="POINTS" value="100"/> 
+						</Attributes>
+					</Action>
+					<!-- Pinky -->
+					<Action id="10002">
+						<Attributes>
+							<Attribute id="ENTITYID" value="50030"/> 
+							<Attribute id="MONSTERNUMBER" value="2"/> 
+							<Attribute id="POINTS" value="100"/> 
+						</Attributes>
+					</Action>
+					<!-- Clyde -->
+					<Action id="10003">
+						<Attributes>
+							<Attribute id="ENTITYID" value="50040"/> 
+							<Attribute id="MONSTERNUMBER" value="3"/> 
+							<Attribute id="POINTS" value="100"/> 
+						</Attributes>
+					</Action>
+					
+					<!-- The fruit -->
+					<Action id="11000">
+						<Attributes>
+							<Attribute id="ENTITYID" value="50040"/> 
+							<Attribute id="TYPE" value="0"/> 
+							<Attribute id="POINTS" value="200"/> 
+							<Attribute id="SECONDSTOAPPEAR" value="10.0"/> 
+							<Attribute id="SECONDSTODISAPPEAR" value="10.0"/> 
+						</Attributes>
+					</Action>
+				</Actions>
+
+				<Maps>
+					<Map id="51000" file="maps/map.tmx"/>
+				</Maps>
+
+				<Entities>  
+					<SetOfEntities fromId="50000" number="10" layer="Maze"/>
+					<SetOfEntities fromId="50010" number="10" layer="Maze"/>
+					<SetOfEntities fromId="50020" number="10" layer="Maze"/>
+					<SetOfEntities fromId="50030" number="10" layer="Maze"/>
+					<SetOfEntities fromId="50040" number="10" layer="Maze"/>
+				</Entities>
+			</Scene>
+		</Scenes>
+
+	</World>
+</Worlds>

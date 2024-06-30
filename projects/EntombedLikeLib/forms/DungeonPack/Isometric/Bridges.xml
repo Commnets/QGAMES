@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:14ce27777c6d751a2153d24a64cc1d7b:6e799e08f27c91de0e1282b419770010:98c8b09cf4f24d3fccc3a0bae82c0236$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="Bridges" file="./forms/Bridges.png" width="2048" height="512"
+		fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="?">
+		<Frame id="bridge_E" fPosX="1024" fPosY="0" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256"/>
+		<Frame id="bridge_N" fPosX="1280" fPosY="0" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256"/>
+		<Frame id="bridge_S" fPosX="1536" fPosY="0" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256"/>
+		<Frame id="bridge_W" fPosX="1792" fPosY="0" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256"/>
+		<Frame id="bridgeBroken_E" fPosX="0" fPosY="0" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256"/>
+		<Frame id="bridgeBroken_N" fPosX="256" fPosY="0" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256"/>
+		<Frame id="bridgeBroken_S" fPosX="512" fPosY="0" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256"/>
+		<Frame id="bridgeBroken_W" fPosX="768" fPosY="0" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256"/>
+    </Form>
+</CommtyExporter>

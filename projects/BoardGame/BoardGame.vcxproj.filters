@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de código fuente">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Foundation">
+      <UniqueIdentifier>{dc1fbc8a-7c4c-4e85-a811-c36022b4ad84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Structure">
+      <UniqueIdentifier>{e9847a23-a55a-4030-b3d3-9450768be7c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Structure\Builders">
+      <UniqueIdentifier>{4d639d4c-5658-4c75-a278-32fd9c4f2761}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Foundation">
+      <UniqueIdentifier>{043952b4-90b3-4f61-afc9-441c40e59f60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Structure">
+      <UniqueIdentifier>{f822a31a-dcf7-44f8-86ce-b84233f2b2ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Structure\Builders">
+      <UniqueIdentifier>{13029407-d235-4054-a2f1-72668bb25357}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Communications">
+      <UniqueIdentifier>{7efeafa5-e86c-4498-a93b-a4d1831e4b2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Communications">
+      <UniqueIdentifier>{98c7256e-7315-48d9-9de7-eaff46ba65db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Media">
+      <UniqueIdentifier>{a69528e5-3a8c-492c-b8d0-7e22a31f48e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Media\Builders">
+      <UniqueIdentifier>{4df57335-b6b3-4e56-b2ac-c035476f351b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Media">
+      <UniqueIdentifier>{11fa698c-7a3e-411f-b94e-514eabb052c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Media\Builders">
+      <UniqueIdentifier>{39b2c968-8de9-4cc2-a707-6b01653e8e92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Communications\Builders">
+      <UniqueIdentifier>{eb8c9868-a1b0-457d-84c8-910f5cd914ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Communications\Builders">
+      <UniqueIdentifier>{9d5448b2-5575-472e-affa-54b75365240c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\Board\definitions.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Board\board.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Board\boardelement.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Board\boardgame.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Board\boardgameapp.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Board\boardgameplayer.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Board\boardresource.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Board\boardsquare.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Board\boardbuilder.hpp">
+      <Filter>Archivos de encabezado\Structure\Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Board\boardresourcesgrouploader.hpp">
+      <Filter>Archivos de encabezado\Structure\Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Board\boardinclude.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\board.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\boardelement.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\boardgame.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\boardgameapp.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\boardgameplayer.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\boardresource.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\boardsquare.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\boardbuilder.cpp">
+      <Filter>Archivos de código fuente\Structure\Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\boardresourcesgrouploader.cpp">
+      <Filter>Archivos de código fuente\Structure\Builders</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

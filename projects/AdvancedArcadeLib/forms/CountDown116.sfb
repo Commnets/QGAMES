@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpriteFont>
+    <InputSettings fontFamily="Ravie" fontStyle="Normal" fontSize="116" characters="123"/>
+    <GenerationSettings width="0" height="0" color="#00000000" padding="2" spacing="2"/>
+    <ExportSettings format="BMFont_Ascii" path="D:/Temp/CountDown116" retinaCopy="0"/>
+    <Effects>
+        <Effect effectType="Fill" effectEnabled="1" effectBlendMode="Normal" effectOpacity="1" fillType="Color" fillColor="#ff00aaff" fillGradient="gradientStyle: Linear; angle: 45; scale: 1; stops: (position: 0, color: #ff000000) (position: 1, color: #ffffffff)" fillInset="0"/>
+        <Effect effectType="Shadow" effectEnabled="1" effectBlendMode="Hard Light" effectOpacity="0.5" shadowColor="#ff00007f" shadowType="Inner" shadowAngle="45" shadowDistance="15" shadowBlur="1" shadowSize="1"/>
+        <Effect effectType="Stroke" effectEnabled="1" effectBlendMode="Normal" effectOpacity="1" strokeWidth="5" strokeColor="#ff000000" strokePosition="Outside"/>
+        <Effect effectType="Shadow" effectEnabled="1" effectBlendMode="Normal" effectOpacity="0.5" shadowColor="#ff000000" shadowType="Outer" shadowAngle="45" shadowDistance="1" shadowBlur="2" shadowSize="1"/>
+    </Effects>
+</SpriteFont>

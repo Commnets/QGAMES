@@ -1,0 +1,896 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="QGAMES::Background" Collapsed="true">
+    <Position X="11" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAIEDgAmAADAAQMYMsAiBAAQIAAsRYBwBSCAQAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\background.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::Buoy" Collapsed="true">
+    <Position X="9.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAABAAAAAAAAAJAABAAAAAAACAAAAAQIAAAAgA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\buoy.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::Element" Collapsed="true">
+    <Position X="27.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAEAAiYECAAAAAQgBnIQkDARUBgAwEIAIgAIAGIEgA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\element.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::NotificationBuoy" Collapsed="true">
+    <Position X="9.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\buoy.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::Counter" Collapsed="true">
+    <Position X="3.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAACAAIQAAAABNAAQAAARECICAAAACAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\counter.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::RandomCounter" Collapsed="true">
+    <Position X="3.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAEAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\counter.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::Counters" Collapsed="true">
+    <Position X="76.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACBAAAAAAAAEACAAAAAEAAAEkAAAACCCAEAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\counter.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::ElementBuilder" Collapsed="true">
+    <Position X="1.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAQAAAAAAAAAACgAAAAAAAgAAAAgAAAEAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\elementbuilder.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::Screen" Collapsed="true">
+    <Position X="74.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AjuBggAQQ4JACASKBAoUYAzCAAgRUmIEAICUAAESAXA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\screen.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::Form" Collapsed="true">
+    <Position X="0.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAICIAAAAAIAUCQABkAAAABgAMQAAiAAAAIQEAEgA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\form.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::Frame" Collapsed="true">
+    <Position X="6.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAACAAAAAIAAAAAAEABAAAAAAAAAAEAAAAAAE=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\form.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::Sprite2D" Collapsed="true">
+    <Position X="0.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAECAIAcCQAAAAAACABAIYAAiAAAAIAAAEAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\form.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::Sprite2DFrame" Collapsed="true">
+    <Position X="6.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAQQQAAAAAAABBAgAAAAAkAwwAAAQAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\form.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::Game" Collapsed="true">
+    <Position X="27.75" Y="4.75" Width="1.5" />
+    <NestedTypes>
+      <Class Name="QGAMES::Game::Configuration" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Workspaces\QGAMES\include\Common\game.hpp</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QGAMES::Game::NoConfiguration" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Workspaces\QGAMES\include\Common\game.hpp</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="QGAMES::Game::StdConfiguration" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\Workspaces\QGAMES\include\Common\game.hpp</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>KQYrAJABwSAENBhiApGCSFJFFamGImMMVYEaqBEEAyY=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\game.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::FormBuilder" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAEAAAAAAAAChAAAAQAAAEAAAAAEAAAAABAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\formbuilder.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::SoundBuilder" Collapsed="true">
+    <Position X="80" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAABAGEAAAAAAAACgAAAAQAAEEAAAABAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\soundbuilder.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::EntityBuilder" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYECABBAAABIAAAAEACgAAAAQCAiEAAAAQAAJCAogAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\entitybuilder.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::MovementBuilder" Collapsed="true">
+    <Position X="80" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABABAAEBAAAACCgAAAAQAAAEAAAAAAAQCAgAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\movementbuilder.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::GUISystemBuilder" Collapsed="true">
+    <Position X="5.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KAAAAABAAQBEAACAAgCAAgAAQAAAUgAAAAgAIAEIAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\widgetbuilder.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::_ExEngine" Collapsed="true">
+    <Position X="73" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAoAAAAAAAAMAAAAAAAAAAACAAAAQAAAABQMA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\_exengine.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::GameImplementation" Collapsed="true">
+    <Position X="78.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQBAAAAgQAAABAAAAEBAEAAAAIAAAAIBIAIgIAAAAQ=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\gameimplementation.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::GameState" Collapsed="true">
+    <Position X="21.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQAAAACAECAAAAQUAAAAAhBABAhpACEIEAAAABCAMIQ=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\gamestate.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::GameStateLinked" Collapsed="true">
+    <Position X="21.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAACAAAAAAAAAAAAAACAAAAAAAAAQAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\gamestate.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::InputHandler" Collapsed="true">
+    <Position X="68.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkAQgBEAACAAEEAAMAAAAAAAAAAEAIgIAAIBBFgBY=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\inputhandler.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::LoopCounter" Collapsed="true">
+    <Position X="70.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAgAAAAAAAAAABABAAAAAEAAgAAAAABAEhAAAEgA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\loopcounter.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::TMatrix" Collapsed="true">
+    <Position X="74.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABIAAAAAAAAAAAQAIAQBAIAAAAAAgAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\matrix.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::Object" Collapsed="true">
+    <Position X="17.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAEAAgAAAAIAAiAAAAAACAAAAAgABIAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\object.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::Image" Collapsed="true">
+    <Position X="13.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAFAAAQBAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\object.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::ObjectProxy" Collapsed="true">
+    <Position X="15.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAEAABAAAAEAAAIAAAACAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\object.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::Ellipse" Collapsed="true">
+    <Position X="17.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAACCAAIIAAABAAAAAAABAAAAACAAAAAAAAAAAQ=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\object.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::ListOfPositions" Collapsed="true">
+    <Position X="21.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAIAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\object.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::GraphicalPolygon" Collapsed="true">
+    <Position X="20" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAABAAAAACAAAAAAAAAABA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\object.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::GraphicalPolyline" Collapsed="true">
+    <Position X="22.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAIAAAAAAAAAAAABAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\object.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::CompositeObject" Collapsed="true">
+    <Position X="24.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAEAAEAABQAAAAAAAIAAACAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\object.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::ObjectBuilder" Collapsed="true">
+    <Position X="2.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gACAABAEQSAEAgQAAAggAAAAQQEBAIAAAABKIAAAABE=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\objectbuilder.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::OnOffSwitch" Collapsed="true">
+    <Position X="73" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAQAEAAAAAAQAAAAAVBAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\onoffswitch.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::OnOffSwitches" Collapsed="true">
+    <Position X="74.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAACAAACAAEIAABAAAEAAAAYAAAACAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\onoffswitch.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::OpenValue" Collapsed="true">
+    <Position X="76.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAIAAAAAAAABAQAAAgYBAAAAAAFAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\openvalue.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::SetOfOpenValues" Collapsed="true">
+    <Position X="76.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAIAAAAAAAAAAAQAAAQAQAAAAAAAAAAAAAAIAAAAAAE=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\openvalue.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::Polygon" Collapsed="true">
+    <Position X="78.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAACAAAAABAAAgAAQAQAAAAAAAAAgAAAgAAAAACA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\polygon.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::Rectangle" Collapsed="true">
+    <Position X="80" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hAgJACAGQAAAJAQAQAARARABAAAgAAAEAAAgAADgSQM=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\rectangle.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::Color" Collapsed="true">
+    <Position X="74.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FAAAAAAAAgABAAAEAAIAAAAAAAAAAAAAAAgQggAAAgA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\color.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::Entity" Collapsed="true">
+    <Position X="41" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EEApAGAABAAgAQBAIAAAIIAHJCEQEKQsIAGRMIHEBBQ=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\entity.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::ScoreObject" Collapsed="true">
+    <Position X="37.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\entity.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::Character" Collapsed="true">
+    <Position X="39.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAIAAAAAAAAAACQAAAAIAQAACAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\entity.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::CompositeEntity" Collapsed="true">
+    <Position X="43.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAEAAAIAAAAAAEAAEAABCAAAAAgAIAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\entity.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::ScoreObjectDigit" Collapsed="true">
+    <Position X="37.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEEAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\entity.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::ScoreObjectText" Collapsed="true">
+    <Position X="42" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAQAAACgACQCQAAAQACABAABAAAIAAAQAQIBAhQ=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\entity.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::ScoreObjectNumber" Collapsed="true">
+    <Position X="44.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQACAAAAACiQGQAwAAAAAAEDAAAAAAAAEAQAAJAAhA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\entity.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::Event" Collapsed="true">
+    <Position X="3.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAEAAAAQAAIgAAAAAABAAQAAAgAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\event.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::NoEvent" Collapsed="true">
+    <Position X="3.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\event.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::Sprite2DBuilder" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABBAAAAAAgAAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\formbuilder.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::Movement" Collapsed="true">
+    <Position X="59.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIACABAFAQAAAAAAEAAQAAIAAEgAEggA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\movement.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::Sound" Collapsed="true">
+    <Position X="78.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAEAAKAYAAABAAEAAAAChAAQEBAAAAAAAIgE=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\sound.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::Timer" Collapsed="true">
+    <Position X="5.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAACAgAAAAiABEAAEAAACAAAgAAAIAAAEAEBAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\timer.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::NoMovement" Collapsed="true">
+    <Position X="54.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAIACAAAAAAAAAAAAAAAQAAAAAEAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\movement.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::SimpleLinearMovement" Collapsed="true">
+    <Position X="57" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAIACAAAEAAAAAAACRASQABAAAEAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\movement.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::SimpleXYParabolicMovement" Collapsed="true">
+    <Position X="59.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQEAgJEASAIASAAEEAAAAAAAEAASQYBQEAEAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\movement.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::MovementOneByOne" Collapsed="true">
+    <Position X="61.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAADAAgEAAAAAAAAQAQAABAAEAAAAAIA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\movement.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::IncrementalMovement" Collapsed="true">
+    <Position X="63.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEEAAAAAFAAAIADAAAEQAAgAEAAQCQAgBAAAAIAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\movement.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::Observer" Collapsed="true">
+    <Position X="24.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACCAAAAAEAAABAAAAAAAAAgAAAAAAAAAACAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\notifierobserver.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::Notifier" Collapsed="true">
+    <Position X="27.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACBAAAAAgAAAAAAIAAAAAAAAAAAAAQAQAgAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\notifierobserver.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::Position" Collapsed="true">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hAAAAAAAMIAYAAEgCAAQAQAAAQBgIABAQAQwwAIAQAo=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\position.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::ResourcesGroupLoader" Collapsed="true">
+    <Position X="73" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAABAAIAAAAABCACACAAAQAAAEAAAAAAAgABAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\resourcesgrouploader.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::ResourceReader" Collapsed="true">
+    <Position X="1.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAACAAAAAEAAAABAAAAAAIAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\resourcesreader.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::StandardResourceReader" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\resourcesreader.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::InZipResourceReader" Collapsed="true">
+    <Position X="2.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAACAEgAAAAAAAAAAAAAAAAAAIAAo=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\resourcesreader.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::Zoommer" Collapsed="true">
+    <Position X="76.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABACCAkAAgAAgAAAAAIARAACAJAAAiEgAgAAQAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\screen.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::Camera" Collapsed="true">
+    <Position X="8.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAgDIEAAAyiCKgQkRAAbYEACBAAFEmEIAyABgAAAQAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\screen.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::CameraControlledByInputHandler" Collapsed="true">
+    <Position X="8.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAgBAiAAAAAEAAAAAAABAAAAAAAAgAEAABAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\screen.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::FreeMovementCamera" Collapsed="true">
+    <Position X="8.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAUKAoBBAIAAQBECACEAAAACUEACCQAkAAACAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\screen.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::SoundSystem" Collapsed="true">
+    <Position X="73" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAACAAAACAAAAQAAAAABAAAABAgACEAAAAIBQ=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\sound.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::UsualTimer" Collapsed="true">
+    <Position X="5.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\timer.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::CompositeWidget" Collapsed="true">
+    <Position X="30.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEUAShwABARAYCgAQNABBAABAUAgAIAAAACAQgA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\widget.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::Widget" Collapsed="true">
+    <Position X="33" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAcAIQAFARAQAAAZgATBAABAAAgAQAAgADAQAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\widget.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::LabelWidget" Collapsed="true">
+    <Position X="33" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAABAQAQAAAQoABAACBIAAhAQEAAAAARAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\widget.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::IntroWidget" Collapsed="true">
+    <Position X="35.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAgAABAQAQAQARICBAAChIgAoAQEAAAAARAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\widget.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::StandardGUISystemBuilder" Collapsed="true">
+    <Position X="5.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAEAAAAAgAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\widgetbuilder.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::GUISystem" Collapsed="true">
+    <Position X="24.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAcACiCACACAAgEAQMEBBQAAAwAIgIgAACEgAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\widgetsystem.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="QGAMES::Sprite2DFrameData" Collapsed="true">
+    <Position X="78.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAgCAEAAQQABAACCAABAAAAIAAgACAAIAIAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\form.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="QGAMES::AxisData" Collapsed="true">
+    <Position X="76.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAIAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\inputhandler.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="QGAMES::MouseStateData" Collapsed="true">
+    <Position X="74.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAgAAAAAAAQBAAAIAAAAAAAIAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\inputhandler.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="QGAMES::JoystickStateData" Collapsed="true">
+    <Position X="76.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAABAAIIAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\inputhandler.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="QGAMES::JoystickMovementEventData" Collapsed="true">
+    <Position X="74.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAwgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\inputhandler.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="QGAMES::JoystickButtonEventData" Collapsed="true">
+    <Position X="73" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAQAAAAEAAABAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\inputhandler.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="QGAMES::KeyBoardEventData" Collapsed="true">
+    <Position X="78.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAABAAAAAAAAIACAAAAAAAAAEAAAAAAAAAACAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\inputhandler.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="QGAMES::MouseMovementEventData" Collapsed="true">
+    <Position X="73" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAQAAAAAIAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\inputhandler.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="QGAMES::MouseButtonEventData" Collapsed="true">
+    <Position X="80" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAEAAAAQAAAAACAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\inputhandler.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="QGAMES::ScrCoordinates" Collapsed="true">
+    <Position X="76.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAQAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\screen.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="QGAMES::VisualCloudPoints" Collapsed="true">
+    <Position X="80" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAgAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\screen.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_wdirent" Collapsed="true">
+    <Position X="74.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgQAAAAAAAAAAAAAAQAAAAAAAAAAAIAAABAEA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\dirent.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_WDIR" Collapsed="true">
+    <Position X="73" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAACAAAAACAAAAAAAAAAAAAAAAAAAAASAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\dirent.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="dirent" Collapsed="true">
+    <Position X="80" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgQAAAAAAAAAAAAAAQAAAAAAAAAAAIAAABAEA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\dirent.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DIR" Collapsed="true">
+    <Position X="78.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\dirent.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="QGAMES::Buoys" Collapsed="true">
+    <Position X="73" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\buoy.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::Forms" Collapsed="true">
+    <Position X="73" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\form.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::Frames" Collapsed="true">
+    <Position X="74.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\form.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::GameStates" Collapsed="true">
+    <Position X="78.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\gamestate.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::LoopCounters" Collapsed="true">
+    <Position X="76.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\loopcounter.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::Objects" Collapsed="true">
+    <Position X="76.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\object.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::ObjectProperties" Collapsed="true">
+    <Position X="74.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\object.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::Images" Collapsed="true">
+    <Position X="80" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\object.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::OpenValues" Collapsed="true">
+    <Position X="80" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\openvalue.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::SetsOfOpenValues" Collapsed="true">
+    <Position X="78.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\openvalue.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::bdata" Collapsed="true">
+    <Position X="10.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\definitions.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::bdata4" Collapsed="true">
+    <Position X="7.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\definitions.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::bdata44" Collapsed="true">
+    <Position X="7.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\definitions.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::Elements" Collapsed="true">
+    <Position X="76.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\element.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::Entities" Collapsed="true">
+    <Position X="78.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\entity.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::Capacities" Collapsed="true">
+    <Position X="74.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\entity.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::PhysicalVariables" Collapsed="true">
+    <Position X="73" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\entity.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::Events" Collapsed="true">
+    <Position X="80" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\event.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::GameProperties" Collapsed="true">
+    <Position X="76.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\game.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::Movements" Collapsed="true">
+    <Position X="80" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\movement.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::Observers" Collapsed="true">
+    <Position X="78.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\notifierobserver.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::Notifiers" Collapsed="true">
+    <Position X="73" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\notifierobserver.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::Vector" Collapsed="true">
+    <Position X="12.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\position.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::Positions" Collapsed="true">
+    <Position X="74.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\position.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::Screens" Collapsed="true">
+    <Position X="76.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\screen.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::ListOfScrCoordinates" Collapsed="true">
+    <Position X="73" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\screen.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::MapOfCameras" Collapsed="true">
+    <Position X="78.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\screen.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::Sounds" Collapsed="true">
+    <Position X="80" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\sound.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::ListOfWidgets" Collapsed="true">
+    <Position X="74.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\widget.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="QGAMES::KeyCode" Collapsed="true">
+    <Position X="73" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CyFgFlsJMYXSMSTEmDxoPQCa3Fz6RwqIDJ7WMgUk05c=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\inputhandler.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="QGAMES::MouseButtonCode" Collapsed="true">
+    <Position X="74.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAkAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Common\inputhandler.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

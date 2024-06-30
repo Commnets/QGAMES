@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:071dd009ec2c389f669a093ac8de700e:1965c83c6d05ffff0d8d915409c17d4e:44a4cbe44e69271bdcd6f323f048d9a8$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="Barrels" file="./forms/Barrels.png" width="1005" height="364"
+		fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="?">
+		<Frame id="barrel_E" fPosX="356" fPosY="0" fWidth="82" fHeight="85" xoffset="78" yoffset="377" width="82"/>
+		<Frame id="barrel_N" fPosX="438" fPosY="0" fWidth="82" fHeight="86" xoffset="78" yoffset="377" width="82"/>
+		<Frame id="barrel_S" fPosX="520" fPosY="0" fWidth="82" fHeight="86" xoffset="78" yoffset="377" width="82"/>
+		<Frame id="barrel_W" fPosX="602" fPosY="0" fWidth="82" fHeight="86" xoffset="78" yoffset="377" width="82"/>
+		<Frame id="barrels_E" fPosX="686" fPosY="96" fWidth="153" fHeight="111" xoffset="36" yoffset="362" width="153"/>
+		<Frame id="barrels_N" fPosX="839" fPosY="99" fWidth="144" fHeight="117" xoffset="47" yoffset="367" width="144"/>
+		<Frame id="barrels_S" fPosX="0" fPosY="184" fWidth="139" fHeight="119" xoffset="52" yoffset="356" width="139"/>
+		<Frame id="barrels_W" fPosX="92" fPosY="80" fWidth="153" fHeight="104" xoffset="49" yoffset="373" width="153"/>
+		<Frame id="barrelsStacked_E" fPosX="279" fPosY="192" fWidth="181" fHeight="148" xoffset="31" yoffset="335" width="181"/>
+		<Frame id="barrelsStacked_N" fPosX="460" fPosY="201" fWidth="179" fHeight="148" xoffset="32" yoffset="335" width="179"/>
+		<Frame id="barrelsStacked_S" fPosX="639" fPosY="207" fWidth="179" fHeight="148" xoffset="32" yoffset="335" width="179"/>
+		<Frame id="barrelsStacked_W" fPosX="818" fPosY="216" fWidth="179" fHeight="148" xoffset="32" yoffset="335" width="179"/>
+		<Frame id="woodenCrate_E" fPosX="0" fPosY="0" fWidth="89" fHeight="80" xoffset="75" yoffset="387" width="89"/>
+		<Frame id="woodenCrate_N" fPosX="89" fPosY="0" fWidth="89" fHeight="80" xoffset="75" yoffset="387" width="89"/>
+		<Frame id="woodenCrate_S" fPosX="178" fPosY="0" fWidth="89" fHeight="80" xoffset="75" yoffset="387" width="89"/>
+		<Frame id="woodenCrate_W" fPosX="267" fPosY="0" fWidth="89" fHeight="80" xoffset="75" yoffset="387" width="89"/>
+		<Frame id="woodenCrates_E" fPosX="798" fPosY="0" fWidth="115" fHeight="96" xoffset="60" yoffset="371" width="115"/>
+		<Frame id="woodenCrates_N" fPosX="0" fPosY="80" fWidth="92" fHeight="102" xoffset="74" yoffset="374" width="92"/>
+		<Frame id="woodenCrates_S" fPosX="913" fPosY="0" fWidth="92" fHeight="99" xoffset="77" yoffset="373" width="92"/>
+		<Frame id="woodenCrates_W" fPosX="684" fPosY="0" fWidth="114" fHeight="93" xoffset="69" yoffset="376" width="114"/>
+		<Frame id="woodenPile_E" fPosX="402" fPosY="86" fWidth="130" fHeight="106" xoffset="63" yoffset="369" width="130"/>
+		<Frame id="woodenPile_N" fPosX="532" fPosY="93" fWidth="154" fHeight="108" xoffset="33" yoffset="371" width="154"/>
+		<Frame id="woodenPile_S" fPosX="245" fPosY="85" fWidth="157" fHeight="105" xoffset="51" yoffset="377" width="157"/>
+		<Frame id="woodenPile_W" fPosX="139" fPosY="190" fWidth="140" fHeight="124" xoffset="53" yoffset="364" width="140"/>
+    </Form>
+</CommtyExporter>

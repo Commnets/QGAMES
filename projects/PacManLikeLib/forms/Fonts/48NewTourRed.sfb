@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpriteFont>
+    <InputSettings fontFamily="New Tour" fontStyle="Normal" fontSize="48" characters=" !&quot;#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~"/>
+    <GenerationSettings width="0" height="0" color="#00000000" padding="2" spacing="2"/>
+    <ExportSettings format="BMFont_Ascii" path="C:/Workspaces/QGAMES/games/PacManII/forms/48NewTourRed" retinaCopy="0"/>
+    <Effects>
+        <Effect effectType="Fill" effectEnabled="1" effectBlendMode="Normal" effectOpacity="1" fillType="Color" fillColor="#ffff0000" fillGradient="gradientStyle: Linear; angle: 45; scale: 1; stops: (position: 0, color: #ff000000) (position: 1, color: #ffffffff)" fillInset="0"/>
+        <Effect effectType="Stroke" effectEnabled="1" effectBlendMode="Normal" effectOpacity="1" strokeWidth="4" strokeColor="#ff000000" strokePosition="Outside"/>
+    </Effects>
+</SpriteFont>

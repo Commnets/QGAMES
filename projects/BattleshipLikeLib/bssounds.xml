@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<Sounds>
+
+	<!-- Include -->
+	<Include file="adsounds.xml"/>
+	
+	<!-- wav sounds -->
+	<Sound id="50000" type="1" loop="-1" file="sounds/backgroundmusic1.wav"/>
+	<Sound id="50001" type="1" loop="-1" file="sounds/backgroundmusic2.wav"/>
+	<Sound id="50002" type="1" loop="-1" file="sounds/backgroundmusic3.wav"/>
+	<Sound id="50003" type="1" loop="-1" file="sounds/backgroundmusic4.wav"/>
+	<Sound id="50004" type="1" loop="-1" file="sounds/backgroundmusic5.wav"/>
+	<Sound id="50005" type="1" loop="-1" file="sounds/backgroundmusic6.wav"/>
+	<Sound id="50006" type="1" loop="-1" file="sounds/endoflevel1.wav"/>
+	<Sound id="50007" type="1" loop="-1" file="sounds/endoflevel2.wav"/>
+	<Sound id="50008" type="1" loop=" 0" file="sounds/fire.wav"/>
+	<Sound id="50009" type="1" loop="-1" file="sounds/gameover1.wav"/>
+	<Sound id="50010" type="1" loop="-1" file="sounds/gameover2.wav"/>
+	<Sound id="50011" type="1" loop=" 0" file="sounds/moreenergy.wav"/>
+	<Sound id="50012" type="1" loop="-1" file="sounds/ovniinscreen.wav"/>
+	<Sound id="50013" type="1" loop="-1" file="sounds/playerdies1.wav"/>
+	<Sound id="50014" type="1" loop="-1" file="sounds/playerdies2.wav"/>
+	<Sound id="50015" type="1" loop="-1" file="sounds/playerdies3.wav"/>
+	<Sound id="50016" type="1" loop="-1" file="sounds/playerdies4.wav"/>
+	<Sound id="50017" type="1" loop="-1" file="sounds/playerdies5.wav"/>
+	<Sound id="50018" type="1" loop="-1" file="sounds/playerdies6.wav"/>
+	<Sound id="50019" type="1" loop=" 0" file="sounds/die.wav"/>
+	
+	<!-- mp3 sounds -->
+	<Sound id="60000" type="1" loop="-1" file="sounds/backgroundmusic1.mp3"/>
+	<Sound id="60001" type="1" loop="-1" file="sounds/backgroundmusic2.mp3"/>
+	<Sound id="60002" type="1" loop="-1" file="sounds/backgroundmusic3.mp3"/>
+	<Sound id="60003" type="1" loop="-1" file="sounds/backgroundmusic4.mp3"/>
+	<Sound id="60004" type="1" loop="-1" file="sounds/backgroundmusic5.mp3"/>
+	<Sound id="60005" type="1" loop="-1" file="sounds/backgroundmusic6.mp3"/>
+	<Sound id="60006" type="1" loop="-1" file="sounds/endoflevel1.mp3"/>
+	<Sound id="60007" type="1" loop="-1" file="sounds/endoflevel2.mp3"/>
+	<Sound id="60008" type="1" loop=" 0" file="sounds/fire.mp3"/>
+	<Sound id="60009" type="1" loop="-1" file="sounds/gameover1.mp3"/>
+	<Sound id="60010" type="1" loop="-1" file="sounds/gameover2.mp3"/>
+	<Sound id="60011" type="1" loop=" 0" file="sounds/moreenergy.mp3"/>
+	<Sound id="60012" type="1" loop="-1" file="sounds/ovniinscreen.mp3"/>
+	<Sound id="60013" type="1" loop="-1" file="sounds/playerdies1.mp3"/>
+	<Sound id="60014" type="1" loop="-1" file="sounds/playerdies2.mp3"/>
+	<Sound id="60015" type="1" loop="-1" file="sounds/playerdies3.mp3"/>
+	<Sound id="60016" type="1" loop="-1" file="sounds/playerdies4.mp3"/>
+	<Sound id="60017" type="1" loop="-1" file="sounds/playerdies5.mp3"/>
+	<Sound id="60018" type="1" loop="-1" file="sounds/playerdies6.mp3"/>
+	<Sound id="60019" type="1" loop=" 0" file="sounds/die.mp3"/>
+	
+</Sounds>

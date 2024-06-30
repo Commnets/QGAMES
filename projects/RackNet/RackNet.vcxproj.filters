@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Foundation">
+      <UniqueIdentifier>{def1a9bf-9700-4e58-8566-09790a270e8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Structure">
+      <UniqueIdentifier>{efb299ea-fa69-437e-be75-0572f59702bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Communications">
+      <UniqueIdentifier>{0ca8ebbc-65cd-4005-8bab-19dc516c7a07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Foundation">
+      <UniqueIdentifier>{5901c4e3-36f1-4924-abd0-7fb9aad22cce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Structure">
+      <UniqueIdentifier>{291503e5-0c15-46d1-851a-75d24ff482b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Communications">
+      <UniqueIdentifier>{1f8edb01-a77e-4c2b-bf41-52c1ef93f5e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Media">
+      <UniqueIdentifier>{a76fd0ed-4274-429d-ae40-2d1cfdfc4acc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Media">
+      <UniqueIdentifier>{e85ba4ce-6391-4628-95f8-2fdbb9095769}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Communications\Builders">
+      <UniqueIdentifier>{52541e15-443b-45ed-ad41-17b84bb62c3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Communications\Builders">
+      <UniqueIdentifier>{9865262b-ee3e-4a54-bd5d-ea20f52a881a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Media\Builders">
+      <UniqueIdentifier>{3d44dfac-2803-466a-8ac5-696f3dd5ecb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Structure\Builders">
+      <UniqueIdentifier>{64262618-d54e-4d23-a638-45d223bb9ec0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Media\Builders">
+      <UniqueIdentifier>{7527dd8a-8e8d-4b6f-846d-f59229db3a70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Structure\Builders">
+      <UniqueIdentifier>{97652e52-5a31-4140-9e8c-43e30d9e85ff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\RAKNET\rkcomms.hpp">
+      <Filter>Archivos de encabezado\Communications</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RAKNET\rkdefinitions.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RAKNET\rkinclude.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RAKNET\rkchanneladdon.hpp">
+      <Filter>Archivos de encabezado\Communications\Builders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\RAKNET\rkcomms.cpp">
+      <Filter>Archivos de código fuente\Communications</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\rkchanneladdon.cpp">
+      <Filter>Archivos de código fuente\Communications\Builders</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

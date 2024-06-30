@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<Sounds>
+
+	<!-- Include -->
+	<Include file="ptsounds.xml"/>
+	
+	<!-- wav sounds -->
+	<!-- Very basic sounds related with introduction either to the game or to each scene -->
+	<Sound id="50000" type="1" loop="-1" file="sounds/intromusic.wav"/>
+	<Sound id="50001" type="1" loop="-1" file="sounds/scenemusic.wav"/>
+	<Sound id="50002" type="1" loop="-1" file="sounds/trainingmusic.wav"/>
+	<Sound id="50003" type="1" loop="-1" file="sounds/instructionsmusic.wav"/>
+	<Sound id="50004" type="1" loop="-1" file="sounds/citymusic.wav"/>
+	<Sound id="50005" type="1" loop="-1" file="sounds/landscapemusic.wav"/>
+	<Sound id="50006" type="1" loop="-1" file="sounds/mountainsmusic.wav"/>
+	<Sound id="50007" type="1" loop="-1" file="sounds/dessertmusic.wav"/>
+	<Sound id="50008" type="1" loop="-1" file="sounds/darkforestmusic.wav"/>
+	<Sound id="50009" type="1" loop="-1" file="sounds/templemusic.wav"/>
+	<Sound id="50010" type="1" loop=" 0" file="sounds/die.wav"/>
+	<Sound id="50011" type="1" loop="-1" file="sounds/endmusic.wav"/>
+	<Sound id="50012" type="1" loop="-1" file="sounds/halloffamemusic.wav"/>
+	<Sound id="50013" type="1" loop=" 0" file="sounds/goalreached.wav"/>
+	<Sound id="50014" type="1" loop=" 0" file="sounds/playerdies.wav"/>
+	<Sound id="50015" type="1" loop="-1" file="sounds/bees.wav"/>
+	<Sound id="50016" type="1" loop="-1" file="sounds/birds.wav"/>
+	<Sound id="50017" type="1" loop=" 0" file="sounds/importantevent.wav"/>
+	<Sound id="50018" type="1" loop="-1" file="sounds/playerwins.wav"/>
+	<Sound id="50019" type="1" loop=" 0" file="sounds/crywhendie.wav"/>
+	<Sound id="50020" type="1" loop="-1" file="sounds/energybackground.wav"/>
+	<Sound id="50021" type="1" loop=" 0" file="sounds/click.wav"/>
+	
+	<!-- mp3 sounds -->
+	<!-- Very basic sounds related with introduction either to the game or to each scene -->
+	<Sound id="60000" type="1" loop="-1" file="sounds/intromusic.mp3"/>
+	<Sound id="60001" type="1" loop="-1" file="sounds/scenemusic.mp3"/>
+	<Sound id="60002" type="1" loop="-1" file="sounds/trainingmusic.mp3"/>
+	<Sound id="60003" type="1" loop="-1" file="sounds/instructionsmusic.mp3"/>
+	<Sound id="60004" type="1" loop="-1" file="sounds/citymusic.mp3"/>
+	<Sound id="60005" type="1" loop="-1" file="sounds/landscapemusic.mp3"/>
+	<Sound id="60006" type="1" loop="-1" file="sounds/mountainsmusic.mp3"/>
+	<Sound id="60007" type="1" loop="-1" file="sounds/dessertmusic.mp3"/>
+	<Sound id="60008" type="1" loop="-1" file="sounds/darkforestmusic.mp3"/>
+	<Sound id="60009" type="1" loop="-1" file="sounds/templemusic.mp3"/>
+	<Sound id="60010" type="1" loop=" 0" file="sounds/die.mp3"/>
+	<Sound id="60011" type="1" loop="-1" file="sounds/endmusic.mp3"/>
+	<Sound id="60012" type="1" loop="-1" file="sounds/halloffamemusic.mp3"/>
+	<Sound id="60013" type="1" loop=" 0" file="sounds/goalreached.mp3"/>
+	<Sound id="60014" type="1" loop=" 0" file="sounds/playerdies.mp3"/>
+	<Sound id="60015" type="1" loop="-1" file="sounds/bees.mp3"/>
+	<Sound id="60016" type="1" loop="-1" file="sounds/birds.mp3"/>
+	<Sound id="60017" type="1" loop=" 0" file="sounds/importantevent.mp3"/>
+	<Sound id="60018" type="1" loop="-1" file="sounds/playerwins.mp3"/>
+	<Sound id="60019" type="1" loop=" 0" file="sounds/crywhendie.mp3"/>
+	<Sound id="60020" type="1" loop="-1" file="sounds/energybackground.mp3"/>
+	<Sound id="60021" type="1" loop=" 0" file="sounds/click.wav"/>
+	
+</Sounds>

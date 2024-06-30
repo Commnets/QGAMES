@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Configuration">
+      <UniqueIdentifier>{e87a483b-ecbd-40ca-91e6-fdc8e4ad06e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{899f6a35-d2d2-4019-b757-a3160afd6232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Forms">
+      <UniqueIdentifier>{6d23b662-c2d5-409b-9ff2-a606d5043143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Maps">
+      <UniqueIdentifier>{d59d7b0a-6756-436b-a2e5-f0bed77cbe42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Sounds">
+      <UniqueIdentifier>{1610b4c8-1f61-4c1f-8499-e6127aa47c83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Communications">
+      <UniqueIdentifier>{f3e92ad6-7256-455a-8cf7-7d23f1eb421d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Foundation">
+      <UniqueIdentifier>{34f99bec-5269-4c8a-bce0-41f2fe3b339f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Media">
+      <UniqueIdentifier>{6d3f562b-0569-4cdb-bfdd-f7c57a84c013}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Structure">
+      <UniqueIdentifier>{3abaeea1-9936-4a1b-92ac-09428ca01627}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Media\Builders">
+      <UniqueIdentifier>{e91d66ad-5ee2-400c-829a-a2e5e0a78573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Structure\Builders">
+      <UniqueIdentifier>{4661ebdb-4d5f-4232-bc5e-5e6a7c761fb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Communications">
+      <UniqueIdentifier>{3f21140a-6094-4dad-86de-4aff126b0326}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Foundation">
+      <UniqueIdentifier>{877fd859-0634-4549-b3ef-fd5233da01c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Media">
+      <UniqueIdentifier>{b0023f34-3496-4856-aa2c-b51b299e996f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Structure">
+      <UniqueIdentifier>{bf1c5012-26c7-49d4-b554-a1e67e8da35d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Media\Builders">
+      <UniqueIdentifier>{e5043ebd-de49-4688-918c-a3a576ba4e7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Structure\Builders">
+      <UniqueIdentifier>{1ca95ad4-24d0-4b97-a13f-2926ac634cc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Communications\Builders">
+      <UniqueIdentifier>{cacc9145-0dc1-43ec-a8c8-8c9f8df7148e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Communications\Builders">
+      <UniqueIdentifier>{9d093c9a-d2e8-4098-adf8-ab4d552577fb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\Room\rmdefinitions.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Room\rminclude.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Room\rmroom.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Room\rmroombuilder.hpp">
+      <Filter>Archivos de encabezado\Structure\Builders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\rmroom.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\rmroombuilder.cpp">
+      <Filter>Archivos de código fuente\Structure\Builders</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

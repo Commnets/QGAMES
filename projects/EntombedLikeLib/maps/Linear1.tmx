@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.5" orientation="isometric" renderorder="right-down" width="6" height="17" tilewidth="256" tileheight="128" infinite="0" nextlayerid="36" nextobjectid="1">
+ <tileset firstgid="1" name="Floors" tilewidth="256" tileheight="512" tilecount="70" columns="14">
+  <image source="Floors.png" width="3584" height="2560"/>
+ </tileset>
+ <tileset firstgid="71" name="Walls" tilewidth="256" tileheight="512" tilecount="112" columns="28">
+  <image source="Walls.png" width="7168" height="2048"/>
+ </tileset>
+ <tileset firstgid="183" name="MainCharacter" tilewidth="256" tileheight="512" tilecount="9" columns="3">
+  <image source="MaleStanding.png" width="774" height="1542"/>
+ </tileset>
+ <tileset firstgid="192" name="Stairs" tilewidth="256" tileheight="512" tilecount="16" columns="8">
+  <image source="StairsDecoration.png" width="2048" height="1024"/>
+ </tileset>
+ <layer id="22" name="Base" width="6" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBg0AdiVygWZkAAEN8ZiLWgbAYkdWZQOVc0teZIapDNMYXqQReHYS0s9iLLw8Q10OQYsKhFdys299hDaSc89mIzA1ncEEnMGckcZyRz0P2FTb0ikjgrVAwAKQ0Srw==
+  </data>
+ </layer>
+ <group id="8" name="Walls">
+  <layer id="28" name="XMainCharacterExample2" width="6" height="17">
+   <data encoding="base64" compression="zlib">
+   eJxjYKAO2E0lc4YKoLV/AT03AXc=
+  </data>
+  </layer>
+  <layer id="29" name="XHallLikeSprites" width="6" height="17" opacity="0.75" offsetx="0" offsety="-20">
+   <data encoding="base64" compression="zlib">
+   eJxjYKAtmEVj8wcboJZ/AeiYATU=
+  </data>
+  </layer>
+  <layer id="23" name="NorthEast" width="6" height="17" offsetx="0" offsety="-20">
+   <data encoding="base64" compression="zlib">
+   eJxjYGBgiAXiSUA8hQEB6oDYj4E6AJc5niSqd6eh+SD/+uJQTyog1T3YAAAIegXD
+  </data>
+  </layer>
+  <layer id="24" name="XMainCharacterExample1" width="6" height="17">
+   <data encoding="base64" compression="zlib">
+   eJxjYGBg2IWG8QGQ/F4kNjEApm4vXlX49VIiTo69hOzBZzYht2GTRxcDAMnwDds=
+  </data>
+  </layer>
+  <layer id="25" name="SouthWest" width="6" height="17" offsetx="0" offsety="-20">
+   <data encoding="base64" compression="zlib">
+   eJxjYEAFUxlGAb1BJRBXQPFGqBgAAesCsA==
+  </data>
+  </layer>
+  <layer id="27" name="Door" width="6" height="17" opacity="0.75" offsetx="0" offsety="-20">
+   <data encoding="base64" compression="zlib">
+   eJxjYBjcYBEO8dUkqh9qAACyxwHw
+  </data>
+  </layer>
+ </group>
+</map>

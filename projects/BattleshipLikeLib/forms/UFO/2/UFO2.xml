@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:5ea6e7250ac7e50dc94074d4bf71ab19:fa1d408a5f1116ae0a4aaba9489200f6:27c8a954d5c8eb81d6b9d031596dc409$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="UFO2" file="./forms/UFO2.png" width="444" height="63"
+		fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="?">
+		<Frame id="Enemy Ship 2-1" fPosX="0" fPosY="0" fWidth="74" fHeight="63" xoffset="0" yoffset="0" width="74" height="63"/>
+		<Frame id="Enemy Ship 2-2" fPosX="74" fPosY="0" fWidth="74" fHeight="63" xoffset="0" yoffset="0" width="74" height="63"/>
+		<Frame id="Enemy Ship 2-3" fPosX="148" fPosY="0" fWidth="74" fHeight="63" xoffset="0" yoffset="0" width="74" height="63"/>
+		<Frame id="Enemy Ship 2-4" fPosX="222" fPosY="0" fWidth="74" fHeight="63" xoffset="0" yoffset="0" width="74" height="63"/>
+		<Frame id="Enemy Ship 2-5" fPosX="296" fPosY="0" fWidth="74" fHeight="63" xoffset="0" yoffset="0" width="74" height="63"/>
+		<Frame id="Enemy Ship 2-6" fPosX="370" fPosY="0" fWidth="74" fHeight="63" xoffset="0" yoffset="0" width="74" height="63"/>
+    </Form>
+</CommtyExporter>

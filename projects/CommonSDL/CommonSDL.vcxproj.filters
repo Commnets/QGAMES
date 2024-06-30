@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de código fuente">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Foundation">
+      <UniqueIdentifier>{5fe5bd5e-8d81-4849-bc56-711c56340828}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Structure">
+      <UniqueIdentifier>{52199a5a-7cbd-4e70-a649-007dd2d2e61f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Structure\Builders">
+      <UniqueIdentifier>{53d47445-0e29-47df-9ff4-6116ff4a8afe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Foundation">
+      <UniqueIdentifier>{5865a9e2-518a-482d-b2f5-4a316e00d880}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Structure">
+      <UniqueIdentifier>{1e109ca8-a757-4022-991b-e7945cf2d00f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Structure\Builders">
+      <UniqueIdentifier>{fd417417-93dc-48dc-bc4e-6fdf2832b008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Communications">
+      <UniqueIdentifier>{59c46630-98c7-48ea-be41-68fbe789c348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Communications">
+      <UniqueIdentifier>{2015cf78-2c0d-4f99-9770-c0098a0a9213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Media">
+      <UniqueIdentifier>{057821d6-2512-4ebe-8ab7-644aa9119f39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Media\Builders">
+      <UniqueIdentifier>{af630862-dd7f-43c8-9494-5dccd592064e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Media">
+      <UniqueIdentifier>{d7dee427-3f45-4f60-b27d-2487293427c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Media\Builders">
+      <UniqueIdentifier>{43da2720-c6ea-477f-b038-c4f2d6796206}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Communications\Builders">
+      <UniqueIdentifier>{57844fda-f667-479e-bd58-ec60e8221b2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Communications\Builders">
+      <UniqueIdentifier>{f7d27253-c40f-4c12-9ab6-54956fe4365f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\SDL\sdldefinitions.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\SDL\sdlinclude.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\SDL\sdlform.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\SDL\sdlgame.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\SDL\sdlinputhandler.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\SDL\sdlsound.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\SDL\sdlformbuilder.hpp">
+      <Filter>Archivos de encabezado\Structure\Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\SDL\sdlsoundbuilder.hpp">
+      <Filter>Archivos de encabezado\Structure\Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\SDL\sdlscreen.hpp">
+      <Filter>Archivos de encabezado\Media</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\SDL\sdlform.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SDL\sdlgame.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SDL\sdlinputhandler.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SDL\sdlformbuilder.cpp">
+      <Filter>Archivos de código fuente\Structure\Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SDL\sdlscreen.cpp">
+      <Filter>Archivos de código fuente\Media</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SDL\sdlsound.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\SDL\sdlsoundbuilder.cpp">
+      <Filter>Archivos de código fuente\Structure\Builders</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

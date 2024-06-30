@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:02ba6df9b2f1c524b5e6051ea340f858:205629100851b4697872c6f752bf9ac4:66854474b45ae9a24f50b65078cb5ab0$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="LittleExplosion" file="./forms/LittleExplosion.png" width="640" height="640"
+		fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="?">
+		<Frame id="explosionlittle-0" fPosX="0" fPosY="0" fWidth="128" fHeight="128" xoffset="0" yoffset="0" width="128" height="128"/>
+		<Frame id="explosionlittle-1" fPosX="128" fPosY="0" fWidth="128" fHeight="128" xoffset="0" yoffset="0" width="128" height="128"/>
+		<Frame id="explosionlittle-2" fPosX="256" fPosY="0" fWidth="128" fHeight="128" xoffset="0" yoffset="0" width="128" height="128"/>
+		<Frame id="explosionlittle-3" fPosX="384" fPosY="0" fWidth="128" fHeight="128" xoffset="0" yoffset="0" width="128" height="128"/>
+		<Frame id="explosionlittle-4" fPosX="512" fPosY="0" fWidth="128" fHeight="128" xoffset="0" yoffset="0" width="128" height="128"/>
+		<Frame id="explosionlittle-5" fPosX="0" fPosY="128" fWidth="128" fHeight="128" xoffset="0" yoffset="0" width="128" height="128"/>
+		<Frame id="explosionlittle-6" fPosX="128" fPosY="128" fWidth="128" fHeight="128" xoffset="0" yoffset="0" width="128" height="128"/>
+		<Frame id="explosionlittle-7" fPosX="256" fPosY="128" fWidth="128" fHeight="128" xoffset="0" yoffset="0" width="128" height="128"/>
+		<Frame id="explosionlittle-8" fPosX="384" fPosY="128" fWidth="128" fHeight="128" xoffset="0" yoffset="0" width="128" height="128"/>
+		<Frame id="explosionlittle-9" fPosX="512" fPosY="128" fWidth="128" fHeight="128" xoffset="0" yoffset="0" width="128" height="128"/>
+		<Frame id="explosionlittle-10" fPosX="0" fPosY="256" fWidth="128" fHeight="128" xoffset="0" yoffset="0" width="128" height="128"/>
+		<Frame id="explosionlittle-11" fPosX="128" fPosY="256" fWidth="128" fHeight="128" xoffset="0" yoffset="0" width="128" height="128"/>
+		<Frame id="explosionlittle-12" fPosX="256" fPosY="256" fWidth="128" fHeight="128" xoffset="0" yoffset="0" width="128" height="128"/>
+		<Frame id="explosionlittle-13" fPosX="384" fPosY="256" fWidth="128" fHeight="128" xoffset="0" yoffset="0" width="128" height="128"/>
+		<Frame id="explosionlittle-14" fPosX="512" fPosY="256" fWidth="128" fHeight="128" xoffset="0" yoffset="0" width="128" height="128"/>
+		<Frame id="explosionlittle-15" fPosX="0" fPosY="384" fWidth="128" fHeight="128" xoffset="0" yoffset="0" width="128" height="128"/>
+		<Frame id="explosionlittle-16" fPosX="128" fPosY="384" fWidth="128" fHeight="128" xoffset="0" yoffset="0" width="128" height="128"/>
+		<Frame id="explosionlittle-17" fPosX="256" fPosY="384" fWidth="128" fHeight="128" xoffset="0" yoffset="0" width="128" height="128"/>
+		<Frame id="explosionlittle-18" fPosX="384" fPosY="384" fWidth="128" fHeight="128" xoffset="0" yoffset="0" width="128" height="128"/>
+		<Frame id="explosionlittle-19" fPosX="512" fPosY="384" fWidth="128" fHeight="128" xoffset="0" yoffset="0" width="128" height="128"/>
+		<Frame id="explosionlittle-20" fPosX="0" fPosY="512" fWidth="128" fHeight="128" xoffset="0" yoffset="0" width="128" height="128"/>
+		<Frame id="explosionlittle-21" fPosX="128" fPosY="512" fWidth="128" fHeight="128" xoffset="0" yoffset="0" width="128" height="128"/>
+		<Frame id="explosionlittle-22" fPosX="256" fPosY="512" fWidth="128" fHeight="128" xoffset="0" yoffset="0" width="128" height="128"/>
+		<Frame id="explosionlittle-23" fPosX="384" fPosY="512" fWidth="128" fHeight="128" xoffset="0" yoffset="0" width="128" height="128"/>
+		<Frame id="explosionlittle-24" fPosX="512" fPosY="512" fWidth="128" fHeight="128" xoffset="0" yoffset="0" width="128" height="128"/>
+    </Form>
+</CommtyExporter>

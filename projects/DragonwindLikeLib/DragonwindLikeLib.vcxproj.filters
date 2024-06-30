@@ -1,0 +1,4340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de código fuente">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Foundation">
+      <UniqueIdentifier>{a9ec0fe0-8298-4488-bf31-33d655dce790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Structure">
+      <UniqueIdentifier>{3ffd50ab-7733-4b40-941a-2c56878536ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Structure\Builders">
+      <UniqueIdentifier>{4115fbf3-fa16-4b60-a659-5e916422761e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Structure\Artists">
+      <UniqueIdentifier>{8f7ae2b1-3cd2-4e21-886b-49a65ec5e474}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Foundation">
+      <UniqueIdentifier>{21a64092-78ec-495c-9939-6ce2d9c1fea5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Structure">
+      <UniqueIdentifier>{742564c6-6031-4f74-8a72-4c3f9006004d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Structure\Builders">
+      <UniqueIdentifier>{0bbe3692-2e34-4c23-8b9c-71b5bd3a9f71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Structure\Artists">
+      <UniqueIdentifier>{d19f0a51-545b-445b-b693-529a4b4a329e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Configuration">
+      <UniqueIdentifier>{c4dc9737-5765-4424-bd4c-bbfb84cd6218}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{05ff3206-bf0a-47e4-a77d-6801586db860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Forms">
+      <UniqueIdentifier>{734fa4aa-537f-4093-a0da-a8f93c3e2537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Sounds">
+      <UniqueIdentifier>{3d48437b-bca0-4455-be16-9d880fb39e95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Maps">
+      <UniqueIdentifier>{9c6e8130-ef0d-443b-82c6-ff6165dd5f4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Forms\Sources">
+      <UniqueIdentifier>{905af5db-8ef7-4663-b2dc-305cea8f806f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Forms\Sources\Cat">
+      <UniqueIdentifier>{7e7771ff-bb5a-41ee-b177-367b0053194c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Forms\Sources\Cat\Left">
+      <UniqueIdentifier>{f5328dba-8e3f-4d84-bc55-4f48352fe7de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Forms\Sources\Cat\Right">
+      <UniqueIdentifier>{515d1614-2e53-4cea-966f-74a8be87be9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Forms\Sources\Ninja Male">
+      <UniqueIdentifier>{86ddac83-de0d-4f65-9a94-e06d3d639cef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Forms\Sources\Ninja Male\Left">
+      <UniqueIdentifier>{1513721d-7936-4098-a84c-e1bc6e4e1c53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Forms\Sources\Ninja Male\Right">
+      <UniqueIdentifier>{a396d7bf-fb8a-471f-b167-b0b9997f8ebf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Forms\Sources\Robot">
+      <UniqueIdentifier>{6886420b-c519-4d97-9ba6-01e426370b3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Forms\Sources\Robot\Left">
+      <UniqueIdentifier>{a244c581-6db4-4096-b80f-15cd2d70fc1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Forms\Sources\Robot\Right">
+      <UniqueIdentifier>{ab2d3507-3e63-4b34-88bc-54cb78857c96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Forms\Sources\Bird">
+      <UniqueIdentifier>{32128922-f72d-4ff7-83fa-5068bb923b60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Forms\Sources\Dog">
+      <UniqueIdentifier>{4b871818-6bfd-4d59-a31a-711546e80d39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Forms\Sources\Dog\Left">
+      <UniqueIdentifier>{3a49ca3b-129b-403b-ab4e-1db4639b508b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Forms\Sources\Dog\Right">
+      <UniqueIdentifier>{2c5248d5-2653-44f8-905f-a301937dca09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Forms\Sources\Jack">
+      <UniqueIdentifier>{a7fbcf3c-edd0-4cba-8923-846f029b0a75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Forms\Sources\Jack\Left">
+      <UniqueIdentifier>{3997850e-36f0-4bd9-963b-5c77497b4bb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Forms\Sources\Jack\Right">
+      <UniqueIdentifier>{6e5db076-78f0-48b5-b42f-e239be763e4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Forms\Sources\Ninja Female">
+      <UniqueIdentifier>{3063fcfb-c09c-4683-85d7-63168c4718f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Forms\Sources\Ninja Female\Left">
+      <UniqueIdentifier>{d1696004-fda3-4328-9fef-a35424861f62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Forms\Sources\Ninja Female\Right">
+      <UniqueIdentifier>{3a008b84-b5fb-4888-b90d-bd77a0d06a80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Forms\Sources\Food">
+      <UniqueIdentifier>{ad45a8c9-1384-4362-a056-b3f6b96ab6d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Forms\Sources\Things">
+      <UniqueIdentifier>{b37807ea-2969-4090-b473-1ec15e37c535}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Communications">
+      <UniqueIdentifier>{014915c6-94e8-4226-ba5a-662226fb8154}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Communications">
+      <UniqueIdentifier>{73a4d3d7-4b10-4b0b-856f-86f5a2d00e59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Media">
+      <UniqueIdentifier>{bceaf19f-c5f2-4b52-8b65-76bfc1d74cfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Media\Builders">
+      <UniqueIdentifier>{c61dab39-e63e-435b-8461-d48a2dbdb721}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Media">
+      <UniqueIdentifier>{404f2b2f-a51b-49f6-b88d-82096c313ec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Media\Builders">
+      <UniqueIdentifier>{1a81ffec-9a45-417c-a1f2-7224c52b8533}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Communications\Builders">
+      <UniqueIdentifier>{7ecd681d-5e05-427b-8a91-c78d640e9ae8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Communications\Builders">
+      <UniqueIdentifier>{dc18007b-b6f2-4814-937d-1fa343c0e2a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Maps\Maps">
+      <UniqueIdentifier>{587b9bfb-4a02-4b8d-8a27-cba9799ff66d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Maps\Sources">
+      <UniqueIdentifier>{056ab349-7819-4ee0-9ac3-6bf625419e22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Maps\Sources\Water">
+      <UniqueIdentifier>{4ff26044-cd90-4273-95a6-e94c9e589d6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Maps\Sources\Base">
+      <UniqueIdentifier>{0ac9335e-522a-4ea7-8d0a-6a70a3cf2b5d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\DragonwindLike\dwdefinitions.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DragonwindLike\dwinclude.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DragonwindLike\dwfood.hpp">
+      <Filter>Archivos de encabezado\Structure\Artists</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DragonwindLike\dwflyingmonsters.hpp">
+      <Filter>Archivos de encabezado\Structure\Artists</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DragonwindLike\dwbadguys.hpp">
+      <Filter>Archivos de encabezado\Structure\Artists</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DragonwindLike\dwninjas.hpp">
+      <Filter>Archivos de encabezado\Structure\Artists</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DragonwindLike\dwthings.hpp">
+      <Filter>Archivos de encabezado\Structure\Artists</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DragonwindLike\dwshootings.hpp">
+      <Filter>Archivos de encabezado\Structure\Artists</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DragonwindLike\dwactionblocks.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DragonwindLike\dwartists.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DragonwindLike\dwdatagame.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DragonwindLike\dwgame.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DragonwindLike\dwgamestates.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DragonwindLike\dwinputhandler.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DragonwindLike\dwmaps.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DragonwindLike\dwmovements.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DragonwindLike\dwscenes.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DragonwindLike\dwscoreobjects.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DragonwindLike\dwsteps.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DragonwindLike\dwworlds.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DragonwindLike\dwbuilders.hpp">
+      <Filter>Archivos de encabezado\Structure\Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DragonwindLike\dwlayers.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\dwbadguys.cpp">
+      <Filter>Archivos de código fuente\Structure\Artists</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\dwflyingmonsters.cpp">
+      <Filter>Archivos de código fuente\Structure\Artists</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\dwfood.cpp">
+      <Filter>Archivos de código fuente\Structure\Artists</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\dwninjas.cpp">
+      <Filter>Archivos de código fuente\Structure\Artists</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\dwthings.cpp">
+      <Filter>Archivos de código fuente\Structure\Artists</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\dwshootings.cpp">
+      <Filter>Archivos de código fuente\Structure\Artists</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\dwactionblocks.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\dwartists.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\dwdatagame.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\dwgame.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\dwgamestates.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\dwguisystem.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\dwinputhandler.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\dwmaps.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\dwmovements.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\dwscenes.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\dwscoreobjects.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\dwsteps.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\dwworlds.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\dwbuilders.cpp">
+      <Filter>Archivos de código fuente\Structure\Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\dwlayers.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\include\DragonwindLike\dwguisystem.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </None>
+    <None Include="forms\CatLeft\CatLeft.tps">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </None>
+    <None Include="forms\CatRight\CatRight.tps">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </None>
+    <None Include="forms\NinjaMaleLeft\NinjaLeft.tps">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </None>
+    <None Include="forms\NinjaMaleRight\Ninja.tps">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </None>
+    <None Include="forms\RobotLeft\RobotLeft.tps">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </None>
+    <None Include="forms\RobotRight\RobotRight.tps">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </None>
+    <None Include="forms\Bird\bird.tps">
+      <Filter>Data\Forms\Sources\Bird</Filter>
+    </None>
+    <None Include="forms\DogLeft\DogLeft.tps">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </None>
+    <None Include="forms\DogRight\DogRight.tps">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </None>
+    <None Include="forms\JackLeft\JackLeft.tps">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </None>
+    <None Include="forms\JackRight\JackRight.tps">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </None>
+    <None Include="forms\NinjaFemaleLeft\NinjaFemaleLeft.tps">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </None>
+    <None Include="forms\NinjaFemaleRight\NinjaFemale.tps">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </None>
+    <None Include="forms\Food\food.tps">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </None>
+    <None Include="forms\Things\Things.tps">
+      <Filter>Data\Forms\Sources\Things</Filter>
+    </None>
+    <None Include="maps\Example.tmx">
+      <Filter>Data\Maps</Filter>
+    </None>
+    <None Include="Instructions.docx">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="forms\BlankBackground.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\bee.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\BKCity.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\BKDarkForest.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\BKDessert.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\BKLandscape.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\BKMountains.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\BkTemple.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\Dragon.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="maps\maps\Solid.tps">
+      <Filter>Data\Maps\Maps</Filter>
+    </None>
+    <None Include="maps\ExampleNext.tmx">
+      <Filter>Data\Maps</Filter>
+    </None>
+    <None Include="maps\maps\Water.tps">
+      <Filter>Data\Maps\Sources\Water</Filter>
+    </None>
+    <None Include="maps\maps\Base.tps">
+      <Filter>Data\Maps\Sources\Base</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="adguisystem.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="dwentities.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="dwforms.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="dwgamestates.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="dwguisystem.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="dwmaps.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="dwmonitor.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="dwmovements.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="dwobjects.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="dwsounds.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="dwworlds.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="maps\BKCity.xml">
+      <Filter>Data\Maps</Filter>
+    </Xml>
+    <Xml Include="maps\BKDarkForest.xml">
+      <Filter>Data\Maps</Filter>
+    </Xml>
+    <Xml Include="maps\BKDessert.xml">
+      <Filter>Data\Maps</Filter>
+    </Xml>
+    <Xml Include="maps\BKLandscape.xml">
+      <Filter>Data\Maps</Filter>
+    </Xml>
+    <Xml Include="maps\BKMountains.xml">
+      <Filter>Data\Maps</Filter>
+    </Xml>
+    <Xml Include="maps\BKTemple.xml">
+      <Filter>Data\Maps</Filter>
+    </Xml>
+    <Xml Include="dwconf.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="maps\maps\Solid.xml">
+      <Filter>Data\Maps\Maps</Filter>
+    </Xml>
+    <Xml Include="maps\maps\Water.xml">
+      <Filter>Data\Maps\Sources\Water</Filter>
+    </Xml>
+    <Xml Include="maps\maps\Base.xml">
+      <Filter>Data\Maps\Sources\Base</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="forms\ArrowShoot.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\bee.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\bird.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKCity.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKCity0.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKCity1.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKCity2.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKCity3.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKCity4.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKCity5.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKCity6.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKCity7.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKCityBlur.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKDarkForest.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKDarkForest0.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKDarkForest1.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKDarkForest2.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKDarkForest3.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKDarkForest4.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKDarkForest5.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKDarkForest6.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKDarkForestBlur.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKDessert.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKDessert0.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKDessert1.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKDessert2.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKDessert3.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKDessert4.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKDessert5.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKDessert6.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKDessertBlur.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKLandscape.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKLandscape0.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKLandscape1.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKLandscape2.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKLandscape3.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKLandscape4.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKLandscape5.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKLandscapeBlur.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKLightForest.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKMountains.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKMountains0.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKMountains1.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKMountains2.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKMountains3.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKMountains4.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKMountainsBlur.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKNightForest.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BkTemple.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKTemple0.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKTemple1.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKTemple2.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKTemple3.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKTemple4.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKTemple5.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKTemple6.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BKTemple7.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BkTempleBlur.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BombShoot.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\CatLeft.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\CatRight.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\DogLeft.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\DogRight.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Dragon.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\DragonIcon.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Explosion.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\food.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\InstructionsMap.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\JackLeft.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\JackRight.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\lives.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\NInjaFemaleRight.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleSwimDiedLeft.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleSwimDiedRight.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleSwimLeft.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleSwimRight.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleSwimDiedLeft.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleSwimDiedRight.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleSwimLeft.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleSwimRight.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\PollBallRolling.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\RobotRight.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\StarShoot.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Sun.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\SunDragon.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Temple.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\things.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\DragonIcon.ico">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Dead (1).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Dead (2).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Dead (3).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Dead (4).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Dead (5).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Dead (6).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Dead (7).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Dead (8).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Dead (9).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Dead (A).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Fall (1).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Fall (2).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Fall (3).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Fall (4).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Fall (5).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Fall (6).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Fall (7).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Fall (8).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Hurt (1).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Hurt (2).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Hurt (3).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Hurt (4).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Hurt (5).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Hurt (6).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Hurt (7).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Hurt (8).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Hurt (9).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Hurt (A).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Idle (1).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Idle (2).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Idle (3).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Idle (4).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Idle (5).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Idle (6).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Idle (7).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Idle (8).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Idle (9).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Idle (A).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Jump (1).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Jump (2).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Jump (3).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Jump (4).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Jump (5).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Jump (6).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Jump (7).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Jump (8).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Run (1).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Run (2).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Run (3).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Run (4).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Run (5).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Run (6).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Run (7).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Run (8).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Slide (1).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Slide (2).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Slide (3).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Slide (4).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Slide (5).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Slide (6).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Slide (7).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Slide (8).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Slide (9).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Slide (A).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Walk (1).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Walk (2).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Walk (3).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Walk (4).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Walk (5).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Walk (6).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Walk (7).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Walk (8).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Walk (9).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatLeft\Walk (A).png">
+      <Filter>Data\Forms\Sources\Cat\Left</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Dead (1).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Dead (2).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Dead (3).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Dead (4).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Dead (5).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Dead (6).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Dead (7).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Dead (8).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Dead (9).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Dead (A).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Fall (1).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Fall (2).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Fall (3).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Fall (4).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Fall (5).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Fall (6).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Fall (7).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Fall (8).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Hurt (1).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Hurt (2).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Hurt (3).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Hurt (4).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Hurt (5).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Hurt (6).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Hurt (7).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Hurt (8).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Hurt (9).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Hurt (A).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Idle (1).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Idle (2).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Idle (3).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Idle (4).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Idle (5).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Idle (6).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Idle (7).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Idle (8).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Idle (9).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Idle (A).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Jump (1).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Jump (2).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Jump (3).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Jump (4).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Jump (5).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Jump (6).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Jump (7).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Jump (8).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Run (1).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Run (2).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Run (3).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Run (4).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Run (5).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Run (6).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Run (7).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Run (8).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Slide (1).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Slide (2).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Slide (3).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Slide (4).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Slide (5).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Slide (6).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Slide (7).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Slide (8).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Slide (9).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Slide (A).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Walk (1).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Walk (2).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Walk (3).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Walk (4).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Walk (5).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Walk (6).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Walk (7).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Walk (8).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Walk (9).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\CatRight\Walk (A).png">
+      <Filter>Data\Forms\Sources\Cat\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Attack__000.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Attack__001.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Attack__002.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Attack__003.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Attack__004.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Attack__005.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Attack__006.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Attack__007.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Attack__008.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Attack__009.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Climb_000.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Climb_001.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Climb_002.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Climb_003.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Climb_004.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Climb_005.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Climb_006.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Climb_007.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Climb_008.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Climb_009.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Dead__000.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Dead__001.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Dead__002.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Dead__003.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Dead__004.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Dead__005.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Dead__006.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Dead__007.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Dead__008.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Dead__009.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Glide_000.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Glide_001.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Glide_002.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Glide_003.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Glide_004.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Glide_005.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Glide_006.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Glide_007.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Glide_008.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Glide_009.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Idle__000.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Idle__001.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Idle__002.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Idle__003.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Idle__004.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Idle__005.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Idle__006.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Idle__007.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Idle__008.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Idle__009.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Jump__000.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Jump__001.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Jump__002.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Jump__003.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Jump__004.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Jump__005.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Jump__006.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Jump__007.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Jump__008.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Jump__009.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Jump_Attack__000.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Jump_Attack__001.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Jump_Attack__002.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Jump_Attack__003.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Jump_Attack__004.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Jump_Attack__005.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Jump_Attack__006.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Jump_Attack__007.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Jump_Attack__008.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Jump_Attack__009.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Jump_Throw__000.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Jump_Throw__001.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Jump_Throw__002.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Jump_Throw__003.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Jump_Throw__004.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Jump_Throw__005.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Jump_Throw__006.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Jump_Throw__007.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Jump_Throw__008.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Jump_Throw__009.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Run__000.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Run__001.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Run__002.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Run__003.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Run__004.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Run__005.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Run__006.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Run__007.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Run__008.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Run__009.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Slide__000.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Slide__001.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Slide__002.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Slide__003.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Slide__004.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Slide__005.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Slide__006.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Slide__007.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Slide__008.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Slide__009.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Throw__000.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Throw__001.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Throw__002.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Throw__003.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Throw__004.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Throw__005.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Throw__006.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Throw__007.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Throw__008.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleLeft\Throw__009.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Attack__000.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Attack__001.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Attack__002.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Attack__003.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Attack__004.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Attack__005.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Attack__006.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Attack__007.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Attack__008.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Attack__009.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Climb_000.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Climb_001.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Climb_002.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Climb_003.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Climb_004.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Climb_005.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Climb_006.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Climb_007.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Climb_008.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Climb_009.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Dead__000.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Dead__001.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Dead__002.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Dead__003.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Dead__004.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Dead__005.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Dead__006.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Dead__007.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Dead__008.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Dead__009.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Glide_000.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Glide_001.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Glide_002.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Glide_003.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Glide_004.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Glide_005.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Glide_006.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Glide_007.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Glide_008.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Glide_009.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Idle__000.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Idle__001.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Idle__002.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Idle__003.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Idle__004.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Idle__005.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Idle__006.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Idle__007.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Idle__008.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Idle__009.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Jump__000.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Jump__001.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Jump__002.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Jump__003.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Jump__004.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Jump__005.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Jump__006.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Jump__007.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Jump__008.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Jump__009.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Jump_Attack__000.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Jump_Attack__001.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Jump_Attack__002.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Jump_Attack__003.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Jump_Attack__004.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Jump_Attack__005.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Jump_Attack__006.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Jump_Attack__007.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Jump_Attack__008.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Jump_Attack__009.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Jump_Throw__000.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Jump_Throw__001.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Jump_Throw__002.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Jump_Throw__003.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Jump_Throw__004.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Jump_Throw__005.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Jump_Throw__006.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Jump_Throw__007.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Jump_Throw__008.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Jump_Throw__009.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\NinjaMaleLittle.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Run__000.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Run__001.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Run__002.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Run__003.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Run__004.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Run__005.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Run__006.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Run__007.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Run__008.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Run__009.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Slide__000.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Slide__001.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Slide__002.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Slide__003.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Slide__004.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Slide__005.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Slide__006.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Slide__007.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Slide__008.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Slide__009.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Throw__000.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Throw__001.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Throw__002.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Throw__003.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Throw__004.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Throw__005.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Throw__006.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Throw__007.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Throw__008.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaMaleRight\Throw__009.png">
+      <Filter>Data\Forms\Sources\Ninja Male\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Dead (1).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Dead (2).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Dead (3).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Dead (4).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Dead (5).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Dead (6).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Dead (7).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Dead (8).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Dead (9).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Dead (10).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Idle (1).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Idle (2).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Idle (3).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Idle (4).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Idle (5).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Idle (6).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Idle (7).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Idle (8).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Idle (9).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Idle (10).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Jump (1).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Jump (2).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Jump (3).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Jump (4).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Jump (5).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Jump (6).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Jump (7).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Jump (8).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Jump (9).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Jump (10).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\JumpMelee (1).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\JumpMelee (2).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\JumpMelee (3).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\JumpMelee (4).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\JumpMelee (5).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\JumpMelee (6).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\JumpMelee (7).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\JumpMelee (8).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\JumpShoot (1).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\JumpShoot (2).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\JumpShoot (3).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\JumpShoot (4).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\JumpShoot (5).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Melee (1).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Melee (2).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Melee (3).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Melee (4).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Melee (5).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Melee (6).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Melee (7).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Melee (8).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Run (1).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Run (2).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Run (3).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Run (4).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Run (5).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Run (6).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Run (7).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Run (8).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\RunShoot (1).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\RunShoot (2).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\RunShoot (3).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\RunShoot (4).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\RunShoot (5).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\RunShoot (6).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\RunShoot (7).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\RunShoot (8).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\RunShoot (9).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Shoot (1).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Shoot (2).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Shoot (3).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Shoot (4).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Slide (1).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Slide (2).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Slide (3).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Slide (4).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Slide (5).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Slide (6).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Slide (7).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Slide (8).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Slide (9).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotLeft\Slide (10).png">
+      <Filter>Data\Forms\Sources\Robot\Left</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Dead (1).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Dead (2).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Dead (3).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Dead (4).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Dead (5).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Dead (6).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Dead (7).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Dead (8).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Dead (9).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Dead (10).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Idle (1).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Idle (2).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Idle (3).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Idle (4).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Idle (5).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Idle (6).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Idle (7).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Idle (8).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Idle (9).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Idle (10).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Jump (1).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Jump (2).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Jump (3).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Jump (4).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Jump (5).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Jump (6).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Jump (7).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Jump (8).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Jump (9).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Jump (10).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\JumpMelee (1).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\JumpMelee (2).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\JumpMelee (3).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\JumpMelee (4).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\JumpMelee (5).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\JumpMelee (6).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\JumpMelee (7).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\JumpMelee (8).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\JumpShoot (1).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\JumpShoot (2).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\JumpShoot (3).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\JumpShoot (4).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\JumpShoot (5).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Melee (1).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Melee (2).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Melee (3).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Melee (4).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Melee (5).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Melee (6).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Melee (7).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Melee (8).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Run (1).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Run (2).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Run (3).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Run (4).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Run (5).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Run (6).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Run (7).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Run (8).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\RunShoot (1).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\RunShoot (2).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\RunShoot (3).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\RunShoot (4).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\RunShoot (5).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\RunShoot (6).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\RunShoot (7).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\RunShoot (8).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\RunShoot (9).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Shoot (1).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Shoot (2).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Shoot (3).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Shoot (4).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Slide (1).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Slide (2).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Slide (3).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Slide (4).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Slide (5).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Slide (6).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Slide (7).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Slide (8).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Slide (9).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\RobotRight\Slide (10).png">
+      <Filter>Data\Forms\Sources\Robot\Right</Filter>
+    </Image>
+    <Image Include="forms\Bird\framel1.png">
+      <Filter>Data\Forms\Sources\Bird</Filter>
+    </Image>
+    <Image Include="forms\Bird\framel2.png">
+      <Filter>Data\Forms\Sources\Bird</Filter>
+    </Image>
+    <Image Include="forms\Bird\framel3.png">
+      <Filter>Data\Forms\Sources\Bird</Filter>
+    </Image>
+    <Image Include="forms\Bird\framel4.png">
+      <Filter>Data\Forms\Sources\Bird</Filter>
+    </Image>
+    <Image Include="forms\Bird\framel5.png">
+      <Filter>Data\Forms\Sources\Bird</Filter>
+    </Image>
+    <Image Include="forms\Bird\framel6.png">
+      <Filter>Data\Forms\Sources\Bird</Filter>
+    </Image>
+    <Image Include="forms\Bird\framel7.png">
+      <Filter>Data\Forms\Sources\Bird</Filter>
+    </Image>
+    <Image Include="forms\Bird\framel8.png">
+      <Filter>Data\Forms\Sources\Bird</Filter>
+    </Image>
+    <Image Include="forms\Bird\framer1.png">
+      <Filter>Data\Forms\Sources\Bird</Filter>
+    </Image>
+    <Image Include="forms\Bird\framer2.png">
+      <Filter>Data\Forms\Sources\Bird</Filter>
+    </Image>
+    <Image Include="forms\Bird\framer3.png">
+      <Filter>Data\Forms\Sources\Bird</Filter>
+    </Image>
+    <Image Include="forms\Bird\framer4.png">
+      <Filter>Data\Forms\Sources\Bird</Filter>
+    </Image>
+    <Image Include="forms\Bird\framer5.png">
+      <Filter>Data\Forms\Sources\Bird</Filter>
+    </Image>
+    <Image Include="forms\Bird\framer6.png">
+      <Filter>Data\Forms\Sources\Bird</Filter>
+    </Image>
+    <Image Include="forms\Bird\framer7.png">
+      <Filter>Data\Forms\Sources\Bird</Filter>
+    </Image>
+    <Image Include="forms\Bird\framer8.png">
+      <Filter>Data\Forms\Sources\Bird</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Dead (1).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Dead (2).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Dead (3).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Dead (4).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Dead (5).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Dead (6).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Dead (7).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Dead (8).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Dead (9).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Dead (A).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Fall (1).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Fall (2).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Fall (3).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Fall (4).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Fall (5).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Fall (6).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Fall (7).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Fall (8).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Hurt (1).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Hurt (2).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Hurt (3).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Hurt (4).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Hurt (5).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Hurt (6).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Hurt (7).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Hurt (8).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Hurt (9).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Hurt (10).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Idle (1).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Idle (2).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Idle (3).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Idle (4).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Idle (5).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Idle (6).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Idle (7).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Idle (8).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Idle (9).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Idle (A).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Jump (1).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Jump (2).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Jump (3).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Jump (4).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Jump (5).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Jump (6).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Jump (7).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Jump (8).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Run (1).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Run (2).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Run (3).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Run (4).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Run (5).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Run (6).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Run (7).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Run (8).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Slide (1).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Slide (2).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Slide (3).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Slide (4).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Slide (5).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Slide (6).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Slide (7).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Slide (8).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Slide (9).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Slide (A).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Walk (1).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Walk (2).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Walk (3).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Walk (4).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Walk (5).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Walk (6).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Walk (7).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Walk (8).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Walk (9).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogLeft\Walk (A).png">
+      <Filter>Data\Forms\Sources\Dog\Left</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Dead (1).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Dead (2).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Dead (3).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Dead (4).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Dead (5).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Dead (6).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Dead (7).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Dead (8).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Dead (9).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Dead (A).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Fall (1).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Fall (2).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Fall (3).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Fall (4).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Fall (5).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Fall (6).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Fall (7).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Fall (8).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Hurt (1).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Hurt (2).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Hurt (3).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Hurt (4).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Hurt (5).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Hurt (6).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Hurt (7).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Hurt (8).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Hurt (9).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Hurt (10).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Idle (1).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Idle (2).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Idle (3).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Idle (4).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Idle (5).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Idle (6).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Idle (7).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Idle (8).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Idle (9).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Idle (A).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Jump (1).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Jump (2).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Jump (3).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Jump (4).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Jump (5).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Jump (6).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Jump (7).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Jump (8).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Run (1).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Run (2).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Run (3).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Run (4).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Run (5).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Run (6).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Run (7).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Run (8).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Slide (1).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Slide (2).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Slide (3).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Slide (4).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Slide (5).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Slide (6).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Slide (7).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Slide (8).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Slide (9).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Slide (A).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Walk (1).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Walk (2).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Walk (3).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Walk (4).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Walk (5).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Walk (6).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Walk (7).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Walk (8).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Walk (9).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\DogRight\Walk (A).png">
+      <Filter>Data\Forms\Sources\Dog\Right</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Dead (1).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Dead (2).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Dead (3).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Dead (4).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Dead (5).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Dead (6).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Dead (7).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Dead (8).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Dead (9).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Dead (10).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Idle (1).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Idle (2).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Idle (3).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Idle (4).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Idle (5).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Idle (6).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Idle (7).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Idle (8).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Idle (9).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Idle (10).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Jump (1).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Jump (2).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Jump (3).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Jump (4).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Jump (5).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Jump (6).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Jump (7).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Jump (8).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Jump (9).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Jump (10).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Run (1).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Run (2).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Run (3).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Run (4).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Run (5).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Run (6).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Run (7).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Run (8).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Slide (1).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Slide (2).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Slide (3).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Slide (4).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Slide (5).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Slide (6).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Slide (7).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Slide (8).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Slide (9).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Slide (10).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Walk (1).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Walk (2).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Walk (3).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Walk (4).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Walk (5).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Walk (6).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Walk (7).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Walk (8).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Walk (9).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackLeft\Walk (10).png">
+      <Filter>Data\Forms\Sources\Jack\Left</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Dead (1).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Dead (2).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Dead (3).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Dead (4).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Dead (5).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Dead (6).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Dead (7).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Dead (8).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Dead (9).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Dead (10).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Idle (1).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Idle (2).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Idle (3).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Idle (4).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Idle (5).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Idle (6).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Idle (7).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Idle (8).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Idle (9).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Idle (10).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Jump (1).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Jump (2).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Jump (3).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Jump (4).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Jump (5).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Jump (6).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Jump (7).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Jump (8).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Jump (9).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Jump (10).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Run (1).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Run (2).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Run (3).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Run (4).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Run (5).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Run (6).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Run (7).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Run (8).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Slide (1).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Slide (2).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Slide (3).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Slide (4).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Slide (5).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Slide (6).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Slide (7).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Slide (8).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Slide (9).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Slide (10).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Walk (1).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Walk (2).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Walk (3).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Walk (4).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Walk (5).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Walk (6).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Walk (7).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Walk (8).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Walk (9).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\JackRight\Walk (10).png">
+      <Filter>Data\Forms\Sources\Jack\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Attack__000.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Attack__001.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Attack__002.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Attack__003.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Attack__004.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Attack__005.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Attack__006.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Attack__007.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Attack__008.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Attack__009.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Climb_000.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Climb_001.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Climb_002.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Climb_003.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Climb_004.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Climb_005.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Climb_006.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Climb_007.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Climb_008.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Climb_009.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Dead__000.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Dead__001.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Dead__002.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Dead__003.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Dead__004.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Dead__005.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Dead__006.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Dead__007.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Dead__008.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Dead__009.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Glide_000.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Glide_001.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Glide_002.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Glide_003.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Glide_004.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Glide_005.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Glide_006.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Glide_007.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Glide_008.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Glide_009.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Idle__000.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Idle__001.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Idle__002.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Idle__003.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Idle__004.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Idle__005.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Idle__006.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Idle__007.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Idle__008.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Idle__009.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Jump__000.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Jump__001.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Jump__002.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Jump__003.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Jump__004.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Jump__005.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Jump__006.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Jump__007.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Jump__008.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Jump__009.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Jump_Attack__000.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Jump_Attack__001.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Jump_Attack__002.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Jump_Attack__003.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Jump_Attack__004.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Jump_Attack__005.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Jump_Attack__006.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Jump_Attack__007.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Jump_Attack__008.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Jump_Attack__009.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Jump_Throw__000.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Jump_Throw__001.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Jump_Throw__002.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Jump_Throw__003.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Jump_Throw__004.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Jump_Throw__005.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Jump_Throw__006.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Jump_Throw__007.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Jump_Throw__008.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Jump_Throw__009.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Run__000.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Run__001.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Run__002.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Run__003.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Run__004.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Run__005.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Run__006.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Run__007.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Run__008.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Run__009.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Slide__000.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Slide__001.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Slide__002.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Slide__003.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Slide__004.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Slide__005.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Slide__006.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Slide__007.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Slide__008.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Slide__009.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Throw__000.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Throw__001.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Throw__002.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Throw__003.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Throw__004.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Throw__005.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Throw__006.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Throw__007.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Throw__008.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleLeft\Throw__009.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Left</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Attack__000.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Attack__001.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Attack__002.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Attack__003.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Attack__004.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Attack__005.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Attack__006.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Attack__007.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Attack__008.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Attack__009.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Climb_000.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Climb_001.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Climb_002.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Climb_003.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Climb_004.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Climb_005.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Climb_006.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Climb_007.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Climb_008.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Climb_009.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Dead__000.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Dead__001.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Dead__002.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Dead__003.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Dead__004.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Dead__005.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Dead__006.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Dead__007.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Dead__008.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Dead__009.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Glide_000.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Glide_001.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Glide_002.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Glide_003.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Glide_004.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Glide_005.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Glide_006.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Glide_007.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Glide_008.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Glide_009.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Idle__000.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Idle__001.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Idle__002.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Idle__003.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Idle__004.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Idle__005.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Idle__006.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Idle__007.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Idle__008.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Idle__009.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Jump__000.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Jump__001.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Jump__002.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Jump__003.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Jump__004.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Jump__005.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Jump__006.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Jump__007.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Jump__008.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Jump__009.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Jump_Attack__000.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Jump_Attack__001.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Jump_Attack__002.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Jump_Attack__003.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Jump_Attack__004.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Jump_Attack__005.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Jump_Attack__006.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Jump_Attack__007.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Jump_Attack__008.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Jump_Attack__009.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Jump_Throw__000.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Jump_Throw__001.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Jump_Throw__002.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Jump_Throw__003.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Jump_Throw__004.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Jump_Throw__005.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Jump_Throw__006.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Jump_Throw__007.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Jump_Throw__008.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Jump_Throw__009.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\NinjaFemaleLittle.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Run__000.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Run__001.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Run__002.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Run__003.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Run__004.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Run__005.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Run__006.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Run__007.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Run__008.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Run__009.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Slide__000.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Slide__001.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Slide__002.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Slide__003.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Slide__004.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Slide__005.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Slide__006.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Slide__007.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Slide__008.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Slide__009.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Throw__000.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Throw__001.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Throw__002.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Throw__003.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Throw__004.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Throw__005.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Throw__006.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Throw__007.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Throw__008.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\NinjaFemaleRight\Throw__009.png">
+      <Filter>Data\Forms\Sources\Ninja Female\Right</Filter>
+    </Image>
+    <Image Include="forms\Food\0.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\1.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\2.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\3.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\4.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\5.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\6.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\7.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\8.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\9.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\10.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\11.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\12.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\13.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\14.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\15.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\16.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\17.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\18.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\19.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\20.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\21.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\22.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\23.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\24.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\25.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\26.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\27.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\28.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\29.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\30.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\31.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\32.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\33.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\34.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\35.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\36.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\37.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\38.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\39.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\40.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\41.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\42.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\43.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\44.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\45.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\46.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\47.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\48.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\49.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\50.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\51.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\52.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\53.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\54.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\55.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\56.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\57.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\58.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\59.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\60.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\61.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Food\62.png">
+      <Filter>Data\Forms\Sources\Food</Filter>
+    </Image>
+    <Image Include="forms\Things\Arrow.png">
+      <Filter>Data\Forms\Sources\Things</Filter>
+    </Image>
+    <Image Include="forms\Things\Bomb.png">
+      <Filter>Data\Forms\Sources\Things</Filter>
+    </Image>
+    <Image Include="forms\Things\Coin.png">
+      <Filter>Data\Forms\Sources\Things</Filter>
+    </Image>
+    <Image Include="forms\Things\Heart.png">
+      <Filter>Data\Forms\Sources\Things</Filter>
+    </Image>
+    <Image Include="forms\Things\Paper.png">
+      <Filter>Data\Forms\Sources\Things</Filter>
+    </Image>
+    <Image Include="forms\Things\Question.png">
+      <Filter>Data\Forms\Sources\Things</Filter>
+    </Image>
+    <Image Include="forms\Things\Start.png">
+      <Filter>Data\Forms\Sources\Things</Filter>
+    </Image>
+    <Image Include="forms\Things\Thunder.png">
+      <Filter>Data\Forms\Sources\Things</Filter>
+    </Image>
+    <Image Include="maps\Base.png">
+      <Filter>Data\Maps</Filter>
+    </Image>
+    <Image Include="maps\Ladder.png">
+      <Filter>Data\Maps</Filter>
+    </Image>
+    <Image Include="maps\Location.png">
+      <Filter>Data\Maps</Filter>
+    </Image>
+    <Image Include="maps\MarioFlags.png">
+      <Filter>Data\Maps</Filter>
+    </Image>
+    <Image Include="maps\Notification.png">
+      <Filter>Data\Maps</Filter>
+    </Image>
+    <Image Include="maps\Solid.png">
+      <Filter>Data\Maps</Filter>
+    </Image>
+    <Image Include="maps\Water.png">
+      <Filter>Data\Maps</Filter>
+    </Image>
+    <Image Include="forms\BlankBackground.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="maps\maps\Base.png">
+      <Filter>Data\Maps\Maps</Filter>
+    </Image>
+    <Image Include="maps\maps\Full.png">
+      <Filter>Data\Maps\Maps</Filter>
+    </Image>
+    <Image Include="maps\maps\Ladder.png">
+      <Filter>Data\Maps\Maps</Filter>
+    </Image>
+    <Image Include="maps\maps\Location.png">
+      <Filter>Data\Maps\Maps</Filter>
+    </Image>
+    <Image Include="maps\maps\MarioFlags.png">
+      <Filter>Data\Maps\Maps</Filter>
+    </Image>
+    <Image Include="maps\maps\Notification.png">
+      <Filter>Data\Maps\Maps</Filter>
+    </Image>
+    <Image Include="maps\maps\Solid.png">
+      <Filter>Data\Maps\Maps</Filter>
+    </Image>
+    <Image Include="maps\maps\Water.png">
+      <Filter>Data\Maps\Maps</Filter>
+    </Image>
+    <Image Include="maps\maps\w0.png">
+      <Filter>Data\Maps\Sources\Water</Filter>
+    </Image>
+    <Image Include="maps\maps\w1.png">
+      <Filter>Data\Maps\Sources\Water</Filter>
+    </Image>
+    <Image Include="maps\maps\w2.png">
+      <Filter>Data\Maps\Sources\Water</Filter>
+    </Image>
+    <Image Include="maps\maps\w3.png">
+      <Filter>Data\Maps\Sources\Water</Filter>
+    </Image>
+    <Image Include="maps\maps\w4.png">
+      <Filter>Data\Maps\Sources\Water</Filter>
+    </Image>
+    <Image Include="maps\maps\w5.png">
+      <Filter>Data\Maps\Sources\Water</Filter>
+    </Image>
+    <Image Include="maps\maps\w6.png">
+      <Filter>Data\Maps\Sources\Water</Filter>
+    </Image>
+    <Image Include="maps\maps\w7.png">
+      <Filter>Data\Maps\Sources\Water</Filter>
+    </Image>
+    <Image Include="maps\maps\w8.png">
+      <Filter>Data\Maps\Sources\Water</Filter>
+    </Image>
+    <Image Include="maps\maps\w9.png">
+      <Filter>Data\Maps\Sources\Water</Filter>
+    </Image>
+    <Image Include="maps\maps\w10.png">
+      <Filter>Data\Maps\Sources\Water</Filter>
+    </Image>
+    <Image Include="maps\maps\w11.png">
+      <Filter>Data\Maps\Sources\Water</Filter>
+    </Image>
+    <Image Include="maps\maps\w12.png">
+      <Filter>Data\Maps\Sources\Water</Filter>
+    </Image>
+    <Image Include="maps\maps\w13.png">
+      <Filter>Data\Maps\Sources\Water</Filter>
+    </Image>
+    <Image Include="maps\maps\w14.png">
+      <Filter>Data\Maps\Sources\Water</Filter>
+    </Image>
+    <Image Include="maps\maps\w15.png">
+      <Filter>Data\Maps\Sources\Water</Filter>
+    </Image>
+    <Image Include="maps\maps\w16.png">
+      <Filter>Data\Maps\Sources\Water</Filter>
+    </Image>
+    <Image Include="maps\maps\w17.png">
+      <Filter>Data\Maps\Sources\Water</Filter>
+    </Image>
+    <Image Include="maps\maps\w18.png">
+      <Filter>Data\Maps\Sources\Water</Filter>
+    </Image>
+    <Image Include="maps\maps\w19.png">
+      <Filter>Data\Maps\Sources\Water</Filter>
+    </Image>
+    <Image Include="maps\maps\w20.png">
+      <Filter>Data\Maps\Sources\Water</Filter>
+    </Image>
+    <Image Include="maps\maps\w21.png">
+      <Filter>Data\Maps\Sources\Water</Filter>
+    </Image>
+    <Image Include="maps\maps\w22.png">
+      <Filter>Data\Maps\Sources\Water</Filter>
+    </Image>
+    <Image Include="maps\maps\w23.png">
+      <Filter>Data\Maps\Sources\Water</Filter>
+    </Image>
+    <Image Include="maps\maps\w24.png">
+      <Filter>Data\Maps\Sources\Water</Filter>
+    </Image>
+    <Image Include="maps\maps\1.png">
+      <Filter>Data\Maps\Sources\Base</Filter>
+    </Image>
+    <Image Include="maps\maps\2.png">
+      <Filter>Data\Maps\Sources\Base</Filter>
+    </Image>
+    <Image Include="maps\maps\3.png">
+      <Filter>Data\Maps\Sources\Base</Filter>
+    </Image>
+    <Image Include="maps\maps\4.png">
+      <Filter>Data\Maps\Sources\Base</Filter>
+    </Image>
+    <Image Include="maps\maps\5.png">
+      <Filter>Data\Maps\Sources\Base</Filter>
+    </Image>
+    <Image Include="maps\maps\6.png">
+      <Filter>Data\Maps\Sources\Base</Filter>
+    </Image>
+    <Image Include="maps\maps\7.png">
+      <Filter>Data\Maps\Sources\Base</Filter>
+    </Image>
+    <Image Include="maps\maps\8.png">
+      <Filter>Data\Maps\Sources\Base</Filter>
+    </Image>
+    <Image Include="maps\maps\9.png">
+      <Filter>Data\Maps\Sources\Base</Filter>
+    </Image>
+    <Image Include="maps\maps\10.png">
+      <Filter>Data\Maps\Sources\Base</Filter>
+    </Image>
+    <Image Include="maps\maps\11.png">
+      <Filter>Data\Maps\Sources\Base</Filter>
+    </Image>
+    <Image Include="maps\maps\12.png">
+      <Filter>Data\Maps\Sources\Base</Filter>
+    </Image>
+    <Image Include="maps\maps\13.png">
+      <Filter>Data\Maps\Sources\Base</Filter>
+    </Image>
+    <Image Include="maps\maps\14.png">
+      <Filter>Data\Maps\Sources\Base</Filter>
+    </Image>
+    <Image Include="maps\maps\15.png">
+      <Filter>Data\Maps\Sources\Base</Filter>
+    </Image>
+    <Image Include="maps\maps\16.png">
+      <Filter>Data\Maps\Sources\Base</Filter>
+    </Image>
+    <Image Include="maps\maps\17.png">
+      <Filter>Data\Maps\Sources\Base</Filter>
+    </Image>
+    <Image Include="maps\maps\18.png">
+      <Filter>Data\Maps\Sources\Base</Filter>
+    </Image>
+    <Image Include="maps\maps\19.png">
+      <Filter>Data\Maps\Sources\Base</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="sounds\bees.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\birds.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\citymusic.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\darkforestmusic.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\dessertmusic.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\die.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\endmusic.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\goalreached.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\halloffamemusic.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\importantevent.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\instructionsmusic.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\intromusic.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\landscapemusic.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\mountainsmusic.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\playerdies.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\playerwins.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\scenemusic.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\templemusic.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\trainingmusic.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\bees.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\birds.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\citymusic.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\darkforestmusic.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\dessertmusic.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\die.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\endmusic.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\goalreached.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\halloffamemusic.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\importantevent.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\instructionsmusic.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\intromusic.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\landscapemusic.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\mountainsmusic.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\playerdies.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\playerwins.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\scenemusic.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\templemusic.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\trainingmusic.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

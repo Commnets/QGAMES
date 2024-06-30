@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:ccbb34007a63b99e383e5496f7638b10:7f8d0acab22149a7c262829f9c06bf84:4d33fcc3fab0611fdf58fe424dc717a4$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="shootingball" file="./forms/shootingball.png" width="800" height="40"
+		fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="?">
+		<Frame id="tile000" fPosX="0" fPosY="0" fWidth="40" fHeight="40" xoffset="0" yoffset="0" width="40" height="40"/>
+		<Frame id="tile001" fPosX="40" fPosY="0" fWidth="40" fHeight="40" xoffset="0" yoffset="0" width="40" height="40"/>
+		<Frame id="tile002" fPosX="80" fPosY="0" fWidth="40" fHeight="40" xoffset="0" yoffset="0" width="40" height="40"/>
+		<Frame id="tile003" fPosX="120" fPosY="0" fWidth="40" fHeight="40" xoffset="0" yoffset="0" width="40" height="40"/>
+		<Frame id="tile004" fPosX="160" fPosY="0" fWidth="40" fHeight="40" xoffset="0" yoffset="0" width="40" height="40"/>
+		<Frame id="tile005" fPosX="200" fPosY="0" fWidth="40" fHeight="40" xoffset="0" yoffset="0" width="40" height="40"/>
+		<Frame id="tile006" fPosX="240" fPosY="0" fWidth="40" fHeight="40" xoffset="0" yoffset="0" width="40" height="40"/>
+		<Frame id="tile007" fPosX="280" fPosY="0" fWidth="40" fHeight="40" xoffset="0" yoffset="0" width="40" height="40"/>
+		<Frame id="tile008" fPosX="320" fPosY="0" fWidth="40" fHeight="40" xoffset="0" yoffset="0" width="40" height="40"/>
+		<Frame id="tile009" fPosX="360" fPosY="0" fWidth="40" fHeight="40" xoffset="0" yoffset="0" width="40" height="40"/>
+		<Frame id="tile010" fPosX="400" fPosY="0" fWidth="40" fHeight="40" xoffset="0" yoffset="0" width="40" height="40"/>
+		<Frame id="tile011" fPosX="440" fPosY="0" fWidth="40" fHeight="40" xoffset="0" yoffset="0" width="40" height="40"/>
+		<Frame id="tile012" fPosX="480" fPosY="0" fWidth="40" fHeight="40" xoffset="0" yoffset="0" width="40" height="40"/>
+		<Frame id="tile013" fPosX="520" fPosY="0" fWidth="40" fHeight="40" xoffset="0" yoffset="0" width="40" height="40"/>
+		<Frame id="tile014" fPosX="560" fPosY="0" fWidth="40" fHeight="40" xoffset="0" yoffset="0" width="40" height="40"/>
+		<Frame id="tile015" fPosX="600" fPosY="0" fWidth="40" fHeight="40" xoffset="0" yoffset="0" width="40" height="40"/>
+		<Frame id="tile016" fPosX="640" fPosY="0" fWidth="40" fHeight="40" xoffset="0" yoffset="0" width="40" height="40"/>
+		<Frame id="tile017" fPosX="680" fPosY="0" fWidth="40" fHeight="40" xoffset="0" yoffset="0" width="40" height="40"/>
+		<Frame id="tile018" fPosX="720" fPosY="0" fWidth="40" fHeight="40" xoffset="0" yoffset="0" width="40" height="40"/>
+		<Frame id="tile019" fPosX="760" fPosY="0" fWidth="40" fHeight="40" xoffset="0" yoffset="0" width="40" height="40"/>
+    </Form>
+</CommtyExporter>

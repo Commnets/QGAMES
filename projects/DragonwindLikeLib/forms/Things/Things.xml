@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:8e2299396ed3f90937ba0271331c6e5b:c7a3488a628a1f1c7155c0e040b2e5dd:495ae63b2f322d7b2bde73eb7aeab9a5$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="Things" file="./forms/Things.png" width="126" height="126"
+		fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="?">
+		<Frame id="Arrow" fPosX="1" fPosY="1" fWidth="80" fHeight="24" xoffset="1" yoffset="1" width="80"/>
+		<Frame id="Bomb" fPosX="79" fPosY="40" fWidth="46" fHeight="40" xoffset="2" yoffset="2" width="46"/>
+		<Frame id="Coin" fPosX="87" fPosY="82" fWidth="38" fHeight="38" xoffset="1" yoffset="1" width="38"/>
+		<Frame id="Heart" fPosX="83" fPosY="1" fWidth="40" fHeight="37" xoffset="1" yoffset="2" width="40"/>
+		<Frame id="Paper" fPosX="1" fPosY="81" fWidth="46" fHeight="44" xoffset="1" yoffset="1" width="46"/>
+		<Frame id="Question" fPosX="56" fPosY="27" fWidth="21" fHeight="40" xoffset="0" yoffset="0" width="21"/>
+		<Frame id="Start" fPosX="1" fPosY="27" fWidth="53" fHeight="52" xoffset="1" yoffset="1" width="53"/>
+		<Frame id="Thunder" fPosX="49" fPosY="82" fWidth="36" fHeight="42" xoffset="1" yoffset="1" width="36"/>
+    </Form>
+</CommtyExporter>

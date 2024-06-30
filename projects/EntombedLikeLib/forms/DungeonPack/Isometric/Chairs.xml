@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:a9b9ac353d75997f0fb3b4151ca7a389:dc8c688e69742c1b24d772ffd8cb7f15:c91ef8ab653dd235a4204d9237eb75f6$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="Chairs" file="./forms/Chairs.png" width="256" height="1512"
+		fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="?">
+		<Frame id="chair_E" fPosX="192" fPosY="1182" fWidth="64" fHeight="76" xoffset="85" yoffset="383" width="64"/>
+		<Frame id="chair_N" fPosX="192" fPosY="1258" fWidth="64" fHeight="69" xoffset="85" yoffset="390" width="64"/>
+		<Frame id="chair_S" fPosX="185" fPosY="1327" fWidth="53" fHeight="76" xoffset="96" yoffset="383" width="53"/>
+		<Frame id="chair_W" fPosX="0" fPosY="1443" fWidth="53" fHeight="69" xoffset="96" yoffset="390" width="53"/>
+		<Frame id="chestClosed_E" fPosX="89" fPosY="1357" fWidth="83" fHeight="70" xoffset="80" yoffset="396" width="83"/>
+		<Frame id="chestClosed_N" fPosX="172" fPosY="1403" fWidth="83" fHeight="70" xoffset="80" yoffset="396" width="83"/>
+		<Frame id="chestClosed_S" fPosX="0" fPosY="1373" fWidth="83" fHeight="70" xoffset="80" yoffset="396" width="83"/>
+		<Frame id="chestClosed_W" fPosX="83" fPosY="1427" fWidth="82" fHeight="70" xoffset="81" yoffset="396" width="82"/>
+		<Frame id="chestOpen_E" fPosX="138" fPosY="0" fWidth="99" fHeight="97" xoffset="64" yoffset="369" width="99"/>
+		<Frame id="chestOpen_N" fPosX="138" fPosY="97" fWidth="99" fHeight="80" xoffset="64" yoffset="386" width="99"/>
+		<Frame id="chestOpen_S" fPosX="95" fPosY="1260" fWidth="90" fHeight="97" xoffset="80" yoffset="369" width="90"/>
+		<Frame id="chestOpen_W" fPosX="0" fPosY="1293" fWidth="89" fHeight="80" xoffset="81" yoffset="386" width="89"/>
+		<Frame id="tableChairsBroken_E" fPosX="0" fPosY="405" fWidth="132" fHeight="102" xoffset="60" yoffset="378" width="132"/>
+		<Frame id="tableChairsBroken_N" fPosX="0" fPosY="507" fWidth="131" fHeight="108" xoffset="61" yoffset="366" width="131"/>
+		<Frame id="tableChairsBroken_S" fPosX="0" fPosY="315" fWidth="135" fHeight="90" xoffset="48" yoffset="390" width="135"/>
+		<Frame id="tableChairsBroken_W" fPosX="0" fPosY="108" fWidth="138" fHeight="98" xoffset="49" yoffset="377" width="138"/>
+		<Frame id="tableRound_E" fPosX="96" fPosY="1182" fWidth="96" fHeight="78" xoffset="73" yoffset="387" width="96"/>
+		<Frame id="tableRound_N" fPosX="0" fPosY="1214" fWidth="95" fHeight="79" xoffset="74" yoffset="386" width="95"/>
+		<Frame id="tableRound_S" fPosX="0" fPosY="1135" fWidth="96" fHeight="79" xoffset="70" yoffset="387" width="96"/>
+		<Frame id="tableRound_W" fPosX="138" fPosY="177" fWidth="96" fHeight="80" xoffset="71" yoffset="385" width="96"/>
+		<Frame id="tableRoundChairs_E" fPosX="0" fPosY="615" fWidth="129" fHeight="109" xoffset="56" yoffset="367" width="129"/>
+		<Frame id="tableRoundChairs_N" fPosX="0" fPosY="832" fWidth="127" fHeight="108" xoffset="54" yoffset="365" width="127"/>
+		<Frame id="tableRoundChairs_S" fPosX="127" fPosY="878" fWidth="127" fHeight="108" xoffset="53" yoffset="369" width="127"/>
+		<Frame id="tableRoundChairs_W" fPosX="0" fPosY="724" fWidth="128" fHeight="108" xoffset="49" yoffset="367" width="128"/>
+		<Frame id="tableRoundItemsChairs_E" fPosX="0" fPosY="0" fWidth="138" fHeight="108" xoffset="47" yoffset="367" width="138"/>
+		<Frame id="tableRoundItemsChairs_N" fPosX="129" fPosY="652" fWidth="127" fHeight="113" xoffset="53" yoffset="365" width="127"/>
+		<Frame id="tableRoundItemsChairs_S" fPosX="128" fPosY="765" fWidth="127" fHeight="113" xoffset="54" yoffset="364" width="127"/>
+		<Frame id="tableRoundItemsChairs_W" fPosX="0" fPosY="206" fWidth="137" fHeight="109" xoffset="50" yoffset="367" width="137"/>
+		<Frame id="tableShort_E" fPosX="120" fPosY="1092" fWidth="119" fHeight="90" xoffset="62" yoffset="379" width="119"/>
+		<Frame id="tableShort_N" fPosX="0" fPosY="1046" fWidth="120" fHeight="89" xoffset="59" yoffset="378" width="120"/>
+		<Frame id="tableShort_S" fPosX="135" fPosY="348" fWidth="120" fHeight="91" xoffset="60" yoffset="380" width="120"/>
+		<Frame id="tableShort_W" fPosX="137" fPosY="257" fWidth="119" fHeight="91" xoffset="58" yoffset="379" width="119"/>
+		<Frame id="tableShortChairs_E" fPosX="0" fPosY="940" fWidth="125" fHeight="106" xoffset="55" yoffset="368" width="125"/>
+		<Frame id="tableShortChairs_N" fPosX="132" fPosY="439" fWidth="123" fHeight="106" xoffset="55" yoffset="368" width="123"/>
+		<Frame id="tableShortChairs_S" fPosX="131" fPosY="545" fWidth="125" fHeight="107" xoffset="56" yoffset="368" width="125"/>
+		<Frame id="tableShortChairs_W" fPosX="125" fPosY="986" fWidth="123" fHeight="106" xoffset="56" yoffset="368" width="123"/>
+    </Form>
+</CommtyExporter>

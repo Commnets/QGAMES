@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:b256265836343a5428a426bbdc66d670:74a8495c90fe8c4932a54a4eb1b96567:5c6302be8b767e6c1375e2241888633f$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="Solid" file="./forms/Solid.png" width="201" height="26"
+		fSpacing="1" fMargin="1" fWidth="1" fHeight="1" aColor="255" nFrames="?">
+		<Frame id="4" fPosX="1" fPosY="1" fWidth="24" fHeight="24" xoffset="0" yoffset="0" width="24"/>
+		<Frame id="5" fPosX="26" fPosY="1" fWidth="24" fHeight="24" xoffset="0" yoffset="0" width="24"/>
+		<Frame id="6" fPosX="51" fPosY="1" fWidth="24" fHeight="24" xoffset="0" yoffset="0" width="24"/>
+		<Frame id="8" fPosX="76" fPosY="1" fWidth="24" fHeight="24" xoffset="0" yoffset="0" width="24"/>
+		<Frame id="9" fPosX="101" fPosY="1" fWidth="24" fHeight="24" xoffset="0" yoffset="0" width="24"/>
+		<Frame id="10" fPosX="126" fPosY="1" fWidth="24" fHeight="24" xoffset="0" yoffset="0" width="24"/>
+		<Frame id="12" fPosX="151" fPosY="1" fWidth="24" fHeight="24" xoffset="0" yoffset="0" width="24"/>
+		<Frame id="16" fPosX="176" fPosY="1" fWidth="24" fHeight="24" xoffset="0" yoffset="0" width="24"/>
+    </Form>
+</CommtyExporter>

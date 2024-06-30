@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SDLForm" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAQAAAAAAAAAAAAAAAAAAAgAAAAAAAAAEAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\SDL\sdlform.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SDL2DSpriteBuilder" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAg=</HashCode>
+      <FileName>d:\workspaces\qgames\include\sdl\sdlformbuilder.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SDLGame" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAEBAAAAAAAAEAAAAIAAAAAAAAA=</HashCode>
+      <FileName>d:\workspaces\qgames\include\sdl\sdlgame.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SDLInputHandler" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAgABAABACAAEAAAAAAAAAAAAAAIAAIAAAABA=</HashCode>
+      <FileName>d:\workspaces\qgames\include\sdl\sdlinputhandler.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SDLScreen" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABgAgAAQAgAAAAAACAIAAAAAAAADQCAIAAAQACAQAUA=</HashCode>
+      <FileName>d:\workspaces\qgames\include\sdl\sdlscreen.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SDLSound" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAIAAAAEAAAAAAAAAAAAAAAACgAAAAAEAAAgAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\SDL\sdlsound.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SDLSoundBuilder" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAEAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\SDL\sdlsoundbuilder.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Typedef Name="SDLJoysticks" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>d:\workspaces\qgames\include\sdl\sdlinputhandler.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:d12075a8b146b4680e39cf8cb10eee55:1f678252e3219e7870685502566f571a:778991eb019e8fbfab9731a904f938f0$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="Barrel" file="./forms/Barrel.png" width="200" height="900"
+		fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="?">
+		<Frame id="barrel0" fPosX="0" fPosY="0" fWidth="100" fHeight="100" xoffset="0" yoffset="0" width="100"/>
+		<Frame id="barrel1" fPosX="100" fPosY="0" fWidth="100" fHeight="100" xoffset="0" yoffset="0" width="100"/>
+		<Frame id="barrel2" fPosX="0" fPosY="100" fWidth="100" fHeight="100" xoffset="0" yoffset="0" width="100"/>
+		<Frame id="barrel3" fPosX="100" fPosY="100" fWidth="100" fHeight="100" xoffset="0" yoffset="0" width="100"/>
+		<Frame id="barrel4" fPosX="0" fPosY="200" fWidth="100" fHeight="100" xoffset="0" yoffset="0" width="100"/>
+		<Frame id="barrel5" fPosX="100" fPosY="200" fWidth="100" fHeight="100" xoffset="0" yoffset="0" width="100"/>
+		<Frame id="barrel6" fPosX="0" fPosY="300" fWidth="100" fHeight="100" xoffset="0" yoffset="0" width="100"/>
+		<Frame id="barrel7" fPosX="100" fPosY="300" fWidth="100" fHeight="100" xoffset="0" yoffset="0" width="100"/>
+		<Frame id="barrel8" fPosX="0" fPosY="400" fWidth="100" fHeight="100" xoffset="0" yoffset="0" width="100"/>
+		<Frame id="barrel9" fPosX="100" fPosY="400" fWidth="100" fHeight="100" xoffset="0" yoffset="0" width="100"/>
+		<Frame id="barrel10" fPosX="0" fPosY="500" fWidth="100" fHeight="100" xoffset="0" yoffset="0" width="100"/>
+		<Frame id="barrel11" fPosX="100" fPosY="500" fWidth="100" fHeight="100" xoffset="0" yoffset="0" width="100"/>
+		<Frame id="barrel12" fPosX="0" fPosY="600" fWidth="100" fHeight="100" xoffset="0" yoffset="0" width="100"/>
+		<Frame id="barrel13" fPosX="100" fPosY="600" fWidth="100" fHeight="100" xoffset="0" yoffset="0" width="100"/>
+		<Frame id="barrel14" fPosX="0" fPosY="700" fWidth="100" fHeight="100" xoffset="0" yoffset="0" width="100"/>
+		<Frame id="barrel15" fPosX="100" fPosY="700" fWidth="100" fHeight="100" xoffset="0" yoffset="0" width="100"/>
+		<Frame id="barrel16" fPosX="0" fPosY="800" fWidth="100" fHeight="100" xoffset="0" yoffset="0" width="100"/>
+		<Frame id="barrel17" fPosX="100" fPosY="800" fWidth="100" fHeight="100" xoffset="0" yoffset="0" width="100"/>
+    </Form>
+</CommtyExporter>

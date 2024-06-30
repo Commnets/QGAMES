@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpriteFont>
+    <InputSettings fontFamily="Ravie" fontStyle="Normal" fontSize="72" characters=" !&quot;#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~"/>
+    <GenerationSettings width="0" height="0" color="#0055aa00" padding="2" spacing="2"/>
+    <ExportSettings format="BMFont_Ascii" path="./Ravie72" retinaCopy="0"/>
+    <Effects>
+        <Effect effectType="Fill" effectEnabled="1" effectBlendMode="Normal" effectOpacity="1" fillType="Color" fillColor="#ff005aff" fillGradient="gradientStyle: Linear; angle: 45; scale: 1; stops: (position: 0, color: #ff55aa00) (position: 0.95, color: #ff55aa00) (position: 1, color: #ff000000)" fillInset="0"/>
+        <Effect effectType="Shadow" effectEnabled="1" effectBlendMode="Normal" effectOpacity="0.5" shadowColor="#ff55c8ff" shadowType="Inner" shadowAngle="45" shadowDistance="10" shadowBlur="2" shadowSize="1"/>
+        <Effect effectType="Stroke" effectEnabled="1" effectBlendMode="Normal" effectOpacity="1" strokeWidth="3" strokeColor="#ff000000" strokePosition="Inside"/>
+        <Effect effectType="Shadow" effectEnabled="1" effectBlendMode="Normal" effectOpacity="0.5" shadowColor="#ff2d2d2d" shadowType="Outer" shadowAngle="45" shadowDistance="1" shadowBlur="2" shadowSize="1"/>
+    </Effects>
+</SpriteFont>

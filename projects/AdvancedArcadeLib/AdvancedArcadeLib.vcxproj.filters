@@ -1,0 +1,666 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de código fuente">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Foundation">
+      <UniqueIdentifier>{a01bcd3e-081f-46af-ab06-4e7efa575230}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Structure">
+      <UniqueIdentifier>{169659c3-9ba1-449f-a3fe-5d4ee84d177b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Structure\Builders">
+      <UniqueIdentifier>{232b8bed-9554-459d-811c-ab8feb14bb03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Foundation">
+      <UniqueIdentifier>{31a433be-76cf-4bb6-bf27-a420da6c4024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Structure">
+      <UniqueIdentifier>{022618a3-25fd-4758-89dc-388777b37ae4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Structure\Builders">
+      <UniqueIdentifier>{b6587b59-dde6-400e-a0a0-cd7a4d9900e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Configuration">
+      <UniqueIdentifier>{2592f9f2-c83c-4779-b5f5-3a490f6386da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{44f179ae-84dc-4c09-9d13-cda65f9f8bd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Forms">
+      <UniqueIdentifier>{2d4b5c96-53e5-400e-8168-85b31557eaa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Sounds">
+      <UniqueIdentifier>{369f73d7-60ec-4ba0-99d6-e5859e863fa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Forms\Sources">
+      <UniqueIdentifier>{fef554bf-7801-4682-9a84-45e16693871d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Maps">
+      <UniqueIdentifier>{aed1eeac-7ca6-495e-b6b2-c87ca494c52d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Communications">
+      <UniqueIdentifier>{b65122d0-95fb-4979-a70b-37b8f163dc63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Communications">
+      <UniqueIdentifier>{029602a1-3a2b-40b4-9e0f-d4115932ccee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Media">
+      <UniqueIdentifier>{3fb45a5d-1d21-40d7-8060-17ea1f29a1a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Media\Builders">
+      <UniqueIdentifier>{6561620d-e47b-4a2e-a68f-fcb5976dad3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Media">
+      <UniqueIdentifier>{0c53ebda-0d70-4b33-a9a0-e685a7ff1853}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Media\Builders">
+      <UniqueIdentifier>{e5760dcc-c478-478e-968a-7eabdcf19395}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Communications\Builders">
+      <UniqueIdentifier>{1658cf93-c661-45bf-9478-393f93594bd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Communications\Builders">
+      <UniqueIdentifier>{be0caf32-60e6-416b-b916-3a1767f38efe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\AdvancedArcade\addefinitions.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AdvancedArcade\adinclude.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AdvancedArcade\adbuilders.hpp">
+      <Filter>Archivos de encabezado\Structure\Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AdvancedArcade\adenvconditions.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AdvancedArcade\adgame.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AdvancedArcade\adgamestate.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AdvancedArcade\adlayers.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AdvancedArcade\adletters.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AdvancedArcade\admaps.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AdvancedArcade\admovements.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AdvancedArcade\adscenes.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AdvancedArcade\adscoreobjects.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AdvancedArcade\adentities.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\AdvancedArcade\adfixscreenonartist.hpp">
+      <Filter>Archivos de encabezado\Media</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\adbuilders.cpp">
+      <Filter>Archivos de código fuente\Structure\Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\adenvconditions.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\adgame.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\adgamestate.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\adlayers.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\adletters.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\admaps.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\admovements.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\adscenes.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\adscoreobjects.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\adfixscreenonartist.cpp">
+      <Filter>Archivos de código fuente\Media</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="forms\BallRolling.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\BlueEnergyBar.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\bubbles1.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\bubbles2.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\cloud1.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\cloud2.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\cloud3.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\Commnets.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\CommnetsBig.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\CommnetsIcon.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\CommnetsIconLittle.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\greenball.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\GreenEnergyBar.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\NecklaceBallsRolling.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\rainbow.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\raindrop.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\redball.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\RedEnergyBar.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\SegmentRolling.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\windtrace.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\YellowEnergyBar.xcf">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\CountDown32.sfb">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\CountDown60.sfb">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\CountDown88.sfb">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\CountDown116.sfb">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\CountDown144.sfb">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\CountDown172.sfb">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\CountDown200.sfb">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\CountDown228.sfb">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\CountDown256.sfb">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\Courier10.sfb">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\Ravie12.sfb">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\Ravie24.sfb">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\Ravie36.sfb">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\Ravie72.sfb">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\ShowcardGothic24Blue.sfb">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\ShowCardGothic24Brown.sfb">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\ShowCardGothic24Green.sfb">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\ShowCardGothic24Red.sfb">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\ShowCardGothic24Yellow.sfb">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\ShowcardGothic32Blue.sfb">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\ShowCardGothic32Brown.sfb">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\ShowCardGothic32Green.sfb">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\ShowCardGothic32Red.sfb">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\ShowCardGothic32Yellow.sfb">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\ShowcardGothic36Blue.sfb">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\ShowCardGothic36Brown.sfb">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\ShowCardGothic36Green.sfb">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\ShowCardGothic36Red.sfb">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\ShowCardGothic36Yellow.sfb">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\ShowcardGothic64Blue.sfb">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\ShowcardGothic64Brown.sfb">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\ShowcardGothic64Green.sfb">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\ShowcardGothic64Red.sfb">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\ShowcardGothic64Yellow.sfb">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\ShowcardGothic72Blue.sfb">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\ShowcardGothic72Brown.sfb">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\ShowcardGothic72Green.sfb">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\ShowcardGothic72Red.sfb">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+    <None Include="forms\ShowcardGothic72Yellow.sfb">
+      <Filter>Data\Forms\Sources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="adconf.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="adentities.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="adforms.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="adgamestates.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="adguisystem.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="admaps.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="admonitor.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="admovements.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="adobjects.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="adsounds.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="adworlds.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="forms\BallRolling.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\BlueEnergyBar.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\bubbles1.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\bubbles2.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\cloud1.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\cloud2.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\cloud3.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Commnets.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\CommnetsBig.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\CommnetsIcon.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\CommnetsIconLittle.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\CountDown32.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\CountDown60.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\CountDown88.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\CountDown116.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\CountDown144.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\CountDown172.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\CountDown200.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\CountDown228.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\CountDown256.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Courier10Black.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Courier10White.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\greenball.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\GreenEnergyBar.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\NecklaceBallsRolling.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\rainbow.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\raindrop.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Ravie12Blue.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Ravie12Green.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Ravie12Orange.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Ravie24Blue.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Ravie24Green.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Ravie24Orange.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Ravie36Blue.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Ravie36Green.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Ravie36Orange.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Ravie72Blue.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Ravie72Green.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\Ravie72Orange.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\redball.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\RedEnergyBar.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\SegmentRolling.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic24Blue.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic24Brown.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic24Green.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic24Red.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic24Yellow.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic32Blue.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic32Brown.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic32Green.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic32Red.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic32Yellow.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic36Blue.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic36Brown.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic36Green.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic36Red.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic36Yellow.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic64Blue.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic64Brown.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic64Green.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic64Red.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic64Yellow.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic72Blue.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic72Brown.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic72Green.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic72Red.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ShowCardGothic72Yellow.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\windtrace.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\YellowEnergyBar.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\CommnetsIcon.ico">
+      <Filter>Data\Forms</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="sounds\beep.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\catch.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\earthquake.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\eat.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\explosion.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\gamesaved.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\hurt.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\jump.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\rain.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\throw.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\thunder.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\wick.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\wind.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\beep.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\catch.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\earthquake.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\eat.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\explosion.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\gamesaved.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\hurt.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\jump.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\rain.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\throw.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\thunder.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\wick.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\wind.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

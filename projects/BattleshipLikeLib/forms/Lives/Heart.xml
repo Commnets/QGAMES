@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:48499904d01a9c179a160333a6fe8736:b4b57f0e347c3c02802120f0f9c8e4db:3662c87222c5623e09007e114885fd82$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="Heart" file="./forms/Heart.png" width="500" height="50"
+		fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="?">
+		<Frame id="heart01" fPosX="0" fPosY="0" fWidth="50" fHeight="50" xoffset="0" yoffset="0" width="50" height="50"/>
+		<Frame id="heart02" fPosX="50" fPosY="0" fWidth="50" fHeight="50" xoffset="0" yoffset="0" width="50" height="50"/>
+		<Frame id="heart03" fPosX="100" fPosY="0" fWidth="50" fHeight="50" xoffset="0" yoffset="0" width="50" height="50"/>
+		<Frame id="heart04" fPosX="150" fPosY="0" fWidth="50" fHeight="50" xoffset="0" yoffset="0" width="50" height="50"/>
+		<Frame id="heart05" fPosX="200" fPosY="0" fWidth="50" fHeight="50" xoffset="0" yoffset="0" width="50" height="50"/>
+		<Frame id="heart06" fPosX="250" fPosY="0" fWidth="50" fHeight="50" xoffset="0" yoffset="0" width="50" height="50"/>
+		<Frame id="heart07" fPosX="300" fPosY="0" fWidth="50" fHeight="50" xoffset="0" yoffset="0" width="50" height="50"/>
+		<Frame id="heart08" fPosX="350" fPosY="0" fWidth="50" fHeight="50" xoffset="0" yoffset="0" width="50" height="50"/>
+		<Frame id="heart09" fPosX="400" fPosY="0" fWidth="50" fHeight="50" xoffset="0" yoffset="0" width="50" height="50"/>
+		<Frame id="heart10" fPosX="450" fPosY="0" fWidth="50" fHeight="50" xoffset="0" yoffset="0" width="50" height="50"/>
+    </Form>
+</CommtyExporter>

@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="QGAMES::Board" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAEAAGgABAAFAAAAAYAAACAAIFQ=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Board\board.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::BoardGame" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACEAEIAACBAACACEAEAGEEABBCJIAQFMYADAAgAIAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Board\boardgame.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::BoardBuilder" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAQAABAAAggAAAQAAAEAAAIAACIAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Board\boardbuilder.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::BasicBoardAddsOn" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAEAAAAAAQAAgACgAAAAACAgAARAAAAAAAgAARAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Board\boardbuilder.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::BoardElement" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAoAgEAAAgAAUCAAAAEAAkAABEABAAQAkIAAAABAAAM=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Board\boardelement.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::BoardGameRule" Collapsed="true">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAEAAAAAACAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Board\boardgame.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::BoardGameApplication" Collapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CIAAACACAAAAASAAAkEAAEgABAAAAAAAAYAAAAgIIAQ=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Board\boardgameapp.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::BoardGamePlayer" Collapsed="true">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAgBAAAAAAAEACCgAAACBAAAEAAAAAAAAAAQ=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Board\boardgameplayer.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::BoardResource" Collapsed="true">
+    <Position X="11.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>4IIIoACAAABAEAAAACEQCBAAgBAAAAAFAQAQAAAIAAM=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Board\boardresource.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::BoardSquare" Collapsed="true">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAoAAkAAQCAAYQAUAEBAEACUBABgAAEIAAAIAAAABA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Board\boardsquare.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Typedef Name="QGAMES::Boards" Collapsed="true">
+    <Position X="11.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Board\board.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::BoardElements" Collapsed="true">
+    <Position X="11.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Board\boardelement.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::BoardElementProperties" Collapsed="true">
+    <Position X="9.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Board\boardelement.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::BoardGameRules" Collapsed="true">
+    <Position X="9.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Board\boardgame.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::BoardGames" Collapsed="true">
+    <Position X="11.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Board\boardgame.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::BoardGamePlayers" Collapsed="true">
+    <Position X="13.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Board\boardgameplayer.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::BoardResources" Collapsed="true">
+    <Position X="9.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Board\boardresource.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::BoardResourceProperties" Collapsed="true">
+    <Position X="13.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Board\boardresource.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::BoardSquares" Collapsed="true">
+    <Position X="13.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Board\boardsquare.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

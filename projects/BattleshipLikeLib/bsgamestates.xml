@@ -1,0 +1,620 @@
+<?xml version="1.0"?>
+<GameStates>
+
+	<!-- Includes -->
+	<Include file="adgamestates.xml"/>
+	
+	<!-- The usual controlling form -->
+	<GameState id="50000" type="50101" name="Controller" main="YES">
+		<FlowConditions>
+			<FlowCondition on="100041" when="0" to="50300"/> <!-- After the game is loaded, the game is initialized -->
+			<FlowCondition on="50300" when="0" to="50003"/> <!-- After the game is initialized the logo of the owner appears -->
+			<FlowCondition on="50003" when="0" to="50004"/> <!-- After the loogo appears, then the introduction starts -->
+			<FlowCondition on="50004" when="0" to="50009"/> <!-- After introduction, the menu is shown -->
+			<FlowCondition on="50009" when="0" to="50014"/> <!-- When the play option is selected, then playing starts asking for the name of the player -->
+			<FlowCondition on="50009" when="1" to="50028"/> <!-- When the option selected is exit -->
+			<FlowCondition on="50009" when="2" to="50025"/> <!-- When the option selected is hall of fame -->
+			<FlowCondition on="50009" when="3" to="50029"/> <!-- When the option selected is instructions -->
+			<FlowCondition on="50014" when="0" to="50100"/> <!-- After asking for the name of the player, then the game starts showing the name of the wotld and scene -->
+			<FlowCondition on="50100" when="0" to="50019"/> <!-- After dieing when playing, the official label is shown -->
+			<FlowCondition on="50100" when="1" to="50100"/> <!-- After reaching a goal when playing, start back if there is more scenes to deal with -->
+			<FlowCondition on="50100" when="2" to="50009"/> <!-- After selecting (while playing) the game finishes and the menu is back -->
+			<FlowCondition on="50100" when="3" to="50400" /> <!-- After reaching a goal, there is no more scene to deal with so the player wins!! -->
+			<FlowCondition on="50019" when="0" to="50014"/> <!-- After die, the game starts back -->
+			<FlowCondition on="50019" when="1" to="50022"/> <!-- ..or the game is over -->
+			<FlowCondition on="50022" when="0" to="50025"/> <!-- After game is over, the hall of fame appears -->
+			<FlowCondition on="50025" when="0" to="50009"/> <!-- After hall of fame to menu  -->
+			<FlowCondition on="50029" when="0" to="50009"/> <!-- After the instructions the menu is back -->
+			<FlowCondition on="50400" when="0" to="50022"/> <!-- After showing that the player has won, then game over -->
+		</FlowConditions>
+		<Attributes>
+			<Attribute id="PAUSEGAMESTATE" value="50001"/> <!-- A reference to the nested state when nested -->
+		</Attributes>
+	</GameState>
+	
+	<!-- The pause game. 
+		 It is just a state showing an entity in the middle -->
+	<GameState id="50001" type="10040" name="Pause" main="YES"> <!--Type ENTITY Shown -->
+		<Attributes>
+			<Attribute id="ENTITYID" value="10000"/> <!-- The entity used when pause -->
+			<Attribute id="FADE" value="255"/>
+			<Attribute id="CONTROLPOSITION" value="YES"/>
+			<Attribute id="LOOPSPERFADECHANGE" value="3"/>
+			<Attribute id="POSITION" value="0.5,0.5,0"/>
+			<Attribute id="POSREFERENCE" value="0"/> 
+		</Attributes>
+	</GameState>
+	
+	<!-- A message about loading -->
+	<GameState id="100041" type="10007" name="0Loading message" main="YES"> 
+		<Attributes>
+			<Attribute id="TEXT" value="Loading"/>
+			<Attribute id="FONT" value="20020"/>
+			<Attribute id="FADE" value="150"/>
+			<Attribute id="ELAPSEDCYCLES" value="1"/>
+			<Attribute id="NUMBERFADECHANGES" value="21"/>
+			<Attribute id="FADESTEP" value="5"/>
+			<Attribute id="POSITION" value="0.5,0.5,0"/>
+			<Attribute id="POSREFERENCE" value="0"/> <!-- Meaning Center -->
+			<Attribute id="ORIENTATION" value="1,0,0"/>
+		</Attributes>
+		<Nested>
+			<!-- To load the game.
+				 One of the houses used as background in many scenes full filled little by little -->
+			<GameState id="50002" type="10050" name="0Loading" main="YES"> <!-- Type LOADING -->
+				<Attributes>
+					<Attribute id="FORMID" value="50600"/> <!-- The big red planet -->
+					<Attribute id="FADE" value="255"/>
+					<Attribute id="POSITION" value="0.5,0.5,0"/>
+					<Attribute id="POSREFERENCE" value="0"/> 
+					<Attribute id="REVERSE" value="NO"/>
+					<Attribute id="HORIZONTAL" value="YES"/>
+				</Attributes>
+			</GameState>
+		</Nested>
+	</GameState>
+	
+	<!-- To initialize the game -->
+	<GameState id="50300" type="50102" name="1Initializing" main="YES"/> <!-- Type INITIALIZING -->
+	
+	<!-- To present the game.
+		 Just the commty logo comming to live little by little -->
+	<GameState id="50003" type="10030" name="2CommtyLogo" main="YES"> <!-- Type FORM Shown -->
+		<Attributes>
+			<Attribute id="FORMID" value="10002"/> <!-- The Big CommtyLogo -->
+			<Attribute id="INITIALFADE" value="0"/>
+			<Attribute id="FINALFADE" value="255"/>
+			<Attribute id="FADEINCREMENT" value="5"/>
+			<Attribute id="LOOPSPERFADECHANGE" value="2"/>
+			<Attribute id="POSITION" value="0.5,0.5,0"/> <!-- In the middle -->
+			<Attribute id="POSREFERENCE" value="0"/> <!-- Reference to the center -->
+		</Attributes>
+	</GameState>
+	
+	<!-- To introduce the game.
+		 A set of titles appearing in the middle of the screen, 
+		 with a background made of rolling entities 
+		 The state can be stopped clicking any key -->
+	<GameState id="50004" type="10001" name="3Introducing The Game" main="YES"> <!-- Type UNTIL KEY PRESSED -->
+		<Nested>
+			<!-- A little commtynets logo is shown is the left down corner -->
+			<GameState id="500041" type="10020" name="Little Commty Logo" main="NO"> <!-- Type FIX FORM Shown -->
+				<Attributes>
+					<Attribute id="FORMID" value="10001"/> <!-- The Little CommtyLogo -->
+					<Attribute id="FADE" value="255"/>
+					<Attribute id="POSITION" value="0.01,0.925,0"/> <!-- In the left side -->
+					<Attribute id="POSREFERENCE" value="1"/> <!-- Reference to the left up corner -->
+				</Attributes>
+				<Nested>
+					<!-- The titles appears -->
+					<GameState id="50005" type="50090" name="Introducing Titles" main="NO"> <!-- Type CREDIT TITLES -->
+						<Titles>
+							<Title value=""/>
+							<Title value="Community Networks       Presents"/>
+							<Title value="A new fun production"/>
+							<Title value="Space                    Battleship"/>
+							<Title value="by Ignacio Cea"/>
+							<Title value="From his laboratories"/>
+							<Title value="using many Internet's    resources"/>
+							<Title value="combined for you in      this new adventure"/>
+							<Title value="Press any key to menu"/>
+						</Titles>
+						<Attributes>
+							<Attribute id="NUMBERTITLE" value="3"/>
+							<Attribute id="CONTENTTITLE" value="Battleship"/>
+							<Attribute id="MAXLETTERSPERTITLE" value="25"/>
+							<Attribute id="POSITION" value="0.5,0.5,0"/> <!-- In the middle -->
+							<Attribute id="POSREFERENCE" value="0"/> 
+							<Attribute id="SECONDSONSCREEN" value="3"/>
+							<Attribute id="FONT" value="20032"/> <!-- Ravie 36 Orange -->
+						</Attributes>
+						<Nested>
+							<!-- A fixed form with the form of the battleship
+								 The form will be visible only when the title on the screen is the name of the game 
+								This is something that the previous game state controls -->
+							<GameState id="50006" type="10020" name="Game Logo" main="NO"> <!-- Type FIXED FORM -->
+								<Attributes>
+									<Attribute id = "FORMID" value = "50004"/>
+									<Attribute id = "FADE" value = "255"/>
+									<Attribute id = "POSITION" value = "0.5,0.5,0"/>
+									<Attribute id = "POSREFERENCE" value = "0"/>
+								</Attributes>
+								<Nested>
+									<!-- A roolling background appears, under the titles -->
+									<GameState id="50007" type="10080" name="Rolling Background" main="NO"> <!-- Type ROLLING FORMS -->
+										<Attributes>
+											<Attribute id="FORMS" value="50701,50700,50702,50703,50704"/>
+											<Attribute id="DELAY" value="1"/>
+											<Attribute id="SECONDSONSCREEN" value="3"/>
+											<Attribute id="DIRECTION" value="1,0,0"/>
+											<Attribute id="INSTANCES" value="3"/>
+											<Attribute id="SEQUENTIAL" value="FALSE"/>
+										</Attributes>
+										<Nested>
+											<!-- An a sound plays in the background -->
+											<GameState id="50008" type="10010" name="Rooling Sound" main="NO"> <!-- Type SOUND -->
+												<Attributes>
+													<Attribute id="SOUNDID" value="50004"/>
+													<Attribute id="CHANNELID" value="0"/> <!-- Game Background -->
+												</Attributes>
+											</GameState>
+										</Nested>
+									</GameState>
+								</Nested>
+							</GameState>
+						</Nested>
+					</GameState>
+				</Nested>
+			</GameState>
+		</Nested>
+	</GameState>
+	
+	<!-- The main menu of the game -->
+	<GameState id="50009" type="50100" name="4Menu" main="YES"> <!-- Type BATTELSHIP MENU -->
+		<Nested>
+			<!-- The battleship -->
+			<GameState id="50010" type="50103" name="Battleship Moving" main="NO"> <!-- Type BATTLESHIP Moving -->
+				<Nested>
+					<!-- A little commtynets logo is shown is the right up corner -->
+					<GameState id="500091" type="10020" name="Little Commty Logo" main="NO"> <!-- Type FIX FORM Shown -->
+						<Attributes>
+							<Attribute id="FORMID" value="10001"/> <!-- The Little CommtyLogo -->
+							<Attribute id="FADE" value="255"/>
+							<Attribute id="POSITION" value="0.99,0.07,0"/> <!-- In the left side -->
+							<Attribute id="POSREFERENCE" value="2"/> <!-- Reference to the right bottom -->
+						</Attributes>
+						<Nested>
+							<!-- A rolling background under the menu -->
+							<GameState id="50012" type="10080" name="Rolling Menu Background" main="NO"> <!-- Type ROLLING FORMS -->
+								<Attributes>
+									<Attribute id="FORMS" value="50500"/>
+									<Attribute id="DELAY" value="1"/>
+									<Attribute id="SECONDSONSCREEN" value="10000"/>
+									<Attribute id="DIRECTION" value="0,-1,0"/>
+									<Attribute id="INSTANCES" value="3"/>
+									<Attribute id="SEQUENTIAL" value="FALSE"/>
+								</Attributes>
+								<Nested>
+									<!-- A sound in the background -->
+									<GameState id="50013" type="10010" name="Menu Sound" main="NO"> <!-- Type SOUND -->
+										<Attributes>
+											<Attribute id="SOUNDID" value="50003"/>
+											<Attribute id="CHANNELID" value="0"/> <!-- Game Background -->
+										</Attributes>
+									</GameState>
+								</Nested>
+							</GameState>
+						</Nested>
+					</GameState>
+				</Nested>
+			</GameState>
+		</Nested>
+	</GameState>
+	
+	<!-- Asking for the name of the player, if it is needed -->
+	<GameState id="50014" type="10006" name="5Player Info" main="YES"> <!-- Type WAIT UNLESS KEY -->
+		<Attributes>
+			<Attribute id="TIME" value="4"/> <!-- Two seconds -->
+		</Attributes>
+		<Nested>
+			<!-- A message to point the number of the player -->
+			<GameState id="50015" type="10004" name="Player Number" main="NO"> <!-- Type PLAYER NUMBER Shown -->
+				<Attributes>
+					<Attribute id="TEXT" value="Player"/> <!-- This text is completed with a number after -->
+					<Attribute id="FONT" value="20030"/>
+					<Attribute id="FADE" value="255"/>
+					<Attribute id="POSITION" value="0.5,0.45,0"/>
+					<Attribute id="POSREFERENCE" value="0"/> <!-- Meaning Center -->
+					<Attribute id="ORIENTATION" value="1,0,0"/>
+				</Attributes>
+				<Nested>
+					<!-- This state will be shown only when the name has been already introduced -->
+					<GameState id="50016" type="50000" name="Player Name" main="NO"> <!-- Type PLAYER NAME (Shown or ask for) Shown -->
+						<Attributes>
+							<Attribute id="TEXT" value=""/> <!-- This text is completed with the name after -->
+							<Attribute id="FONT" value="20030"/>
+							<Attribute id="FADE" value="255"/>
+							<Attribute id="POSITION" value="0.5,0.55,0"/> <!-- A little bit under the previous one -->
+							<Attribute id="POSREFERENCE" value="0"/> <!-- Meaning Center -->
+							<Attribute id="ORIENTATION" value="1,0,0"/>
+						</Attributes>
+						<Nested>
+							<GameState id="50017" type="10020" name="Background Planet" main="NO"> <!-- Type FIXED FORM -->
+								<Attributes>
+									<Attribute id="FORMID" value="50600"/>
+									<Attribute id="FADE" value="255"/>
+									<Attribute id="POSITION" value="0.5,0.5,0"/>
+									<Attribute id="POSREFERENCE" value="0"/>
+								</Attributes>
+							</GameState>
+						</Nested>
+					</GameState>
+				</Nested>
+			</GameState>
+		</Nested>
+	</GameState>
+	
+	<!-- When the player has dies but the game has to restart back 
+		 because there are still lives enough to continue 
+		The main state waits until a key is pressed -->
+	<GameState id="50019" type="10002" name="6Die" main="YES"> <!-- Type WAIT OR UNTIL KEY Pressed -->
+		<Attributes>
+			<Attribute id="TIME" value="3"/> <!-- Seconds with no key iteraction -->
+		</Attributes>
+		<Nested>
+			<!-- A message to point the player has died -->
+			<GameState id="50020" type="10003" name="Died Message" main="NO"> <!-- Type TEXT Shown -->
+				<Attributes>
+					<Attribute id="TEXT" value="Player has died"/>
+					<Attribute id="FONT" value="20030"/>
+					<Attribute id="FADE" value="255"/>
+					<Attribute id="POSITION" value="0.5,0.5,0"/>
+					<Attribute id="POSREFERENCE" value="0"/> <!-- Meaning Center -->
+					<Attribute id="ORIENTATION" value="1,0,0"/>
+				</Attributes>
+				<Nested>
+					<!-- A sound in the background -->
+					<GameState id="50021" type="10010" name="Died Sound" main="NO"> <!-- Type SOUND -->
+						<Attributes>
+							<Attribute id="SOUNDID" value="50019"/>
+							<Attribute id="CHANNELID" value="0"/> <!-- Game Background -->
+						</Attributes>
+					</GameState>
+				</Nested>
+			</GameState>
+		</Nested>
+	</GameState>
+	
+	<!-- The game has finished 
+		 The main state waits until a key is pressed -->
+	<GameState id="50022" type="10002" name="7Gameover" main="YES"> <!-- Type WAIT OR UNTIL KEY Pressed -->
+		<Attributes>
+			<Attribute id="TIME" value="6"/> <!-- 6 seconds waiting -->
+		</Attributes>
+		<Nested>
+			<!-- A message to point the game is over -->
+			<GameState id="50023" type="10003" name="Gameover Message" main="NO"> <!-- Type TEXT Shown -->
+				<Attributes>
+					<Attribute id="TEXT" value="Gameover"/>
+					<Attribute id="FONT" value="20041"/>
+					<Attribute id="FADE" value="255"/>
+					<Attribute id="POSITION" value="0.5,0.5,0"/>
+					<Attribute id="POSREFERENCE" value="0"/> <!-- Meaning Center -->
+					<Attribute id="ORIENTATION" value="1,0,0"/>
+				</Attributes>
+				<Nested>
+					<!-- The logo sun in the middle -->
+					<GameState id="500220" type="10020" name="Gameover background logo" main="NO"> <!-- Type FIX FORM Shown -->
+						<Attributes>
+							<Attribute id="FORMID" value="50602"/> <!-- The temple -->
+							<Attribute id="FADE" value="255"/>
+							<Attribute id="POSITION" value="0.5,0.5,0"/> <!-- In the middle -->
+							<Attribute id="POSREFERENCE" value="0"/> <!-- Reference to the center -->
+						</Attributes>
+						<Nested>
+							<!-- A sound in the background -->
+							<GameState id="50024" type="10010" name="Gameover Sound" main="NO"> <!-- Type SOUND -->
+								<Attributes>
+									<Attribute id="SOUNDID" value="50010"/>
+									<Attribute id="CHANNELID" value="0"/> <!-- Game Background -->
+								</Attributes>
+							</GameState>
+						</Nested>
+					</GameState>
+				</Nested>
+			</GameState>
+		</Nested>
+	</GameState>
+	
+	<!-- The player wins!! -->
+	<GameState id="50400" type="10002" name="12Player wins" main="YES">
+		<Attributes>
+			<Attribute id="TIME" value="6"/> <!-- 6 seconds waiting -->
+		</Attributes>
+		<Nested>
+			<!-- A message to point the game is over -->
+			<GameState id="50401" type="10003" name="Player wins message" main="NO"> <!-- Type TEXT Shown -->
+				<Attributes>
+					<Attribute id="TEXT" value="You won!!"/>
+					<Attribute id="FONT" value="20042"/>
+					<Attribute id="FADE" value="255"/>
+					<Attribute id="POSITION" value="0.5,0.5,0"/>
+					<Attribute id="POSREFERENCE" value="0"/> <!-- Meaning Center -->
+					<Attribute id="ORIENTATION" value="1,0,0"/>
+				</Attributes>
+				<Nested>
+					<!-- The logo sun in the middle -->
+					<GameState id="50402" type="10020" name="Player wins background logo" main="NO"> <!-- Type FIX FORM Shown -->
+						<Attributes>
+							<Attribute id="FORMID" value="50601"/> <!-- The Stone Planet -->
+							<Attribute id="FADE" value="255"/>
+							<Attribute id="POSITION" value="0.5,0.5,0"/> <!-- In the middle -->
+							<Attribute id="POSREFERENCE" value="0"/> <!-- Reference to the center -->
+						</Attributes>
+						<Nested>
+							<!-- A sound in the background -->
+							<GameState id="50403" type="10010" name="Player wins sound" main="NO"> <!-- Type SOUND -->
+								<Attributes>
+									<Attribute id="SOUNDID" value="50009"/>
+									<Attribute id="CHANNELID" value="0"/> <!-- Game Background -->
+								</Attributes>
+							</GameState>
+						</Nested>
+					</GameState>
+				</Nested>
+			</GameState>
+		</Nested>
+	</GameState>
+	
+	<!-- The hall of fame 
+		 The main state waits until a key is pressed -->
+	<GameState id="50025" type="10002" name="8Hall Of Fame" main="YES"> <!-- Type WAIT OR UNTIL KEY Pressed -->
+		<Attributes>
+			<Attribute id="TIME" value="6"/> <!-- 6 seconds waiting -->
+		</Attributes>
+		<Nested>
+			<!-- The list of players awarded -->
+			<GameState id="50026" type="50070" name="Awarded Players" main="NO"> <!--Type DRAGONWIND HALL OF FAME -->
+				<Attributes>
+					<Attribute id="FADE" value="255"/>
+					<Attribute id="POSITION" value="0,0,0"/> <!-- Left top corner -->
+					<Attribute id="SEPARATION" value="10"/>
+					<Attribute id="FONT" value="20022"/> <!-- Ravie 24 Orange -->
+				</Attributes>
+				<Nested>
+					<!-- A little commtynets logo is shown is the left down corner -->
+					<GameState id="500251" type="10020" name="Little Commty Logo" main="NO"> <!-- Type FIX FORM Shown -->
+						<Attributes>
+							<Attribute id="FORMID" value="10001"/> <!-- The Little CommtyLogo -->
+							<Attribute id="FADE" value="255"/>
+							<Attribute id="POSITION" value="0.01,0.925,0"/> <!-- In the left side -->
+							<Attribute id="POSREFERENCE" value="1"/> <!-- Reference to the left up corner -->
+						</Attributes>
+						<Nested>
+							<!-- A rolling background under the menu -->
+							<GameState id="500252" type="10080" name="Rolling Hall Of Fame Background" main="NO"> <!-- Type ROLLING FORMS -->
+								<Attributes>
+									<Attribute id="FORMS" value="50500"/>
+									<Attribute id="DELAY" value="1"/>
+									<Attribute id="SECONDSONSCREEN" value="10000"/>
+									<Attribute id="DIRECTION" value="0,-1,0"/>
+									<Attribute id="INSTANCES" value="3"/>
+									<Attribute id="SEQUENTIAL" value="FALSE"/>
+								</Attributes>
+								<Nested>
+									<!-- A sound in the background -->
+									<GameState id="50027" type="10010" name="Hall Of Fame Sound" main="NO"> <!-- Type SOUND -->
+										<Attributes>
+											<Attribute id="SOUNDID" value="50000"/>
+											<Attribute id="CHANNELID" value="0"/> <!-- Game Background -->
+										</Attributes>
+									</GameState>
+								</Nested>
+							</GameState>
+						</Nested>
+					</GameState>
+				</Nested>
+			</GameState>
+		</Nested>
+	</GameState>
+	
+	<!-- To exit the game -->
+	<GameState id="50028" type="7000" name="9Exit" main="YES"/> <!-- Type EXIT -->
+	
+	<!-- To show the instructions -->
+	<GameState id="50029" type="10001" name="10Instructions" main="YES"> <!-- Type UNTIL KEY PRESSED -->
+		<Nested>
+			<!-- The instructions shown to the player 
+				 This set of instructio ns is just an example. It should be adapted in each implementation -->
+			<GameState id="50030" type="10091" name="The Titles" main="NO"> <!-- Type INSTRUCTIONS LINES -->
+				<Instructions>
+					<Instruction line="Welcome to" type="0" font="20030" position="0.5" reference="0"/> 
+					<Instruction line="Space Battleship" type="0" font="20030" position="0.5" reference="0"/> 
+					<Instruction line=" " type="0" font="20021" position="0.5" reference="0"/> 
+					<Instruction line="The empire is taking over" type="0" font="20021" position="0.5" reference="0"/> 
+					<Instruction line="the galaxy," type="0" font="20021" position="0.5" reference="0"/> 
+					<Instruction line="and you are the only one" type="0" font="20021" position="0.5" reference="0"/> 
+					<Instruction line="able to stop them." type="0" font="20021" position="0.5" reference="0"/> 
+					<Instruction line=" " type="0" font="20021" position="0.5" reference="0"/> 
+					<Instruction line="But your forces are not too much." type="0" font="20021" position="0.5" reference="0"/> 
+					<Instruction line="You just have a simple but" type="0" font="20021" position="0.5" reference="0"/> 
+					<Instruction line="powerfull space battleship," type="0" font="20021" position="0.5" reference="0"/> 
+					<Instruction line="and the stone conviction that" type="0" font="20021" position="0.5" reference="0"/> 
+					<Instruction line="you will finally get it!" type="0" font="20021" position="0.5" reference="0"/> 
+					<Instruction line=" " type="0" font="20021" position="0.5" reference="0"/> 
+					<Instruction line="Go for and defeat them!" type="0" font="20021" position="0.5" reference="0"/> 
+					<Instruction line="Sure that they will send monsters" type="0" font="20021" position="0.5" reference="0"/> 
+					<Instruction line="and powerfull soldiers against you," type="0" font="20021" position="0.5" reference="0"/> 
+					<Instruction line="but it doesn't matter, because" type="0" font="20021" position="0.5" reference="0"/> 
+					<Instruction line="your guns will destroy all of them!" type="0" font="20021" position="0.5" reference="0"/> 
+					<Instruction line=" " type="0" font="20021" position="0.5" reference="0"/> 
+					<Instruction line="Take care also with the asteroids," type="0" font="20021" position="0.5" reference="0"/> 
+					<Instruction line="the space is plenty of them." type="0" font="20021" position="0.5" reference="0"/> 
+					<Instruction line="Get the fuel pills you come across" type="0" font="20021" position="0.5" reference="0"/> 
+					<Instruction line="to continue your fight!" type="0" font="20021" position="0.5" reference="0"/> 
+					<Instruction line=" " type="0" font="20021" position="0.5" reference="0"/> 
+					<Instruction line="Enjoy and good luck" type="0" font="20022" position="0.5" reference="0"/> 
+				</Instructions>
+				<Attributes>
+					<Attribute id="SEPARATION" value="5"/>
+					<Attribute id="VISIBLEZONE" value="0,0.15,0,1,0.85,0"/>
+					<Attribute id="FADE" value="255"/>
+					<Attribute id="MOVEMENT" value="1"/>
+					<Attribute id="TOMOVE" value="1"/>
+				</Attributes>
+				<Nested>
+					<!-- A background for the instructions -->
+					<GameState id="50031" type="10020" name="Instructions Background" main="NO"> <!-- Type FIXED FORM -->
+						<Attributes>
+							<Attribute id = "FORMID" value = "50500"/>
+							<Attribute id = "FADE" value = "255"/>
+							<Attribute id = "POSITION" value = "0,0,0"/>
+							<Attribute id = "POSREFERENCE" value = "1"/>
+						</Attributes>
+						<Nested>
+							<!-- A sound in the background -->
+							<GameState id="50032" type="10010" name="Instructions Sound" main="NO"> <!-- Type SOUND -->
+								<Attributes>
+									<Attribute id="SOUNDID" value="50002"/>
+									<Attribute id="CHANNELID" value="0"/> <!-- Game Background -->
+								</Attributes>
+							</GameState>
+						</Nested>
+					</GameState>
+				</Nested>
+			</GameState>
+		</Nested>
+	</GameState>
+	
+	<!-- The group of states related to the game playing -->
+	<!-- When Playing Game a Control Game State type is used too -->
+	<GameState id="50100" type="50080" name="11Control Playing" main="YES">
+		<FlowConditions>
+			<!-- The first state (50101) is just to determinate what to do next: 
+				 It could be just to start to play or whether to show the name of the world and sceme and counting down first -->
+			<FlowCondition on="50101" when="0" to="50102"/> <!-- After starting the game the name of the world and the scene must be shown -->
+			<FlowCondition on="50101" when="1" to="50107"/> <!-- After starting the game control is handed over the player -->
+			<FlowCondition on="50102" when="0" to="50105"/> <!-- After the name of the world and scene...counting down -->
+			<FlowCondition on="50105" when="0" to="50107"/> <!-- After counting down...the control to the player -->
+			<FlowCondition on="50107" when="0" to="50109"/> <!-- When playing stops because the artist has died, then stop a while -->
+			<FlowCondition on="50107" when="1" to="50111"/> <!-- When playing stops because the artist has reached the goal and the scene hasn't been completed before-->
+			<FlowCondition on="50107" when="3" to="50114"/> <!-- When playing stops because the artist has reached the goal but scene has been completed before -->
+			<FlowCondition on="50107" when="2" to="50200"/> <!-- When playing stops because the artist is asking for options -->
+			<FlowCondition on="50109" when="0" to="-1"/> <!-- After waiting when dieing, the control fisishes --> 
+			<FlowCondition on="50111" when="0" to="-1"/> <!-- After waiting when a goal is reached, the control finishes -->
+			<FlowCondition on="50114" when="0" to="-1"/> <!-- After entering this No game state just the control finishes -->
+			<FlowCondition on="50200" when="0" to="50107"/> <!-- After the options to continue in the game has been choseen -->
+			<FlowCondition on="50200" when="1" to="-1"/> <!-- After the options to exit the game has been choseen -->
+		</FlowConditions>
+	</GameState>
+	
+	<!-- Just a NULL Game State to launch the verification of what is next before
+		 giving the control to the player -->
+	<GameState id="50101" type="10025" name="110Decide Before Playing" main="YES"/> <!-- Type NULL -->
+	
+	<!-- To show the name of the world and the name of the scene -->
+	<GameState id="50102" type="10002" name="111World and Scene Name" main="YES"> <!-- Until TIME or KEY PRESSED -->
+		<Attributes>
+			<Attribute id="TIME" value="2.0"/> <!-- Seconds to wait if no key is pressed -->
+		</Attributes>
+		<Nested>
+			<GameState id="50103" type="50010" name="World Name" main="NO"> <!-- Type WORLD NAME -->
+				<Attributes>
+					<Attribute id="TEXT" value=""/> <!-- This text is completed with the name of the word after -->
+					<Attribute id="FONT" value="20031"/>
+					<Attribute id="FADE" value="255"/>
+					<Attribute id="POSITION" value="0.5,0.45,0"/>
+					<Attribute id="POSREFERENCE" value="0"/> <!-- Meaning Center -->
+					<Attribute id="ORIENTATION" value="1,0,0"/>
+				</Attributes>
+				<Nested>
+					<GameState id="50104" type="50011" name="Scene Name" main="NO"> <!-- Type SCENE NAME -->
+						<Attributes>
+							<Attribute id="TEXT" value=""/> <!-- This text is completed with the name of the word after -->
+							<Attribute id="FONT" value="20031"/>
+							<Attribute id="FADE" value="255"/>
+							<Attribute id="POSITION" value="0.5,0.55,0"/>
+							<Attribute id="POSREFERENCE" value="0"/> <!-- Meaning Center -->
+							<Attribute id="ORIENTATION" value="1,0,0"/>
+						</Attributes>
+						<Nested>
+						</Nested>
+					</GameState>
+				</Nested>
+			</GameState>
+		</Nested>
+	</GameState>
+	
+	<!-- To count down -->
+	<GameState id="50105" type="10001" name="112Counting Down" main="YES"> <!-- Until KEY PRESSED -->
+		<Nested>
+			<GameState id="50106" type="10060" name="Counting Down" main="NO"> <!-- Type COUNTING DOWN -->
+				<Attributes>
+					<Attribute id="FORMID" value="30010"/> <!-- The initial form. Next 9 (FRAMESPERNUMBER) will also be used -->
+					<Attribute id="BEEPSOUNDID" value="10011"/>
+					<Attribute id="FRAMESPERNUMBER" value="9"/>
+					<Attribute id="FRAMESOVERLAPPED" value="2"/>
+					<Attribute id="NUMBERS" value="3"/>
+					<Attribute id="POSITION" value="0.5,0.5,0"/> <!-- In the middle of the screen -->
+				</Attributes>
+			</GameState>
+		</Nested>
+	</GameState>
+	
+	<!-- This game state is used to play. 
+		 The controls are then managed by the user -->
+	<GameState id="50107" type="50081" name="113Just Playing" main="YES"/> <!-- Type PLAY -->
+	
+	<!-- This game state is used with the options when playing -->
+	<GameState id="50200" type="50082" name="116OOptions When Playing" main="YES"/> <!-- Type OPTIONS WHEN PLAYING -->
+	
+	<!-- This game state is used when the artist die just to wait a couple of seconds -->
+	<GameState id="50109" type="10000" name="114Wait After Dieing" main="YES"> <!-- Type WAIT -->
+		<Attributes>
+			<Attribute id="TIME" value="2.0"/> <!-- Seconds to wait -->
+		</Attributes>
+		<Nested>
+			<GameState id="50110" type="10010" name="When Dieing Sound" main="NO"> <!-- Type SOUND -->
+				<Attributes>
+					<Attribute id="SOUNDID" value="50017"/>
+					<Attribute id="CHANNELID" value="3"/> <!-- In the Background of the Scene -->
+				</Attributes>
+			</GameState>
+		</Nested>
+	</GameState>
+	
+	<!-- This game state is used when the artist reaches the limit of the current scene (the goal)
+		 It is needed to wait just for a couple of seconds while celebrating -->
+	<GameState id="50111" type="10000" name="115Wait After Reaching Goal" main="YES">
+		<Attributes>
+			<Attribute id="TIME" value="4.0"/> <!-- Seconds to wait -->
+		</Attributes>
+		<Nested>
+			<!-- A message to point that the goal has been reached -->
+			<GameState id="50112" type="10003" name="Get Message" main="NO"> <!-- Type TEXT Shown -->
+				<Attributes>
+					<Attribute id="TEXT" value="Stage cleaned!"/>
+					<Attribute id="FONT" value="20032"/>
+					<Attribute id="FADE" value="255"/>
+					<Attribute id="POSITION" value="0.5,0.5,0"/>
+					<Attribute id="POSREFERENCE" value="0"/> <!-- Meaning Center -->
+					<Attribute id="ORIENTATION" value="1,0,0"/>
+				</Attributes>
+				<Nested>
+					<GameState id="50113" type="10010" name="When Reaching Sound" main="NO"> <!-- Type SOUND -->
+						<Attributes>
+							<Attribute id="SOUNDID" value="50006"/>
+							<Attribute id="CHANNELID" value="3"/> <!-- In the Background of the Scene -->
+						</Attributes>
+					</GameState>
+				</Nested>
+			</GameState>
+		</Nested>
+	</GameState>
+	
+	<!-- This game state is a no game state. That is: simply finishes when starts 
+		 The state doesn't need any attribute -->
+	<GameState id="50114" type="10025" name="116JustFinishes" main="YES"/>
+	<!-- -->
+
+</GameStates>

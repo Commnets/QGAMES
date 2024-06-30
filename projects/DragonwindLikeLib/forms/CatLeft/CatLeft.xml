@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:a0e2ce9b1aecfbe91af08d532390973c:c3c948a37edcad370ce50b8a733fc558:8fa553df6f433c06e47155097b9aaa23$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="CatLeft" file="./forms/CatLeft.png" width="1116" height="496"
+		fSpacing="5" fMargin="5" fWidth="1" fHeight="1" aColor="255" nFrames="?">
+		<Frame id="Dead (1)" fPosX="6" fPosY="6" fWidth="66" fHeight="80" xoffset="45" yoffset="12" width="66"/>
+		<Frame id="Dead (2)" fPosX="79" fPosY="6" fWidth="70" fHeight="91" xoffset="30" yoffset="2" width="70"/>
+		<Frame id="Dead (3)" fPosX="156" fPosY="6" fWidth="79" fHeight="91" xoffset="16" yoffset="3" width="79"/>
+		<Frame id="Dead (4)" fPosX="242" fPosY="6" fWidth="78" fHeight="70" xoffset="9" yoffset="23" width="78"/>
+		<Frame id="Dead (5)" fPosX="327" fPosY="6" fWidth="84" fHeight="74" xoffset="3" yoffset="19" width="84"/>
+		<Frame id="Dead (6)" fPosX="418" fPosY="6" fWidth="82" fHeight="70" xoffset="4" yoffset="23" width="82"/>
+		<Frame id="Dead (7)" fPosX="507" fPosY="6" fWidth="80" fHeight="67" xoffset="5" yoffset="26" width="80"/>
+		<Frame id="Dead (8)" fPosX="594" fPosY="6" fWidth="80" fHeight="66" xoffset="5" yoffset="27" width="80"/>
+		<Frame id="Dead (9)" fPosX="681" fPosY="6" fWidth="80" fHeight="66" xoffset="5" yoffset="28" width="80"/>
+		<Frame id="Dead (A)" fPosX="768" fPosY="6" fWidth="80" fHeight="66" xoffset="5" yoffset="28" width="80"/>
+		<Frame id="Fall (1)" fPosX="855" fPosY="6" fWidth="60" fHeight="85" xoffset="36" yoffset="4" width="60"/>
+		<Frame id="Fall (2)" fPosX="922" fPosY="6" fWidth="59" fHeight="91" xoffset="36" yoffset="3" width="59"/>
+		<Frame id="Fall (3)" fPosX="988" fPosY="6" fWidth="61" fHeight="89" xoffset="33" yoffset="2" width="61"/>
+		<Frame id="Fall (4)" fPosX="6" fPosY="104" fWidth="59" fHeight="88" xoffset="36" yoffset="3" width="59"/>
+		<Frame id="Fall (5)" fPosX="72" fPosY="104" fWidth="60" fHeight="86" xoffset="36" yoffset="4" width="60"/>
+		<Frame id="Fall (6)" fPosX="139" fPosY="104" fWidth="59" fHeight="88" xoffset="36" yoffset="3" width="59"/>
+		<Frame id="Fall (7)" fPosX="205" fPosY="104" fWidth="61" fHeight="89" xoffset="33" yoffset="2" width="61"/>
+		<Frame id="Fall (8)" fPosX="273" fPosY="104" fWidth="59" fHeight="88" xoffset="36" yoffset="3" width="59"/>
+		<Frame id="Hurt (1)" fPosX="339" fPosY="104" fWidth="66" fHeight="80" xoffset="28" yoffset="14" width="66"/>
+		<Frame id="Hurt (2)" fPosX="412" fPosY="104" fWidth="66" fHeight="88" xoffset="19" yoffset="6" width="66"/>
+		<Frame id="Hurt (3)" fPosX="485" fPosY="104" fWidth="72" fHeight="92" xoffset="13" yoffset="2" width="72"/>
+		<Frame id="Hurt (4)" fPosX="564" fPosY="104" fWidth="79" fHeight="87" xoffset="6" yoffset="7" width="79"/>
+		<Frame id="Hurt (5)" fPosX="650" fPosY="104" fWidth="78" fHeight="73" xoffset="6" yoffset="21" width="78"/>
+		<Frame id="Hurt (6)" fPosX="735" fPosY="104" fWidth="78" fHeight="70" xoffset="5" yoffset="24" width="78"/>
+		<Frame id="Hurt (7)" fPosX="820" fPosY="104" fWidth="80" fHeight="66" xoffset="1" yoffset="28" width="80"/>
+		<Frame id="Hurt (8)" fPosX="907" fPosY="104" fWidth="74" fHeight="78" xoffset="8" yoffset="16" width="74"/>
+		<Frame id="Hurt (9)" fPosX="988" fPosY="104" fWidth="75" fHeight="87" xoffset="8" yoffset="7" width="75"/>
+		<Frame id="Hurt (A)" fPosX="6" fPosY="203" fWidth="71" fHeight="91" xoffset="13" yoffset="3" width="71"/>
+		<Frame id="Idle (1)" fPosX="84" fPosY="203" fWidth="61" fHeight="91" xoffset="28" yoffset="3" width="61"/>
+		<Frame id="Idle (2)" fPosX="152" fPosY="203" fWidth="61" fHeight="90" xoffset="28" yoffset="4" width="61"/>
+		<Frame id="Idle (3)" fPosX="220" fPosY="203" fWidth="61" fHeight="89" xoffset="28" yoffset="5" width="61"/>
+		<Frame id="Idle (4)" fPosX="288" fPosY="203" fWidth="61" fHeight="88" xoffset="28" yoffset="6" width="61"/>
+		<Frame id="Idle (5)" fPosX="356" fPosY="203" fWidth="61" fHeight="88" xoffset="28" yoffset="6" width="61"/>
+		<Frame id="Idle (6)" fPosX="424" fPosY="203" fWidth="61" fHeight="88" xoffset="28" yoffset="6" width="61"/>
+		<Frame id="Idle (7)" fPosX="492" fPosY="203" fWidth="61" fHeight="88" xoffset="28" yoffset="6" width="61"/>
+		<Frame id="Idle (8)" fPosX="560" fPosY="203" fWidth="61" fHeight="89" xoffset="28" yoffset="5" width="61"/>
+		<Frame id="Idle (9)" fPosX="628" fPosY="203" fWidth="61" fHeight="89" xoffset="28" yoffset="5" width="61"/>
+		<Frame id="Idle (A)" fPosX="696" fPosY="203" fWidth="61" fHeight="90" xoffset="28" yoffset="4" width="61"/>
+		<Frame id="Jump (1)" fPosX="764" fPosY="203" fWidth="61" fHeight="91" xoffset="22" yoffset="3" width="61"/>
+		<Frame id="Jump (2)" fPosX="832" fPosY="203" fWidth="60" fHeight="89" xoffset="29" yoffset="3" width="60"/>
+		<Frame id="Jump (3)" fPosX="899" fPosY="203" fWidth="60" fHeight="83" xoffset="36" yoffset="3" width="60"/>
+		<Frame id="Jump (4)" fPosX="966" fPosY="203" fWidth="60" fHeight="84" xoffset="36" yoffset="3" width="60"/>
+		<Frame id="Jump (5)" fPosX="1033" fPosY="203" fWidth="60" fHeight="85" xoffset="36" yoffset="4" width="60"/>
+		<Frame id="Jump (6)" fPosX="6" fPosY="301" fWidth="60" fHeight="84" xoffset="36" yoffset="3" width="60"/>
+		<Frame id="Jump (7)" fPosX="73" fPosY="301" fWidth="60" fHeight="83" xoffset="36" yoffset="3" width="60"/>
+		<Frame id="Jump (8)" fPosX="140" fPosY="301" fWidth="60" fHeight="84" xoffset="36" yoffset="3" width="60"/>
+		<Frame id="Run (1)" fPosX="207" fPosY="301" fWidth="61" fHeight="91" xoffset="22" yoffset="3" width="61"/>
+		<Frame id="Run (2)" fPosX="275" fPosY="301" fWidth="60" fHeight="88" xoffset="21" yoffset="4" width="60"/>
+		<Frame id="Run (3)" fPosX="342" fPosY="301" fWidth="60" fHeight="82" xoffset="19" yoffset="5" width="60"/>
+		<Frame id="Run (4)" fPosX="409" fPosY="301" fWidth="60" fHeight="88" xoffset="21" yoffset="4" width="60"/>
+		<Frame id="Run (5)" fPosX="476" fPosY="301" fWidth="61" fHeight="91" xoffset="22" yoffset="3" width="61"/>
+		<Frame id="Run (6)" fPosX="544" fPosY="301" fWidth="60" fHeight="89" xoffset="21" yoffset="4" width="60"/>
+		<Frame id="Run (7)" fPosX="611" fPosY="301" fWidth="60" fHeight="85" xoffset="20" yoffset="5" width="60"/>
+		<Frame id="Run (8)" fPosX="678" fPosY="301" fWidth="60" fHeight="89" xoffset="21" yoffset="4" width="60"/>
+		<Frame id="Slide (1)" fPosX="745" fPosY="301" fWidth="67" fHeight="72" xoffset="38" yoffset="22" width="67"/>
+		<Frame id="Slide (2)" fPosX="819" fPosY="301" fWidth="67" fHeight="72" xoffset="38" yoffset="22" width="67"/>
+		<Frame id="Slide (3)" fPosX="893" fPosY="301" fWidth="68" fHeight="72" xoffset="38" yoffset="22" width="68"/>
+		<Frame id="Slide (4)" fPosX="968" fPosY="301" fWidth="68" fHeight="72" xoffset="38" yoffset="22" width="68"/>
+		<Frame id="Slide (5)" fPosX="1043" fPosY="301" fWidth="67" fHeight="72" xoffset="38" yoffset="22" width="67"/>
+		<Frame id="Slide (6)" fPosX="6" fPosY="399" fWidth="67" fHeight="72" xoffset="38" yoffset="22" width="67"/>
+		<Frame id="Slide (7)" fPosX="80" fPosY="399" fWidth="67" fHeight="72" xoffset="38" yoffset="22" width="67"/>
+		<Frame id="Slide (8)" fPosX="154" fPosY="399" fWidth="68" fHeight="72" xoffset="38" yoffset="22" width="68"/>
+		<Frame id="Slide (9)" fPosX="229" fPosY="399" fWidth="68" fHeight="72" xoffset="38" yoffset="22" width="68"/>
+		<Frame id="Slide (A)" fPosX="304" fPosY="399" fWidth="67" fHeight="72" xoffset="38" yoffset="22" width="67"/>
+		<Frame id="Walk (1)" fPosX="378" fPosY="399" fWidth="61" fHeight="91" xoffset="28" yoffset="3" width="61"/>
+		<Frame id="Walk (2)" fPosX="446" fPosY="399" fWidth="60" fHeight="91" xoffset="29" yoffset="3" width="60"/>
+		<Frame id="Walk (3)" fPosX="513" fPosY="399" fWidth="60" fHeight="89" xoffset="29" yoffset="3" width="60"/>
+		<Frame id="Walk (4)" fPosX="580" fPosY="399" fWidth="60" fHeight="89" xoffset="29" yoffset="3" width="60"/>
+		<Frame id="Walk (5)" fPosX="647" fPosY="399" fWidth="60" fHeight="90" xoffset="29" yoffset="3" width="60"/>
+		<Frame id="Walk (6)" fPosX="714" fPosY="399" fWidth="61" fHeight="91" xoffset="28" yoffset="3" width="61"/>
+		<Frame id="Walk (7)" fPosX="782" fPosY="399" fWidth="60" fHeight="91" xoffset="29" yoffset="3" width="60"/>
+		<Frame id="Walk (8)" fPosX="849" fPosY="399" fWidth="60" fHeight="89" xoffset="29" yoffset="3" width="60"/>
+		<Frame id="Walk (9)" fPosX="916" fPosY="399" fWidth="60" fHeight="89" xoffset="29" yoffset="3" width="60"/>
+		<Frame id="Walk (A)" fPosX="983" fPosY="399" fWidth="60" fHeight="91" xoffset="29" yoffset="3" width="60"/>
+    </Form>
+</CommtyExporter>

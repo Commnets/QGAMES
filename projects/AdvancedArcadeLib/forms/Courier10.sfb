@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpriteFont>
+    <InputSettings fontFamily="Courier New" fontStyle="Bold" fontSize="10" characters=" !&quot;#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~"/>
+    <GenerationSettings width="128" height="128" color="#00000000" padding="2" spacing="2"/>
+    <ExportSettings format="BMFont_Ascii" path="D:/Workspaces/QGAMES/games/DragonWind/forms/Courier10" retinaCopy="0"/>
+    <Effects>
+        <Effect effectType="Fill" effectEnabled="1" effectBlendMode="Normal" effectOpacity="1" fillType="Color" fillColor="#ff000000" fillGradient="gradientStyle: Linear; angle: 45; scale: 1; stops: (position: 0, color: #ff000000) (position: 1, color: #ffffffff)" fillInset="0"/>
+    </Effects>
+</SpriteFont>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:a39b7d5be51dcbe9610ef127150458c3:e62a7176e17ccc5d721890fad3bf93fe:dd79fbcac22a2f7f4c08439851072e84$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="power" file="./forms/power.png" width="490" height="50"
+		fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="?">
+		<Frame id="frame-1" fPosX="0" fPosY="0" fWidth="49" fHeight="50" xoffset="0" yoffset="0" width="49" height="50"/>
+		<Frame id="frame-2" fPosX="49" fPosY="0" fWidth="49" fHeight="50" xoffset="0" yoffset="0" width="49" height="50"/>
+		<Frame id="frame-3" fPosX="98" fPosY="0" fWidth="49" fHeight="50" xoffset="0" yoffset="0" width="49" height="50"/>
+		<Frame id="frame-4" fPosX="147" fPosY="0" fWidth="49" fHeight="50" xoffset="0" yoffset="0" width="49" height="50"/>
+		<Frame id="frame-5" fPosX="196" fPosY="0" fWidth="49" fHeight="50" xoffset="0" yoffset="0" width="49" height="50"/>
+		<Frame id="frame-6" fPosX="245" fPosY="0" fWidth="49" fHeight="50" xoffset="0" yoffset="0" width="49" height="50"/>
+		<Frame id="frame-7" fPosX="294" fPosY="0" fWidth="49" fHeight="50" xoffset="0" yoffset="0" width="49" height="50"/>
+		<Frame id="frame-8" fPosX="343" fPosY="0" fWidth="49" fHeight="50" xoffset="0" yoffset="0" width="49" height="50"/>
+		<Frame id="frame-9" fPosX="392" fPosY="0" fWidth="49" fHeight="50" xoffset="0" yoffset="0" width="49" height="50"/>
+		<Frame id="frame-10" fPosX="441" fPosY="0" fWidth="49" fHeight="50" xoffset="0" yoffset="0" width="49" height="50"/>
+    </Form>
+</CommtyExporter>

@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="QGAMES::AdvancedTextBuilder" Collapsed="true">
+    <Position X="13" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAADAABAAAAQAAAAAAIAAAACAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\AdvancedArcade\adbuilders.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::AdvancedEntityBuilder" Collapsed="true">
+    <Position X="7.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\AdvancedArcade\adbuilders.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::AdvancedMovementBuilder" Collapsed="true">
+    <Position X="11.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\AdvancedArcade\adbuilders.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::BackgroundObjectMapBuilder" Collapsed="true">
+    <Position X="9.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAEAAEAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\AdvancedArcade\adbuilders.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::AdvancedGUISystemBuilder" Collapsed="true">
+    <Position X="9.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\AdvancedArcade\adbuilders.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::ForAdvancedGameStatesAddon" Collapsed="true">
+    <Position X="6" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgIAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\AdvancedArcade\adbuilders.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::ForCreditTitlesGameStateAddOn" Collapsed="true">
+    <Position X="7.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgIAAAAAAAAABAAAAAAAAEAgAAAAA=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\AdvancedArcade\adbuilders.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::ForShowingInstructionsGameStateAddOn" Collapsed="true">
+    <Position X="13" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgIAAAAAAAAAAAAgAAAAAEAgAAAAA=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\AdvancedArcade\adbuilders.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::ForRollingStatesGameStateAddOn" Collapsed="true">
+    <Position X="11.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAgIAAAAAAAAAAAAAAAAAAEAgAAAAA=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\AdvancedArcade\adbuilders.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::ForAdvancedGameStateControlAddon" Collapsed="true">
+    <Position X="14.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\AdvancedArcade\adbuilders.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::PauseLogoEntity" Collapsed="true">
+    <Position X="11.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\AdvancedArcade\adentities.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::Thunder" Collapsed="true">
+    <Position X="9.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAACAAAAAAEIAAAAAAAIACAMBIAAAhCAAAA=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\AdvancedArcade\adenvconditions.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::Thunders" Collapsed="true">
+    <Position X="11.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACACAAEAgAEIAAAgIAAAgCAIAIIACACAgIA=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\AdvancedArcade\adenvconditions.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::Rain" Collapsed="true">
+    <Position X="13" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASAAJAAEAACDAIQEAAEIgAAEBBAEACAIBIAAIxCCABQ=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\AdvancedArcade\adenvconditions.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::Earthquake" Collapsed="true">
+    <Position X="13" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAgCAAAAAAEAgAABAAAAACAIAIAAAhAAAAA=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\AdvancedArcade\adenvconditions.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::Wind" Collapsed="true">
+    <Position X="14.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAJAAEAACDAIAEBAEIABAABBAEACAIBIAEIhCCIBQ=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\AdvancedArcade\adenvconditions.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::Lightning" Collapsed="true">
+    <Position X="6" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEABAmAFAAAAEIAAAABAAAACgIAIAAAhCAEBA=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\AdvancedArcade\adenvconditions.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::Lightnings" Collapsed="true">
+    <Position X="7.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACACAAEAgAEIABAyAAAAACAIAIIAAACAgAA=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\AdvancedArcade\adenvconditions.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::Rainbow" Collapsed="true">
+    <Position X="14.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAUAAAABAGAAAAAAEIAAIABAABECAIAIAAAACAABA=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\AdvancedArcade\adenvconditions.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::Storm" Collapsed="true">
+    <Position X="7.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAACACAAGAAAEICBASIAAAACEIAIAACACAAYA=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\AdvancedArcade\adenvconditions.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::Clouds" Collapsed="true">
+    <Position X="11.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQAAJAAGgBCDAIKEIAEIAAAQBBAEQCAIBIABIhCCAFw=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\AdvancedArcade\adenvconditions.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::ToFixScreenOnArtistInSceneWithBackground" Collapsed="true">
+    <Position X="13" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAACAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\AdvancedArcade\adgame.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::AdvancedArcadeGame" Collapsed="true">
+    <Position X="6" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SgAgCAASATAAAAgAAkEEKEARAKNAJISABAAJKAICASA=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\AdvancedArcade\adgame.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::BackgroundLayer" Collapsed="true">
+    <Position X="6" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAMAAAAAAACgAAAAAAAAAAQgIAA=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\AdvancedArcade\adlayers.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::FormBasedTileLayerEffect" Collapsed="true">
+    <Position X="9.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAgABAgAFAAABAhwAAACAEAACyAQAANCA=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\AdvancedArcade\adlayers.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::AdvancedTileLayer" Collapsed="true">
+    <Position X="14.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>aABAJAADIAACBAAAAAEIAAAAAAgAACAIEGASAACAAAA=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\AdvancedArcade\adlayers.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::BackgroundMap" Collapsed="true">
+    <Position X="7.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAACAAAMAAAAAAAAgAAAAAAAAAAQgIAA=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\AdvancedArcade\admaps.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::IncrementalLinearMovement" Collapsed="true">
+    <Position X="14.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEBAgAAAACAAEEIBAAEQQAAAAgAACAggCSAAEWAAAAI=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\AdvancedArcade\admovements.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::PhysicsIncremetalMovement" Collapsed="true">
+    <Position X="3.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAgCAAAAAgAAYBAAEQQIAEAEAwCBwgCQBAEEBAQAI=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\AdvancedArcade\admovements.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::BouncePhysicsIncrementalMovement" Collapsed="true">
+    <Position X="3.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAABAAAEAAIAAAgAAAEAAAAAAEAAAAAA=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\AdvancedArcade\admovements.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::SceneWithBackground" Collapsed="true">
+    <Position X="6" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAEAAEAAEAABAAAACACAIAAAAAAgAA=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\AdvancedArcade\adscenes.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::LivesScoreObject" Collapsed="true">
+    <Position X="9.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAIAAAAAAACAEAAAAgFAAAAABAAEAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\AdvancedArcade\adscoreobjects.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::EnergyBarScoreObject" Collapsed="true">
+    <Position X="0.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAABAAAAAAAAEEAAAABAAAAAAIAAAAEIAAAAA=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\AdvancedArcade\adscoreobjects.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::StandardEnergyBarScoreObject" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\AdvancedArcade\adscoreobjects.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- Background map dark forest -->
+<Map name="50110" width="3200" height="600">
+	<Layers>
+		<Layer id="0" name="background">
+			<Element id="50110" X="0" Y="0" Z="0"/>
+			<Attributes>
+			</Attributes>
+		</Layer>
+	</Layers>
+	<Attributes>
+		<Attribute id="BASE" value="435"/>
+	</Attributes>
+</Map>

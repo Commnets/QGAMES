@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:5a070b0bce5c8ec943f5c81d77a003ca:aea6261e2445dfe07a3ac65ca67b1c26:bb343d04fc23ae4e5df57ddccebe0f53$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="Base" file="./forms/Base.png" width="201" height="26"
+		fSpacing="1" fMargin="1" fWidth="1" fHeight="1" aColor="255" nFrames="?">
+		<Frame id="1" fPosX="1" fPosY="1" fWidth="24" fHeight="24" xoffset="0" yoffset="0" width="24"/>
+		<Frame id="2" fPosX="26" fPosY="1" fWidth="24" fHeight="24" xoffset="0" yoffset="0" width="24"/>
+		<Frame id="3" fPosX="51" fPosY="1" fWidth="24" fHeight="24" xoffset="0" yoffset="0" width="24"/>
+		<Frame id="7" fPosX="76" fPosY="1" fWidth="24" fHeight="24" xoffset="0" yoffset="0" width="24"/>
+		<Frame id="11" fPosX="101" fPosY="1" fWidth="24" fHeight="24" xoffset="0" yoffset="0" width="24"/>
+		<Frame id="13" fPosX="126" fPosY="1" fWidth="24" fHeight="17" xoffset="0" yoffset="0" width="24"/>
+		<Frame id="14" fPosX="151" fPosY="1" fWidth="24" fHeight="17" xoffset="0" yoffset="0" width="24"/>
+		<Frame id="15" fPosX="176" fPosY="1" fWidth="24" fHeight="17" xoffset="0" yoffset="0" width="24"/>
+    </Form>
+</CommtyExporter>

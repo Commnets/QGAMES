@@ -1,0 +1,564 @@
+<?xml version="1.0"?>
+<GameStates>
+
+	<!-- Includes -->
+	<Include file="adgamestates.xml"/>
+	
+	<!-- The main controller of the flow of the game -->
+	<GameState id="50000" type="50101" name="Controller" main="YES">
+		<FlowConditions>
+			<FlowCondition on="100041" when="0" to="50300"/> <!-- After the game is loaded, the game is initialized -->
+			<FlowCondition on="50300"  when="0" to="50003"/> <!-- After the game is initialized the logo of Communit Networks appears -->
+			<FlowCondition on="50003"  when="0" to="50009"/> <!-- After the logo appears, then the main menu appears -->
+			<FlowCondition on="50009"  when="0" to="50014"/> <!-- When the play option is selected, then playing starts asking for the name of the player -->
+			<FlowCondition on="50009"  when="1" to="50028"/> <!-- When the option selected is exit, then the game finishes -->
+			<FlowCondition on="50009"  when="2" to="50025"/> <!-- When the option selected is hall of fame,...you know! -->
+			<FlowCondition on="50014"  when="0" to="50100"/> <!-- After asking for the name of the player, then the game starts. See 5100 for more details -->
+			<FlowCondition on="50100"  when="0" to="50019"/> <!-- After dieing when playing, a message is shown -->
+			<FlowCondition on="50100"  when="1" to="50100"/> <!-- After reaching a goal when playing starts back if there is more scenes to deal with -->
+			<FlowCondition on="50100"  when="2" to="50009"/> <!-- After selecting exit (while playing) the game finishes and the menu is back -->
+			<FlowCondition on="50100"  when="3" to="50600"/> <!-- After reaching a goal, after every a set of scenes, time for relax!! -->
+			<!-- This flow condition is key. Only one type of intermission has been programmed,
+				 But the templat admitis as many as wanted. Look at the methods 
+				 intermissionCircunstanceFor at PACMAN::GameStateControl class and
+				 intermissionScreenAfterCurrentLevel at PACMAN::Game class to program another behaviour. 
+				 Remeber that number 3 and for are reserved already -->
+			<FlowCondition on="50100"  when="4" to="50400"/> <!-- After reaching a goal, and there is no more scene to deal with, then player has won!! -->
+			<FlowCondition on="50019"  when="0" to="50014"/> <!-- After dieing, the game starts back -->
+			<FlowCondition on="50019"  when="1" to="50022"/> <!-- ..or the game is over -->
+			<FlowCondition on="50022"  when="0" to="50025"/> <!-- After game is over, the hall of fame appears -->
+			<FlowCondition on="50025"  when="0" to="50009"/> <!-- After hall of fame, back to menu  -->
+			<FlowCondition on="50600"  when="0" to="50100"/> <!-- After the relaxing period, the game starts back. -->
+			<FlowCondition on="50400"  when="0" to="50022"/> <!-- After showing that the player has won, then game over -->
+		</FlowConditions>
+		<Attributes>
+			<Attribute id="PAUSEGAMESTATE" value="50001"/> <!-- A reference to the nested state when nested -->
+		</Attributes>
+	</GameState>
+	
+	<!-- The pause game. 
+		 It is just a state showing an entity in the middle -->
+	<GameState id="50001" type="10040" name="Pause" main="YES"> <!--Type ENTITY Shown -->
+		<Attributes>
+			<Attribute id="ENTITYID" value="10000"/> <!-- The entity used when pause (standard) -->
+			<Attribute id="FADE" value="255"/>
+			<Attribute id="CONTROLPOSITION" value="YES"/>
+			<Attribute id="LOOPSPERFADECHANGE" value="3"/>
+			<Attribute id="POSITION" value="0.5,0.5,0"/>
+			<Attribute id="POSREFERENCE" value="0"/> <!-- Meaning center of the text -->
+		</Attributes>
+	</GameState>
+	
+	<!-- A message about loading -->
+	<GameState id="100041" type="10007" name="0Loading Message" main="YES"> 
+		<Attributes>
+			<Attribute id="TEXT" value="Loading"/>
+			<Attribute id="FONT" value="60012"/>
+			<Attribute id="FADE" value="150"/>
+			<Attribute id="ELAPSEDCYCLES" value="1"/>
+			<Attribute id="NUMBERFADECHANGES" value="21"/>
+			<Attribute id="FADESTEP" value="5"/>
+			<Attribute id="POSITION" value="0.5,0.5,0"/>
+			<Attribute id="POSREFERENCE" value="0"/> <!-- Meaning center of the text -->
+			<Attribute id="ORIENTATION" value="1,0,0"/> <!-- Meaning to the Right -->
+		</Attributes>
+		<Nested>
+			<!-- To load the game.
+				 One of the pictures used as background in the game is filled up little by little -->
+			<GameState id="50002" type="10050" name="0Loading Forms" main="YES"> <!-- Type LOADING -->
+				<Attributes>
+					<Attribute id="FORMID" value="50001"/> <!-- pacman loading background -->
+					<Attribute id="FADE" value="255"/>
+					<Attribute id="POSITION" value="0.5,0.5,0"/>
+					<Attribute id="POSREFERENCE" value="0"/> <!-- Meaning center as reference -->
+					<Attribute id="REVERSE" value="NO"/> <!-- From left to right or from up to down (standard) -->
+					<Attribute id="HORIZONTAL" value="YES"/> <!-- Specifiying from left to right -->
+				</Attributes>
+			</GameState>
+		</Nested>
+	</GameState>
+	
+	<!-- To initialize the game -->
+	<GameState id="50300" type="50102" name="1Initializing" main="YES"/> <!-- Type INITIALIZING -->
+	
+	<!-- To present the game.
+		 Just the commty logo comming to live little by little -->
+	<GameState id="50003" type="10030" name="2CommtyLogo" main="YES"> <!-- Type FORM Shown -->
+		<Attributes>
+			<Attribute id="FORMID" value="10002"/> <!-- The Big CommtyLogo -->
+			<Attribute id="INITIALFADE" value="0"/>
+			<Attribute id="FINALFADE" value="255"/>
+			<Attribute id="FADEINCREMENT" value="5"/>
+			<Attribute id="LOOPSPERFADECHANGE" value="2"/>
+			<Attribute id="POSITION" value="0.5,0.5,0"/> <!-- In the middle -->
+			<Attribute id="POSREFERENCE" value="0"/> <!-- Reference to the center -->
+		</Attributes>
+	</GameState>
+	
+	<!-- The main menu of the game -->
+	<GameState id="50009" type="10100" name="4Menu" main="YES"> <!-- Type Standard MENU -->
+		<Nested>
+			<!-- The pacman moving from side to side being chased by monsters! -->
+			<GameState id="500090" type="50103" name="Menu Pacman Moving" main="NO"> <!-- Type Monster Moving -->
+				<Attributes>
+					<Attribute id="FADE" value="255"/>
+					<Attribute id="POSITION" value="0.0,0.85,0"/> <!-- Relative position of the cnter of the pacman -->
+					<Attribute id="ITERATIONS" value="-1"/> <!-- Meaning no limit -->   
+					<Attribute id="BIGPACMAN" value = "NO"/> <!-- Meaning that the bigpacm is not the one chasing the monsters -->
+				</Attributes>
+				<Nested>
+					<!-- A little commtynets logo is shown is the right up corner -->
+					<GameState id="500091" type="10020" name="Menu Little Commty Logo" main="NO"> <!-- Type FIX FORM Shown -->
+						<Attributes>
+							<Attribute id="FORMID" value="10001"/> <!-- The Little CommtyLogo -->
+							<Attribute id="FADE" value="255"/>
+							<Attribute id="POSITION" value="0.99,0.07,0"/> <!-- In the left side -->
+							<Attribute id="POSREFERENCE" value="2"/> <!-- Reference to the right bottom -->
+						</Attributes>
+						<Nested>
+							<!-- A beautiful background -->
+							<GameState id="500092" type="10020" name="Menu Background" main="NO"> <!-- Type FIX FORM Shown -->
+								<Attributes>
+									<Attribute id="FORMID" value="50015"/> <!-- Monsters in maze -->
+									<Attribute id="FADE" value="200"/>
+									<Attribute id="POSITION" value="0.5,0.5,0"/> <!-- In the middle -->
+									<Attribute id="POSREFERENCE" value="0"/> <!-- Reference to the center -->
+								</Attributes>
+								<Nested>
+									<!-- A sound in the background -->
+									<GameState id="500093" type="10010" name="Menu Sound" main="NO"> <!-- Type SOUND -->
+										<Attributes>
+											<Attribute id="SOUNDID" value="50012"/>
+											<Attribute id="CHANNELID" value="0"/> <!-- Game background channel -->
+										</Attributes>
+									</GameState>
+								</Nested>
+							</GameState>
+						</Nested>
+					</GameState>
+				</Nested>
+			</GameState>
+		</Nested>
+	</GameState>
+	
+	<!-- Asking for the name of the player, if it is needed -->
+	<GameState id="50014" type="10006" name="5Player Info" main="YES"> <!-- Type WAIT UNLESS KEY OR TIME -->
+		<Attributes>
+			<Attribute id="TIME" value="4"/> <!-- 4 seconds maximum -->
+		</Attributes>
+		<Nested>
+			<!-- A message to point the number of the player -->
+			<GameState id="500140" type="10004" name="Player Number" main="NO"> <!-- Type PLAYER NUMBER Shown -->
+				<Attributes>
+					<Attribute id="TEXT" value="Player"/> <!-- This text is completed with a number after -->
+					<Attribute id="FONT" value="60010"/>
+					<Attribute id="FADE" value="255"/>
+					<Attribute id="POSITION" value="0.5,0.45,0"/>
+					<Attribute id="POSREFERENCE" value="0"/> <!-- Meaning center -->
+					<Attribute id="ORIENTATION" value="1,0,0"/> <!-- Meaning horizontal -->
+				</Attributes>
+				<Nested>
+					<!-- This state has a double behaviour:
+						 To ask for the name of the player the first time, 
+						 and just shown that nam is the next occasions. -->
+					<GameState id="500141" type="50000" name="Asking / Shown Player Name" main="NO"> <!-- Type PLAYER NAME (Shown or ask for) Shown -->
+						<Attributes>
+							<Attribute id="TEXT" value=""/> <!-- This text is completed with the name after -->
+							<Attribute id="FONT" value="60010"/>
+							<Attribute id="FADE" value="255"/>
+							<Attribute id="POSITION" value="0.5,0.55,0"/> <!-- A little bit under the previous one -->
+							<Attribute id="POSREFERENCE" value="0"/> <!-- Meaning center -->
+							<Attribute id="ORIENTATION" value="1,0,0"/> <!-- Horizontal -->
+						</Attributes>
+						<Nested>
+							<!-- A backgroung to decorat -->
+							<GameState id="500142" type="10020" name="Background Asking Name" main="NO"> <!-- Type FIXED FORM -->
+								<Attributes>
+									<Attribute id="FORMID" value="50012"/>
+									<Attribute id="FADE" value="200"/>
+									<Attribute id="POSITION" value="0.5,0.5,0"/> 
+									<Attribute id="POSREFERENCE" value="0"/> <!-- Meaning the center of the form -->
+								</Attributes>
+							</GameState>
+						</Nested>
+					</GameState>
+				</Nested>
+			</GameState>
+		</Nested>
+	</GameState>
+	
+	<!-- When the player has dies but the game has to restart back 
+		 because there are still lives enough to continue  -->
+	<GameState id="50019" type="10002" name="6Died" main="YES"> <!-- Type WAIT OR UNTIL KEY Pressed -->
+		<Attributes>
+			<Attribute id="TIME" value="3"/> <!-- Seconds with no key iteraction -->
+		</Attributes>
+		<Nested>
+			<!-- A message to point the player has died -->
+			<GameState id="500190" type="10003" name="Died Message" main="NO"> <!-- Type TEXT Shown -->
+				<Attributes>
+					<Attribute id="TEXT" value="Player has died"/>
+					<Attribute id="FONT" value="60010"/>
+					<Attribute id="FADE" value="255"/>
+					<Attribute id="POSITION" value="0.5,0.5,0"/>
+					<Attribute id="POSREFERENCE" value="0"/> <!-- Meaning center -->
+					<Attribute id="ORIENTATION" value="1,0,0"/>
+				</Attributes>
+				<Nested>
+					<!-- A beautiful background -->
+					<GameState id="500191" type="10020" name="Died Background" main="NO"> <!-- Type FIX FORM Shown -->
+						<Attributes>
+							<Attribute id="FORMID" value="50016"/> <!-- The monsters in maze -->
+							<Attribute id="FADE" value="255"/>
+							<Attribute id="POSITION" value="0.5,0.5,0"/> <!-- In the middle -->
+							<Attribute id="POSREFERENCE" value="0"/> <!-- Reference to the center -->
+						</Attributes>
+						<Nested>
+							<!-- A sound in the background -->
+							<GameState id="500192" type="10010" name="Died Sound" main="NO"> <!-- Type SOUND -->
+								<Attributes>
+									<Attribute id="SOUNDID" value="50014"/>
+									<Attribute id="CHANNELID" value="0"/> <!-- Game background channel -->
+								</Attributes>
+							</GameState>
+						</Nested>
+					</GameState>
+				</Nested>
+			</GameState>
+		</Nested>
+	</GameState>
+	
+	<!-- The game has finished 
+		 The main state waits until a key is pressed -->
+	<GameState id="50022" type="10002" name="7Gameover" main="YES"> <!-- Type WAIT OR UNTIL KEY Pressed -->
+		<Attributes>
+			<Attribute id="TIME" value="6"/> <!-- 6 seconds waiting -->
+		</Attributes>
+		<Nested>
+			<!-- A message to point the game is over -->
+			<GameState id="500220" type="10003" name="Gameover Message" main="NO"> <!-- Type TEXT Shown -->
+				<Attributes>
+					<Attribute id="TEXT" value="Game Over"/>
+					<Attribute id="FONT" value="60022"/>
+					<Attribute id="FADE" value="255"/>
+					<Attribute id="POSITION" value="0.5,0.5,0"/>
+					<Attribute id="POSREFERENCE" value="0"/> <!-- Meaning center -->
+					<Attribute id="ORIENTATION" value="1,0,0"/>
+				</Attributes>
+				<Nested>
+					<!-- A beautiful background -->
+					<GameState id="500221" type="10020" name="Gameover Background" main="NO"> <!-- Type FIX FORM Shown -->
+						<Attributes>
+							<Attribute id="FORMID" value="50014"/> <!-- The monsters after pacman -->
+							<Attribute id="FADE" value="255"/>
+							<Attribute id="POSITION" value="0.5,0.5,0"/> <!-- In the middle -->
+							<Attribute id="POSREFERENCE" value="0"/> <!-- Reference to the center -->
+						</Attributes>
+						<Nested>
+							<!-- A sound in the background -->
+							<GameState id="500222" type="10010" name="Gameover Sound" main="NO"> <!-- Type SOUND -->
+								<Attributes>
+									<Attribute id="SOUNDID" value="50014"/>
+									<Attribute id="CHANNELID" value="0"/> <!-- Game background channel -->
+								</Attributes>
+							</GameState>
+						</Nested>
+					</GameState>
+				</Nested>
+			</GameState>
+		</Nested>
+	</GameState>
+	
+	<!-- The player takes a period for relaxing -->
+	<GameState id="50600" type="10000" name="13Player Takes Relex" main="YES"> <!-- Type spending time -->
+		<Attributes>
+			<Attribute id="TIME" value="999"/> <!-- Meaning that the neted state "BiG Pacman Moving" leads -->
+		</Attributes>
+		<Nested>
+			<GameState id="500600" type="50103" name="Big Pacman Moving" main="NO"> <!-- Type Monster Moving -->
+				<Attributes>
+					<Attribute id="FADE" value="255"/>
+					<Attribute id="POSITION" value="0.0,0.5,0"/> <!-- Relative position of the center of the pacman -->
+					<Attribute id="ITERATIONS" value="1"/> <!-- Meaning just go and back, and then finishs -->   
+					<Attribute id="BIGPACMAN" value="YES"/> 
+				</Attributes>
+				<Nested>
+					<!-- A sound in the background -->
+					<GameState id="500601" type="10010" name="Relax Inter Sound" main="NO"> <!-- Type SOUND -->
+						<Attributes>
+							<Attribute id="SOUNDID" value="50006"/>
+							<Attribute id="CHANNELID" value="0"/> <!-- Game Background -->
+						</Attributes>
+					</GameState>
+				</Nested>
+			</GameState>
+		</Nested>
+	</GameState>
+	
+	<!-- The player wins!! -->
+	<GameState id="50400" type="10002" name="12Player wins" main="YES"> <!-- Type WAIT TIME UNLESS KEY PRESSED -->
+		<Attributes>
+			<Attribute id="TIME" value="6"/> <!-- 6 seconds waiting maximum -->
+		</Attributes>
+		<Nested>
+			<!-- A message to point that the player has won -->
+			<GameState id="504000" type="10003" name="Player Wins Message" main="NO"> <!-- Type TEXT Shown -->
+				<Attributes>
+					<Attribute id="TEXT" value="You won!!"/>
+					<Attribute id="FONT" value="60012"/>
+					<Attribute id="FADE" value="255"/>
+					<Attribute id="POSITION" value="0.5,0.5,0"/>
+					<Attribute id="POSREFERENCE" value="0"/> <!-- Meaning center -->
+					<Attribute id="ORIENTATION" value="1,0,0"/> <!-- Horizontal -->
+				</Attributes>
+				<Nested>
+					<!-- A picture also as background  -->
+					<GameState id="504001" type="10020" name="Player Wins Background" main="NO"> <!-- Type FIX FORM Shown -->
+						<Attributes>
+							<Attribute id="FORMID" value="50015"/> <!-- Monsters in maze -->
+							<Attribute id="FADE" value="255"/>
+							<Attribute id="POSITION" value="0.5,0.5,0"/> <!-- In the middle -->
+							<Attribute id="POSREFERENCE" value="0"/> <!-- Reference to the center -->
+						</Attributes>
+						<Nested>
+							<!-- A sound in the background -->
+							<GameState id="504002" type="10010" name="Player Wins Sound" main="NO"> <!-- Type SOUND -->
+								<Attributes>
+									<Attribute id="SOUNDID" value="50013"/>
+									<Attribute id="CHANNELID" value="0"/> <!-- Game background channel -->
+								</Attributes>
+							</GameState>
+						</Nested>
+					</GameState>
+				</Nested>
+			</GameState>
+		</Nested>
+	</GameState>
+	
+	<!-- The hall of fame 
+		 The main state waits until a key is pressed -->
+	<GameState id="50025" type="10002" name="8Hall Of Fame" main="YES"> <!-- Type WAIT TIME OR UNTIL KEY Pressed -->
+		<Attributes>
+			<Attribute id="TIME" value="6"/> <!-- 6 seconds waiting maximum -->
+		</Attributes>
+		<Nested>
+			<!-- The list of players awarded -->
+			<GameState id="500250" type="50070" name="List Awarded Players" main="NO"> <!--Type PACMAN HALL OF FAME -->
+				<Attributes>
+					<Attribute id="FADE" value="255"/>
+					<Attribute id="POSITION" value="0,0,0"/> <!-- Left top corner -->
+					<Attribute id="SEPARATION" value="10"/>
+					<Attribute id="FONT" value="60011"/> <!-- Tour 36 green -->
+				</Attributes>
+				<Nested>
+					<!-- A little commtynets logo is shown is the left down corner -->
+					<GameState id="500251" type="10020" name="Hall of Fame Little Commty Logo" main="NO"> <!-- Type FIX FORM Shown -->
+						<Attributes>
+							<Attribute id="FORMID" value="10001"/> <!-- The Little CommtyLogo -->
+							<Attribute id="FADE" value="255"/>
+							<Attribute id="POSITION" value="0.01,0.925,0"/> <!-- In the left side -->
+							<Attribute id="POSREFERENCE" value="1"/> <!-- Reference to the left up corner -->
+						</Attributes>
+						<Nested>
+							<!-- A rolling background under the menu -->
+							<GameState id="500252" type="10080" name="Rolling Hall Of Fame Background" main="NO"> <!-- Type ROLLING FORMS -->
+								<Attributes>
+									<Attribute id="FORMS" value="50011"/>
+									<Attribute id="DELAY" value="1"/>
+									<Attribute id="SECONDSONSCREEN" value="10000"/>
+									<Attribute id="DIRECTION" value="0,-1,0"/>
+									<Attribute id="INSTANCES" value="3"/>
+									<Attribute id="SEQUENTIAL" value="FALSE"/>
+								</Attributes>
+								<Nested>
+									<!-- A sound in the background -->
+									<GameState id="500253" type="10010" name="Hall Of Fame Sound" main="NO"> <!-- Type SOUND -->
+										<Attributes>
+											<Attribute id="SOUNDID" value="50011"/>
+											<Attribute id="CHANNELID" value="0"/> <!-- Game background channel -->
+										</Attributes>
+									</GameState>
+								</Nested>
+							</GameState>
+						</Nested>
+					</GameState>
+				</Nested>
+			</GameState>
+		</Nested>
+	</GameState>
+	
+	<!-- To exit the game -->
+	<GameState id="50028" type="7000" name="9Exit" main="YES"/> <!-- Type EXIT -->
+	
+	<!-- The group of states related to the game playing -->
+	<!-- When Playing Game a Control Game State type is used too -->
+	<GameState id="50100" type="50080" name="11Control Playing" main="YES">
+		<FlowConditions>
+			<!-- The first state is just to determinate what to do next: 
+				 It could be just to start to play or whether to show the name of the world and sceme and counting down first -->
+			<FlowCondition on="50101" when="0" to="50102"/> <!-- After starting the game the name of the level must be shown -->
+			<FlowCondition on="50101" when="1" to="50107"/> <!-- After starting the game control is handed over the player -->
+			<FlowCondition on="50102" when="0" to="50105"/> <!-- After the number of the level... Get ready!, (only if first time in the level) -->
+			<FlowCondition on="50102" when="1" to="50107"/> <!-- After the number of the level... the control to the playere!, (If it is not the first time in the level) -->
+			<FlowCondition on="50105" when="0" to="50107"/> <!-- After Get ready...the control to the player -->
+			<FlowCondition on="50107" when="0" to="50113"/> <!-- When playing stops because the pacman has died, then stops a while -->
+			<FlowCondition on="50107" when="1" to="50112"/> <!-- When playing stops because the pacman has reached the goal, wait a while -->
+			<FlowCondition on="50107" when="2" to="50200"/> <!-- When playing stops because the pacman is asking for options -->
+			<FlowCondition on="50113" when="0" to="50109"/> <!-- After waiting when dieing starts back if possible -->
+			<FlowCondition on="50109" when="0" to="-1"/> <!-- After waiting when dieing, the control fisishes --> 
+			<FlowCondition on="50112" when="0" to="50111"/> <!-- After waiting when a goal is reached, starts to blink -->
+			<FlowCondition on="50111" when="0" to="-1"/> <!-- After waiting when a goal is reached, the control finishes -->
+			<FlowCondition on="50200" when="0" to="50107"/> <!-- After the options to continue in the game has been chosen -->
+			<FlowCondition on="50200" when="1" to="-1"/> <!-- After the options to exit the game has been choseen -->
+		</FlowConditions>
+	</GameState>
+	
+	<!-- Just a NULL Game State to launch the verification of what is next before
+		 giving the control to the player -->
+	<GameState id="50101" type="10025" name="110Decide Before Playing" main="YES"/> <!-- Type NULL -->
+	
+	<!-- To show the name of the world and the name of the scene -->
+	<GameState id="50102" type="10002" name="111Level" main="YES"> <!-- Type WAIT TIME or KEY PRESSED -->
+		<Attributes>
+			<Attribute id="TIME" value="1.0"/> <!-- Seconds to wait maximum if no key is pressed -->
+		</Attributes>
+		<Nested>
+			<GameState id="501020" type="50011" name="Level Number" main="NO"> <!-- Type SCENE NUMBER -->
+				<Attributes>
+					<Attribute id="TEXT" value="Level"/> <!-- This text is completed with the name of the word after -->
+					<Attribute id="FONT" value="60000"/>
+					<Attribute id="FADE" value="255"/>
+					<Attribute id="POSITION" value="0.5,0.565,0"/>
+					<Attribute id="POSREFERENCE" value="0"/> <!-- Meaning center -->
+					<Attribute id="ORIENTATION" value="1,0,0"/>
+				</Attributes>
+			</GameState>
+		</Nested>
+	</GameState>
+
+	<!-- Showing starting -->
+	<GameState id="50105" type="10002" name="112Starting" main="YES"> <!-- Type WAIT TIME or KEY PRESSED -->
+		<Attributes>
+			<Attribute id="TIME" value="5"/> <!-- Seconds to wait maximum if no key is pressed -->
+		</Attributes>
+		<Nested>
+			<!-- A message to indicate the game is about to start -->
+			<GameState id="501050" type="10003" name="Getting Ready Message" main="NO"> <!-- Type TEXT Shown -->
+				<Attributes>
+					<Attribute id="TEXT" value="Get Ready"/>
+					<Attribute id="FONT" value="60003"/>
+					<Attribute id="FADE" value="255"/>
+					<Attribute id="POSITION" value="0.5,0.565,0"/>
+					<Attribute id="POSREFERENCE" value="0"/> <!-- Meaning center -->
+					<Attribute id="ORIENTATION" value="1,0,0"/> <!-- Horizontal -->
+				</Attributes>
+				<Nested>
+					<GameState id="501051" type="10010" name="When Starting Sound" main="NO"> <!-- Type SOUND -->
+						<Attributes>
+							<Attribute id="SOUNDID" value="50000"/>
+							<Attribute id="CHANNELID" value="3"/> <!-- In the background of the scene -->
+						</Attributes>
+					</GameState>
+				</Nested>
+			</GameState>
+		</Nested>
+	</GameState>
+	
+	<!-- This game state is used to play. 
+		 The controls are then managed by the user -->
+	<GameState id="50107" type="50081" name="113Just Playing" main="YES"/> <!-- Type PLAY -->
+	
+	<!-- This game state is used when the options of the game have to be shown -->
+	<GameState id="50200" type="50082" name="116OOptions When Playing" main="YES"/> <!-- Type OPTIONS WHEN PLAYING -->
+	
+	<!-- This game state is used when the artist died -->
+	<GameState id="50109" type="10000" name="114Wait After Dieing" main="YES"> <!-- Type WAIT -->
+		<Attributes>
+			<Attribute id="TIME" value="2.0"/> <!-- Seconds to wait -->
+		</Attributes>
+		<Nested>
+			<GameState id="501090" type="50105" name="When Dieing Vanish" main="NO"> <!-- Type PacmanElements stopped -->
+				<Attributes>
+					<Attribute id="STOPALL" value="YES"/>
+					<Attribute id="HIDEMONSTERS" value="NO"/>
+					<Attribute id="HIDETHINGS" value="YES"/>
+					<Attribute id="VANISHPACMAN" value="YES"/>
+				</Attributes>
+				<Nested>
+					<GameState id="501091" type="10010" name="When Dieing Sound" main="NO"> <!-- Type SOUND -->
+						<Attributes>
+							<Attribute id="SOUNDID" value="50002"/>
+							<Attribute id="CHANNELID" value="3"/> <!-- In the background of the scene -->
+						</Attributes>
+					</GameState>
+				</Nested>
+			</GameState>
+		</Nested>
+	</GameState>
+	
+	<!-- Just a moment without doing anything when the goal has been reached 
+		 an just before the maze starts to blink -->
+	<GameState id="50112" type="10000" name="115Wait After Reaching Goal" main="YES"> <!-- Type WAIT -->
+		<Attributes>
+			<Attribute id="TIME" value="1.0"/> <!-- Seconds to wait -->
+		</Attributes>
+		<Nested>
+			<GameState id="501120" type="50105" name="When Reaching Stop" main="NO"> <!-- Type PacmanElements stopped -->
+				<Attributes>
+					<Attribute id="STOPALL" value="YES"/>
+					<Attribute id="HIDEMONSTERS" value="YES"/>
+					<Attribute id="HIDETHINGS" value="YES"/>
+					<Attribute id="VANISHPACMAN" value="NO"/>
+				</Attributes>
+			</GameState>
+		</Nested>
+	</GameState>
+
+	<!-- Just a moment doing nothing when the pacman dies just before starting back again (if possible) -->
+	<GameState id="50113" type="10000" name="116Wait After Dieing" main="YES"> <!-- Type WAIT -->
+		<Attributes>
+			<Attribute id="TIME" value="1.0"/> <!-- Seconds to wait -->
+		</Attributes>
+		<Nested>
+			<GameState id="501130" type="50105" name="When Dieing Stop" main="NO"> <!-- Type PacmanElements stopped -->
+				<Attributes>
+					<Attribute id="STOPALL" value="YES"/>
+					<Attribute id="HIDEMONSTERS" value="NO"/>
+					<Attribute id="HIDETHINGS" value="YES"/>
+					<Attribute id="VANISHPACMAN" value="NO"/>
+				</Attributes>
+			</GameState>
+		</Nested>
+	</GameState>
+	
+	<!-- This game state is used when the artist reaches the limit of the current scene (the goal)
+		 It is needed to wait just for a couple of seconds while celebrating -->
+	<GameState id="50111" type="10000" name="117Blinking After Reaching Goal" main="YES"> <!-- Type WAIT -->
+		<Attributes>
+			<Attribute id="TIME" value="2"/> <!-- Seconds to wait blinking -->
+		</Attributes>
+		<Nested>
+			<!-- A message to point that the goal has been reached -->
+			<GameState id="501110" type="10003" name="Get Message" main="NO"> <!-- Type TEXT Shown -->
+				<Attributes>
+					<Attribute id="TEXT" value="Stage cleaned!"/>
+					<Attribute id="FONT" value="60003"/>
+					<Attribute id="FADE" value="255"/>
+					<Attribute id="POSITION" value="0.5,0.475,0"/>
+					<Attribute id="POSREFERENCE" value="0"/> <!-- Meaning center -->
+					<Attribute id="ORIENTATION" value="1,0,0"/>
+				</Attributes>
+				<Nested>
+					<!-- Blinking quick -->
+					<GameState id="501111" type="50104" name="When Reaching Blink" main="NO"> <!-- Type BLINK WORLD -->
+						<Attributes>
+							<Attribute id="BLINKINGTIME" value="0.20"/> <!-- Seconds between blinkings -->
+							<Attribute id="NUMBERBLINKS" value="-1"/> <!-- Number of blinks maximum, meaning inifinite -->
+						</Attributes>
+					</GameState>
+				</Nested>
+			</GameState>
+		</Nested>
+	</GameState>
+
+</GameStates>

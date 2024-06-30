@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{237D8491-F3DE-48D9-B87B-43969833E6BE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Common</RootNamespace>
+    <ProjectName>Commonlib</ProjectName>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\..\lib\</OutDir>
+    <IntDir>..\..\obj\$(ProjectName)\$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)D</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\..\lib\</OutDir>
+    <IntDir>..\..\obj\$(ProjectName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\include;..\..\projects\tinyxml;..\..\projects\zpplib;..\..\projects\colorwin\src</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>..\..\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\include;..\..\projects\tinyxml;..\..\projects\zpplib;..\..\projects\colorwin\src</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>..\..\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\Common\background.hpp" />
+    <ClInclude Include="..\..\include\Common\box.hpp" />
+    <ClInclude Include="..\..\include\Common\buoy.hpp" />
+    <ClInclude Include="..\..\include\Common\charactersteps.hpp" />
+    <ClInclude Include="..\..\include\Common\characterstepsbuilder.hpp" />
+    <ClInclude Include="..\..\include\Common\commoninclude.hpp" />
+    <ClInclude Include="..\..\include\Common\comms.hpp" />
+    <ClInclude Include="..\..\include\Common\commsbuilder.hpp" />
+    <ClInclude Include="..\..\include\Common\conffile.hpp" />
+    <ClInclude Include="..\..\include\Common\counter.hpp" />
+    <ClInclude Include="..\..\include\Common\dirent.h" />
+    <ClInclude Include="..\..\include\Common\elementbuilder.hpp" />
+    <ClInclude Include="..\..\include\Common\form.hpp" />
+    <ClInclude Include="..\..\include\Common\form3d.hpp" />
+    <ClInclude Include="..\..\include\Common\form3dbuilder.hpp" />
+    <ClInclude Include="..\..\include\Common\gamecommsaddon.hpp" />
+    <ClInclude Include="..\..\include\Common\gameimplementation.hpp" />
+    <ClInclude Include="..\..\include\Common\gamestate.hpp" />
+    <ClInclude Include="..\..\include\Common\gamestatebuilder.hpp" />
+    <ClInclude Include="..\..\include\Common\genalgorithms.hpp" />
+    <ClInclude Include="..\..\include\Common\inputhandler.hpp" />
+    <ClInclude Include="..\..\include\Common\loopcounter.hpp" />
+    <ClInclude Include="..\..\include\Common\mask.hpp" />
+    <ClInclude Include="..\..\include\Common\maskbuilder.hpp" />
+    <ClInclude Include="..\..\include\Common\matrix.hpp" />
+    <ClInclude Include="..\..\include\Common\object.hpp" />
+    <ClInclude Include="..\..\include\Common\objectbuilder.hpp" />
+    <ClInclude Include="..\..\include\Common\onoffswitch.hpp" />
+    <ClInclude Include="..\..\include\Common\openvalue.hpp" />
+    <ClInclude Include="..\..\include\Common\polygon.hpp" />
+    <ClInclude Include="..\..\include\Common\rectangle.hpp" />
+    <ClInclude Include="..\..\include\Common\color.hpp" />
+    <ClInclude Include="..\..\include\Common\definitions.hpp" />
+    <ClInclude Include="..\..\include\Common\element.hpp" />
+    <ClInclude Include="..\..\include\Common\entity.hpp" />
+    <ClInclude Include="..\..\include\Common\entitybuilder.hpp" />
+    <ClInclude Include="..\..\include\Common\event.hpp" />
+    <ClInclude Include="..\..\include\Common\formbuilder.hpp" />
+    <ClInclude Include="..\..\include\Common\game.hpp" />
+    <ClInclude Include="..\..\include\Common\movement.hpp" />
+    <ClInclude Include="..\..\include\Common\movementbuilder.hpp" />
+    <ClInclude Include="..\..\include\Common\notifierobserver.hpp" />
+    <ClInclude Include="..\..\include\Common\position.hpp" />
+    <ClInclude Include="..\..\include\Common\resourcesgrouploader.hpp" />
+    <ClInclude Include="..\..\include\Common\resourcesreader.hpp" />
+    <ClInclude Include="..\..\include\Common\screen.hpp" />
+    <ClInclude Include="..\..\include\Common\sound.hpp" />
+    <ClInclude Include="..\..\include\Common\soundbuilder.hpp" />
+    <ClInclude Include="..\..\include\Common\sprite2d.hpp" />
+    <ClInclude Include="..\..\include\Common\sprite2dbuilder.hpp" />
+    <ClInclude Include="..\..\include\Common\textbuilder.hpp" />
+    <ClInclude Include="..\..\include\Common\timer.hpp" />
+    <ClInclude Include="..\..\include\Common\uniqueidgenerator.hpp" />
+    <ClInclude Include="..\..\include\Common\widget.hpp" />
+    <ClInclude Include="..\..\include\Common\widgetbuilder.hpp" />
+    <ClInclude Include="..\..\include\Common\widgetsystem.hpp" />
+    <ClInclude Include="..\..\include\Common\_exengine.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\background.cpp" />
+    <ClCompile Include="..\..\src\box.cpp" />
+    <ClCompile Include="..\..\src\buoy.cpp" />
+    <ClCompile Include="..\..\src\charactersteps.cpp" />
+    <ClCompile Include="..\..\src\characterstepsbuilder.cpp" />
+    <ClCompile Include="..\..\src\color.cpp" />
+    <ClCompile Include="..\..\src\comms.cpp" />
+    <ClCompile Include="..\..\src\commsbuilder.cpp" />
+    <ClCompile Include="..\..\src\conffile.cpp" />
+    <ClCompile Include="..\..\src\counter.cpp" />
+    <ClCompile Include="..\..\src\element.cpp" />
+    <ClCompile Include="..\..\src\event.cpp" />
+    <ClCompile Include="..\..\src\form.cpp" />
+    <ClCompile Include="..\..\src\form3d.cpp" />
+    <ClCompile Include="..\..\src\form3dbuilder.cpp" />
+    <ClCompile Include="..\..\src\gamecommsaddon.cpp" />
+    <ClCompile Include="..\..\src\gameimplementation.cpp" />
+    <ClCompile Include="..\..\src\gamestate.cpp" />
+    <ClCompile Include="..\..\src\gamestatebuilder.cpp" />
+    <ClCompile Include="..\..\src\genalgorithms.cpp" />
+    <ClCompile Include="..\..\src\inputhandler.cpp" />
+    <ClCompile Include="..\..\src\loopcounter.cpp" />
+    <ClCompile Include="..\..\src\mask.cpp" />
+    <ClCompile Include="..\..\src\maskbuilder.cpp" />
+    <ClCompile Include="..\..\src\matrix.cpp" />
+    <ClCompile Include="..\..\src\object.cpp" />
+    <ClCompile Include="..\..\src\objectbuilder.cpp" />
+    <ClCompile Include="..\..\src\onoffswitch.cpp" />
+    <ClCompile Include="..\..\src\openvalue.cpp" />
+    <ClCompile Include="..\..\src\polygon.cpp" />
+    <ClCompile Include="..\..\src\rectangle.cpp" />
+    <ClCompile Include="..\..\src\entity.cpp" />
+    <ClCompile Include="..\..\src\entitybuilder.cpp" />
+    <ClCompile Include="..\..\src\formbuilder.cpp" />
+    <ClCompile Include="..\..\src\game.cpp" />
+    <ClCompile Include="..\..\src\movement.cpp" />
+    <ClCompile Include="..\..\src\movementbuilder.cpp" />
+    <ClCompile Include="..\..\src\notifierobserver.cpp" />
+    <ClCompile Include="..\..\src\position.cpp" />
+    <ClCompile Include="..\..\src\resourcesgrouploader.cpp" />
+    <ClCompile Include="..\..\src\resourcesreader.cpp" />
+    <ClCompile Include="..\..\src\screen.cpp" />
+    <ClCompile Include="..\..\src\sounbuilder.cpp" />
+    <ClCompile Include="..\..\src\sound.cpp" />
+    <ClCompile Include="..\..\src\sprite2d.cpp" />
+    <ClCompile Include="..\..\src\sprite2dbuilder.cpp" />
+    <ClCompile Include="..\..\src\timer.cpp" />
+    <ClCompile Include="..\..\src\widget.cpp" />
+    <ClCompile Include="..\..\src\widgetbuilder.cpp" />
+    <ClCompile Include="..\..\src\widgetsystem.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

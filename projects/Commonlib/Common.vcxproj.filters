@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de código fuente">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Foundation">
+      <UniqueIdentifier>{43016fd3-35e0-4412-a8be-fd02763adbdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Structure">
+      <UniqueIdentifier>{8bf3bf4a-8858-4087-8517-d1cc72c6ec95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Structure\Builders">
+      <UniqueIdentifier>{26587a55-e3c9-4c9f-a6e4-8bffc2a013c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Foundation">
+      <UniqueIdentifier>{ddc8aadf-1fdd-485b-addc-18bf54596d43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Structure">
+      <UniqueIdentifier>{b355151f-4620-440c-a2b5-7a5d56639e63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Structure\Builders">
+      <UniqueIdentifier>{54a70125-f97a-4045-8714-1b12ca327c79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Communications">
+      <UniqueIdentifier>{eec55667-be2f-429f-ad07-95c13f8f8fc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Communications">
+      <UniqueIdentifier>{959d9614-45ef-45ee-b22d-523502bfb965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Communications\Builders">
+      <UniqueIdentifier>{b8bfd051-4108-4201-93d4-0d58828c452e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Communications\Builders">
+      <UniqueIdentifier>{55c9438f-23e9-4074-9450-368cfcefdb67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Media">
+      <UniqueIdentifier>{7b79fb21-635c-48d6-ad7e-cac891b1da1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Media\Builders">
+      <UniqueIdentifier>{a36f3e0e-09e4-4713-92b2-af72b6ec2595}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Media">
+      <UniqueIdentifier>{2916c520-da6b-4dec-9ad0-1666476192cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Media\Builders">
+      <UniqueIdentifier>{bf69f4ad-063c-490f-af7c-97f00bc8a0d1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\Common\definitions.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\commoninclude.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\dirent.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\_exengine.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\background.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\buoy.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\charactersteps.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\characterstepsbuilder.hpp">
+      <Filter>Archivos de encabezado\Structure\Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\element.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\elementbuilder.hpp">
+      <Filter>Archivos de encabezado\Structure\Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\entity.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\entitybuilder.hpp">
+      <Filter>Archivos de encabezado\Structure\Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\form.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\formbuilder.hpp">
+      <Filter>Archivos de encabezado\Structure\Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\gameimplementation.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\game.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\gamestate.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\gamestatebuilder.hpp">
+      <Filter>Archivos de encabezado\Structure\Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\inputhandler.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\mask.hpp">
+      <Filter>Archivos de encabezado\Media</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\maskbuilder.hpp">
+      <Filter>Archivos de encabezado\Media\Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\movement.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\movementbuilder.hpp">
+      <Filter>Archivos de encabezado\Structure\Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\object.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\objectbuilder.hpp">
+      <Filter>Archivos de encabezado\Structure\Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\resourcesgrouploader.hpp">
+      <Filter>Archivos de encabezado\Structure\Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\screen.hpp">
+      <Filter>Archivos de encabezado\Media</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\sound.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\soundbuilder.hpp">
+      <Filter>Archivos de encabezado\Structure\Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\textbuilder.hpp">
+      <Filter>Archivos de encabezado\Structure\Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\widget.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\widgetsystem.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\widgetbuilder.hpp">
+      <Filter>Archivos de encabezado\Structure\Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\box.hpp">
+      <Filter>Archivos de encabezado\Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\color.hpp">
+      <Filter>Archivos de encabezado\Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\counter.hpp">
+      <Filter>Archivos de encabezado\Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\event.hpp">
+      <Filter>Archivos de encabezado\Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\genalgorithms.hpp">
+      <Filter>Archivos de encabezado\Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\loopcounter.hpp">
+      <Filter>Archivos de encabezado\Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\matrix.hpp">
+      <Filter>Archivos de encabezado\Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\notifierobserver.hpp">
+      <Filter>Archivos de encabezado\Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\onoffswitch.hpp">
+      <Filter>Archivos de encabezado\Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\openvalue.hpp">
+      <Filter>Archivos de encabezado\Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\polygon.hpp">
+      <Filter>Archivos de encabezado\Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\position.hpp">
+      <Filter>Archivos de encabezado\Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\rectangle.hpp">
+      <Filter>Archivos de encabezado\Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\timer.hpp">
+      <Filter>Archivos de encabezado\Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\comms.hpp">
+      <Filter>Archivos de encabezado\Communications</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\gamecommsaddon.hpp">
+      <Filter>Archivos de encabezado\Communications</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\commsbuilder.hpp">
+      <Filter>Archivos de encabezado\Communications\Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\form3d.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\sprite2d.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\form3dbuilder.hpp">
+      <Filter>Archivos de encabezado\Structure\Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\sprite2dbuilder.hpp">
+      <Filter>Archivos de encabezado\Structure\Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\uniqueidgenerator.hpp">
+      <Filter>Archivos de encabezado\Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\conffile.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Common\resourcesreader.hpp">
+      <Filter>Archivos de encabezado\Foundation</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\background.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\buoy.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\box.cpp">
+      <Filter>Archivos de código fuente\Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\charactersteps.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\characterstepsbuilder.cpp">
+      <Filter>Archivos de código fuente\Structure\Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\color.cpp">
+      <Filter>Archivos de código fuente\Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\counter.cpp">
+      <Filter>Archivos de código fuente\Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\element.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\entity.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\entitybuilder.cpp">
+      <Filter>Archivos de código fuente\Structure\Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\event.cpp">
+      <Filter>Archivos de código fuente\Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\form.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\formbuilder.cpp">
+      <Filter>Archivos de código fuente\Structure\Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\game.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gameimplementation.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gamestate.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gamestatebuilder.cpp">
+      <Filter>Archivos de código fuente\Structure\Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\genalgorithms.cpp">
+      <Filter>Archivos de código fuente\Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\inputhandler.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\loopcounter.cpp">
+      <Filter>Archivos de código fuente\Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\mask.cpp">
+      <Filter>Archivos de código fuente\Media</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\maskbuilder.cpp">
+      <Filter>Archivos de código fuente\Media\Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\matrix.cpp">
+      <Filter>Archivos de código fuente\Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\movement.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\movementbuilder.cpp">
+      <Filter>Archivos de código fuente\Structure\Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\notifierobserver.cpp">
+      <Filter>Archivos de código fuente\Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\object.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\objectbuilder.cpp">
+      <Filter>Archivos de código fuente\Structure\Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\onoffswitch.cpp">
+      <Filter>Archivos de código fuente\Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\openvalue.cpp">
+      <Filter>Archivos de código fuente\Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\polygon.cpp">
+      <Filter>Archivos de código fuente\Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\position.cpp">
+      <Filter>Archivos de código fuente\Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\rectangle.cpp">
+      <Filter>Archivos de código fuente\Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\resourcesgrouploader.cpp">
+      <Filter>Archivos de código fuente\Structure\Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\screen.cpp">
+      <Filter>Archivos de código fuente\Media</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sound.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sounbuilder.cpp">
+      <Filter>Archivos de código fuente\Structure\Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\widget.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\widgetsystem.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\widgetbuilder.cpp">
+      <Filter>Archivos de código fuente\Structure\Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\timer.cpp">
+      <Filter>Archivos de código fuente\Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\comms.cpp">
+      <Filter>Archivos de código fuente\Communications</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gamecommsaddon.cpp">
+      <Filter>Archivos de código fuente\Communications</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\commsbuilder.cpp">
+      <Filter>Archivos de código fuente\Communications\Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\form3d.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sprite2d.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\form3dbuilder.cpp">
+      <Filter>Archivos de código fuente\Structure\Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sprite2dbuilder.cpp">
+      <Filter>Archivos de código fuente\Structure\Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\conffile.cpp">
+      <Filter>Archivos de código fuente\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\resourcesreader.cpp">
+      <Filter>Archivos de código fuente\Foundation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

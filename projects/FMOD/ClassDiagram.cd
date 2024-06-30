@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FMODSoundBuilder" Collapsed="true">
+    <Position X="2.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEEIAAABAQAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\FMOD\fmodsoundbuilder.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FMODSound" Collapsed="true">
+    <Position X="0.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAQAAAAAAAAAARAAAAAAAACCgAAAMAAAAAAAAIAA=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\FMOD\fmodsound.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FMODSoundSystem" Collapsed="true">
+    <Position X="0.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAQAAAAAAAABAAAAAAgACAAAQCIAQ=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\FMOD\fmodsound.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

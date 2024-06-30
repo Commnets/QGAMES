@@ -1,0 +1,311 @@
+<?xml version="1.0"?>
+<Monitors>
+
+	<!-- Includes -->
+	<Include file="admonitor.xml"/>
+	
+	<!-- This monitor consists on moving to the left and to the right
+		 This monitor is applied over the battleship. 
+		 So every step is always 6 pixels long (see bsmovements.xml 
+		 This is the reason why all distances are multiples of 6 -->
+	<Monitor id="50000" cyclic="NO">
+		<!-- First stage -->
+		<!-- Staying for a while -->
+		<!-- Step 0. Rel Pos End = 0 -->
+		<Step type="1">
+			<Variable id="Time" value="2"/>
+		</Step>
+		
+		<!-- Second stage -->
+		<!-- Change the state to moving to the left -->
+		<!-- Step 1. Moves 6 pixels 6 before changing. Rel Pos End = -6 -->
+		<Step type="3">
+			<Variable id="State" value="3"/>
+		</Step>
+		<!-- Just move the entity to the left -->
+		<!-- Step 2. Moves also 5 pixels 6 before changing. Rel Pos End = -12 -->
+		<Step type="4">
+			<Variable id="Direction" value="-1,0,0"/>
+			<Variable id="Acceleration" value="0,0,0"/>
+		</Step>
+		<!-- Move a couple of pixels -->
+		<!-- Step 3. Moves the distance said. A multiple of 6. Rel Pos End = -102 -->
+		<Step type="6">
+			<Variable id="Distance" value="90"/>
+		</Step>
+		
+		<!-- Third stage -->
+		<!-- Change the state to moving to the right -->
+		<!-- Step 4. Moves 6 pixels before changing. Rel Pos = -96 -->
+		<Step type="3">
+			<Variable id="State" value="0"/>
+		</Step>
+		<!-- Just move the entity to the right -->
+		<!-- Step 5. Moves 6 pixels before changing. Rel Pos End = -90 -->
+		<Step type="4">
+			<Variable id="Direction" value="1,0,0"/>
+			<Variable id="Acceleration" value="0,0,0"/>
+		</Step>
+		<!-- Move a couple of pixels -->
+		<!-- Step 6. Moves the distance said. A multiple of 6. Rel Pos End = 102 -->
+		<Step type="6">
+			<Variable id="Distance" value="192"/>
+		</Step>
+		
+		<!-- Fourth stage -->
+		<!-- Change the state to moving to the left -->
+		<!-- Step 7. Moves 6 pixels before changing. Rel Pos End = 96  -->
+		<Step type="3">
+			<Variable id="State" value="3"/>
+		</Step>
+		<!-- Just move the entity to the left -->
+		<!-- Step 8. Moves 6 Pixels before changing. Rel Pos End = 90 -->
+		<Step type="4">
+			<Variable id="Direction" value="-1,0,0"/>
+			<Variable id="Acceleration" value="0,0,0"/>
+		</Step>
+		<!-- Move a couple of pixels -->
+		<!-- Step 9. Moves the distance said. Rel Pos End = -10 -->
+		<Step type="6">
+			<Variable id="Distance" value="90"/>
+		</Step>
+		
+		<!-- Fifth stage -->
+		<!-- Stay again back -->
+		<!-- Step 10. Rel Pos End = 0 -->
+		<Step type="3">
+			<Variable id="State" value="8"/>
+		</Step>
+	</Monitor>
+	
+	<!-- This monitor consists on moving forward and backward -->
+	<!-- In terms of distances if quite similar to the previous one -->
+	<Monitor id="50001" cyclic="NO">
+		<!-- First stage -->
+		<!-- Staying for a while -->
+		<Step type="1">
+			<Variable id="Time" value="2"/>
+		</Step>
+		
+		<!-- Second stage -->
+		<!-- Change the state to moving forward -->
+		<Step type="3">
+			<Variable id="State" value="6"/>
+		</Step>
+		<!-- Just move the entity forward -->
+		<Step type="4">
+			<Variable id="Direction" value="0,-1,0"/>
+			<Variable id="Acceleration" value="0,0,0"/>
+		</Step>
+		<!-- Move a couple of pixels -->
+		<Step type="6">
+			<Variable id="Distance" value="90"/>
+		</Step>
+		
+		<!-- Third stage -->
+		<!-- Change the state to moving backward -->
+		<Step type="3">
+			<Variable id="State" value="7"/>
+		</Step>
+		<!-- Just move the entity backward -->
+		<Step type="4">
+			<Variable id="Direction" value="0,1,0"/>
+			<Variable id="Acceleration" value="0,0,0"/>
+		</Step>
+		<!-- Move a couple of pixels -->
+		<Step type="6">
+			<Variable id="Distance" value="192"/>
+		</Step>
+		
+		<!-- Fourth stage -->
+		<!-- Change the state to moving forward -->
+		<Step type="3">
+			<Variable id="State" value="6"/>
+		</Step>
+		<!-- Just move the entity forward -->
+		<Step type="4">
+			<Variable id="Direction" value="0,-1,0"/>
+			<Variable id="Acceleration" value="0,0,0"/>
+		</Step>
+		<!-- Move a couple of pixels -->
+		<Step type="6">
+			<Variable id="Distance" value="90"/>
+		</Step>
+		
+		<!-- Fifth stage -->
+		<!-- Stay again back -->
+		<Step type="3">
+			<Variable id="State" value="8"/>
+		</Step>
+	</Monitor>
+	
+	<!-- This monitor consists on moving to the corners -->
+	<Monitor id="50002" cyclic="NO">
+		<!-- First stage -->
+		<!-- Staying for a while -->
+		<!-- Step 0. Rel Pos End = 0 -->
+		<Step type="1">
+			<Variable id="Time" value="2"/>
+		</Step>
+		
+		<!-- Second stage -->
+		<!-- Change the state to moving forward left -->
+		<!-- Step 1. Rel Pos End = (-6 , -6) -->
+		<Step type="3">
+			<Variable id="State" value="4"/>
+		</Step>
+		<!-- Just move the entity forward left -->
+		<!--Step 2. Rel Pos End = (-12, -12) -->
+		<Step type="4">
+			<Variable id="Direction" value="-1,-1,0"/>
+			<Variable id="Acceleration" value="0,0,0"/>
+		</Step>
+		<!-- Move a couple of pixels -->
+		<!-- Step 3. Rel Pos End = (-96, -96) -->
+		<Step type="6">
+			<Variable id="Distance" value="118.7"/>
+		</Step>
+		
+		<!-- Third stage -->
+		<!-- Change the state to moving backward right -->
+		<!-- Step 4: Rel Pos End = (-90, -90) -->
+		<Step type="3">
+			<Variable id="State" value="2"/>
+		</Step>
+		<!-- Just move the entity backward right -->
+		<!-- Step 5: Rel Pos End = (-84, -84) -->
+		<Step type="4">
+			<Variable id="Direction" value="1,1,0"/>
+			<Variable id="Acceleration" value="0,0,0"/>
+		</Step>
+		<!-- Move a couple of pixels -->
+		<!-- Step 6: Rel Pos End = (96, 96) -->
+		<Step type="6">
+			<Variable id="Distance" value="254.5"/>
+		</Step>
+		
+		<!-- Fourth stage -->
+		<!-- Change the state to moving forward left -->
+		<!-- Step 7: Rel Pos End = (90, 90) -->
+		<Step type="3">
+			<Variable id="State" value="4"/>
+		</Step>
+		<!-- Just move the entity forward left -->
+		<!-- Step 8: Rel Pos End = (84, 84) -->
+		<Step type="4">
+			<Variable id="Direction" value="-1,-1,0"/>
+			<Variable id="Acceleration" value="0,0,0"/>
+		</Step>
+		<!-- Move a couple of pixels -->
+		<!-- Step 9: Rel Pos End = (0, 0) -->
+		<Step type="6">
+			<Variable id="Distance" value="118.7"/>
+		</Step>
+		
+		<!-- Fifth stage -->
+		<!-- Stay again back -->
+		<!-- Step 10: Rel Pos End = (0,0) -->
+		<Step type="3">
+			<Variable id="State" value="8"/>
+		</Step>
+	
+		<!-- Sixth stage -->
+		<!-- Staying for a while -->
+		<!-- Step 11: Rel Pos End = (0, 0) -->
+		<Step type="1">
+			<Variable id="Time" value="1"/>
+		</Step>
+		
+		<!-- Seventh stage -->
+		<!-- Change the state to moving backward left -->
+		<!-- Step 12: Rel Pos End = (-6, 6) -->
+		<Step type="3">
+			<Variable id="State" value="5"/>
+		</Step>
+		<!-- Just move the entity backward left -->
+		<!-- Step 13: Rel Pos End = (-12, 12) -->
+		<Step type="4">
+			<Variable id="Direction" value="-1,1,0"/>
+			<Variable id="Acceleration" value="0,0,0"/>
+		</Step>
+		<!-- Move a couple of pixels -->
+		<!-- Step 13: Rel Pos End = (-96, 96) -->
+		<Step type="6">
+			<Variable id="Distance" value="118.7"/>
+		</Step>
+		
+		<!-- Eight stage -->
+		<!-- Change the state to moving forward right -->
+		<!-- Step 14: Rel Pos End = (-90, 90) -->
+		<Step type="3">
+			<Variable id="State" value="1"/>
+		</Step>
+		<!-- Just move the entity forward right -->
+		<!-- Step 15: Rel Pos End = (-84, 84) -->
+		<Step type="4">
+			<Variable id="Direction" value="1,-1,0"/>
+			<Variable id="Acceleration" value="0,0,0"/>
+		</Step>
+		<!-- Move a couple of pixels -->
+		<!-- Step 15: Rel Pos End = (96, -96) -->
+		<Step type="6">
+			<Variable id="Distance" value="254.5"/>
+		</Step>
+		
+		<!-- Nineth stage -->
+		<!-- Change the state to moving backward left -->
+		<!-- Step 16: Rel Pos End = (90, -90) -->
+		<Step type="3">
+			<Variable id="State" value="5"/>
+		</Step>
+		<!-- Just move the entity backward left -->
+		<!-- Step 17: Rel Pos End = (84, -84) -->
+		<Step type="4">
+			<Variable id="Direction" value="-1,1,0"/>
+			<Variable id="Acceleration" value="0,0,0"/>
+		</Step>
+		<!-- Move a couple of pixels -->
+		<!-- Step 18: Rel Pos End = (0, 0) -->
+		<Step type="6">
+			<Variable id="Distance" value="118.7"/>
+		</Step>
+		
+		<!-- Tenth stage -->
+		<!-- Stay again back -->
+		<!-- Step 19: Rel Pos End = (0,0) -->
+		<Step type="3">
+			<Variable id="State" value="8"/>
+		</Step>
+	</Monitor>
+	
+	<!-- This monitor consists on rotating in the same place -->
+	<Monitor id="50003" cyclic="NO">
+		<!-- First stage -->
+		<!-- Staying for a while -->
+		<!-- Step 0: Rel Pos End = (0, 0) -->
+		<Step type="1">
+			<Variable id="Time" value="1"/>
+		</Step>
+		
+		<!-- Second stage -->
+		<!-- Change the state to rotating -->
+		<!-- Step 1: Rel Pos End = (0, 0) -->
+		<Step type="3">
+			<Variable id="State" value="9"/>
+		</Step>
+		<!-- Just for a while -->
+		<!-- Step 2: Rel Pos End = (0, 0) -->
+		<!-- A full loop takes ((4 * 18) / 60) seconds, so in 2.4 seconds 2 loops will happen -->
+		<Step type="1">
+			<Variable id="Time" value="2.4"/>
+		</Step>
+		
+		<!-- Third stage -->
+		<!-- Stay again back -->
+		<!-- Step 3: Rel Pos End = (0, 0) -->
+		<Step type="3">
+			<Variable id="State" value="8"/>
+		</Step>
+	</Monitor>
+	
+</Monitors>

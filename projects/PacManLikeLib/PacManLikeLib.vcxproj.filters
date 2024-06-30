@@ -1,0 +1,932 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Communications">
+      <UniqueIdentifier>{6963db27-f3be-4201-8971-1166a7998db2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Foundation">
+      <UniqueIdentifier>{6bf042fc-28cd-4b22-8a18-56b57e7ed132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Media">
+      <UniqueIdentifier>{90a715e9-db5b-4ca9-a2c4-a323a73bae1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Structure">
+      <UniqueIdentifier>{0809dc8f-e89b-42e3-b265-3ca8316758bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Communications">
+      <UniqueIdentifier>{955e7010-bb8a-4d27-9c96-2807176649c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Foundation">
+      <UniqueIdentifier>{f3a44814-f134-44a6-b6c8-c82958d5f35c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Media">
+      <UniqueIdentifier>{3da8d61c-c80d-4e20-aa52-bb4a9d02b4a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Structure">
+      <UniqueIdentifier>{01370e2f-4cb5-46f4-8e03-913396db4503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Structure\Builders">
+      <UniqueIdentifier>{a8a41b0f-e71f-4521-9848-6cbacff98a4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Structure\Builders">
+      <UniqueIdentifier>{d4561821-0e29-445a-b3fe-7dd396148c50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Media\Builders">
+      <UniqueIdentifier>{b61d0cee-4402-48ac-858e-a19cf8c546eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Communications\Builders">
+      <UniqueIdentifier>{b99b9d36-a39b-49d0-ab7b-213fdce1682f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Communications\Builders">
+      <UniqueIdentifier>{e60010fe-ca9c-40b6-b403-403c868a1737}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Media\Builders">
+      <UniqueIdentifier>{567c33e9-0b8f-48b8-960a-2e5c6c8dee23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Structure\Artists">
+      <UniqueIdentifier>{4b88d3dd-6a55-4820-b641-060fb329f0df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Structure\Artists">
+      <UniqueIdentifier>{140595e0-6f34-4038-8944-26fd65a378a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Structure\Scenes">
+      <UniqueIdentifier>{050be217-ec09-4725-b962-6581d61a83e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Structure\Scenes">
+      <UniqueIdentifier>{edd033cb-c526-4875-9d41-0a9f736b8394}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Configuration">
+      <UniqueIdentifier>{f6e945df-23bb-48b3-ae67-5d392ae85dc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{64c0fffd-e81a-44dc-b22c-ea4b9796b68a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Forms">
+      <UniqueIdentifier>{802e8c0d-ce30-464b-b8e1-d8a146eb8f99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Maps">
+      <UniqueIdentifier>{08e0a484-09fc-42d6-a313-2367e9c61b57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Sounds">
+      <UniqueIdentifier>{f5bd3de8-1ae1-4db6-8fe7-0bc0a81bd196}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Forms\Sources">
+      <UniqueIdentifier>{4d81c6cc-e4b1-4fec-9a4a-909c660f310b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Forms\Sources\Fonts">
+      <UniqueIdentifier>{95b40eaf-47de-4457-a532-86714e233cb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Forms\Sources\MazeDirs">
+      <UniqueIdentifier>{cefa9a3d-9756-45fc-a817-3dd00a5bc1eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Forms\Sources\Spritesheets">
+      <UniqueIdentifier>{ae2277a3-aa68-498d-b102-dc87e45810c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Maps\Maps">
+      <UniqueIdentifier>{0e840431-db4c-494c-ad4b-578ab3db4e8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Structure\ActionBlocks">
+      <UniqueIdentifier>{39a24369-87a3-4936-a15c-2a6652a6655c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Structure\ActionBlocks">
+      <UniqueIdentifier>{7265e9b4-5671-4971-a39b-92b6f97ab9b3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\pcartists.cpp">
+      <Filter>Archivos de origen\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pcbuilders.cpp">
+      <Filter>Archivos de origen\Structure\Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pcdatagame.cpp">
+      <Filter>Archivos de origen\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pcgame.cpp">
+      <Filter>Archivos de origen\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pcgamestates.cpp">
+      <Filter>Archivos de origen\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pcguisystem.cpp">
+      <Filter>Archivos de origen\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pcinputhandler.cpp">
+      <Filter>Archivos de origen\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pcletters.cpp">
+      <Filter>Archivos de origen\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pcmaps.cpp">
+      <Filter>Archivos de origen\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pcmovements.cpp">
+      <Filter>Archivos de origen\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pcscenes.cpp">
+      <Filter>Archivos de origen\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pcscoreobjects.cpp">
+      <Filter>Archivos de origen\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pcworlds.cpp">
+      <Filter>Archivos de origen\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pcfruit.cpp">
+      <Filter>Archivos de origen\Structure\Artists</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pcmonsters.cpp">
+      <Filter>Archivos de origen\Structure\Artists</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pcpacman.cpp">
+      <Filter>Archivos de origen\Structure\Artists</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pcmaze.cpp">
+      <Filter>Archivos de origen\Foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pcstandardscenes.cpp">
+      <Filter>Archivos de origen\Structure\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pcsceneactionblocks.cpp">
+      <Filter>Archivos de origen\Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pcstandardsceneactionblocks.cpp">
+      <Filter>Archivos de origen\Structure\ActionBlocks</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\PacManLike\pcdefs.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\PacManLike\pcartists.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\PacManLike\pcbuilders.hpp">
+      <Filter>Archivos de encabezado\Structure\Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\PacManLike\pcdatagame.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\PacManLike\pcgame.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\PacManLike\pcgamestates.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\PacManLike\pcguisystem.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\PacManLike\pcinputhandler.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\PacManLike\pcletters.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\PacManLike\pcmaps.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\PacManLike\pcmovements.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\PacManLike\pcscenes.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\PacManLike\pcworlds.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\PacManLike\pcfruit.hpp">
+      <Filter>Archivos de encabezado\Structure\Artists</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\PacManLike\pcmonsters.hpp">
+      <Filter>Archivos de encabezado\Structure\Artists</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\PacManLike\pcpacman.hpp">
+      <Filter>Archivos de encabezado\Structure\Artists</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\PacManLike\pcstandardscenes.hpp">
+      <Filter>Archivos de encabezado\Structure\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\PacManLike\pcscoreobjects.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\PacManLike\pcinclude.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\PacManLike\pcmaze.hpp">
+      <Filter>Archivos de encabezado\Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\PacManLike\pcsceneactionblocks.hpp">
+      <Filter>Archivos de encabezado\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\PacManLike\pcstandardsceneactionblocks.hpp">
+      <Filter>Archivos de encabezado\Structure\ActionBlocks</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="adguisystem.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="pcconf.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="pcentities.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="pcforms.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="pcgamestates.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="pcguisystem.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="pcletters.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="pcmaps.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="pcmonitor.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="pcmovements.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="pcobjects.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="pcsounds.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="pcworlds.xml">
+      <Filter>Configuration</Filter>
+    </Xml>
+    <Xml Include="forms\Fonts\24NewTourBlue.xml">
+      <Filter>Data\Forms\Sources\Fonts</Filter>
+    </Xml>
+    <Xml Include="forms\Fonts\24NewTourGreen.xml">
+      <Filter>Data\Forms\Sources\Fonts</Filter>
+    </Xml>
+    <Xml Include="forms\Fonts\24NewTourRed.xml">
+      <Filter>Data\Forms\Sources\Fonts</Filter>
+    </Xml>
+    <Xml Include="forms\Fonts\24NewTourYellow.xml">
+      <Filter>Data\Forms\Sources\Fonts</Filter>
+    </Xml>
+    <Xml Include="forms\Fonts\36NewTourBlue.xml">
+      <Filter>Data\Forms\Sources\Fonts</Filter>
+    </Xml>
+    <Xml Include="forms\Fonts\36NewTourGreen.xml">
+      <Filter>Data\Forms\Sources\Fonts</Filter>
+    </Xml>
+    <Xml Include="forms\Fonts\36NewTourRed.xml">
+      <Filter>Data\Forms\Sources\Fonts</Filter>
+    </Xml>
+    <Xml Include="forms\Fonts\36NewTourYellow.xml">
+      <Filter>Data\Forms\Sources\Fonts</Filter>
+    </Xml>
+    <Xml Include="forms\Fonts\48NewTourBlue.xml">
+      <Filter>Data\Forms\Sources\Fonts</Filter>
+    </Xml>
+    <Xml Include="forms\Fonts\48NewTourGreen.xml">
+      <Filter>Data\Forms\Sources\Fonts</Filter>
+    </Xml>
+    <Xml Include="forms\Fonts\48NewTourRed.xml">
+      <Filter>Data\Forms\Sources\Fonts</Filter>
+    </Xml>
+    <Xml Include="forms\Fonts\48NewTourYellow.xml">
+      <Filter>Data\Forms\Sources\Fonts</Filter>
+    </Xml>
+    <Xml Include="forms\MazeDirs\MazeDirs.xml">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="forms\Fonts\24NewTourBlue.fnt">
+      <Filter>Data\Forms\Sources\Fonts</Filter>
+    </None>
+    <None Include="forms\Fonts\24NewTourBlue.sfb">
+      <Filter>Data\Forms\Sources\Fonts</Filter>
+    </None>
+    <None Include="forms\Fonts\24NewTourGreen.fnt">
+      <Filter>Data\Forms\Sources\Fonts</Filter>
+    </None>
+    <None Include="forms\Fonts\24NewTourGreen.sfb">
+      <Filter>Data\Forms\Sources\Fonts</Filter>
+    </None>
+    <None Include="forms\Fonts\24NewTourRed.fnt">
+      <Filter>Data\Forms\Sources\Fonts</Filter>
+    </None>
+    <None Include="forms\Fonts\24NewTourRed.sfb">
+      <Filter>Data\Forms\Sources\Fonts</Filter>
+    </None>
+    <None Include="forms\Fonts\24NewTourYellow.fnt">
+      <Filter>Data\Forms\Sources\Fonts</Filter>
+    </None>
+    <None Include="forms\Fonts\24NewTourYellow.sfb">
+      <Filter>Data\Forms\Sources\Fonts</Filter>
+    </None>
+    <None Include="forms\Fonts\36NewTourBlue.fnt">
+      <Filter>Data\Forms\Sources\Fonts</Filter>
+    </None>
+    <None Include="forms\Fonts\36NewTourBlue.sfb">
+      <Filter>Data\Forms\Sources\Fonts</Filter>
+    </None>
+    <None Include="forms\Fonts\36NewTourGreen.fnt">
+      <Filter>Data\Forms\Sources\Fonts</Filter>
+    </None>
+    <None Include="forms\Fonts\36NewTourGreen.sfb">
+      <Filter>Data\Forms\Sources\Fonts</Filter>
+    </None>
+    <None Include="forms\Fonts\36NewTourRed.fnt">
+      <Filter>Data\Forms\Sources\Fonts</Filter>
+    </None>
+    <None Include="forms\Fonts\36NewTourRed.sfb">
+      <Filter>Data\Forms\Sources\Fonts</Filter>
+    </None>
+    <None Include="forms\Fonts\36NewTourYellow.fnt">
+      <Filter>Data\Forms\Sources\Fonts</Filter>
+    </None>
+    <None Include="forms\Fonts\36NewTourYellow.sfb">
+      <Filter>Data\Forms\Sources\Fonts</Filter>
+    </None>
+    <None Include="forms\Fonts\48NewTourBlue.fnt">
+      <Filter>Data\Forms\Sources\Fonts</Filter>
+    </None>
+    <None Include="forms\Fonts\48NewTourBlue.sfb">
+      <Filter>Data\Forms\Sources\Fonts</Filter>
+    </None>
+    <None Include="forms\Fonts\48NewTourGreen.fnt">
+      <Filter>Data\Forms\Sources\Fonts</Filter>
+    </None>
+    <None Include="forms\Fonts\48NewTourGreen.sfb">
+      <Filter>Data\Forms\Sources\Fonts</Filter>
+    </None>
+    <None Include="forms\Fonts\48NewTourRed.fnt">
+      <Filter>Data\Forms\Sources\Fonts</Filter>
+    </None>
+    <None Include="forms\Fonts\48NewTourRed.sfb">
+      <Filter>Data\Forms\Sources\Fonts</Filter>
+    </None>
+    <None Include="forms\Fonts\48NewTourYellow.fnt">
+      <Filter>Data\Forms\Sources\Fonts</Filter>
+    </None>
+    <None Include="forms\Fonts\48NewTourYellow.sfb">
+      <Filter>Data\Forms\Sources\Fonts</Filter>
+    </None>
+    <None Include="forms\MazeDirs\MazDirs.xcf">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </None>
+    <None Include="forms\MazeDirs\MazeDirs.tps">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </None>
+    <None Include="forms\Spritesheets\chompermazetiles_green.xcf">
+      <Filter>Data\Forms\Sources\Spritesheets</Filter>
+    </None>
+    <None Include="forms\Spritesheets\chompermazetiles_red.xcf">
+      <Filter>Data\Forms\Sources\Spritesheets</Filter>
+    </None>
+    <None Include="forms\Spritesheets\chompermazetiles_yellow.xcf">
+      <Filter>Data\Forms\Sources\Spritesheets</Filter>
+    </None>
+    <None Include="forms\Spritesheets\GiantPacman.xcf">
+      <Filter>Data\Forms\Sources\Spritesheets</Filter>
+    </None>
+    <None Include="forms\Spritesheets\ManyManyMonsters.xcf">
+      <Filter>Data\Forms\Sources\Spritesheets</Filter>
+    </None>
+    <None Include="forms\Spritesheets\ManyMonsters.xcf">
+      <Filter>Data\Forms\Sources\Spritesheets</Filter>
+    </None>
+    <None Include="forms\Spritesheets\mazezones.xcf">
+      <Filter>Data\Forms\Sources\Spritesheets</Filter>
+    </None>
+    <None Include="forms\Spritesheets\MonstersAfterPacman.xcf">
+      <Filter>Data\Forms\Sources\Spritesheets</Filter>
+    </None>
+    <None Include="forms\Spritesheets\MonstersAndPacman.xcf">
+      <Filter>Data\Forms\Sources\Spritesheets</Filter>
+    </None>
+    <None Include="forms\Spritesheets\MonstersInMaze.xcf">
+      <Filter>Data\Forms\Sources\Spritesheets</Filter>
+    </None>
+    <None Include="forms\Spritesheets\MonstersLeft.xcf">
+      <Filter>Data\Forms\Sources\Spritesheets</Filter>
+    </None>
+    <None Include="forms\Spritesheets\MonstersRight.xcf">
+      <Filter>Data\Forms\Sources\Spritesheets</Filter>
+    </None>
+    <None Include="forms\Spritesheets\pacmanloading.xcf">
+      <Filter>Data\Forms\Sources\Spritesheets</Filter>
+    </None>
+    <None Include="forms\Spritesheets\pacmanlogo.xcf">
+      <Filter>Data\Forms\Sources\Spritesheets</Filter>
+    </None>
+    <None Include="maps\empty.tmx">
+      <Filter>Data\Maps</Filter>
+    </None>
+    <None Include="maps\map.tmx">
+      <Filter>Data\Maps</Filter>
+    </None>
+    <None Include="maps\maptest.tmx">
+      <Filter>Data\Maps</Filter>
+    </None>
+    <None Include="maps\normalmap_blue.tmx">
+      <Filter>Data\Maps</Filter>
+    </None>
+    <None Include="maps\normalmap_green.tmx">
+      <Filter>Data\Maps</Filter>
+    </None>
+    <None Include="maps\normalmap_red.tmx">
+      <Filter>Data\Maps</Filter>
+    </None>
+    <None Include="maps\normalmap_yellow.tmx">
+      <Filter>Data\Maps</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="forms\MazeDirs\MazDirsGIMP.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\MazeDirs.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile000.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile001.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile002.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile003.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile004.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile005.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile006.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile007.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile008.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile009.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile010.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile011.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile012.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile013.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile014.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile015.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile016.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile017.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile018.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile019.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile020.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile021.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile022.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile023.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile024.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile025.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile026.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile027.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile028.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile029.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile030.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile031.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile032.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile033.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile034.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile035.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile036.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile037.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile038.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile039.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile040.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile041.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile042.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile043.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile044.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile045.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile046.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile047.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile048.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile049.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile050.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile051.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile052.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile053.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile054.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile055.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile056.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile057.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile058.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile059.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile060.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile061.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile062.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile063.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile064.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile065.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile066.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile067.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile068.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile069.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile070.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile071.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile072.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile073.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile074.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile075.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile076.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile077.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile078.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\MazeDirs\tile079.png">
+      <Filter>Data\Forms\Sources\MazeDirs</Filter>
+    </Image>
+    <Image Include="forms\24NewTourBlue.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\24NewTourGreen.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\24NewTourRed.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\24NewTourYellow.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\36NewTourBlue.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\36NewTourGreen.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\36NewTourRed.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\36NewTourYellow.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\48NewTourBlue.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\48NewTourGreen.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\48NewTourRed.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\48NewTourYellow.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\background.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\chompersprites.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\fruits.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\giantpacman.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ManyManyMonsters.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\ManyMonsters.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\MonstersAfterPacman.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\MonstersAndPacman.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\MonstersInMaze.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\MonstersLeft.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\MonstersRight.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\pacmanloading.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\pacmanlogo.ico">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="forms\pacmanlogo.png">
+      <Filter>Data\Forms</Filter>
+    </Image>
+    <Image Include="maps\chompermazetiles.png">
+      <Filter>Data\Maps</Filter>
+    </Image>
+    <Image Include="maps\chompermazetiles_blue.png">
+      <Filter>Data\Maps</Filter>
+    </Image>
+    <Image Include="maps\chompermazetiles_green.png">
+      <Filter>Data\Maps</Filter>
+    </Image>
+    <Image Include="maps\chompermazetiles_red.png">
+      <Filter>Data\Maps</Filter>
+    </Image>
+    <Image Include="maps\chompermazetiles_yellow.png">
+      <Filter>Data\Maps</Filter>
+    </Image>
+    <Image Include="maps\location.png">
+      <Filter>Data\Maps</Filter>
+    </Image>
+    <Image Include="maps\mazedirs.png">
+      <Filter>Data\Maps</Filter>
+    </Image>
+    <Image Include="maps\mazezones.png">
+      <Filter>Data\Maps</Filter>
+    </Image>
+    <Image Include="maps\maps\chompermazetiles.png">
+      <Filter>Data\Maps\Maps</Filter>
+    </Image>
+    <Image Include="maps\maps\chompermazetiles_blue.png">
+      <Filter>Data\Maps\Maps</Filter>
+    </Image>
+    <Image Include="maps\maps\chompermazetiles_green.png">
+      <Filter>Data\Maps\Maps</Filter>
+    </Image>
+    <Image Include="maps\maps\chompermazetiles_red.png">
+      <Filter>Data\Maps\Maps</Filter>
+    </Image>
+    <Image Include="maps\maps\chompermazetiles_yellow.png">
+      <Filter>Data\Maps\Maps</Filter>
+    </Image>
+    <Image Include="maps\maps\location.png">
+      <Filter>Data\Maps\Maps</Filter>
+    </Image>
+    <Image Include="maps\maps\mazedirs.png">
+      <Filter>Data\Maps\Maps</Filter>
+    </Image>
+    <Image Include="maps\maps\mazezones.png">
+      <Filter>Data\Maps\Maps</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="sounds\pacman_beginning.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacman_beginning.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacman_chomp.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacman_chomp.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacman_chomp_short.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacman_chomp_short.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacman_death.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacman_death.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacman_eatfruit.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacman_eatfruit.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacman_eatghost.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacman_eatghost.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacman_extrapac.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacman_extrapac.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacman_intermission.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacman_intermission.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacman_siren.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacman_siren.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacman_siren_fast.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacman_siren_fast.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacman_siren_veryfast.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacman_siren_veryfast.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacman_threatening.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacman_threatening.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacmanIIgameoverbackground.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacmanIIgameoverbackground.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacmanIIhalloffamebackground.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacmanIIhalloffamebackground.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacmanIImenubackground.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacmanIImenubackground.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacmanIIwinbackground.mp3">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+    <Media Include="sounds\pacmanIIwinbackground.wav">
+      <Filter>Data\Sounds</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

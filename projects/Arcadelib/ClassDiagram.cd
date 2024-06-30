@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="QGAMES::Artist" Collapsed="true">
+    <Position X="3.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAIABACAAAEAAAAAAAAA=</HashCode>
+      <FileName>d:\workspaces\qgames\include\arcade\artist.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::ToFixScreenOnArtist" Collapsed="true">
+    <Position X="8" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAJAAAAAgAAAgABACAAAIAIBAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Arcade\arcadegame.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::ArcadeGame" Collapsed="true">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CgQBEAAIAAAAkAIAAgEAgkAABQAKACgQAhAAAgAAAgA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Arcade\arcadegame.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::Map" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAEAAAARACEAUAQAEAEMAAFQAAAKgAAIKIJAQAEAU=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Arcade\map.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::TileLayer" Collapsed="true">
+    <Position X="3" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAEgAEAABACISAQAAAGACAhgABCAAAAAAZAAAAEAg=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Arcade\layer.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::ArtistInATiledMap" Collapsed="true">
+    <Position X="3.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAIARiEQAgAAAgAAAEACAECgAABQCCgAABAAgACAAA=</HashCode>
+      <FileName>d:\workspaces\qgames\include\arcade\artist.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::Scene" Collapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIIJEhAAACAIHAAAgAUDUEoBRAIBAygQIIAIAACCBEE=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Arcade\scene.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::EnvironmentalCondition" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAIAEAAAAIACIAAAQCAAAAIAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Arcade\envcondition.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::ComplexEnvironmentalCondition" Collapsed="true">
+    <Position X="0.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAIAAAQABAAAIAAEEAAFgBBAEAQDAAAIAAAAAAAAE=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Arcade\envcondition.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::Layer" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIBMAQAAAAEMABAAAUAMAACQAAFACAEAEAJggAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Arcade\layer.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::ObjectLayer" Collapsed="true">
+    <Position X="0.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAQAAAAAAAAEAAEAABABBAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Arcade\layer.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::ImageLayer" Collapsed="true">
+    <Position X="5.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAQAAAAAAAAAAAABAABQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Arcade\layer.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::World" Collapsed="true">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAABAAEAAAAAEAEMAABEAGAKAAAIAIEACAAAE=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Arcade\world.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::TiledMap" Collapsed="true">
+    <Position X="2.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAADAKAQAwAAAAAAAABAgCCEAAAATIQAAAAE=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Arcade\map.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::ObjectMap" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAIAAAAAACAAAQAQAAAAAAAABAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Arcade\map.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::MapBuilder" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgEAAAAAAAAAABAAAgAAAAQAAAEAAAAAAAIAiAAAg=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Arcade\mapbuilder.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::TMXMapBuilderAddsOn" Collapsed="true">
+    <Position X="15" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SACEgBAQAAEEAQAigBAAAgEBUAAAAAAAAAAAIACBAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Arcade\mapbuilder.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::ObjectMapBuilderAddsOn" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkECAAAEAEAgAAAAAAAAAAUAAAAAAAAAAAAAABAAI=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Arcade\mapbuilder.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::Tile" Collapsed="true">
+    <Position X="5.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gRIAIAAAAAAAEAQAAAAAAAgABQQBAAAAQAEEAQAARRE=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Arcade\tile.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::NullTile" Collapsed="true">
+    <Position X="5.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAEAAAAAAAAEAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Arcade\tile.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGAMES::WorldBuilder" Collapsed="true">
+    <Position X="11.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIEABAAACAAAAAABCgAAAAQgCAEiASBQAIAAAAAgA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Arcade\worldbuilder.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Typedef Name="QGAMES::ArtistInATiledMapList" Collapsed="true">
+    <Position X="8" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>d:\workspaces\qgames\include\arcade\artist.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::EnvironmentalConditions" Collapsed="true">
+    <Position X="11.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Arcade\envcondition.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::Layers" Collapsed="true">
+    <Position X="8" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Arcade\layer.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::TileLayers" Collapsed="true">
+    <Position X="11.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Arcade\layer.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::ObjectLayers" Collapsed="true">
+    <Position X="13.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Arcade\layer.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::ImageLayers" Collapsed="true">
+    <Position X="13.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Arcade\layer.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::LayerProperties" Collapsed="true">
+    <Position X="15" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Arcade\layer.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::Maps" Collapsed="true">
+    <Position X="11.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Arcade\map.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::MapProperties" Collapsed="true">
+    <Position X="9.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Arcade\map.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::Scenes" Collapsed="true">
+    <Position X="8" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Arcade\scene.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::SceneProperties" Collapsed="true">
+    <Position X="15" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Arcade\scene.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::EntitiesPerLayer" Collapsed="true">
+    <Position X="9.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Arcade\scene.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::Tiles" Collapsed="true">
+    <Position X="15" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Arcade\tile.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::SetOfTiles" Collapsed="true">
+    <Position X="9.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Arcade\tile.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::TileProperties" Collapsed="true">
+    <Position X="13.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Arcade\tile.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::Worlds" Collapsed="true">
+    <Position X="9.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Arcade\world.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QGAMES::WorldProperties" Collapsed="true">
+    <Position X="8" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Workspaces\QGAMES\include\Arcade\world.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

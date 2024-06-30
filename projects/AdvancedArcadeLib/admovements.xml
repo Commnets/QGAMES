@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- This file should be included in your own -->
+<Movements>
+
+	<!-- Not movement -->
+	<Movement id="10000"/>
+	
+</Movements>

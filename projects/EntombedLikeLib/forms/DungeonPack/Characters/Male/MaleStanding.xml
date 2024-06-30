@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:5c581ec47c28f38b7146a020da8ec45d:cd98ecd08a6c60d9ad9544299983648a:d07d803cdaf212ee3f3abb73a6ae34ec$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="MaleStanding" file="./forms/MaleStanding.png" width="774" height="1542"
+		fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="?">
+		<Frame id="Male_0_Idle0" fPosX="1" fPosY="1" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256"/>
+		<Frame id="Male_1_Idle0" fPosX="259" fPosY="1" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256"/>
+		<Frame id="Male_2_Idle0" fPosX="517" fPosY="1" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256"/>
+		<Frame id="Male_3_Idle0" fPosX="1" fPosY="515" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256"/>
+		<Frame id="Male_4_Idle0" fPosX="1" fPosY="1029" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256"/>
+		<Frame id="Male_5_Idle0" fPosX="259" fPosY="515" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256"/>
+		<Frame id="Male_6_Idle0" fPosX="517" fPosY="515" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256"/>
+		<Frame id="Male_7_Idle0" fPosX="259" fPosY="1029" fWidth="256" fHeight="512" xoffset="0" yoffset="0" width="256"/>
+    </Form>
+</CommtyExporter>

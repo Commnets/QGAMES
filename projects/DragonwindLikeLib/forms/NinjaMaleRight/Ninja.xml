@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:b8ded877f959551afce16c14c184933c:16f254b5c047ae5703ac3349447b2fce:d147d068a84d70f975929b436c435baf$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="Ninja.png" width="946" height="878">
+    <sprite n="Attack__000.png" x="5" y="5" w="60" h="90" pX="0.758333" pY="0.516667"/>
+    <sprite n="Attack__001.png" x="70" y="5" w="58" h="90" pX="0.784483" pY="0.527778"/>
+    <sprite n="Attack__002.png" x="133" y="5" w="62" h="91" pX="0.830645" pY="0.532967"/>
+    <sprite n="Attack__003.png" x="200" y="5" w="99" h="90" pX="0.459596" pY="0.527778"/>
+    <sprite n="Attack__004.png" x="304" y="5" w="100" h="90" pX="0.465" pY="0.516667"/>
+    <sprite n="Attack__005.png" x="409" y="5" w="107" h="87" pX="0.5" pY="0.5"/>
+    <sprite n="Attack__006.png" x="521" y="5" w="107" h="87" pX="0.5" pY="0.5"/>
+    <sprite n="Attack__007.png" x="633" y="5" w="107" h="87" pX="0.5" pY="0.5"/>
+    <sprite n="Attack__008.png" x="745" y="5" w="87" h="88" pX="0.603448" pY="0.505682"/>
+    <sprite n="Attack__009.png" x="837" y="5" w="79" h="90" pX="0.588608" pY="0.516667"/>
+    <sprite n="Climb_000.png" x="5" y="101" w="49" h="93" pX="0.571429" pY="0.5"/>
+    <sprite n="Climb_001.png" x="59" y="101" w="52" h="93" pX="0.538462" pY="0.5"/>
+    <sprite n="Climb_002.png" x="116" y="101" w="55" h="92" pX="0.509091" pY="0.505435"/>
+    <sprite n="Climb_003.png" x="176" y="101" w="56" h="91" pX="0.5" pY="0.510989"/>
+    <sprite n="Climb_004.png" x="237" y="101" w="53" h="93" pX="0.471698" pY="0.5"/>
+    <sprite n="Climb_005.png" x="295" y="101" w="50" h="93" pX="0.48" pY="0.5"/>
+    <sprite n="Climb_006.png" x="350" y="101" w="53" h="93" pX="0.471698" pY="0.5"/>
+    <sprite n="Climb_007.png" x="408" y="101" w="56" h="91" pX="0.5" pY="0.510989"/>
+    <sprite n="Climb_008.png" x="469" y="101" w="55" h="92" pX="0.509091" pY="0.505435"/>
+    <sprite n="Climb_009.png" x="529" y="101" w="52" h="93" pX="0.538462" pY="0.5"/>
+    <sprite n="Dead__000.png" x="586" y="101" w="49" h="93" pX="0.918367" pY="0.516129"/>
+    <sprite n="Dead__001.png" x="640" y="101" w="56" h="90" pX="0.857143" pY="0.477778"/>
+    <sprite n="Dead__002.png" x="701" y="101" w="69" h="88" pX="0.681159" pY="0.431818"/>
+    <sprite n="Dead__003.png" x="775" y="101" w="79" h="76" pX="0.56962" pY="0.355263"/>
+    <sprite n="Dead__004.png" x="5" y="199" w="86" h="63" pX="0.534884" pY="0.238095"/>
+    <sprite n="Dead__005.png" x="96" y="199" w="89" h="58" pX="0.516854" pY="0.172414"/>
+    <sprite n="Dead__006.png" x="190" y="199" w="91" h="54" pX="0.527473" pY="0.111111"/>
+    <sprite n="Dead__007.png" x="286" y="199" w="91" h="54" pX="0.527473" pY="0.111111"/>
+    <sprite n="Dead__008.png" x="382" y="199" w="91" h="54" pX="0.527473" pY="0.111111"/>
+    <sprite n="Dead__009.png" x="478" y="199" w="91" h="54" pX="0.527473" pY="0.111111"/>
+    <sprite n="Glide_000.png" x="574" y="199" w="84" h="88" pX="0.529762" pY="0.482955"/>
+    <sprite n="Glide_001.png" x="663" y="199" w="84" h="88" pX="0.529762" pY="0.482955"/>
+    <sprite n="Glide_002.png" x="752" y="199" w="84" h="88" pX="0.529762" pY="0.494318"/>
+    <sprite n="Glide_003.png" x="841" y="199" w="84" h="88" pX="0.529762" pY="0.494318"/>
+    <sprite n="Glide_004.png" x="5" y="292" w="84" h="89" pX="0.529762" pY="0.5"/>
+    <sprite n="Glide_005.png" x="94" y="292" w="83" h="89" pX="0.536145" pY="0.5"/>
+    <sprite n="Glide_006.png" x="182" y="292" w="84" h="89" pX="0.529762" pY="0.5"/>
+    <sprite n="Glide_007.png" x="271" y="292" w="84" h="88" pX="0.529762" pY="0.494318"/>
+    <sprite n="Glide_008.png" x="360" y="292" w="84" h="88" pX="0.529762" pY="0.494318"/>
+    <sprite n="Glide_009.png" x="449" y="292" w="84" h="88" pX="0.529762" pY="0.482955"/>
+    <sprite n="Idle__000.png" x="538" y="292" w="46" h="88" pX="0.5" pY="0.5"/>
+    <sprite n="Idle__001.png" x="589" y="292" w="46" h="88" pX="0.5" pY="0.5"/>
+    <sprite n="Idle__002.png" x="640" y="292" w="46" h="88" pX="0.5" pY="0.5"/>
+    <sprite n="Idle__003.png" x="691" y="292" w="46" h="88" pX="0.5" pY="0.5"/>
+    <sprite n="Idle__004.png" x="742" y="292" w="46" h="88" pX="0.5" pY="0.5"/>
+    <sprite n="Idle__005.png" x="793" y="292" w="46" h="88" pX="0.5" pY="0.5"/>
+    <sprite n="Idle__006.png" x="844" y="292" w="46" h="88" pX="0.5" pY="0.5"/>
+    <sprite n="Idle__007.png" x="895" y="292" w="46" h="88" pX="0.5" pY="0.5"/>
+    <sprite n="Idle__008.png" x="5" y="386" w="46" h="88" pX="0.5" pY="0.5"/>
+    <sprite n="Idle__009.png" x="56" y="386" w="46" h="88" pX="0.5" pY="0.5"/>
+    <sprite n="Jump__000.png" x="107" y="386" w="59" h="91" pX="0.423729" pY="0.478022"/>
+    <sprite n="Jump__001.png" x="171" y="386" w="55" h="94" pX="0.472727" pY="0.484043"/>
+    <sprite n="Jump__002.png" x="231" y="386" w="53" h="89" pX="0.54717" pY="0.511236"/>
+    <sprite n="Jump__003.png" x="289" y="386" w="53" h="89" pX="0.54717" pY="0.511236"/>
+    <sprite n="Jump__004.png" x="347" y="386" w="53" h="89" pX="0.54717" pY="0.511236"/>
+    <sprite n="Jump__005.png" x="405" y="386" w="53" h="89" pX="0.54717" pY="0.511236"/>
+    <sprite n="Jump__006.png" x="463" y="386" w="57" h="88" pX="0.508772" pY="0.517045"/>
+    <sprite n="Jump__007.png" x="525" y="386" w="63" h="88" pX="0.52381" pY="0.528409"/>
+    <sprite n="Jump__008.png" x="593" y="386" w="68" h="86" pX="0.529412" pY="0.540698"/>
+    <sprite n="Jump__009.png" x="666" y="386" w="68" h="86" pX="0.529412" pY="0.540698"/>
+    <sprite n="Jump_Attack__000.png" x="739" y="386" w="63" h="85" pX="0.722222" pY="0.588235"/>
+    <sprite n="Jump_Attack__001.png" x="807" y="386" w="63" h="85" pX="0.722222" pY="0.588235"/>
+    <sprite n="Jump_Attack__002.png" x="875" y="386" w="63" h="84" pX="0.722222" pY="0.583333"/>
+    <sprite n="Jump_Attack__003.png" x="5" y="485" w="96" h="95" pX="0.473958" pY="0.515789"/>
+    <sprite n="Jump_Attack__004.png" x="106" y="485" w="96" h="95" pX="0.473958" pY="0.515789"/>
+    <sprite n="Jump_Attack__005.png" x="207" y="485" w="99" h="99" pX="0.489899" pY="0.474747"/>
+    <sprite n="Jump_Attack__006.png" x="311" y="485" w="100" h="99" pX="0.495" pY="0.474747"/>
+    <sprite n="Jump_Attack__007.png" x="416" y="485" w="101" h="99" pX="0.5" pY="0.474747"/>
+    <sprite n="Jump_Attack__008.png" x="522" y="485" w="71" h="96" pX="0.697183" pY="0.510417"/>
+    <sprite n="Jump_Attack__009.png" x="598" y="485" w="78" h="84" pX="0.583333" pY="0.583333"/>
+    <sprite n="Jump_Throw__000.png" x="681" y="485" w="62" h="84" pX="0.435484" pY="0.488095"/>
+    <sprite n="Jump_Throw__001.png" x="748" y="485" w="63" h="84" pX="0.428571" pY="0.488095"/>
+    <sprite n="Jump_Throw__002.png" x="816" y="485" w="64" h="82" pX="0.4375" pY="0.5"/>
+    <sprite n="Jump_Throw__003.png" x="5" y="589" w="69" h="82" pX="0.478261" pY="0.5"/>
+    <sprite n="Jump_Throw__004.png" x="79" y="589" w="70" h="82" pX="0.485714" pY="0.5"/>
+    <sprite n="Jump_Throw__005.png" x="154" y="589" w="72" h="82" pX="0.5" pY="0.5"/>
+    <sprite n="Jump_Throw__006.png" x="231" y="589" w="72" h="82" pX="0.5" pY="0.5"/>
+    <sprite n="Jump_Throw__007.png" x="308" y="589" w="66" h="83" pX="0.454545" pY="0.493976"/>
+    <sprite n="Jump_Throw__008.png" x="379" y="589" w="63" h="84" pX="0.428571" pY="0.488095"/>
+    <sprite n="Jump_Throw__009.png" x="447" y="589" w="63" h="84" pX="0.428571" pY="0.488095"/>
+    <sprite n="Run__000.png" x="515" y="589" w="67" h="90" pX="0.455224" pY="0.5"/>
+    <sprite n="Run__001.png" x="587" y="589" w="68" h="92" pX="0.463235" pY="0.5"/>
+    <sprite n="Run__002.png" x="660" y="589" w="67" h="91" pX="0.485075" pY="0.505495"/>
+    <sprite n="Run__003.png" x="732" y="589" w="72" h="87" pX="0.506944" pY="0.528736"/>
+    <sprite n="Run__004.png" x="809" y="589" w="73" h="89" pX="0.5" pY="0.505618"/>
+    <sprite n="Run__005.png" x="5" y="686" w="67" h="89" pX="0.455224" pY="0.505618"/>
+    <sprite n="Run__006.png" x="77" y="686" w="67" h="92" pX="0.470149" pY="0.5"/>
+    <sprite n="Run__007.png" x="149" y="686" w="67" h="88" pX="0.485075" pY="0.522727"/>
+    <sprite n="Run__008.png" x="221" y="686" w="66" h="84" pX="0.477273" pY="0.547619"/>
+    <sprite n="Run__009.png" x="292" y="686" w="67" h="88" pX="0.455224" pY="0.511364"/>
+    <sprite n="Slide__000.png" x="364" y="686" w="75" h="70" pX="0.5" pY="0.5"/>
+    <sprite n="Slide__001.png" x="444" y="686" w="75" h="70" pX="0.5" pY="0.5"/>
+    <sprite n="Slide__002.png" x="524" y="686" w="74" h="70" pX="0.493243" pY="0.5"/>
+    <sprite n="Slide__003.png" x="603" y="686" w="74" h="70" pX="0.493243" pY="0.5"/>
+    <sprite n="Slide__004.png" x="682" y="686" w="73" h="70" pX="0.486301" pY="0.5"/>
+    <sprite n="Slide__005.png" x="760" y="686" w="73" h="70" pX="0.486301" pY="0.5"/>
+    <sprite n="Slide__006.png" x="838" y="686" w="73" h="70" pX="0.486301" pY="0.5"/>
+    <sprite n="Slide__007.png" x="5" y="783" w="74" h="70" pX="0.493243" pY="0.5"/>
+    <sprite n="Slide__008.png" x="84" y="783" w="74" h="70" pX="0.493243" pY="0.5"/>
+    <sprite n="Slide__009.png" x="163" y="783" w="75" h="70" pX="0.5" pY="0.5"/>
+    <sprite n="Throw__000.png" x="243" y="783" w="54" h="87" pX="0.361111" pY="0.482759"/>
+    <sprite n="Throw__001.png" x="302" y="783" w="51" h="89" pX="0.401961" pY="0.494382"/>
+    <sprite n="Throw__002.png" x="358" y="783" w="66" h="90" pX="0.44697" pY="0.5"/>
+    <sprite n="Throw__003.png" x="429" y="783" w="63" h="90" pX="0.595238" pY="0.5"/>
+    <sprite n="Throw__004.png" x="497" y="783" w="62" h="90" pX="0.58871" pY="0.5"/>
+    <sprite n="Throw__005.png" x="564" y="783" w="62" h="90" pX="0.58871" pY="0.5"/>
+    <sprite n="Throw__006.png" x="631" y="783" w="61" h="90" pX="0.581967" pY="0.5"/>
+    <sprite n="Throw__007.png" x="697" y="783" w="68" h="90" pX="0.448529" pY="0.5"/>
+    <sprite n="Throw__008.png" x="770" y="783" w="61" h="90" pX="0.385246" pY="0.5"/>
+    <sprite n="Throw__009.png" x="836" y="783" w="51" h="89" pX="0.382353" pY="0.494382"/>
+</TextureAtlas>

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OGREScreen" Collapsed="true">
+    <Position X="4" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBIAgAAQCgAQAgBQAAogAAZAIAgDQCAIAAAQAQFQAWE=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\CommonOGRE\ogrescreen.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OGRE2DFormBuilder" Collapsed="true">
+    <Position X="2.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\CommonOGRE\ogreformbuilder.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OGREFormBuilder" Collapsed="true">
+    <Position X="4" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAAABAAAAAAAAAQAAgAAAAAAAAAAAAAAEAACCAAAA=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\CommonOGRE\ogreformbuilder.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OGREElementAdditionalData" Collapsed="true">
+    <Position X="5.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgACAAAAgAAQAAAAAAAAAAQAAgAAAEAAAIAAAACAAAA=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\CommonOGRE\ogreengine.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OGREExternalEngine" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAoAAAAAABAEAAAAAACAAAACAAAAQAAAABQMA=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\CommonOGRE\ogreengine.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OGREForm" Collapsed="true">
+    <Position X="2.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAMAUAQAAAAABAgAABQEAiACAAJAAAEAA=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\CommonOGRE\ogreform.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OGRE2DForm" Collapsed="true">
+    <Position X="0.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAEAACQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\CommonOGRE\ogreform.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OGREGame" Collapsed="true">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARRpAIAAoWAYABQACEEwCVEASKEIgCwTQARIhABhxMA=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\CommonOGRE\ogregame.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OGREInputHandler" Collapsed="true">
+    <Position X="2.25" Y="3" Width="1.5" />
+    <NestedTypes>
+      <Class Name="OGREInputHandler::Handler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>C:\Workspaces\QGAMES\include\CommonOGRE\ogreinputhandler.hpp</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAARAAAACAEBAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\CommonOGRE\ogreinputhandler.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OGRECameraWrapper" Collapsed="true">
+    <Position X="4" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIgAAQAABACAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\CommonOGRE\ogremovementcontroller.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OGREFreeMovementCamera" Collapsed="true">
+    <Position X="5.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAQAAAAAAAAAACAAAAAAAAAAEAA=</HashCode>
+      <FileName>C:\Workspaces\QGAMES\include\CommonOGRE\ogremovementcontroller.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

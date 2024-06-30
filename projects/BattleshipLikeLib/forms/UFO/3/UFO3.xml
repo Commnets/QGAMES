@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:4421723d00e6b15d6863e6f99786bca3:246cf6ec19bf654d968f9f744f3ef1d9:942cb5d7fd68013b07f72cd735bfa68e$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="UFO3" file="./forms/UFO3.png" width="260" height="39"
+		fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="?">
+		<Frame id="Enemy Ship 25-1" fPosX="0" fPosY="0" fWidth="65" fHeight="39" xoffset="0" yoffset="0" width="65" height="39"/>
+		<Frame id="Enemy Ship 25-2" fPosX="65" fPosY="0" fWidth="65" fHeight="39" xoffset="0" yoffset="0" width="65" height="39"/>
+		<Frame id="Enemy Ship 25-3" fPosX="130" fPosY="0" fWidth="65" fHeight="39" xoffset="0" yoffset="0" width="65" height="39"/>
+		<Frame id="Enemy Ship 25-4" fPosX="195" fPosY="0" fWidth="65" fHeight="39" xoffset="0" yoffset="0" width="65" height="39"/>
+    </Form>
+</CommtyExporter>

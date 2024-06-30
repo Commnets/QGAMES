@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:0bbd38ed0b6843ceb2d6e1e67b76e93d:22fb31c158c12aeeffc6f92e033ce353:7247f8c7d0e5d43d19ca139ef07b4c99$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="Columns" file="./forms/Columns.png" width="1638" height="510"
+		fSpacing="0" fMargin="0" fWidth="1" fHeight="1" aColor="255" nFrames="?">
+		<Frame id="stoneColumn_E" fPosX="1486" fPosY="190" fWidth="66" fHeight="190" xoffset="95" yoffset="275" width="66"/>
+		<Frame id="stoneColumn_N" fPosX="1506" fPosY="0" fWidth="66" fHeight="190" xoffset="95" yoffset="275" width="66"/>
+		<Frame id="stoneColumn_S" fPosX="1552" fPosY="190" fWidth="66" fHeight="190" xoffset="95" yoffset="275" width="66"/>
+		<Frame id="stoneColumn_W" fPosX="1572" fPosY="0" fWidth="66" fHeight="190" xoffset="95" yoffset="275" width="66"/>
+		<Frame id="stoneColumnWood_E" fPosX="1308" fPosY="0" fWidth="66" fHeight="190" xoffset="95" yoffset="275" width="66"/>
+		<Frame id="stoneColumnWood_N" fPosX="1374" fPosY="0" fWidth="66" fHeight="190" xoffset="95" yoffset="275" width="66"/>
+		<Frame id="stoneColumnWood_S" fPosX="1420" fPosY="190" fWidth="66" fHeight="190" xoffset="95" yoffset="275" width="66"/>
+		<Frame id="stoneColumnWood_W" fPosX="1440" fPosY="0" fWidth="66" fHeight="190" xoffset="95" yoffset="275" width="66"/>
+		<Frame id="woodenSupportBeams_E" fPosX="0" fPosY="283" fWidth="142" fHeight="227" xoffset="0" yoffset="229" width="142"/>
+		<Frame id="woodenSupportBeams_N" fPosX="852" fPosY="283" fWidth="142" fHeight="225" xoffset="0" yoffset="287" width="142"/>
+		<Frame id="woodenSupportBeams_S" fPosX="142" fPosY="283" fWidth="142" fHeight="227" xoffset="114" yoffset="229" width="142"/>
+		<Frame id="woodenSupportBeams_W" fPosX="994" fPosY="283" fWidth="142" fHeight="225" xoffset="114" yoffset="287" width="142"/>
+		<Frame id="woodenSupports_E" fPosX="568" fPosY="283" fWidth="142" fHeight="227" xoffset="0" yoffset="229" width="142"/>
+		<Frame id="woodenSupports_N" fPosX="1166" fPosY="0" fWidth="142" fHeight="225" xoffset="0" yoffset="287" width="142"/>
+		<Frame id="woodenSupports_S" fPosX="710" fPosY="283" fWidth="142" fHeight="227" xoffset="114" yoffset="229" width="142"/>
+		<Frame id="woodenSupports_W" fPosX="1278" fPosY="225" fWidth="142" fHeight="225" xoffset="114" yoffset="287" width="142"/>
+		<Frame id="woodenSupportsBeam_E" fPosX="284" fPosY="283" fWidth="142" fHeight="227" xoffset="0" yoffset="229" width="142"/>
+		<Frame id="woodenSupportsBeam_N" fPosX="1024" fPosY="0" fWidth="142" fHeight="225" xoffset="0" yoffset="287" width="142"/>
+		<Frame id="woodenSupportsBeam_S" fPosX="426" fPosY="283" fWidth="142" fHeight="227" xoffset="114" yoffset="229" width="142"/>
+		<Frame id="woodenSupportsBeam_W" fPosX="1136" fPosY="225" fWidth="142" fHeight="225" xoffset="114" yoffset="287" width="142"/>
+		<Frame id="woodenSupportsBlock_E" fPosX="0" fPosY="0" fWidth="256" fHeight="283" xoffset="0" yoffset="229" width="256"/>
+		<Frame id="woodenSupportsBlock_N" fPosX="256" fPosY="0" fWidth="256" fHeight="283" xoffset="0" yoffset="229" width="256"/>
+		<Frame id="woodenSupportsBlock_S" fPosX="512" fPosY="0" fWidth="256" fHeight="283" xoffset="0" yoffset="229" width="256"/>
+		<Frame id="woodenSupportsBlock_W" fPosX="768" fPosY="0" fWidth="256" fHeight="283" xoffset="0" yoffset="229" width="256"/>
+    </Form>
+</CommtyExporter>

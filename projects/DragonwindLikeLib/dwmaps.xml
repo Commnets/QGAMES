@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Maps>
+
+	<!-- Includes -->
+	<Include file="ptmaps.xml"/>
+	
+	<!-- The standard background maps --> 
+	<Map id="50100" type="10000" file="maps/BKDessert.xml"/>
+	<Map id="50110" type="10000" file="maps/BKDarkForest.xml"/>
+	<Map id="50120" type="10000" file="maps/BKCity.xml"/>
+	<Map id="50130" type="10000" file="maps/BKLandscape.xml"/>
+	<Map id="50140" type="10000" file="maps/BKMountains.xml"/>
+	<Map id="50150" type="10000" file="maps/BKTemple.xml"/>
+	<!-- -->
+	
+	<!-- Just an example map to show the examples -->
+	<Map id="60000" type="1" file="maps/Example.tmx"/>
+	<Map id="60001" type="1" file="maps/ExampleNext.tmx"/>
+	<!-- -->
+	
+</Maps>

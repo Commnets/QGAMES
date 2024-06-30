@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:2f8d29c17c36851bfc63550459382162:a3f34c67d3f6593cba55ebd482e4968d:72bfa66672ad42a93b2ed75b5177a056$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="MazeDirs" file="./forms/MazeDirs.png" width="480" height="32"
+		fSpacing="0" fMargin="0" fWidth="32" fHeight="32" aColor="255" nFrames="?">
+		<Frame id="tile003" fPosX="0" fPosY="0" fWidth="32" fHeight="32" xoffset="0" yoffset="0" width="32" height="32"/>
+		<Frame id="tile004" fPosX="32" fPosY="0" fWidth="32" fHeight="32" xoffset="0" yoffset="0" width="32" height="32"/>
+		<Frame id="tile005" fPosX="64" fPosY="0" fWidth="32" fHeight="32" xoffset="0" yoffset="0" width="32" height="32"/>
+		<Frame id="tile006" fPosX="96" fPosY="0" fWidth="32" fHeight="32" xoffset="0" yoffset="0" width="32" height="32"/>
+		<Frame id="tile007" fPosX="128" fPosY="0" fWidth="32" fHeight="32" xoffset="0" yoffset="0" width="32" height="32"/>
+		<Frame id="tile008" fPosX="160" fPosY="0" fWidth="32" fHeight="32" xoffset="0" yoffset="0" width="32" height="32"/>
+		<Frame id="tile009" fPosX="192" fPosY="0" fWidth="32" fHeight="32" xoffset="0" yoffset="0" width="32" height="32"/>
+		<Frame id="tile013" fPosX="224" fPosY="0" fWidth="32" fHeight="32" xoffset="0" yoffset="0" width="32" height="32"/>
+		<Frame id="tile014" fPosX="256" fPosY="0" fWidth="32" fHeight="32" xoffset="0" yoffset="0" width="32" height="32"/>
+		<Frame id="tile015" fPosX="288" fPosY="0" fWidth="32" fHeight="32" xoffset="0" yoffset="0" width="32" height="32"/>
+		<Frame id="tile016" fPosX="320" fPosY="0" fWidth="32" fHeight="32" xoffset="0" yoffset="0" width="32" height="32"/>
+		<Frame id="tile023" fPosX="352" fPosY="0" fWidth="32" fHeight="32" xoffset="0" yoffset="0" width="32" height="32"/>
+		<Frame id="tile024" fPosX="384" fPosY="0" fWidth="32" fHeight="32" xoffset="0" yoffset="0" width="32" height="32"/>
+		<Frame id="tile025" fPosX="416" fPosY="0" fWidth="32" fHeight="32" xoffset="0" yoffset="0" width="32" height="32"/>
+		<Frame id="tile026" fPosX="448" fPosY="0" fWidth="32" fHeight="32" xoffset="0" yoffset="0" width="32" height="32"/>
+    </Form>
+</CommtyExporter>

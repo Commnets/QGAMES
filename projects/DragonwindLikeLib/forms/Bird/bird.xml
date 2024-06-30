@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $TexturePacker:SmartUpdate:c95f3869fcf502aa3bc307925d52718b:eaa0b70c11dadb00fc68c31a594b08ea:251da82c517908c0df73b068b8ea77ec$ -->
+<CommtyExporter version="1.0">
+    <Form id="" name="bird" file="./forms/bird.png" width="560" height="94"
+		fSpacing="0" fMargin="0" fWidth="70" fHeight="47" aColor="255" nFrames="?">
+		<Frame id="framel1" fPosX="0" fPosY="0" fWidth="70" fHeight="47" xoffset="0" yoffset="0" width="70" height="47"/>
+		<Frame id="framel2" fPosX="70" fPosY="0" fWidth="70" fHeight="47" xoffset="0" yoffset="0" width="70" height="47"/>
+		<Frame id="framel3" fPosX="140" fPosY="0" fWidth="70" fHeight="47" xoffset="0" yoffset="0" width="70" height="47"/>
+		<Frame id="framel4" fPosX="210" fPosY="0" fWidth="70" fHeight="47" xoffset="0" yoffset="0" width="70" height="47"/>
+		<Frame id="framel5" fPosX="280" fPosY="0" fWidth="70" fHeight="47" xoffset="0" yoffset="0" width="70" height="47"/>
+		<Frame id="framel6" fPosX="350" fPosY="0" fWidth="70" fHeight="47" xoffset="0" yoffset="0" width="70" height="47"/>
+		<Frame id="framel7" fPosX="420" fPosY="0" fWidth="70" fHeight="47" xoffset="0" yoffset="0" width="70" height="47"/>
+		<Frame id="framel8" fPosX="490" fPosY="0" fWidth="70" fHeight="47" xoffset="0" yoffset="0" width="70" height="47"/>
+		<Frame id="framer1" fPosX="0" fPosY="47" fWidth="70" fHeight="47" xoffset="0" yoffset="0" width="70" height="47"/>
+		<Frame id="framer2" fPosX="70" fPosY="47" fWidth="70" fHeight="47" xoffset="0" yoffset="0" width="70" height="47"/>
+		<Frame id="framer3" fPosX="140" fPosY="47" fWidth="70" fHeight="47" xoffset="0" yoffset="0" width="70" height="47"/>
+		<Frame id="framer4" fPosX="210" fPosY="47" fWidth="70" fHeight="47" xoffset="0" yoffset="0" width="70" height="47"/>
+		<Frame id="framer5" fPosX="280" fPosY="47" fWidth="70" fHeight="47" xoffset="0" yoffset="0" width="70" height="47"/>
+		<Frame id="framer6" fPosX="350" fPosY="47" fWidth="70" fHeight="47" xoffset="0" yoffset="0" width="70" height="47"/>
+		<Frame id="framer7" fPosX="420" fPosY="47" fWidth="70" fHeight="47" xoffset="0" yoffset="0" width="70" height="47"/>
+		<Frame id="framer8" fPosX="490" fPosY="47" fWidth="70" fHeight="47" xoffset="0" yoffset="0" width="70" height="47"/>
+    </Form>
+</CommtyExporter>
