@@ -1,0 +1,1 @@
+CALL CDRun CDInfo.conf

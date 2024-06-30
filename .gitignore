@@ -386,7 +386,7 @@ obj/
 templates/
 testing/
 others/
-cds/
+cds/*.exe
 *.zip
 *.icf
 *.wav

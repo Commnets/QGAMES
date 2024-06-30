@@ -1,0 +1,3 @@
+[autorun]
+open=CDRun.exe CDInfo.conf
+icon=icon.ico
