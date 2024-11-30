@@ -3,7 +3,6 @@
 ; Ignacio Cea Forniés
 
 #define MyAppName "Pacman"
-#define MyAppVersion "1.0.000"
 #define MyAppExeName "Pacman.exe"
 #define MyProductName "Community Networks Pacman"
 #define MyProductInfo "Community Networks Pacman"

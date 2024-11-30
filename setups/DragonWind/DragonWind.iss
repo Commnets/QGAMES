@@ -3,7 +3,6 @@
 ; Ignacio Cea Forniés
 
 #define MyAppName "DragonWind"
-#define MyAppVersion "1.0.000"
 #define MyAppExeName "DragonWind.exe"
 #define MyProductName "Community Networks DragonWind"
 #define MyProductInfo "Community Networks DragonWind"
