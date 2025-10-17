@@ -3,11 +3,11 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "maps/example-left.tmx",
+    "activeFile": "maps/example-right.tmx",
     "expandedProjectPaths": [
-        "maps",
         ".",
-        "assets"
+        "assets",
+        "maps"
     ],
     "exportAsImage.drawTileGrid": true,
     "exportAsImage.includeBackgroundColor": true,
@@ -1385,16 +1385,16 @@
             "scale": 0.33,
             "selectedLayer": 4,
             "viewCenter": {
-                "x": 2860.6060606060605,
-                "y": 609.0909090909091
+                "x": 4236.363636363636,
+                "y": 803.030303030303
             }
         },
         "maps/example-right.tmx": {
             "scale": 0.33,
             "selectedLayer": 4,
             "viewCenter": {
-                "x": 337.8787878787879,
-                "y": 328.78787878787875
+                "x": 336.36363636363626,
+                "y": 327.27272727272725
             }
         },
         "maps/example.tmx": {
@@ -1433,10 +1433,10 @@
     "project": "doomcastle.tiled-project",
     "property.type": "string",
     "recentFiles": [
+        "maps/example-left.tmx",
         "assets/chairsandtables.tsx",
         "assets/barrelsandcrates.tsx",
         "maps/example-right.tmx",
-        "maps/example-left.tmx",
         "C:/Workspaces/QGAMES/games/PacManII/maps/misspacman4map_blue.tmx",
         "C:/Workspaces/QGAMES/games/PacManII/maps/misspacman4map_green.tmx",
         "C:/Workspaces/QGAMES/games/PacManII/maps/misspacman4map_red.tmx",
