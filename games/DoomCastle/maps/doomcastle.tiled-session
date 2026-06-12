@@ -5,9 +5,9 @@
     },
     "activeFile": "maps/example-right.tmx",
     "expandedProjectPaths": [
-        ".",
         "assets",
-        "maps"
+        "maps",
+        "."
     ],
     "exportAsImage.drawTileGrid": true,
     "exportAsImage.includeBackgroundColor": true,
@@ -1385,16 +1385,16 @@
             "scale": 0.33,
             "selectedLayer": 4,
             "viewCenter": {
-                "x": 4236.363636363636,
-                "y": 803.030303030303
+                "x": 613.6363636363636,
+                "y": 262.1212121212121
             }
         },
         "maps/example-right.tmx": {
             "scale": 0.33,
             "selectedLayer": 4,
             "viewCenter": {
-                "x": 336.36363636363626,
-                "y": 327.27272727272725
+                "x": 2145.4545454545455,
+                "y": 621.2121212121212
             }
         },
         "maps/example.tmx": {
